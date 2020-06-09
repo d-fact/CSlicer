@@ -1,0 +1,780 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/photon/org.springframework=spring-jdbc/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/photon/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/photon/org.springframework=spring-jdbc/spring-jdbc-5.1.9.RELEASE.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore de.komoot.photon.App_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/log4j-slf4j-impl-2.8.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2019-08-20 23:35:04,228 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.fetch.subphase.highlight.AbstractHighlighterBuilder: null
+2019-08-20 23:35:04,320 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.delete.DeleteRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:04,751 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.fetch.subphase.FetchSourceContext: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:04,828 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.rest.RestRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:05,030 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.apache.logging.log4j.core.async.AsyncLoggerContext: org/apache/logging/log4j/core/async/AsyncLogger
+2019-08-20 23:35:05,083 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.main.MainResponse: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,515 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.profile.query.CollectorResult: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,661 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.env.Environment: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:05,701 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.Index: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,711 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.completion.CompletionSuggestion$Entry: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,739 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.tasks.TaskResult: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,779 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.ClusterState: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,792 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.sort.FieldSortBuilder: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:05,900 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.term.TermSuggestion$Entry: org.elasticsearch.search.suggest.Suggest$Suggestion$Entry
+2019-08-20 23:35:05,925 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.IndexMetaData: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,077 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.index.IndexRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,264 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.network.NetworkModule: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,328 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.Build: Could not initialize class org.elasticsearch.Build
+2019-08-20 23:35:06,332 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.admin.indices.alias.IndicesAliasesRequest$AliasActions: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,348 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.aggregations.pipeline.AbstractPipelineAggregationBuilder: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,350 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.IndexTemplateMetaData$Builder: Could not initialize class org.elasticsearch.cluster.metadata.IndexMetaData
+2019-08-20 23:35:06,365 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.script.ScriptMetaData: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,397 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder: org.elasticsearch.search.fetch.subphase.highlight.AbstractHighlighterBuilder
+2019-08-20 23:35:06,418 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.search.SearchResponse: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,476 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.xcontent.ToXContent$MapParams: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,478 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.routing.allocation.command.CancelAllocationCommand: Could not initialize class org.elasticsearch.cluster.routing.allocation.command.CancelAllocationCommand
+2019-08-20 23:35:06,484 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.network.NetworkService: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,554 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.IndexNameExpressionResolver: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,580 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.AutoExpandReplicas: Could not initialize class org.elasticsearch.cluster.metadata.AutoExpandReplicas
+2019-08-20 23:35:06,593 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.Suggest$Suggestion$Entry$Option: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,594 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.repositories.blobstore.BlobStoreFormat: Could not initialize class org.elasticsearch.cluster.metadata.MetaData
+2019-08-20 23:35:06,659 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.SearchHit: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,661 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.query.QueryParseContext: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,670 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.update.UpdateRequestBuilder: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,704 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.script.StoredScriptSource: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,735 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.reindex.DeleteByQueryRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,784 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.collapse.CollapseBuilder: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,817 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.update.UpdateRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,829 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.aggregations.bucket.histogram.Histogram: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,840 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.ingest.IngestMetadata: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,849 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.fieldcaps.FieldCapabilitiesRequest: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,850 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.get.GetRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,853 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.SearchHit$NestedIdentity: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,890 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.env.NodeMetaData: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,919 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.rescore.QueryRescorerBuilder: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,942 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.search.ClearScrollResponse: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,946 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.tasks.TaskInfo: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:06,948 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.script.Script: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:06,950 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.settings.IndexScopedSettings: Could not initialize class org.elasticsearch.cluster.metadata.IndexMetaData
+2019-08-20 23:35:06,984 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogram: org.elasticsearch.search.aggregations.bucket.histogram.Histogram
+2019-08-20 23:35:07,002 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.aggregations.pipeline.movavg.MovAvgPipelineAggregationBuilder: org.elasticsearch.search.aggregations.pipeline.AbstractPipelineAggregationBuilder
+2019-08-20 23:35:07,032 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.unit.Fuzziness: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,043 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.script.ScriptType: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,057 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.settings.ClusterSettings: Could not initialize class org.elasticsearch.cluster.metadata.MetaData
+2019-08-20 23:35:07,070 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogram: org.elasticsearch.search.aggregations.bucket.histogram.Histogram
+2019-08-20 23:35:07,108 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.search.SearchRequest: Could not initialize class org.elasticsearch.common.xcontent.ToXContent$MapParams
+2019-08-20 23:35:07,163 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.routing.AllocationId: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,168 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.mapper.UidFieldMapper: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:07,185 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainRequest: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,210 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.repositories.blobstore.LegacyBlobStoreFormat: org.elasticsearch.repositories.blobstore.BlobStoreFormat
+2019-08-20 23:35:07,213 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.completion.CompletionSuggestion$Entry$Option: org.elasticsearch.search.suggest.Suggest$Suggestion$Entry$Option
+2019-08-20 23:35:07,241 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.admin.indices.rollover.RolloverRequest: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,243 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.indices.analysis.AnalysisModule: Could not initialize class org.elasticsearch.cluster.metadata.IndexMetaData
+2019-08-20 23:35:07,252 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.Suggest$Suggestion$Entry: Could not initialize class org.elasticsearch.search.suggest.Suggest$Suggestion$Entry
+2019-08-20 23:35:07,265 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.profile.ProfileResult: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,296 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.slice.SliceBuilder: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,296 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.sort.ScoreSortBuilder: org.elasticsearch.search.sort.SortBuilder
+2019-08-20 23:35:07,299 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.aggregations.pipeline.PipelineAggregator$Parser: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,304 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.admin.indices.shrink.ShrinkRequest: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,344 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.bulk.BulkRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:07,346 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.mapper.DynamicTemplate: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:07,360 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.sort.SortBuilder: Could not initialize class org.elasticsearch.search.sort.SortBuilder
+2019-08-20 23:35:07,382 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.phrase.PhraseSuggestion$Entry: org.elasticsearch.search.suggest.Suggest$Suggestion$Entry
+2019-08-20 23:35:07,382 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.mom.JmsAppender: javax/jms/JMSException
+2019-08-20 23:35:07,398 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.IndexGraveyard: Could not initialize class org.elasticsearch.cluster.metadata.IndexGraveyard
+2019-08-20 23:35:07,410 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.SuggestBuilder: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,424 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.logging.DeprecationLogger: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:07,448 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.builder.SearchSourceBuilder: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:07,461 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.tribe.TribeService: Could not initialize class org.elasticsearch.common.network.NetworkService
+2019-08-20 23:35:07,469 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.MetaData: Could not initialize class org.elasticsearch.cluster.metadata.MetaData
+2019-08-20 23:35:07,470 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.apache.lucene.store.StoreRateLimiting: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 23:35:07,483 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.suggest.completion2x.CompletionSuggestion$Entry: org.elasticsearch.search.suggest.Suggest$Suggestion$Entry
+2019-08-20 23:35:07,487 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.ParseField: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 23:35:07,495 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.search.rescore.RescoreBuilder: Could not initialize class org.elasticsearch.search.rescore.RescoreBuilder
+2019-08-20 23:35:07,510 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.repositories.blobstore.ChecksumBlobStoreFormat: org.elasticsearch.repositories.blobstore.BlobStoreFormat
+...2019-08-20 23:35:10,612 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000120
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000122
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000126
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000127
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000128
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000129
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,620 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000248
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000249
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000250
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000251
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000252
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000253
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,624 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000371
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000372
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000373
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000374
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000375
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000376
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,627 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000494
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000495
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000496
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000497
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000498
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000499
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,630 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000617
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000618
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000619
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000620
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000621
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000622
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,632 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000740
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000741
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000742
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000743
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000744
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000745
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,634 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000863
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000864
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000865
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000866
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000867
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000868
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,636 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000000986
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000000987
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000000988
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000000989
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000000990
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000000991
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,639 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000001109
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000001110
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000001111
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000001112
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000001113
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000001114
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,641 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000001232
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000001233
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000001234
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000001235
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000001236
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000001237
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,644 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000001355
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000001356
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000001357
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000001358
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000001359
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000001360
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+2019-08-20 23:35:10,646 [Time-limited test] WARN  de.komoot.photon.App - could not start photon: Was passed main parameter 'Gc<Tfr8sQBm'Hfj;+G#' but no main parameter was defined
+Usage: <main class> [options]
+  Options:
+    -cluster
+       name of elasticsearch cluster to put the server into (default is
+       'photon')
+       Default: java.lang.String@0000000118
+    -country-codes
+       country codes filter that nominatim importer should import, comma
+       separated. If empty full planet is done
+       Default: java.lang.String@0000000119
+    -data-dir
+       data directory (default '.')
+       Default: java.lang.String@0000001478
+    -database
+       postgres host (default nominatim)
+       Default: java.lang.String@0000000121
+    -h
+       show help / usage
+       Default: java.lang.Boolean@0000001479
+    -host
+       postgres host (default 127.0.0.1)
+       Default: java.lang.String@0000000123
+    -json
+       import nominatim database and dump it to a json like files in (useful for
+       developing)
+    -languages
+       languages nominatim importer should import and use at run-time, comma
+       separated (default is 'en,fr,de,it')
+       Default: java.lang.String@0000000124
+    -listen-ip
+       listen to address (default '0.0.0.0')
+       Default: java.lang.String@0000000125
+    -listen-port
+       listen to port (default 2322)
+       Default: java.lang.Integer@0000001480
+    -nominatim-import
+       import nominatim database into photon (this will delete previous index)
+       Default: java.lang.Boolean@0000001481
+    -password
+       postgres password (default '')
+       Default: java.lang.String@0000000119
+    -port
+       postgres port (default 5432)
+       Default: java.lang.Integer@0000001482
+    -recreate-index
+       delete index and all documents, creates a new and empty photon index
+       Default: java.lang.Boolean@0000001483
+    -transport-addresses
+       the comma separated addresses of external elasticsearch nodes where the
+       client can connect to (default is an empty string which forces an internal node
+       to start)
+       Default: java.lang.String@0000000119
+    -user
+       postgres user (default nominatim)
+       Default: java.lang.String@0000000121
+
+.
+Time: 6.813
+
+OK (4 tests)
+

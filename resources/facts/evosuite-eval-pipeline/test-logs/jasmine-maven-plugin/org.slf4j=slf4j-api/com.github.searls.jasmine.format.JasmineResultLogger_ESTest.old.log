@@ -1,0 +1,11 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/jasmine-maven-plugin/org.slf4j=slf4j-api/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jasmine-maven-plugin/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jasmine-maven-plugin/org.slf4j=slf4j-api/slf4j-api-1.7.21.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.github.searls.jasmine.format.JasmineResultLogger_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/slf4j-test-1.1.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [uk.org.lidalia.slf4jtest.TestLoggerFactory]
+...
+Time: 0.638
+
+OK (3 tests)
+

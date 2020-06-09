@@ -1,0 +1,1268 @@
+[VERSION]: 1.7R3
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< com.google.template:soy >-----------------------
+[INFO] Building Closure Templates 2018-03-14
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soy ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ soy ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.0.14:provided
+[INFO]    com.google.guava:guava:jar:21.0:compile
+[INFO]    org.ow2.asm:asm-tree:jar:6.0:compile
+[INFO]    com.google.inject:guice:jar:4.1.0:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.apache.ant:ant-launcher:jar:1.8.3:provided
+[INFO]    org.mozilla:rhino:jar:1.7R3:test
+[INFO]    org.ow2.asm:asm-util:jar:6.0:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:2.0.3:compile
+[INFO]    com.google.auto.value:auto-value:jar:1.4:provided
+[INFO]    com.google.common.html.types:types:jar:1.0.4:compile
+[INFO]    org.apache.ant:ant:jar:1.8.3:provided
+[INFO]    com.google.code.gson:gson:jar:2.7:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    org.ow2.asm:asm-commons:jar:6.0:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    javax.validation:validation-api:jar:1.0.0.GA:compile
+[INFO]    com.google.guava:guava-testlib:jar:21.0:test
+[INFO]    com.google.truth:truth:jar:0.36:test
+[INFO]    com.ibm.icu:icu4j:jar:57.1:compile
+[INFO]    javax.validation:validation-api:jar:sources:1.0.0.GA:compile
+[INFO]    args4j:args4j:jar:2.0.23:compile
+[INFO]    com.google.protobuf:protobuf-java:jar:3.3.0:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:6.0:compile
+[INFO]    org.json:json:jar:20160212:compile
+[INFO]    org.ow2.asm:asm:jar:6.0:compile
+[INFO]    com.google.gwt:gwt-user:jar:2.8.0-beta1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce) @ soy ---
+[INFO] Adding ignore: org.hamcrest.*
+[INFO] Adding ignore: org.hamcrest.core.*
+[INFO] Adding ignore: module-info
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ soy ---
+Java Compiler Compiler Version 6.1_2 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/soyparse/SoyFileParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- protoc-bundled-plugin:1.4.61:run (default) @ soy ---
+[INFO] Using protoc com.comoyo.maven.plugins:protoc-bundled-plugin:exe:3.3.0-linux-x86_64:1.4.61
+[INFO] Compiling /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/src/main/protobuf to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-sources/protobuf [main]
+[INFO] Compiling /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/src/test/protobuf to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf [test]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ soy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ soy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 658 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[94,70] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/SoyDict.java:[33,45] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[290,11] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[1075,46] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[427,27] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[462,56] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/restricted/CollectionData.java:[56,38] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/SoyMapData.java:[69,29] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/SoyListData.java:[155,20] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/SoyList.java:[34,34] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/internal/AbstractMemoryClassLoader.java:[96,17] <X>propagateIfInstanceOf(java.lang.Throwable,java.lang.Class<X>) in com.google.common.base.Throwables has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/internal/AbstractMemoryClassLoader.java:[97,23] propagate(java.lang.Throwable) in com.google.common.base.Throwables has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[82,25] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[85,25] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[82,26] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[86,65] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[111,63] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[129,70] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/SoyProtoValueImpl.java:[61,31] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[249,7] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[78,37] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[76,33] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ soy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 212 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ soy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 251 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/LegacyObjectMapToMapFunctionTest.java:[24,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jbcsrc/ExpressionCompilerTest.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/AugmentMapFunctionTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[22,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/sharedpasses/render/TofuTypeChecksTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/LegacyObjectMapToMapFunctionTest.java:[24,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jbcsrc/ExpressionCompilerTest.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/AugmentMapFunctionTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[22,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/sharedpasses/render/TofuTypeChecksTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/LegacyObjectMapToMapFunctionTest.java:[24,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jbcsrc/ExpressionCompilerTest.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/AugmentMapFunctionTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[22,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/sharedpasses/render/TofuTypeChecksTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/LegacyObjectMapToMapFunctionTest.java:[24,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jbcsrc/ExpressionCompilerTest.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/AugmentMapFunctionTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[22,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/sharedpasses/render/TofuTypeChecksTest.java:[23,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/LegacyObjectMapToMapFunctionTest.java:[51,5] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/ExampleExtendable.java:[86,102] valueOf(int) in com.google.template.soy.testing.SomeEnum has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/ExampleExtendable.java:[100,105] PARSER in com.google.template.soy.testing.SomeEmbeddedMessage has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/ExampleExtendable.java:[842,95] valueOf(int) in com.google.template.soy.testing.SomeEnum has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/ExampleExtendable.java:[2187,97] valueOf(int) in com.google.template.soy.testing.SomeEnum has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[40,23] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[41,23] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[43,23] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[44,23] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[45,23] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[47,34] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[50,38] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[52,38] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[55,23] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/SoyDataTest.java:[56,31] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jbcsrc/ExpressionCompilerTest.java:[560,53] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/KvMap.java:[57,73] PARSER in com.google.template.soy.testing.KvPair has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/KvMap.java:[66,73] PARSER in com.google.template.soy.testing.KvPair has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/AugmentMapFunctionTest.java:[43,5] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/basicfunctions/AugmentMapFunctionTest.java:[46,5] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/pysrc/internal/SoyExprForPySubject.java:[115,53] getSubject() in com.google.common.truth.Subject has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/pysrc/internal/SoyExprForPySubject.java:[175,86] getSubject() in com.google.common.truth.Subject has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[43,25] com.google.template.soy.data.internal.EasyListImpl in com.google.template.soy.data.internal has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[46,25] com.google.template.soy.data.internal.EasyListImpl in com.google.template.soy.data.internal has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[61,5] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[61,28] com.google.template.soy.data.internal.EasyListImpl in com.google.template.soy.data.internal has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[67,9] add(com.google.template.soy.data.SoyValueProvider) in com.google.template.soy.data.SoyEasyList has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[68,9] add(com.google.template.soy.data.SoyValueProvider) in com.google.template.soy.data.SoyEasyList has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/data/internal/EasyListImplTest.java:[69,9] add(com.google.template.soy.data.SoyValueProvider) in com.google.template.soy.data.SoyEasyList has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/sharedpasses/render/TofuTypeChecksTest.java:[71,24] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/MessageField.java:[53,73] PARSER in com.google.template.soy.testing.Foo has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/Extension.java:[70,112] valueOf(int) in com.google.template.soy.testing.Foo.InnerEnum has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/Extension.java:[188,105] valueOf(int) in com.google.template.soy.testing.Foo.InnerEnum has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf/com/google/template/soy/testing/Extension.java:[715,107] valueOf(int) in com.google.template.soy.testing.Foo.InnerEnum has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jssrc/restricted/JsExprUtilsTest.java:[75,27] maybeWrapAsSanitizedContent(com.google.template.soy.data.SanitizedContent.ContentKind,com.google.template.soy.jssrc.restricted.JsExpr) in com.google.template.soy.jssrc.restricted.JsExprUtils has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/tests/com/google/template/soy/jssrc/restricted/JsExprUtilsTest.java:[77,27] maybeWrapAsSanitizedContent(com.google.template.soy.data.SanitizedContent.ContentKind,com.google.template.soy.jssrc.restricted.JsExpr) in com.google.template.soy.jssrc.restricted.JsExprUtils has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ soy ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.google.template.soy.parseinfo.passes.GenerateParseInfoVisitorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in com.google.template.soy.parseinfo.passes.GenerateParseInfoVisitorTest
+Running com.google.template.soy.msgs.SoyMsgBundleWithFullLocaleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec - in com.google.template.soy.msgs.SoyMsgBundleWithFullLocaleTest
+Running com.google.template.soy.msgs.restricted.SoyMsgBundleCompactorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.google.template.soy.msgs.restricted.SoyMsgBundleCompactorTest
+Running com.google.template.soy.msgs.restricted.SoyMsgBundleImplTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.google.template.soy.msgs.restricted.SoyMsgBundleImplTest
+Running com.google.template.soy.msgs.restricted.CompactInternerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 sec - in com.google.template.soy.msgs.restricted.CompactInternerTest
+Running com.google.template.soy.msgs.restricted.RenderOnlySoyMsgBundleImplTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in com.google.template.soy.msgs.restricted.RenderOnlySoyMsgBundleImplTest
+Running com.google.template.soy.msgs.restricted.SoyMsgRawTextPartTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.google.template.soy.msgs.restricted.SoyMsgRawTextPartTest
+Running com.google.template.soy.msgs.internal.IcuSyntaxUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.msgs.internal.IcuSyntaxUtilsTest
+Running com.google.template.soy.msgs.internal.SoyMsgIdComputerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.google.template.soy.msgs.internal.SoyMsgIdComputerTest
+Running com.google.template.soy.msgs.internal.InsertMsgsVisitorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.481 sec - in com.google.template.soy.msgs.internal.InsertMsgsVisitorTest
+Running com.google.template.soy.logging.ValidatedLoggingConfigTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.google.template.soy.logging.ValidatedLoggingConfigTest
+Running com.google.template.soy.basetree.AbstractNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basetree.AbstractNodeTest
+Running com.google.template.soy.basetree.CopyPolicyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec - in com.google.template.soy.basetree.CopyPolicyTest
+Running com.google.template.soy.soytree.MsgHtmlTagNodeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.163 sec - in com.google.template.soy.soytree.MsgHtmlTagNodeTest
+Running com.google.template.soy.soytree.SoyTreeUtilsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 sec - in com.google.template.soy.soytree.SoyTreeUtilsTest
+Running com.google.template.soy.soytree.HtmlCloseTagNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.soytree.HtmlCloseTagNodeTest
+Running com.google.template.soy.soytree.VeLogNodeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in com.google.template.soy.soytree.VeLogNodeTest
+Running com.google.template.soy.soytree.AbstractSoyNodeVisitorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.google.template.soy.soytree.AbstractSoyNodeVisitorTest
+Running com.google.template.soy.soytree.PrintNodeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.google.template.soy.soytree.PrintNodeTest
+Running com.google.template.soy.soytree.HtmlOpenTagNodeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in com.google.template.soy.soytree.HtmlOpenTagNodeTest
+Running com.google.template.soy.soytree.TemplateNodeTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 sec - in com.google.template.soy.soytree.TemplateNodeTest
+Running com.google.template.soy.soytree.MsgNodeTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec - in com.google.template.soy.soytree.MsgNodeTest
+Running com.google.template.soy.soytree.TemplateRegistryTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec - in com.google.template.soy.soytree.TemplateRegistryTest
+Running com.google.template.soy.soytree.RawTextNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.soytree.RawTextNodeTest
+Running com.google.template.soy.soytree.MsgSubstUnitBaseVarNameUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.google.template.soy.soytree.MsgSubstUnitBaseVarNameUtilsTest
+Running com.google.template.soy.passes.ResolvePackageRelativeCssNamesVisitorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.google.template.soy.passes.ResolvePackageRelativeCssNamesVisitorTest
+Running com.google.template.soy.passes.CheckTemplateParamsVisitorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 sec - in com.google.template.soy.passes.CheckTemplateParamsVisitorTest
+Running com.google.template.soy.passes.AddHtmlCommentsForDebugPassTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 sec - in com.google.template.soy.passes.AddHtmlCommentsForDebugPassTest
+Running com.google.template.soy.passes.VerifyPhnameAttrOnlyOnPlaceholdersVisitorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in com.google.template.soy.passes.VerifyPhnameAttrOnlyOnPlaceholdersVisitorTest
+Running com.google.template.soy.passes.ResolveExpressionTypesVisitorTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.265 sec - in com.google.template.soy.passes.ResolveExpressionTypesVisitorTest
+Running com.google.template.soy.passes.FindTransitiveDepTemplatesVisitorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec - in com.google.template.soy.passes.FindTransitiveDepTemplatesVisitorTest
+Running com.google.template.soy.passes.ContentSecurityPolicyNonceInjectionPassTest
+Aug 15, 2019 12:29:06 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 87.26 ms
+     templates: 1
+       classes: 2
+         bytes: 3,821
+        fields: 3
+  detachStates: 3
+Aug 15, 2019 12:29:06 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.777 ms
+Aug 15, 2019 12:29:06 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 5.731 ms
+     templates: 1
+       classes: 2
+         bytes: 4,727
+        fields: 3
+  detachStates: 8
+Aug 15, 2019 12:29:06 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 448.3 μs
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 sec - in com.google.template.soy.passes.ContentSecurityPolicyNonceInjectionPassTest
+Running com.google.template.soy.passes.CheckDelegatesVisitorTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec - in com.google.template.soy.passes.CheckDelegatesVisitorTest
+Running com.google.template.soy.passes.HtmlRewritePassTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec - in com.google.template.soy.passes.HtmlRewritePassTest
+Running com.google.template.soy.passes.AssertStrictAutoescapingVisitorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.google.template.soy.passes.AssertStrictAutoescapingVisitorTest
+Running com.google.template.soy.passes.CheckTemplateVisibilityTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in com.google.template.soy.passes.CheckTemplateVisibilityTest
+Running com.google.template.soy.passes.DesugarHtmlNodesPassTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec - in com.google.template.soy.passes.DesugarHtmlNodesPassTest
+Running com.google.template.soy.passes.RewriteGlobalsPassTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.google.template.soy.passes.RewriteGlobalsPassTest
+Running com.google.template.soy.passes.ResolveNamesVisitorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.065 sec - in com.google.template.soy.passes.ResolveNamesVisitorTest
+Running com.google.template.soy.passes.CheckFunctionCallsVisitorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in com.google.template.soy.passes.CheckFunctionCallsVisitorTest
+Running com.google.template.soy.passes.CombineConsecutiveRawTextNodesPassTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 sec - in com.google.template.soy.passes.CombineConsecutiveRawTextNodesPassTest
+Running com.google.template.soy.passes.ClearSoyDocStringsVisitorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.google.template.soy.passes.ClearSoyDocStringsVisitorTest
+Running com.google.template.soy.passes.RewriteGenderMsgsVisitorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in com.google.template.soy.passes.RewriteGenderMsgsVisitorTest
+Running com.google.template.soy.passes.FindIndirectParamsVisitorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.google.template.soy.passes.FindIndirectParamsVisitorTest
+Running com.google.template.soy.passes.FindIjParamsVisitorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.google.template.soy.passes.FindIjParamsVisitorTest
+Running com.google.template.soy.passes.AddDebugAttributesPassTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.google.template.soy.passes.AddDebugAttributesPassTest
+Running com.google.template.soy.shared.restricted.SoyDeprecatedTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.google.template.soy.shared.restricted.SoyDeprecatedTest
+Running com.google.template.soy.shared.SoyAstCacheTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.shared.SoyAstCacheTest
+Running com.google.template.soy.shared.internal.EscapingConventionsTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.083 sec - in com.google.template.soy.shared.internal.EscapingConventionsTest
+Running com.google.template.soy.shared.internal.FindCalleesNotInFileVisitorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.google.template.soy.shared.internal.FindCalleesNotInFileVisitorTest
+Running com.google.template.soy.shared.internal.MainEntryPointUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.shared.internal.MainEntryPointUtilsTest
+Running com.google.template.soy.shared.internal.SharedRuntimeTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.shared.internal.SharedRuntimeTest
+Running com.google.template.soy.shared.internal.SanitizersTest
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNoAutoescape
+WARNING: |noAutoescape received value explicitly tagged as ContentKind.TEXT: 'x'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNoAutoescape
+WARNING: |noAutoescape received value explicitly tagged as ContentKind.TEXT: '<!@*!@(*!@(>'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'blob:http%3A//www.example.com/e00aa4f2-d86e-40ed-8b15-ad09c91b8989'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/svg+xml;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/blargyblarg99;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/foo;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value '/foo'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'https://www.google.com'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'https://www.google.com/foo.png'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:video/mp4;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:video/mp4;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:video/mp4;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:video/mp4;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:video/mp4;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+=='
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:video/mp4;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+=='
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:video/ogg;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:video/ogg;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:video/webm;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:video/webm;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:video/mpeg;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:video/mpeg;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:audio/ogg;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:audio/ogg;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'beta:image/foo;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'beta:image/foo;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png;bake64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png;bake64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png;base64,ABCD.()'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png;base64,ABCD.()'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value '
+data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value '
+data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'xdata:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'xdata:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value '.data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value '.data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+
+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+
+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+=x'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+=x'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+.'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+.'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'NOTblob:http%3A//www.example.com/e00aa4f2-d86e-40ed-8b15-ad09c91b8989'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'NOTblob:http%3A//www.example.com/e00aa4f2-d86e-40ed-8b15-ad09c91b8989'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value '
+blob:http%3A//www.example.com/e00aa4f2-d86e-40ed-8b15-ad09c91b8989'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value '
+blob:http%3A//www.example.com/e00aa4f2-d86e-40ed-8b15-ad09c91b8989'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'NOThttps://www.google.com'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'NOThttps://www.google.com'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value '
+https://www.google.com/foo.png'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value '
+https://www.google.com/foo.png'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'data:image/png*;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeMediaUri
+WARNING: |filterNormalizeMediaUri received bad value 'data:image/png*;base64,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers$1 notifyContentKind
+WARNING: |noAutoescape received value explicitly tagged as ContentKind.TEXT
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value '><script>alert('foo')</script'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value 'style'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value 'onclick'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value 'href'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value '</script'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value '</style'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value '<!--'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value '-->'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value '<![CDATA['
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlAttributes
+WARNING: |filterHtmlAttributes received bad value ']]>'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value 'script'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value 'style'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value 'SCRIPT'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '><script>alert('foo')</script'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '<h1>'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '</script'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '</style'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '<!--'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '-->'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value '<![CDATA['
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterHtmlElementName
+WARNING: |filterHtmlElementName received bad value ']]>'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value ' '
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value 'expression'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value 'expression'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value 'Expression'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '\65xpression'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '\65 xpression'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '-moz-binding'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '</style><script>alert('foo')</script>/*'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value 'color:expression('whatever')'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '</script'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '</style'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '<!--'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '-->'
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value '<![CDATA['
+Aug 15, 2019 12:29:08 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value ']]>'
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.google.template.soy.shared.internal.SanitizersTest
+Running com.google.template.soy.shared.internal.SharedModuleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.google.template.soy.shared.internal.SharedModuleTest
+Running com.google.template.soy.jssrc.restricted.JsExprUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.restricted.JsExprUtilsTest
+Running com.google.template.soy.jssrc.internal.VeLogInstrumentationVisitorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in com.google.template.soy.jssrc.internal.VeLogInstrumentationVisitorTest
+Running com.google.template.soy.jssrc.internal.GenCallCodeUtilsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in com.google.template.soy.jssrc.internal.GenCallCodeUtilsTest
+Running com.google.template.soy.jssrc.internal.JsCodeBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.internal.JsCodeBuilderTest
+Running com.google.template.soy.jssrc.internal.VeLogFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.internal.VeLogFunctionTest
+Running com.google.template.soy.jssrc.internal.V1JsExprTranslatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.internal.V1JsExprTranslatorTest
+Running com.google.template.soy.jssrc.internal.TranslateExprNodeVisitorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 sec - in com.google.template.soy.jssrc.internal.TranslateExprNodeVisitorTest
+Running com.google.template.soy.jssrc.internal.JspbTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in com.google.template.soy.jssrc.internal.JspbTest
+Running com.google.template.soy.jssrc.internal.IsComputableAsJsExprsVisitorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec - in com.google.template.soy.jssrc.internal.IsComputableAsJsExprsVisitorTest
+Running com.google.template.soy.jssrc.internal.GenJsCodeVisitorTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 sec - in com.google.template.soy.jssrc.internal.GenJsCodeVisitorTest
+Running com.google.template.soy.jssrc.internal.GenJsExprsVisitorTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec - in com.google.template.soy.jssrc.internal.GenJsExprsVisitorTest
+Running com.google.template.soy.jssrc.internal.JsTypeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.internal.JsTypeTest
+Running com.google.template.soy.jssrc.internal.AliasUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.google.template.soy.jssrc.internal.AliasUtilsTest
+Running com.google.template.soy.jssrc.internal.CanInitOutputVarVisitorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in com.google.template.soy.jssrc.internal.CanInitOutputVarVisitorTest
+Running com.google.template.soy.jssrc.internal.NullSafeAccumulatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.jssrc.internal.NullSafeAccumulatorTest
+Running com.google.template.soy.jssrc.internal.JsSrcUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.internal.JsSrcUtilsTest
+Running com.google.template.soy.jssrc.SoyJsSrcOptionsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jssrc.SoyJsSrcOptionsTest
+Running com.google.template.soy.bididirectives.BidiUnicodeWrapDirectiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.google.template.soy.bididirectives.BidiUnicodeWrapDirectiveTest
+Running com.google.template.soy.bididirectives.BidiSpanWrapDirectiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bididirectives.BidiSpanWrapDirectiveTest
+Running com.google.template.soy.SoyMsgExtractorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in com.google.template.soy.SoyMsgExtractorTest
+Running com.google.template.soy.exprtree.StringNodeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.StringNodeTest
+Running com.google.template.soy.exprtree.ListLiteralNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.ListLiteralNodeTest
+Running com.google.template.soy.exprtree.FunctionNodeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.google.template.soy.exprtree.FunctionNodeTest
+Running com.google.template.soy.exprtree.ProtoInitNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.ProtoInitNodeTest
+Running com.google.template.soy.exprtree.LegacyObjectMapLiteralNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.LegacyObjectMapLiteralNodeTest
+Running com.google.template.soy.exprtree.ExprEquivalenceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.ExprEquivalenceTest
+Running com.google.template.soy.exprtree.AbstractExprNodeVisitorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.AbstractExprNodeVisitorTest
+Running com.google.template.soy.exprtree.AbstractOperatorNodeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.exprtree.AbstractOperatorNodeTest
+Running com.google.template.soy.types.TypeNodeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in com.google.template.soy.types.TypeNodeTest
+Running com.google.template.soy.types.SoyTypeRegistryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.types.SoyTypeRegistryTest
+Running com.google.template.soy.types.TypeParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec - in com.google.template.soy.types.TypeParserTest
+Running com.google.template.soy.types.SoyTypesTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.google.template.soy.types.SoyTypesTest
+Running com.google.template.soy.basicfunctions.StrLenFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.basicfunctions.StrLenFunctionTest
+Running com.google.template.soy.basicfunctions.CeilingFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.google.template.soy.basicfunctions.CeilingFunctionTest
+Running com.google.template.soy.basicfunctions.MaxFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.MaxFunctionTest
+Running com.google.template.soy.basicfunctions.AugmentMapFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.AugmentMapFunctionTest
+Running com.google.template.soy.basicfunctions.StrSubFunctionTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.StrSubFunctionTest
+Running com.google.template.soy.basicfunctions.LegacyObjectMapToMapFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.google.template.soy.basicfunctions.LegacyObjectMapToMapFunctionTest
+Running com.google.template.soy.basicfunctions.RoundFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.basicfunctions.RoundFunctionTest
+Running com.google.template.soy.basicfunctions.MapToLegacyObjectMapFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.google.template.soy.basicfunctions.MapToLegacyObjectMapFunctionTest
+Running com.google.template.soy.basicfunctions.IsNonnullFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.google.template.soy.basicfunctions.IsNonnullFunctionTest
+Running com.google.template.soy.basicfunctions.StrIndexOfFunctionTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.StrIndexOfFunctionTest
+Running com.google.template.soy.basicfunctions.RandomIntFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.RandomIntFunctionTest
+Running com.google.template.soy.basicfunctions.StrContainsFunctionTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.basicfunctions.StrContainsFunctionTest
+Running com.google.template.soy.basicfunctions.FloorFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.google.template.soy.basicfunctions.FloorFunctionTest
+Running com.google.template.soy.basicfunctions.LengthFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.LengthFunctionTest
+Running com.google.template.soy.basicfunctions.MinFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicfunctions.MinFunctionTest
+Running com.google.template.soy.basicfunctions.KeysFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.google.template.soy.basicfunctions.KeysFunctionTest
+Running com.google.template.soy.basicfunctions.IsNullFunctionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.basicfunctions.IsNullFunctionTest
+Running com.google.template.soy.base.internal.IndentedLinesBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.base.internal.IndentedLinesBuilderTest
+Running com.google.template.soy.base.internal.SoyFileSupplierTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.base.internal.SoyFileSupplierTest
+Running com.google.template.soy.base.internal.BaseUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.base.internal.BaseUtilsTest
+Running com.google.template.soy.base.internal.UniqueNameGeneratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.base.internal.UniqueNameGeneratorTest
+Running com.google.template.soy.base.internal.SanitizedContentKindTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.base.internal.SanitizedContentKindTest
+Running com.google.template.soy.internal.i18n.BidiGlobalDirTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.internal.i18n.BidiGlobalDirTest
+Running com.google.template.soy.internal.i18n.BidiUtilsTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.internal.i18n.BidiUtilsTest
+Running com.google.template.soy.internal.i18n.BidiFormatterTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.internal.i18n.BidiFormatterTest
+Running com.google.template.soy.internal.i18n.SoyBidiUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.google.template.soy.internal.i18n.SoyBidiUtilsTest
+Running com.google.template.soy.tofu.internal.TofuExceptionsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.google.template.soy.tofu.internal.TofuExceptionsTest
+Running com.google.template.soy.i18ndirectives.I18nUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.i18ndirectives.I18nUtilsTest
+Running com.google.template.soy.data.UnsafeSanitizedContentOrdainerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.UnsafeSanitizedContentOrdainerTest
+Running com.google.template.soy.data.internalutils.InternalValueUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.internalutils.InternalValueUtilsTest
+Running com.google.template.soy.data.internalutils.NodeContentKindsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.internalutils.NodeContentKindsTest
+Running com.google.template.soy.data.restricted.PrimitiveDataTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.restricted.PrimitiveDataTest
+Running com.google.template.soy.data.SoyAbstractCachingValueProviderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.SoyAbstractCachingValueProviderTest
+Running com.google.template.soy.data.internal.DictImplTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.internal.DictImplTest
+Running com.google.template.soy.data.internal.EasyListImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.internal.EasyListImplTest
+Running com.google.template.soy.data.internal.ListImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.internal.ListImplTest
+Running com.google.template.soy.data.AbstractLoggingAdvisingAppendableTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.AbstractLoggingAdvisingAppendableTest
+Running com.google.template.soy.data.SoyDataTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.SoyDataTest
+Running com.google.template.soy.data.SoyValueConverterTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.SoyValueConverterTest
+Running com.google.template.soy.data.SoyListDataTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.SoyListDataTest
+Running com.google.template.soy.data.SoyMapDataTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.data.SoyMapDataTest
+Running com.google.template.soy.data.SanitizedContentsTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.google.template.soy.data.SanitizedContentsTest
+Running com.google.template.soy.basicdirectives.BasicEscapeDirectiveTest
+Aug 15, 2019 12:29:09 PM com.google.template.soy.shared.internal.Sanitizers filterNormalizeUri
+WARNING: |filterNormalizeUri received bad value 'javascript:alert(1337)'
+Aug 15, 2019 12:29:09 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value 'color:expression('foo')'
+Aug 15, 2019 12:29:09 PM com.google.template.soy.shared.internal.Sanitizers filterCssValue
+WARNING: |filterCssValue received bad value 'color:expression('foo')'
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec - in com.google.template.soy.basicdirectives.BasicEscapeDirectiveTest
+Running com.google.template.soy.basicdirectives.TextDirectiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicdirectives.TextDirectiveTest
+Running com.google.template.soy.basicdirectives.CleanHtmlDirectiveTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.google.template.soy.basicdirectives.CleanHtmlDirectiveTest
+Running com.google.template.soy.basicdirectives.ChangeNewlineToBrDirectiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicdirectives.ChangeNewlineToBrDirectiveTest
+Running com.google.template.soy.basicdirectives.TruncateDirectiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.basicdirectives.TruncateDirectiveTest
+Running com.google.template.soy.basicdirectives.FilterImageDataUriDirectiveTest
+Aug 15, 2019 12:29:10 PM com.google.template.soy.shared.internal.Sanitizers filterImageDataUri
+WARNING: |filterImageDataUri received bad value 'not really valid'
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicdirectives.FilterImageDataUriDirectiveTest
+Running com.google.template.soy.basicdirectives.InsertWordBreaksDirectiveTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.basicdirectives.InsertWordBreaksDirectiveTest
+Running com.google.template.soy.xliffmsgplugin.XliffMsgPluginTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in com.google.template.soy.xliffmsgplugin.XliffMsgPluginTest
+Running com.google.template.soy.parsepasses.contextautoesc.ContextualAutoescaperTest
+Tests run: 86, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.64 sec - in com.google.template.soy.parsepasses.contextautoesc.ContextualAutoescaperTest
+Running com.google.template.soy.parsepasses.contextautoesc.ContextTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.google.template.soy.parsepasses.contextautoesc.ContextTest
+Running com.google.template.soy.parsepasses.contextautoesc.JsUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.parsepasses.contextautoesc.JsUtilTest
+Running com.google.template.soy.parsepasses.contextautoesc.RawTextContextUpdaterTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.google.template.soy.parsepasses.contextautoesc.RawTextContextUpdaterTest
+Running com.google.template.soy.parsepasses.contextautoesc.PerformDeprecatedNonContextualAutoescapeVisitorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.google.template.soy.parsepasses.contextautoesc.PerformDeprecatedNonContextualAutoescapeVisitorTest
+Running com.google.template.soy.parsepasses.contextautoesc.InferenceEngineTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec - in com.google.template.soy.parsepasses.contextautoesc.InferenceEngineTest
+Running com.google.template.soy.pysrc.restricted.PyFunctionExprBuilderTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.pysrc.restricted.PyFunctionExprBuilderTest
+Running com.google.template.soy.pysrc.restricted.PyExprUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.pysrc.restricted.PyExprUtilsTest
+Running com.google.template.soy.pysrc.internal.GenPyCallExprVisitorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec - in com.google.template.soy.pysrc.internal.GenPyCallExprVisitorTest
+Running com.google.template.soy.pysrc.internal.IsComputableAsPyExprVisitorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.google.template.soy.pysrc.internal.IsComputableAsPyExprVisitorTest
+Running com.google.template.soy.pysrc.internal.PyCodeBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.pysrc.internal.PyCodeBuilderTest
+Running com.google.template.soy.pysrc.internal.GenPyExprsVisitorTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 sec - in com.google.template.soy.pysrc.internal.GenPyExprsVisitorTest
+Running com.google.template.soy.pysrc.internal.GenPyCodeVisitorTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.175 sec - in com.google.template.soy.pysrc.internal.GenPyCodeVisitorTest
+Running com.google.template.soy.pysrc.internal.TranslateToPyExprVisitorTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.294 sec - in com.google.template.soy.pysrc.internal.TranslateToPyExprVisitorTest
+Running com.google.template.soy.sharedpasses.render.EvalVisitorTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.617 sec - in com.google.template.soy.sharedpasses.render.EvalVisitorTest
+Running com.google.template.soy.sharedpasses.render.RenderVisitorTest
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.266 sec - in com.google.template.soy.sharedpasses.render.RenderVisitorTest
+Running com.google.template.soy.sharedpasses.render.CountingFlushableAppendableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.sharedpasses.render.CountingFlushableAppendableTest
+Running com.google.template.soy.sharedpasses.render.EvalVisitorFutureTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.599 sec - in com.google.template.soy.sharedpasses.render.EvalVisitorFutureTest
+Running com.google.template.soy.sharedpasses.render.TofuTypeChecksTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.sharedpasses.render.TofuTypeChecksTest
+Running com.google.template.soy.sharedpasses.opti.SimplifyVisitorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in com.google.template.soy.sharedpasses.opti.SimplifyVisitorTest
+Running com.google.template.soy.sharedpasses.opti.PreevalVisitorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in com.google.template.soy.sharedpasses.opti.PreevalVisitorTest
+Running com.google.template.soy.sharedpasses.opti.SimplifyExprVisitorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.google.template.soy.sharedpasses.opti.SimplifyExprVisitorTest
+Running com.google.template.soy.sharedpasses.opti.PrerenderVisitorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in com.google.template.soy.sharedpasses.opti.PrerenderVisitorTest
+Running com.google.template.soy.jbcsrc.TemplateAnalysisTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec - in com.google.template.soy.jbcsrc.TemplateAnalysisTest
+Running com.google.template.soy.jbcsrc.api.SoySauceTest
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 16.13 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.757 ms
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 10.49 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.566 ms
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 9.756 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 2.517 ms
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 7.877 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.602 ms
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 7.989 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.711 ms
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 6.707 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.622 ms
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 6.705 ms
+     templates: 6
+       classes: 13
+         bytes: 27,312
+        fields: 30
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.534 ms
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in com.google.template.soy.jbcsrc.api.SoySauceTest
+Running com.google.template.soy.jbcsrc.LazyClosureCompilerTest
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 3.181 ms
+     templates: 1
+       classes: 3
+         bytes: 5,684
+        fields: 9
+  detachStates: 2
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 466.3 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 996.0 μs
+     templates: 1
+       classes: 3
+         bytes: 5,421
+        fields: 4
+  detachStates: 0
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 347.2 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.455 ms
+     templates: 1
+       classes: 3
+         bytes: 6,087
+        fields: 7
+  detachStates: 2
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 434.0 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.413 ms
+     templates: 1
+       classes: 3
+         bytes: 6,515
+        fields: 9
+  detachStates: 3
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 527.3 μs
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec - in com.google.template.soy.jbcsrc.LazyClosureCompilerTest
+Running com.google.template.soy.jbcsrc.shared.NamesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jbcsrc.shared.NamesTest
+Running com.google.template.soy.jbcsrc.restricted.SoyExpressionTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.google.template.soy.jbcsrc.restricted.SoyExpressionTest
+Running com.google.template.soy.jbcsrc.restricted.BytecodeProducerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jbcsrc.restricted.BytecodeProducerTest
+Running com.google.template.soy.jbcsrc.restricted.BytecodeUtilsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in com.google.template.soy.jbcsrc.restricted.BytecodeUtilsTest
+Running com.google.template.soy.jbcsrc.restricted.TypeInfoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jbcsrc.restricted.TypeInfoTest
+Running com.google.template.soy.jbcsrc.restricted.FieldRefTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.jbcsrc.restricted.FieldRefTest
+Running com.google.template.soy.jbcsrc.restricted.AnnotationRefTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.jbcsrc.restricted.AnnotationRefTest
+Running com.google.template.soy.jbcsrc.VeLoggingTest
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.720 ms
+     templates: 1
+       classes: 2
+         bytes: 5,083
+        fields: 3
+  detachStates: 6
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 537.2 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.667 ms
+     templates: 1
+       classes: 3
+         bytes: 7,102
+        fields: 8
+  detachStates: 3
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 498.3 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 8.975 ms
+     templates: 1
+       classes: 2
+         bytes: 4,382
+        fields: 3
+  detachStates: 1
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 407.6 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 884.7 μs
+     templates: 1
+       classes: 2
+         bytes: 4,219
+        fields: 3
+  detachStates: 1
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 556.1 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 934.3 μs
+     templates: 1
+       classes: 2
+         bytes: 4,329
+        fields: 3
+  detachStates: 4
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 490.9 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.166 ms
+     templates: 1
+       classes: 2
+         bytes: 5,222
+        fields: 5
+  detachStates: 4
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 569.8 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.988 ms
+     templates: 1
+       classes: 3
+         bytes: 8,556
+        fields: 6
+  detachStates: 12
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 595.4 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.322 ms
+     templates: 1
+       classes: 2
+         bytes: 4,716
+        fields: 3
+  detachStates: 7
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 506.0 μs
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec - in com.google.template.soy.jbcsrc.VeLoggingTest
+Running com.google.template.soy.jbcsrc.DetachStateTest
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.018 ms
+     templates: 1
+       classes: 2
+         bytes: 4,349
+        fields: 4
+  detachStates: 1
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 453.8 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 735.7 μs
+     templates: 1
+       classes: 2
+         bytes: 3,528
+        fields: 3
+  detachStates: 0
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 362.8 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.374 ms
+     templates: 1
+       classes: 2
+         bytes: 5,102
+        fields: 7
+  detachStates: 6
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 466.5 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.265 ms
+     templates: 1
+       classes: 2
+         bytes: 3,799
+        fields: 4
+  detachStates: 1
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 385.5 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.512 ms
+     templates: 2
+       classes: 4
+         bytes: 8,371
+        fields: 11
+  detachStates: 4
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 694.8 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 2.013 ms
+     templates: 2
+       classes: 5
+         bytes: 10,680
+        fields: 14
+  detachStates: 5
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 665.4 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 895.7 μs
+     templates: 1
+       classes: 2
+         bytes: 4,143
+        fields: 5
+  detachStates: 3
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 403.4 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.675 ms
+     templates: 1
+       classes: 2
+         bytes: 4,991
+        fields: 7
+  detachStates: 3
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 434.0 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 790.5 μs
+     templates: 1
+       classes: 2
+         bytes: 3,643
+        fields: 3
+  detachStates: 3
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 337.7 μs
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 554.9 μs
+     templates: 1
+       classes: 2
+         bytes: 3,543
+        fields: 3
+  detachStates: 1
+Aug 15, 2019 12:29:13 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 313.3 μs
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in com.google.template.soy.jbcsrc.DetachStateTest
+Running com.google.template.soy.jbcsrc.ProtoSupportTest
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 2.077 ms
+     templates: 2
+       classes: 6
+         bytes: 12,293
+        fields: 14
+  detachStates: 3
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 782.7 μs
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 sec - in com.google.template.soy.jbcsrc.ProtoSupportTest
+Running com.google.template.soy.jbcsrc.internal.MemoryClassLoaderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec - in com.google.template.soy.jbcsrc.internal.MemoryClassLoaderTest
+Running com.google.template.soy.jbcsrc.StreamingPrintDirectivesTest
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 3.938 ms
+     templates: 3
+       classes: 6
+         bytes: 13,202
+        fields: 16
+  detachStates: 13
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 918.8 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 2.086 ms
+     templates: 2
+       classes: 5
+         bytes: 11,068
+        fields: 14
+  detachStates: 5
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 714.1 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.577 ms
+     templates: 1
+       classes: 2
+         bytes: 4,569
+        fields: 6
+  detachStates: 1
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 382.9 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.394 ms
+     templates: 2
+       classes: 4
+         bytes: 9,017
+        fields: 10
+  detachStates: 3
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 696.3 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 6.279 ms
+     templates: 3
+       classes: 8
+         bytes: 20,420
+        fields: 27
+  detachStates: 18
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.112 ms
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 2.796 ms
+     templates: 3
+       classes: 6
+         bytes: 14,608
+        fields: 18
+  detachStates: 3
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 903.7 μs
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in com.google.template.soy.jbcsrc.StreamingPrintDirectivesTest
+Running com.google.template.soy.jbcsrc.BytecodeCompilerTest
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 3.613 ms
+     templates: 5
+       classes: 10
+         bytes: 21,482
+        fields: 30
+  detachStates: 10
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 1.397 ms
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 642.1 μs
+     templates: 1
+       classes: 2
+         bytes: 3,543
+        fields: 3
+  detachStates: 1
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 426.8 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.477 ms
+     templates: 3
+       classes: 6
+         bytes: 10,907
+        fields: 9
+  detachStates: 5
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 767.3 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.718 ms
+     templates: 3
+       classes: 6
+         bytes: 12,065
+        fields: 12
+  detachStates: 4
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 298.3 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 2.805 ms
+     templates: 5
+       classes: 10
+         bytes: 21,132
+        fields: 25
+  detachStates: 7
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 451.3 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 725.3 μs
+     templates: 1
+       classes: 2
+         bytes: 4,382
+        fields: 4
+  detachStates: 2
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 674.8 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 656.1 μs
+     templates: 1
+       classes: 2
+         bytes: 3,828
+        fields: 5
+  detachStates: 1
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 429.0 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 899.7 μs
+     templates: 1
+       classes: 2
+         bytes: 4,561
+        fields: 6
+  detachStates: 2
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 417.2 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 820.0 μs
+     templates: 1
+       classes: 2
+         bytes: 4,754
+        fields: 7
+  detachStates: 2
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 426.7 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 690.6 μs
+     templates: 1
+       classes: 2
+         bytes: 4,302
+        fields: 5
+  detachStates: 1
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 391.1 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 540.8 μs
+     templates: 1
+       classes: 2
+         bytes: 3,749
+        fields: 3
+  detachStates: 1
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 46.82 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 1.289 ms
+     templates: 1
+       classes: 2
+         bytes: 5,152
+        fields: 8
+  detachStates: 4
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 500.1 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 441.6 μs
+     templates: 1
+       classes: 2
+         bytes: 2,727
+        fields: 3
+  detachStates: 0
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 327.2 μs
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler$1 getResult
+INFO: Compilation took 479.2 μs
+     templates: 1
+       classes: 1
+         bytes: 2,576
+        fields: 3
+  detachStates: 1
+Aug 15, 2019 12:29:14 PM com.google.template.soy.jbcsrc.BytecodeCompiler compile
+INFO: Loaded all classes in 365.9 μs
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.42 sec - in com.google.template.soy.jbcsrc.BytecodeCompilerTest
+Running com.google.template.soy.jbcsrc.ExpressionCompilerTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.621 sec - in com.google.template.soy.jbcsrc.ExpressionCompilerTest
+Running com.google.template.soy.soyparse.SoyParseUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in com.google.template.soy.soyparse.SoyParseUtilsTest
+Running com.google.template.soy.soyparse.ParseExpressionTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.google.template.soy.soyparse.ParseExpressionTest
+Running com.google.template.soy.soyparse.SourceLocationTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in com.google.template.soy.soyparse.SourceLocationTest
+Running com.google.template.soy.soyparse.TemplateParserTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.81 sec - in com.google.template.soy.soyparse.TemplateParserTest
+Running com.google.template.soy.coredirectives.EscapeHtmlDirectiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.coredirectives.EscapeHtmlDirectiveTest
+Running com.google.template.soy.coredirectives.IdDirectiveTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.coredirectives.IdDirectiveTest
+Running com.google.template.soy.coredirectives.NoAutoescapeDirectiveTest
+Aug 15, 2019 12:29:18 PM com.google.template.soy.shared.internal.Sanitizers filterNoAutoescape
+WARNING: |noAutoescape received value explicitly tagged as ContentKind.TEXT: 'xyz'
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.coredirectives.NoAutoescapeDirectiveTest
+Running com.google.template.soy.conformance.SoyConformanceTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec - in com.google.template.soy.conformance.SoyConformanceTest
+Running com.google.template.soy.bidifunctions.BidiEndEdgeFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.google.template.soy.bidifunctions.BidiEndEdgeFunctionTest
+Running com.google.template.soy.bidifunctions.BidiTextDirFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bidifunctions.BidiTextDirFunctionTest
+Running com.google.template.soy.bidifunctions.BidiMarkAfterFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bidifunctions.BidiMarkAfterFunctionTest
+Running com.google.template.soy.bidifunctions.BidiMarkFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bidifunctions.BidiMarkFunctionTest
+Running com.google.template.soy.bidifunctions.BidiStartEdgeFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bidifunctions.BidiStartEdgeFunctionTest
+Running com.google.template.soy.bidifunctions.BidiGlobalDirFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bidifunctions.BidiGlobalDirFunctionTest
+Running com.google.template.soy.bidifunctions.BidiDirAttrFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.google.template.soy.bidifunctions.BidiDirAttrFunctionTest
+
+Results :
+
+Tests run: 1333, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 25.548 s
+[INFO] Finished at: 2019-08-15T12:29:18+08:00
+[INFO] ------------------------------------------------------------------------

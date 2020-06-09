@@ -1,0 +1,659 @@
+[VERSION]: 2.0.2-beta
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< ca.mcgill.sable:soot >------------------------
+[INFO] Building Soot 3.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soot ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ soot ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.powermock:powermock-api-support:jar:sources:1.6.1:test
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.5:compile
+[INFO]    org.powermock:powermock-mockito-release-full:pom:1.6.1:test
+[INFO]    org.javassist:javassist:jar:3.18.2-GA:provided
+[INFO]    org.powermock:powermock-api-mockito:jar:1.6.1:test
+[INFO]    org.testng:testng:jar:6.8.13:test
+[INFO]    org.jboss:jboss-common-core:jar:2.5.0.Final:compile
+[INFO]    org.jboss.logging:jboss-logging-spi:jar:2.1.2.GA:compile
+[INFO]    pxb.android:axml:jar:2.0.0:compile
+[INFO]    org.smali:util:jar:2.2.2:compile
+[INFO]    org.powermock:powermock-reflect:jar:1.6.1:test
+[INFO]    org.mockito:mockito-all:jar:2.0.2-beta:test
+[INFO]    org.powermock:powermock-module-junit4-legacy:jar:sources:1.6.1:test
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.powermock:powermock-module-junit4:jar:1.6.1:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.powermock:powermock-module-testng:jar:1.6.1:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO]    org.powermock:powermock-core:jar:1.6.1:test
+[INFO]    org.ow2.asm:asm-debug-all:jar:5.2:compile
+[INFO]    org.powermock:powermock-module-junit3:jar:sources:1.6.1:test
+[INFO]    org.powermock:powermock-classloading-base:jar:sources:1.6.1:test
+[INFO]    xmlpull:xmlpull:jar:1.1.3.4d_b4_min:compile
+[INFO]    org.powermock:powermock-api-mockito:jar:sources:1.6.1:test
+[INFO]    ca.mcgill.sable:java_cup:jar:0.9.2:compile
+[INFO]    org.hamcrest:hamcrest-all:jar:1.3:test
+[INFO]    org.powermock:powermock-api-support:jar:1.6.1:test
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.powermock:powermock-module-junit4-common:jar:sources:1.6.1:test
+[INFO]    ca.mcgill.sable:jasmin:jar:3.0.1:compile
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.powermock:powermock-module-testng-common:jar:1.6.1:test
+[INFO]    org.powermock:powermock-module-junit4:jar:sources:1.6.1:test
+[INFO]    heros:heros:jar:1.0.1:compile
+[INFO]    org.smali:dexlib2:jar:2.2.2:compile
+[INFO]    org.powermock:powermock-reflect:jar:sources:1.6.1:test
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    com.beust:jcommander:jar:1.64:compile
+[INFO]    org.powermock:powermock-classloading-base:jar:1.6.1:test
+[INFO]    org.powermock:powermock-module-junit4-legacy:jar:1.6.1:test
+[INFO]    org.powermock:powermock-module-testng:jar:sources:1.6.1:test
+[INFO]    org.powermock:powermock-module-junit3:jar:1.6.1:test
+[INFO]    org.apache.ant:ant-launcher:jar:1.10.1:provided
+[INFO]    com.google.guava:guava:jar:18.0:compile
+[INFO]    ca.mcgill.sable:polyglot:jar:2006:compile
+[INFO]    org.powermock:powermock-core:jar:sources:1.6.1:test
+[INFO]    org.apache.ant:ant:jar:1.10.1:provided
+[INFO]    org.functionaljava:functionaljava:jar:4.2:compile
+[INFO]    org.powermock:powermock-module-junit4-common:jar:1.6.1:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:copy-resources (copy-resources) @ soot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (default) @ soot ---
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/singletons added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/sablecc added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/options added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd added.
+[INFO] 
+[INFO] --- xml-maven-plugin:1.0.1:transform (default) @ soot ---
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/singletons/singletons.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ soot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ soot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2781 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/Annotation.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/Annotation.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/ASTNode.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/ASTNode.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ soot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ soot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 90 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/asm/backend/ConstantPoolTest.java:[21,50] com.sun.org.apache.bcel.internal.classfile.ClassFormatException is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/asm/backend/ConstantPoolTest.java:[226,26] com.sun.org.apache.bcel.internal.classfile.ClassFormatException is internal proprietary API and may be removed in a future release
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/toolkits/purity/BinarySearchTree.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/toolkits/purity/BinarySearchTree.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ soot ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running soot.toolkits.scalar.ArrayPackedSetTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in soot.toolkits.scalar.ArrayPackedSetTest
+[INFO] Running soot.toolkits.scalar.CombinedDUAnalysisTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in soot.toolkits.scalar.CombinedDUAnalysisTest
+[INFO] Running soot.toolkits.scalar.ArraySparseSetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s - in soot.toolkits.scalar.ArraySparseSetTest
+[INFO] Running soot.toolkits.purity.PurityTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 s - in soot.toolkits.purity.PurityTest
+[INFO] Running soot.toolkits.exceptions.UnitThrowAnalysisTest
+[WARNING] Tests run: 45, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.727 s - in soot.toolkits.exceptions.UnitThrowAnalysisTest
+[INFO] Running soot.toolkits.exceptions.MethodThrowableSetTest
+[Thread-12] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: Failed to apply jb to <soot.asm.backend.ConstantPoolTest: void loadClass()>
+java.lang.RuntimeException: Failed to apply jb to <soot.asm.backend.ConstantPoolTest: void loadClass()>
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1914)
+	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:126)
+	at soot.SootMethod.retrieveActiveBody(SootMethod.java:385)
+	at soot.PackManager$3.run(PackManager.java:1244)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: This operation requires resolving level SIGNATURES but java.security.SecureClassLoader is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(java.security.SecureClassLoader,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+	at soot.SootClass.checkLevelIgnoreResolving(SootClass.java:186)
+	at soot.SootClass.checkLevel(SootClass.java:166)
+	at soot.SootClass.getMethodUnsafe(SootClass.java:377)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:174)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:153)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:301)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseInstanceInvokeExpr(UnitThrowAnalysis.java:1131)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseVirtualInvokeExpr(UnitThrowAnalysis.java:976)
+	at soot.jimple.internal.AbstractVirtualInvokeExpr.apply(AbstractVirtualInvokeExpr.java:79)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:293)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$UnitSwitch.caseAssignStmt(UnitThrowAnalysis.java:759)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:238)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:277)
+	at soot.toolkits.graph.ExceptionalUnitGraph.buildExceptionDests(ExceptionalUnitGraph.java:347)
+	at soot.toolkits.graph.ExceptionalUnitGraph.initialize(ExceptionalUnitGraph.java:272)
+	at soot.toolkits.graph.ExceptionalUnitGraph.<init>(ExceptionalUnitGraph.java:159)
+	at soot.jimple.toolkits.scalar.UnreachableCodeEliminator.internalTransform(UnreachableCodeEliminator.java:82)
+	at soot.BodyTransformer.transform(BodyTransformer.java:54)
+	at soot.Transform.apply(Transform.java:108)
+	at soot.JimpleBodyPack.applyPhaseOptions(JimpleBodyPack.java:62)
+	at soot.JimpleBodyPack.internalApply(JimpleBodyPack.java:105)
+	at soot.Pack.apply(Pack.java:125)
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1912)
+	... 6 more
+Exception in thread "Thread-12" java.lang.RuntimeException: Failed to apply jb to <soot.asm.backend.ConstantPoolTest: void loadClass()>
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1914)
+	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:126)
+	at soot.SootMethod.retrieveActiveBody(SootMethod.java:385)
+	at soot.PackManager$3.run(PackManager.java:1244)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: This operation requires resolving level SIGNATURES but java.security.SecureClassLoader is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(java.security.SecureClassLoader,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+	at soot.SootClass.checkLevelIgnoreResolving(SootClass.java:186)
+	at soot.SootClass.checkLevel(SootClass.java:166)
+	at soot.SootClass.getMethodUnsafe(SootClass.java:377)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:174)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:153)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:301)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseInstanceInvokeExpr(UnitThrowAnalysis.java:1131)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseVirtualInvokeExpr(UnitThrowAnalysis.java:976)
+	at soot.jimple.internal.AbstractVirtualInvokeExpr.apply(AbstractVirtualInvokeExpr.java:79)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:293)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$UnitSwitch.caseAssignStmt(UnitThrowAnalysis.java:759)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:238)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:277)
+	at soot.toolkits.graph.ExceptionalUnitGraph.buildExceptionDests(ExceptionalUnitGraph.java:347)
+	at soot.toolkits.graph.ExceptionalUnitGraph.initialize(ExceptionalUnitGraph.java:272)
+	at soot.toolkits.graph.ExceptionalUnitGraph.<init>(ExceptionalUnitGraph.java:159)
+	at soot.jimple.toolkits.scalar.UnreachableCodeEliminator.internalTransform(UnreachableCodeEliminator.java:82)
+	at soot.BodyTransformer.transform(BodyTransformer.java:54)
+	at soot.Transform.apply(Transform.java:108)
+	at soot.JimpleBodyPack.applyPhaseOptions(JimpleBodyPack.java:62)
+	at soot.JimpleBodyPack.internalApply(JimpleBodyPack.java:105)
+	at soot.Pack.apply(Pack.java:125)
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1912)
+	... 6 more
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.044 s - in soot.toolkits.exceptions.MethodThrowableSetTest
+[INFO] Running soot.toolkits.exceptions.ThrowableSetTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.517 s - in soot.toolkits.exceptions.ThrowableSetTest
+[INFO] Running soot.toolkits.graph.SCCFastTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in soot.toolkits.graph.SCCFastTest
+[INFO] Running soot.toolkits.graph.TestDominance
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 s - in soot.toolkits.graph.TestDominance
+[INFO] Running soot.baf.ASMBackendMockingTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class soot.baf.ASMBackendMockingTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:107)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1008)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: java.lang.NoClassDefFoundError: org/mockito/internal/creation/CglibMockMaker
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.<init>(PowerMockMaker.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.mockito.internal.configuration.plugins.PluginLoader.loadImpl(PluginLoader.java:61)
+	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:24)
+	at org.mockito.internal.configuration.plugins.PluginRegistry.<init>(PluginRegistry.java:12)
+	at org.mockito.internal.configuration.plugins.Plugins.<clinit>(Plugins.java:11)
+	at org.mockito.internal.util.MockUtil.<clinit>(MockUtil.java:24)
+	at org.mockito.internal.configuration.injection.scanner.MockScanner.<init>(MockScanner.java:22)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.injectMocks(InjectingAnnotationEngine.java:96)
+	at org.powermock.api.mockito.internal.configuration.PowerMockitoInjectingAnnotationEngine.process(PowerMockitoInjectingAnnotationEngine.java:35)
+	at org.powermock.api.extension.listener.AnnotationEnabler.injectSpiesAndInjectToSetters(AnnotationEnabler.java:60)
+	at org.powermock.api.extension.listener.AnnotationEnabler.beforeTestMethod(AnnotationEnabler.java:55)
+	at org.powermock.tests.utils.impl.PowerMockTestNotifierImpl.notifyBeforeTestMethod(PowerMockTestNotifierImpl.java:90)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:292)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:127)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:282)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:86)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:207)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:146)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:120)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:33)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:45)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:122)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:106)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: org.mockito.internal.creation.CglibMockMaker
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.powermock.core.classloader.MockClassLoader.loadModifiedClass(MockClassLoader.java:178)
+	at org.powermock.core.classloader.DeferSupportingClassLoader.loadClass(DeferSupportingClassLoader.java:68)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 57 more
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.686 s - in soot.baf.ASMBackendMockingTest
+[INFO] Running soot.util.MediumPriorityQueueTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 s - in soot.util.MediumPriorityQueueTest
+[INFO] Running soot.util.BitVector_intersects_Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s - in soot.util.BitVector_intersects_Test
+[INFO] Running soot.util.SmallPriorityQueueTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 s - in soot.util.SmallPriorityQueueTest
+[INFO] Running soot.util.backend.SootASMClassWriterTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class soot.util.backend.SootASMClassWriterTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:107)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1008)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: java.lang.NoClassDefFoundError: org/mockito/internal/creation/CglibMockMaker
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.<init>(PowerMockMaker.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.mockito.internal.configuration.plugins.PluginLoader.loadImpl(PluginLoader.java:61)
+	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:24)
+	at org.mockito.internal.configuration.plugins.PluginRegistry.<init>(PluginRegistry.java:12)
+	at org.mockito.internal.configuration.plugins.Plugins.<clinit>(Plugins.java:11)
+	at org.mockito.internal.util.MockUtil.<clinit>(MockUtil.java:24)
+	at org.mockito.internal.configuration.injection.scanner.MockScanner.<init>(MockScanner.java:22)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.injectMocks(InjectingAnnotationEngine.java:96)
+	at org.powermock.api.mockito.internal.configuration.PowerMockitoInjectingAnnotationEngine.process(PowerMockitoInjectingAnnotationEngine.java:35)
+	at org.powermock.api.extension.listener.AnnotationEnabler.injectSpiesAndInjectToSetters(AnnotationEnabler.java:60)
+	at org.powermock.api.extension.listener.AnnotationEnabler.beforeTestMethod(AnnotationEnabler.java:55)
+	at org.powermock.tests.utils.impl.PowerMockTestNotifierImpl.notifyBeforeTestMethod(PowerMockTestNotifierImpl.java:90)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:292)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:127)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:282)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:86)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:207)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:146)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:120)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:33)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:45)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:122)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:106)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: org.mockito.internal.creation.CglibMockMaker
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.powermock.core.classloader.MockClassLoader.loadModifiedClass(MockClassLoader.java:178)
+	at org.powermock.core.classloader.DeferSupportingClassLoader.loadClass(DeferSupportingClassLoader.java:68)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 57 more
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.219 s - in soot.util.backend.SootASMClassWriterTest
+[INFO] Running soot.util.queue.ChunkedQueueTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s - in soot.util.queue.ChunkedQueueTest
+[INFO] Running soot.jimple.MethodHandleTest
+Command Line: [-asm-backend, -pp, -cp, /tmp/1566294204777-0, -O, HelloMethodHandles]
+Invalid option -asm-backend
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.259 s - in soot.jimple.MethodHandleTest
+[INFO] Running soot.jimple.toolkit.callgraph.TypeBasedReflectionModelTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.508 s - in soot.jimple.toolkit.callgraph.TypeBasedReflectionModelTest
+[INFO] Running soot.asm.backend.OuterClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:27 SGT 2019
+Soot finished on Tue Aug 20 17:43:27 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 s - in soot.asm.backend.OuterClassTest
+[INFO] Running soot.asm.backend.InterfaceTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:28 SGT 2019
+Soot finished on Tue Aug 20 17:43:29 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Comparable.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Comparable.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.589 s - in soot.asm.backend.InterfaceTest
+[INFO] Running soot.asm.backend.ExceptionTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:29 SGT 2019
+Soot finished on Tue Aug 20 17:43:30 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExceptionMethods.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExceptionMethods.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.54 s - in soot.asm.backend.ExceptionTest
+[INFO] Running soot.asm.backend.StoresTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:30 SGT 2019
+Soot finished on Tue Aug 20 17:43:31 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Stores.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Stores.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.676 s - in soot.asm.backend.StoresTest
+[INFO] Running soot.asm.backend.NullTypesTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:31 SGT 2019
+Soot finished on Tue Aug 20 17:43:32 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.nullTypes.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.nullTypes.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.636 s - in soot.asm.backend.NullTypesTest
+[INFO] Running soot.asm.backend.AbstractASMBackendTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in soot.asm.backend.AbstractASMBackendTest
+[INFO] Running soot.asm.backend.ModifiersTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:33 SGT 2019
+Soot finished on Tue Aug 20 17:43:34 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Modifiers.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Modifiers.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.654 s - in soot.asm.backend.ModifiersTest
+[INFO] Running soot.asm.backend.ArithmeticTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:34 SGT 2019
+Soot finished on Tue Aug 20 17:43:35 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ArithmeticLib.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ArithmeticLib.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 s - in soot.asm.backend.ArithmeticTest
+[INFO] Running soot.asm.backend.AnnotatedClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:36 SGT 2019
+Soot finished on Tue Aug 20 17:43:36 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedClass.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedClass.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.643 s - in soot.asm.backend.AnnotatedClassTest
+[INFO] Running soot.asm.backend.CompareArithmeticInstructionsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:37 SGT 2019
+Soot finished on Tue Aug 20 17:43:37 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstuctions.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstuctions.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.653 s - in soot.asm.backend.CompareArithmeticInstructionsTest
+[INFO] Running soot.asm.backend.ExtendedArithmeticLibTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:38 SGT 2019
+Soot finished on Tue Aug 20 17:43:38 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExtendedArithmeticLib.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExtendedArithmeticLib.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.684 s - in soot.asm.backend.ExtendedArithmeticLibTest
+[INFO] Running soot.asm.backend.MinimalJavaVersionTest
+Soot started on Tue Aug 20 17:43:39 SGT 2019
+[Thread-3] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: Enforced Java version 1.3 too low to support required features (1.5 required)
+java.lang.IllegalArgumentException: Enforced Java version 1.3 too low to support required features (1.5 required)
+	at soot.AbstractASMBackend.<init>(AbstractASMBackend.java:91)
+	at soot.baf.BafASMBackend.<init>(BafASMBackend.java:100)
+	at soot.PackManager.writeClass(PackManager.java:1166)
+	at soot.PackManager$2.run(PackManager.java:693)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Exception in thread "Thread-3" java.lang.IllegalArgumentException: Enforced Java version 1.3 too low to support required features (1.5 required)
+	at soot.AbstractASMBackend.<init>(AbstractASMBackend.java:91)
+	at soot.baf.BafASMBackend.<init>(BafASMBackend.java:100)
+	at soot.PackManager.writeClass(PackManager.java:1166)
+	at soot.PackManager$2.run(PackManager.java:693)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Soot started on Tue Aug 20 17:43:39 SGT 2019
+Soot finished on Tue Aug 20 17:43:40 SGT 2019
+Soot has run for 0 min. 0 sec.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.753 s - in soot.asm.backend.MinimalJavaVersionTest
+[INFO] Running soot.asm.backend.LogicalOperationsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:40 SGT 2019
+Soot finished on Tue Aug 20 17:43:40 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.LogicalOperations.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.LogicalOperations.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.686 s - in soot.asm.backend.LogicalOperationsTest
+[INFO] Running soot.asm.backend.ControlStructuresTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:41 SGT 2019
+Soot finished on Tue Aug 20 17:43:42 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ControlStructures.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ControlStructures.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.679 s - in soot.asm.backend.ControlStructuresTest
+[INFO] Running soot.asm.backend.ConstantPoolTest
+Invalid option -asm-backend
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:42 SGT 2019
+Soot finished on Tue Aug 20 17:43:43 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ConstantPool.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ConstantPool.asm...
+File comparison successful.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in soot.asm.backend.ConstantPoolTest
+[INFO] Running soot.asm.backend.CompareArithmeticInstructions2Test
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:44 SGT 2019
+Soot finished on Tue Aug 20 17:43:44 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstructions2.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstructions2.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.726 s - in soot.asm.backend.CompareArithmeticInstructions2Test
+[INFO] Running soot.asm.backend.ArraysTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:45 SGT 2019
+Soot finished on Tue Aug 20 17:43:45 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Arrays.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Arrays.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.739 s - in soot.asm.backend.ArraysTest
+[INFO] Running soot.asm.backend.AnnotatedParameterTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:46 SGT 2019
+Soot finished on Tue Aug 20 17:43:46 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedParameter.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedParameter.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.644 s - in soot.asm.backend.AnnotatedParameterTest
+[INFO] Running soot.asm.backend.MethodExampleTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:47 SGT 2019
+Soot finished on Tue Aug 20 17:43:48 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Bean.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Bean.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.662 s - in soot.asm.backend.MethodExampleTest
+[INFO] Running soot.asm.backend.InnerClass2Test
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:48 SGT 2019
+Soot finished on Tue Aug 20 17:43:49 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$1.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$1.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.634 s - in soot.asm.backend.InnerClass2Test
+[INFO] Running soot.asm.backend.DupsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:49 SGT 2019
+Soot finished on Tue Aug 20 17:43:50 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Dups.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Dups.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.644 s - in soot.asm.backend.DupsTest
+[INFO] Running soot.asm.backend.InstanceOfCastsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:51 SGT 2019
+Soot finished on Tue Aug 20 17:43:51 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InstanceOfCasts.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InstanceOfCasts.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.624 s - in soot.asm.backend.InstanceOfCastsTest
+[INFO] Running soot.asm.backend.CompareInstructionsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:52 SGT 2019
+Soot finished on Tue Aug 20 17:43:52 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareInstructions.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareInstructions.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.718 s - in soot.asm.backend.CompareInstructionsTest
+[INFO] Running soot.asm.backend.LineNumbersTest
+Soot started on Tue Aug 20 17:43:53 SGT 2019
+Soot finished on Tue Aug 20 17:43:53 SGT 2019
+Soot has run for 0 min. 0 sec.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.638 s - in soot.asm.backend.LineNumbersTest
+[INFO] Running soot.asm.backend.ReturnsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:54 SGT 2019
+Soot finished on Tue Aug 20 17:43:54 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Returns.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Returns.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.633 s - in soot.asm.backend.ReturnsTest
+[INFO] Running soot.asm.backend.TryCatchTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:55 SGT 2019
+Soot finished on Tue Aug 20 17:43:56 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.TryCatch.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.TryCatch.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.628 s - in soot.asm.backend.TryCatchTest
+[INFO] Running soot.asm.backend.AnnotatedFieldTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:56 SGT 2019
+Soot finished on Tue Aug 20 17:43:57 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedField.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedField.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.663 s - in soot.asm.backend.AnnotatedFieldTest
+[INFO] Running soot.asm.backend.AnnotatedAnnotationTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:57 SGT 2019
+Soot finished on Tue Aug 20 17:43:58 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyAnnotatedAnnotation.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyAnnotatedAnnotation.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 s - in soot.asm.backend.AnnotatedAnnotationTest
+[INFO] Running soot.asm.backend.InnerClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:43:58 SGT 2019
+Soot finished on Tue Aug 20 17:43:59 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$Inner.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$Inner.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.626 s - in soot.asm.backend.InnerClassTest
+[INFO] Running soot.asm.backend.MonitorTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:44:00 SGT 2019
+Soot finished on Tue Aug 20 17:44:00 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Monitor.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Monitor.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in soot.asm.backend.MonitorTest
+[INFO] Running soot.asm.backend.AnnotatedMethodTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:44:01 SGT 2019
+Soot finished on Tue Aug 20 17:44:01 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedMethod.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedMethod.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.647 s - in soot.asm.backend.AnnotatedMethodTest
+[INFO] Running soot.asm.backend.AnnotationTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:44:02 SGT 2019
+Soot finished on Tue Aug 20 17:44:02 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyTestAnnotation.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyTestAnnotation.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.571 s - in soot.asm.backend.AnnotationTest
+[INFO] Running soot.asm.backend.EnumTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:44:03 SGT 2019
+Soot finished on Tue Aug 20 17:44:03 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyEnum.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyEnum.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.672 s - in soot.asm.backend.EnumTest
+[INFO] Running soot.asm.backend.AnnotatedAnnotatedClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:44:04 SGT 2019
+Soot finished on Tue Aug 20 17:44:04 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedAnnotatedClass.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedAnnotatedClass.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.647 s - in soot.asm.backend.AnnotatedAnnotatedClassTest
+[INFO] Running soot.RefTypeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.514 s - in soot.RefTypeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 180, Failures: 0, Errors: 0, Skipped: 8
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:12 min
+[INFO] Finished at: 2019-08-20T17:44:06+08:00
+[INFO] ------------------------------------------------------------------------

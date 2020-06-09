@@ -1,0 +1,57 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/jdeb/org.bouncycastle=bcpg-jdk15on/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jdeb/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jdeb/org.bouncycastle=bcpg-jdk15on/bcpg-jdk15on-1.60.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore org.vafer.jdeb.debian.ControlFile_ESTestJUnit version 4.12
+22:51:43.802 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.ControlFile_ESTest
+22:51:43.805 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.ControlFile_ESTest'.
+22:51:43.863 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.ControlFile_ESTest_scaffolding
+22:51:43.863 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.ControlFile_ESTest_scaffolding'.
+22:51:43.865 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.ControlFile_ESTest_scaffolding
+22:51:43.866 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.ControlFile_ESTest
+22:51:43.949 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:51:43.949 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:51:43.949 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:51:43.949 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:51:43.949 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:51:43.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.ChangesFile
+22:51:43.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.ChangesFile'.
+22:51:43.976 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/debian/ChangesFile
+22:51:44.065 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/debian/ChangesFile
+22:51:44.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.ControlFile
+22:51:44.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.ControlFile'.
+22:51:44.067 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/debian/ControlFile
+22:51:44.069 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/debian/ControlFile
+22:51:44.070 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.ControlFile
+22:51:44.070 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.ChangesFile
+22:51:44.070 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.ControlField
+22:51:44.070 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.ControlField'.
+22:51:44.071 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/debian/ControlField
+22:51:44.072 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/debian/ControlField
+22:51:44.072 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.ControlField
+22:51:44.072 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.ControlField$Type
+22:51:44.072 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.ControlField$Type'.
+22:51:44.073 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/debian/ControlField$Type
+22:51:44.073 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/debian/ControlField$Type
+22:51:44.073 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.ControlField$Type
+22:51:44.074 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.changes.ChangeSet
+22:51:44.074 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.changes.ChangeSet'.
+22:51:44.074 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/changes/ChangeSet
+22:51:44.075 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/changes/ChangeSet
+22:51:44.075 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb.changes, 1493142940
+22:51:44.075 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.changes.ChangeSet
+22:51:44.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.VariableResolver
+22:51:44.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.VariableResolver'.
+22:51:44.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb.utils, -2010505782
+22:51:44.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.VariableResolver
+22:51:44.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.Utils
+22:51:44.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.Utils'.
+22:51:44.077 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/utils/Utils
+22:51:44.081 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/utils/Utils
+22:51:44.082 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.Utils
+22:51:44.085 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.debian.BinaryPackageControlFile
+22:51:44.085 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.debian.BinaryPackageControlFile'.
+22:51:44.086 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/debian/BinaryPackageControlFile
+22:51:44.086 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/debian/BinaryPackageControlFile
+22:51:44.087 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.debian.BinaryPackageControlFile
+............................
+Time: 0.639
+
+OK (28 tests)
+

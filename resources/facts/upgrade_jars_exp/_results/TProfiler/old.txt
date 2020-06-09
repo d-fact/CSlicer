@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.taobao:tprofiler >------------------------
+[INFO] Building profile 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tprofiler ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ tprofiler ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    asm:asm:jar:3.3.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tprofiler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ tprofiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tprofiler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ tprofiler ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tprofiler ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.402 s
+[INFO] Finished at: 2019-08-14T20:50:37+08:00
+[INFO] ------------------------------------------------------------------------

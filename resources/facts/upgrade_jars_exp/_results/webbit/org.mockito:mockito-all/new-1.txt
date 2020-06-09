@@ -1,0 +1,118 @@
+[VERSION]: 2.0.2-beta
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.webbitserver:webbit >-----------------------
+[INFO] Building webbit 0.4.16-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webbit ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ webbit ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.3.2:test
+[INFO]    commons-logging:commons-logging:jar:1.1.3:test
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.3.2:test
+[INFO]    io.netty:netty:jar:3.6.5.Final:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.mockito:mockito-all:jar:2.0.2-beta:test
+[INFO]    com.google.code.gson:gson:jar:2.2.4:test
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.3.2:test
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.0.1:test
+[INFO]    commons-codec:commons-codec:jar:1.6:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ webbit ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ webbit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ webbit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 93 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ webbit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ webbit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 38 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/test/java/org/webbitserver/handler/EmbeddedResourceHandlerTest.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/test/java/org/webbitserver/handler/EmbeddedResourceHandlerTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.15:test (default-test) @ webbit ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running org.webbitserver.stub.StubConnectionTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.webbitserver.stub.StubConnectionTest
+Running org.webbitserver.stub.StubHttpRequestTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.webbitserver.stub.StubHttpRequestTest
+Running org.webbitserver.EventSourceMessageTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.webbitserver.EventSourceMessageTest
+Running org.webbitserver.HttpRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.webbitserver.HttpRequestTest
+Running org.webbitserver.helpers.HexTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.webbitserver.helpers.HexTest
+Running org.webbitserver.helpers.UTF8OutputTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.webbitserver.helpers.UTF8OutputTest
+Running org.webbitserver.helpers.QueryParametersTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.webbitserver.helpers.QueryParametersTest
+Running org.webbitserver.helpers.Base64Test
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.webbitserver.helpers.Base64Test
+Running org.webbitserver.helpers.InboundCookieParserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.webbitserver.helpers.InboundCookieParserTest
+Running org.webbitserver.WebbitExceptionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.webbitserver.WebbitExceptionTest
+Running org.webbitserver.netty.NettyWebServerTest
+Expected fewer threads after stopping. Before start: 5, After stop: 6
+Not failing the test because that hoses the release process. Just printing so we don't forget to fix this
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.189 sec - in org.webbitserver.netty.NettyWebServerTest
+Running org.webbitserver.netty.FlashPolicyFileTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.webbitserver.netty.FlashPolicyFileTest
+Running org.webbitserver.netty.NettyHttpRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.webbitserver.netty.NettyHttpRequestTest
+Running org.webbitserver.ChunkedResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in org.webbitserver.ChunkedResponseTest
+Running org.webbitserver.handler.AliasHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.webbitserver.handler.AliasHandlerTest
+Running org.webbitserver.handler.StaleConnectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.webbitserver.handler.StaleConnectionTest
+Running org.webbitserver.handler.SslTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.349 sec - in org.webbitserver.handler.SslTest
+Running org.webbitserver.handler.PostTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 sec - in org.webbitserver.handler.PostTest
+Running org.webbitserver.handler.CompressionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in org.webbitserver.handler.CompressionTest
+Running org.webbitserver.handler.ServerHeaderHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.webbitserver.handler.ServerHeaderHandlerTest
+Running org.webbitserver.handler.authentication.InMemoryPasswordsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.webbitserver.handler.authentication.InMemoryPasswordsTest
+Running org.webbitserver.handler.EmbeddedResourceHandlerTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec - in org.webbitserver.handler.EmbeddedResourceHandlerTest
+Running org.webbitserver.handler.CookieTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in org.webbitserver.handler.CookieTest
+Running org.webbitserver.handler.PathMatchHandlerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec - in org.webbitserver.handler.PathMatchHandlerTest
+Running org.webbitserver.handler.StaticFileHandlerTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in org.webbitserver.handler.StaticFileHandlerTest
+
+Results :
+
+Tests run: 131, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.083 s
+[INFO] Finished at: 2019-08-20T14:42:18+08:00
+[INFO] ------------------------------------------------------------------------

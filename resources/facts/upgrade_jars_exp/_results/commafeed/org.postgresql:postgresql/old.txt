@@ -1,0 +1,1459 @@
+[VERSION]: 9.4.1212
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.commafeed:commafeed >-----------------------
+[INFO] Building CommaFeed 2.5.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commafeed ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ commafeed ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.commons:commons-lang3:jar:3.4:compile
+[INFO]    org.jadira.usertype:usertype.core:jar:4.0.0.GA:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b31:compile
+[INFO]    com.mysema.codegen:codegen:jar:0.6.7:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile
+[INFO]    org.w3c.css:sac:jar:1.3:compile
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+[INFO]    org.jsoup:jsoup:jar:1.8.2:compile
+[INFO]    com.ibm.icu:icu4j:jar:55.1:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-multipart:jar:2.22.1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO]    com.google.inject:guice:jar:4.0:compile
+[INFO]    org.eclipse.jdt.core.compiler:ecj:jar:4.3.1:provided
+[INFO]    org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.22.1:compile
+[INFO]    io.dropwizard.metrics:metrics-jvm:jar:3.1.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:0.6.8:test
+[INFO]    org.jvnet.mimepull:mimepull:jar:1.9.6:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.1:compile
+[INFO]    io.dropwizard.metrics:metrics-json:jar:3.1.2:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.1.3:compile
+[INFO]    io.dropwizard.metrics:metrics-annotation:jar:3.1.2:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:compile
+[INFO]    io.dropwizard:dropwizard-jackson:jar:0.9.1:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.1:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:compile
+[INFO]    commons-io:commons-io:jar:2.4:compile
+[INFO]    com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile
+[INFO]    redis.clients:jedis:jar:2.7.2:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.1:compile
+[INFO]    io.dropwizard.metrics:metrics-servlets:jar:3.1.2:compile
+[INFO]    org.jadira.usertype:usertype.spi:jar:4.0.0.GA:compile
+[INFO]    org.postgresql:postgresql:jar:9.4.1212:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    io.dropwizard:dropwizard-logging:jar:0.9.1:compile
+[INFO]    dom4j:dom4j:jar:1.6.1:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.1:compile
+[INFO]    org.projectlombok:lombok:jar:1.16.4:provided
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.22.1:compile
+[INFO]    com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+[INFO]    org.jdom:jdom2:jar:2.0.6:compile
+[INFO]    io.dropwizard:dropwizard-lifecycle:jar:0.9.1:compile
+[INFO]    org.hibernate:hibernate-core:jar:4.3.11.Final:compile
+[INFO]    mysql:mysql-connector-java:jar:5.1.37:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.1.3:compile
+[INFO]    org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+[INFO]    org.jboss:jandex:jar:1.1.0.Final:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.12:compile
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk7:jar:2.6.3:compile
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO]    com.querydsl:querydsl-codegen:jar:4.0.2:provided
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    net.sourceforge.argparse4j:argparse4j:jar:0.6.0:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.12:compile
+[INFO]    net.sourceforge.jtds:jtds:jar:1.3.1:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    joda-time:joda-time:jar:2.9:compile
+[INFO]    io.dropwizard:dropwizard-db:jar:0.9.1:compile
+[INFO]    org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile
+[INFO]    com.h2database:h2:jar:1.3.176:compile
+[INFO]    com.google.guava:guava:jar:18.0:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.6.3:compile
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.22.1:compile
+[INFO]    io.dropwizard:dropwizard-validation:jar:0.9.1:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.6.3:compile
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b31:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:compile
+[INFO]    io.dropwizard:dropwizard-servlets:jar:0.9.1:compile
+[INFO]    com.google.code.findbugs:annotations:jar:2.0.1:provided
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.1:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.6.3:compile
+[INFO]    com.querydsl:querydsl-core:jar:4.0.2:compile
+[INFO]    org.glassfish.jersey.ext:jersey-metainf-services:jar:2.22.1:compile
+[INFO]    xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO]    com.rometools:rome-opml:jar:1.5.0:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+[INFO]    org.apache.commons:commons-jexl:jar:2.1.1:compile
+[INFO]    org.apache.commons:commons-pool2:jar:2.3:compile
+[INFO]    antlr:antlr:jar:2.7.7:compile
+[INFO]    com.sun.mail:javax.mail:jar:1.5.3:compile
+[INFO]    org.apache.tomcat:tomcat-juli:jar:8.0.28:compile
+[INFO]    org.apache.tomcat:tomcat-jdbc:jar:8.0.28:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.6.3:compile
+[INFO]    com.fasterxml:classmate:jar:1.1.0:compile
+[INFO]    net.sourceforge.cssparser:cssparser:jar:0.9.16:compile
+[INFO]    io.dropwizard.metrics:metrics-jetty9:jar:3.1.2:compile
+[INFO]    com.google.apis:google-api-services-youtube:jar:v3-rev139-1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-util:jar:0.9.1:compile
+[INFO]    com.google.api-client:google-api-client:jar:1.20.0:compile
+[INFO]    io.dropwizard.metrics:metrics-logback:jar:3.1.2:compile
+[INFO]    io.dropwizard:dropwizard-assets:jar:0.9.1:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hibernate4:jar:2.6.3:compile
+[INFO]    org.glassfish:javax.el:jar:3.0.0:compile
+[INFO]    io.swagger:swagger-annotations:jar:1.5.0:compile
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    io.dropwizard:dropwizard-forms:jar:0.9.1:compile
+[INFO]    com.google.oauth-client:google-oauth-client:jar:1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-jetty:jar:0.9.1:compile
+[INFO]    com.rometools:rome-utils:jar:1.5.0:compile
+[INFO]    org.hibernate:hibernate-validator:jar:5.2.2.Final:compile
+[INFO]    org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.3:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.3:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:compile
+[INFO]    com.querydsl:querydsl-jpa:jar:4.0.2:compile
+[INFO]    com.mattbertolini:liquibase-slf4j:jar:1.2.1:compile
+[INFO]    com.rometools:rome:jar:1.5.0:compile
+[INFO]    com.google.http-client:google-http-client:jar:1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-metrics:jar:0.9.1:compile
+[INFO]    io.dropwizard.metrics:metrics-healthchecks:jar:3.1.2:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.5:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.6.3:compile
+[INFO]    org.glassfish.jersey.ext:jersey-bean-validation:jar:2.22.1:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+[INFO]    io.dropwizard.metrics:metrics-graphite:jar:3.1.2:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+[INFO]    io.dropwizard:dropwizard-configuration:jar:0.9.1:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.6.3:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b31:compile
+[INFO]    com.infradna.tool:bridge-method-annotation:jar:1.13:compile
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730:compile
+[INFO]    io.dropwizard:dropwizard-migrations:jar:0.9.1:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    io.dropwizard:dropwizard-jersey:jar:0.9.1:compile
+[INFO]    com.google.http-client:google-http-client-jackson2:jar:1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-core:jar:0.9.1:compile
+[INFO]    io.dropwizard:dropwizard-hibernate:jar:0.9.1:compile
+[INFO]    org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:compile
+[INFO]    org.liquibase:liquibase-core:jar:3.4.1:compile
+[INFO]    org.reflections:reflections:jar:0.9.9:provided
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:compile
+[INFO]    com.querydsl:querydsl-apt:jar:hibernate:4.0.2:provided
+[INFO]    io.dropwizard.metrics:metrics-jersey2:jar:3.1.2:compile
+[INFO]    org.mockito:mockito-core:jar:2.0.11-beta:test
+[INFO] 
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.13:revision (default) @ commafeed ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commafeed ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commafeed ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 122 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target/classes
+[INFO] 
+[INFO] --- swagger-maven-plugin:3.1.1:generate (default) @ commafeed ---
+[INFO] Reflections took 54 ms to scan 1 urls, producing 6 keys and 36 values 
+[INFO] Reflections took 4 ms to scan 1 urls, producing 2 keys and 50 values 
+[INFO] Reflections took 3 ms to scan 1 urls, producing 2 keys and 32 values 
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.SubscribeRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.SubscribeRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.FeedInfoRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.FeedInfoRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.FeedModificationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.FeedModificationRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.Settings
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.Settings
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.LoginRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.LoginRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.RegistrationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.RegistrationRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.ProfileModificationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.ProfileModificationRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MultipleMarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MultipleMarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.TagRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.TagRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.StarRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.StarRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.UserModel
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.UserModel
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.CollapseRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.CollapseRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.CategoryModificationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.CategoryModificationRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.AddCategoryRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@4552d73c
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.AddCategoryRequest
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:install-node-and-npm (install node and npm) @ commafeed ---
+[INFO] Installing node version v6.11.4
+[INFO] Unpacking /home/cgzhu/.m2/repository/com/github/eirslett/node/6.11.4/node-6.11.4-linux-x64.tar.gz into /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node/tmp
+[INFO] Copying node binary from /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node/tmp/node-v6.11.4-linux-x64/bin/node to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node/node
+[INFO] Installed node locally.
+[INFO] Installing npm version 3.10.6
+[INFO] Unpacking /home/cgzhu/.m2/repository/com/github/eirslett/npm/3.10.6/npm-3.10.6.tar.gz into /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node/node_modules
+[INFO] Installed npm locally.
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:npm (npm install) @ commafeed ---
+[INFO] Running 'npm install' in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[WARNING] npm WARN deprecated gulp-minify-css@1.1.5: Please use gulp-clean-css
+[WARNING] npm WARN deprecated gulp-sass@2.0.2: Empty partial bug copied to CSS folder fixed
+[WARNING] npm WARN deprecated bower@1.4.1: This Bower version has SECURITY BUG THAT ALLOWS TO WRITE TO ARBITRARY FILE ON YOUR COMPUTER when you install malicious package. Please upgrade Bower to at least version 1.8.8 if you don't want to get hacked. More info: https://snyk.io/blog/severe-security-vulnerability-in-bowers-zip-archive-extraction/
+[WARNING] npm WARN deprecated github@0.2.4: 'github' has been renamed to '@octokit/rest' (https://git.io/vNB11)
+[WARNING] npm WARN deprecated graceful-fs@2.0.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+[WARNING] npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+[WARNING] npm WARN deprecated hawk@1.1.1: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[WARNING] npm WARN deprecated sntp@0.2.4: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[WARNING] npm WARN deprecated cryptiles@0.2.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[WARNING] npm WARN deprecated hoek@0.9.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[WARNING] npm WARN deprecated boom@0.4.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[WARNING] npm WARN deprecated natives@1.1.6: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+[WARNING] npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[WARNING] npm WARN deprecated tough-cookie@0.12.1: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+[WARNING] npm WARN deprecated hawk@2.3.1: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[WARNING] npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[WARNING] npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[WARNING] npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[WARNING] npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[WARNING] npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+[WARNING] npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[WARNING] npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+[WARNING] npm WARN deprecated gulp-footer@1.1.2: Security vulnerability surrounding event-stream, do *NOT* use.
+[WARNING] npm WARN deprecated gulp-header@1.8.12: Removed event-stream from gulp-header
+[WARNING] npm WARN deprecated gulp-util@2.2.20: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+[WARNING] npm WARN deprecated connect@2.17.3: connect 2.x series is deprecated
+[WARNING] npm WARN deprecated scmp@0.0.3: scmp v2 uses improved core crypto comparison since Node v6.6.0
+[WARNING] npm WARN deprecated minimatch@1.0.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[WARNING] npm WARN prefer global node-gyp@3.8.0 should be installed with -g
+[INFO] 
+[INFO] > node-sass@3.13.1 install /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node_modules/node-sass
+[INFO] > node scripts/install.js
+[INFO] 
+[INFO] Cached binary found at /home/cgzhu/.npm/node-sass/3.13.1/linux-x64-48_binding.node
+[INFO] 
+[INFO] > node-sass@3.13.1 postinstall /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node_modules/node-sass
+[INFO] > node scripts/build.js
+[INFO] 
+[INFO] Binary found at /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/node_modules/node-sass/vendor/linux-x64-48/binding.node
+[INFO] Testing binary
+[INFO] Binary is fine
+[INFO] commafeed@2.0.0 /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[INFO] ├─┬ bower@1.4.1 
+[INFO] │ ├── abbrev@1.1.1 
+[INFO] │ ├── archy@1.0.0 
+[INFO] │ ├─┬ bower-config@0.6.2 
+[INFO] │ │ ├── graceful-fs@2.0.3 
+[INFO] │ │ ├── mout@0.9.1 
+[INFO] │ │ ├─┬ optimist@0.6.1 
+[INFO] │ │ │ ├── minimist@0.0.10 
+[INFO] │ │ │ └── wordwrap@0.0.3 
+[INFO] │ │ └── osenv@0.0.3 
+[INFO] │ ├── bower-endpoint-parser@0.2.2 
+[INFO] │ ├─┬ bower-json@0.4.0 
+[INFO] │ │ ├── deep-extend@0.2.11 
+[INFO] │ │ ├── graceful-fs@2.0.3 
+[INFO] │ │ └── intersect@0.0.3 
+[INFO] │ ├── bower-logger@0.2.2 
+[INFO] │ ├─┬ bower-registry-client@0.3.0 
+[INFO] │ │ ├── async@0.2.10 
+[INFO] │ │ ├── graceful-fs@2.0.3 
+[INFO] │ │ ├── lru-cache@2.3.1 
+[INFO] │ │ ├── mkdirp@0.3.5 
+[INFO] │ │ ├─┬ request@2.51.0 
+[INFO] │ │ │ ├── caseless@0.8.0 
+[INFO] │ │ │ ├─┬ hawk@1.1.1 
+[INFO] │ │ │ │ ├── boom@0.4.2 
+[INFO] │ │ │ │ ├── cryptiles@0.2.2 
+[INFO] │ │ │ │ ├── hoek@0.9.1 
+[INFO] │ │ │ │ └── sntp@0.2.4 
+[INFO] │ │ │ ├── mime-types@1.0.2 
+[INFO] │ │ │ └── oauth-sign@0.5.0 
+[INFO] │ │ ├── request-replay@0.2.0 
+[INFO] │ │ └── rimraf@2.2.8 
+[INFO] │ ├─┬ cardinal@0.4.4 
+[INFO] │ │ ├── ansicolors@0.2.1 
+[INFO] │ │ └─┬ redeyed@0.4.4 
+[INFO] │ │   └── esprima@1.0.4 
+[INFO] │ ├─┬ chalk@1.1.3 
+[INFO] │ │ ├── ansi-styles@2.2.1 
+[INFO] │ │ ├── escape-string-regexp@1.0.5 
+[INFO] │ │ ├─┬ has-ansi@2.0.0 
+[INFO] │ │ │ └── ansi-regex@2.1.1 
+[INFO] │ │ ├── strip-ansi@3.0.1 
+[INFO] │ │ └── supports-color@2.0.0 
+[INFO] │ ├── chmodr@0.1.0 
+[INFO] │ ├─┬ configstore@0.3.2 
+[INFO] │ │ ├─┬ js-yaml@3.13.1 
+[INFO] │ │ │ ├─┬ argparse@1.0.10 
+[INFO] │ │ │ │ └── sprintf-js@1.0.3 
+[INFO] │ │ │ └── esprima@4.0.1 
+[INFO] │ │ ├─┬ osenv@0.1.5 
+[INFO] │ │ │ └── os-tmpdir@1.0.2 
+[INFO] │ │ ├── uuid@2.0.3 
+[INFO] │ │ └── xdg-basedir@1.0.1 
+[INFO] │ ├─┬ decompress-zip@0.1.0 
+[INFO] │ │ ├─┬ binary@0.3.0 
+[INFO] │ │ │ ├── buffers@0.1.1 
+[INFO] │ │ │ └─┬ chainsaw@0.1.0 
+[INFO] │ │ │   └── traverse@0.3.9 
+[INFO] │ │ ├── mkpath@0.1.0 
+[INFO] │ │ ├─┬ readable-stream@1.1.14 
+[INFO] │ │ │ ├── core-util-is@1.0.2 
+[INFO] │ │ │ ├── isarray@0.0.1 
+[INFO] │ │ │ └── string_decoder@0.10.31 
+[INFO] │ │ └─┬ touch@0.0.3 
+[INFO] │ │   └── nopt@1.0.10 
+[INFO] │ ├─┬ fstream@1.0.12 
+[INFO] │ │ ├── graceful-fs@4.2.2 
+[INFO] │ │ └── inherits@2.0.4 
+[INFO] │ ├─┬ fstream-ignore@1.0.5 
+[INFO] │ │ └── minimatch@3.0.4 
+[INFO] │ ├─┬ github@0.2.4 
+[INFO] │ │ └── mime@1.6.0 
+[INFO] │ ├─┬ glob@4.5.3 
+[INFO] │ │ ├─┬ inflight@1.0.6 
+[INFO] │ │ │ └── wrappy@1.0.2 
+[INFO] │ │ ├── minimatch@2.0.10 
+[INFO] │ │ └── once@1.4.0 
+[INFO] │ ├─┬ graceful-fs@3.0.12 
+[INFO] │ │ └── natives@1.1.6 
+[INFO] │ ├─┬ handlebars@2.0.0 
+[INFO] │ │ ├── optimist@0.3.7 
+[INFO] │ │ └─┬ uglify-js@2.3.6 
+[INFO] │ │   └── optimist@0.3.7 
+[INFO] │ ├─┬ inquirer@0.8.0 
+[INFO] │ │ ├── ansi-regex@1.1.1 
+[INFO] │ │ ├─┬ chalk@0.5.1 
+[INFO] │ │ │ ├── ansi-styles@1.1.0 
+[INFO] │ │ │ ├─┬ has-ansi@0.1.0 
+[INFO] │ │ │ │ └── ansi-regex@0.2.1 
+[INFO] │ │ │ ├─┬ strip-ansi@0.3.0 
+[INFO] │ │ │ │ └── ansi-regex@0.2.1 
+[INFO] │ │ │ └── supports-color@0.2.0 
+[INFO] │ │ ├─┬ cli-color@0.3.3 
+[INFO] │ │ │ ├── d@0.1.1 
+[INFO] │ │ │ ├─┬ es5-ext@0.10.50 
+[INFO] │ │ │ │ ├─┬ es6-iterator@2.0.3 
+[INFO] │ │ │ │ │ └─┬ d@1.0.1 
+[INFO] │ │ │ │ │   └── type@1.0.3 
+[INFO] │ │ │ │ ├─┬ es6-symbol@3.1.1 
+[INFO] │ │ │ │ │ └── d@1.0.1 
+[INFO] │ │ │ │ └── next-tick@1.0.0 
+[INFO] │ │ │ ├─┬ memoizee@0.3.10 
+[INFO] │ │ │ │ ├─┬ es6-weak-map@0.1.4 
+[INFO] │ │ │ │ │ ├── es6-iterator@0.1.3 
+[INFO] │ │ │ │ │ └── es6-symbol@2.0.1 
+[INFO] │ │ │ │ ├─┬ event-emitter@0.3.5 
+[INFO] │ │ │ │ │ └── d@1.0.1 
+[INFO] │ │ │ │ ├── lru-queue@0.1.0 
+[INFO] │ │ │ │ └── next-tick@0.2.2 
+[INFO] │ │ │ └── timers-ext@0.1.7 
+[INFO] │ │ ├─┬ figures@1.7.0 
+[INFO] │ │ │ └── object-assign@4.1.1 
+[INFO] │ │ ├── lodash@2.4.2 
+[INFO] │ │ ├── mute-stream@0.0.4 
+[INFO] │ │ ├─┬ readline2@0.1.1 
+[INFO] │ │ │ └─┬ strip-ansi@2.0.1 
+[INFO] │ │ │   └── ansi-regex@1.1.1 
+[INFO] │ │ ├── rx@2.5.3 
+[INFO] │ │ └── through@2.3.8 
+[INFO] │ ├─┬ insight@0.5.3 
+[INFO] │ │ ├── async@0.9.2 
+[INFO] │ │ ├─┬ lodash.debounce@3.1.1 
+[INFO] │ │ │ └── lodash._getnative@3.9.1 
+[INFO] │ │ ├─┬ os-name@1.0.3 
+[INFO] │ │ │ ├─┬ osx-release@1.1.0 
+[INFO] │ │ │ │ └── minimist@1.2.0 
+[INFO] │ │ │ └─┬ win-release@1.1.1 
+[INFO] │ │ │   └── semver@5.7.1 
+[INFO] │ │ └─┬ tough-cookie@0.12.1 
+[INFO] │ │   └── punycode@2.1.1 
+[INFO] │ ├── is-root@1.0.0 
+[INFO] │ ├── junk@1.0.3 
+[INFO] │ ├─┬ lockfile@1.0.4 
+[INFO] │ │ └── signal-exit@3.0.2 
+[INFO] │ ├── lru-cache@2.7.3 
+[INFO] │ ├─┬ mkdirp@0.5.0 
+[INFO] │ │ └── minimist@0.0.8 
+[INFO] │ ├── mout@0.11.1 
+[INFO] │ ├── nopt@3.0.6 
+[INFO] │ ├── opn@1.0.2 
+[INFO] │ ├─┬ p-throttler@0.1.1 
+[INFO] │ │ └── q@0.9.7 
+[INFO] │ ├─┬ promptly@0.2.0 
+[INFO] │ │ └── read@1.0.7 
+[INFO] │ ├── q@1.5.1 
+[INFO] │ ├─┬ request@2.53.0 
+[INFO] │ │ ├── aws-sign2@0.5.0 
+[INFO] │ │ ├── bl@0.9.5 
+[INFO] │ │ ├── caseless@0.9.0 
+[INFO] │ │ ├─┬ combined-stream@0.0.7 
+[INFO] │ │ │ └── delayed-stream@0.0.5 
+[INFO] │ │ ├── forever-agent@0.5.2 
+[INFO] │ │ ├─┬ form-data@0.2.0 
+[INFO] │ │ │ ├── async@0.9.2 
+[INFO] │ │ │ └── mime-types@2.0.14 
+[INFO] │ │ ├─┬ hawk@2.3.1 
+[INFO] │ │ │ ├── boom@2.10.1 
+[INFO] │ │ │ ├── cryptiles@2.0.5 
+[INFO] │ │ │ ├── hoek@2.16.3 
+[INFO] │ │ │ └── sntp@1.0.9 
+[INFO] │ │ ├─┬ http-signature@0.10.1 
+[INFO] │ │ │ ├── asn1@0.1.11 
+[INFO] │ │ │ ├── assert-plus@0.1.5 
+[INFO] │ │ │ └── ctype@0.5.3 
+[INFO] │ │ ├── isstream@0.1.2 
+[INFO] │ │ ├── json-stringify-safe@5.0.1 
+[INFO] │ │ ├─┬ mime-types@2.0.14 
+[INFO] │ │ │ └── mime-db@1.12.0 
+[INFO] │ │ ├── node-uuid@1.4.8 
+[INFO] │ │ ├── oauth-sign@0.6.0 
+[INFO] │ │ ├── qs@2.3.3 
+[INFO] │ │ ├── stringstream@0.0.6 
+[INFO] │ │ ├─┬ tough-cookie@3.0.1 
+[INFO] │ │ │ ├── ip-regex@2.1.0 
+[INFO] │ │ │ └── psl@1.3.0 
+[INFO] │ │ └── tunnel-agent@0.4.3 
+[INFO] │ ├─┬ request-progress@0.3.1 
+[INFO] │ │ └── throttleit@0.0.2 
+[INFO] │ ├── retry@0.6.1 
+[INFO] │ ├─┬ rimraf@2.7.0 
+[INFO] │ │ └─┬ glob@7.1.4 
+[INFO] │ │   ├── fs.realpath@1.0.0 
+[INFO] │ │   └── path-is-absolute@1.0.1 
+[INFO] │ ├── semver@2.3.2 
+[INFO] │ ├── shell-quote@1.7.1 
+[INFO] │ ├── stringify-object@1.0.1 
+[INFO] │ ├─┬ tar-fs@1.16.3 
+[INFO] │ │ ├── chownr@1.1.2 
+[INFO] │ │ ├─┬ mkdirp@0.5.1 
+[INFO] │ │ │ └── minimist@0.0.8 
+[INFO] │ │ ├─┬ pump@1.0.3 
+[INFO] │ │ │ └── end-of-stream@1.4.1 
+[INFO] │ │ └─┬ tar-stream@1.6.2 
+[INFO] │ │   ├── bl@1.2.2 
+[INFO] │ │   ├─┬ buffer-alloc@1.2.0 
+[INFO] │ │   │ ├── buffer-alloc-unsafe@1.1.0 
+[INFO] │ │   │ └── buffer-fill@1.0.0 
+[INFO] │ │   ├── fs-constants@1.0.0 
+[INFO] │ │   ├─┬ readable-stream@2.3.6 
+[INFO] │ │   │ ├── isarray@1.0.0 
+[INFO] │ │   │ ├── process-nextick-args@2.0.1 
+[INFO] │ │   │ ├── safe-buffer@5.1.2 
+[INFO] │ │   │ ├─┬ string_decoder@1.1.1 
+[INFO] │ │   │ │ └── safe-buffer@5.1.2 
+[INFO] │ │   │ └── util-deprecate@1.0.2 
+[INFO] │ │   └── to-buffer@1.1.1 
+[INFO] │ ├── tmp@0.0.24 
+[INFO] │ ├─┬ update-notifier@0.3.2 
+[INFO] │ │ ├── is-npm@1.0.0 
+[INFO] │ │ ├─┬ latest-version@1.0.1 
+[INFO] │ │ │ └─┬ package-json@1.2.0 
+[INFO] │ │ │   ├─┬ got@3.3.1 
+[INFO] │ │ │   │ ├── infinity-agent@2.0.3 
+[INFO] │ │ │   │ ├── is-redirect@1.0.0 
+[INFO] │ │ │   │ ├── is-stream@1.1.0 
+[INFO] │ │ │   │ ├── lowercase-keys@1.0.1 
+[INFO] │ │ │   │ ├── nested-error-stacks@1.0.2 
+[INFO] │ │ │   │ ├── object-assign@3.0.0 
+[INFO] │ │ │   │ ├── prepend-http@1.0.4 
+[INFO] │ │ │   │ ├─┬ read-all-stream@3.1.0 
+[INFO] │ │ │   │ │ └─┬ readable-stream@2.3.6 
+[INFO] │ │ │   │ │   ├── isarray@1.0.0 
+[INFO] │ │ │   │ │   ├── safe-buffer@5.1.2 
+[INFO] │ │ │   │ │   └── string_decoder@1.1.1 
+[INFO] │ │ │   │ └── timed-out@2.0.0 
+[INFO] │ │ │   └─┬ registry-url@3.1.0 
+[INFO] │ │ │     └─┬ rc@1.2.8 
+[INFO] │ │ │       ├── deep-extend@0.6.0 
+[INFO] │ │ │       ├── ini@1.3.5 
+[INFO] │ │ │       ├── minimist@1.2.0 
+[INFO] │ │ │       └── strip-json-comments@2.0.1 
+[INFO] │ │ ├─┬ semver-diff@2.1.0 
+[INFO] │ │ │ └── semver@5.7.1 
+[INFO] │ │ └── string-length@1.0.1 
+[INFO] │ ├── user-home@1.1.1 
+[INFO] │ └─┬ which@1.3.1 
+[INFO] │   └── isexe@2.0.0 
+[INFO] ├─┬ connect-modrewrite@0.8.1 
+[INFO] │ └── qs@1.2.2 
+[INFO] ├─┬ gulp@3.8.11 
+[INFO] │ ├─┬ chalk@0.5.1 
+[INFO] │ │ ├── ansi-styles@1.1.0 
+[INFO] │ │ ├─┬ has-ansi@0.1.0 
+[INFO] │ │ │ └── ansi-regex@0.2.1 
+[INFO] │ │ ├── strip-ansi@0.3.0 
+[INFO] │ │ └── supports-color@0.2.0 
+[INFO] │ ├── deprecated@0.0.1 
+[INFO] │ ├─┬ gulp-util@3.0.8 
+[INFO] │ │ ├── array-differ@1.0.0 
+[INFO] │ │ ├── array-uniq@1.0.3 
+[INFO] │ │ ├── beeper@1.1.1 
+[INFO] │ │ ├── dateformat@2.2.0 
+[INFO] │ │ ├─┬ fancy-log@1.3.3 
+[INFO] │ │ │ ├─┬ ansi-gray@0.1.1 
+[INFO] │ │ │ │ └── ansi-wrap@0.1.0 
+[INFO] │ │ │ ├── color-support@1.1.3 
+[INFO] │ │ │ ├── parse-node-version@1.0.1 
+[INFO] │ │ │ └── time-stamp@1.1.0 
+[INFO] │ │ ├─┬ gulplog@1.0.0 
+[INFO] │ │ │ └── glogg@1.0.2 
+[INFO] │ │ ├─┬ has-gulplog@0.1.0 
+[INFO] │ │ │ └── sparkles@1.0.1 
+[INFO] │ │ ├── lodash._reescape@3.0.0 
+[INFO] │ │ ├── lodash._reevaluate@3.0.0 
+[INFO] │ │ ├── lodash._reinterpolate@3.0.0 
+[INFO] │ │ ├─┬ lodash.template@3.6.2 
+[INFO] │ │ │ ├── lodash._basecopy@3.0.1 
+[INFO] │ │ │ ├── lodash._basetostring@3.0.1 
+[INFO] │ │ │ ├── lodash._basevalues@3.0.0 
+[INFO] │ │ │ ├── lodash._isiterateecall@3.0.9 
+[INFO] │ │ │ ├─┬ lodash.escape@3.2.0 
+[INFO] │ │ │ │ └── lodash._root@3.0.1 
+[INFO] │ │ │ ├─┬ lodash.keys@3.1.2 
+[INFO] │ │ │ │ ├── lodash.isarguments@3.1.0 
+[INFO] │ │ │ │ └── lodash.isarray@3.0.4 
+[INFO] │ │ │ ├── lodash.restparam@3.6.1 
+[INFO] │ │ │ └── lodash.templatesettings@3.1.1 
+[INFO] │ │ ├── minimist@1.2.0 
+[INFO] │ │ ├─┬ multipipe@0.1.2 
+[INFO] │ │ │ └─┬ duplexer2@0.0.2 
+[INFO] │ │ │   └── readable-stream@1.1.14 
+[INFO] │ │ ├── object-assign@3.0.0 
+[INFO] │ │ ├── replace-ext@0.0.1 
+[INFO] │ │ ├─┬ through2@2.0.5 
+[INFO] │ │ │ └─┬ readable-stream@2.3.6 
+[INFO] │ │ │   ├── isarray@1.0.0 
+[INFO] │ │ │   ├── safe-buffer@5.1.2 
+[INFO] │ │ │   └── string_decoder@1.1.1 
+[INFO] │ │ └─┬ vinyl@0.5.3 
+[INFO] │ │   ├── clone@1.0.4 
+[INFO] │ │   └── clone-stats@0.0.1 
+[INFO] │ ├── interpret@0.3.10 
+[INFO] │ ├─┬ liftoff@2.5.0 
+[INFO] │ │ ├── extend@3.0.2 
+[INFO] │ │ ├─┬ findup-sync@2.0.0 
+[INFO] │ │ │ ├── detect-file@1.0.0 
+[INFO] │ │ │ ├─┬ is-glob@3.1.0 
+[INFO] │ │ │ │ └── is-extglob@2.1.1 
+[INFO] │ │ │ ├─┬ micromatch@3.1.10 
+[INFO] │ │ │ │ ├── arr-diff@4.0.0 
+[INFO] │ │ │ │ ├── array-unique@0.3.2 
+[INFO] │ │ │ │ ├─┬ braces@2.3.2 
+[INFO] │ │ │ │ │ ├── arr-flatten@1.1.0 
+[INFO] │ │ │ │ │ ├─┬ extend-shallow@2.0.1 
+[INFO] │ │ │ │ │ │ └── is-extendable@0.1.1 
+[INFO] │ │ │ │ │ ├─┬ fill-range@4.0.0 
+[INFO] │ │ │ │ │ │ ├── extend-shallow@2.0.1 
+[INFO] │ │ │ │ │ │ ├─┬ is-number@3.0.0 
+[INFO] │ │ │ │ │ │ │ └─┬ kind-of@3.2.2 
+[INFO] │ │ │ │ │ │ │   └── is-buffer@1.1.6 
+[INFO] │ │ │ │ │ │ ├── repeat-string@1.6.1 
+[INFO] │ │ │ │ │ │ └── to-regex-range@2.1.1 
+[INFO] │ │ │ │ │ ├── repeat-element@1.1.3 
+[INFO] │ │ │ │ │ ├─┬ snapdragon-node@2.1.1 
+[INFO] │ │ │ │ │ │ ├─┬ define-property@1.0.0 
+[INFO] │ │ │ │ │ │ │ └─┬ is-descriptor@1.0.2 
+[INFO] │ │ │ │ │ │ │   ├── is-accessor-descriptor@1.0.0 
+[INFO] │ │ │ │ │ │ │   └── is-data-descriptor@1.0.0 
+[INFO] │ │ │ │ │ │ └─┬ snapdragon-util@3.0.1 
+[INFO] │ │ │ │ │ │   └── kind-of@3.2.2 
+[INFO] │ │ │ │ │ └── split-string@3.1.0 
+[INFO] │ │ │ │ ├─┬ define-property@2.0.2 
+[INFO] │ │ │ │ │ └─┬ is-descriptor@1.0.2 
+[INFO] │ │ │ │ │   ├── is-accessor-descriptor@1.0.0 
+[INFO] │ │ │ │ │   └── is-data-descriptor@1.0.0 
+[INFO] │ │ │ │ ├─┬ extend-shallow@3.0.2 
+[INFO] │ │ │ │ │ ├── assign-symbols@1.0.0 
+[INFO] │ │ │ │ │ └── is-extendable@1.0.1 
+[INFO] │ │ │ │ ├─┬ extglob@2.0.4 
+[INFO] │ │ │ │ │ ├─┬ define-property@1.0.0 
+[INFO] │ │ │ │ │ │ └─┬ is-descriptor@1.0.2 
+[INFO] │ │ │ │ │ │   ├── is-accessor-descriptor@1.0.0 
+[INFO] │ │ │ │ │ │   └── is-data-descriptor@1.0.0 
+[INFO] │ │ │ │ │ ├─┬ expand-brackets@2.1.4 
+[INFO] │ │ │ │ │ │ ├── define-property@0.2.5 
+[INFO] │ │ │ │ │ │ ├── extend-shallow@2.0.1 
+[INFO] │ │ │ │ │ │ └── posix-character-classes@0.1.1 
+[INFO] │ │ │ │ │ └── extend-shallow@2.0.1 
+[INFO] │ │ │ │ ├── fragment-cache@0.2.1 
+[INFO] │ │ │ │ ├── kind-of@6.0.2 
+[INFO] │ │ │ │ ├─┬ nanomatch@1.2.13 
+[INFO] │ │ │ │ │ └── is-windows@1.0.2 
+[INFO] │ │ │ │ ├─┬ regex-not@1.0.2 
+[INFO] │ │ │ │ │ └─┬ safe-regex@1.1.0 
+[INFO] │ │ │ │ │   └── ret@0.1.15 
+[INFO] │ │ │ │ ├─┬ snapdragon@0.8.2 
+[INFO] │ │ │ │ │ ├─┬ base@0.11.2 
+[INFO] │ │ │ │ │ │ ├─┬ cache-base@1.0.1 
+[INFO] │ │ │ │ │ │ │ ├─┬ collection-visit@1.0.0 
+[INFO] │ │ │ │ │ │ │ │ ├── map-visit@1.0.0 
+[INFO] │ │ │ │ │ │ │ │ └── object-visit@1.0.1 
+[INFO] │ │ │ │ │ │ │ ├── get-value@2.0.6 
+[INFO] │ │ │ │ │ │ │ ├─┬ has-value@1.0.0 
+[INFO] │ │ │ │ │ │ │ │ └─┬ has-values@1.0.0 
+[INFO] │ │ │ │ │ │ │ │   └── kind-of@4.0.0 
+[INFO] │ │ │ │ │ │ │ ├─┬ set-value@2.0.1 
+[INFO] │ │ │ │ │ │ │ │ └── extend-shallow@2.0.1 
+[INFO] │ │ │ │ │ │ │ ├─┬ to-object-path@0.3.0 
+[INFO] │ │ │ │ │ │ │ │ └── kind-of@3.2.2 
+[INFO] │ │ │ │ │ │ │ ├── union-value@1.0.1 
+[INFO] │ │ │ │ │ │ │ └─┬ unset-value@1.0.0 
+[INFO] │ │ │ │ │ │ │   └─┬ has-value@0.3.1 
+[INFO] │ │ │ │ │ │ │     ├── has-values@0.1.4 
+[INFO] │ │ │ │ │ │ │     └─┬ isobject@2.1.0 
+[INFO] │ │ │ │ │ │ │       └── isarray@1.0.0 
+[INFO] │ │ │ │ │ │ ├─┬ class-utils@0.3.6 
+[INFO] │ │ │ │ │ │ │ ├── arr-union@3.1.0 
+[INFO] │ │ │ │ │ │ │ ├── define-property@0.2.5 
+[INFO] │ │ │ │ │ │ │ └─┬ static-extend@0.1.2 
+[INFO] │ │ │ │ │ │ │   ├── define-property@0.2.5 
+[INFO] │ │ │ │ │ │ │   └─┬ object-copy@0.1.0 
+[INFO] │ │ │ │ │ │ │     ├── copy-descriptor@0.1.1 
+[INFO] │ │ │ │ │ │ │     ├── define-property@0.2.5 
+[INFO] │ │ │ │ │ │ │     └── kind-of@3.2.2 
+[INFO] │ │ │ │ │ │ ├── component-emitter@1.3.0 
+[INFO] │ │ │ │ │ │ ├─┬ define-property@1.0.0 
+[INFO] │ │ │ │ │ │ │ └─┬ is-descriptor@1.0.2 
+[INFO] │ │ │ │ │ │ │   ├── is-accessor-descriptor@1.0.0 
+[INFO] │ │ │ │ │ │ │   └── is-data-descriptor@1.0.0 
+[INFO] │ │ │ │ │ │ ├─┬ mixin-deep@1.3.2 
+[INFO] │ │ │ │ │ │ │ └── is-extendable@1.0.1 
+[INFO] │ │ │ │ │ │ └── pascalcase@0.1.1 
+[INFO] │ │ │ │ │ ├─┬ debug@2.6.9 
+[INFO] │ │ │ │ │ │ └── ms@2.0.0 
+[INFO] │ │ │ │ │ ├─┬ define-property@0.2.5 
+[INFO] │ │ │ │ │ │ └─┬ is-descriptor@0.1.6 
+[INFO] │ │ │ │ │ │   ├─┬ is-accessor-descriptor@0.1.6 
+[INFO] │ │ │ │ │ │   │ └── kind-of@3.2.2 
+[INFO] │ │ │ │ │ │   ├─┬ is-data-descriptor@0.1.4 
+[INFO] │ │ │ │ │ │   │ └── kind-of@3.2.2 
+[INFO] │ │ │ │ │ │   └── kind-of@5.1.0 
+[INFO] │ │ │ │ │ ├── extend-shallow@2.0.1 
+[INFO] │ │ │ │ │ ├── source-map@0.5.7 
+[INFO] │ │ │ │ │ ├─┬ source-map-resolve@0.5.2 
+[INFO] │ │ │ │ │ │ ├── atob@2.1.2 
+[INFO] │ │ │ │ │ │ ├── decode-uri-component@0.2.0 
+[INFO] │ │ │ │ │ │ ├── resolve-url@0.2.1 
+[INFO] │ │ │ │ │ │ ├── source-map-url@0.4.0 
+[INFO] │ │ │ │ │ │ └── urix@0.1.0 
+[INFO] │ │ │ │ │ └── use@3.1.1 
+[INFO] │ │ │ │ └── to-regex@3.0.2 
+[INFO] │ │ │ └─┬ resolve-dir@1.0.1 
+[INFO] │ │ │   └─┬ global-modules@1.0.0 
+[INFO] │ │ │     └── global-prefix@1.0.2 
+[INFO] │ │ ├─┬ fined@1.2.0 
+[INFO] │ │ │ ├─┬ expand-tilde@2.0.2 
+[INFO] │ │ │ │ └─┬ homedir-polyfill@1.0.3 
+[INFO] │ │ │ │   └── parse-passwd@1.0.0 
+[INFO] │ │ │ ├─┬ object.defaults@1.1.0 
+[INFO] │ │ │ │ ├── array-each@1.0.1 
+[INFO] │ │ │ │ └── array-slice@1.1.0 
+[INFO] │ │ │ ├── object.pick@1.3.0 
+[INFO] │ │ │ └─┬ parse-filepath@1.0.2 
+[INFO] │ │ │   ├─┬ is-absolute@1.0.0 
+[INFO] │ │ │   │ └─┬ is-relative@1.0.0 
+[INFO] │ │ │   │   └─┬ is-unc-path@1.0.0 
+[INFO] │ │ │   │     └── unc-path-regex@0.1.2 
+[INFO] │ │ │   ├── map-cache@0.2.2 
+[INFO] │ │ │   └─┬ path-root@0.1.1 
+[INFO] │ │ │     └── path-root-regex@0.1.2 
+[INFO] │ │ ├── flagged-respawn@1.0.1 
+[INFO] │ │ ├─┬ is-plain-object@2.0.4 
+[INFO] │ │ │ └── isobject@3.0.1 
+[INFO] │ │ ├─┬ object.map@1.0.1 
+[INFO] │ │ │ ├─┬ for-own@1.0.0 
+[INFO] │ │ │ │ └── for-in@1.0.2 
+[INFO] │ │ │ └── make-iterator@1.0.1 
+[INFO] │ │ ├── rechoir@0.6.2 
+[INFO] │ │ └─┬ resolve@1.12.0 
+[INFO] │ │   └── path-parse@1.0.6 
+[INFO] │ ├── minimist@1.2.0 
+[INFO] │ ├─┬ orchestrator@0.3.8 
+[INFO] │ │ ├─┬ end-of-stream@0.1.5 
+[INFO] │ │ │ └── once@1.3.3 
+[INFO] │ │ ├── sequencify@0.0.7 
+[INFO] │ │ └── stream-consume@0.1.1 
+[INFO] │ ├── pretty-hrtime@0.2.2 
+[INFO] │ ├── semver@4.3.6 
+[INFO] │ ├─┬ tildify@1.2.0 
+[INFO] │ │ └── os-homedir@1.0.2 
+[INFO] │ ├── v8flags@2.1.1 
+[INFO] │ └─┬ vinyl-fs@0.3.14 
+[INFO] │   ├── defaults@1.0.3 
+[INFO] │   ├─┬ glob-stream@3.1.18 
+[INFO] │   │ ├─┬ glob2base@0.0.12 
+[INFO] │   │ │ └── find-index@0.1.1 
+[INFO] │   │ ├── minimatch@2.0.10 
+[INFO] │   │ ├── ordered-read-streams@0.1.0 
+[INFO] │   │ ├── through2@0.6.5 
+[INFO] │   │ └── unique-stream@1.0.0 
+[INFO] │   ├─┬ glob-watcher@0.0.6 
+[INFO] │   │ └─┬ gaze@0.5.2 
+[INFO] │   │   └─┬ globule@0.1.0 
+[INFO] │   │     ├─┬ glob@3.1.21 
+[INFO] │   │     │ ├── graceful-fs@1.2.3 
+[INFO] │   │     │ └── inherits@1.0.2 
+[INFO] │   │     ├── lodash@1.0.2 
+[INFO] │   │     └── minimatch@0.2.14 
+[INFO] │   ├─┬ strip-bom@1.0.0 
+[INFO] │   │ ├── first-chunk-stream@1.0.0 
+[INFO] │   │ └── is-utf8@0.2.1 
+[INFO] │   ├── through2@0.6.5 
+[INFO] │   └─┬ vinyl@0.4.6 
+[INFO] │     └── clone@0.2.0 
+[INFO] ├─┬ gulp-angular-templatecache@1.6.0 
+[INFO] │ ├─┬ event-stream@3.3.5 
+[INFO] │ │ ├── duplexer@0.1.1 
+[INFO] │ │ ├── from@0.1.7 
+[INFO] │ │ ├── map-stream@0.0.7 
+[INFO] │ │ ├── pause-stream@0.0.11 
+[INFO] │ │ ├── split@1.0.1 
+[INFO] │ │ └── stream-combiner@0.2.2 
+[INFO] │ ├─┬ gulp-concat@2.6.1 
+[INFO] │ │ ├─┬ concat-with-sourcemaps@1.1.0 
+[INFO] │ │ │ └── source-map@0.6.1 
+[INFO] │ │ └─┬ vinyl@2.2.0 
+[INFO] │ │   ├── clone@2.1.2 
+[INFO] │ │   ├── clone-buffer@1.0.0 
+[INFO] │ │   ├── clone-stats@1.0.0 
+[INFO] │ │   ├─┬ cloneable-readable@1.1.3 
+[INFO] │ │   │ └─┬ readable-stream@2.3.6 
+[INFO] │ │   │   ├── isarray@1.0.0 
+[INFO] │ │   │   ├── safe-buffer@5.1.2 
+[INFO] │ │   │   └── string_decoder@1.1.1 
+[INFO] │ │   ├── remove-trailing-separator@1.1.0 
+[INFO] │ │   └── replace-ext@1.0.0 
+[INFO] │ ├── gulp-footer@1.1.2 
+[INFO] │ ├─┬ gulp-header@1.8.12 
+[INFO] │ │ └─┬ lodash.template@4.5.0 
+[INFO] │ │   └── lodash.templatesettings@4.2.0 
+[INFO] │ ├── js-string-escape@1.0.1 
+[INFO] │ └─┬ path@0.12.7 
+[INFO] │   ├── process@0.11.10 
+[INFO] │   └─┬ util@0.10.4 
+[INFO] │     └── inherits@2.0.3 
+[INFO] ├─┬ gulp-connect@2.2.0 
+[INFO] │ ├─┬ connect@2.17.3 
+[INFO] │ │ ├── basic-auth-connect@1.0.0 
+[INFO] │ │ ├─┬ body-parser@1.2.2 
+[INFO] │ │ │ ├── qs@0.6.6 
+[INFO] │ │ │ └── raw-body@1.1.6 
+[INFO] │ │ ├── bytes@1.0.0 
+[INFO] │ │ ├─┬ compression@1.0.2 
+[INFO] │ │ │ ├── bytes@0.3.0 
+[INFO] │ │ │ ├── compressible@1.0.1 
+[INFO] │ │ │ └── negotiator@0.4.3 
+[INFO] │ │ ├─┬ connect-timeout@1.1.0 
+[INFO] │ │ │ └── debug@0.8.1 
+[INFO] │ │ ├── cookie@0.1.2 
+[INFO] │ │ ├── cookie-parser@1.1.0 
+[INFO] │ │ ├── cookie-signature@1.0.3 
+[INFO] │ │ ├─┬ csurf@1.2.0 
+[INFO] │ │ │ ├── scmp@0.0.3 
+[INFO] │ │ │ └── uid2@0.0.3 
+[INFO] │ │ ├── debug@0.8.1 
+[INFO] │ │ ├── errorhandler@1.0.1 
+[INFO] │ │ ├─┬ express-session@1.2.1 
+[INFO] │ │ │ ├── buffer-crc32@0.2.1 
+[INFO] │ │ │ ├── debug@0.8.1 
+[INFO] │ │ │ └── utils-merge@1.0.0 
+[INFO] │ │ ├── fresh@0.2.2 
+[INFO] │ │ ├─┬ method-override@1.0.2 
+[INFO] │ │ │ └── methods@1.0.0 
+[INFO] │ │ ├── morgan@1.1.1 
+[INFO] │ │ ├─┬ multiparty@2.2.0 
+[INFO] │ │ │ ├── readable-stream@1.1.14 
+[INFO] │ │ │ └─┬ stream-counter@0.2.0 
+[INFO] │ │ │   └── readable-stream@1.1.14 
+[INFO] │ │ ├── on-headers@0.0.0 
+[INFO] │ │ ├── parseurl@1.0.1 
+[INFO] │ │ ├── pause@0.0.1 
+[INFO] │ │ ├── qs@0.6.6 
+[INFO] │ │ ├── response-time@1.0.0 
+[INFO] │ │ ├── serve-favicon@2.0.0 
+[INFO] │ │ ├─┬ serve-index@1.0.3 
+[INFO] │ │ │ └── batch@0.5.0 
+[INFO] │ │ ├─┬ serve-static@1.1.0 
+[INFO] │ │ │ └─┬ send@0.3.0 
+[INFO] │ │ │   ├── debug@0.8.0 
+[INFO] │ │ │   ├── mime@1.2.11 
+[INFO] │ │ │   └── range-parser@1.0.3 
+[INFO] │ │ ├─┬ type-is@1.2.0 
+[INFO] │ │ │ └── mime@1.2.11 
+[INFO] │ │ └── vhost@1.0.0 
+[INFO] │ ├── connect-livereload@0.3.2 
+[INFO] │ ├─┬ event-stream@3.1.7 
+[INFO] │ │ ├── map-stream@0.1.0 
+[INFO] │ │ ├── split@0.2.10 
+[INFO] │ │ └── stream-combiner@0.0.4 
+[INFO] │ ├─┬ gulp-util@2.2.20 
+[INFO] │ │ ├─┬ chalk@0.5.1 
+[INFO] │ │ │ ├── ansi-styles@1.1.0 
+[INFO] │ │ │ ├─┬ has-ansi@0.1.0 
+[INFO] │ │ │ │ └── ansi-regex@0.2.1 
+[INFO] │ │ │ ├── strip-ansi@0.3.0 
+[INFO] │ │ │ └── supports-color@0.2.0 
+[INFO] │ │ ├── dateformat@1.0.12 
+[INFO] │ │ ├── lodash._reinterpolate@2.4.1 
+[INFO] │ │ ├─┬ lodash.template@2.4.1 
+[INFO] │ │ │ ├── lodash._escapestringchar@2.4.1 
+[INFO] │ │ │ ├─┬ lodash.defaults@2.4.1 
+[INFO] │ │ │ │ ├── lodash._objecttypes@2.4.1 
+[INFO] │ │ │ │ └── lodash.keys@2.4.1 
+[INFO] │ │ │ ├─┬ lodash.escape@2.4.1 
+[INFO] │ │ │ │ ├─┬ lodash._escapehtmlchar@2.4.1 
+[INFO] │ │ │ │ │ └── lodash._htmlescapes@2.4.1 
+[INFO] │ │ │ │ └─┬ lodash._reunescapedhtml@2.4.1 
+[INFO] │ │ │ │   └── lodash.keys@2.4.1 
+[INFO] │ │ │ ├─┬ lodash.keys@2.4.1 
+[INFO] │ │ │ │ ├── lodash._isnative@2.4.1 
+[INFO] │ │ │ │ ├── lodash._shimkeys@2.4.1 
+[INFO] │ │ │ │ └── lodash.isobject@2.4.1 
+[INFO] │ │ │ ├── lodash.templatesettings@2.4.1 
+[INFO] │ │ │ └─┬ lodash.values@2.4.1 
+[INFO] │ │ │   └── lodash.keys@2.4.1 
+[INFO] │ │ ├── minimist@0.2.0 
+[INFO] │ │ ├─┬ through2@0.5.1 
+[INFO] │ │ │ └── xtend@3.0.0 
+[INFO] │ │ └── vinyl@0.2.3 
+[INFO] │ └─┬ tiny-lr@0.0.7 
+[INFO] │   ├── debug@0.8.1 
+[INFO] │   ├── faye-websocket@0.4.4 
+[INFO] │   ├─┬ noptify@0.0.3 
+[INFO] │   │ └── nopt@2.0.0 
+[INFO] │   └── qs@0.5.6 
+[INFO] ├─┬ gulp-filter@2.0.2 
+[INFO] │ ├─┬ merge-stream@0.1.8 
+[INFO] │ │ └── through2@0.6.5 
+[INFO] │ ├─┬ multimatch@2.1.0 
+[INFO] │ │ ├── array-union@1.0.2 
+[INFO] │ │ └── arrify@1.0.1 
+[INFO] │ ├── plexer@0.0.3 
+[INFO] │ └─┬ through2@0.6.5 
+[INFO] │   ├── readable-stream@1.0.34 
+[INFO] │   └── xtend@4.0.2 
+[INFO] ├─┬ gulp-minify-css@1.1.5 
+[INFO] │ ├─┬ clean-css@3.4.28 
+[INFO] │ │ ├─┬ commander@2.8.1 
+[INFO] │ │ │ └── graceful-readlink@1.0.1 
+[INFO] │ │ └─┬ source-map@0.4.4 
+[INFO] │ │   └── amdefine@1.0.1 
+[INFO] │ ├── object-assign@2.1.1 
+[INFO] │ ├── through2@0.6.5 
+[INFO] │ ├─┬ vinyl-bufferstream@1.0.1 
+[INFO] │ │ └── bufferstreams@1.0.1 
+[INFO] │ └─┬ vinyl-sourcemaps-apply@0.1.4 
+[INFO] │   └── source-map@0.1.43 
+[INFO] ├─┬ gulp-rev@4.0.0 
+[INFO] │ ├── rev-hash@1.0.0 
+[INFO] │ ├─┬ rev-path@1.0.0 
+[INFO] │ │ └── modify-filename@1.1.0 
+[INFO] │ ├── through2@0.6.5 
+[INFO] │ └─┬ vinyl-file@1.3.0 
+[INFO] │   ├── graceful-fs@4.2.2 
+[INFO] │   ├── strip-bom@2.0.0 
+[INFO] │   ├─┬ strip-bom-stream@1.0.0 
+[INFO] │   │ └── strip-bom@2.0.0 
+[INFO] │   └── vinyl@1.2.0 
+[INFO] ├─┬ gulp-rev-replace@0.4.1 
+[INFO] │ ├─┬ gulp-util@2.2.20 
+[INFO] │ │ ├─┬ chalk@0.5.1 
+[INFO] │ │ │ ├── ansi-styles@1.1.0 
+[INFO] │ │ │ ├─┬ has-ansi@0.1.0 
+[INFO] │ │ │ │ └── ansi-regex@0.2.1 
+[INFO] │ │ │ ├── strip-ansi@0.3.0 
+[INFO] │ │ │ └── supports-color@0.2.0 
+[INFO] │ │ ├── dateformat@1.0.12 
+[INFO] │ │ ├── lodash._reinterpolate@2.4.1 
+[INFO] │ │ ├─┬ lodash.template@2.4.1 
+[INFO] │ │ │ ├── lodash.escape@2.4.1 
+[INFO] │ │ │ ├── lodash.keys@2.4.1 
+[INFO] │ │ │ └── lodash.templatesettings@2.4.1 
+[INFO] │ │ ├── minimist@0.2.0 
+[INFO] │ │ ├─┬ through2@0.5.1 
+[INFO] │ │ │ └── xtend@3.0.0 
+[INFO] │ │ └── vinyl@0.2.3 
+[INFO] │ └─┬ through2@0.4.2 
+[INFO] │   └─┬ xtend@2.1.2 
+[INFO] │     └── object-keys@0.4.0 
+[INFO] ├─┬ gulp-sass@2.0.2 
+[INFO] │ ├─┬ node-sass@3.13.1 
+[INFO] │ │ ├── async-foreach@0.1.3 
+[INFO] │ │ ├─┬ cross-spawn@3.0.1 
+[INFO] │ │ │ └─┬ lru-cache@4.1.5 
+[INFO] │ │ │   ├── pseudomap@1.0.2 
+[INFO] │ │ │   └── yallist@2.1.2 
+[INFO] │ │ ├─┬ gaze@1.1.3 
+[INFO] │ │ │ └─┬ globule@1.2.1 
+[INFO] │ │ │   └── lodash@4.17.15 
+[INFO] │ │ ├── get-stdin@4.0.1 
+[INFO] │ │ ├── glob@7.1.4 
+[INFO] │ │ ├── in-publish@2.0.0 
+[INFO] │ │ ├── lodash.assign@4.2.0 
+[INFO] │ │ ├── lodash.clonedeep@4.5.0 
+[INFO] │ │ ├─┬ meow@3.7.0 
+[INFO] │ │ │ ├─┬ camelcase-keys@2.1.0 
+[INFO] │ │ │ │ └── camelcase@2.1.1 
+[INFO] │ │ │ ├── decamelize@1.2.0 
+[INFO] │ │ │ ├─┬ loud-rejection@1.6.0 
+[INFO] │ │ │ │ └─┬ currently-unhandled@0.4.1 
+[INFO] │ │ │ │   └── array-find-index@1.0.2 
+[INFO] │ │ │ ├── map-obj@1.0.1 
+[INFO] │ │ │ ├── minimist@1.2.0 
+[INFO] │ │ │ ├─┬ normalize-package-data@2.5.0 
+[INFO] │ │ │ │ ├── hosted-git-info@2.8.4 
+[INFO] │ │ │ │ └─┬ validate-npm-package-license@3.0.4 
+[INFO] │ │ │ │   ├─┬ spdx-correct@3.1.0 
+[INFO] │ │ │ │   │ └── spdx-license-ids@3.0.5 
+[INFO] │ │ │ │   └─┬ spdx-expression-parse@3.0.0 
+[INFO] │ │ │ │     └── spdx-exceptions@2.2.0 
+[INFO] │ │ │ ├── object-assign@4.1.1 
+[INFO] │ │ │ ├─┬ read-pkg-up@1.0.1 
+[INFO] │ │ │ │ ├─┬ find-up@1.1.2 
+[INFO] │ │ │ │ │ ├── path-exists@2.1.0 
+[INFO] │ │ │ │ │ └─┬ pinkie-promise@2.0.1 
+[INFO] │ │ │ │ │   └── pinkie@2.0.4 
+[INFO] │ │ │ │ └─┬ read-pkg@1.1.0 
+[INFO] │ │ │ │   ├─┬ load-json-file@1.1.0 
+[INFO] │ │ │ │   │ ├── graceful-fs@4.2.2 
+[INFO] │ │ │ │   │ ├─┬ parse-json@2.2.0 
+[INFO] │ │ │ │   │ │ └─┬ error-ex@1.3.2 
+[INFO] │ │ │ │   │ │   └── is-arrayish@0.2.1 
+[INFO] │ │ │ │   │ ├── pify@2.3.0 
+[INFO] │ │ │ │   │ └── strip-bom@2.0.0 
+[INFO] │ │ │ │   └─┬ path-type@1.1.0 
+[INFO] │ │ │ │     └── graceful-fs@4.2.2 
+[INFO] │ │ │ ├─┬ redent@1.0.0 
+[INFO] │ │ │ │ ├─┬ indent-string@2.1.0 
+[INFO] │ │ │ │ │ └─┬ repeating@2.0.1 
+[INFO] │ │ │ │ │   └── is-finite@1.0.2 
+[INFO] │ │ │ │ └── strip-indent@1.0.1 
+[INFO] │ │ │ └── trim-newlines@1.0.0 
+[INFO] │ │ ├─┬ mkdirp@0.5.1 
+[INFO] │ │ │ └── minimist@0.0.8 
+[INFO] │ │ ├── nan@2.14.0 
+[INFO] │ │ ├─┬ node-gyp@3.8.0 
+[INFO] │ │ │ ├── glob@7.1.4 
+[INFO] │ │ │ ├── graceful-fs@4.2.2 
+[INFO] │ │ │ ├─┬ request@2.88.0 
+[INFO] │ │ │ │ ├── aws-sign2@0.7.0 
+[INFO] │ │ │ │ ├── caseless@0.12.0 
+[INFO] │ │ │ │ ├─┬ combined-stream@1.0.8 
+[INFO] │ │ │ │ │ └── delayed-stream@1.0.0 
+[INFO] │ │ │ │ ├── forever-agent@0.6.1 
+[INFO] │ │ │ │ ├── form-data@2.3.3 
+[INFO] │ │ │ │ ├─┬ http-signature@1.2.0 
+[INFO] │ │ │ │ │ └── assert-plus@1.0.0 
+[INFO] │ │ │ │ ├─┬ mime-types@2.1.24 
+[INFO] │ │ │ │ │ └── mime-db@1.40.0 
+[INFO] │ │ │ │ ├── oauth-sign@0.9.0 
+[INFO] │ │ │ │ ├── qs@6.5.2 
+[INFO] │ │ │ │ ├─┬ tough-cookie@2.4.3 
+[INFO] │ │ │ │ │ └── punycode@1.4.1 
+[INFO] │ │ │ │ ├── tunnel-agent@0.6.0 
+[INFO] │ │ │ │ └── uuid@3.3.2 
+[INFO] │ │ │ ├── semver@5.3.0 
+[INFO] │ │ │ └─┬ tar@2.2.2 
+[INFO] │ │ │   └── block-stream@0.0.9 
+[INFO] │ │ ├─┬ npmlog@4.1.2 
+[INFO] │ │ │ ├─┬ are-we-there-yet@1.1.5 
+[INFO] │ │ │ │ ├── delegates@1.0.0 
+[INFO] │ │ │ │ └─┬ readable-stream@2.3.6 
+[INFO] │ │ │ │   ├── isarray@1.0.0 
+[INFO] │ │ │ │   ├── safe-buffer@5.1.2 
+[INFO] │ │ │ │   └── string_decoder@1.1.1 
+[INFO] │ │ │ ├── console-control-strings@1.1.0 
+[INFO] │ │ │ ├─┬ gauge@2.7.4 
+[INFO] │ │ │ │ ├── aproba@1.2.0 
+[INFO] │ │ │ │ ├── has-unicode@2.0.1 
+[INFO] │ │ │ │ ├── object-assign@4.1.1 
+[INFO] │ │ │ │ ├─┬ string-width@1.0.2 
+[INFO] │ │ │ │ │ ├── code-point-at@1.1.0 
+[INFO] │ │ │ │ │ └─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │ │ │ │   └── number-is-nan@1.0.1 
+[INFO] │ │ │ │ └── wide-align@1.1.3 
+[INFO] │ │ │ └── set-blocking@2.0.0 
+[INFO] │ │ ├─┬ request@2.88.0 
+[INFO] │ │ │ ├── aws-sign2@0.7.0 
+[INFO] │ │ │ ├── aws4@1.8.0 
+[INFO] │ │ │ ├── caseless@0.12.0 
+[INFO] │ │ │ ├─┬ combined-stream@1.0.8 
+[INFO] │ │ │ │ └── delayed-stream@1.0.0 
+[INFO] │ │ │ ├── forever-agent@0.6.1 
+[INFO] │ │ │ ├─┬ form-data@2.3.3 
+[INFO] │ │ │ │ └── asynckit@0.4.0 
+[INFO] │ │ │ ├─┬ har-validator@5.1.3 
+[INFO] │ │ │ │ ├─┬ ajv@6.10.2 
+[INFO] │ │ │ │ │ ├── fast-deep-equal@2.0.1 
+[INFO] │ │ │ │ │ ├── fast-json-stable-stringify@2.0.0 
+[INFO] │ │ │ │ │ ├── json-schema-traverse@0.4.1 
+[INFO] │ │ │ │ │ └── uri-js@4.2.2 
+[INFO] │ │ │ │ └── har-schema@2.0.0 
+[INFO] │ │ │ ├─┬ http-signature@1.2.0 
+[INFO] │ │ │ │ ├── assert-plus@1.0.0 
+[INFO] │ │ │ │ ├─┬ jsprim@1.4.1 
+[INFO] │ │ │ │ │ ├── assert-plus@1.0.0 
+[INFO] │ │ │ │ │ ├── extsprintf@1.3.0 
+[INFO] │ │ │ │ │ ├── json-schema@0.2.3 
+[INFO] │ │ │ │ │ └─┬ verror@1.10.0 
+[INFO] │ │ │ │ │   └── assert-plus@1.0.0 
+[INFO] │ │ │ │ └─┬ sshpk@1.16.1 
+[INFO] │ │ │ │   ├── asn1@0.2.4 
+[INFO] │ │ │ │   ├── assert-plus@1.0.0 
+[INFO] │ │ │ │   ├── bcrypt-pbkdf@1.0.2 
+[INFO] │ │ │ │   ├─┬ dashdash@1.14.1 
+[INFO] │ │ │ │   │ └── assert-plus@1.0.0 
+[INFO] │ │ │ │   ├── ecc-jsbn@0.1.2 
+[INFO] │ │ │ │   ├─┬ getpass@0.1.7 
+[INFO] │ │ │ │   │ └── assert-plus@1.0.0 
+[INFO] │ │ │ │   ├── jsbn@0.1.1 
+[INFO] │ │ │ │   ├── safer-buffer@2.1.2 
+[INFO] │ │ │ │   └── tweetnacl@0.14.5 
+[INFO] │ │ │ ├── is-typedarray@1.0.0 
+[INFO] │ │ │ ├─┬ mime-types@2.1.24 
+[INFO] │ │ │ │ └── mime-db@1.40.0 
+[INFO] │ │ │ ├── oauth-sign@0.9.0 
+[INFO] │ │ │ ├── performance-now@2.1.0 
+[INFO] │ │ │ ├── qs@6.5.2 
+[INFO] │ │ │ ├── safe-buffer@5.2.0 
+[INFO] │ │ │ ├─┬ tough-cookie@2.4.3 
+[INFO] │ │ │ │ └── punycode@1.4.1 
+[INFO] │ │ │ ├── tunnel-agent@0.6.0 
+[INFO] │ │ │ └── uuid@3.3.2 
+[INFO] │ │ └─┬ sass-graph@2.2.4 
+[INFO] │ │   ├── glob@7.1.4 
+[INFO] │ │   ├── lodash@4.17.15 
+[INFO] │ │   ├─┬ scss-tokenizer@0.2.3 
+[INFO] │ │   │ ├── js-base64@2.5.1 
+[INFO] │ │   │ └── source-map@0.4.4 
+[INFO] │ │   └─┬ yargs@7.1.0 
+[INFO] │ │     ├── camelcase@3.0.0 
+[INFO] │ │     ├─┬ cliui@3.2.0 
+[INFO] │ │     │ └── wrap-ansi@2.1.0 
+[INFO] │ │     ├── get-caller-file@1.0.3 
+[INFO] │ │     ├─┬ os-locale@1.4.0 
+[INFO] │ │     │ └─┬ lcid@1.0.0 
+[INFO] │ │     │   └── invert-kv@1.0.0 
+[INFO] │ │     ├── require-directory@2.1.1 
+[INFO] │ │     ├── require-main-filename@1.0.1 
+[INFO] │ │     ├── which-module@1.0.0 
+[INFO] │ │     ├── y18n@3.2.1 
+[INFO] │ │     └─┬ yargs-parser@5.0.0 
+[INFO] │ │       └── camelcase@3.0.0 
+[INFO] │ └── through2@0.6.5 
+[INFO] ├─┬ gulp-uglify@1.2.0 
+[INFO] │ ├── deap@1.0.1 
+[INFO] │ ├── through2@0.6.5 
+[INFO] │ └─┬ uglify-js@2.4.19 
+[INFO] │   ├── source-map@0.1.34 
+[INFO] │   ├── uglify-to-browserify@1.0.2 
+[INFO] │   └─┬ yargs@3.5.4 
+[INFO] │     ├── camelcase@1.2.1 
+[INFO] │     ├── window-size@0.1.0 
+[INFO] │     └── wordwrap@0.0.2 
+[INFO] └─┬ gulp-useref@1.1.2 
+[INFO]   ├─┬ brace-expansion@1.1.11 
+[INFO]   │ ├── balanced-match@1.0.0 
+[INFO]   │ └── concat-map@0.0.1 
+[INFO]   ├─┬ gulp-if@1.2.5 
+[INFO]   │ ├─┬ gulp-match@0.2.1 
+[INFO]   │ │ └─┬ minimatch@1.0.0 
+[INFO]   │ │   └── sigmund@1.0.1 
+[INFO]   │ ├─┬ ternary-stream@1.2.3 
+[INFO]   │ │ ├── fork-stream@0.0.4 
+[INFO]   │ │ └── through2@0.6.5 
+[INFO]   │ └── through2@0.6.5 
+[INFO]   ├─┬ is-relative-url@1.0.0 
+[INFO]   │ └── is-absolute-url@1.0.0 
+[INFO]   ├── lodash@3.10.1 
+[INFO]   ├── node-useref@0.3.15 
+[INFO]   ├── through2@0.6.5 
+[INFO]   └─┬ vinyl-fs@1.0.0 
+[INFO]     ├─┬ duplexify@3.7.1 
+[INFO]     │ ├─┬ readable-stream@2.3.6 
+[INFO]     │ │ ├── isarray@1.0.0 
+[INFO]     │ │ ├── safe-buffer@5.1.2 
+[INFO]     │ │ └── string_decoder@1.1.1 
+[INFO]     │ └── stream-shift@1.0.0 
+[INFO]     ├─┬ glob-stream@4.1.1 
+[INFO]     │ ├── minimatch@2.0.10 
+[INFO]     │ └─┬ unique-stream@2.3.1 
+[INFO]     │   ├── json-stable-stringify-without-jsonify@1.0.1 
+[INFO]     │   └── through2-filter@3.0.0 
+[INFO]     ├── glob-watcher@0.0.8 
+[INFO]     └─┬ vinyl@0.4.6 
+[INFO]       └── clone@0.2.0 
+[INFO] 
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:bower (bower install) @ commafeed ---
+[INFO] Running 'bower install' in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[INFO] bower readabilicons#34c55561c5b8ec6e90714b50237c06b13cb9d59c           cached git://github.com/arc90/readability-readabilicons.git#34c55561c5
+[INFO] bower readabilicons#34c55561c5b8ec6e90714b50237c06b13cb9d59c         validate 34c55561c5 against git://github.com/arc90/readability-readabilicons.git#34c55561c5b8ec6e90714b50237c06b13cb9d59c
+[INFO] bower angular-ui-select2#0.0.5                                         cached https://github.com/angular-ui/ui-select2.git#0.0.5
+[INFO] bower angular-ui-select2#0.0.5                                       validate 0.0.5 against https://github.com/angular-ui/ui-select2.git#0.0.5
+[INFO] bower angular-route#1.3.14                                             cached https://github.com/angular/bower-angular-route.git#1.3.14
+[INFO] bower angular-route#1.3.14                                           validate 1.3.14 against https://github.com/angular/bower-angular-route.git#1.3.14
+[INFO] bower font-awesome#3.2.1                                               cached https://github.com/FortAwesome/Font-Awesome.git#3.2.1
+[INFO] bower font-awesome#3.2.1                                             validate 3.2.1 against https://github.com/FortAwesome/Font-Awesome.git#3.2.1
+[INFO] bower angular-ui-router#0.2.13                                         cached https://github.com/angular-ui/angular-ui-router-bower.git#0.2.13
+[INFO] bower angular-ui-router#0.2.13                                       validate 0.2.13 against https://github.com/angular-ui/angular-ui-router-bower.git#0.2.13
+[INFO] bower jquery-ui#1.10.3                                                 cached https://github.com/components/jqueryui.git#1.10.3
+[INFO] bower jquery-ui#1.10.3                                               validate 1.10.3 against https://github.com/components/jqueryui.git#1.10.3
+[INFO] bower jquery#2.1.3                                                     cached https://github.com/jquery/jquery-dist.git#2.1.3
+[INFO] bower jquery#2.1.3                                                   validate 2.1.3 against https://github.com/jquery/jquery-dist.git#2.1.3
+[INFO] bower angular-animate#1.3.14                                           cached https://github.com/angular/bower-angular-animate.git#1.3.14
+[INFO] bower angular-animate#1.3.14                                         validate 1.3.14 against https://github.com/angular/bower-angular-animate.git#1.3.14
+[INFO] bower angular-sanitize#1.3.14                                          cached https://github.com/angular/bower-angular-sanitize.git#1.3.14
+[INFO] bower angular-sanitize#1.3.14                                        validate 1.3.14 against https://github.com/angular/bower-angular-sanitize.git#1.3.14
+[INFO] bower angular-loading-bar#0.6.0                                        cached https://github.com/chieffancypants/angular-loading-bar.git#0.6.0
+[INFO] bower angular-loading-bar#0.6.0                                      validate 0.6.0 against https://github.com/chieffancypants/angular-loading-bar.git#0.6.0
+[INFO] bower angular-touch#1.3.14                                             cached https://github.com/angular/bower-angular-touch.git#1.3.14
+[INFO] bower angular-touch#1.3.14                                           validate 1.3.14 against https://github.com/angular/bower-angular-touch.git#1.3.14
+[INFO] bower jquery-mousewheel#3.1.12                                         cached https://github.com/jquery/jquery-mousewheel.git#3.1.12
+[INFO] bower jquery-mousewheel#3.1.12                                       validate 3.1.12 against https://github.com/jquery/jquery-mousewheel.git#3.1.12
+[INFO] bower ng-grid#2.0.6                                                    cached https://github.com/angular-ui/ng-grid.git#2.0.6
+[INFO] bower ng-grid#2.0.6                                                  validate 2.0.6 against https://github.com/angular-ui/ng-grid.git#2.0.6
+[INFO] bower mousetrap#1.4.6                                                  cached https://github.com/ccampbell/mousetrap.git#1.4.6
+[INFO] bower mousetrap#1.4.6                                                validate 1.4.6 against https://github.com/ccampbell/mousetrap.git#1.4.6
+[INFO] bower ngInfiniteScroll#1.0.0                                           cached https://github.com/ng-infinite-scroll/ng-infinite-scroll-bower.git#1.0.0
+[INFO] bower ngInfiniteScroll#1.0.0                                         validate 1.0.0 against https://github.com/ng-infinite-scroll/ng-infinite-scroll-bower.git#1.0.0
+[INFO] bower angular-bootstrap#0.2.0                                          cached https://github.com/angular-ui/bootstrap-bower.git#0.2.0
+[INFO] bower angular-bootstrap#0.2.0                                        validate 0.2.0 against https://github.com/angular-ui/bootstrap-bower.git#0.2.0
+[INFO] bower angular-translate#2.6.1                                          cached https://github.com/PascalPrecht/bower-angular-translate.git#2.6.1
+[INFO] bower angular-translate#2.6.1                                        validate 2.6.1 against https://github.com/PascalPrecht/bower-angular-translate.git#2.6.1
+[INFO] bower lodash#3.4.0                                                     cached https://github.com/lodash/lodash.git#3.4.0
+[INFO] bower lodash#3.4.0                                                   validate 3.4.0 against https://github.com/lodash/lodash.git#3.4.0
+[INFO] bower angular-translate-loader-static-files#2.6.1                      cached https://github.com/PascalPrecht/bower-angular-translate-loader-static-files.git#2.6.1
+[INFO] bower angular-translate-loader-static-files#2.6.1                    validate 2.6.1 against https://github.com/PascalPrecht/bower-angular-translate-loader-static-files.git#2.6.1
+[INFO] bower angular-ui-utils#0.1.0                                           cached https://github.com/angular-ui/ui-utils.git#0.1.0
+[INFO] bower angular-ui-utils#0.1.0                                         validate 0.1.0 against https://github.com/angular-ui/ui-utils.git#0.1.0
+[INFO] bower tinycon#0.6.5                                                    cached https://github.com/tommoor/tinycon.git#0.6.5
+[INFO] bower tinycon#0.6.5                                                  validate 0.6.5 against https://github.com/tommoor/tinycon.git#0.6.5
+[INFO] bower swagger-ui#2.1.0                                                 cached https://github.com/wordnik/swagger-ui.git#2.1.0
+[INFO] bower swagger-ui#2.1.0                                               validate 2.1.0 against https://github.com/wordnik/swagger-ui.git#2.1.0
+[INFO] bower angular-resource#1.3.14                                          cached https://github.com/angular/bower-angular-resource.git#1.3.14
+[INFO] bower angular-resource#1.3.14                                        validate 1.3.14 against https://github.com/angular/bower-angular-resource.git#1.3.14
+[INFO] bower angular#1.3.14                                                   cached https://github.com/angular/bower-angular.git#1.3.14
+[INFO] bower angular#1.3.14                                                 validate 1.3.14 against https://github.com/angular/bower-angular.git#1.3.14
+[INFO] bower bootstrap#3.3.2                                                  cached https://github.com/twbs/bootstrap.git#3.3.2
+[INFO] bower bootstrap#3.3.2                                                validate 3.3.2 against https://github.com/twbs/bootstrap.git#3.3.2
+[INFO] bower momentjs#2.9.0                                                   cached https://github.com/moment/moment.git#2.9.0
+[INFO] bower momentjs#2.9.0                                                 validate 2.9.0 against https://github.com/moment/moment.git#2.9.0
+[INFO] bower devicejs#0.2.4                                                   cached https://github.com/matthewhudson/device.js.git#0.2.4
+[INFO] bower devicejs#0.2.4                                                 validate 0.2.4 against https://github.com/matthewhudson/device.js.git#0.2.4
+[INFO] bower zocial-less#1.0.0                                                cached https://github.com/gustavohenke/zocial-less.git#1.0.0
+[INFO] bower zocial-less#1.0.0                                              validate 1.0.0 against https://github.com/gustavohenke/zocial-less.git#1.0.0
+[INFO] bower select2#~3.4                                                     cached https://github.com/ivaynberg/select2.git#3.4.8
+[INFO] bower select2#~3.4                                                   validate 3.4.8 against https://github.com/ivaynberg/select2.git#~3.4
+[ERROR] bower angular                                                extra-resolution Unnecessary resolution: angular#1.3.14
+[ERROR] bower angular-translate                                      extra-resolution Unnecessary resolution: angular-translate#2.6.1
+[INFO] bower readabilicons#34c55561c5b8ec6e90714b50237c06b13cb9d59c          install readabilicons#34c55561c5
+[INFO] bower jquery-ui#1.10.3                                                install jquery-ui#1.10.3
+[INFO] bower angular-ui-router#0.2.13                                        install angular-ui-router#0.2.13
+[INFO] bower angular-ui-select2#0.0.5                                        install angular-ui-select2#0.0.5
+[INFO] bower font-awesome#3.2.1                                              install font-awesome#3.2.1
+[INFO] bower jquery#2.1.3                                                    install jquery#2.1.3
+[INFO] bower angular-loading-bar#0.6.0                                       install angular-loading-bar#0.6.0
+[INFO] bower angular-animate#1.3.14                                          install angular-animate#1.3.14
+[INFO] bower angular-sanitize#1.3.14                                         install angular-sanitize#1.3.14
+[INFO] bower angular-route#1.3.14                                            install angular-route#1.3.14
+[INFO] bower jquery-mousewheel#3.1.12                                        install jquery-mousewheel#3.1.12
+[INFO] bower mousetrap#1.4.6                                                 install mousetrap#1.4.6
+[INFO] bower ng-grid#2.0.6                                                   install ng-grid#2.0.6
+[INFO] bower ngInfiniteScroll#1.0.0                                          install ngInfiniteScroll#1.0.0
+[INFO] bower angular-bootstrap#0.2.0                                         install angular-bootstrap#0.2.0
+[INFO] bower angular-translate#2.6.1                                         install angular-translate#2.6.1
+[INFO] bower angular-translate-loader-static-files#2.6.1                     install angular-translate-loader-static-files#2.6.1
+[INFO] bower angular-ui-utils#0.1.0                                          install angular-ui-utils#0.1.0
+[INFO] bower lodash#3.4.0                                                    install lodash#3.4.0
+[INFO] bower tinycon#0.6.5                                                   install tinycon#0.6.5
+[INFO] bower angular-touch#1.3.14                                            install angular-touch#1.3.14
+[INFO] bower swagger-ui#2.1.0                                                install swagger-ui#2.1.0
+[INFO] bower angular-resource#1.3.14                                         install angular-resource#1.3.14
+[INFO] bower devicejs#0.2.4                                                  install devicejs#0.2.4
+[INFO] bower momentjs#2.9.0                                                  install momentjs#2.9.0
+[INFO] bower bootstrap#3.3.2                                                 install bootstrap#3.3.2
+[INFO] bower zocial-less#1.0.0                                               install zocial-less#1.0.0
+[INFO] bower select2#~3.4                                                    install select2#3.4.8
+[INFO] bower angular#1.3.14                                                  install angular#1.3.14
+[INFO] 
+[INFO] readabilicons#34c55561c5 src/main/app/lib/readabilicons
+[INFO] 
+[INFO] jquery-ui#1.10.3 src/main/app/lib/jquery-ui
+[INFO] └── jquery#2.1.3
+[INFO] 
+[INFO] angular-ui-router#0.2.13 src/main/app/lib/angular-ui-router
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] angular-ui-select2#0.0.5 src/main/app/lib/angular-ui-select2
+[INFO] ├── angular#1.3.14
+[INFO] ├── jquery#2.1.3
+[INFO] └── select2#3.4.8
+[INFO] 
+[INFO] font-awesome#3.2.1 src/main/app/lib/font-awesome
+[INFO] 
+[INFO] jquery#2.1.3 src/main/app/lib/jquery
+[INFO] 
+[INFO] angular-loading-bar#0.6.0 src/main/app/lib/angular-loading-bar
+[INFO] 
+[INFO] angular-animate#1.3.14 src/main/app/lib/angular-animate
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] angular-sanitize#1.3.14 src/main/app/lib/angular-sanitize
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] angular-route#1.3.14 src/main/app/lib/angular-route
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] jquery-mousewheel#3.1.12 src/main/app/lib/jquery-mousewheel
+[INFO] └── jquery#2.1.3
+[INFO] 
+[INFO] mousetrap#1.4.6 src/main/app/lib/mousetrap
+[INFO] 
+[INFO] ng-grid#2.0.6 src/main/app/lib/ng-grid
+[INFO] 
+[INFO] ngInfiniteScroll#1.0.0 src/main/app/lib/ngInfiniteScroll
+[INFO] 
+[INFO] angular-bootstrap#0.2.0 src/main/app/lib/angular-bootstrap
+[INFO] 
+[INFO] angular-translate#2.6.1 src/main/app/lib/angular-translate
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] angular-translate-loader-static-files#2.6.1 src/main/app/lib/angular-translate-loader-static-files
+[INFO] └── angular-translate#2.6.1
+[INFO] 
+[INFO] angular-ui-utils#0.1.0 src/main/app/lib/angular-ui-utils
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] lodash#3.4.0 src/main/app/lib/lodash
+[INFO] 
+[INFO] tinycon#0.6.5 src/main/app/lib/tinycon
+[INFO] 
+[INFO] angular-touch#1.3.14 src/main/app/lib/angular-touch
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] swagger-ui#2.1.0 src/main/app/lib/swagger-ui
+[INFO] 
+[INFO] angular-resource#1.3.14 src/main/app/lib/angular-resource
+[INFO] └── angular#1.3.14
+[INFO] 
+[INFO] devicejs#0.2.4 src/main/app/lib/devicejs
+[INFO] 
+[INFO] momentjs#2.9.0 src/main/app/lib/momentjs
+[INFO] 
+[INFO] bootstrap#3.3.2 src/main/app/lib/bootstrap
+[INFO] └── jquery#2.1.3
+[INFO] 
+[INFO] zocial-less#1.0.0 src/main/app/lib/zocial-less
+[INFO] 
+[INFO] select2#3.4.8 src/main/app/lib/select2
+[INFO] └── jquery#2.1.3
+[INFO] 
+[INFO] angular#1.3.14 src/main/app/lib/angular
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:gulp (gulp build) @ commafeed ---
+[INFO] Running 'gulp ' in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[INFO] [19:11:57] Using gulpfile ~/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/gulpfile.js
+[INFO] [19:11:57] Starting 'images'...
+[INFO] [19:11:57] Starting 'i18n'...
+[INFO] [19:11:57] Starting 'resources'...
+[INFO] [19:11:57] Starting 'sass'...
+[INFO] [19:11:57] Starting 'fonts'...
+[INFO] [19:11:57] Starting 'select2'...
+[INFO] [19:11:57] Starting 'swagger-ui'...
+[INFO] [19:11:57] Starting 'template-cache'...
+[INFO] [19:11:57] Finished 'images' after 61 ms
+[INFO] [19:11:57] Finished 'select2' after 63 ms
+[INFO] [19:11:57] Finished 'sass' after 72 ms
+[INFO] [19:11:57] Finished 'fonts' after 79 ms
+[INFO] [19:11:57] Finished 'template-cache' after 85 ms
+[INFO] [19:11:57] Finished 'resources' after 92 ms
+[INFO] [19:11:57] Finished 'i18n' after 98 ms
+[INFO] [19:11:57] Finished 'swagger-ui' after 96 ms
+[INFO] [19:11:57] Starting 'build'...
+[INFO] [19:12:10] Finished 'build' after 12 s
+[INFO] [19:12:10] Starting 'default'...
+[INFO] [19:12:10] Finished 'default' after 3.45 μs
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commafeed ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commafeed ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ commafeed ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.commafeed.backend.opml.OPMLImporterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.63 sec
+Running com.commafeed.backend.opml.OPMLExporterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec
+Running com.commafeed.backend.service.FeedEntryFilteringServiceTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.607 sec
+Running com.commafeed.backend.service.UserServiceTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 sec
+Running com.commafeed.backend.FixedSizeSortedSetTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running com.commafeed.backend.feed.FeedUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.commafeed.backend.feed.EstimateDirectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.commafeed.frontend.resource.UserRestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec
+Running com.commafeed.frontend.auth.SecurityCheckFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.commafeed.frontend.session.SessionHelperTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+
+Results :
+
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:09 min
+[INFO] Finished at: 2019-08-14T19:12:12+08:00
+[INFO] ------------------------------------------------------------------------

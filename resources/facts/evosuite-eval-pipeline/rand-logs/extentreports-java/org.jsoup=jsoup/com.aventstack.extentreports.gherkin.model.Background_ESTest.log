@@ -1,0 +1,25 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/extentreports-java/org.jsoup=jsoup/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/extentreports-java/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/extentreports-java/org.jsoup=jsoup/jsoup-1.12.1.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.aventstack.extentreports.gherkin.model.Background_ESTestJUnit version 4.12
+22:24:22.592 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Background_ESTest
+22:24:22.595 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Background_ESTest'.
+22:24:22.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Background_ESTest_scaffolding
+22:24:22.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Background_ESTest_scaffolding'.
+22:24:22.661 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Background_ESTest_scaffolding
+22:24:22.661 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Background_ESTest
+22:24:22.740 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:24:22.740 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:24:22.740 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:24:22.740 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:24:22.740 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:24:22.759 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel
+22:24:22.760 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel'.
+22:24:22.799 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel
+22:24:22.800 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Background
+22:24:22.800 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Background'.
+22:24:22.801 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/Background
+22:24:22.853 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/Background
+22:24:22.853 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Background
+.
+Time: 0.179
+
+OK (1 test)
+

@@ -1,0 +1,441 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/closure-templates/args4j=args4j/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/closure-templates/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/closure-templates/args4j=args4j/args4j-2.33.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTestJUnit version 4.11
+22:00:04.094 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTest
+22:00:04.097 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTest'.
+22:00:04.148 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTest_scaffolding
+22:00:04.148 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTest_scaffolding'.
+22:00:04.151 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTest_scaffolding
+22:00:04.151 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_StatementList_ESTest
+22:00:04.219 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:00:04.219 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:00:04.220 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:00:04.220 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:00:04.220 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:00:04.241 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$SubList
+22:00:04.241 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$SubList'.
+22:00:04.247 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$SubList
+22:00:04.334 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList$SubList
+22:00:04.335 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.collect, 173171663
+22:00:04.335 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList
+22:00:04.335 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList'.
+22:00:04.337 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList
+22:00:04.345 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList
+22:00:04.346 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection
+22:00:04.346 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableCollection'.
+22:00:04.346 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableCollection
+22:00:04.348 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableCollection
+22:00:04.348 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SPLITERATOR_CHARACTERISTICS
+22:00:04.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableCollection
+22:00:04.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList
+22:00:04.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$SubList
+22:00:04.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.RegularImmutableAsList
+22:00:04.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.RegularImmutableAsList'.
+22:00:04.350 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/RegularImmutableAsList
+22:00:04.350 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/RegularImmutableAsList
+22:00:04.351 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableAsList
+22:00:04.351 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableAsList'.
+22:00:04.351 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableAsList
+22:00:04.352 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableAsList
+22:00:04.352 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableAsList
+22:00:04.352 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.RegularImmutableAsList
+22:00:04.352 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.SingletonImmutableList
+22:00:04.352 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.SingletonImmutableList'.
+22:00:04.352 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/SingletonImmutableList
+22:00:04.355 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/SingletonImmutableList
+22:00:04.355 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.SingletonImmutableList
+22:00:04.355 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.RegularImmutableList
+22:00:04.355 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.RegularImmutableList'.
+22:00:04.355 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/RegularImmutableList
+22:00:04.356 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/RegularImmutableList
+22:00:04.356 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.RegularImmutableList
+22:00:04.357 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.UnmodifiableIterator
+22:00:04.357 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.UnmodifiableIterator'.
+22:00:04.357 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/UnmodifiableIterator
+22:00:04.357 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/UnmodifiableIterator
+22:00:04.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.UnmodifiableIterator
+22:00:04.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.UnmodifiableListIterator
+22:00:04.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.UnmodifiableListIterator'.
+22:00:04.358 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/UnmodifiableListIterator
+22:00:04.358 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/UnmodifiableListIterator
+22:00:04.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.UnmodifiableListIterator
+22:00:04.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$ReverseImmutableList
+22:00:04.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$ReverseImmutableList'.
+22:00:04.359 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$ReverseImmutableList
+22:00:04.360 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList$ReverseImmutableList
+22:00:04.360 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$ReverseImmutableList
+22:00:04.360 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$1
+22:00:04.360 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$1'.
+22:00:04.361 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$1
+22:00:04.361 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.AbstractIndexedListIterator
+22:00:04.361 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.AbstractIndexedListIterator'.
+22:00:04.362 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/AbstractIndexedListIterator
+22:00:04.363 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/AbstractIndexedListIterator
+22:00:04.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.AbstractIndexedListIterator
+22:00:04.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$1
+22:00:04.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.New
+22:00:04.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.New'.
+22:00:04.364 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/New
+22:00:04.364 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/New
+22:00:04.364 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Operation
+22:00:04.364 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Operation'.
+22:00:04.365 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Operation
+22:00:04.365 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Operation
+22:00:04.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.CodeChunk$WithValue
+22:00:04.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.CodeChunk$WithValue'.
+22:00:04.366 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/CodeChunk$WithValue
+22:00:04.372 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/CodeChunk$WithValue
+22:00:04.372 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.CodeChunk
+22:00:04.372 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.CodeChunk'.
+22:00:04.373 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/CodeChunk
+22:00:04.377 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/jssrc/dsl/CodeChunk
+22:00:04.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.CodeChunk
+22:00:04.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.CodeChunk$WithValue
+22:00:04.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Operation
+22:00:04.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.New
+22:00:04.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Leaf
+22:00:04.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Leaf'.
+22:00:04.378 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Leaf
+22:00:04.378 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Leaf
+22:00:04.378 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Leaf
+22:00:04.378 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.PrefixUnaryOperation
+22:00:04.378 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.PrefixUnaryOperation'.
+22:00:04.379 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/PrefixUnaryOperation
+22:00:04.379 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/PrefixUnaryOperation
+22:00:04.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.PrefixUnaryOperation
+22:00:04.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Assignment
+22:00:04.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Assignment'.
+22:00:04.380 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Assignment
+22:00:04.380 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Assignment
+22:00:04.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Assignment
+22:00:04.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.StatementList
+22:00:04.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.StatementList'.
+22:00:04.381 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/StatementList
+22:00:04.381 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/jssrc/dsl/StatementList
+22:00:04.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.StatementList
+22:00:04.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.ArrayLiteral
+22:00:04.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.ArrayLiteral'.
+22:00:04.382 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/ArrayLiteral
+22:00:04.382 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/ArrayLiteral
+22:00:04.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.ArrayLiteral
+22:00:04.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.MapLiteral
+22:00:04.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.MapLiteral'.
+22:00:04.383 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/MapLiteral
+22:00:04.384 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/MapLiteral
+22:00:04.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.MapLiteral
+22:00:04.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.For
+22:00:04.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.For'.
+22:00:04.385 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/For
+22:00:04.386 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/For
+22:00:04.387 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.For
+22:00:04.387 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Return
+22:00:04.387 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Return'.
+22:00:04.387 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Return
+22:00:04.388 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Return
+22:00:04.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Return
+22:00:04.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Throw
+22:00:04.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Throw'.
+22:00:04.388 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Throw
+22:00:04.388 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Throw
+22:00:04.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Throw
+22:00:04.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Group
+22:00:04.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Group'.
+22:00:04.389 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Group
+22:00:04.389 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Group
+22:00:04.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Group
+22:00:04.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.LeafStatement
+22:00:04.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.LeafStatement'.
+22:00:04.390 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/LeafStatement
+22:00:04.390 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/LeafStatement
+22:00:04.390 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.LeafStatement
+22:00:04.391 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.CodeChunk$RequiresCollector
+22:00:04.391 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.CodeChunk$RequiresCollector'.
+22:00:04.391 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.CodeChunk$RequiresCollector
+22:00:04.391 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.FunctionDeclaration
+22:00:04.391 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.FunctionDeclaration'.
+22:00:04.392 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/FunctionDeclaration
+22:00:04.392 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/FunctionDeclaration
+22:00:04.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.FunctionDeclaration
+22:00:04.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.BinaryOperation
+22:00:04.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.BinaryOperation'.
+22:00:04.393 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/BinaryOperation
+22:00:04.394 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/BinaryOperation
+22:00:04.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.BinaryOperation
+22:00:04.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Dot
+22:00:04.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Dot'.
+22:00:04.394 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Dot
+22:00:04.395 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Dot
+22:00:04.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Dot
+22:00:04.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Bracket
+22:00:04.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Bracket'.
+22:00:04.395 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Bracket
+22:00:04.395 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Bracket
+22:00:04.396 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Bracket
+22:00:04.396 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Call
+22:00:04.396 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Call'.
+22:00:04.396 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Call
+22:00:04.396 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Call
+22:00:04.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Call
+22:00:04.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Composite
+22:00:04.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Composite'.
+22:00:04.397 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Composite
+22:00:04.398 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Composite
+22:00:04.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Composite
+22:00:04.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_New
+22:00:04.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_New'.
+22:00:04.398 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_New
+22:00:04.399 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_New
+22:00:04.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_New
+22:00:04.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.CodeChunkUtils
+22:00:04.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.CodeChunkUtils'.
+22:00:04.400 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/CodeChunkUtils
+22:00:04.401 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/jssrc/dsl/CodeChunkUtils
+22:00:04.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.CodeChunkUtils
+22:00:04.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.Concatenation
+22:00:04.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.Concatenation'.
+22:00:04.402 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/Concatenation
+22:00:04.403 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/Concatenation
+22:00:04.403 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.Concatenation
+22:00:04.403 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Leaf
+22:00:04.403 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Leaf'.
+22:00:04.403 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Leaf
+22:00:04.405 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Leaf
+22:00:04.405 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Leaf
+22:00:04.405 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.restricted.JsExpr
+22:00:04.405 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.restricted.JsExpr'.
+22:00:04.405 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/restricted/JsExpr
+22:00:04.405 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/restricted/JsExpr
+22:00:04.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.template.soy.jssrc.restricted, -889931605
+22:00:04.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.internal.targetexpr.TargetExpr
+22:00:04.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.internal.targetexpr.TargetExpr'.
+22:00:04.406 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/internal/targetexpr/TargetExpr
+22:00:04.406 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/internal/targetexpr/TargetExpr
+22:00:04.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.template.soy.internal.targetexpr, -297635526
+22:00:04.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.internal.targetexpr.TargetExpr
+22:00:04.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.restricted.JsExpr
+22:00:04.407 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSet
+22:00:04.407 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSet'.
+22:00:04.407 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSet
+22:00:04.408 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSet
+22:00:04.409 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SPLITERATOR_CHARACTERISTICS
+22:00:04.409 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_TABLE_SIZE
+22:00:04.409 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DESIRED_LOAD_FACTOR
+22:00:04.409 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field CUTOFF
+22:00:04.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSet
+22:00:04.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.SingletonImmutableSet
+22:00:04.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.SingletonImmutableSet'.
+22:00:04.409 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/SingletonImmutableSet
+22:00:04.410 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/SingletonImmutableSet
+22:00:04.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.SingletonImmutableSet
+22:00:04.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.RegularImmutableSet
+22:00:04.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.RegularImmutableSet'.
+22:00:04.411 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/RegularImmutableSet
+22:00:04.413 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/RegularImmutableSet
+22:00:04.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSet$Indexed
+22:00:04.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSet$Indexed'.
+22:00:04.413 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSet$Indexed
+22:00:04.414 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSet$Indexed
+22:00:04.414 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSet$Indexed
+22:00:04.414 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.RegularImmutableSet
+22:00:04.414 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSet$Indexed$1
+22:00:04.414 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSet$Indexed$1'.
+22:00:04.414 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSet$Indexed$1
+22:00:04.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSet$Indexed$1
+22:00:04.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ObjectArrays
+22:00:04.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ObjectArrays'.
+22:00:04.415 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ObjectArrays
+22:00:04.417 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/ObjectArrays
+22:00:04.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ObjectArrays
+22:00:04.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSortedSet
+22:00:04.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSortedSet'.
+22:00:04.418 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSortedSet
+22:00:04.419 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSortedSet
+22:00:04.419 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SPLITERATOR_CHARACTERISTICS
+22:00:04.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.SortedIterable
+22:00:04.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.SortedIterable'.
+22:00:04.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.SortedIterable
+22:00:04.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSortedSetFauxverideShim
+22:00:04.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSortedSetFauxverideShim'.
+22:00:04.421 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSortedSetFauxverideShim
+22:00:04.421 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSortedSetFauxverideShim
+22:00:04.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSortedSetFauxverideShim
+22:00:04.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSortedSet
+22:00:04.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_PrefixUnaryOperation
+22:00:04.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_PrefixUnaryOperation'.
+22:00:04.422 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_PrefixUnaryOperation
+22:00:04.423 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_PrefixUnaryOperation
+22:00:04.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_PrefixUnaryOperation
+22:00:04.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Composite
+22:00:04.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Composite'.
+22:00:04.424 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Composite
+22:00:04.425 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Composite
+22:00:04.425 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Composite
+22:00:04.426 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Concatenation
+22:00:04.426 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Concatenation'.
+22:00:04.426 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Concatenation
+22:00:04.427 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Concatenation
+22:00:04.427 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Concatenation
+22:00:04.429 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_FunctionDeclaration
+22:00:04.429 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_FunctionDeclaration'.
+22:00:04.429 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_FunctionDeclaration
+22:00:04.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_FunctionDeclaration
+22:00:04.430 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_FunctionDeclaration
+22:00:04.431 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Throw
+22:00:04.431 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Throw'.
+22:00:04.431 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Throw
+22:00:04.432 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Throw
+22:00:04.432 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Throw
+22:00:04.432 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Call
+22:00:04.432 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Call'.
+22:00:04.433 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Call
+22:00:04.434 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Call
+22:00:04.434 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Call
+22:00:04.434 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_StatementList
+22:00:04.434 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_StatementList'.
+22:00:04.435 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_StatementList
+22:00:04.435 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_StatementList
+22:00:04.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_StatementList
+22:00:04.436 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Return
+22:00:04.436 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Return'.
+22:00:04.436 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Return
+22:00:04.437 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Return
+22:00:04.437 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Return
+22:00:04.437 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_LeafStatement
+22:00:04.437 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_LeafStatement'.
+22:00:04.438 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_LeafStatement
+22:00:04.439 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_LeafStatement
+22:00:04.439 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_LeafStatement
+22:00:04.439 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Bracket
+22:00:04.439 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Bracket'.
+22:00:04.439 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Bracket
+22:00:04.440 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Bracket
+22:00:04.440 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Bracket
+22:00:04.441 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.CodeChunk$RequiresCollector$1
+22:00:04.441 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.CodeChunk$RequiresCollector$1'.
+22:00:04.441 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/CodeChunk$RequiresCollector$1
+22:00:04.441 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.CodeChunk$RequiresCollector$1
+22:00:04.442 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_BinaryOperation
+22:00:04.442 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_BinaryOperation'.
+22:00:04.442 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_BinaryOperation
+22:00:04.443 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_BinaryOperation
+22:00:04.444 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_BinaryOperation
+22:00:04.444 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Assignment
+22:00:04.444 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Assignment'.
+22:00:04.444 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Assignment
+22:00:04.445 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Assignment
+22:00:04.445 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Assignment
+22:00:04.446 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_For
+22:00:04.446 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_For'.
+22:00:04.446 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_For
+22:00:04.447 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_For
+22:00:04.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_For
+22:00:04.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Dot
+22:00:04.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Dot'.
+22:00:04.447 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Dot
+22:00:04.448 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Dot
+22:00:04.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Dot
+22:00:04.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.RegularImmutableSortedSet
+22:00:04.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.RegularImmutableSortedSet'.
+22:00:04.449 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/RegularImmutableSortedSet
+22:00:04.452 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/RegularImmutableSortedSet
+22:00:04.453 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.RegularImmutableSortedSet
+22:00:04.453 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.DescendingImmutableSortedSet
+22:00:04.453 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.DescendingImmutableSortedSet'.
+22:00:04.453 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/DescendingImmutableSortedSet
+22:00:04.454 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/DescendingImmutableSortedSet
+22:00:04.454 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.DescendingImmutableSortedSet
+22:00:04.455 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_Group
+22:00:04.455 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_Group'.
+22:00:04.455 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_Group
+22:00:04.456 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_Group
+22:00:04.456 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_Group
+22:00:04.456 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_ArrayLiteral
+22:00:04.456 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_ArrayLiteral'.
+22:00:04.456 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_ArrayLiteral
+22:00:04.457 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_ArrayLiteral
+22:00:04.457 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_ArrayLiteral
+22:00:04.458 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.AutoValue_MapLiteral
+22:00:04.458 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.AutoValue_MapLiteral'.
+22:00:04.458 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/AutoValue_MapLiteral
+22:00:04.459 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/AutoValue_MapLiteral
+22:00:04.459 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.AutoValue_MapLiteral
+22:00:04.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.exprtree.Operator$Associativity
+22:00:04.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.exprtree.Operator$Associativity'.
+22:00:04.460 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/exprtree/Operator$Associativity
+22:00:04.460 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/exprtree/Operator$Associativity
+22:00:04.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.template.soy.exprtree, 1944618128
+22:00:04.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.exprtree.Operator$Associativity
+22:00:04.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.FormattingContext
+22:00:04.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.FormattingContext'.
+22:00:04.461 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/FormattingContext
+22:00:04.461 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/FormattingContext
+22:00:04.461 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.FormattingContext
+22:00:04.461 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.exprtree.Operator
+22:00:04.461 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.exprtree.Operator'.
+22:00:04.462 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/exprtree/Operator
+22:00:04.463 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/exprtree/Operator
+22:00:04.464 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.exprtree.Operator
+22:00:04.464 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSet$Builder
+22:00:04.464 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSet$Builder'.
+22:00:04.465 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSet$Builder
+22:00:04.465 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSet$Builder
+22:00:04.465 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$ArrayBasedBuilder
+22:00:04.465 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableCollection$ArrayBasedBuilder'.
+22:00:04.465 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableCollection$ArrayBasedBuilder
+22:00:04.466 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableCollection$ArrayBasedBuilder
+22:00:04.466 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$Builder
+22:00:04.466 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableCollection$Builder'.
+22:00:04.466 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableCollection$Builder
+22:00:04.467 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableCollection$Builder
+22:00:04.467 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_INITIAL_CAPACITY
+22:00:04.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableCollection$Builder
+22:00:04.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableCollection$ArrayBasedBuilder
+22:00:04.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSet$Builder
+22:00:04.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.CodeChunk$Generator
+22:00:04.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.CodeChunk$Generator'.
+22:00:04.468 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/CodeChunk$Generator
+22:00:04.468 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/CodeChunk$Generator
+22:00:04.468 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.CodeChunk$Generator
+22:00:04.468 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.OperandPosition
+22:00:04.468 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.OperandPosition'.
+22:00:04.468 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/OperandPosition
+22:00:04.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/jssrc/dsl/OperandPosition
+22:00:04.469 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.OperandPosition
+22:00:04.469 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.ConditionalBuilder
+22:00:04.469 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.ConditionalBuilder'.
+22:00:04.469 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/ConditionalBuilder
+22:00:04.470 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/ConditionalBuilder
+22:00:04.470 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.ConditionalBuilder
+22:00:04.470 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.ConditionalExpressionBuilder
+22:00:04.470 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.ConditionalExpressionBuilder'.
+22:00:04.470 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/ConditionalExpressionBuilder
+22:00:04.471 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/ConditionalExpressionBuilder
+22:00:04.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.ConditionalExpressionBuilder
+22:00:04.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.SwitchBuilder
+22:00:04.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.SwitchBuilder'.
+22:00:04.471 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/SwitchBuilder
+22:00:04.471 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/jssrc/dsl/SwitchBuilder
+22:00:04.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.SwitchBuilder
+22:00:04.472 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.jssrc.dsl.GoogRequire
+22:00:04.472 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.jssrc.dsl.GoogRequire'.
+22:00:04.472 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/jssrc/dsl/GoogRequire
+22:00:04.472 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/jssrc/dsl/GoogRequire
+22:00:04.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.jssrc.dsl.GoogRequire
+22:00:04.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$Builder
+22:00:04.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$Builder'.
+22:00:04.473 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$Builder
+22:00:04.474 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList$Builder
+22:00:04.474 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$Builder
+22:00:04.474 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSortedSet$Builder
+22:00:04.474 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSortedSet$Builder'.
+22:00:04.474 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSortedSet$Builder
+22:00:04.475 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSortedSet$Builder
+22:00:04.475 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSortedSet$Builder
+.22:00:04.480 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableSet$SerializedForm
+22:00:04.480 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableSet$SerializedForm'.
+22:00:04.481 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableSet$SerializedForm
+22:00:04.481 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableSet$SerializedForm
+22:00:04.481 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableSet$SerializedForm
+
+Time: 0.321
+
+OK (1 test)
+

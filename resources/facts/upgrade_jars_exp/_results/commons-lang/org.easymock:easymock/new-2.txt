@@ -1,0 +1,105 @@
+[VERSION]: 4.0.2
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-lang3 >------------------
+[INFO] Building Apache Commons Lang 3.8
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-lang3 ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:list (default-cli) @ commons-lang3 ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:test
+[INFO]    org.apache.commons:commons-math3:jar:3.2:test
+[INFO]    org.hamcrest:hamcrest-all:jar:1.3:test
+[INFO]    org.easymock:easymock:jar:4.0.2:test
+[INFO]    org.openjdk.jmh:jmh-core:jar:1.21:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.objenesis:objenesis:jar:3.0.1:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-lang3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd '/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang
+[INFO] Storing buildNumber: 9801e2fb9fcbf7ddd19221e9342608940d778f8c at timestamp: 1566303637366
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 153 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/main/java/org/apache/commons/lang3/text/StrBuilder.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/main/java/org/apache/commons/lang3/text/StrBuilder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.0:manifest (bundle-manifest) @ commons-lang3 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 174 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java:[144,60] incompatible types: java.lang.Object cannot be converted to java.beans.VetoableChangeListener
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java:[120,55] incompatible types: java.lang.Object cannot be converted to java.util.concurrent.ThreadFactory
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.332 s
+[INFO] Finished at: 2019-08-20T20:20:44+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project commons-lang3: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java:[144,60] incompatible types: java.lang.Object cannot be converted to java.beans.VetoableChangeListener
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java:[120,55] incompatible types: java.lang.Object cannot be converted to java.util.concurrent.ThreadFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

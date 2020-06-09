@@ -1,0 +1,71 @@
+[VERSION]: 4.13-beta-3
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.neovisionaries:nv-websocket-client:bundle:2.4
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 73, column 29
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 76, column 40
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ---------------< com.neovisionaries:nv-websocket-client >---------------
+[INFO] Building com.neovisionaries:nv-websocket-client 2.4
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ nv-websocket-client ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/nv-websocket-client/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ nv-websocket-client ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    junit:junit:jar:4.13-beta-3:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ nv-websocket-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/nv-websocket-client/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ nv-websocket-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/nv-websocket-client/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ nv-websocket-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/nv-websocket-client/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ nv-websocket-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/nv-websocket-client/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M3:test (default-test) @ nv-websocket-client ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.neovisionaries.ws.client.WebSocketExtensionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.neovisionaries.ws.client.WebSocketExtensionTest
+[INFO] Running com.neovisionaries.ws.client.MiscTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.neovisionaries.ws.client.MiscTest
+[INFO] Running com.neovisionaries.ws.client.PerMessageDeflateExtensionTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.neovisionaries.ws.client.PerMessageDeflateExtensionTest
+[INFO] Running com.neovisionaries.ws.client.WebSocketFrameTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.neovisionaries.ws.client.WebSocketFrameTest
+[INFO] Running com.neovisionaries.ws.client.TokenTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.neovisionaries.ws.client.TokenTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 73, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.808 s
+[INFO] Finished at: 2019-08-20T18:00:54+08:00
+[INFO] ------------------------------------------------------------------------

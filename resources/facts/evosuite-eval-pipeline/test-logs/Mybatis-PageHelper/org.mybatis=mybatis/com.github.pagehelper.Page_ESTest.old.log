@@ -1,0 +1,472 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/Mybatis-PageHelper/org.mybatis=mybatis/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/Mybatis-PageHelper/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/Mybatis-PageHelper/org.mybatis=mybatis/mybatis-3.4.4.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.github.pagehelper.Page_ESTestJUnit version 4.12
+18:07:56.348 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.Page_ESTest
+18:07:56.350 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.Page_ESTest'.
+18:07:56.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.Page_ESTest_scaffolding
+18:07:56.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.Page_ESTest_scaffolding'.
+18:07:56.425 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.Page_ESTest_scaffolding
+18:07:56.425 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.Page_ESTest
+18:07:56.515 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:07:56.515 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:07:56.515 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:07:56.515 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:07:56.515 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:07:56.536 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.binding.MapperRegistry
+18:07:56.536 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.binding.MapperRegistry'.
+18:07:56.542 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/binding/MapperRegistry
+18:07:56.626 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/binding/MapperRegistry
+18:07:56.627 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.binding, 1279797987
+18:07:56.627 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.binding.MapperRegistry
+18:07:56.627 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.binding.BindingException
+18:07:56.627 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.binding.BindingException'.
+18:07:56.628 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/binding/BindingException
+18:07:56.629 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/binding/BindingException
+18:07:56.629 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.exceptions.PersistenceException
+18:07:56.629 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.exceptions.PersistenceException'.
+18:07:56.629 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/exceptions/PersistenceException
+18:07:56.630 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/exceptions/PersistenceException
+18:07:56.630 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.exceptions, 1503131878
+18:07:56.630 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.exceptions.IbatisException
+18:07:56.630 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.exceptions.IbatisException'.
+18:07:56.630 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/exceptions/IbatisException
+18:07:56.631 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/exceptions/IbatisException
+18:07:56.631 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.exceptions.IbatisException
+18:07:56.631 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.exceptions.PersistenceException
+18:07:56.631 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.binding.BindingException
+18:07:56.631 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.io.ResolverUtil$Test
+18:07:56.631 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.io.ResolverUtil$Test'.
+18:07:56.632 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.io, 1665388040
+18:07:56.632 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.io.ResolverUtil$Test
+18:07:56.632 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.BatchExecutor
+18:07:56.632 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.BatchExecutor'.
+18:07:56.633 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/BatchExecutor
+18:07:56.635 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/BatchExecutor
+18:07:56.635 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BATCH_UPDATE_RETURN_VALUE
+18:07:56.635 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.executor, 2121926709
+18:07:56.635 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.BaseExecutor
+18:07:56.635 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.BaseExecutor'.
+18:07:56.636 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/BaseExecutor
+18:07:56.639 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/executor/BaseExecutor
+18:07:56.640 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.Executor
+18:07:56.640 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.Executor'.
+18:07:56.641 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.Executor
+18:07:56.641 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.BaseExecutor
+18:07:56.641 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.BatchExecutor
+18:07:56.641 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.ExecutorException
+18:07:56.641 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.ExecutorException'.
+18:07:56.641 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/ExecutorException
+18:07:56.642 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/ExecutorException
+18:07:56.642 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.ExecutorException
+18:07:56.643 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.BatchExecutorException
+18:07:56.643 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.BatchExecutorException'.
+18:07:56.643 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/BatchExecutorException
+18:07:56.644 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/BatchExecutorException
+18:07:56.644 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.BatchExecutorException
+18:07:56.644 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory
+18:07:56.644 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory'.
+18:07:56.645 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory
+18:07:56.645 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/logging/LogFactory
+18:07:56.645 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.logging, 1730299837
+18:07:56.646 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory
+18:07:56.646 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogException
+18:07:56.646 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogException'.
+18:07:56.646 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogException
+18:07:56.646 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/logging/LogException
+18:07:56.647 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogException
+18:07:56.647 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory$1
+18:07:56.647 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory$1'.
+18:07:56.647 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory$1
+18:07:56.647 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory$1
+18:07:56.648 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.slf4j.Slf4jImpl
+18:07:56.648 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.slf4j.Slf4jImpl'.
+18:07:56.648 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/slf4j/Slf4jImpl
+18:07:56.653 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/logging/slf4j/Slf4jImpl
+18:07:56.653 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.logging.slf4j, 1125179186
+18:07:56.653 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.Log
+18:07:56.653 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.Log'.
+18:07:56.654 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.Log
+18:07:56.654 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.slf4j.Slf4jImpl
+18:07:56.655 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.slf4j.Slf4jLocationAwareLoggerImpl
+18:07:56.655 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.slf4j.Slf4jLocationAwareLoggerImpl'.
+18:07:56.655 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/slf4j/Slf4jLocationAwareLoggerImpl
+18:07:56.656 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/logging/slf4j/Slf4jLocationAwareLoggerImpl
+18:07:56.657 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.slf4j.Slf4jLocationAwareLoggerImpl
+18:07:56.659 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+18:07:56.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory$2
+18:07:56.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory$2'.
+18:07:56.659 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory$2
+18:07:56.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory$2
+18:07:56.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory$3
+18:07:56.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory$3'.
+18:07:56.660 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory$3
+18:07:56.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory$3
+18:07:56.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory$4
+18:07:56.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory$4'.
+18:07:56.661 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory$4
+18:07:56.661 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory$4
+18:07:56.661 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory$5
+18:07:56.661 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory$5'.
+18:07:56.662 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory$5
+18:07:56.662 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory$5
+18:07:56.662 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.logging.LogFactory$6
+18:07:56.662 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.logging.LogFactory$6'.
+18:07:56.663 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/logging/LogFactory$6
+18:07:56.663 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.logging.LogFactory$6
+18:07:56.663 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.builder.ResultMapResolver
+18:07:56.663 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.builder.ResultMapResolver'.
+18:07:56.664 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/builder/ResultMapResolver
+18:07:56.664 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/builder/ResultMapResolver
+18:07:56.664 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.builder, 1618963449
+18:07:56.664 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.builder.ResultMapResolver
+18:07:56.664 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.transaction.Transaction
+18:07:56.664 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.transaction.Transaction'.
+18:07:56.665 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.transaction, -714411972
+18:07:56.665 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.transaction.Transaction
+18:07:56.665 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.type.TypeAliasRegistry
+18:07:56.665 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.type.TypeAliasRegistry'.
+18:07:56.666 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/type/TypeAliasRegistry
+18:07:56.667 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/type/TypeAliasRegistry
+18:07:56.667 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.type, -1584554084
+18:07:56.667 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.type.TypeAliasRegistry
+18:07:56.667 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.type.TypeException
+18:07:56.667 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.type.TypeException'.
+18:07:56.668 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/type/TypeException
+18:07:56.668 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/type/TypeException
+18:07:56.668 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.type.TypeException
+18:07:56.669 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.resultset.ResultSetHandler
+18:07:56.669 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.resultset.ResultSetHandler'.
+18:07:56.669 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.executor.resultset, -1616412500
+18:07:56.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.resultset.ResultSetHandler
+18:07:56.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.ResultHandler
+18:07:56.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.ResultHandler'.
+18:07:56.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.session, -921960716
+18:07:56.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.ResultHandler
+18:07:56.671 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.builder.annotation.MethodResolver
+18:07:56.671 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.builder.annotation.MethodResolver'.
+18:07:56.671 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/builder/annotation/MethodResolver
+18:07:56.671 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/builder/annotation/MethodResolver
+18:07:56.671 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.builder.annotation, -898525116
+18:07:56.671 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.builder.annotation.MethodResolver
+18:07:56.672 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.type.JdbcType
+18:07:56.672 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.type.JdbcType'.
+18:07:56.672 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/type/JdbcType
+18:07:56.673 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/type/JdbcType
+18:07:56.674 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.type.JdbcType
+18:07:56.674 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.SqlSource
+18:07:56.674 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.SqlSource'.
+18:07:56.675 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.mapping, -2069392084
+18:07:56.675 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.SqlSource
+18:07:56.675 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.type.TypeHandlerRegistry
+18:07:56.675 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.type.TypeHandlerRegistry'.
+18:07:56.676 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/type/TypeHandlerRegistry
+18:07:56.679 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/type/TypeHandlerRegistry
+18:07:56.679 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.type.TypeHandlerRegistry
+18:07:56.679 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.type.TypeHandler
+18:07:56.679 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.type.TypeHandler'.
+18:07:56.680 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.type.TypeHandler
+18:07:56.680 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior
+18:07:56.680 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.AutoMappingUnknownColumnBehavior'.
+18:07:56.681 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/AutoMappingUnknownColumnBehavior
+18:07:56.681 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/AutoMappingUnknownColumnBehavior
+18:07:56.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior
+18:07:56.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$1
+18:07:56.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$1'.
+18:07:56.682 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/AutoMappingUnknownColumnBehavior$1
+18:07:56.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$1
+18:07:56.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$2
+18:07:56.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$2'.
+18:07:56.683 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/AutoMappingUnknownColumnBehavior$2
+18:07:56.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$2
+18:07:56.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$3
+18:07:56.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$3'.
+18:07:56.684 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/AutoMappingUnknownColumnBehavior$3
+18:07:56.684 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.AutoMappingUnknownColumnBehavior$3
+18:07:56.684 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.SqlSessionException
+18:07:56.684 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.SqlSessionException'.
+18:07:56.685 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/SqlSessionException
+18:07:56.685 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/session/SqlSessionException
+18:07:56.685 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.SqlSessionException
+18:07:56.685 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.ParameterMode
+18:07:56.685 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.ParameterMode'.
+18:07:56.686 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/ParameterMode
+18:07:56.686 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/mapping/ParameterMode
+18:07:56.686 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.ParameterMode
+18:07:56.686 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.StatementType
+18:07:56.686 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.StatementType'.
+18:07:56.687 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/StatementType
+18:07:56.687 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/mapping/StatementType
+18:07:56.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.StatementType
+18:07:56.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.SimpleExecutor
+18:07:56.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.SimpleExecutor'.
+18:07:56.688 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/SimpleExecutor
+18:07:56.688 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/SimpleExecutor
+18:07:56.689 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.SimpleExecutor
+18:07:56.689 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.Configuration
+18:07:56.689 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.Configuration'.
+18:07:56.690 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/Configuration
+18:07:56.698 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/session/Configuration
+18:07:56.699 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.Configuration
+18:07:56.699 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.ReflectorFactory
+18:07:56.699 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.ReflectorFactory'.
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.reflection, 1451076365
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.ReflectorFactory
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.factory.ObjectFactory
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.factory.ObjectFactory'.
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.reflection.factory, 813535017
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.factory.ObjectFactory
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.wrapper.ObjectWrapperFactory
+18:07:56.700 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.wrapper.ObjectWrapperFactory'.
+18:07:56.701 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.reflection.wrapper, -794041678
+18:07:56.701 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.wrapper.ObjectWrapperFactory
+18:07:56.701 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.loader.ProxyFactory
+18:07:56.701 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.loader.ProxyFactory'.
+18:07:56.701 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.executor.loader, -281077780
+18:07:56.701 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.loader.ProxyFactory
+18:07:56.702 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.ReuseExecutor
+18:07:56.702 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.ReuseExecutor'.
+18:07:56.702 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/ReuseExecutor
+18:07:56.703 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/ReuseExecutor
+18:07:56.703 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.ReuseExecutor
+18:07:56.703 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.cursor.Cursor
+18:07:56.703 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.cursor.Cursor'.
+18:07:56.704 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.cursor, 1466602296
+18:07:56.704 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.cursor.Cursor
+18:07:56.704 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.SqlSession
+18:07:56.704 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.SqlSession'.
+18:07:56.705 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.SqlSession
+18:07:56.705 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.ResultContext
+18:07:56.705 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.ResultContext'.
+18:07:56.706 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.ResultContext
+18:07:56.706 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.ParameterMap
+18:07:56.706 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.ParameterMap'.
+18:07:56.706 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/ParameterMap
+18:07:56.707 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/ParameterMap
+18:07:56.707 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.ParameterMap
+18:07:56.707 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.Reflector
+18:07:56.707 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.Reflector'.
+18:07:56.708 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/reflection/Reflector
+18:07:56.711 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/reflection/Reflector
+18:07:56.711 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.Reflector
+18:07:56.711 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.ReflectionException
+18:07:56.711 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.ReflectionException'.
+18:07:56.712 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/reflection/ReflectionException
+18:07:56.712 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/reflection/ReflectionException
+18:07:56.712 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.ReflectionException
+18:07:56.712 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.cache.Cache
+18:07:56.712 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.cache.Cache'.
+18:07:56.713 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.cache, -1892963488
+18:07:56.713 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.cache.Cache
+18:07:56.713 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.transaction.TransactionFactory
+18:07:56.713 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.transaction.TransactionFactory'.
+18:07:56.714 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.transaction.TransactionFactory
+18:07:56.714 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.builder.xml.XMLStatementBuilder
+18:07:56.714 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.builder.xml.XMLStatementBuilder'.
+18:07:56.715 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/builder/xml/XMLStatementBuilder
+18:07:56.717 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/builder/xml/XMLStatementBuilder
+18:07:56.717 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.builder.xml, -90341214
+18:07:56.717 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.builder.BaseBuilder
+18:07:56.717 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.builder.BaseBuilder'.
+18:07:56.718 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/builder/BaseBuilder
+18:07:56.718 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/builder/BaseBuilder
+18:07:56.719 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.builder.BaseBuilder
+18:07:56.719 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.builder.xml.XMLStatementBuilder
+18:07:56.719 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.builder.BuilderException
+18:07:56.719 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.builder.BuilderException'.
+18:07:56.719 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/builder/BuilderException
+18:07:56.719 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/builder/BuilderException
+18:07:56.719 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.builder.BuilderException
+18:07:56.720 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.keygen.KeyGenerator
+18:07:56.720 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.keygen.KeyGenerator'.
+18:07:56.720 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.executor.keygen, -318224278
+18:07:56.720 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.keygen.KeyGenerator
+18:07:56.720 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.AutoMappingBehavior
+18:07:56.720 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.AutoMappingBehavior'.
+18:07:56.721 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/AutoMappingBehavior
+18:07:56.721 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/AutoMappingBehavior
+18:07:56.721 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.AutoMappingBehavior
+18:07:56.722 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.wrapper.ObjectWrapper
+18:07:56.722 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.wrapper.ObjectWrapper'.
+18:07:56.722 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.wrapper.ObjectWrapper
+18:07:56.722 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.scripting.LanguageDriverRegistry
+18:07:56.722 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.scripting.LanguageDriverRegistry'.
+18:07:56.723 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/scripting/LanguageDriverRegistry
+18:07:56.724 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/scripting/LanguageDriverRegistry
+18:07:56.724 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.scripting, -1598821355
+18:07:56.724 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.scripting.LanguageDriverRegistry
+18:07:56.724 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.scripting.ScriptingException
+18:07:56.724 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.scripting.ScriptingException'.
+18:07:56.725 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/scripting/ScriptingException
+18:07:56.725 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/scripting/ScriptingException
+18:07:56.725 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.scripting.ScriptingException
+18:07:56.725 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.page.PageMethod
+18:07:56.725 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.page.PageMethod'.
+18:07:56.725 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/page/PageMethod
+18:07:56.726 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/github/pagehelper/page/PageMethod
+18:07:56.726 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.github.pagehelper.page, 482714082
+18:07:56.726 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.page.PageMethod
+18:07:56.726 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.SqlCommandType
+18:07:56.726 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.SqlCommandType'.
+18:07:56.727 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/SqlCommandType
+18:07:56.727 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/mapping/SqlCommandType
+18:07:56.727 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.SqlCommandType
+18:07:56.727 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.loader.ResultLoader
+18:07:56.727 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.loader.ResultLoader'.
+18:07:56.728 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/loader/ResultLoader
+18:07:56.729 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/loader/ResultLoader
+18:07:56.729 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.loader.ResultLoader
+18:07:56.729 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.cache.CacheException
+18:07:56.729 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.cache.CacheException'.
+18:07:56.730 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/cache/CacheException
+18:07:56.730 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/cache/CacheException
+18:07:56.730 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.cache.CacheException
+18:07:56.730 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.cache.NullCacheKey
+18:07:56.730 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.cache.NullCacheKey'.
+18:07:56.731 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/cache/NullCacheKey
+18:07:56.731 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/cache/NullCacheKey
+18:07:56.731 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.cache.CacheKey
+18:07:56.731 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.cache.CacheKey'.
+18:07:56.731 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/cache/CacheKey
+18:07:56.732 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/cache/CacheKey
+18:07:56.732 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.cache.CacheKey
+18:07:56.732 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.cache.NullCacheKey
+18:07:56.732 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.Environment
+18:07:56.732 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.Environment'.
+18:07:56.733 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/Environment
+18:07:56.733 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/Environment
+18:07:56.734 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.Environment
+18:07:56.734 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.type.TypeReference
+18:07:56.734 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.type.TypeReference'.
+18:07:56.734 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/type/TypeReference
+18:07:56.735 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/type/TypeReference
+18:07:56.735 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.type.TypeReference
+18:07:56.735 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.plugin.Interceptor
+18:07:56.735 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.plugin.Interceptor'.
+18:07:56.735 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.plugin, 1830547221
+18:07:56.736 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.plugin.Interceptor
+18:07:56.736 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.Dialect
+18:07:56.736 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.Dialect'.
+18:07:56.736 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.Dialect
+18:07:56.736 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.scripting.LanguageDriver
+18:07:56.736 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.scripting.LanguageDriver'.
+18:07:56.737 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.scripting.LanguageDriver
+18:07:56.737 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageHelper
+18:07:56.737 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageHelper'.
+18:07:56.737 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/PageHelper
+18:07:56.739 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/PageHelper
+18:07:56.739 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageHelper
+18:07:56.739 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageInfo
+18:07:56.739 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageInfo'.
+18:07:56.740 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/PageInfo
+18:07:56.740 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/PageInfo
+18:07:56.741 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageSerializable
+18:07:56.741 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageSerializable'.
+18:07:56.741 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/PageSerializable
+18:07:56.741 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/PageSerializable
+18:07:56.742 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageSerializable
+18:07:56.742 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageInfo
+18:07:56.742 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.LocalCacheScope
+18:07:56.742 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.LocalCacheScope'.
+18:07:56.742 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/LocalCacheScope
+18:07:56.742 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/LocalCacheScope
+18:07:56.743 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.LocalCacheScope
+18:07:56.743 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.plugin.Invocation
+18:07:56.743 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.plugin.Invocation'.
+18:07:56.743 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/plugin/Invocation
+18:07:56.743 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/plugin/Invocation
+18:07:56.743 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.plugin.Invocation
+18:07:56.744 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.Page
+18:07:56.744 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.Page'.
+18:07:56.744 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/Page
+18:07:56.745 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/Page
+18:07:56.745 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.Page
+18:07:56.746 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.ResultMapping
+18:07:56.746 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.ResultMapping'.
+18:07:56.746 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/ResultMapping
+18:07:56.747 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/ResultMapping
+18:07:56.747 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.ResultMapping
+18:07:56.748 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.parsing.XNode
+18:07:56.748 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.parsing.XNode'.
+18:07:56.748 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/parsing/XNode
+18:07:56.749 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/parsing/XNode
+18:07:56.749 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.parsing, 595055374
+18:07:56.750 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.parsing.XNode
+18:07:56.750 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.loader.ResultLoaderMap
+18:07:56.750 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.loader.ResultLoaderMap'.
+18:07:56.751 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/executor/loader/ResultLoaderMap
+18:07:56.751 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/executor/loader/ResultLoaderMap
+18:07:56.751 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.loader.ResultLoaderMap
+18:07:56.752 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.RowBounds
+18:07:56.752 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.RowBounds'.
+18:07:56.752 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/RowBounds
+18:07:56.752 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/RowBounds
+18:07:56.752 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.RowBounds
+18:07:56.753 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.TransactionIsolationLevel
+18:07:56.753 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.TransactionIsolationLevel'.
+18:07:56.753 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/TransactionIsolationLevel
+18:07:56.753 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/TransactionIsolationLevel
+18:07:56.753 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.TransactionIsolationLevel
+18:07:56.754 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.ISelect
+18:07:56.754 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.ISelect'.
+18:07:56.754 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.ISelect
+18:07:56.754 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.BoundSql
+18:07:56.754 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.BoundSql'.
+18:07:56.755 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/BoundSql
+18:07:56.755 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/BoundSql
+18:07:56.755 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.BoundSql
+18:07:56.755 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.Discriminator
+18:07:56.755 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.Discriminator'.
+18:07:56.756 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/Discriminator
+18:07:56.756 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/Discriminator
+18:07:56.756 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.Discriminator
+18:07:56.756 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.parameter.ParameterHandler
+18:07:56.756 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.parameter.ParameterHandler'.
+18:07:56.757 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.executor.parameter, -2137386704
+18:07:56.757 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.parameter.ParameterHandler
+18:07:56.757 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.ResultSetType
+18:07:56.757 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.ResultSetType'.
+18:07:56.757 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/ResultSetType
+18:07:56.758 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/mapping/ResultSetType
+18:07:56.758 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.ResultSetType
+18:07:56.758 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.invoker.Invoker
+18:07:56.758 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.invoker.Invoker'.
+18:07:56.758 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.reflection.invoker, -429348583
+18:07:56.758 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.invoker.Invoker
+18:07:56.759 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.property.PropertyTokenizer
+18:07:56.759 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.property.PropertyTokenizer'.
+18:07:56.759 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/reflection/property/PropertyTokenizer
+18:07:56.759 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/reflection/property/PropertyTokenizer
+18:07:56.759 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.reflection.property, -2054732906
+18:07:56.760 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.property.PropertyTokenizer
+18:07:56.760 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.ResultMap
+18:07:56.760 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.ResultMap'.
+18:07:56.760 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/ResultMap
+18:07:56.761 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/ResultMap
+18:07:56.761 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.ResultMap
+18:07:56.761 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.ExecutorType
+18:07:56.761 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.ExecutorType'.
+18:07:56.761 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/ExecutorType
+18:07:56.762 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/ExecutorType
+18:07:56.762 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.ExecutorType
+18:07:56.762 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.executor.statement.StatementHandler
+18:07:56.762 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.executor.statement.StatementHandler'.
+18:07:56.763 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.executor.statement, -1882028298
+18:07:56.763 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.executor.statement.StatementHandler
+18:07:56.763 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.mapping.MappedStatement
+18:07:56.763 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.mapping.MappedStatement'.
+18:07:56.764 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/mapping/MappedStatement
+18:07:56.764 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/mapping/MappedStatement
+18:07:56.764 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.mapping.MappedStatement
+18:07:56.765 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.builder.CacheRefResolver
+18:07:56.765 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.builder.CacheRefResolver'.
+18:07:56.765 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/builder/CacheRefResolver
+18:07:56.765 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/builder/CacheRefResolver
+18:07:56.765 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.builder.CacheRefResolver
+18:07:56.766 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.reflection.MetaObject
+18:07:56.766 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.reflection.MetaObject'.
+18:07:56.766 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/reflection/MetaObject
+18:07:56.767 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/ibatis/reflection/MetaObject
+18:07:56.767 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.reflection.MetaObject
+...............................................................................................................................................................................................................
+Time: 0.864
+
+OK (207 tests)
+

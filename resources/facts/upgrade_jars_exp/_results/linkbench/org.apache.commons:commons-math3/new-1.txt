@@ -1,0 +1,221 @@
+[VERSION]: 3.6.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.facebook.linkbench:linkbench >------------------
+[INFO] Building linkbench 0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ linkbench ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ linkbench ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.facebook.nifty:nifty-client:jar:0.13.1:compile
+[INFO]    io.netty:netty:jar:3.7.0.Final:compile
+[INFO]    commons-el:commons-el:jar:1.0:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.1.3:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    commons-net:commons-net:jar:1.4.1:compile
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.eclipse.jdt:core:jar:3.1.1:compile
+[INFO]    org.apache.avro:avro:jar:1.5.3:compile
+[INFO]    org.codehaus.jackson:jackson-jaxrs:jar:1.8.8:compile
+[INFO]    com.google.protobuf:protobuf-java:jar:2.4.0a:compile
+[INFO]    com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+[INFO]    com.facebook.swift:swift-service:jar:0.13.2:compile
+[INFO]    org.weakref:jmxutils:jar:1.16:compile
+[INFO]    org.apache.hbase:hbase:jar:0.94.3:compile
+[INFO]    com.github.stephenc.high-scale-lib:high-scale-lib:jar:1.1.1:compile
+[INFO]    org.mortbay.jetty:jsp-2.1:jar:6.1.14:compile
+[INFO]    io.airlift:units:jar:0.91:compile
+[INFO]    mysql:mysql-connector-java:jar:5.1.22:compile
+[INFO]    net.java.dev.jets3t:jets3t:jar:0.7.1:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.6.1:compile
+[INFO]    com.google.inject:guice:jar:3.0:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.4.3:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO]    com.yammer.metrics:metrics-core:jar:2.1.2:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.4.3:compile
+[INFO]    org.mortbay.jetty:jetty:jar:6.1.14:compile
+[INFO]    org.apache.bval:bval-jsr303:jar:0.5:compile
+[INFO]    cglib:cglib-nodep:jar:2.2.2:compile
+[INFO]    hsqldb:hsqldb:jar:1.8.0.10:compile
+[INFO]    io.airlift:slice:jar:0.5:compile
+[INFO]    xmlenc:xmlenc:jar:0.52:compile
+[INFO]    com.google.guava:guava:jar:16.0.1:compile
+[INFO]    org.jruby:jruby-complete:jar:1.6.5:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.1.2:compile
+[INFO]    javax.xml.bind:jaxb-api:jar:2.1:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.1.4:compile
+[INFO]    com.facebook.nifty:nifty-core:jar:0.13.1:compile
+[INFO]    org.xerial.snappy:snappy-java:jar:1.0.3.2:compile
+[INFO]    org.jamon:jamon-runtime:jar:2.3.1:compile
+[INFO]    org.apache.thrift:libthrift:jar:0.8.0:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.1:compile
+[INFO]    org.codehaus.jackson:jackson-xc:jar:1.8.8:compile
+[INFO]    org.apache.bval:bval-core:jar:0.5:compile
+[INFO]    commons-configuration:commons-configuration:jar:1.6:compile
+[INFO]    commons-digester:commons-digester:jar:1.8:compile
+[INFO]    org.apache.avro:avro-ipc:jar:1.5.3:compile
+[INFO]    org.openjdk.jol:jol-core:jar:0.1:compile
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.0:compile
+[INFO]    ant:ant:jar:1.6.5:compile
+[INFO]    com.sun.jersey:jersey-core:jar:1.8:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO]    com.facebook.swift:swift-annotations:jar:0.13.2:compile
+[INFO]    commons-httpclient:commons-httpclient:jar:3.0.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.3:compile
+[INFO]    org.apache.hadoop:hadoop-core:jar:0.20.2:compile
+[INFO]    net.sf.kosmosfs:kfs:jar:0.3:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    junit:junit:jar:4.11:compile
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    com.facebook.swift:swift-codec:jar:0.13.2:compile
+[INFO]    tomcat:jasper-runtime:jar:5.5.12:compile
+[INFO]    commons-io:commons-io:jar:2.1:compile
+[INFO]    org.ow2.asm:asm-all:jar:4.1:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.mortbay.jetty:jetty-util:jar:6.1.14:compile
+[INFO]    com.google.code.findbugs:annotations:jar:2.0.2:compile
+[INFO]    commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+[INFO]    commons-lang:commons-lang:jar:2.5:compile
+[INFO]    tomcat:jasper-compiler:jar:5.5.12:compile
+[INFO]    org.codehaus.jettison:jettison:jar:1.1:compile
+[INFO]    com.sun.jersey:jersey-server:jar:1.8:compile
+[INFO]    com.thoughtworks.paranamer:paranamer:jar:2.5.2:compile
+[INFO]    io.airlift:configuration:jar:0.91:compile
+[INFO]    org.mortbay.jetty:servlet-api-2.5:jar:6.1.14:compile
+[INFO]    com.sun.jersey:jersey-json:jar:1.8:compile
+[INFO]    org.apache.zookeeper:zookeeper:jar:3.4.3:compile
+[INFO]    oro:oro:jar:2.0.8:compile
+[INFO]    io.airlift:stats:jar:0.91:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile
+[INFO]    org.apache.velocity:velocity:jar:1.7:compile
+[INFO]    org.mortbay.jetty:jsp-api-2.1:jar:6.1.14:compile
+[INFO]    stax:stax-api:jar:1.0.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- swift-maven-plugin:0.13.2:generate (default) @ linkbench ---
+[INFO] Parsing Thrift IDL from [file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/rocks/swift/rocks.thrift, file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/rocks/swift/rocks_common.thrift]...
+[INFO] IDL parsing complete, writing java code...
+[INFO] Java code generation complete.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ linkbench ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ linkbench ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 59 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[35,32] org.apache.hadoop.mapred.FileInputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[37,32] org.apache.hadoop.mapred.InputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[38,32] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[40,32] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[41,32] org.apache.hadoop.mapred.MapReduceBase in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[42,32] org.apache.hadoop.mapred.Mapper in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[45,32] org.apache.hadoop.mapred.Reducer in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[47,32] org.apache.hadoop.mapred.SequenceFileInputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[48,32] org.apache.hadoop.mapred.SequenceFileOutputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[123,48] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[193,16] org.apache.hadoop.mapred.InputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[195,12] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[195,35] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[196,7] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[196,33] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[198,22] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[204,7] org.apache.hadoop.mapred.InputSplit in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[204,25] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[208,31] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[216,11] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[217,11] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[217,33] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[221,30] org.apache.hadoop.mapred.SequenceFileInputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[227,29] org.apache.hadoop.mapred.SequenceFileOutputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[249,45] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[254,5] org.apache.hadoop.mapred.FileInputFormat in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[291,48] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[314,42] org.apache.hadoop.mapred.MapReduceBase in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[315,16] org.apache.hadoop.mapred.Mapper in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[358,45] org.apache.hadoop.mapred.MapReduceBase in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[359,16] org.apache.hadoop.mapred.Mapper in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[406,50] org.apache.hadoop.mapred.MapReduceBase in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[407,16] org.apache.hadoop.mapred.Reducer in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[410,13] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[414,27] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[460,11] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkBenchDriverMR.java:[491,11] org.apache.hadoop.mapred.JobConf in org.apache.hadoop.mapred has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/LinkStoreHBaseGeneralAtomicityTesting.java:[197,29] getConnection() in org.apache.hadoop.hbase.client.HTable has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/util/ClassLoadUtil.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/main/java/com/facebook/LinkBench/util/ClassLoadUtil.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ linkbench ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ linkbench ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 31 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14:test (default-test) @ linkbench ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/linkbench/target/surefire-reports
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.facebook.LinkBench.InvertibleShufflerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.facebook.LinkBench.TestAccessDistribution
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+Running com.facebook.LinkBench.DummyLinkStoreTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.069 sec
+Running com.facebook.LinkBench.PiecewiseDistTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running com.facebook.LinkBench.TestRealDistribution
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.281 sec
+Running com.facebook.LinkBench.TestDataGen
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 85.004 sec
+Running com.facebook.LinkBench.LogNormalTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.094 sec
+Running com.facebook.LinkBench.UniformDistTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running com.facebook.LinkBench.GeomDistTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 sec
+Running com.facebook.LinkBench.MemoryGraphStoreTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.068 sec
+Running com.facebook.LinkBench.ZipfDistTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec
+Running com.facebook.LinkBench.HarmonicTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 127.401 sec
+Running com.facebook.LinkBench.MemoryNodeStoreTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.facebook.LinkBench.ID2ChooserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.792 sec
+Running com.facebook.LinkBench.TimerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.826 sec
+Running com.facebook.LinkBench.MemoryLinkStoreTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.526 sec
+Running com.facebook.LinkBench.TestStats
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+
+Results :
+
+Tests run: 98, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:57 min
+[INFO] Finished at: 2019-08-15T08:50:02+08:00
+[INFO] ------------------------------------------------------------------------

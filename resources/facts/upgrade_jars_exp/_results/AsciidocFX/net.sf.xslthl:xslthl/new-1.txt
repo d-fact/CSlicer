@@ -1,0 +1,25 @@
+[VERSION]: 2.1.3
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.kodedu:AsciidocFX >------------------------
+[INFO] Building AsciidocFX 1.5.9
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from terminalfx-repo: https://github.com/javaterminal/TerminalFX/raw/master/releases/com/kodedu/terminalfx/terminalfx/1.0.4/terminalfx-1.0.4.pom
+Downloading from javacomm-repo: http://www.sparetimelabs.com/maven2/com/kodedu/terminalfx/terminalfx/1.0.4/terminalfx-1.0.4.pom
+[WARNING] The POM for com.kodedu.terminalfx:terminalfx:jar:1.0.4 is missing, no dependency information available
+Downloading from terminalfx-repo: https://github.com/javaterminal/TerminalFX/raw/master/releases/com/kodedu/terminalfx/terminalfx/1.0.4/terminalfx-1.0.4.jar
+Downloading from javacomm-repo: http://www.sparetimelabs.com/maven2/com/kodedu/terminalfx/terminalfx/1.0.4/terminalfx-1.0.4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.135 s
+[INFO] Finished at: 2019-08-20T20:26:27+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project AsciidocFX: Could not resolve dependencies for project com.kodedu:AsciidocFX:jar:1.5.9: Failure to find com.kodedu.terminalfx:terminalfx:jar:1.0.4 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

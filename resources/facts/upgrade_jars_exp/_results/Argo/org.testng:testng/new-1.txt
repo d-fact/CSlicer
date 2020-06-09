@@ -1,0 +1,259 @@
+[VERSION]: 7.0.0-beta7
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.bj58.spat:argo-hello-world:war:1.0.0
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 81, column 12
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:jetty-maven-plugin is missing. @ line 60, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.bj58.spat:company-sample:war:1.0.0
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 84, column 21
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:jetty-maven-plugin is missing. @ line 63, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] 58.com argo                                                        [jar]
+[INFO] argo-hello-world                                                   [war]
+[INFO] company-sample                                                     [war]
+[INFO] 58.com argo                                                        [pom]
+[INFO] 
+[INFO] -------------------------< com.bj58.spat:argo >-------------------------
+[INFO] Building 58.com argo 1.0.0                                         [1/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ argo ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ argo ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    log4j:log4j:jar:1.2.16:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    com.google.inject:guice:jar:3.0:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[INFO]    org.mockito:mockito-all:jar:1.9.5:test
+[INFO]    com.google.guava:guava:jar:13.0.1:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    commons-lang:commons-lang:jar:2.4:compile
+[INFO]    com.beust:jcommander:jar:1.72:test
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.2:compile
+[INFO]    org.apache.velocity:velocity:jar:1.7:compile
+[INFO]    org.javassist:javassist:jar:3.17.1-GA:compile
+[INFO]    org.testng:testng:jar:7.0.0-beta7:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ argo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ argo ---
+[INFO] Compiling 109 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[4,19] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[20,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[25,13] IPAddressUtil is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1:jar (default) > generate-sources @ argo >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1:jar (default) < generate-sources @ argo <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1:jar (default) @ argo ---
+[INFO] Building jar: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/target/argo-1.0.0-sources.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ argo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ argo ---
+[INFO] Compiling 29 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/FileTest.java:[25,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/com/bj58/argo/client/IpAddressUtilTest.java:[27,19] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[25,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/HashmapTest.java:[28,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/MapTest.java:[25,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/LearnJssist.java:[15,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/FileTest.java:[32,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+  location: class FileTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[37,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+  location: class PokerTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/HashmapTest.java:[35,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+  location: class HashmapTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/HashmapTest.java:[44,2] error: cannot find symbol
+[ERROR]   symbol:   class Test
+  location: class HashmapTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/MapTest.java:[34,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+  location: class MapTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/com/bj58/argo/client/IpAddressUtilTest.java:[41,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/com/bj58/argo/client/IpAddressUtilTest.java:[45,13] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[60,12] error: cannot find symbol
+[ERROR]   symbol:   variable Assert
+  location: class PokerTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[64,8] error: cannot find symbol
+[ERROR]   symbol:   variable Assert
+  location: class PokerTest
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[65,8] error: cannot find symbol
+[INFO] 17 errors 
+[INFO] -------------------------------------------------------------
+[INFO] 
+[INFO] -------------------< com.bj58.spat:argo-hello-world >-------------------
+[INFO] Building argo-hello-world 1.0.0                                    [2/4]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ argo-hello-world ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/samples/hello-world/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ argo-hello-world ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.bj58.spat:argo:jar:1.0.0:compile
+[INFO]    log4j:log4j:jar:1.2.16:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    com.google.inject:guice:jar:3.0:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[INFO]    com.google.guava:guava:jar:13.0.1:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    commons-lang:commons-lang:jar:2.4:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.2:compile
+[INFO]    org.apache.velocity:velocity:jar:1.7:compile
+[INFO]    org.javassist:javassist:jar:3.17.1-GA:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ argo-hello-world ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ argo-hello-world ---
+[INFO] Compiling 2 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/samples/hello-world/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ argo-hello-world ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/samples/hello-world/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ argo-hello-world ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ argo-hello-world ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< com.bj58.spat:company-sample >--------------------
+[INFO] Building company-sample 1.0.0                                      [3/4]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ company-sample ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/samples/company/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ company-sample ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.bj58.spat:argo:jar:1.0.0:compile
+[INFO]    log4j:log4j:jar:1.2.16:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    com.google.inject:guice:jar:3.0:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[INFO]    com.google.guava:guava:jar:13.0.1:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    commons-lang:commons-lang:jar:2.4:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.2:compile
+[INFO]    org.apache.velocity:velocity:jar:1.7:compile
+[INFO]    org.javassist:javassist:jar:3.17.1-GA:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ company-sample ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ company-sample ---
+[INFO] Compiling 2 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/samples/company/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ company-sample ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/samples/company/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ company-sample ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ company-sample ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< com.bj58.spat:argo-project >---------------------
+[INFO] Building 58.com argo 1.0-SNAPSHOT                                  [4/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ argo-project ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ argo-project ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    none
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] 58.com argo 1.0.0 .................................. FAILURE [  1.820 s]
+[INFO] argo-hello-world 1.0.0 ............................. SUCCESS [  0.093 s]
+[INFO] company-sample 1.0.0 ............................... SUCCESS [  0.026 s]
+[INFO] 58.com argo 1.0-SNAPSHOT ........................... SUCCESS [  0.002 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.128 s
+[INFO] Finished at: 2019-08-14T19:10:38+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:testCompile (default-testCompile) on project argo: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/FileTest.java:[25,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/com/bj58/argo/client/IpAddressUtilTest.java:[27,19] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[25,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/HashmapTest.java:[28,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/MapTest.java:[25,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/LearnJssist.java:[15,16] error: package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/FileTest.java:[32,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class FileTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[37,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class PokerTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/HashmapTest.java:[35,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class HashmapTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/HashmapTest.java:[44,2] error: cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class HashmapTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/MapTest.java:[34,5] error: cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class MapTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/com/bj58/argo/client/IpAddressUtilTest.java:[41,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/com/bj58/argo/client/IpAddressUtilTest.java:[45,13] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[60,12] error: cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class PokerTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[64,8] error: cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class PokerTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/test/java/learn/PokerTest.java:[65,8] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

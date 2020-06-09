@@ -1,0 +1,41 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/Mybatis-PageHelper/org.mybatis=mybatis/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/Mybatis-PageHelper/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/Mybatis-PageHelper/org.mybatis=mybatis/mybatis-3.5.2.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.github.pagehelper.PageInfo_ESTestJUnit version 4.12
+18:09:10.737 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageInfo_ESTest
+18:09:10.740 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageInfo_ESTest'.
+18:09:10.801 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageInfo_ESTest_scaffolding
+18:09:10.801 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageInfo_ESTest_scaffolding'.
+18:09:10.803 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageInfo_ESTest_scaffolding
+18:09:10.803 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageInfo_ESTest
+18:09:10.882 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:09:10.882 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:09:10.882 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:09:10.882 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:09:10.882 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:09:10.903 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.ISelect
+18:09:10.903 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.ISelect'.
+18:09:10.942 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.ISelect
+18:09:10.943 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.Page
+18:09:10.943 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.Page'.
+18:09:10.944 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/Page
+18:09:11.001 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/Page
+18:09:11.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.Page
+18:09:11.003 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageSerializable
+18:09:11.003 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageSerializable'.
+18:09:11.003 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/PageSerializable
+18:09:11.004 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/PageSerializable
+18:09:11.004 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageSerializable
+18:09:11.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageInfo
+18:09:11.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageInfo'.
+18:09:11.005 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/PageInfo
+18:09:11.008 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/PageInfo
+18:09:11.008 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageInfo
+18:09:11.008 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.page.PageMethod
+18:09:11.009 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.page.PageMethod'.
+18:09:11.009 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/page/PageMethod
+18:09:11.010 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/github/pagehelper/page/PageMethod
+18:09:11.011 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.github.pagehelper.page, 482714082
+18:09:11.011 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.page.PageMethod
+.............................................................................
+Time: 0.646
+
+OK (77 tests)
+

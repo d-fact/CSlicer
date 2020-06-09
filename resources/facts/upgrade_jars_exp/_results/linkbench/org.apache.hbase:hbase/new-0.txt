@@ -1,0 +1,21 @@
+[VERSION]: 2.2.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.facebook.linkbench:linkbench >------------------
+[INFO] Building linkbench 0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase/2.2.0/hbase-2.2.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.644 s
+[INFO] Finished at: 2019-08-15T09:06:36+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project linkbench: Could not resolve dependencies for project com.facebook.linkbench:linkbench:jar:0.1-SNAPSHOT: Could not find artifact org.apache.hbase:hbase:jar:2.2.0 in central (https://repo.maven.apache.org/maven2) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

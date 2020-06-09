@@ -1,0 +1,7625 @@
+[VERSION]: 8.3.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.clearspring.analytics:stream >------------------
+[INFO] Building stream-lib 2.9.6
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.pom (1.4 kB at 1.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.jar
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.1/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.2/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.3/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.4/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.5/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.6/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.7/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.8/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 0.9/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.0/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.1/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.2/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.3/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.4/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.5/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.6/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.7/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.8/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 1.9/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.0/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.1/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.2/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.3/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.4/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.5/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.6/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.7/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.8/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 2.9/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.0/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.1/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.2/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.3/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.4/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.5/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.6/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.7/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.8/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 3.9/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.0/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.1/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.2/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.3/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.4/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.5/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.6/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.7/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.8/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 4.9/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.0/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.1/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.2/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.3/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.4/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.5/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.6/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.7/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.8/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 5.9/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.0/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.1/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.2/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.3/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.4/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.5/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.6/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.7/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.8/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 6.9/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.0/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.1/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.2/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.3/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.4/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.5/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.6/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.7/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.8/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 7.9/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.0/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.1/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.2/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.3/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.4/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.5/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.6/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.7/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.8/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 8.9/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.0/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.1/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.2/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.3/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.4/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.5/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.6/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.7/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.8/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 9.9/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10.0/19 MB
+Progress (1): 10/19 MB  
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 10/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 11/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 12/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 13/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 14/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 15/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 16/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 17/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 18/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19/19 MB
+Progress (1): 19 MB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.jar (19 MB at 4.7 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stream ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:list (default-cli) @ stream ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    it.unimi.dsi:fastutil:jar:8.3.0:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.2:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.10:compile
+[INFO]    colt:colt:jar:1.2.0:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.tdunning:t-digest:jar:3.1:test
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.25:test
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+[INFO]    com.google.guava:guava:jar:23.3-jre:test
+[INFO]    com.googlecode.charts4j:charts4j:jar:1.3:test
+[INFO]    concurrent:concurrent:jar:1.3.4:test
+[INFO]    org.apache.mahout:mahout-math:jar:0.13.0:test
+[INFO]    com.google.code.findbugs:jsr305:jar:2.0.3:test
+[INFO]    commons-codec:commons-codec:jar:1.11:test
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.0.18:test
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.6.201602180812:prepare-agent (default) @ stream ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.6.201602180812/org.jacoco.agent-0.7.6.201602180812-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ stream ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 48 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ stream ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/src/test/java/com/clearspring/analytics/stream/cardinality/TestHyperLogLog.java:[146,29] HyperLogLog(int,com.clearspring.analytics.stream.cardinality.RegisterSet) in com.clearspring.analytics.stream.cardinality.HyperLogLog has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/src/test/java/com/clearspring/analytics/stream/cardinality/TestHyperLogLog.java:[147,30] HyperLogLog(int,com.clearspring.analytics.stream.cardinality.RegisterSet) in com.clearspring.analytics.stream.cardinality.HyperLogLog has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/src/test/java/com/clearspring/analytics/stream/cardinality/TestCountThenEstimate.java:[169,58] Builder(double) in com.clearspring.analytics.stream.cardinality.HyperLogLog.Builder has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/stream-lib/src/test/java/com/clearspring/analytics/stream/cardinality/TestCountThenEstimate.java:[209,58] Builder(double) in com.clearspring.analytics.stream.cardinality.HyperLogLog.Builder has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ stream ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.clearspring.experimental.stream.cardinality.TestHyperBitBit
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.043 sec - in com.clearspring.experimental.stream.cardinality.TestHyperBitBit
+Running com.clearspring.analytics.util.TestDoublyLinkedList
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.clearspring.analytics.util.TestDoublyLinkedList
+Running com.clearspring.analytics.hash.TestLookup3Hash
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in com.clearspring.analytics.hash.TestLookup3Hash
+Running com.clearspring.analytics.hash.TestMurmurHash
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.clearspring.analytics.hash.TestMurmurHash
+Running com.clearspring.analytics.stream.membership.FilterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in com.clearspring.analytics.stream.membership.FilterTest
+Running com.clearspring.analytics.stream.membership.BloomFilterTest
+1/11 - got 0.00821, math says 0.00819
+2/11 - got 0.00428, math says 0.00509
+3/11 - got 0.00294, math says 0.00314
+4/11 - got 0.00173, math says 0.00194
+5/11 - got 7.1E-4, math says 0.0012
+6/11 - got 0.00109, math says 7.44E-4
+7/11 - got 4.8E-4, math says 4.59E-4
+8/11 - got 5.1E-4, math says 2.84E-4
+9/11 - got 2.9E-4, math says 1.76E-4
+10/11 - got 2.8E-4, math says 1.09E-4
+11/11 - got 3.0E-4, math says 6.71E-5
+expectedFalsePositiveProbability
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 2.382 sec - in com.clearspring.analytics.stream.membership.BloomFilterTest
+Running com.clearspring.analytics.stream.membership.Base64Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec - in com.clearspring.analytics.stream.membership.Base64Test
+Running com.clearspring.analytics.stream.frequency.ConservativeAddSketchTest
+Confidence : 1.0   Errors : 0  Error margin : 7501
+Total error : 13117189  Average error : 874
+Beat base for : 99 percent of values with a total delta of 22878077
+Confidence : 1.0   Errors : 0  Error margin : 101
+Total error : 15157020  Average error : 16
+Beat base for : 100 percent of values with a total delta of 20605664
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.426 sec - in com.clearspring.analytics.stream.frequency.ConservativeAddSketchTest
+Running com.clearspring.analytics.stream.frequency.CountMinSketchTest
+1.0
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.965 sec - in com.clearspring.analytics.stream.frequency.CountMinSketchTest
+Running com.clearspring.analytics.stream.TestSampleSet
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.clearspring.analytics.stream.TestSampleSet
+Running com.clearspring.analytics.stream.cardinality.TestAndGraphResults
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in com.clearspring.analytics.stream.cardinality.TestAndGraphResults
+Running com.clearspring.analytics.stream.cardinality.TestLogLog
+Baseline estimate: 4990847
+time: 1234
+0.0312581
+time: 19930
+100000000
+98588928
+0.01411072
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 21.371 sec - in com.clearspring.analytics.stream.cardinality.TestLogLog
+Running com.clearspring.analytics.stream.cardinality.TestHyperLogLogPlus
+Size: 13726
+4-16: 0 -> 0
+4-17: 0 -> 0
+4-18: 0 -> 0
+4-19: 0 -> 0
+4-20: 0 -> 0
+4-21: 0 -> 0
+4-22: 0 -> 0
+4-23: 0 -> 0
+4-24: 0 -> 0
+4-25: 0 -> 0
+4-26: 0 -> 0
+4-27: 0 -> 0
+4-28: 0 -> 0
+4-29: 0 -> 0
+4-30: 0 -> 0
+4-31: 0 -> 0
+4-32: 0 -> 0
+5-16: 0 -> 0
+5-17: 0 -> 0
+5-18: 0 -> 0
+5-19: 0 -> 0
+5-20: 0 -> 0
+5-21: 0 -> 0
+5-22: 0 -> 0
+5-23: 0 -> 0
+5-24: 0 -> 0
+5-25: 0 -> 0
+5-26: 0 -> 0
+5-27: 0 -> 0
+5-28: 0 -> 0
+5-29: 0 -> 0
+5-30: 0 -> 0
+5-31: 0 -> 0
+5-32: 0 -> 0
+6-16: 0 -> 0
+6-17: 0 -> 0
+6-18: 0 -> 0
+6-19: 0 -> 0
+6-20: 0 -> 0
+6-21: 0 -> 0
+6-22: 0 -> 0
+6-23: 0 -> 0
+6-24: 0 -> 0
+6-25: 0 -> 0
+6-26: 0 -> 0
+6-27: 0 -> 0
+6-28: 0 -> 0
+6-29: 0 -> 0
+6-30: 0 -> 0
+6-31: 0 -> 0
+6-32: 0 -> 0
+7-16: 0 -> 0
+7-17: 0 -> 0
+7-18: 0 -> 0
+7-19: 0 -> 0
+7-20: 0 -> 0
+7-21: 0 -> 0
+7-22: 0 -> 0
+7-23: 0 -> 0
+7-24: 0 -> 0
+7-25: 0 -> 0
+7-26: 0 -> 0
+7-27: 0 -> 0
+7-28: 0 -> 0
+7-29: 0 -> 0
+7-30: 0 -> 0
+7-31: 0 -> 0
+7-32: 0 -> 0
+8-16: 0 -> 0
+8-17: 0 -> 0
+8-18: 0 -> 0
+8-19: 0 -> 0
+8-20: 0 -> 0
+8-21: 0 -> 0
+8-22: 0 -> 0
+8-23: 0 -> 0
+8-24: 0 -> 0
+8-25: 0 -> 0
+8-26: 0 -> 0
+8-27: 0 -> 0
+8-28: 0 -> 0
+8-29: 0 -> 0
+8-30: 0 -> 0
+8-31: 0 -> 0
+8-32: 0 -> 0
+9-16: 0 -> 0
+9-17: 0 -> 0
+9-18: 0 -> 0
+9-19: 0 -> 0
+9-20: 0 -> 0
+9-21: 0 -> 0
+9-22: 0 -> 0
+9-23: 0 -> 0
+9-24: 0 -> 0
+9-25: 0 -> 0
+9-26: 0 -> 0
+9-27: 0 -> 0
+9-28: 0 -> 0
+9-29: 0 -> 0
+9-30: 0 -> 0
+9-31: 0 -> 0
+9-32: 0 -> 0
+10-16: 0 -> 0
+10-17: 0 -> 0
+10-18: 0 -> 0
+10-19: 0 -> 0
+10-20: 0 -> 0
+10-21: 0 -> 0
+10-22: 0 -> 0
+10-23: 0 -> 0
+10-24: 0 -> 0
+10-25: 0 -> 0
+10-26: 0 -> 0
+10-27: 0 -> 0
+10-28: 0 -> 0
+10-29: 0 -> 0
+10-30: 0 -> 0
+10-31: 0 -> 0
+10-32: 0 -> 0
+11-16: 0 -> 0
+11-17: 0 -> 0
+11-18: 0 -> 0
+11-19: 0 -> 0
+11-20: 0 -> 0
+11-21: 0 -> 0
+11-22: 0 -> 0
+11-23: 0 -> 0
+11-24: 0 -> 0
+11-25: 0 -> 0
+11-26: 0 -> 0
+11-27: 0 -> 0
+11-28: 0 -> 0
+11-29: 0 -> 0
+11-30: 0 -> 0
+11-31: 0 -> 0
+11-32: 0 -> 0
+12-16: 0 -> 0
+12-17: 0 -> 0
+12-18: 0 -> 0
+12-19: 0 -> 0
+12-20: 0 -> 0
+12-21: 0 -> 0
+12-22: 0 -> 0
+12-23: 0 -> 0
+12-24: 0 -> 0
+12-25: 0 -> 0
+12-26: 0 -> 0
+12-27: 0 -> 0
+12-28: 0 -> 0
+12-29: 0 -> 0
+12-30: 0 -> 0
+12-31: 0 -> 0
+12-32: 0 -> 0
+13-16: 0 -> 0
+13-17: 0 -> 0
+13-18: 0 -> 0
+13-19: 0 -> 0
+13-20: 0 -> 0
+13-21: 0 -> 0
+13-22: 0 -> 0
+13-23: 0 -> 0
+13-24: 0 -> 0
+13-25: 0 -> 0
+13-26: 0 -> 0
+13-27: 0 -> 0
+13-28: 0 -> 0
+13-29: 0 -> 0
+13-30: 0 -> 0
+13-31: 0 -> 0
+13-32: 0 -> 0
+14-16: 0 -> 0
+14-17: 0 -> 0
+14-18: 0 -> 0
+14-19: 0 -> 0
+14-20: 0 -> 0
+14-21: 0 -> 0
+14-22: 0 -> 0
+14-23: 0 -> 0
+14-24: 0 -> 0
+14-25: 0 -> 0
+14-26: 0 -> 0
+14-27: 0 -> 0
+14-28: 0 -> 0
+14-29: 0 -> 0
+14-30: 0 -> 0
+14-31: 0 -> 0
+14-32: 0 -> 0
+15-16: 0 -> 0
+15-17: 0 -> 0
+15-18: 0 -> 0
+15-19: 0 -> 0
+15-20: 0 -> 0
+15-21: 0 -> 0
+15-22: 0 -> 0
+15-23: 0 -> 0
+15-24: 0 -> 0
+15-25: 0 -> 0
+15-26: 0 -> 0
+15-27: 0 -> 0
+15-28: 0 -> 0
+15-29: 0 -> 0
+15-30: 0 -> 0
+15-31: 0 -> 0
+15-32: 0 -> 0
+16-16: 0 -> 0
+16-17: 0 -> 0
+16-18: 0 -> 0
+16-19: 0 -> 0
+16-20: 0 -> 0
+16-21: 0 -> 0
+16-22: 0 -> 0
+16-23: 0 -> 0
+16-24: 0 -> 0
+16-25: 0 -> 0
+16-26: 0 -> 0
+16-27: 0 -> 0
+16-28: 0 -> 0
+16-29: 0 -> 0
+16-30: 0 -> 0
+16-31: 0 -> 0
+16-32: 0 -> 0
+17-17: 0 -> 0
+17-18: 0 -> 0
+17-19: 0 -> 0
+17-20: 0 -> 0
+17-21: 0 -> 0
+17-22: 0 -> 0
+17-23: 0 -> 0
+17-24: 0 -> 0
+17-25: 0 -> 0
+17-26: 0 -> 0
+17-27: 0 -> 0
+17-28: 0 -> 0
+17-29: 0 -> 0
+17-30: 0 -> 0
+17-31: 0 -> 0
+17-32: 0 -> 0
+18-18: 0 -> 0
+18-19: 0 -> 0
+18-20: 0 -> 0
+18-21: 0 -> 0
+18-22: 0 -> 0
+18-23: 0 -> 0
+18-24: 0 -> 0
+18-25: 0 -> 0
+18-26: 0 -> 0
+18-27: 0 -> 0
+18-28: 0 -> 0
+18-29: 0 -> 0
+18-30: 0 -> 0
+18-31: 0 -> 0
+18-32: 0 -> 0
+19-19: 0 -> 0
+19-20: 0 -> 0
+19-21: 0 -> 0
+19-22: 0 -> 0
+19-23: 0 -> 0
+19-24: 0 -> 0
+19-25: 0 -> 0
+19-26: 0 -> 0
+19-27: 0 -> 0
+19-28: 0 -> 0
+19-29: 0 -> 0
+19-30: 0 -> 0
+19-31: 0 -> 0
+19-32: 0 -> 0
+20-20: 0 -> 0
+20-21: 0 -> 0
+20-22: 0 -> 0
+20-23: 0 -> 0
+20-24: 0 -> 0
+20-25: 0 -> 0
+20-26: 0 -> 0
+20-27: 0 -> 0
+20-28: 0 -> 0
+20-29: 0 -> 0
+20-30: 0 -> 0
+20-31: 0 -> 0
+20-32: 0 -> 0
+4-16: 1 -> 1
+4-17: 1 -> 1
+4-18: 1 -> 1
+4-19: 1 -> 1
+4-20: 1 -> 1
+4-21: 1 -> 1
+4-22: 1 -> 1
+4-23: 1 -> 1
+4-24: 1 -> 1
+4-25: 1 -> 1
+4-26: 1 -> 1
+4-27: 1 -> 1
+4-28: 1 -> 1
+4-29: 1 -> 1
+4-30: 1 -> 1
+4-31: 1 -> 1
+4-32: 1 -> 1
+5-16: 1 -> 1
+5-17: 1 -> 1
+5-18: 1 -> 1
+5-19: 1 -> 1
+5-20: 1 -> 1
+5-21: 1 -> 1
+5-22: 1 -> 1
+5-23: 1 -> 1
+5-24: 1 -> 1
+5-25: 1 -> 1
+5-26: 1 -> 1
+5-27: 1 -> 1
+5-28: 1 -> 1
+5-29: 1 -> 1
+5-30: 1 -> 1
+5-31: 1 -> 1
+5-32: 1 -> 1
+6-16: 1 -> 1
+6-17: 1 -> 1
+6-18: 1 -> 1
+6-19: 1 -> 1
+6-20: 1 -> 1
+6-21: 1 -> 1
+6-22: 1 -> 1
+6-23: 1 -> 1
+6-24: 1 -> 1
+6-25: 1 -> 1
+6-26: 1 -> 1
+6-27: 1 -> 1
+6-28: 1 -> 1
+6-29: 1 -> 1
+6-30: 1 -> 1
+6-31: 1 -> 1
+6-32: 1 -> 1
+7-16: 1 -> 1
+7-17: 1 -> 1
+7-18: 1 -> 1
+7-19: 1 -> 1
+7-20: 1 -> 1
+7-21: 1 -> 1
+7-22: 1 -> 1
+7-23: 1 -> 1
+7-24: 1 -> 1
+7-25: 1 -> 1
+7-26: 1 -> 1
+7-27: 1 -> 1
+7-28: 1 -> 1
+7-29: 1 -> 1
+7-30: 1 -> 1
+7-31: 1 -> 1
+7-32: 1 -> 1
+8-16: 1 -> 1
+8-17: 1 -> 1
+8-18: 1 -> 1
+8-19: 1 -> 1
+8-20: 1 -> 1
+8-21: 1 -> 1
+8-22: 1 -> 1
+8-23: 1 -> 1
+8-24: 1 -> 1
+8-25: 1 -> 1
+8-26: 1 -> 1
+8-27: 1 -> 1
+8-28: 1 -> 1
+8-29: 1 -> 1
+8-30: 1 -> 1
+8-31: 1 -> 1
+8-32: 1 -> 1
+9-16: 1 -> 1
+9-17: 1 -> 1
+9-18: 1 -> 1
+9-19: 1 -> 1
+9-20: 1 -> 1
+9-21: 1 -> 1
+9-22: 1 -> 1
+9-23: 1 -> 1
+9-24: 1 -> 1
+9-25: 1 -> 1
+9-26: 1 -> 1
+9-27: 1 -> 1
+9-28: 1 -> 1
+9-29: 1 -> 1
+9-30: 1 -> 1
+9-31: 1 -> 1
+9-32: 1 -> 1
+10-16: 1 -> 1
+10-17: 1 -> 1
+10-18: 1 -> 1
+10-19: 1 -> 1
+10-20: 1 -> 1
+10-21: 1 -> 1
+10-22: 1 -> 1
+10-23: 1 -> 1
+10-24: 1 -> 1
+10-25: 1 -> 1
+10-26: 1 -> 1
+10-27: 1 -> 1
+10-28: 1 -> 1
+10-29: 1 -> 1
+10-30: 1 -> 1
+10-31: 1 -> 1
+10-32: 1 -> 1
+11-16: 1 -> 1
+11-17: 1 -> 1
+11-18: 1 -> 1
+11-19: 1 -> 1
+11-20: 1 -> 1
+11-21: 1 -> 1
+11-22: 1 -> 1
+11-23: 1 -> 1
+11-24: 1 -> 1
+11-25: 1 -> 1
+11-26: 1 -> 1
+11-27: 1 -> 1
+11-28: 1 -> 1
+11-29: 1 -> 1
+11-30: 1 -> 1
+11-31: 1 -> 1
+11-32: 1 -> 1
+12-16: 1 -> 1
+12-17: 1 -> 1
+12-18: 1 -> 1
+12-19: 1 -> 1
+12-20: 1 -> 1
+12-21: 1 -> 1
+12-22: 1 -> 1
+12-23: 1 -> 1
+12-24: 1 -> 1
+12-25: 1 -> 1
+12-26: 1 -> 1
+12-27: 1 -> 1
+12-28: 1 -> 1
+12-29: 1 -> 1
+12-30: 1 -> 1
+12-31: 1 -> 1
+12-32: 1 -> 1
+13-16: 1 -> 1
+13-17: 1 -> 1
+13-18: 1 -> 1
+13-19: 1 -> 1
+13-20: 1 -> 1
+13-21: 1 -> 1
+13-22: 1 -> 1
+13-23: 1 -> 1
+13-24: 1 -> 1
+13-25: 1 -> 1
+13-26: 1 -> 1
+13-27: 1 -> 1
+13-28: 1 -> 1
+13-29: 1 -> 1
+13-30: 1 -> 1
+13-31: 1 -> 1
+13-32: 1 -> 1
+14-16: 1 -> 1
+14-17: 1 -> 1
+14-18: 1 -> 1
+14-19: 1 -> 1
+14-20: 1 -> 1
+14-21: 1 -> 1
+14-22: 1 -> 1
+14-23: 1 -> 1
+14-24: 1 -> 1
+14-25: 1 -> 1
+14-26: 1 -> 1
+14-27: 1 -> 1
+14-28: 1 -> 1
+14-29: 1 -> 1
+14-30: 1 -> 1
+14-31: 1 -> 1
+14-32: 1 -> 1
+15-16: 1 -> 1
+15-17: 1 -> 1
+15-18: 1 -> 1
+15-19: 1 -> 1
+15-20: 1 -> 1
+15-21: 1 -> 1
+15-22: 1 -> 1
+15-23: 1 -> 1
+15-24: 1 -> 1
+15-25: 1 -> 1
+15-26: 1 -> 1
+15-27: 1 -> 1
+15-28: 1 -> 1
+15-29: 1 -> 1
+15-30: 1 -> 1
+15-31: 1 -> 1
+15-32: 1 -> 1
+16-16: 1 -> 1
+16-17: 1 -> 1
+16-18: 1 -> 1
+16-19: 1 -> 1
+16-20: 1 -> 1
+16-21: 1 -> 1
+16-22: 1 -> 1
+16-23: 1 -> 1
+16-24: 1 -> 1
+16-25: 1 -> 1
+16-26: 1 -> 1
+16-27: 1 -> 1
+16-28: 1 -> 1
+16-29: 1 -> 1
+16-30: 1 -> 1
+16-31: 1 -> 1
+16-32: 1 -> 1
+17-17: 1 -> 1
+17-18: 1 -> 1
+17-19: 1 -> 1
+17-20: 1 -> 1
+17-21: 1 -> 1
+17-22: 1 -> 1
+17-23: 1 -> 1
+17-24: 1 -> 1
+17-25: 1 -> 1
+17-26: 1 -> 1
+17-27: 1 -> 1
+17-28: 1 -> 1
+17-29: 1 -> 1
+17-30: 1 -> 1
+17-31: 1 -> 1
+17-32: 1 -> 1
+18-18: 1 -> 1
+18-19: 1 -> 1
+18-20: 1 -> 1
+18-21: 1 -> 1
+18-22: 1 -> 1
+18-23: 1 -> 1
+18-24: 1 -> 1
+18-25: 1 -> 1
+18-26: 1 -> 1
+18-27: 1 -> 1
+18-28: 1 -> 1
+18-29: 1 -> 1
+18-30: 1 -> 1
+18-31: 1 -> 1
+18-32: 1 -> 1
+19-19: 1 -> 1
+19-20: 1 -> 1
+19-21: 1 -> 1
+19-22: 1 -> 1
+19-23: 1 -> 1
+19-24: 1 -> 1
+19-25: 1 -> 1
+19-26: 1 -> 1
+19-27: 1 -> 1
+19-28: 1 -> 1
+19-29: 1 -> 1
+19-30: 1 -> 1
+19-31: 1 -> 1
+19-32: 1 -> 1
+20-20: 1 -> 1
+20-21: 1 -> 1
+20-22: 1 -> 1
+20-23: 1 -> 1
+20-24: 1 -> 1
+20-25: 1 -> 1
+20-26: 1 -> 1
+20-27: 1 -> 1
+20-28: 1 -> 1
+20-29: 1 -> 1
+20-30: 1 -> 1
+20-31: 1 -> 1
+20-32: 1 -> 1
+4-16: 10 -> 10
+4-17: 10 -> 10
+4-18: 10 -> 10
+4-19: 10 -> 10
+4-20: 10 -> 10
+4-21: 10 -> 10
+4-22: 10 -> 10
+4-23: 10 -> 10
+4-24: 10 -> 10
+4-25: 10 -> 10
+4-26: 10 -> 10
+4-27: 10 -> 10
+4-28: 10 -> 10
+4-29: 10 -> 10
+4-30: 10 -> 10
+4-31: 10 -> 10
+4-32: 10 -> 10
+5-16: 10 -> 10
+5-17: 10 -> 10
+5-18: 10 -> 10
+5-19: 10 -> 10
+5-20: 10 -> 10
+5-21: 10 -> 10
+5-22: 10 -> 10
+5-23: 10 -> 10
+5-24: 10 -> 10
+5-25: 10 -> 10
+5-26: 10 -> 10
+5-27: 10 -> 10
+5-28: 10 -> 10
+5-29: 10 -> 10
+5-30: 10 -> 10
+5-31: 10 -> 10
+5-32: 10 -> 10
+6-16: 10 -> 10
+6-17: 10 -> 10
+6-18: 10 -> 10
+6-19: 10 -> 10
+6-20: 10 -> 10
+6-21: 10 -> 10
+6-22: 10 -> 10
+6-23: 10 -> 10
+6-24: 10 -> 10
+6-25: 10 -> 10
+6-26: 10 -> 10
+6-27: 10 -> 10
+6-28: 10 -> 10
+6-29: 10 -> 10
+6-30: 10 -> 10
+6-31: 10 -> 10
+6-32: 10 -> 10
+7-16: 10 -> 10
+7-17: 10 -> 10
+7-18: 10 -> 10
+7-19: 10 -> 10
+7-20: 10 -> 10
+7-21: 10 -> 10
+7-22: 10 -> 10
+7-23: 10 -> 10
+7-24: 10 -> 10
+7-25: 10 -> 10
+7-26: 10 -> 10
+7-27: 10 -> 10
+7-28: 10 -> 10
+7-29: 10 -> 10
+7-30: 10 -> 10
+7-31: 10 -> 10
+7-32: 10 -> 10
+8-16: 10 -> 10
+8-17: 10 -> 10
+8-18: 10 -> 10
+8-19: 10 -> 10
+8-20: 10 -> 10
+8-21: 10 -> 10
+8-22: 10 -> 10
+8-23: 10 -> 10
+8-24: 10 -> 10
+8-25: 10 -> 10
+8-26: 10 -> 10
+8-27: 10 -> 10
+8-28: 10 -> 10
+8-29: 10 -> 10
+8-30: 10 -> 10
+8-31: 10 -> 10
+8-32: 10 -> 10
+9-16: 10 -> 10
+9-17: 10 -> 10
+9-18: 10 -> 10
+9-19: 10 -> 10
+9-20: 10 -> 10
+9-21: 10 -> 10
+9-22: 10 -> 10
+9-23: 10 -> 10
+9-24: 10 -> 10
+9-25: 10 -> 10
+9-26: 10 -> 10
+9-27: 10 -> 10
+9-28: 10 -> 10
+9-29: 10 -> 10
+9-30: 10 -> 10
+9-31: 10 -> 10
+9-32: 10 -> 10
+10-16: 10 -> 10
+10-17: 10 -> 10
+10-18: 10 -> 10
+10-19: 10 -> 10
+10-20: 10 -> 10
+10-21: 10 -> 10
+10-22: 10 -> 10
+10-23: 10 -> 10
+10-24: 10 -> 10
+10-25: 10 -> 10
+10-26: 10 -> 10
+10-27: 10 -> 10
+10-28: 10 -> 10
+10-29: 10 -> 10
+10-30: 10 -> 10
+10-31: 10 -> 10
+10-32: 10 -> 10
+11-16: 10 -> 10
+11-17: 10 -> 10
+11-18: 10 -> 10
+11-19: 10 -> 10
+11-20: 10 -> 10
+11-21: 10 -> 10
+11-22: 10 -> 10
+11-23: 10 -> 10
+11-24: 10 -> 10
+11-25: 10 -> 10
+11-26: 10 -> 10
+11-27: 10 -> 10
+11-28: 10 -> 10
+11-29: 10 -> 10
+11-30: 10 -> 10
+11-31: 10 -> 10
+11-32: 10 -> 10
+12-16: 10 -> 10
+12-17: 10 -> 10
+12-18: 10 -> 10
+12-19: 10 -> 10
+12-20: 10 -> 10
+12-21: 10 -> 10
+12-22: 10 -> 10
+12-23: 10 -> 10
+12-24: 10 -> 10
+12-25: 10 -> 10
+12-26: 10 -> 10
+12-27: 10 -> 10
+12-28: 10 -> 10
+12-29: 10 -> 10
+12-30: 10 -> 10
+12-31: 10 -> 10
+12-32: 10 -> 10
+13-16: 10 -> 10
+13-17: 10 -> 10
+13-18: 10 -> 10
+13-19: 10 -> 10
+13-20: 10 -> 10
+13-21: 10 -> 10
+13-22: 10 -> 10
+13-23: 10 -> 10
+13-24: 10 -> 10
+13-25: 10 -> 10
+13-26: 10 -> 10
+13-27: 10 -> 10
+13-28: 10 -> 10
+13-29: 10 -> 10
+13-30: 10 -> 10
+13-31: 10 -> 10
+13-32: 10 -> 10
+14-16: 10 -> 10
+14-17: 10 -> 10
+14-18: 10 -> 10
+14-19: 10 -> 10
+14-20: 10 -> 10
+14-21: 10 -> 10
+14-22: 10 -> 10
+14-23: 10 -> 10
+14-24: 10 -> 10
+14-25: 10 -> 10
+14-26: 10 -> 10
+14-27: 10 -> 10
+14-28: 10 -> 10
+14-29: 10 -> 10
+14-30: 10 -> 10
+14-31: 10 -> 10
+14-32: 10 -> 10
+15-16: 10 -> 10
+15-17: 10 -> 10
+15-18: 10 -> 10
+15-19: 10 -> 10
+15-20: 10 -> 10
+15-21: 10 -> 10
+15-22: 10 -> 10
+15-23: 10 -> 10
+15-24: 10 -> 10
+15-25: 10 -> 10
+15-26: 10 -> 10
+15-27: 10 -> 10
+15-28: 10 -> 10
+15-29: 10 -> 10
+15-30: 10 -> 10
+15-31: 10 -> 10
+15-32: 10 -> 10
+16-16: 10 -> 10
+16-17: 10 -> 10
+16-18: 10 -> 10
+16-19: 10 -> 10
+16-20: 10 -> 10
+16-21: 10 -> 10
+16-22: 10 -> 10
+16-23: 10 -> 10
+16-24: 10 -> 10
+16-25: 10 -> 10
+16-26: 10 -> 10
+16-27: 10 -> 10
+16-28: 10 -> 10
+16-29: 10 -> 10
+16-30: 10 -> 10
+16-31: 10 -> 10
+16-32: 10 -> 10
+17-17: 10 -> 10
+17-18: 10 -> 10
+17-19: 10 -> 10
+17-20: 10 -> 10
+17-21: 10 -> 10
+17-22: 10 -> 10
+17-23: 10 -> 10
+17-24: 10 -> 10
+17-25: 10 -> 10
+17-26: 10 -> 10
+17-27: 10 -> 10
+17-28: 10 -> 10
+17-29: 10 -> 10
+17-30: 10 -> 10
+17-31: 10 -> 10
+17-32: 10 -> 10
+18-18: 10 -> 10
+18-19: 10 -> 10
+18-20: 10 -> 10
+18-21: 10 -> 10
+18-22: 10 -> 10
+18-23: 10 -> 10
+18-24: 10 -> 10
+18-25: 10 -> 10
+18-26: 10 -> 10
+18-27: 10 -> 10
+18-28: 10 -> 10
+18-29: 10 -> 10
+18-30: 10 -> 10
+18-31: 10 -> 10
+18-32: 10 -> 10
+19-19: 10 -> 10
+19-20: 10 -> 10
+19-21: 10 -> 10
+19-22: 10 -> 10
+19-23: 10 -> 10
+19-24: 10 -> 10
+19-25: 10 -> 10
+19-26: 10 -> 10
+19-27: 10 -> 10
+19-28: 10 -> 10
+19-29: 10 -> 10
+19-30: 10 -> 10
+19-31: 10 -> 10
+19-32: 10 -> 10
+20-20: 10 -> 10
+20-21: 10 -> 10
+20-22: 10 -> 10
+20-23: 10 -> 10
+20-24: 10 -> 10
+20-25: 10 -> 10
+20-26: 10 -> 10
+20-27: 10 -> 10
+20-28: 10 -> 10
+20-29: 10 -> 10
+20-30: 10 -> 10
+20-31: 10 -> 10
+20-32: 10 -> 10
+4-16: 100 -> 76
+4-17: 100 -> 113
+4-18: 100 -> 103
+4-19: 100 -> 94
+4-20: 100 -> 86
+4-21: 100 -> 111
+4-22: 100 -> 141
+4-23: 100 -> 83
+4-24: 100 -> 149
+4-25: 100 -> 95
+4-26: 100 -> 85
+4-27: 100 -> 113
+4-28: 100 -> 97
+4-29: 100 -> 76
+4-30: 100 -> 110
+4-31: 100 -> 76
+4-32: 100 -> 108
+5-16: 100 -> 95
+5-17: 100 -> 127
+5-18: 100 -> 84
+5-19: 100 -> 78
+5-20: 100 -> 124
+5-21: 100 -> 100
+5-22: 100 -> 71
+5-23: 100 -> 97
+5-24: 100 -> 104
+5-25: 100 -> 85
+5-26: 100 -> 97
+5-27: 100 -> 99
+5-28: 100 -> 111
+5-29: 100 -> 73
+5-30: 100 -> 57
+5-31: 100 -> 74
+5-32: 100 -> 70
+6-16: 100 -> 102
+6-17: 100 -> 115
+6-18: 100 -> 121
+6-19: 100 -> 94
+6-20: 100 -> 101
+6-21: 100 -> 97
+6-22: 100 -> 95
+6-23: 100 -> 90
+6-24: 100 -> 107
+6-25: 100 -> 100
+6-26: 100 -> 81
+6-27: 100 -> 75
+6-28: 100 -> 54
+6-29: 100 -> 47
+6-30: 100 -> 52
+6-31: 100 -> 49
+6-32: 100 -> 50
+7-16: 100 -> 92
+7-17: 100 -> 102
+7-18: 100 -> 91
+7-19: 100 -> 101
+7-20: 100 -> 104
+7-21: 100 -> 96
+7-22: 100 -> 96
+7-23: 100 -> 101
+7-24: 100 -> 105
+7-25: 100 -> 103
+7-26: 100 -> 70
+7-27: 100 -> 35
+7-28: 100 -> 17
+7-29: 100 -> 8
+7-30: 100 -> 4
+7-31: 100 -> 2
+7-32: 100 -> 1
+8-16: 100 -> 100
+8-17: 100 -> 100
+8-18: 100 -> 100
+8-19: 100 -> 100
+8-20: 100 -> 100
+8-21: 100 -> 100
+8-22: 100 -> 100
+8-23: 100 -> 100
+8-24: 100 -> 100
+8-25: 100 -> 100
+8-26: 100 -> 100
+8-27: 100 -> 100
+8-28: 100 -> 100
+8-29: 100 -> 100
+8-30: 100 -> 100
+8-31: 100 -> 100
+8-32: 100 -> 100
+9-16: 100 -> 100
+9-17: 100 -> 100
+9-18: 100 -> 100
+9-19: 100 -> 100
+9-20: 100 -> 100
+9-21: 100 -> 100
+9-22: 100 -> 100
+9-23: 100 -> 100
+9-24: 100 -> 100
+9-25: 100 -> 100
+9-26: 100 -> 100
+9-27: 100 -> 100
+9-28: 100 -> 100
+9-29: 100 -> 100
+9-30: 100 -> 100
+9-31: 100 -> 100
+9-32: 100 -> 100
+10-16: 100 -> 100
+10-17: 100 -> 100
+10-18: 100 -> 100
+10-19: 100 -> 100
+10-20: 100 -> 100
+10-21: 100 -> 100
+10-22: 100 -> 100
+10-23: 100 -> 100
+10-24: 100 -> 100
+10-25: 100 -> 100
+10-26: 100 -> 100
+10-27: 100 -> 100
+10-28: 100 -> 100
+10-29: 100 -> 100
+10-30: 100 -> 100
+10-31: 100 -> 100
+10-32: 100 -> 100
+11-16: 100 -> 100
+11-17: 100 -> 100
+11-18: 100 -> 100
+11-19: 100 -> 100
+11-20: 100 -> 100
+11-21: 100 -> 100
+11-22: 100 -> 100
+11-23: 100 -> 100
+11-24: 100 -> 100
+11-25: 100 -> 100
+11-26: 100 -> 100
+11-27: 100 -> 100
+11-28: 100 -> 100
+11-29: 100 -> 100
+11-30: 100 -> 100
+11-31: 100 -> 100
+11-32: 100 -> 100
+12-16: 100 -> 99
+12-17: 100 -> 100
+12-18: 100 -> 100
+12-19: 100 -> 100
+12-20: 100 -> 100
+12-21: 100 -> 100
+12-22: 100 -> 100
+12-23: 100 -> 100
+12-24: 100 -> 100
+12-25: 100 -> 100
+12-26: 100 -> 100
+12-27: 100 -> 100
+12-28: 100 -> 100
+12-29: 100 -> 100
+12-30: 100 -> 100
+12-31: 100 -> 100
+12-32: 100 -> 100
+13-16: 100 -> 100
+13-17: 100 -> 99
+13-18: 100 -> 100
+13-19: 100 -> 100
+13-20: 100 -> 100
+13-21: 100 -> 100
+13-22: 100 -> 100
+13-23: 100 -> 100
+13-24: 100 -> 100
+13-25: 100 -> 100
+13-26: 100 -> 100
+13-27: 100 -> 100
+13-28: 100 -> 100
+13-29: 100 -> 100
+13-30: 100 -> 100
+13-31: 100 -> 100
+13-32: 100 -> 100
+14-16: 100 -> 100
+14-17: 100 -> 100
+14-18: 100 -> 100
+14-19: 100 -> 100
+14-20: 100 -> 100
+14-21: 100 -> 100
+14-22: 100 -> 100
+14-23: 100 -> 100
+14-24: 100 -> 100
+14-25: 100 -> 100
+14-26: 100 -> 100
+14-27: 100 -> 100
+14-28: 100 -> 100
+14-29: 100 -> 100
+14-30: 100 -> 100
+14-31: 100 -> 100
+14-32: 100 -> 100
+15-16: 100 -> 100
+15-17: 100 -> 100
+15-18: 100 -> 100
+15-19: 100 -> 100
+15-20: 100 -> 100
+15-21: 100 -> 100
+15-22: 100 -> 100
+15-23: 100 -> 100
+15-24: 100 -> 100
+15-25: 100 -> 100
+15-26: 100 -> 100
+15-27: 100 -> 100
+15-28: 100 -> 100
+15-29: 100 -> 100
+15-30: 100 -> 100
+15-31: 100 -> 100
+15-32: 100 -> 100
+16-16: 100 -> 100
+16-17: 100 -> 100
+16-18: 100 -> 100
+16-19: 100 -> 100
+16-20: 100 -> 100
+16-21: 100 -> 100
+16-22: 100 -> 100
+16-23: 100 -> 100
+16-24: 100 -> 100
+16-25: 100 -> 100
+16-26: 100 -> 100
+16-27: 100 -> 100
+16-28: 100 -> 100
+16-29: 100 -> 100
+16-30: 100 -> 100
+16-31: 100 -> 100
+16-32: 100 -> 100
+17-17: 100 -> 99
+17-18: 100 -> 100
+17-19: 100 -> 100
+17-20: 100 -> 100
+17-21: 100 -> 100
+17-22: 100 -> 100
+17-23: 100 -> 100
+17-24: 100 -> 100
+17-25: 100 -> 100
+17-26: 100 -> 100
+17-27: 100 -> 100
+17-28: 100 -> 100
+17-29: 100 -> 100
+17-30: 100 -> 100
+17-31: 100 -> 100
+17-32: 100 -> 100
+18-18: 100 -> 100
+18-19: 100 -> 100
+18-20: 100 -> 100
+18-21: 100 -> 100
+18-22: 100 -> 100
+18-23: 100 -> 100
+18-24: 100 -> 100
+18-25: 100 -> 100
+18-26: 100 -> 100
+18-27: 100 -> 100
+18-28: 100 -> 100
+18-29: 100 -> 100
+18-30: 100 -> 100
+18-31: 100 -> 100
+18-32: 100 -> 100
+19-19: 100 -> 100
+19-20: 100 -> 100
+19-21: 100 -> 100
+19-22: 100 -> 100
+19-23: 100 -> 100
+19-24: 100 -> 100
+19-25: 100 -> 100
+19-26: 100 -> 100
+19-27: 100 -> 100
+19-28: 100 -> 100
+19-29: 100 -> 100
+19-30: 100 -> 100
+19-31: 100 -> 100
+19-32: 100 -> 100
+20-20: 100 -> 100
+20-21: 100 -> 100
+20-22: 100 -> 100
+20-23: 100 -> 100
+20-24: 100 -> 100
+20-25: 100 -> 100
+20-26: 100 -> 100
+20-27: 100 -> 100
+20-28: 100 -> 100
+20-29: 100 -> 100
+20-30: 100 -> 100
+20-31: 100 -> 100
+20-32: 100 -> 100
+4-16: 1000 -> 1105
+4-17: 1000 -> 626
+4-18: 1000 -> 983
+4-19: 1000 -> 1292
+4-20: 1000 -> 617
+4-21: 1000 -> 1122
+4-22: 1000 -> 1069
+4-23: 1000 -> 817
+4-24: 1000 -> 1466
+4-25: 1000 -> 675
+4-26: 1000 -> 1127
+4-27: 1000 -> 1115
+4-28: 1000 -> 1146
+4-29: 1000 -> 980
+4-30: 1000 -> 1443
+4-31: 1000 -> 1372
+4-32: 1000 -> 1411
+5-16: 1000 -> 870
+5-17: 1000 -> 639
+5-18: 1000 -> 817
+5-19: 1000 -> 689
+5-20: 1000 -> 1185
+5-21: 1000 -> 1111
+5-22: 1000 -> 1357
+5-23: 1000 -> 889
+5-24: 1000 -> 1194
+5-25: 1000 -> 1147
+5-26: 1000 -> 1109
+5-27: 1000 -> 973
+5-28: 1000 -> 1000
+5-29: 1000 -> 1289
+5-30: 1000 -> 934
+5-31: 1000 -> 1003
+5-32: 1000 -> 1043
+6-16: 1000 -> 850
+6-17: 1000 -> 997
+6-18: 1000 -> 972
+6-19: 1000 -> 987
+6-20: 1000 -> 924
+6-21: 1000 -> 1015
+6-22: 1000 -> 981
+6-23: 1000 -> 997
+6-24: 1000 -> 999
+6-25: 1000 -> 944
+6-26: 1000 -> 951
+6-27: 1000 -> 1018
+6-28: 1000 -> 1161
+6-29: 1000 -> 887
+6-30: 1000 -> 872
+6-31: 1000 -> 1198
+6-32: 1000 -> 905
+7-16: 1000 -> 999
+7-17: 1000 -> 1055
+7-18: 1000 -> 1099
+7-19: 1000 -> 1091
+7-20: 1000 -> 967
+7-21: 1000 -> 962
+7-22: 1000 -> 1001
+7-23: 1000 -> 1051
+7-24: 1000 -> 1052
+7-25: 1000 -> 895
+7-26: 1000 -> 1034
+7-27: 1000 -> 860
+7-28: 1000 -> 966
+7-29: 1000 -> 934
+7-30: 1000 -> 862
+7-31: 1000 -> 857
+7-32: 1000 -> 888
+8-16: 1000 -> 1007
+8-17: 1000 -> 933
+8-18: 1000 -> 999
+8-19: 1000 -> 935
+8-20: 1000 -> 996
+8-21: 1000 -> 1041
+8-22: 1000 -> 1076
+8-23: 1000 -> 1117
+8-24: 1000 -> 1055
+8-25: 1000 -> 1015
+8-26: 1000 -> 1123
+8-27: 1000 -> 887
+8-28: 1000 -> 845
+8-29: 1000 -> 803
+8-30: 1000 -> 743
+8-31: 1000 -> 757
+8-32: 1000 -> 751
+9-16: 1000 -> 1004
+9-17: 1000 -> 1002
+9-18: 1000 -> 975
+9-19: 1000 -> 971
+9-20: 1000 -> 988
+9-21: 1000 -> 994
+9-22: 1000 -> 1022
+9-23: 1000 -> 995
+9-24: 1000 -> 1064
+9-25: 1000 -> 972
+9-26: 1000 -> 879
+9-27: 1000 -> 841
+9-28: 1000 -> 746
+9-29: 1000 -> 632
+9-30: 1000 -> 578
+9-31: 1000 -> 635
+9-32: 1000 -> 555
+10-16: 1000 -> 1019
+10-17: 1000 -> 987
+10-18: 1000 -> 978
+10-19: 1000 -> 1007
+10-20: 1000 -> 1013
+10-21: 1000 -> 985
+10-22: 1000 -> 1014
+10-23: 1000 -> 1046
+10-24: 1000 -> 988
+10-25: 1000 -> 1005
+10-26: 1000 -> 728
+10-27: 1000 -> 478
+10-28: 1000 -> 342
+10-29: 1000 -> 259
+10-30: 1000 -> 226
+10-31: 1000 -> 219
+10-32: 1000 -> 202
+11-16: 1000 -> 1001
+11-17: 1000 -> 1003
+11-18: 1000 -> 1001
+11-19: 1000 -> 1000
+11-20: 1000 -> 1000
+11-21: 1000 -> 1000
+11-22: 1000 -> 1000
+11-23: 1000 -> 1000
+11-24: 1000 -> 1000
+11-25: 1000 -> 1000
+11-26: 1000 -> 1000
+11-27: 1000 -> 1000
+11-28: 1000 -> 1000
+11-29: 1000 -> 1000
+11-30: 1000 -> 1000
+11-31: 1000 -> 1000
+11-32: 1000 -> 1000
+12-16: 1000 -> 1003
+12-17: 1000 -> 1001
+12-18: 1000 -> 1000
+12-19: 1000 -> 999
+12-20: 1000 -> 999
+12-21: 1000 -> 1000
+12-22: 1000 -> 1000
+12-23: 1000 -> 1000
+12-24: 1000 -> 1000
+12-25: 1000 -> 1000
+12-26: 1000 -> 1000
+12-27: 1000 -> 1000
+12-28: 1000 -> 1000
+12-29: 1000 -> 1000
+12-30: 1000 -> 1000
+12-31: 1000 -> 1000
+12-32: 1000 -> 1000
+13-16: 1000 -> 995
+13-17: 1000 -> 1002
+13-18: 1000 -> 1000
+13-19: 1000 -> 1001
+13-20: 1000 -> 1000
+13-21: 1000 -> 1000
+13-22: 1000 -> 999
+13-23: 1000 -> 1000
+13-24: 1000 -> 1000
+13-25: 1000 -> 1000
+13-26: 1000 -> 1000
+13-27: 1000 -> 1000
+13-28: 1000 -> 1000
+13-29: 1000 -> 1000
+13-30: 1000 -> 1000
+13-31: 1000 -> 1000
+13-32: 1000 -> 1000
+14-16: 1000 -> 1005
+14-17: 1000 -> 1002
+14-18: 1000 -> 1002
+14-19: 1000 -> 1001
+14-20: 1000 -> 999
+14-21: 1000 -> 1000
+14-22: 1000 -> 1000
+14-23: 1000 -> 1000
+14-24: 1000 -> 1000
+14-25: 1000 -> 1000
+14-26: 1000 -> 1000
+14-27: 1000 -> 1000
+14-28: 1000 -> 1000
+14-29: 1000 -> 1000
+14-30: 1000 -> 1000
+14-31: 1000 -> 1000
+14-32: 1000 -> 1000
+15-16: 1000 -> 1001
+15-17: 1000 -> 1000
+15-18: 1000 -> 1002
+15-19: 1000 -> 999
+15-20: 1000 -> 998
+15-21: 1000 -> 1000
+15-22: 1000 -> 998
+15-23: 1000 -> 1000
+15-24: 1000 -> 1000
+15-25: 1000 -> 1000
+15-26: 1000 -> 1000
+15-27: 1000 -> 1000
+15-28: 1000 -> 1000
+15-29: 1000 -> 1000
+15-30: 1000 -> 1000
+15-31: 1000 -> 1000
+15-32: 1000 -> 1000
+16-16: 1000 -> 1000
+16-17: 1000 -> 999
+16-18: 1000 -> 1001
+16-19: 1000 -> 1001
+16-20: 1000 -> 999
+16-21: 1000 -> 1000
+16-22: 1000 -> 1000
+16-23: 1000 -> 1000
+16-24: 1000 -> 1000
+16-25: 1000 -> 1000
+16-26: 1000 -> 1000
+16-27: 1000 -> 1000
+16-28: 1000 -> 1000
+16-29: 1000 -> 1000
+16-30: 1000 -> 1000
+16-31: 1000 -> 1000
+16-32: 1000 -> 1000
+17-17: 1000 -> 1003
+17-18: 1000 -> 1001
+17-19: 1000 -> 1000
+17-20: 1000 -> 1000
+17-21: 1000 -> 999
+17-22: 1000 -> 1000
+17-23: 1000 -> 1000
+17-24: 1000 -> 1000
+17-25: 1000 -> 1000
+17-26: 1000 -> 1000
+17-27: 1000 -> 1000
+17-28: 1000 -> 1000
+17-29: 1000 -> 1000
+17-30: 1000 -> 1000
+17-31: 1000 -> 1000
+17-32: 1000 -> 1000
+18-18: 1000 -> 1001
+18-19: 1000 -> 998
+18-20: 1000 -> 1000
+18-21: 1000 -> 1000
+18-22: 1000 -> 1000
+18-23: 1000 -> 1000
+18-24: 1000 -> 1000
+18-25: 1000 -> 1000
+18-26: 1000 -> 1000
+18-27: 1000 -> 1000
+18-28: 1000 -> 1000
+18-29: 1000 -> 1000
+18-30: 1000 -> 1000
+18-31: 1000 -> 1000
+18-32: 1000 -> 1000
+19-19: 1000 -> 1001
+19-20: 1000 -> 998
+19-21: 1000 -> 1000
+19-22: 1000 -> 1000
+19-23: 1000 -> 1000
+19-24: 1000 -> 1000
+19-25: 1000 -> 1000
+19-26: 1000 -> 1000
+19-27: 1000 -> 1000
+19-28: 1000 -> 1000
+19-29: 1000 -> 1000
+19-30: 1000 -> 1000
+19-31: 1000 -> 1000
+19-32: 1000 -> 1000
+20-20: 1000 -> 1000
+20-21: 1000 -> 1000
+20-22: 1000 -> 1000
+20-23: 1000 -> 1000
+20-24: 1000 -> 1000
+20-25: 1000 -> 1000
+20-26: 1000 -> 1000
+20-27: 1000 -> 1000
+20-28: 1000 -> 1000
+20-29: 1000 -> 1000
+20-30: 1000 -> 1000
+20-31: 1000 -> 1000
+20-32: 1000 -> 1000
+4-16: 10000 -> 7423
+4-17: 10000 -> 8753
+4-18: 10000 -> 9409
+4-19: 10000 -> 7819
+4-20: 10000 -> 10218
+4-21: 10000 -> 8814
+4-22: 10000 -> 7409
+4-23: 10000 -> 12831
+4-24: 10000 -> 12658
+4-25: 10000 -> 8573
+4-26: 10000 -> 6818
+4-27: 10000 -> 7370
+4-28: 10000 -> 5905
+4-29: 10000 -> 8933
+4-30: 10000 -> 8158
+4-31: 10000 -> 6673
+4-32: 10000 -> 8182
+5-16: 10000 -> 9340
+5-17: 10000 -> 8933
+5-18: 10000 -> 9387
+5-19: 10000 -> 11845
+5-20: 10000 -> 14106
+5-21: 10000 -> 8579
+5-22: 10000 -> 9860
+5-23: 10000 -> 9648
+5-24: 10000 -> 7752
+5-25: 10000 -> 13004
+5-26: 10000 -> 8812
+5-27: 10000 -> 8766
+5-28: 10000 -> 11381
+5-29: 10000 -> 9519
+5-30: 10000 -> 9159
+5-31: 10000 -> 9761
+5-32: 10000 -> 12124
+6-16: 10000 -> 10872
+6-17: 10000 -> 9484
+6-18: 10000 -> 13238
+6-19: 10000 -> 9718
+6-20: 10000 -> 10849
+6-21: 10000 -> 9674
+6-22: 10000 -> 10128
+6-23: 10000 -> 10184
+6-24: 10000 -> 9420
+6-25: 10000 -> 8796
+6-26: 10000 -> 8932
+6-27: 10000 -> 10457
+6-28: 10000 -> 11744
+6-29: 10000 -> 11284
+6-30: 10000 -> 11616
+6-31: 10000 -> 10116
+6-32: 10000 -> 9687
+7-16: 10000 -> 9197
+7-17: 10000 -> 10298
+7-18: 10000 -> 9543
+7-19: 10000 -> 9808
+7-20: 10000 -> 11615
+7-21: 10000 -> 9765
+7-22: 10000 -> 10961
+7-23: 10000 -> 9517
+7-24: 10000 -> 10542
+7-25: 10000 -> 11146
+7-26: 10000 -> 9650
+7-27: 10000 -> 11416
+7-28: 10000 -> 11441
+7-29: 10000 -> 9792
+7-30: 10000 -> 8903
+7-31: 10000 -> 8906
+7-32: 10000 -> 10781
+8-16: 10000 -> 10988
+8-17: 10000 -> 11444
+8-18: 10000 -> 9383
+8-19: 10000 -> 9265
+8-20: 10000 -> 9067
+8-21: 10000 -> 8862
+8-22: 10000 -> 10023
+8-23: 10000 -> 9329
+8-24: 10000 -> 9841
+8-25: 10000 -> 10703
+8-26: 10000 -> 11780
+8-27: 10000 -> 9112
+8-28: 10000 -> 10162
+8-29: 10000 -> 10237
+8-30: 10000 -> 9871
+8-31: 10000 -> 9701
+8-32: 10000 -> 11051
+9-16: 10000 -> 10572
+9-17: 10000 -> 10407
+9-18: 10000 -> 9428
+9-19: 10000 -> 9930
+9-20: 10000 -> 10114
+9-21: 10000 -> 9731
+9-22: 10000 -> 9735
+9-23: 10000 -> 9342
+9-24: 10000 -> 10882
+9-25: 10000 -> 9937
+9-26: 10000 -> 9887
+9-27: 10000 -> 9958
+9-28: 10000 -> 9710
+9-29: 10000 -> 9604
+9-30: 10000 -> 10598
+9-31: 10000 -> 9846
+9-32: 10000 -> 10061
+10-16: 10000 -> 10134
+10-17: 10000 -> 10084
+10-18: 10000 -> 9976
+10-19: 10000 -> 9952
+10-20: 10000 -> 9657
+10-21: 10000 -> 9840
+10-22: 10000 -> 10438
+10-23: 10000 -> 9689
+10-24: 10000 -> 9758
+10-25: 10000 -> 9811
+10-26: 10000 -> 9721
+10-27: 10000 -> 9751
+10-28: 10000 -> 9864
+10-29: 10000 -> 9441
+10-30: 10000 -> 9542
+10-31: 10000 -> 9298
+10-32: 10000 -> 8854
+11-16: 10000 -> 9523
+11-17: 10000 -> 10021
+11-18: 10000 -> 10111
+11-19: 10000 -> 9594
+11-20: 10000 -> 10254
+11-21: 10000 -> 9786
+11-22: 10000 -> 9799
+11-23: 10000 -> 10013
+11-24: 10000 -> 9979
+11-25: 10000 -> 9910
+11-26: 10000 -> 9344
+11-27: 10000 -> 9282
+11-28: 10000 -> 8976
+11-29: 10000 -> 8930
+11-30: 10000 -> 8427
+11-31: 10000 -> 8812
+11-32: 10000 -> 8767
+12-16: 10000 -> 10060
+12-17: 10000 -> 9989
+12-18: 10000 -> 10070
+12-19: 10000 -> 10055
+12-20: 10000 -> 9903
+12-21: 10000 -> 9699
+12-22: 10000 -> 10283
+12-23: 10000 -> 10063
+12-24: 10000 -> 9860
+12-25: 10000 -> 9866
+12-26: 10000 -> 9134
+12-27: 10000 -> 8123
+12-28: 10000 -> 7292
+12-29: 10000 -> 6832
+12-30: 10000 -> 6772
+12-31: 10000 -> 6412
+12-32: 10000 -> 6507
+13-16: 10000 -> 10091
+13-17: 10000 -> 9948
+13-18: 10000 -> 10083
+13-19: 10000 -> 10134
+13-20: 10000 -> 9994
+13-21: 10000 -> 9905
+13-22: 10000 -> 9903
+13-23: 10000 -> 10147
+13-24: 10000 -> 10124
+13-25: 10000 -> 9979
+13-26: 10000 -> 7933
+13-27: 10000 -> 5386
+13-28: 10000 -> 4162
+13-29: 10000 -> 3614
+13-30: 10000 -> 3382
+13-31: 10000 -> 3190
+13-32: 10000 -> 3163
+14-16: 10000 -> 10022
+14-17: 10000 -> 10005
+14-18: 10000 -> 10006
+14-19: 10000 -> 10006
+14-20: 10000 -> 10009
+14-21: 10000 -> 9999
+14-22: 10000 -> 9996
+14-23: 10000 -> 9998
+14-24: 10000 -> 9998
+14-25: 10000 -> 9998
+14-26: 10000 -> 10000
+14-27: 10000 -> 9998
+14-28: 10000 -> 9998
+14-29: 10000 -> 9998
+14-30: 10000 -> 9999
+14-31: 10000 -> 9998
+14-32: 10000 -> 9999
+15-16: 10000 -> 9988
+15-17: 10000 -> 9985
+15-18: 10000 -> 9985
+15-19: 10000 -> 9990
+15-20: 10000 -> 10003
+15-21: 10000 -> 9997
+15-22: 10000 -> 10002
+15-23: 10000 -> 9997
+15-24: 10000 -> 9999
+15-25: 10000 -> 9998
+15-26: 10000 -> 10001
+15-27: 10000 -> 9999
+15-28: 10000 -> 9998
+15-29: 10000 -> 10000
+15-30: 10000 -> 10000
+15-31: 10000 -> 9998
+15-32: 10000 -> 10000
+16-16: 10000 -> 9969
+16-17: 10000 -> 9990
+16-18: 10000 -> 9964
+16-19: 10000 -> 9996
+16-20: 10000 -> 10002
+16-21: 10000 -> 9998
+16-22: 10000 -> 10000
+16-23: 10000 -> 10002
+16-24: 10000 -> 9997
+16-25: 10000 -> 10001
+16-26: 10000 -> 10001
+16-27: 10000 -> 9998
+16-28: 10000 -> 9998
+16-29: 10000 -> 9998
+16-30: 10000 -> 9999
+16-31: 10000 -> 9999
+16-32: 10000 -> 9996
+17-17: 10000 -> 10054
+17-18: 10000 -> 10018
+17-19: 10000 -> 9987
+17-20: 10000 -> 10003
+17-21: 10000 -> 10004
+17-22: 10000 -> 10003
+17-23: 10000 -> 9995
+17-24: 10000 -> 10000
+17-25: 10000 -> 9999
+17-26: 10000 -> 10000
+17-27: 10000 -> 9999
+17-28: 10000 -> 9999
+17-29: 10000 -> 9997
+17-30: 10000 -> 9994
+17-31: 10000 -> 9998
+17-32: 10000 -> 9999
+18-18: 10000 -> 10011
+18-19: 10000 -> 9988
+18-20: 10000 -> 9991
+18-21: 10000 -> 10003
+18-22: 10000 -> 9996
+18-23: 10000 -> 9998
+18-24: 10000 -> 10003
+18-25: 10000 -> 9999
+18-26: 10000 -> 9998
+18-27: 10000 -> 9998
+18-28: 10000 -> 9998
+18-29: 10000 -> 9997
+18-30: 10000 -> 9999
+18-31: 10000 -> 10000
+18-32: 10000 -> 9998
+19-19: 10000 -> 9976
+19-20: 10000 -> 9999
+19-21: 10000 -> 10004
+19-22: 10000 -> 10000
+19-23: 10000 -> 10000
+19-24: 10000 -> 10001
+19-25: 10000 -> 9997
+19-26: 10000 -> 9999
+19-27: 10000 -> 9996
+19-28: 10000 -> 9994
+19-29: 10000 -> 9997
+19-30: 10000 -> 9998
+19-31: 10000 -> 10000
+19-32: 10000 -> 10000
+20-20: 10000 -> 10004
+20-21: 10000 -> 10002
+20-22: 10000 -> 9997
+20-23: 10000 -> 10003
+20-24: 10000 -> 9999
+20-25: 10000 -> 10001
+20-26: 10000 -> 9999
+20-27: 10000 -> 10000
+20-28: 10000 -> 10000
+20-29: 10000 -> 9999
+20-30: 10000 -> 9999
+20-31: 10000 -> 9998
+20-32: 10000 -> 9996
+4-16: 100000 -> 96711
+4-17: 100000 -> 67409
+4-18: 100000 -> 67808
+4-19: 100000 -> 129041
+4-20: 100000 -> 112070
+4-21: 100000 -> 102938
+4-22: 100000 -> 140918
+4-23: 100000 -> 105033
+4-24: 100000 -> 75211
+4-25: 100000 -> 100757
+4-26: 100000 -> 122729
+4-27: 100000 -> 97127
+4-28: 100000 -> 96711
+4-29: 100000 -> 193423
+4-30: 100000 -> 125282
+4-31: 100000 -> 109092
+4-32: 100000 -> 185384
+5-16: 100000 -> 110940
+5-17: 100000 -> 107128
+5-18: 100000 -> 129034
+5-19: 100000 -> 108716
+5-20: 100000 -> 89137
+5-21: 100000 -> 106239
+5-22: 100000 -> 89952
+5-23: 100000 -> 80404
+5-24: 100000 -> 68434
+5-25: 100000 -> 87583
+5-26: 100000 -> 113256
+5-27: 100000 -> 118643
+5-28: 100000 -> 86942
+5-29: 100000 -> 108779
+5-30: 100000 -> 95216
+5-31: 100000 -> 127615
+5-32: 100000 -> 96617
+6-16: 100000 -> 96505
+6-17: 100000 -> 101206
+6-18: 100000 -> 122275
+6-19: 100000 -> 132374
+6-20: 100000 -> 90199
+6-21: 100000 -> 80882
+6-22: 100000 -> 115890
+6-23: 100000 -> 91340
+6-24: 100000 -> 100142
+6-25: 100000 -> 91221
+6-26: 100000 -> 109741
+6-27: 100000 -> 96831
+6-28: 100000 -> 90667
+6-29: 100000 -> 113913
+6-30: 100000 -> 91432
+6-31: 100000 -> 106176
+6-32: 100000 -> 108121
+7-16: 100000 -> 115962
+7-17: 100000 -> 112245
+7-18: 100000 -> 101366
+7-19: 100000 -> 98350
+7-20: 100000 -> 97402
+7-21: 100000 -> 90217
+7-22: 100000 -> 78994
+7-23: 100000 -> 92812
+7-24: 100000 -> 103744
+7-25: 100000 -> 97347
+7-26: 100000 -> 109056
+7-27: 100000 -> 100152
+7-28: 100000 -> 84676
+7-29: 100000 -> 93487
+7-30: 100000 -> 101135
+7-31: 100000 -> 102772
+7-32: 100000 -> 96886
+8-16: 100000 -> 107689
+8-17: 100000 -> 94148
+8-18: 100000 -> 107602
+8-19: 100000 -> 99823
+8-20: 100000 -> 108236
+8-21: 100000 -> 108896
+8-22: 100000 -> 98923
+8-23: 100000 -> 106872
+8-24: 100000 -> 99483
+8-25: 100000 -> 88016
+8-26: 100000 -> 99087
+8-27: 100000 -> 108173
+8-28: 100000 -> 108212
+8-29: 100000 -> 94819
+8-30: 100000 -> 114012
+8-31: 100000 -> 101402
+8-32: 100000 -> 94950
+9-16: 100000 -> 105111
+9-17: 100000 -> 97136
+9-18: 100000 -> 98037
+9-19: 100000 -> 96284
+9-20: 100000 -> 100334
+9-21: 100000 -> 105870
+9-22: 100000 -> 99744
+9-23: 100000 -> 99682
+9-24: 100000 -> 103674
+9-25: 100000 -> 104976
+9-26: 100000 -> 99959
+9-27: 100000 -> 110712
+9-28: 100000 -> 90382
+9-29: 100000 -> 100447
+9-30: 100000 -> 104291
+9-31: 100000 -> 102343
+9-32: 100000 -> 96030
+10-16: 100000 -> 106573
+10-17: 100000 -> 101404
+10-18: 100000 -> 99799
+10-19: 100000 -> 105473
+10-20: 100000 -> 98087
+10-21: 100000 -> 95530
+10-22: 100000 -> 100002
+10-23: 100000 -> 94670
+10-24: 100000 -> 97863
+10-25: 100000 -> 102149
+10-26: 100000 -> 104510
+10-27: 100000 -> 98908
+10-28: 100000 -> 102839
+10-29: 100000 -> 94795
+10-30: 100000 -> 97238
+10-31: 100000 -> 96055
+10-32: 100000 -> 103664
+11-16: 100000 -> 96859
+11-17: 100000 -> 99322
+11-18: 100000 -> 96157
+11-19: 100000 -> 101333
+11-20: 100000 -> 102746
+11-21: 100000 -> 98535
+11-22: 100000 -> 99363
+11-23: 100000 -> 94824
+11-24: 100000 -> 96524
+11-25: 100000 -> 99760
+11-26: 100000 -> 99062
+11-27: 100000 -> 98648
+11-28: 100000 -> 101993
+11-29: 100000 -> 101822
+11-30: 100000 -> 103469
+11-31: 100000 -> 99350
+11-32: 100000 -> 95440
+12-16: 100000 -> 99377
+12-17: 100000 -> 99413
+12-18: 100000 -> 99650
+12-19: 100000 -> 102309
+12-20: 100000 -> 100203
+12-21: 100000 -> 101702
+12-22: 100000 -> 100940
+12-23: 100000 -> 99883
+12-24: 100000 -> 100404
+12-25: 100000 -> 98164
+12-26: 100000 -> 97951
+12-27: 100000 -> 101931
+12-28: 100000 -> 101461
+12-29: 100000 -> 101768
+12-30: 100000 -> 98115
+12-31: 100000 -> 100202
+12-32: 100000 -> 96659
+13-16: 100000 -> 100105
+13-17: 100000 -> 100056
+13-18: 100000 -> 99036
+13-19: 100000 -> 99561
+13-20: 100000 -> 101851
+13-21: 100000 -> 99580
+13-22: 100000 -> 100085
+13-23: 100000 -> 100896
+13-24: 100000 -> 99088
+13-25: 100000 -> 99603
+13-26: 100000 -> 99760
+13-27: 100000 -> 98002
+13-28: 100000 -> 97626
+13-29: 100000 -> 97344
+13-30: 100000 -> 96224
+13-31: 100000 -> 94990
+13-32: 100000 -> 93340
+14-16: 100000 -> 100650
+14-17: 100000 -> 99854
+14-18: 100000 -> 99576
+14-19: 100000 -> 100142
+14-20: 100000 -> 99078
+14-21: 100000 -> 98986
+14-22: 100000 -> 100170
+14-23: 100000 -> 99157
+14-24: 100000 -> 99387
+14-25: 100000 -> 100416
+14-26: 100000 -> 98320
+14-27: 100000 -> 96820
+14-28: 100000 -> 92846
+14-29: 100000 -> 92582
+14-30: 100000 -> 88510
+14-31: 100000 -> 89537
+14-32: 100000 -> 87866
+15-16: 100000 -> 99920
+15-17: 100000 -> 99562
+15-18: 100000 -> 100261
+15-19: 100000 -> 99554
+15-20: 100000 -> 99782
+15-21: 100000 -> 100087
+15-22: 100000 -> 100084
+15-23: 100000 -> 99033
+15-24: 100000 -> 99304
+15-25: 100000 -> 101118
+15-26: 100000 -> 93545
+15-27: 100000 -> 85038
+15-28: 100000 -> 79350
+15-29: 100000 -> 76407
+15-30: 100000 -> 72965
+15-31: 100000 -> 72505
+15-32: 100000 -> 71720
+16-16: 100000 -> 100131
+16-17: 100000 -> 99237
+16-18: 100000 -> 100603
+16-19: 100000 -> 100294
+16-20: 100000 -> 99460
+16-21: 100000 -> 100169
+16-22: 100000 -> 100648
+16-23: 100000 -> 99508
+16-24: 100000 -> 99694
+16-25: 100000 -> 100592
+16-26: 100000 -> 84771
+16-27: 100000 -> 71049
+16-28: 100000 -> 60985
+16-29: 100000 -> 54721
+16-30: 100000 -> 49377
+16-31: 100000 -> 48850
+16-32: 100000 -> 48256
+17-17: 100000 -> 99833
+17-18: 100000 -> 100352
+17-19: 100000 -> 100041
+17-20: 100000 -> 99948
+17-21: 100000 -> 100022
+17-22: 100000 -> 99713
+17-23: 100000 -> 100054
+17-24: 100000 -> 100262
+17-25: 100000 -> 99820
+17-26: 100000 -> 65177
+17-27: 100000 -> 35617
+17-28: 100000 -> 17455
+17-29: 100000 -> 8459
+17-30: 100000 -> 4161
+17-31: 100000 -> 2064
+17-32: 100000 -> 1028
+18-18: 100000 -> 99978
+18-19: 100000 -> 99883
+18-20: 100000 -> 100077
+18-21: 100000 -> 100082
+18-22: 100000 -> 100039
+18-23: 100000 -> 99980
+18-24: 100000 -> 100022
+18-25: 100000 -> 99971
+18-26: 100000 -> 99931
+18-27: 100000 -> 99878
+18-28: 100000 -> 99860
+18-29: 100000 -> 99863
+18-30: 100000 -> 99834
+18-31: 100000 -> 99847
+18-32: 100000 -> 99863
+19-19: 100000 -> 100071
+19-20: 100000 -> 100033
+19-21: 100000 -> 100024
+19-22: 100000 -> 99984
+19-23: 100000 -> 99986
+19-24: 100000 -> 99991
+19-25: 100000 -> 100001
+19-26: 100000 -> 99926
+19-27: 100000 -> 99881
+19-28: 100000 -> 99872
+19-29: 100000 -> 99861
+19-30: 100000 -> 99861
+19-31: 100000 -> 99867
+19-32: 100000 -> 99862
+20-20: 100000 -> 99994
+20-21: 100000 -> 100039
+20-22: 100000 -> 100047
+20-23: 100000 -> 100011
+20-24: 100000 -> 100001
+20-25: 100000 -> 100003
+20-26: 100000 -> 99928
+20-27: 100000 -> 99879
+20-28: 100000 -> 99863
+20-29: 100000 -> 99856
+20-30: 100000 -> 99863
+20-31: 100000 -> 99832
+20-32: 100000 -> 99877
+104408
+expected: 10000000, estimate: 10015080, time: 1378
+Percentage error  0.001508
+Expect estimate: 70630 is between 68293.75 and 71706.25
+104408
+Expect estimate: 20001 is between 19878.125 and 20121.875
+Expect estimate: 16003 is between 15902.5 and 16097.5
+Percentage error  1.875E-4
+p=4
+hllcardinality=0 cardinality=0
+0 : 0
+p=5
+hllcardinality=0 cardinality=0
+0 : 0
+p=6
+hllcardinality=0 cardinality=0
+0 : 0
+p=7
+hllcardinality=0 cardinality=0
+0 : 0
+p=8
+hllcardinality=0 cardinality=0
+0 : 0
+p=9
+hllcardinality=0 cardinality=0
+0 : 0
+p=10
+hllcardinality=0 cardinality=0
+0 : 0
+p=11
+hllcardinality=0 cardinality=0
+0 : 0
+p=12
+hllcardinality=0 cardinality=0
+0 : 0
+p=13
+hllcardinality=0 cardinality=0
+0 : 0
+p=14
+hllcardinality=0 cardinality=0
+0 : 0
+p=15
+hllcardinality=0 cardinality=0
+0 : 0
+p=16
+hllcardinality=0 cardinality=0
+0 : 0
+p=17
+hllcardinality=0 cardinality=0
+0 : 0
+p=18
+hllcardinality=0 cardinality=0
+0 : 0
+p=19
+hllcardinality=0 cardinality=0
+0 : 0
+p=20
+hllcardinality=0 cardinality=0
+0 : 0
+p=21
+hllcardinality=0 cardinality=0
+0 : 0
+p=22
+hllcardinality=0 cardinality=0
+0 : 0
+p=23
+hllcardinality=0 cardinality=0
+0 : 0
+p=4
+hllcardinality=1 cardinality=1
+1 : 1
+p=5
+hllcardinality=1 cardinality=1
+1 : 1
+p=6
+hllcardinality=1 cardinality=1
+1 : 1
+p=7
+hllcardinality=1 cardinality=1
+1 : 1
+p=8
+hllcardinality=1 cardinality=1
+1 : 1
+p=9
+hllcardinality=1 cardinality=1
+1 : 1
+p=10
+hllcardinality=1 cardinality=1
+1 : 1
+p=11
+hllcardinality=1 cardinality=1
+1 : 1
+p=12
+hllcardinality=1 cardinality=1
+1 : 1
+p=13
+hllcardinality=1 cardinality=1
+1 : 1
+p=14
+hllcardinality=1 cardinality=1
+1 : 1
+p=15
+hllcardinality=1 cardinality=1
+1 : 1
+p=16
+hllcardinality=1 cardinality=1
+1 : 1
+p=17
+hllcardinality=1 cardinality=1
+1 : 1
+p=18
+hllcardinality=1 cardinality=1
+1 : 1
+p=19
+hllcardinality=1 cardinality=1
+1 : 1
+p=20
+hllcardinality=1 cardinality=1
+1 : 1
+p=21
+hllcardinality=1 cardinality=1
+1 : 1
+p=22
+hllcardinality=1 cardinality=1
+1 : 1
+p=23
+hllcardinality=1 cardinality=1
+1 : 1
+p=4
+hllcardinality=10 cardinality=10
+10 : 10
+p=5
+hllcardinality=12 cardinality=10
+12 : 12
+p=6
+hllcardinality=11 cardinality=10
+11 : 11
+p=7
+hllcardinality=9 cardinality=10
+9 : 9
+p=8
+hllcardinality=10 cardinality=10
+10 : 10
+p=9
+hllcardinality=9 cardinality=10
+9 : 9
+p=10
+hllcardinality=10 cardinality=10
+10 : 10
+p=11
+hllcardinality=10 cardinality=10
+10 : 10
+p=12
+hllcardinality=10 cardinality=10
+10 : 10
+p=13
+hllcardinality=10 cardinality=10
+10 : 10
+p=14
+hllcardinality=10 cardinality=10
+10 : 10
+p=15
+hllcardinality=10 cardinality=10
+10 : 10
+p=16
+hllcardinality=10 cardinality=10
+10 : 10
+p=17
+hllcardinality=10 cardinality=10
+10 : 10
+p=18
+hllcardinality=10 cardinality=10
+10 : 10
+p=19
+hllcardinality=10 cardinality=10
+10 : 10
+p=20
+hllcardinality=10 cardinality=10
+10 : 10
+p=21
+hllcardinality=10 cardinality=10
+10 : 10
+p=22
+hllcardinality=10 cardinality=10
+10 : 10
+p=23
+hllcardinality=10 cardinality=10
+10 : 10
+p=4
+hllcardinality=124 cardinality=100
+124 : 124
+p=5
+hllcardinality=92 cardinality=100
+92 : 92
+p=6
+hllcardinality=85 cardinality=100
+85 : 85
+p=7
+hllcardinality=84 cardinality=100
+84 : 84
+p=8
+hllcardinality=103 cardinality=100
+103 : 103
+p=9
+hllcardinality=101 cardinality=100
+101 : 101
+p=10
+hllcardinality=103 cardinality=100
+103 : 103
+p=11
+hllcardinality=97 cardinality=100
+97 : 97
+p=12
+hllcardinality=99 cardinality=100
+99 : 99
+p=13
+hllcardinality=99 cardinality=100
+99 : 99
+p=14
+hllcardinality=100 cardinality=100
+100 : 100
+p=15
+hllcardinality=99 cardinality=100
+99 : 99
+p=16
+hllcardinality=100 cardinality=100
+100 : 100
+p=17
+hllcardinality=100 cardinality=100
+100 : 100
+p=18
+hllcardinality=100 cardinality=100
+100 : 100
+p=19
+hllcardinality=100 cardinality=100
+100 : 100
+p=20
+hllcardinality=100 cardinality=100
+100 : 100
+p=21
+hllcardinality=100 cardinality=100
+100 : 100
+p=22
+hllcardinality=100 cardinality=100
+100 : 100
+p=23
+hllcardinality=100 cardinality=100
+100 : 100
+p=4
+hllcardinality=1537 cardinality=1000
+1537 : 1537
+p=5
+hllcardinality=891 cardinality=1000
+891 : 891
+p=6
+hllcardinality=942 cardinality=1000
+942 : 942
+p=7
+hllcardinality=943 cardinality=1000
+943 : 943
+p=8
+hllcardinality=1039 cardinality=1000
+1039 : 1039
+p=9
+hllcardinality=972 cardinality=1000
+972 : 972
+p=10
+hllcardinality=943 cardinality=1000
+943 : 943
+p=11
+hllcardinality=985 cardinality=1000
+985 : 985
+p=12
+hllcardinality=1002 cardinality=1000
+1002 : 1002
+p=13
+hllcardinality=988 cardinality=1000
+988 : 988
+p=14
+hllcardinality=999 cardinality=1000
+999 : 999
+p=15
+hllcardinality=999 cardinality=1000
+999 : 999
+p=16
+hllcardinality=1003 cardinality=1000
+1003 : 1003
+p=17
+hllcardinality=999 cardinality=1000
+999 : 999
+p=18
+hllcardinality=1000 cardinality=1000
+1000 : 1000
+p=19
+hllcardinality=999 cardinality=1000
+999 : 999
+p=20
+hllcardinality=998 cardinality=1000
+998 : 998
+p=21
+hllcardinality=999 cardinality=1000
+999 : 999
+p=22
+hllcardinality=1000 cardinality=1000
+1000 : 1000
+p=23
+hllcardinality=1000 cardinality=1000
+1000 : 1000
+p=4
+hllcardinality=8606 cardinality=10000
+8606 : 8606
+p=5
+hllcardinality=11761 cardinality=10000
+11761 : 11761
+p=6
+hllcardinality=7363 cardinality=10000
+7363 : 7363
+p=7
+hllcardinality=11542 cardinality=10000
+11542 : 11542
+p=8
+hllcardinality=9029 cardinality=10000
+9029 : 9029
+p=9
+hllcardinality=10943 cardinality=10000
+10943 : 10943
+p=10
+hllcardinality=9641 cardinality=10000
+9641 : 9641
+p=11
+hllcardinality=10148 cardinality=10000
+10148 : 10148
+p=12
+hllcardinality=10062 cardinality=10000
+10062 : 10062
+p=13
+hllcardinality=10103 cardinality=10000
+10103 : 10103
+p=14
+hllcardinality=10189 cardinality=10000
+10189 : 10189
+p=15
+hllcardinality=9963 cardinality=10000
+9963 : 9963
+p=16
+hllcardinality=9995 cardinality=10000
+9995 : 9995
+p=17
+hllcardinality=9987 cardinality=10000
+9987 : 9987
+p=18
+hllcardinality=10000 cardinality=10000
+10000 : 10000
+p=19
+hllcardinality=9992 cardinality=10000
+9992 : 9992
+p=20
+hllcardinality=10002 cardinality=10000
+10002 : 10002
+p=21
+hllcardinality=10005 cardinality=10000
+10005 : 10005
+p=22
+hllcardinality=9999 cardinality=10000
+9999 : 9999
+p=23
+hllcardinality=9999 cardinality=10000
+9999 : 9999
+p=4
+hllcardinality=71918 cardinality=100000
+71918 : 71918
+p=5
+hllcardinality=84279 cardinality=100000
+84279 : 84279
+p=6
+hllcardinality=96831 cardinality=100000
+96831 : 96831
+p=7
+hllcardinality=93086 cardinality=100000
+93086 : 93086
+p=8
+hllcardinality=94176 cardinality=100000
+94176 : 94176
+p=9
+hllcardinality=99114 cardinality=100000
+99114 : 99114
+p=10
+hllcardinality=97239 cardinality=100000
+97239 : 97239
+p=11
+hllcardinality=103657 cardinality=100000
+103657 : 103657
+p=12
+hllcardinality=100383 cardinality=100000
+100383 : 100383
+p=13
+hllcardinality=101132 cardinality=100000
+101132 : 101132
+p=14
+hllcardinality=100104 cardinality=100000
+100104 : 100104
+p=15
+hllcardinality=99541 cardinality=100000
+99541 : 99541
+p=16
+hllcardinality=100215 cardinality=100000
+100215 : 100215
+p=17
+hllcardinality=99465 cardinality=100000
+99465 : 99465
+p=18
+hllcardinality=100067 cardinality=100000
+100067 : 100067
+p=19
+hllcardinality=100126 cardinality=100000
+100126 : 100126
+p=20
+hllcardinality=100020 cardinality=100000
+100020 : 100020
+p=21
+hllcardinality=99968 cardinality=100000
+99968 : 99968
+p=22
+hllcardinality=100030 cardinality=100000
+100030 : 100030
+p=23
+hllcardinality=99976 cardinality=100000
+99976 : 99976
+p=4
+hllcardinality=1237377 cardinality=1000000
+1237377 : 1237377
+p=5
+hllcardinality=1204180 cardinality=1000000
+1204180 : 1204180
+p=6
+hllcardinality=816495 cardinality=1000000
+816495 : 816495
+p=7
+hllcardinality=889816 cardinality=1000000
+889816 : 889816
+p=8
+hllcardinality=1109784 cardinality=1000000
+1109784 : 1109784
+p=9
+hllcardinality=1066518 cardinality=1000000
+1066518 : 1066518
+p=10
+hllcardinality=965589 cardinality=1000000
+965589 : 965589
+p=11
+hllcardinality=995263 cardinality=1000000
+995263 : 995263
+p=12
+hllcardinality=999972 cardinality=1000000
+999972 : 999972
+p=13
+hllcardinality=992940 cardinality=1000000
+992940 : 992940
+p=14
+hllcardinality=1005687 cardinality=1000000
+1005687 : 1005687
+p=15
+hllcardinality=998110 cardinality=1000000
+998110 : 998110
+p=16
+hllcardinality=1004818 cardinality=1000000
+1004818 : 1004818
+p=17
+hllcardinality=999138 cardinality=1000000
+999138 : 999138
+p=18
+hllcardinality=998318 cardinality=1000000
+998318 : 998318
+p=19
+hllcardinality=1000127 cardinality=1000000
+1000127 : 1000127
+p=20
+hllcardinality=1000213 cardinality=1000000
+1000213 : 1000213
+p=21
+hllcardinality=1000339 cardinality=1000000
+1000339 : 1000339
+p=22
+hllcardinality=1000236 cardinality=1000000
+1000236 : 1000236
+p=23
+hllcardinality=1000479 cardinality=1000000
+1000479 : 1000479
+Expect estimate: 200043 is between 198781.25 and 201218.75
+Expect estimate: 14988 is between 14634.375 and 15365.625
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.882 sec - in com.clearspring.analytics.stream.cardinality.TestHyperLogLogPlus
+Running com.clearspring.analytics.stream.cardinality.TestLinearCounting
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.clearspring.analytics.stream.cardinality.TestLinearCounting
+Running com.clearspring.analytics.stream.cardinality.TestICardinality
+size: 65536 bytes
+1001562
+% Error: 0.1562
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 sec - in com.clearspring.analytics.stream.cardinality.TestICardinality
+Running com.clearspring.analytics.stream.cardinality.TestCountThenEstimate
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in com.clearspring.analytics.stream.cardinality.TestCountThenEstimate
+Running com.clearspring.analytics.stream.cardinality.RegisterSetTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.clearspring.analytics.stream.cardinality.RegisterSetTest
+Running com.clearspring.analytics.stream.cardinality.TestAdaptiveCounting
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.17 sec - in com.clearspring.analytics.stream.cardinality.TestAdaptiveCounting
+Running com.clearspring.analytics.stream.cardinality.TestHyperLogLog
+Baseline estimate: 5033201
+Expect estimate: 5033201 is between 4939062.5 and 5060937.5
+time: 1281
+0.0027985
+time: 12745
+0.0095649
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 14.272 sec - in com.clearspring.analytics.stream.cardinality.TestHyperLogLog
+Running com.clearspring.analytics.stream.TestConcurrentStreamSummary
+Geometric:
+0
+1
+2
+3
+4
+[(24895: 0, e: 0),(18719: 1, e: 0),(14031: 2, e: 0),(10460: 3, e: 3),(7992: 4, e: 4),(6019: 5, e: 0),(4505: 6, e: 2659),(4462: 7, e: 4453),(4458: 10, e: 4457),(4459: 11, e: 4458)]
+[(1: X, e: 0)]
+[(2: X, e: 0)]
+[(2: X, e: 0),(1: Y, e: 0)]
+[(2: X, e: 0),(1: Y, e: 0),(1: Z, e: 0)]
+[(2: X, e: 0),(2: A, e: 1),(1: Z, e: 0)]
+[(2: X, e: 0),(2: A, e: 1),(2: B, e: 1)]
+[(2: A, e: 1),(2: B, e: 1),(3: C, e: 2)]
+[(3: X, e: 2),(2: B, e: 1),(3: C, e: 2)]
+[(4: X, e: 2),(2: B, e: 1),(3: C, e: 2)]
+[(4: X, e: 2),(3: A, e: 2),(3: C, e: 2)]
+[(4: X, e: 2),(4: A, e: 2),(3: C, e: 2)]
+[(4: X, e: 2),(5: A, e: 2),(3: C, e: 2)]
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in com.clearspring.analytics.stream.TestConcurrentStreamSummary
+Running com.clearspring.analytics.stream.TestStochasticTopper
+Gaussian:
+0
+8
+-2
+-7
+2
+Geometric:
+0
+1
+3
+2
+4
+Zipfian:
+1
+2
+3
+6
+5
+0: 25148
+1: 18841
+2: 13932
+3: 10703
+4: 7892
+5: 5924
+6: 4328
+7: 3292
+8: 2558
+9: 1892
+10: 1317
+11: 1106
+12: 793
+13: 555
+14: 421
+15: 323
+16: 241
+17: 182
+18: 137
+19: 107
+2147483638: 0
+2147483639: 0
+2147483640: 0
+2147483641: 0
+2147483642: 0
+2147483643: 0
+2147483644: 0
+2147483645: 0
+2147483646: 0
+2147483647: 0
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec - in com.clearspring.analytics.stream.TestStochasticTopper
+Running com.clearspring.analytics.stream.TestStreamSummary
+Geometric:
+0
+1
+2
+3
+4
+[{24861:[{0:0}]},{18647:[{1:0}]},{14265:[{2:0}]},{10567:[{3:2}]},{7863:[{4:0}]},{5975:[{5:7}]},{4524:[{6:247}]},{4433:[{7:4430},{9:4429}]},{4432:[{10:4431}]}]
+[{1:[{X:0}]}]
+[{2:[{X:0}]}]
+[{2:[{X:0}]},{1:[{Y:0}]}]
+[{2:[{X:0}]},{1:[{Y:0},{Z:0}]}]
+[{2:[{X:0},{A:1}]},{1:[{Z:0}]}]
+[{2:[{X:0},{A:1},{B:1}]}]
+[{3:[{C:2}]},{2:[{A:1},{B:1}]}]
+[{3:[{C:2},{X:2}]},{2:[{B:1}]}]
+[{4:[{X:2}]},{3:[{C:2}]},{2:[{B:1}]}]
+[{4:[{X:2}]},{3:[{C:2},{A:2}]}]
+[{4:[{X:2},{A:2}]},{3:[{C:2}]}]
+[{5:[{A:2}]},{4:[{X:2}]},{3:[{C:2}]}]
+Insert with counts vs. single inserts:
+[{45:[{D:15}]},{25:[{C:0}]},{21:[{A:20}]}]
+[{45:[{D:15}]},{25:[{C:0}]},{21:[{A:20}]}]
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in com.clearspring.analytics.stream.TestStreamSummary
+Running com.clearspring.analytics.stream.quantile.QDigestTest
+a: 0 .. 0: 3, 1 .. 1: 3
+b: 0 .. 0: 4, 1 .. 1: 1, 0 .. 3: 1
+ab: 0 .. 0: 4, 1 .. 1: 1, 0 .. 1: 6, 0 .. 3: 1
+c: 0 .. 0: 7, 1 .. 1: 4, 0 .. 3: 1
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.542 sec - in com.clearspring.analytics.stream.quantile.QDigestTest
+Running com.clearspring.analytics.stream.quantile.GroupTreeTest
+0:0.0(1)	1:0.0(1)	2:1.0(1)	3:1.0(1)	4:2.0(1)	5:2.5(2)	6:3.0(1)	7:3.0(1)	8:4.0(1)	9:4.0(1)	10:5.0(1)	Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 sec - in com.clearspring.analytics.stream.quantile.GroupTreeTest
+Running com.clearspring.analytics.stream.quantile.TDigestTest
+# big 4506 bytes
+# small 4506 bytes
+# 2.634455us per point
+# 852 centroids
+quantile	2	0.001000	0.000016	-0.000010	-0.000010	0.009705
+quantile	2	0.010000	0.000266	0.000044	-0.000435	0.043495
+quantile	2	0.100000	0.001111	0.000777	0.004654	0.046542
+quantile	2	0.200000	0.001048	-0.000857	-0.001655	0.008276
+quantile	2	0.300000	0.001002	-0.005428	0.000597	0.001990
+quantile	2	0.500000	0.002338	0.003358	0.003051	0.006103
+cdf	2	0.001000	-0.000030	0.000006	0.000007	0.007173
+cdf	2	0.010000	-0.000190	-0.000059	-0.000113	0.011324
+cdf	2	0.100000	-0.001070	-0.000102	0.000222	0.002223
+cdf	2	0.200000	-0.000950	0.000023	0.000353	0.001763
+cdf	2	0.300000	-0.001110	-0.000750	0.000273	0.000909
+cdf	2	0.500000	-0.002440	-0.000864	-0.000272	0.000543
+quantile	5	0.001000	0.000219	-0.000003	-0.000011	0.010649
+quantile	5	0.010000	-0.000117	0.000098	0.000045	0.004465
+quantile	5	0.100000	0.000243	0.001113	-0.002944	0.029439
+quantile	5	0.200000	-0.000056	0.001307	-0.003135	0.015673
+quantile	5	0.300000	0.001073	-0.004081	0.004474	0.014913
+quantile	5	0.500000	0.000891	0.001368	0.007740	0.015480
+cdf	5	0.001000	-0.000230	0.000003	-0.000000	0.000326
+cdf	5	0.010000	0.000100	-0.000003	-0.000015	0.001527
+cdf	5	0.100000	-0.000190	-0.000116	-0.000473	0.004729
+cdf	5	0.200000	0.000080	0.000001	-0.000456	0.002279
+cdf	5	0.300000	-0.001230	-0.000538	0.000510	0.001699
+cdf	5	0.500000	-0.001030	-0.000623	0.000738	0.001476
+quantile	10	0.001000	-0.000128	-0.000037	-0.000050	0.050407
+quantile	10	0.010000	-0.000259	-0.000004	-0.000040	0.003989
+quantile	10	0.100000	-0.000484	0.000241	-0.004207	0.042075
+quantile	10	0.200000	0.000581	0.000904	0.004575	0.022875
+quantile	10	0.300000	0.002187	-0.001809	-0.001842	0.006141
+quantile	10	0.500000	0.001205	-0.006186	-0.000823	0.001645
+cdf	10	0.001000	0.000200	0.000002	0.000002	0.002264
+cdf	10	0.010000	0.000290	-0.000030	-0.000054	0.005396
+cdf	10	0.100000	0.000460	-0.000012	-0.000392	0.003918
+cdf	10	0.200000	-0.000430	-0.000150	0.000170	0.000852
+cdf	10	0.300000	-0.001990	0.000204	0.000320	0.001068
+cdf	10	0.500000	-0.001250	-0.000520	0.001075	0.002150
+quantile	20	0.001000	0.000025	-0.000027	-0.000002	0.001728
+quantile	20	0.010000	0.000322	-0.000206	-0.000173	0.017287
+quantile	20	0.100000	0.002969	0.000448	0.002265	0.022655
+quantile	20	0.200000	0.001274	0.001016	0.001852	0.009260
+quantile	20	0.300000	0.001187	-0.001313	-0.008982	0.029940
+quantile	20	0.500000	-0.000285	-0.007642	0.009524	0.019049
+cdf	20	0.001000	-0.000010	-0.000006	-0.000009	0.009441
+cdf	20	0.010000	-0.000230	-0.000004	0.000018	0.001779
+cdf	20	0.100000	-0.002640	-0.000046	0.000029	0.000293
+cdf	20	0.200000	-0.001180	-0.000029	0.000119	0.000597
+cdf	20	0.300000	-0.001140	-0.000393	-0.000328	0.001094
+cdf	20	0.500000	0.000280	-0.000307	0.000501	0.001002
+quantile	50	0.001000	-0.000204	-0.000024	-0.000024	0.023554
+quantile	50	0.010000	-0.000009	-0.000031	-0.000050	0.004963
+quantile	50	0.100000	-0.000574	0.000184	-0.002290	0.022904
+quantile	50	0.200000	-0.000751	0.003277	0.004192	0.020962
+quantile	50	0.300000	-0.001017	-0.000319	-0.013869	0.046229
+quantile	50	0.500000	0.001029	0.000874	-0.001055	0.002110
+cdf	50	0.001000	0.000160	0.000004	0.000006	0.006369
+cdf	50	0.010000	0.000010	-0.000002	0.000001	0.000121
+cdf	50	0.100000	0.000500	0.000019	-0.000006	0.000060
+cdf	50	0.200000	0.000670	0.000385	0.000404	0.002021
+cdf	50	0.300000	0.001220	-0.000565	-0.000313	0.001045
+cdf	50	0.500000	-0.001130	0.000013	-0.000580	0.001159
+quantile	100	0.001000	0.000135	-0.000056	-0.000035	0.035088
+quantile	100	0.010000	0.000331	-0.000006	0.000042	0.004232
+quantile	100	0.100000	0.000658	0.000751	0.001020	0.010201
+quantile	100	0.200000	0.001183	0.000756	0.000565	0.002827
+quantile	100	0.300000	0.000474	-0.000654	-0.000943	0.003144
+quantile	100	0.500000	0.000067	-0.001080	0.008411	0.016823
+cdf	100	0.001000	-0.000120	0.000007	-0.000003	0.003304
+cdf	100	0.010000	-0.000390	-0.000030	-0.000038	0.003778
+cdf	100	0.100000	-0.000540	-0.000041	0.000067	0.000668
+cdf	100	0.200000	-0.001170	0.000323	-0.000462	0.002312
+cdf	100	0.300000	-0.000430	-0.000095	0.000176	0.000586
+cdf	100	0.500000	-0.000110	-0.000300	0.002432	0.004864
+# 2.012930us per point
+# 847 centroids
+# 1.732418us per point
+# 835 centroids
+# 2.387532us per point
+# 863 centroids
+gamma	2	0.00100000	0.0008800000000	0.9978500000	188	108
+gamma	2	0.01000000	-0.01000000000	0.9888500000	188	108
+gamma	2	0.10000000	0.07174000000	0.8988500000	188	108
+gamma	2	0.20000000	0.1724300000	0.7999900000	188	108
+gamma	2	0.30000000	0.1041400000	0.6999900000	188	108
+gamma	2	0.50000000	0.03798000000	0.4999900000	188	108
+gamma	2	0.70000000	-0.0005100000000	0.3000000000	188	108
+gamma	2	0.80000000	-0.8000000000	0.2000000000	188	108
+gamma	2	0.90000000	0.06937000000	0.1000000000	188	108
+gamma	2	0.99000000	0.008020000000	0.01000000000	188	108
+gamma	2	0.99900000	-0.0009000000000	0.001000000000	188	108
+gamma	5	0.00100000	0.0001700000000	0.8297000000	388	268
+gamma	5	0.01000000	0.0006500000000	0.8207000000	388	268
+gamma	5	0.10000000	-0.1000000000	0.7307000000	388	268
+gamma	5	0.20000000	0.01033000000	0.6832200000	388	268
+gamma	5	0.30000000	-0.3000000000	0.5832200000	388	268
+gamma	5	0.50000000	0.02103000000	0.4676200000	388	268
+gamma	5	0.70000000	0.01584000000	0.2988100000	388	268
+gamma	5	0.80000000	0.01627000000	0.1988100000	388	268
+gamma	5	0.90000000	0.02333000000	0.1000000000	388	268
+gamma	5	0.99000000	0.001340000000	0.01000000000	388	268
+gamma	5	0.99900000	9.000000000e-05	0.001000000000	388	268
+gamma	10	0.00100000	7.000000000e-05	0.4793400000	664	492
+gamma	10	0.01000000	-0.01000000000	0.4703400000	664	492
+gamma	10	0.10000000	0.0003100000000	0.4151300000	664	492
+gamma	10	0.20000000	0.005280000000	0.3521400000	664	492
+gamma	10	0.30000000	-0.3000000000	0.3343500000	664	492
+gamma	10	0.50000000	-0.5000000000	0.2752200000	664	492
+gamma	10	0.70000000	0.009810000000	0.2274100000	664	492
+gamma	10	0.80000000	0.001900000000	0.1663400000	664	492
+gamma	10	0.90000000	-0.005280000000	0.09881000000	664	492
+gamma	10	0.99000000	-0.002390000000	0.01000000000	664	492
+gamma	10	0.99900000	-4.000000000e-05	0.001000000000	664	492
+gamma	20	0.00100000	-0.001000000000	0.2064700000	1164	812
+gamma	20	0.01000000	-0.003830000000	0.1974700000	1164	812
+gamma	20	0.10000000	0.001700000000	0.1383700000	1164	812
+gamma	20	0.20000000	2.000000000e-05	0.09286000000	1164	812
+gamma	20	0.30000000	-0.003600000000	0.06034000000	1164	812
+gamma	20	0.50000000	-0.002320000000	0.05039000000	1164	812
+gamma	20	0.70000000	0.009350000000	0.02505000000	1164	812
+gamma	20	0.80000000	-0.004190000000	0.005890000000	1164	812
+gamma	20	0.90000000	0.004210000000	0.06667000000	1164	812
+gamma	20	0.99000000	0.0005600000000	0.009990000000	1164	812
+gamma	20	0.99900000	0.000000000	0.001000000000	1164	812
+gamma	50	0.00100000	-1.000000000e-05	-0.001000000000	2463	2332
+gamma	50	0.01000000	0.0001700000000	-0.01000000000	2463	2332
+gamma	50	0.10000000	0.0006200000000	0.03656000000	2463	2332
+gamma	50	0.20000000	-0.02591000000	0.007310000000	2463	2332
+gamma	50	0.30000000	0.002660000000	0.007160000000	2463	2332
+gamma	50	0.50000000	-0.02686000000	0.01387000000	2463	2332
+gamma	50	0.70000000	0.0009500000000	0.005920000000	2463	2332
+gamma	50	0.80000000	0.0004200000000	0.006990000000	2463	2332
+gamma	50	0.90000000	-0.0007400000000	0.008450000000	2463	2332
+gamma	50	0.99000000	0.0003400000000	0.009980000000	2463	2332
+gamma	50	0.99900000	-5.000000000e-05	0.001000000000	2463	2332
+gamma	100	0.00100000	0.000000000	-0.001000000000	4533	4268
+gamma	100	0.01000000	0.0002200000000	-0.01000000000	4533	4268
+gamma	100	0.10000000	-0.0009200000000	0.006220000000	4533	4268
+gamma	100	0.20000000	-0.003420000000	0.008160000000	4533	4268
+gamma	100	0.30000000	0.0001900000000	0.005820000000	4533	4268
+gamma	100	0.50000000	-0.002890000000	0.01392000000	4533	4268
+gamma	100	0.70000000	0.001640000000	0.01071000000	4533	4268
+gamma	100	0.80000000	0.001210000000	0.005350000000	4533	4268
+gamma	100	0.90000000	0.0005600000000	0.007760000000	4533	4268
+gamma	100	0.99000000	-1.000000000e-05	0.008670000000	4533	4268
+gamma	100	0.99900000	-3.000000000e-05	0.001000000000	4533	4268
+gamma	200	0.00100000	-1.500000000e-05	-0.001000000000	8014	8972
+gamma	200	0.01000000	-7.000000000e-05	-0.01000000000	8014	8972
+gamma	200	0.10000000	-0.0002100000000	0.003170000000	8014	8972
+gamma	200	0.20000000	0.000000000	0.001210000000	8014	8972
+gamma	200	0.30000000	0.002030000000	0.001060000000	8014	8972
+gamma	200	0.50000000	-0.0006200000000	0.002060000000	8014	8972
+gamma	200	0.70000000	0.000000000	0.001010000000	8014	8972
+gamma	200	0.80000000	-0.0002800000000	0.004860000000	8014	8972
+gamma	200	0.90000000	-9.000000000e-05	0.002970000000	8014	8972
+gamma	200	0.99000000	-5.000000000e-05	0.006780000000	8014	8972
+gamma	200	0.99900000	-1.500000000e-05	0.001000000000	8014	8972
+gamma	500	0.00100000	-1.500000000e-05	-0.001000000000	17230	21132
+gamma	500	0.01000000	-3.000000000e-05	-0.01000000000	17230	21132
+gamma	500	0.10000000	-0.0003100000000	0.001570000000	17230	21132
+gamma	500	0.20000000	-7.000000000e-05	0.004610000000	17230	21132
+gamma	500	0.30000000	-0.0004200000000	0.002590000000	17230	21132
+gamma	500	0.50000000	-0.0002000000000	0.003200000000	17230	21132
+gamma	500	0.70000000	0.001160000000	0.003070000000	17230	21132
+gamma	500	0.80000000	0.0003100000000	0.002070000000	17230	21132
+gamma	500	0.90000000	-0.0001400000000	0.004470000000	17230	21132
+gamma	500	0.99000000	-4.000000000e-05	0.002720000000	17230	21132
+gamma	500	0.99900000	-1.500000000e-05	0.0009600000000	17230	21132
+gamma	1000	0.00100000	-1.500000000e-05	-0.001000000000	30626	46956
+gamma	1000	0.01000000	-4.000000000e-05	-0.01000000000	30626	46956
+gamma	1000	0.10000000	4.000000000e-05	0.0005500000000	30626	46956
+gamma	1000	0.20000000	-0.0001800000000	0.001490000000	30626	46956
+gamma	1000	0.30000000	6.000000000e-05	0.0006500000000	30626	46956
+gamma	1000	0.50000000	-0.0003300000000	0.001440000000	30626	46956
+gamma	1000	0.70000000	-0.0001400000000	0.001480000000	30626	46956
+gamma	1000	0.80000000	-2.000000000e-05	0.001270000000	30626	46956
+gamma	1000	0.90000000	1.000000000e-05	0.0009300000000	30626	46956
+gamma	1000	0.99000000	-5.000000000e-05	0.0003500000000	30626	46956
+gamma	1000	0.99900000	-1.500000000e-05	0.001000000000	30626	46956
+gamma	2000	0.00100000	-1.500000000e-05	-0.001000000000	54881	88012
+gamma	2000	0.01000000	-1.500000000e-05	-0.01000000000	54881	88012
+gamma	2000	0.10000000	3.000000000e-05	0.0004400000000	54881	88012
+gamma	2000	0.20000000	-0.0001000000000	0.0007700000000	54881	88012
+gamma	2000	0.30000000	0.0002500000000	0.0008000000000	54881	88012
+gamma	2000	0.50000000	5.000000000e-05	0.001020000000	54881	88012
+gamma	2000	0.70000000	-0.0001700000000	0.001030000000	54881	88012
+gamma	2000	0.80000000	-3.000000000e-05	0.0009800000000	54881	88012
+gamma	2000	0.90000000	-6.000000000e-05	0.0008500000000	54881	88012
+gamma	2000	0.99000000	-1.500000000e-05	0.0005300000000	54881	88012
+gamma	2000	0.99900000	-1.500000000e-05	0.0004800000000	54881	88012
+uniform	2	0.00100000	-0.0003800000000	0.2494600000	179	124
+uniform	2	0.01000000	-0.009380000000	0.2404600000	179	124
+uniform	2	0.10000000	0.02127000000	0.4002600000	179	124
+uniform	2	0.20000000	-0.02844000000	0.3002600000	179	124
+uniform	2	0.30000000	-0.04303000000	0.2002600000	179	124
+uniform	2	0.50000000	-0.1464900000	0.0002600000000	179	124
+uniform	2	0.70000000	-0.04894000000	0.3000000000	179	124
+uniform	2	0.80000000	-0.03059000000	0.2000000000	179	124
+uniform	2	0.90000000	-0.01745000000	0.1000000000	179	124
+uniform	2	0.99000000	0.0004700000000	0.01000000000	179	124
+uniform	2	0.99900000	0.0002400000000	0.001000000000	179	124
+uniform	5	0.00100000	-0.0002300000000	0.1240900000	385	236
+uniform	5	0.01000000	-0.003830000000	0.1150900000	385	236
+uniform	5	0.10000000	-0.001980000000	0.02509000000	385	236
+uniform	5	0.20000000	-0.03871000000	0.05050000000	385	236
+uniform	5	0.30000000	0.04497000000	0.07565000000	385	236
+uniform	5	0.50000000	0.1473700000	0.0009300000000	385	236
+uniform	5	0.70000000	0.0002100000000	0.1755000000	385	236
+uniform	5	0.80000000	-0.007560000000	0.07550000000	385	236
+uniform	5	0.90000000	0.06830000000	0.1000000000	385	236
+uniform	5	0.99000000	0.002160000000	0.01000000000	385	236
+uniform	5	0.99900000	-7.000000000e-05	0.001000000000	385	236
+uniform	10	0.00100000	-0.0001300000000	0.06288000000	622	476
+uniform	10	0.01000000	0.0007100000000	0.05388000000	622	476
+uniform	10	0.10000000	0.003620000000	0.02666000000	622	476
+uniform	10	0.20000000	-0.007800000000	0.05005000000	622	476
+uniform	10	0.30000000	0.01425000000	0.01329000000	622	476
+uniform	10	0.50000000	-0.02350000000	0.0007800000000	622	476
+uniform	10	0.70000000	0.04107000000	0.05098000000	622	476
+uniform	10	0.80000000	-0.04723000000	0.01500000000	622	476
+uniform	10	0.90000000	-0.01329000000	0.03921000000	622	476
+uniform	10	0.99000000	-0.001410000000	0.01000000000	622	476
+uniform	10	0.99900000	6.000000000e-05	0.001000000000	622	476
+uniform	20	0.00100000	-0.0001100000000	0.06097000000	1114	844
+uniform	20	0.01000000	-0.0002300000000	0.05197000000	1114	844
+uniform	20	0.10000000	-0.004450000000	0.02562000000	1114	844
+uniform	20	0.20000000	-0.003820000000	0.05008000000	1114	844
+uniform	20	0.30000000	0.006590000000	0.07421000000	1114	844
+uniform	20	0.50000000	-0.03528000000	0.03168000000	1114	844
+uniform	20	0.70000000	-0.008910000000	0.05160000000	1114	844
+uniform	20	0.80000000	-0.009070000000	0.07568000000	1114	844
+uniform	20	0.90000000	-0.004470000000	0.1000000000	1114	844
+uniform	20	0.99000000	-0.0002300000000	0.01000000000	1114	844
+uniform	20	0.99900000	0.0001200000000	0.001000000000	1114	844
+uniform	50	0.00100000	-8.000000000e-05	0.01441000000	2460	2380
+uniform	50	0.01000000	1.000000000e-05	0.005410000000	2460	2380
+uniform	50	0.10000000	0.0007000000000	0.009500000000	2460	2380
+uniform	50	0.20000000	0.003660000000	0.004310000000	2460	2380
+uniform	50	0.30000000	-0.01139000000	0.01324000000	2460	2380
+uniform	50	0.50000000	0.005480000000	0.01406000000	2460	2380
+uniform	50	0.70000000	0.009270000000	0.01858000000	2460	2380
+uniform	50	0.80000000	-0.003900000000	0.01305000000	2460	2380
+uniform	50	0.90000000	0.0008600000000	0.006450000000	2460	2380
+uniform	50	0.99000000	7.000000000e-05	0.01000000000	2460	2380
+uniform	50	0.99900000	-3.000000000e-05	0.001000000000	2460	2380
+uniform	100	0.00100000	-4.000000000e-05	0.006550000000	4398	4620
+uniform	100	0.01000000	-9.000000000e-05	0.005800000000	4398	4620
+uniform	100	0.10000000	-0.0007000000000	0.001750000000	4398	4620
+uniform	100	0.20000000	0.0004000000000	0.002210000000	4398	4620
+uniform	100	0.30000000	-0.002120000000	0.002940000000	4398	4620
+uniform	100	0.50000000	-0.001510000000	0.006930000000	4398	4620
+uniform	100	0.70000000	-0.002000000000	0.002910000000	4398	4620
+uniform	100	0.80000000	-0.001500000000	0.004430000000	4398	4620
+uniform	100	0.90000000	-0.003180000000	0.006540000000	4398	4620
+uniform	100	0.99000000	0.000000000	0.01000000000	4398	4620
+uniform	100	0.99900000	-2.000000000e-05	0.001000000000	4398	4620
+uniform	200	0.00100000	-1.500000000e-05	0.002880000000	8112	9388
+uniform	200	0.01000000	-5.000000000e-05	0.001520000000	8112	9388
+uniform	200	0.10000000	-0.001280000000	0.003960000000	8112	9388
+uniform	200	0.20000000	-0.0003400000000	0.001110000000	8112	9388
+uniform	200	0.30000000	-0.0002400000000	0.002290000000	8112	9388
+uniform	200	0.50000000	0.0001100000000	0.003620000000	8112	9388
+uniform	200	0.70000000	-0.0002100000000	0.003050000000	8112	9388
+uniform	200	0.80000000	-4.000000000e-05	0.004470000000	8112	9388
+uniform	200	0.90000000	-0.0005000000000	0.005230000000	8112	9388
+uniform	200	0.99000000	2.000000000e-05	0.002170000000	8112	9388
+uniform	200	0.99900000	-1.500000000e-05	0.001000000000	8112	9388
+uniform	500	0.00100000	-1.500000000e-05	0.0009800000000	17356	23212
+uniform	500	0.01000000	-3.000000000e-05	0.001630000000	17356	23212
+uniform	500	0.10000000	-2.000000000e-05	0.002400000000	17356	23212
+uniform	500	0.20000000	8.000000000e-05	0.002140000000	17356	23212
+uniform	500	0.30000000	0.0005900000000	0.003700000000	17356	23212
+uniform	500	0.50000000	0.0002800000000	0.0009100000000	17356	23212
+uniform	500	0.70000000	-0.0001600000000	0.001520000000	17356	23212
+uniform	500	0.80000000	8.000000000e-05	0.002240000000	17356	23212
+uniform	500	0.90000000	0.0001400000000	0.001060000000	17356	23212
+uniform	500	0.99000000	-7.000000000e-05	0.002440000000	17356	23212
+uniform	500	0.99900000	-1.500000000e-05	0.001000000000	17356	23212
+uniform	1000	0.00100000	-1.500000000e-05	9.000000000e-05	30666	46860
+uniform	1000	0.01000000	-3.000000000e-05	0.001090000000	30666	46860
+uniform	1000	0.10000000	-0.0001800000000	0.0005900000000	30666	46860
+uniform	1000	0.20000000	0.0001400000000	0.0003500000000	30666	46860
+uniform	1000	0.30000000	0.0005200000000	0.0007400000000	30666	46860
+uniform	1000	0.50000000	-0.0002900000000	0.001030000000	30666	46860
+uniform	1000	0.70000000	0.0001700000000	0.0008900000000	30666	46860
+uniform	1000	0.80000000	0.0001300000000	0.001000000000	30666	46860
+uniform	1000	0.90000000	0.0001800000000	0.001330000000	30666	46860
+uniform	1000	0.99000000	0.000000000	0.002180000000	30666	46860
+uniform	1000	0.99900000	-1.500000000e-05	0.001000000000	30666	46860
+uniform	2000	0.00100000	-1.500000000e-05	0.0001100000000	54811	88220
+uniform	2000	0.01000000	-1.500000000e-05	0.0007600000000	54811	88220
+uniform	2000	0.10000000	-1.000000000e-05	0.0006200000000	54811	88220
+uniform	2000	0.20000000	-0.0002600000000	0.001480000000	54811	88220
+uniform	2000	0.30000000	-6.000000000e-05	0.0009300000000	54811	88220
+uniform	2000	0.50000000	-0.0002100000000	0.0004300000000	54811	88220
+uniform	2000	0.70000000	6.000000000e-05	0.0007600000000	54811	88220
+uniform	2000	0.80000000	0.0002800000000	0.001970000000	54811	88220
+uniform	2000	0.90000000	-6.000000000e-05	0.001120000000	54811	88220
+uniform	2000	0.99000000	-1.500000000e-05	0.001790000000	54811	88220
+uniform	2000	0.99900000	-1.500000000e-05	0.001000000000	54811	88220
+# 35.445216us per point
+# 4693 centroids
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 18.808 sec - in com.clearspring.analytics.stream.quantile.TDigestTest
+
+Results :
+
+Tests run: 152, Failures: 0, Errors: 0, Skipped: 12
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:56 min
+[INFO] Finished at: 2019-08-20T18:19:27+08:00
+[INFO] ------------------------------------------------------------------------

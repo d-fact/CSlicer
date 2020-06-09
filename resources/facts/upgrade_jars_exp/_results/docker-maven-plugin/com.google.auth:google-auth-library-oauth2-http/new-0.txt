@@ -1,0 +1,438 @@
+[VERSION]: 0.16.2
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------< com.spotify:docker-maven-plugin >-------------------
+[INFO] Building docker-maven-plugin 1.1.1
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.16.2/google-auth-library-oauth2-http-0.16.2.pom
+Progress (1): 2.2/2.2 kB
+Progress (1): 2.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.16.2/google-auth-library-oauth2-http-0.16.2.pom (2.2 kB at 2.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/0.16.2/google-auth-library-parent-0.16.2.pom
+Progress (1): 2.2/12 kB
+Progress (1): 5.0/12 kB
+Progress (1): 7.8/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-parent/0.16.2/google-auth-library-parent-0.16.2.pom (12 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-bom/1.30.1/google-http-client-bom-1.30.1.pom
+Progress (1): 2.2/6.4 kB
+Progress (1): 5.0/6.4 kB
+Progress (1): 6.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-bom/1.30.1/google-http-client-bom-1.30.1.pom (6.4 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.16.2/google-auth-library-credentials-0.16.2.pom
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.16.2/google-auth-library-credentials-0.16.2.pom (1.6 kB at 4.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.30.1/google-http-client-1.30.1.pom
+Progress (1): 2.8/3.9 kB
+Progress (1): 3.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.30.1/google-http-client-1.30.1.pom (3.9 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.30.1/google-http-client-parent-1.30.1.pom
+Progress (1): 0.3/22 kB
+Progress (1): 3.1/22 kB
+Progress (1): 4.4/22 kB
+Progress (1): 7.2/22 kB
+Progress (1): 10.0/22 kB
+Progress (1): 13/22 kB  
+Progress (1): 15/22 kB
+Progress (1): 17/22 kB
+Progress (1): 19/22 kB
+Progress (1): 22/22 kB
+Progress (1): 22 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-parent/1.30.1/google-http-client-parent-1.30.1.pom (22 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.pom (2.2 kB at 5.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.19.0/grpc-context-1.19.0.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.19.0/grpc-context-1.19.0.pom (1.2 kB at 3.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-http-util/0.21.0/opencensus-contrib-http-util-0.21.0.pom
+Progress (1): 2.2/2.4 kB
+Progress (1): 2.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-http-util/0.21.0/opencensus-contrib-http-util-0.21.0.pom (2.4 kB at 6.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.30.1/google-http-client-jackson2-1.30.1.pom
+Progress (1): 2.2/2.9 kB
+Progress (1): 2.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.30.1/google-http-client-jackson2-1.30.1.pom (2.9 kB at 7.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.16.2/google-auth-library-oauth2-http-0.16.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.19.0/grpc-context-1.19.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.30.1/google-http-client-1.30.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.16.2/google-auth-library-credentials-0.16.2.jar
+Progress (1): 2.2/29 kB
+Progress (1): 5.0/29 kB
+Progress (1): 7.7/29 kB
+Progress (1): 10/29 kB 
+Progress (1): 13/29 kB
+Progress (1): 16/29 kB
+Progress (1): 19/29 kB
+Progress (1): 21/29 kB
+Progress (1): 24/29 kB
+Progress (1): 27/29 kB
+Progress (1): 29 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.19.0/grpc-context-1.19.0.jar (29 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-http-util/0.21.0/opencensus-contrib-http-util-0.21.0.jar
+Progress (1): 2.2/82 kB
+Progress (1): 5.0/82 kB
+Progress (1): 7.7/82 kB
+Progress (1): 10/82 kB 
+Progress (1): 13/82 kB
+Progress (2): 13/82 kB | 2.2/352 kB
+Progress (2): 13/82 kB | 5.0/352 kB
+Progress (2): 13/82 kB | 7.7/352 kB
+Progress (2): 13/82 kB | 10/352 kB 
+Progress (2): 13/82 kB | 13/352 kB
+Progress (3): 13/82 kB | 13/352 kB | 2.2/23 kB
+Progress (3): 13/82 kB | 13/352 kB | 5.0/23 kB
+Progress (3): 13/82 kB | 13/352 kB | 7.7/23 kB
+Progress (3): 13/82 kB | 13/352 kB | 10/23 kB 
+Progress (4): 13/82 kB | 13/352 kB | 10/23 kB | 2.2/5.6 kB
+Progress (4): 13/82 kB | 13/352 kB | 13/23 kB | 2.2/5.6 kB
+Progress (4): 13/82 kB | 13/352 kB | 13/23 kB | 5.0/5.6 kB
+Progress (4): 13/82 kB | 13/352 kB | 16/23 kB | 5.0/5.6 kB
+Progress (4): 13/82 kB | 13/352 kB | 16/23 kB | 5.6 kB    
+Progress (4): 13/82 kB | 13/352 kB | 19/23 kB | 5.6 kB
+Progress (5): 13/82 kB | 13/352 kB | 19/23 kB | 5.6 kB | 2.2/279 kB
+Progress (5): 13/82 kB | 13/352 kB | 21/23 kB | 5.6 kB | 2.2/279 kB
+Progress (5): 13/82 kB | 13/352 kB | 21/23 kB | 5.6 kB | 5.0/279 kB
+Progress (5): 13/82 kB | 13/352 kB | 23 kB | 5.6 kB | 5.0/279 kB   
+Progress (5): 13/82 kB | 13/352 kB | 23 kB | 5.6 kB | 7.7/279 kB
+Progress (5): 13/82 kB | 13/352 kB | 23 kB | 5.6 kB | 10/279 kB 
+Progress (5): 13/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 16/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 19/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 21/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 24/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 27/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 30/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 13/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 16/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 19/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 21/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 24/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 27/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 30/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 32/352 kB | 23 kB | 5.6 kB | 13/279 kB
+Progress (5): 32/82 kB | 32/352 kB | 23 kB | 5.6 kB | 16/279 kB
+                                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-http-util/0.21.0/opencensus-contrib-http-util-0.21.0.jar (23 kB at 29 kB/s)
+Progress (4): 32/82 kB | 32/352 kB | 5.6 kB | 19/279 kB
+                                                       
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.30.1/google-http-client-jackson2-1.30.1.jar
+Progress (4): 32/82 kB | 32/352 kB | 5.6 kB | 21/279 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/0.16.2/google-auth-library-credentials-0.16.2.jar (5.6 kB at 7.0 kB/s)
+Progress (3): 32/82 kB | 32/352 kB | 24/279 kB
+Progress (3): 32/82 kB | 32/352 kB | 27/279 kB
+Progress (3): 32/82 kB | 32/352 kB | 30/279 kB
+Progress (3): 32/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 36/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 40/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 45/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 48/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 52/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 56/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 59/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 61/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 64/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 67/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 70/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 72/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 75/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 78/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 80/82 kB | 32/352 kB | 32/279 kB
+Progress (3): 82 kB | 32/352 kB | 32/279 kB   
+Progress (3): 82 kB | 36/352 kB | 32/279 kB
+Progress (3): 82 kB | 40/352 kB | 32/279 kB
+Progress (3): 82 kB | 45/352 kB | 32/279 kB
+Progress (3): 82 kB | 49/352 kB | 32/279 kB
+Progress (3): 82 kB | 53/352 kB | 32/279 kB
+Progress (3): 82 kB | 57/352 kB | 32/279 kB
+Progress (3): 82 kB | 61/352 kB | 32/279 kB
+Progress (3): 82 kB | 65/352 kB | 32/279 kB
+Progress (3): 82 kB | 69/352 kB | 32/279 kB
+Progress (3): 82 kB | 73/352 kB | 32/279 kB
+Progress (3): 82 kB | 77/352 kB | 32/279 kB
+Progress (3): 82 kB | 81/352 kB | 32/279 kB
+Progress (3): 82 kB | 81/352 kB | 36/279 kB
+Progress (3): 82 kB | 81/352 kB | 40/279 kB
+Progress (3): 82 kB | 81/352 kB | 45/279 kB
+Progress (3): 82 kB | 81/352 kB | 49/279 kB
+Progress (3): 82 kB | 81/352 kB | 53/279 kB
+Progress (3): 82 kB | 81/352 kB | 57/279 kB
+Progress (3): 82 kB | 81/352 kB | 61/279 kB
+Progress (3): 82 kB | 81/352 kB | 65/279 kB
+Progress (3): 82 kB | 81/352 kB | 69/279 kB
+Progress (3): 82 kB | 81/352 kB | 73/279 kB
+Progress (3): 82 kB | 81/352 kB | 77/279 kB
+Progress (4): 82 kB | 81/352 kB | 77/279 kB | 2.2/8.4 kB
+Progress (4): 82 kB | 81/352 kB | 81/279 kB | 2.2/8.4 kB
+Progress (4): 82 kB | 81/352 kB | 81/279 kB | 5.0/8.4 kB
+Progress (4): 82 kB | 81/352 kB | 81/279 kB | 7.7/8.4 kB
+Progress (4): 82 kB | 81/352 kB | 81/279 kB | 8.4 kB    
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.16.2/google-auth-library-oauth2-http-0.16.2.jar (82 kB at 82 kB/s)
+Progress (3): 85/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 90/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 94/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 98/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 102/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 106/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 110/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 114/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 118/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 122/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 126/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 131/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 135/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 139/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 143/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 147/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 151/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 155/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 159/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 163/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 167/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 171/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 176/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 81/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 85/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 90/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 94/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 98/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 102/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 106/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 110/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 114/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 118/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 122/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 126/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 131/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 135/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 139/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 143/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 147/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 151/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 155/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 159/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 163/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 167/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 171/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 176/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 180/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 184/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 188/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 192/279 kB | 8.4 kB
+Progress (3): 180/352 kB | 196/279 kB | 8.4 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-jackson2/1.30.1/google-http-client-jackson2-1.30.1.jar (8.4 kB at 7.0 kB/s)
+Progress (2): 184/352 kB | 196/279 kB
+Progress (2): 188/352 kB | 196/279 kB
+Progress (2): 192/352 kB | 196/279 kB
+Progress (2): 196/352 kB | 196/279 kB
+Progress (2): 200/352 kB | 196/279 kB
+Progress (2): 204/352 kB | 196/279 kB
+Progress (2): 208/352 kB | 196/279 kB
+Progress (2): 212/352 kB | 196/279 kB
+Progress (2): 217/352 kB | 196/279 kB
+Progress (2): 221/352 kB | 196/279 kB
+Progress (2): 225/352 kB | 196/279 kB
+Progress (2): 229/352 kB | 196/279 kB
+Progress (2): 233/352 kB | 196/279 kB
+Progress (2): 237/352 kB | 196/279 kB
+Progress (2): 241/352 kB | 196/279 kB
+Progress (2): 245/352 kB | 196/279 kB
+Progress (2): 249/352 kB | 196/279 kB
+Progress (2): 253/352 kB | 196/279 kB
+Progress (2): 258/352 kB | 196/279 kB
+Progress (2): 262/352 kB | 196/279 kB
+Progress (2): 266/352 kB | 196/279 kB
+Progress (2): 270/352 kB | 196/279 kB
+Progress (2): 274/352 kB | 196/279 kB
+Progress (2): 278/352 kB | 196/279 kB
+Progress (2): 282/352 kB | 196/279 kB
+Progress (2): 286/352 kB | 196/279 kB
+Progress (2): 290/352 kB | 196/279 kB
+Progress (2): 294/352 kB | 196/279 kB
+Progress (2): 294/352 kB | 200/279 kB
+Progress (2): 294/352 kB | 204/279 kB
+Progress (2): 294/352 kB | 208/279 kB
+Progress (2): 294/352 kB | 212/279 kB
+Progress (2): 294/352 kB | 217/279 kB
+Progress (2): 294/352 kB | 221/279 kB
+Progress (2): 294/352 kB | 225/279 kB
+Progress (2): 294/352 kB | 229/279 kB
+Progress (2): 294/352 kB | 233/279 kB
+Progress (2): 294/352 kB | 237/279 kB
+Progress (2): 294/352 kB | 241/279 kB
+Progress (2): 294/352 kB | 245/279 kB
+Progress (2): 294/352 kB | 249/279 kB
+Progress (2): 294/352 kB | 253/279 kB
+Progress (2): 294/352 kB | 258/279 kB
+Progress (2): 294/352 kB | 262/279 kB
+Progress (2): 294/352 kB | 266/279 kB
+Progress (2): 294/352 kB | 270/279 kB
+Progress (2): 294/352 kB | 274/279 kB
+Progress (2): 294/352 kB | 278/279 kB
+Progress (2): 294/352 kB | 279 kB    
+Progress (2): 298/352 kB | 279 kB
+Progress (2): 303/352 kB | 279 kB
+Progress (2): 307/352 kB | 279 kB
+Progress (2): 311/352 kB | 279 kB
+Progress (2): 315/352 kB | 279 kB
+Progress (2): 319/352 kB | 279 kB
+Progress (2): 323/352 kB | 279 kB
+Progress (2): 327/352 kB | 279 kB
+Progress (2): 331/352 kB | 279 kB
+Progress (2): 335/352 kB | 279 kB
+Progress (2): 339/352 kB | 279 kB
+Progress (2): 344/352 kB | 279 kB
+Progress (2): 348/352 kB | 279 kB
+Progress (2): 352 kB | 279 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.30.1/google-http-client-1.30.1.jar (279 kB at 176 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar (352 kB at 216 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ docker-maven-plugin ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/docker-maven-plugin/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ docker-maven-plugin ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework:spring-core:jar:4.1.6.RELEASE:test
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.4:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.3.3:compile
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.19:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+[INFO]    org.apache.maven:maven-model:jar:3.3.3:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:compile
+[INFO]    org.ow2.asm:asm-commons:jar:5.0.3:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2:compile
+[INFO]    com.github.jnr:jnr-constants:jar:0.9.8:compile
+[INFO]    org.codehaus.plexus:plexus-io:jar:2.0.4:test
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.22.2:compile
+[INFO]    org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.5:compile
+[INFO]    com.google.auth:google-auth-library-oauth2-http:jar:0.16.2:compile
+[INFO]    com.google.guava:guava:jar:20.0:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile
+[INFO]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.4:compile
+[INFO]    com.typesafe:config:jar:1.2.0:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.3:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.0:compile
+[INFO]    io.opencensus:opencensus-contrib-http-util:jar:0.21.0:compile
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    classworlds:classworlds:jar:1.1-alpha-2:test
+[INFO]    com.github.jnr:jnr-unixsocket:jar:0.18:compile
+[INFO]    org.codehaus.plexus:plexus-archiver:jar:2.2:test
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.3.3:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:compile
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:compile
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile
+[INFO]    org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+[INFO]    org.apache.maven:maven-artifact:jar:3.3.3:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.4:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.22:compile
+[INFO]    org.apache.maven:maven-core:jar:3.3.3:compile
+[INFO]    org.apache.maven.wagon:wagon-provider-api:jar:2.9:test
+[INFO]    org.apache.commons:commons-compress:jar:1.9:compile
+[INFO]    com.github.jnr:jffi:jar:native:1.2.15:runtime
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0:compile
+[INFO]    org.apache.maven:maven-compat:jar:3.3.3:test
+[INFO]    org.ow2.asm:asm-util:jar:5.0.3:compile
+[INFO]    io.grpc:grpc-context:jar:1.19.0:compile
+[INFO]    org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO]    com.jcraft:jsch:jar:0.1.46:compile
+[INFO]    org.objenesis:objenesis:jar:1.2:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.assertj:assertj-core:jar:2.3.0:test
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.22.2:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.22.2:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[INFO]    com.github.jnr:jnr-posix:jar:3.0.35:compile
+[INFO]    org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:5.0.3:compile
+[INFO]    com.github.jnr:jffi:jar:1.2.15:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.2.3:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    org.apache.maven:maven-aether-provider:jar:3.3.3:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.3.3:compile
+[INFO]    org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.4:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.3.3:compile
+[INFO]    com.github.jnr:jnr-ffi:jar:2.1.4:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
+[INFO]    io.opencensus:opencensus-api:jar:0.21.0:compile
+[INFO]    com.github.jnr:jnr-enxio:jar:0.16:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[INFO]    com.spotify:docker-client:jar:shaded:8.11.4:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]    org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+[INFO]    org.apache.maven:maven-builder-support:jar:3.3.3:compile
+[INFO]    org.ow2.asm:asm-tree:jar:5.0.3:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO]    org.springframework:spring-test:jar:4.1.6.RELEASE:test
+[INFO]    com.google.auth:google-auth-library-credentials:jar:0.16.2:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile
+[INFO]    org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.22.2:compile
+[INFO]    com.google.http-client:google-http-client:jar:1.30.1:compile
+[INFO]    org.mockito:mockito-all:jar:1.10.19:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:compile
+[INFO]    com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.3.3:compile
+[INFO]    org.eclipse.jgit:org.eclipse.jgit:jar:3.2.0.201312181205-r:compile
+[INFO]    org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:3.3.0:test
+[INFO]    com.googlecode.javaewah:JavaEWAH:jar:0.5.6:compile
+[INFO]    eu.codearte.catch-exception:catch-exception:jar:1.4.4:test
+[INFO]    com.google.http-client:google-http-client-jackson2:jar:1.30.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ docker-maven-plugin ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ docker-maven-plugin ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.880 s
+[INFO] Finished at: 2019-08-16T08:14:28+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (validate) on project docker-maven-plugin: Failed during checkstyle configuration: cannot initialize module SuppressionFilter - Cannot set property 'file' to 'checkstyle-suppressions.xml' in module SuppressionFilter: InvocationTargetException: Unable to find: checkstyle-suppressions.xml: http://www.puppycrawl.com/dtds/suppressions_1_0.dtd -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Build failures were ignored.

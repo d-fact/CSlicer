@@ -1,0 +1,217 @@
+[VERSION]: 2.1.12
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.github.liyiorg:weixin-popular >------------------
+[INFO] Building weixin-popular 2.8.19
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.pom
+Progress (1): 2.2/5.8 kB
+Progress (1): 5.0/5.8 kB
+Progress (1): 5.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.pom (5.8 kB at 5.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.pom
+Progress (1): 2.8/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.pom (4.8 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.19/slf4j-simple-1.7.19.pom
+Progress (1): 793 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.19/slf4j-simple-1.7.19.pom (793 B at 2.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vdurmont/emoji-java/3.1.3/emoji-java-3.1.3.pom
+Progress (1): 2.2/5.9 kB
+Progress (1): 5.0/5.9 kB
+Progress (1): 5.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vdurmont/emoji-java/3.1.3/emoji-java-3.1.3.pom (5.9 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/vdurmont/emoji-java/3.1.3/emoji-java-3.1.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.19/slf4j-simple-1.7.19.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.19/slf4j-api-1.7.19.jar
+Progress (1): 2.2/326 kB
+Progress (1): 5.0/326 kB
+Progress (1): 7.7/326 kB
+Progress (1): 10/326 kB 
+Progress (1): 13/326 kB
+Progress (1): 16/326 kB
+Progress (1): 19/326 kB
+Progress (1): 21/326 kB
+Progress (1): 24/326 kB
+Progress (1): 27/326 kB
+Progress (1): 30/326 kB
+Progress (1): 32/326 kB
+Progress (2): 32/326 kB | 2.2/11 kB
+Progress (2): 32/326 kB | 5.0/11 kB
+Progress (2): 32/326 kB | 7.7/11 kB
+Progress (2): 32/326 kB | 10/11 kB 
+Progress (2): 32/326 kB | 11 kB   
+Progress (2): 36/326 kB | 11 kB
+Progress (2): 40/326 kB | 11 kB
+Progress (2): 45/326 kB | 11 kB
+Progress (2): 49/326 kB | 11 kB
+Progress (3): 49/326 kB | 11 kB | 2.2/37 kB
+Progress (3): 53/326 kB | 11 kB | 2.2/37 kB
+Progress (3): 53/326 kB | 11 kB | 5.0/37 kB
+Progress (3): 57/326 kB | 11 kB | 5.0/37 kB
+Progress (3): 57/326 kB | 11 kB | 7.7/37 kB
+Progress (3): 61/326 kB | 11 kB | 7.7/37 kB
+Progress (3): 61/326 kB | 11 kB | 10/37 kB 
+Progress (3): 65/326 kB | 11 kB | 10/37 kB
+Progress (3): 65/326 kB | 11 kB | 13/37 kB
+Progress (3): 69/326 kB | 11 kB | 13/37 kB
+Progress (3): 73/326 kB | 11 kB | 13/37 kB
+Progress (4): 73/326 kB | 11 kB | 13/37 kB | 2.2/41 kB
+Progress (4): 77/326 kB | 11 kB | 13/37 kB | 2.2/41 kB
+Progress (4): 77/326 kB | 11 kB | 13/37 kB | 5.0/41 kB
+Progress (5): 77/326 kB | 11 kB | 13/37 kB | 5.0/41 kB | 2.2/50 kB
+Progress (5): 77/326 kB | 11 kB | 13/37 kB | 7.7/41 kB | 2.2/50 kB
+Progress (5): 81/326 kB | 11 kB | 13/37 kB | 7.7/41 kB | 2.2/50 kB
+Progress (5): 81/326 kB | 11 kB | 13/37 kB | 10/41 kB | 2.2/50 kB 
+Progress (5): 81/326 kB | 11 kB | 13/37 kB | 10/41 kB | 5.0/50 kB
+Progress (5): 81/326 kB | 11 kB | 13/37 kB | 13/41 kB | 5.0/50 kB
+Progress (5): 85/326 kB | 11 kB | 13/37 kB | 13/41 kB | 5.0/50 kB
+Progress (5): 85/326 kB | 11 kB | 13/37 kB | 13/41 kB | 7.7/50 kB
+Progress (5): 90/326 kB | 11 kB | 13/37 kB | 13/41 kB | 7.7/50 kB
+Progress (5): 90/326 kB | 11 kB | 13/37 kB | 13/41 kB | 10/50 kB 
+Progress (5): 94/326 kB | 11 kB | 13/37 kB | 13/41 kB | 10/50 kB
+Progress (5): 94/326 kB | 11 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (5): 98/326 kB | 11 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (5): 102/326 kB | 11 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (5): 106/326 kB | 11 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (5): 110/326 kB | 11 kB | 13/37 kB | 13/41 kB | 13/50 kB
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.19/slf4j-simple-1.7.19.jar (11 kB at 15 kB/s)
+Progress (4): 114/326 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 118/326 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 122/326 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 126/326 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 131/326 kB | 13/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 131/326 kB | 16/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 131/326 kB | 19/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 131/326 kB | 21/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 135/326 kB | 21/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 135/326 kB | 24/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 139/326 kB | 24/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 139/326 kB | 27/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 143/326 kB | 27/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 143/326 kB | 30/37 kB | 13/41 kB | 13/50 kB
+Progress (4): 143/326 kB | 30/37 kB | 13/41 kB | 16/50 kB
+Progress (4): 147/326 kB | 30/37 kB | 13/41 kB | 16/50 kB
+Progress (4): 147/326 kB | 30/37 kB | 16/41 kB | 16/50 kB
+Progress (4): 147/326 kB | 30/37 kB | 16/41 kB | 19/50 kB
+Progress (4): 147/326 kB | 32/37 kB | 16/41 kB | 19/50 kB
+Progress (4): 147/326 kB | 32/37 kB | 16/41 kB | 21/50 kB
+Progress (4): 147/326 kB | 32/37 kB | 19/41 kB | 21/50 kB
+Progress (4): 151/326 kB | 32/37 kB | 19/41 kB | 21/50 kB
+Progress (4): 151/326 kB | 32/37 kB | 21/41 kB | 21/50 kB
+Progress (4): 151/326 kB | 32/37 kB | 21/41 kB | 24/50 kB
+Progress (4): 151/326 kB | 35/37 kB | 21/41 kB | 24/50 kB
+Progress (4): 151/326 kB | 35/37 kB | 21/41 kB | 27/50 kB
+Progress (4): 151/326 kB | 35/37 kB | 24/41 kB | 27/50 kB
+Progress (4): 155/326 kB | 35/37 kB | 24/41 kB | 27/50 kB
+Progress (4): 155/326 kB | 35/37 kB | 27/41 kB | 27/50 kB
+Progress (4): 155/326 kB | 35/37 kB | 27/41 kB | 30/50 kB
+Progress (4): 155/326 kB | 37 kB | 27/41 kB | 30/50 kB   
+Progress (4): 155/326 kB | 37 kB | 27/41 kB | 32/50 kB
+Progress (4): 155/326 kB | 37 kB | 30/41 kB | 32/50 kB
+Progress (4): 159/326 kB | 37 kB | 30/41 kB | 32/50 kB
+Progress (4): 159/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 163/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 167/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 171/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 176/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 180/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 184/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 188/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 192/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 196/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 200/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 204/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 208/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 212/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 217/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 221/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 225/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 229/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 233/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 237/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 241/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 245/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 249/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 253/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 258/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 262/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 266/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 270/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 274/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 278/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 282/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 286/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 290/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 294/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 298/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 303/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 307/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 311/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 315/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 319/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 323/326 kB | 37 kB | 32/41 kB | 32/50 kB
+Progress (4): 326 kB | 37 kB | 32/41 kB | 32/50 kB    
+Progress (4): 326 kB | 37 kB | 32/41 kB | 36/50 kB
+Progress (4): 326 kB | 37 kB | 36/41 kB | 36/50 kB
+Progress (4): 326 kB | 37 kB | 36/41 kB | 40/50 kB
+Progress (4): 326 kB | 37 kB | 40/41 kB | 40/50 kB
+Progress (4): 326 kB | 37 kB | 40/41 kB | 45/50 kB
+Progress (4): 326 kB | 37 kB | 41 kB | 45/50 kB   
+Progress (4): 326 kB | 37 kB | 41 kB | 49/50 kB
+Progress (4): 326 kB | 37 kB | 41 kB | 50 kB   
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar (37 kB at 41 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.jar (326 kB at 302 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.19/slf4j-api-1.7.19.jar (41 kB at 37 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vdurmont/emoji-java/3.1.3/emoji-java-3.1.3.jar (50 kB at 46 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ weixin-popular ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ weixin-popular ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.3.6:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.19:compile
+[INFO]    org.json:json:jar:20140107:compile
+[INFO]    com.vdurmont:emoji-java:jar:3.1.3:compile
+[INFO]    com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile
+[INFO]    com.alibaba:fastjson:jar:1.2.7:compile
+[INFO]    redis.clients:jedis:jar:2.7.3:provided
+[INFO]    commons-logging:commons-logging:jar:1.1.3:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:provided
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.19:provided
+[INFO]    org.apache.commons:commons-pool2:jar:2.3:provided
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+[INFO]    commons-codec:commons-codec:jar:1.6:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ weixin-popular ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ weixin-popular ---
+[INFO] Compiling 545 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ weixin-popular ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ weixin-popular ---
+[INFO] Compiling 8 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ weixin-popular ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.742 s
+[INFO] Finished at: 2019-08-16T00:55:19+08:00
+[INFO] ------------------------------------------------------------------------

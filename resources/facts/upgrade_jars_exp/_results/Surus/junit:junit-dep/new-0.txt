@@ -1,0 +1,142 @@
+[VERSION]: 4.11
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< netflix:surus >----------------------------
+[INFO] Building surus 0.1.4
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact junit:junit-dep:jar:4.11 has been relocated to junit:junit:jar:4.11
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ surus ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Surus/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ surus ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.pig:pig:jar:0.14.0:provided
+[INFO]    commons-el:commons-el:jar:1.0:provided
+[INFO]    commons-net:commons-net:jar:1.4.1:provided
+[INFO]    org.eclipse.jdt:core:jar:3.1.1:provided
+[INFO]    commons-lang:commons-lang:jar:2.4:provided
+[INFO]    org.apache.commons:commons-compress:jar:1.4.1:provided
+[INFO]    org.slf4j:slf4j-api:jar:1.6.4:provided
+[INFO]    org.jpmml:pmml-schema:jar:1.0.19:compile
+[INFO]    antlr:antlr:jar:2.7.7:provided
+[INFO]    org.mortbay.jetty:jsp-2.1:jar:6.1.14:provided
+[INFO]    org.antlr:stringtemplate:jar:3.2.1:provided
+[INFO]    net.java.dev.jets3t:jets3t:jar:0.7.1:provided
+[INFO]    org.mortbay.jetty:jetty-util:jar:6.1.26:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.jpmml:pmml-model:jar:1.0.19:compile
+[INFO]    hsqldb:hsqldb:jar:1.8.0.10:provided
+[INFO]    xmlenc:xmlenc:jar:0.52:provided
+[INFO]    com.thoughtworks.paranamer:paranamer:jar:2.3:provided
+[INFO]    org.antlr:ST4:jar:4.0.4:provided
+[INFO]    org.apache.hadoop:hadoop-core:jar:1.0.3:provided
+[INFO]    org.apache.commons:commons-math:jar:2.1:provided
+[INFO]    jline:jline:jar:1.0:provided
+[INFO]    org.apache.commons:commons-math3:jar:3.2:compile
+[INFO]    commons-configuration:commons-configuration:jar:1.6:provided
+[INFO]    commons-digester:commons-digester:jar:1.8:provided
+[INFO]    ant:ant:jar:1.6.5:provided
+[INFO]    commons-beanutils:commons-beanutils:jar:1.7.0:provided
+[INFO]    commons-httpclient:commons-httpclient:jar:3.0.1:provided
+[INFO]    net.sf.kosmosfs:kfs:jar:0.3:provided
+[INFO]    commons-collections:commons-collections:jar:3.2.1:provided
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    dk.brics.automaton:automaton:jar:1.11-8:provided
+[INFO]    tomcat:jasper-runtime:jar:5.5.12:provided
+[INFO]    org.jpmml:pmml-evaluator:jar:1.0.19:compile
+[INFO]    org.tukaani:xz:jar:1.0:provided
+[INFO]    commons-cli:commons-cli:jar:1.2:provided
+[INFO]    com.google.guava:guava:jar:15.0:compile
+[INFO]    commons-codec:commons-codec:jar:1.4:provided
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:1.0.1:provided
+[INFO]    joda-time:joda-time:jar:2.2:compile
+[INFO]    org.mortbay.jetty:servlet-api:jar:2.5-20081211:provided
+[INFO]    commons-beanutils:commons-beanutils-core:jar:1.8.0:provided
+[INFO]    com.sun.xml.bind:jaxb-impl:jar:2.2.6:compile
+[INFO]    tomcat:jasper-compiler:jar:5.5.12:provided
+[INFO]    org.mortbay.jetty:jetty:jar:6.1.26:provided
+[INFO]    org.jpmml:pmml-manager:jar:1.0.19:compile
+[INFO]    org.mortbay.jetty:servlet-api-2.5:jar:6.1.14:provided
+[INFO]    commons-logging:commons-logging:jar:1.0.3:provided
+[INFO]    oro:oro:jar:2.0.8:provided
+[INFO]    org.xerial.snappy:snappy-java:jar:1.0.4.1:provided
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.8.8:provided
+[INFO]    org.apache.avro:avro:jar:1.7.4:provided
+[INFO]    org.mortbay.jetty:jsp-api-2.1:jar:6.1.14:provided
+[INFO]    org.antlr:antlr-runtime:jar:3.4:provided
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ surus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Surus/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ surus ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Surus/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ surus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Surus/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ surus ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Surus/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ surus ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Surus/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.surus.math.RPCA_Test
+Running Test: testRSVD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running org.surus.math.AugmentedDickeyFuller_Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.surus.pig.ScorePMML_AuditTest
+modelPath: ./resources/examples/models/ensemble_audit_dectree.xml
+modelName: ensemble_audit_dectree.xml
+Read model from local disk!
+ensembleScoringTest_Audit_1: PASS
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.712 sec
+Running org.surus.pig.ScorePMML_IrisTest
+modelPath: ./resources/examples/models/single_iris_mlp.xml
+modelName: single_iris_mlp.xml
+Read model from local disk!
+nnScoringTest_Iris_1: PASS
+modelPath: ./resources/examples/models/single_iris_dectree.xml
+modelName: single_iris_dectree.xml
+Read model from local disk!
+treeScoringTest_Iris_1: PASS
+modelPath: ./resources/examples/models/single_iris_dectree.xml
+modelName: single_iris_dectree.xml
+Read model from local disk!
+treeScoringTest_Iris_2: PASS
+modelPath: ./resources/examples/models/example.randomForest.xml
+modelName: example.randomForest.xml
+Read model from local disk!
+rfScoringTest_Iris_1: PASS
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.surus.pig.RAD_Test
+testNormal
+PASS
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.surus.pig.ScorePMML_ElNinoTest
+modelPath: ./resources/examples/models/elnino_linearReg.xml
+modelName: elnino_linearReg.xml
+Read model from local disk!
+regressionScoringTest_ElNino_1: PASS
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.510 s
+[INFO] Finished at: 2019-08-14T20:01:59+08:00
+[INFO] ------------------------------------------------------------------------

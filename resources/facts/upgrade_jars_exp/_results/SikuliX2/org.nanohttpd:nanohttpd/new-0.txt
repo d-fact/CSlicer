@@ -1,0 +1,183 @@
+[VERSION]: 2.3.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.sikulix:sikulixapi >-----------------------
+[INFO] Building sikulixapi 2.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype-ossrh: https://oss.sonatype.org/content/repositories/snapshots/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+Downloading from jitpack.io: https://jitpack.io/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+Progress (1): 915 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom (915 B at 948 B/s)
+Downloading from sonatype-ossrh: https://oss.sonatype.org/content/repositories/snapshots/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+Downloading from jitpack.io: https://jitpack.io/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+Progress (1): 2.2/14 kB
+Progress (1): 5.0/14 kB
+Progress (1): 7.8/14 kB
+Progress (1): 11/14 kB 
+Progress (1): 13/14 kB
+Progress (1): 14 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom (14 kB at 25 kB/s)
+Downloading from sonatype-ossrh: https://oss.sonatype.org/content/repositories/snapshots/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar
+Downloading from jitpack.io: https://jitpack.io/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar
+Progress (1): 2.2/51 kB
+Progress (1): 5.0/51 kB
+Progress (1): 7.7/51 kB
+Progress (1): 10/51 kB 
+Progress (1): 13/51 kB
+Progress (1): 16/51 kB
+Progress (1): 19/51 kB
+Progress (1): 21/51 kB
+Progress (1): 24/51 kB
+Progress (1): 27/51 kB
+Progress (1): 30/51 kB
+Progress (1): 32/51 kB
+Progress (1): 36/51 kB
+Progress (1): 40/51 kB
+Progress (1): 45/51 kB
+Progress (1): 49/51 kB
+Progress (1): 51 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar (51 kB at 86 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sikulixapi ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ sikulixapi ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.nativelibs4java:bridj:jar:0.7.0:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-superscript:jar:0.28.18:compile
+[INFO]    com.sikulix:sikulix2tigervnc:jar:2.0.0-SNAPSHOT:compile
+[INFO]    com.vladsch.flexmark:flexmark-all:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-definition:jar:0.28.18:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+[INFO]    com.vladsch.flexmark:flexmark-profile-pegdown:jar:0.28.18:compile
+[INFO]    com.github.vidstige:jadb:jar:v1.0.1:compile
+[INFO]    com.github.tulskiy:jkeymaster:jar:1.2:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.28.18:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    com.vladsch.flexmark:flexmark-html-parser:jar:0.28.18:compile
+[INFO]    com.sikulix:sikulix2nativehook:jar:2.0.0-SNAPSHOT:compile
+[INFO]    org.slf4j:slf4j-nop:jar:1.7.25:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-tables:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-youtube-embedded:jar:0.28.18:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO]    com.sikulix:sikulix2testjar:jar:2.0.0-SNAPSHOT:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-typographic:jar:0.28.18:compile
+[INFO]    com.1stleg:jnativehook:jar:2.1.0:compile
+[INFO]    com.vladsch.flexmark:flexmark:jar:0.28.18:compile
+[INFO]    com.google.android.tools:dx:jar:1.7:compile
+[INFO]    com.sikulix:sikulix2opencv:jar:2.0.0-SNAPSHOT:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-emoji:jar:0.28.18:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.9.2:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.json:json:jar:20160810:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-jekyll-tag:jar:0.28.18:compile
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.4:compile
+[INFO]    org.nanohttpd:nanohttpd:jar:2.3.1:compile
+[INFO]    org.nibor.autolink:autolink:jar:0.6.0:compile
+[INFO]    com.fifesoft:rsyntaxtextarea:jar:2.6.1:compile
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-ins:jar:0.28.18:compile
+[INFO]    com.openhtmltopdf:openhtmltopdf-rtl-support:jar:0.0.1-RC9:compile
+[INFO]    com.openhtmltopdf:openhtmltopdf-jsoup-dom-converter:jar:0.0.1-RC9:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.3.2:compile
+[INFO]    com.vladsch.flexmark:flexmark-youtrack-converter:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-aside:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-autolink:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.28.18:compile
+[INFO]    com.sikulix:sikulix2tesseract:jar:2.0.0-SNAPSHOT:compile
+[INFO]    com.fifesoft:languagesupport:jar:2.6.0:compile
+[INFO]    com.vladsch.flexmark:flexmark-util:jar:0.28.18:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+[INFO]    org.apache.commons:commons-configuration2:jar:2.0:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-jira-converter:jar:0.28.18:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    com.github.jai-imageio:jai-imageio-core:jar:1.3.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-formatter:jar:0.28.18:compile
+[INFO]    com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-issues:jar:0.28.18:compile
+[INFO]    com.ibm.icu:icu4j:jar:58.1:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    com.mashape.unirest:unirest-java:jar:1.4.9:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-tables:jar:0.28.18:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.4:compile
+[INFO]    org.apache.pdfbox:pdfbox:jar:2.0.4:compile
+[INFO]    net.sourceforge.lept4j:lept4j:jar:1.6.3:compile
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+[INFO]    net.java.dev.jna:jna:jar:4.2.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.28.18:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-toc:jar:0.28.18:compile
+[INFO]    org.mozilla:rhino:jar:1.7.6:compile
+[INFO]    com.vladsch.flexmark:flexmark-pdf-converter:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-xwiki-macros:jar:0.28.18:compile
+[INFO]    com.fifesoft:autocomplete:jar:2.6.1:compile
+[INFO]    org.jsoup:jsoup:jar:1.10.2:compile
+[INFO]    com.openhtmltopdf:openhtmltopdf-pdfbox:jar:0.0.1-RC9:compile
+[INFO]    org.apache.pdfbox:fontbox:jar:2.0.4:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sikulixapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 33 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ sikulixapi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 91 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/src/main/java/com/sikulix/core/Content.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/src/main/java/com/sikulix/core/Content.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/src/main/java/com/sikulix/core/Content.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/src/main/java/com/sikulix/core/Finder.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/src/main/java/com/sikulix/core/Finder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sikulixapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ sikulixapi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/SikuliX2/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ sikulixapi ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.sikulix.test.TestCoreContent
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.006 s - in com.sikulix.test.TestCoreContent
+[INFO] Running com.sikulix.test.TestApiPicture
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in com.sikulix.test.TestApiPicture
+[INFO] Running com.sikulix.test.TestApiElement
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in com.sikulix.test.TestApiElement
+[INFO] Running com.sikulix.test.TestAll
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in com.sikulix.test.TestAll
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 4
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.809 s
+[INFO] Finished at: 2019-08-20T17:07:09+08:00
+[INFO] ------------------------------------------------------------------------

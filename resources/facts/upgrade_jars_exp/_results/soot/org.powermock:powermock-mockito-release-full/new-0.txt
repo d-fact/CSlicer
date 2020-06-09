@@ -1,0 +1,1349 @@
+[VERSION]: 1.6.4
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< ca.mcgill.sable:soot >------------------------
+[INFO] Building Soot 3.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-mockito-release-full/1.6.4/powermock-mockito-release-full-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-mockito-release-full/1.6.4/powermock-mockito-release-full-1.6.4.pom
+Progress (1): 2.2/6.3 kB
+Progress (1): 5.0/6.3 kB
+Progress (1): 6.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-mockito-release-full/1.6.4/powermock-mockito-release-full-1.6.4.pom (6.3 kB at 6.5 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock/1.6.4/powermock-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock/1.6.4/powermock-1.6.4.pom
+Progress (1): 2.2/15 kB
+Progress (1): 5.0/15 kB
+Progress (1): 7.8/15 kB
+Progress (1): 11/15 kB 
+Progress (1): 13/15 kB
+Progress (1): 15 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock/1.6.4/powermock-1.6.4.pom (15 kB at 26 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4.pom
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4.pom (2.1 kB at 5.6 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4.pom
+Progress (1): 987 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4.pom (987 B at 2.6 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4.pom (1.3 kB at 3.5 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api/1.6.4/powermock-api-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api/1.6.4/powermock-api-1.6.4.pom
+Progress (1): 781 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api/1.6.4/powermock-api-1.6.4.pom (781 B at 2.1 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4.pom (1.2 kB at 3.2 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4.pom (1.3 kB at 3.5 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-modules/1.6.4/powermock-modules-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-modules/1.6.4/powermock-modules-1.6.4.pom
+Progress (1): 770 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-modules/1.6.4/powermock-modules-1.6.4.pom (770 B at 2.1 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4.pom (1.9 kB at 5.1 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4.pom (1.4 kB at 3.6 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4.pom (1.1 kB at 3.0 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4.pom (1.3 kB at 3.6 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/testng/testng/6.8.21/testng-6.8.21.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/6.8.21/testng-6.8.21.pom
+Progress (1): 2.2/7.3 kB
+Progress (1): 5.0/7.3 kB
+Progress (1): 7.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/6.8.21/testng-6.8.21.pom (7.3 kB at 19 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-testng-common/1.6.4/powermock-module-testng-common-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng-common/1.6.4/powermock-module-testng-common-1.6.4.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng-common/1.6.4/powermock-module-testng-common-1.6.4.pom (1.3 kB at 3.6 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4.pom (1.5 kB at 4.0 kB/s)
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/testng/testng/6.8.21/testng-6.8.21.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-testng-common/1.6.4/powermock-module-testng-common-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4-sources.jar
+Downloading from soot-release: https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4-sources.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4.jar
+Progress (1): 2.8/105 kB
+Progress (1): 3.6/105 kB
+Progress (1): 6.4/105 kB
+Progress (1): 7.7/105 kB
+Progress (1): 10/105 kB 
+Progress (1): 12/105 kB
+Progress (1): 15/105 kB
+Progress (1): 16/105 kB
+Progress (1): 19/105 kB
+Progress (1): 21/105 kB
+Progress (1): 24/105 kB
+Progress (1): 27/105 kB
+Progress (1): 28/105 kB
+Progress (1): 31/105 kB
+Progress (1): 32/105 kB
+Progress (1): 35/105 kB
+Progress (1): 36/105 kB
+Progress (1): 39/105 kB
+Progress (1): 40/105 kB
+Progress (1): 43/105 kB
+Progress (1): 45/105 kB
+Progress (1): 47/105 kB
+Progress (1): 49/105 kB
+Progress (1): 51/105 kB
+Progress (1): 53/105 kB
+Progress (1): 56/105 kB
+Progress (1): 57/105 kB
+Progress (1): 60/105 kB
+Progress (1): 61/105 kB
+Progress (1): 64/105 kB
+Progress (1): 65/105 kB
+Progress (1): 68/105 kB
+Progress (1): 69/105 kB
+Progress (1): 72/105 kB
+Progress (1): 73/105 kB
+Progress (1): 76/105 kB
+Progress (1): 77/105 kB
+Progress (1): 81/105 kB
+Progress (1): 86/105 kB
+Progress (1): 90/105 kB
+Progress (1): 92/105 kB
+Progress (1): 95/105 kB
+Progress (1): 98/105 kB
+Progress (2): 98/105 kB | 2.2/15 kB
+Progress (2): 101/105 kB | 2.2/15 kB
+Progress (3): 101/105 kB | 2.2/15 kB | 2.2/15 kB
+Progress (3): 101/105 kB | 5.0/15 kB | 2.2/15 kB
+Progress (3): 101/105 kB | 5.0/15 kB | 5.0/15 kB
+Progress (3): 101/105 kB | 7.7/15 kB | 5.0/15 kB
+Progress (3): 101/105 kB | 7.7/15 kB | 7.7/15 kB
+Progress (3): 101/105 kB | 10/15 kB | 7.7/15 kB 
+Progress (3): 101/105 kB | 10/15 kB | 10/15 kB 
+Progress (3): 101/105 kB | 13/15 kB | 10/15 kB
+Progress (3): 101/105 kB | 13/15 kB | 13/15 kB
+Progress (3): 103/105 kB | 13/15 kB | 13/15 kB
+Progress (3): 105 kB | 13/15 kB | 13/15 kB    
+Progress (4): 105 kB | 13/15 kB | 13/15 kB | 2.2/46 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 2.2/46 kB | 2.2/99 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 5.0/46 kB | 2.2/99 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 5.0/46 kB | 5.0/99 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 7.7/46 kB | 5.0/99 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 7.7/46 kB | 7.7/99 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 10/46 kB | 7.7/99 kB 
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 10/46 kB | 10/99 kB 
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 13/46 kB | 10/99 kB
+Progress (5): 105 kB | 13/15 kB | 13/15 kB | 13/46 kB | 13/99 kB
+Progress (5): 105 kB | 15 kB | 13/15 kB | 13/46 kB | 13/99 kB   
+Progress (5): 105 kB | 15 kB | 15 kB | 13/46 kB | 13/99 kB   
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4.jar (105 kB at 137 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4.jar
+Progress (4): 15 kB | 15 kB | 16/46 kB | 13/99 kB
+Progress (4): 15 kB | 15 kB | 16/46 kB | 16/99 kB
+Progress (4): 15 kB | 15 kB | 19/46 kB | 16/99 kB
+Progress (4): 15 kB | 15 kB | 19/46 kB | 19/99 kB
+Progress (4): 15 kB | 15 kB | 21/46 kB | 19/99 kB
+Progress (4): 15 kB | 15 kB | 21/46 kB | 21/99 kB
+Progress (4): 15 kB | 15 kB | 24/46 kB | 21/99 kB
+Progress (4): 15 kB | 15 kB | 24/46 kB | 24/99 kB
+Progress (4): 15 kB | 15 kB | 27/46 kB | 24/99 kB
+Progress (4): 15 kB | 15 kB | 27/46 kB | 27/99 kB
+Progress (4): 15 kB | 15 kB | 30/46 kB | 27/99 kB
+Progress (4): 15 kB | 15 kB | 30/46 kB | 30/99 kB
+Progress (4): 15 kB | 15 kB | 32/46 kB | 30/99 kB
+Progress (4): 15 kB | 15 kB | 32/46 kB | 32/99 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4.jar (15 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4.jar (15 kB at 16 kB/s)
+Progress (3): 32/46 kB | 32/99 kB | 0.6/16 kB
+                                             
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4.jar
+Progress (3): 32/46 kB | 32/99 kB | 3.4/16 kB
+Progress (3): 32/46 kB | 32/99 kB | 4.7/16 kB
+Progress (3): 32/46 kB | 32/99 kB | 7.5/16 kB
+Progress (3): 32/46 kB | 32/99 kB | 8.8/16 kB
+Progress (3): 32/46 kB | 32/99 kB | 12/16 kB 
+Progress (3): 32/46 kB | 32/99 kB | 14/16 kB
+Progress (3): 32/46 kB | 32/99 kB | 16 kB   
+Progress (3): 36/46 kB | 32/99 kB | 16 kB
+Progress (3): 40/46 kB | 32/99 kB | 16 kB
+Progress (3): 45/46 kB | 32/99 kB | 16 kB
+Progress (3): 46 kB | 32/99 kB | 16 kB   
+Progress (3): 46 kB | 36/99 kB | 16 kB
+Progress (3): 46 kB | 40/99 kB | 16 kB
+Progress (3): 46 kB | 45/99 kB | 16 kB
+Progress (3): 46 kB | 49/99 kB | 16 kB
+Progress (3): 46 kB | 53/99 kB | 16 kB
+Progress (3): 46 kB | 57/99 kB | 16 kB
+Progress (3): 46 kB | 61/99 kB | 16 kB
+Progress (3): 46 kB | 65/99 kB | 16 kB
+Progress (3): 46 kB | 69/99 kB | 16 kB
+Progress (3): 46 kB | 73/99 kB | 16 kB
+Progress (3): 46 kB | 77/99 kB | 16 kB
+Progress (3): 46 kB | 81/99 kB | 16 kB
+Progress (4): 46 kB | 81/99 kB | 16 kB | 2.2/47 kB
+Progress (5): 46 kB | 81/99 kB | 16 kB | 2.2/47 kB | 2.2/19 kB
+Progress (5): 46 kB | 81/99 kB | 16 kB | 5.0/47 kB | 2.2/19 kB
+Progress (5): 46 kB | 81/99 kB | 16 kB | 5.0/47 kB | 5.0/19 kB
+                                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4.jar (16 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4.jar
+Progress (4): 46 kB | 81/99 kB | 7.7/47 kB | 5.0/19 kB
+Progress (4): 46 kB | 81/99 kB | 7.7/47 kB | 7.7/19 kB
+Progress (4): 46 kB | 81/99 kB | 10/47 kB | 7.7/19 kB 
+Progress (4): 46 kB | 85/99 kB | 10/47 kB | 7.7/19 kB
+Progress (4): 46 kB | 90/99 kB | 10/47 kB | 7.7/19 kB
+Progress (4): 46 kB | 90/99 kB | 10/47 kB | 10/19 kB 
+Progress (4): 46 kB | 94/99 kB | 10/47 kB | 10/19 kB
+Progress (4): 46 kB | 98/99 kB | 10/47 kB | 10/19 kB
+Progress (4): 46 kB | 99 kB | 10/47 kB | 10/19 kB   
+Progress (4): 46 kB | 99 kB | 13/47 kB | 10/19 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4.jar (46 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/6.8.21/testng-6.8.21.jar
+Progress (3): 99 kB | 13/47 kB | 13/19 kB
+Progress (3): 99 kB | 16/47 kB | 13/19 kB
+Progress (3): 99 kB | 16/47 kB | 16/19 kB
+Progress (3): 99 kB | 19/47 kB | 16/19 kB
+Progress (3): 99 kB | 19/47 kB | 19/19 kB
+Progress (3): 99 kB | 21/47 kB | 19/19 kB
+Progress (3): 99 kB | 21/47 kB | 19 kB   
+Progress (3): 99 kB | 24/47 kB | 19 kB
+Progress (3): 99 kB | 27/47 kB | 19 kB
+Progress (3): 99 kB | 30/47 kB | 19 kB
+Progress (4): 99 kB | 30/47 kB | 19 kB | 2.2/12 kB
+Progress (4): 99 kB | 30/47 kB | 19 kB | 5.0/12 kB
+Progress (4): 99 kB | 30/47 kB | 19 kB | 7.7/12 kB
+Progress (4): 99 kB | 30/47 kB | 19 kB | 10/12 kB 
+Progress (4): 99 kB | 32/47 kB | 19 kB | 10/12 kB
+Progress (4): 99 kB | 32/47 kB | 19 kB | 12 kB   
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4.jar (99 kB at 73 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng-common/1.6.4/powermock-module-testng-common-1.6.4.jar
+Progress (4): 32/47 kB | 19 kB | 12 kB | 0.4/837 kB
+Progress (4): 32/47 kB | 19 kB | 12 kB | 3.1/837 kB
+Progress (4): 32/47 kB | 19 kB | 12 kB | 4.5/837 kB
+Progress (4): 32/47 kB | 19 kB | 12 kB | 7.2/837 kB
+Progress (4): 32/47 kB | 19 kB | 12 kB | 8.6/837 kB
+Progress (4): 36/47 kB | 19 kB | 12 kB | 8.6/837 kB
+Progress (4): 40/47 kB | 19 kB | 12 kB | 8.6/837 kB
+Progress (4): 45/47 kB | 19 kB | 12 kB | 8.6/837 kB
+Progress (4): 47 kB | 19 kB | 12 kB | 8.6/837 kB   
+Progress (4): 47 kB | 19 kB | 12 kB | 11/837 kB 
+Progress (4): 47 kB | 19 kB | 12 kB | 13/837 kB
+Progress (4): 47 kB | 19 kB | 12 kB | 15/837 kB
+Progress (4): 47 kB | 19 kB | 12 kB | 17/837 kB
+Progress (4): 47 kB | 19 kB | 12 kB | 20/837 kB
+Progress (4): 47 kB | 19 kB | 12 kB | 21/837 kB
+                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4.jar (19 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4.jar
+Progress (3): 47 kB | 12 kB | 24/837 kB
+Progress (3): 47 kB | 12 kB | 25/837 kB
+Progress (3): 47 kB | 12 kB | 28/837 kB
+Progress (3): 47 kB | 12 kB | 29/837 kB
+Progress (3): 47 kB | 12 kB | 32/837 kB
+Progress (3): 47 kB | 12 kB | 33/837 kB
+Progress (3): 47 kB | 12 kB | 36/837 kB
+Progress (3): 47 kB | 12 kB | 37/837 kB
+Progress (3): 47 kB | 12 kB | 40/837 kB
+Progress (3): 47 kB | 12 kB | 41/837 kB
+Progress (3): 47 kB | 12 kB | 44/837 kB
+Progress (3): 47 kB | 12 kB | 45/837 kB
+Progress (3): 47 kB | 12 kB | 48/837 kB
+Progress (3): 47 kB | 12 kB | 50/837 kB
+Progress (3): 47 kB | 12 kB | 52/837 kB
+Progress (3): 47 kB | 12 kB | 54/837 kB
+Progress (3): 47 kB | 12 kB | 56/837 kB
+                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4.jar (12 kB at 7.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4-sources.jar
+Progress (3): 47 kB | 56/837 kB | 2.2/4.8 kB
+Progress (3): 47 kB | 56/837 kB | 4.8 kB    
+Progress (3): 47 kB | 58/837 kB | 4.8 kB
+Progress (3): 47 kB | 60/837 kB | 4.8 kB
+Progress (3): 47 kB | 63/837 kB | 4.8 kB
+                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4.jar (47 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4-sources.jar
+Progress (2): 66/837 kB | 4.8 kB
+Progress (2): 69/837 kB | 4.8 kB
+Progress (2): 70/837 kB | 4.8 kB
+Progress (2): 73/837 kB | 4.8 kB
+Progress (2): 74/837 kB | 4.8 kB
+Progress (2): 77/837 kB | 4.8 kB
+Progress (2): 80/837 kB | 4.8 kB
+Progress (2): 82/837 kB | 4.8 kB
+Progress (3): 82/837 kB | 4.8 kB | 2.2/5.5 kB
+Progress (3): 82/837 kB | 4.8 kB | 5.0/5.5 kB
+Progress (3): 82/837 kB | 4.8 kB | 5.5 kB    
+Progress (3): 85/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 88/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 90/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 93/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 96/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 99/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 102/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 104/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 107/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 110/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 112/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 115/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 118/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 121/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 123/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 127/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 131/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 136/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 140/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 144/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 148/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 152/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 156/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 160/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 164/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 168/837 kB | 4.8 kB | 5.5 kB
+Progress (3): 172/837 kB | 4.8 kB | 5.5 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 2.2/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 5.0/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 7.7/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 10/94 kB 
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 13/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 16/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 19/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 21/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 24/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 27/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 30/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 32/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 36/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 40/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 45/94 kB
+Progress (4): 172/837 kB | 4.8 kB | 5.5 kB | 49/94 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng-common/1.6.4/powermock-module-testng-common-1.6.4.jar (4.8 kB at 2.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4-sources.jar
+Progress (3): 172/837 kB | 5.5 kB | 53/94 kB
+Progress (3): 172/837 kB | 5.5 kB | 57/94 kB
+Progress (3): 172/837 kB | 5.5 kB | 61/94 kB
+Progress (3): 172/837 kB | 5.5 kB | 65/94 kB
+Progress (3): 177/837 kB | 5.5 kB | 65/94 kB
+Progress (3): 181/837 kB | 5.5 kB | 65/94 kB
+Progress (3): 185/837 kB | 5.5 kB | 65/94 kB
+Progress (3): 189/837 kB | 5.5 kB | 65/94 kB
+Progress (3): 189/837 kB | 5.5 kB | 69/94 kB
+Progress (3): 189/837 kB | 5.5 kB | 73/94 kB
+Progress (3): 189/837 kB | 5.5 kB | 77/94 kB
+Progress (3): 189/837 kB | 5.5 kB | 81/94 kB
+Progress (3): 193/837 kB | 5.5 kB | 81/94 kB
+Progress (3): 197/837 kB | 5.5 kB | 81/94 kB
+Progress (3): 201/837 kB | 5.5 kB | 81/94 kB
+Progress (3): 205/837 kB | 5.5 kB | 81/94 kB
+Progress (3): 205/837 kB | 5.5 kB | 85/94 kB
+Progress (3): 205/837 kB | 5.5 kB | 90/94 kB
+Progress (3): 205/837 kB | 5.5 kB | 94/94 kB
+Progress (3): 205/837 kB | 5.5 kB | 94 kB   
+Progress (4): 205/837 kB | 5.5 kB | 94 kB | 4.1/72 kB
+Progress (4): 205/837 kB | 5.5 kB | 94 kB | 8.2/72 kB
+Progress (4): 205/837 kB | 5.5 kB | 94 kB | 12/72 kB 
+Progress (4): 205/837 kB | 5.5 kB | 94 kB | 16/72 kB
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4.jar (5.5 kB at 3.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4-sources.jar
+Progress (3): 209/837 kB | 94 kB | 16/72 kB
+Progress (3): 213/837 kB | 94 kB | 16/72 kB
+Progress (3): 217/837 kB | 94 kB | 16/72 kB
+Progress (3): 222/837 kB | 94 kB | 16/72 kB
+Progress (3): 226/837 kB | 94 kB | 16/72 kB
+Progress (3): 230/837 kB | 94 kB | 16/72 kB
+Progress (3): 234/837 kB | 94 kB | 16/72 kB
+Progress (3): 238/837 kB | 94 kB | 16/72 kB
+Progress (3): 238/837 kB | 94 kB | 20/72 kB
+Progress (3): 238/837 kB | 94 kB | 25/72 kB
+Progress (3): 242/837 kB | 94 kB | 25/72 kB
+Progress (3): 242/837 kB | 94 kB | 29/72 kB
+Progress (3): 246/837 kB | 94 kB | 29/72 kB
+Progress (3): 246/837 kB | 94 kB | 33/72 kB
+Progress (3): 250/837 kB | 94 kB | 33/72 kB
+Progress (3): 254/837 kB | 94 kB | 33/72 kB
+Progress (3): 258/837 kB | 94 kB | 33/72 kB
+Progress (3): 263/837 kB | 94 kB | 33/72 kB
+Progress (3): 267/837 kB | 94 kB | 33/72 kB
+Progress (3): 271/837 kB | 94 kB | 33/72 kB
+Progress (3): 275/837 kB | 94 kB | 33/72 kB
+Progress (3): 279/837 kB | 94 kB | 33/72 kB
+Progress (3): 283/837 kB | 94 kB | 33/72 kB
+Progress (3): 287/837 kB | 94 kB | 33/72 kB
+Progress (3): 287/837 kB | 94 kB | 37/72 kB
+Progress (3): 287/837 kB | 94 kB | 41/72 kB
+Progress (3): 287/837 kB | 94 kB | 45/72 kB
+Progress (3): 287/837 kB | 94 kB | 49/72 kB
+Progress (3): 291/837 kB | 94 kB | 49/72 kB
+Progress (3): 295/837 kB | 94 kB | 49/72 kB
+Progress (3): 299/837 kB | 94 kB | 49/72 kB
+Progress (3): 303/837 kB | 94 kB | 49/72 kB
+Progress (3): 308/837 kB | 94 kB | 49/72 kB
+Progress (3): 312/837 kB | 94 kB | 49/72 kB
+Progress (3): 316/837 kB | 94 kB | 49/72 kB
+Progress (3): 320/837 kB | 94 kB | 49/72 kB
+Progress (3): 324/837 kB | 94 kB | 49/72 kB
+Progress (3): 328/837 kB | 94 kB | 49/72 kB
+Progress (3): 332/837 kB | 94 kB | 49/72 kB
+Progress (3): 336/837 kB | 94 kB | 49/72 kB
+Progress (3): 336/837 kB | 94 kB | 53/72 kB
+Progress (3): 336/837 kB | 94 kB | 57/72 kB
+Progress (3): 336/837 kB | 94 kB | 61/72 kB
+Progress (3): 336/837 kB | 94 kB | 66/72 kB
+Progress (3): 340/837 kB | 94 kB | 66/72 kB
+Progress (3): 344/837 kB | 94 kB | 66/72 kB
+Progress (3): 349/837 kB | 94 kB | 66/72 kB
+Progress (3): 353/837 kB | 94 kB | 66/72 kB
+Progress (3): 357/837 kB | 94 kB | 66/72 kB
+Progress (3): 361/837 kB | 94 kB | 66/72 kB
+Progress (3): 365/837 kB | 94 kB | 66/72 kB
+Progress (3): 369/837 kB | 94 kB | 66/72 kB
+Progress (3): 373/837 kB | 94 kB | 66/72 kB
+Progress (3): 377/837 kB | 94 kB | 66/72 kB
+Progress (3): 380/837 kB | 94 kB | 66/72 kB
+Progress (3): 381/837 kB | 94 kB | 66/72 kB
+Progress (3): 384/837 kB | 94 kB | 66/72 kB
+Progress (3): 385/837 kB | 94 kB | 66/72 kB
+Progress (3): 388/837 kB | 94 kB | 66/72 kB
+Progress (3): 389/837 kB | 94 kB | 66/72 kB
+Progress (3): 392/837 kB | 94 kB | 66/72 kB
+Progress (3): 394/837 kB | 94 kB | 66/72 kB
+Progress (3): 396/837 kB | 94 kB | 66/72 kB
+Progress (3): 398/837 kB | 94 kB | 66/72 kB
+Progress (3): 400/837 kB | 94 kB | 66/72 kB
+Progress (3): 402/837 kB | 94 kB | 66/72 kB
+Progress (3): 405/837 kB | 94 kB | 66/72 kB
+Progress (3): 406/837 kB | 94 kB | 66/72 kB
+Progress (3): 409/837 kB | 94 kB | 66/72 kB
+Progress (3): 410/837 kB | 94 kB | 66/72 kB
+Progress (3): 413/837 kB | 94 kB | 66/72 kB
+Progress (3): 414/837 kB | 94 kB | 66/72 kB
+Progress (3): 417/837 kB | 94 kB | 66/72 kB
+Progress (3): 418/837 kB | 94 kB | 66/72 kB
+Progress (3): 421/837 kB | 94 kB | 66/72 kB
+Progress (3): 422/837 kB | 94 kB | 66/72 kB
+Progress (3): 425/837 kB | 94 kB | 66/72 kB
+Progress (3): 426/837 kB | 94 kB | 66/72 kB
+Progress (3): 429/837 kB | 94 kB | 66/72 kB
+Progress (4): 429/837 kB | 94 kB | 66/72 kB | 0.2/12 kB
+Progress (4): 430/837 kB | 94 kB | 66/72 kB | 0.2/12 kB
+Progress (4): 430/837 kB | 94 kB | 66/72 kB | 2.9/12 kB
+Progress (4): 430/837 kB | 94 kB | 66/72 kB | 4.3/12 kB
+Progress (4): 433/837 kB | 94 kB | 66/72 kB | 4.3/12 kB
+Progress (4): 433/837 kB | 94 kB | 70/72 kB | 4.3/12 kB
+Progress (4): 435/837 kB | 94 kB | 70/72 kB | 4.3/12 kB
+Progress (4): 435/837 kB | 94 kB | 70/72 kB | 7.0/12 kB
+Progress (4): 437/837 kB | 94 kB | 70/72 kB | 7.0/12 kB
+Progress (4): 437/837 kB | 94 kB | 72 kB | 7.0/12 kB   
+Progress (4): 439/837 kB | 94 kB | 72 kB | 7.0/12 kB
+Progress (4): 439/837 kB | 94 kB | 72 kB | 9.8/12 kB
+Progress (4): 441/837 kB | 94 kB | 72 kB | 9.8/12 kB
+Progress (4): 441/837 kB | 94 kB | 72 kB | 12 kB    
+Progress (4): 443/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 446/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 447/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 450/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 451/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 454/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 455/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 458/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 459/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 462/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 463/837 kB | 94 kB | 72 kB | 12 kB
+Progress (4): 466/837 kB | 94 kB | 72 kB | 12 kB
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-core/1.6.4/powermock-core-1.6.4-sources.jar (94 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4-sources.jar
+Progress (3): 467/837 kB | 72 kB | 12 kB
+Progress (3): 470/837 kB | 72 kB | 12 kB
+Progress (3): 471/837 kB | 72 kB | 12 kB
+Progress (3): 474/837 kB | 72 kB | 12 kB
+Progress (3): 476/837 kB | 72 kB | 12 kB
+Progress (3): 478/837 kB | 72 kB | 12 kB
+Progress (3): 480/837 kB | 72 kB | 12 kB
+Progress (3): 482/837 kB | 72 kB | 12 kB
+Progress (3): 484/837 kB | 72 kB | 12 kB
+Progress (3): 486/837 kB | 72 kB | 12 kB
+Progress (3): 488/837 kB | 72 kB | 12 kB
+Progress (3): 491/837 kB | 72 kB | 12 kB
+Progress (3): 492/837 kB | 72 kB | 12 kB
+Progress (3): 495/837 kB | 72 kB | 12 kB
+Progress (3): 496/837 kB | 72 kB | 12 kB
+Progress (3): 499/837 kB | 72 kB | 12 kB
+Progress (3): 500/837 kB | 72 kB | 12 kB
+Progress (4): 500/837 kB | 72 kB | 12 kB | 2.2/21 kB
+Progress (4): 503/837 kB | 72 kB | 12 kB | 2.2/21 kB
+Progress (4): 503/837 kB | 72 kB | 12 kB | 5.0/21 kB
+Progress (4): 504/837 kB | 72 kB | 12 kB | 5.0/21 kB
+Progress (4): 507/837 kB | 72 kB | 12 kB | 5.0/21 kB
+Progress (4): 507/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 508/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 511/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 512/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 515/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 516/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 519/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 521/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 523/837 kB | 72 kB | 12 kB | 7.7/21 kB
+Progress (4): 523/837 kB | 72 kB | 12 kB | 10/21 kB 
+Progress (4): 526/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 529/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 532/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 534/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 537/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 540/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 542/837 kB | 72 kB | 12 kB | 10/21 kB
+Progress (4): 542/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 545/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 548/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 551/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 553/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 556/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 559/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 562/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 564/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 567/837 kB | 72 kB | 12 kB | 13/21 kB
+Progress (4): 567/837 kB | 72 kB | 12 kB | 16/21 kB
+Progress (4): 570/837 kB | 72 kB | 12 kB | 16/21 kB
+Progress (4): 570/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 574/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 578/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 582/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 586/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 590/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 594/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 598/837 kB | 72 kB | 12 kB | 19/21 kB
+Progress (4): 598/837 kB | 72 kB | 12 kB | 21 kB   
+Progress (4): 602/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 607/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 611/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 615/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 619/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 623/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 627/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 631/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 635/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 639/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 643/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 648/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 652/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 656/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 660/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 664/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 668/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 672/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 676/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 680/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 684/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 689/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 693/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 697/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 701/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 705/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 709/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 713/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 717/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 721/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 725/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 729/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 734/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 738/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 742/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 746/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 750/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 754/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 758/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 762/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 766/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 770/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 775/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 779/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 783/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 787/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 791/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 795/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 799/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 803/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 807/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 811/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 815/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 820/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 824/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 826/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 828/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 831/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 832/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 835/837 kB | 72 kB | 12 kB | 21 kB
+Progress (4): 837 kB | 72 kB | 12 kB | 21 kB    
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-mockito/1.6.4/powermock-api-mockito-1.6.4-sources.jar (72 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4-sources.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-common/1.6.4/powermock-module-junit4-common-1.6.4-sources.jar (12 kB at 5.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4-sources.jar
+Progress (3): 837 kB | 21 kB | 4.1/9.4 kB
+Progress (3): 837 kB | 21 kB | 7.7/9.4 kB
+Progress (3): 837 kB | 21 kB | 9.4 kB    
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4/1.6.4/powermock-module-junit4-1.6.4-sources.jar (21 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4-sources.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/6.8.21/testng-6.8.21.jar (837 kB at 371 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4-sources.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit4-legacy/1.6.4/powermock-module-junit4-legacy-1.6.4-sources.jar (9.4 kB at 4.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4-sources.jar
+Progress (1): 4.1/9.7 kB
+Progress (1): 7.7/9.7 kB
+Progress (1): 9.7 kB    
+Progress (2): 9.7 kB | 2.2/8.8 kB
+Progress (2): 9.7 kB | 5.0/8.8 kB
+Progress (2): 9.7 kB | 7.7/8.8 kB
+Progress (2): 9.7 kB | 8.8 kB    
+Progress (3): 9.7 kB | 8.8 kB | 2.2/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 5.0/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 7.7/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 10/45 kB 
+Progress (3): 9.7 kB | 8.8 kB | 13/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 16/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 19/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 21/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 24/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 27/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 30/45 kB
+Progress (3): 9.7 kB | 8.8 kB | 32/45 kB
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 2.2/16 kB
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 5.0/16 kB
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 7.7/16 kB
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 10/16 kB 
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 13/16 kB
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 16/16 kB
+Progress (4): 9.7 kB | 8.8 kB | 32/45 kB | 16 kB   
+Progress (4): 9.7 kB | 8.8 kB | 36/45 kB | 16 kB
+Progress (4): 9.7 kB | 8.8 kB | 40/45 kB | 16 kB
+Progress (4): 9.7 kB | 8.8 kB | 45/45 kB | 16 kB
+Progress (4): 9.7 kB | 8.8 kB | 45 kB | 16 kB   
+Progress (5): 9.7 kB | 8.8 kB | 45 kB | 16 kB | 2.8/3.7 kB
+Progress (5): 9.7 kB | 8.8 kB | 45 kB | 16 kB | 3.7 kB    
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-junit3/1.6.4/powermock-module-junit3-1.6.4-sources.jar (9.7 kB at 3.8 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-module-testng/1.6.4/powermock-module-testng-1.6.4-sources.jar (8.8 kB at 3.5 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-api-support/1.6.4/powermock-api-support-1.6.4-sources.jar (16 kB at 6.2 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-reflect/1.6.4/powermock-reflect-1.6.4-sources.jar (45 kB at 17 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/powermock/powermock-classloading-base/1.6.4/powermock-classloading-base-1.6.4-sources.jar (3.7 kB at 1.4 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soot ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ soot ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.5:compile
+[INFO]    org.javassist:javassist:jar:3.18.2-GA:provided
+[INFO]    org.jboss:jboss-common-core:jar:2.5.0.Final:compile
+[INFO]    org.jboss.logging:jboss-logging-spi:jar:2.1.2.GA:compile
+[INFO]    org.powermock:powermock-module-junit4-legacy:jar:sources:1.6.4:test
+[INFO]    org.powermock:powermock-classloading-base:jar:sources:1.6.4:test
+[INFO]    pxb.android:axml:jar:2.0.0:compile
+[INFO]    org.powermock:powermock-mockito-release-full:pom:1.6.4:test
+[INFO]    org.smali:util:jar:2.2.2:compile
+[INFO]    org.mockito:mockito-core:jar:1.10.19:test
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.powermock:powermock-module-testng-common:jar:1.6.4:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.powermock:powermock-reflect:jar:sources:1.6.4:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO]    org.powermock:powermock-module-junit4:jar:1.6.4:test
+[INFO]    org.powermock:powermock-api-mockito:jar:sources:1.6.4:test
+[INFO]    org.ow2.asm:asm-debug-all:jar:5.2:compile
+[INFO]    org.powermock:powermock-api-support:jar:1.6.4:test
+[INFO]    org.powermock:powermock-module-testng:jar:1.6.4:test
+[INFO]    org.powermock:powermock-core:jar:1.6.4:test
+[INFO]    xmlpull:xmlpull:jar:1.1.3.4d_b4_min:compile
+[INFO]    org.powermock:powermock-core:jar:sources:1.6.4:test
+[INFO]    ca.mcgill.sable:java_cup:jar:0.9.2:compile
+[INFO]    org.hamcrest:hamcrest-all:jar:1.3:test
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    ca.mcgill.sable:jasmin:jar:3.0.1:compile
+[INFO]    org.powermock:powermock-module-junit3:jar:sources:1.6.4:test
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    heros:heros:jar:1.0.1:compile
+[INFO]    org.testng:testng:jar:6.8.21:test
+[INFO]    org.powermock:powermock-module-junit4-legacy:jar:1.6.4:test
+[INFO]    org.smali:dexlib2:jar:2.2.2:compile
+[INFO]    org.powermock:powermock-module-junit4-common:jar:sources:1.6.4:test
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    org.powermock:powermock-module-junit4:jar:sources:1.6.4:test
+[INFO]    com.beust:jcommander:jar:1.64:compile
+[INFO]    org.powermock:powermock-reflect:jar:1.6.4:test
+[INFO]    org.mockito:mockito-all:jar:1.10.8:test
+[INFO]    org.powermock:powermock-module-junit4-common:jar:1.6.4:test
+[INFO]    org.apache.ant:ant-launcher:jar:1.10.1:provided
+[INFO]    com.google.guava:guava:jar:18.0:compile
+[INFO]    ca.mcgill.sable:polyglot:jar:2006:compile
+[INFO]    org.apache.ant:ant:jar:1.10.1:provided
+[INFO]    org.powermock:powermock-api-support:jar:sources:1.6.4:test
+[INFO]    org.functionaljava:functionaljava:jar:4.2:compile
+[INFO]    org.powermock:powermock-classloading-base:jar:1.6.4:test
+[INFO]    org.powermock:powermock-module-testng:jar:sources:1.6.4:test
+[INFO]    org.powermock:powermock-api-mockito:jar:1.6.4:test
+[INFO]    org.powermock:powermock-module-junit3:jar:1.6.4:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:copy-resources (copy-resources) @ soot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (default) @ soot ---
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/singletons added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/sablecc added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/options added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd added.
+[INFO] 
+[INFO] --- xml-maven-plugin:1.0.1:transform (default) @ soot ---
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/singletons/singletons.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] Transforming file: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/xml/options/soot_options.xml
+[INFO] Transformed 1 file(s).
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ soot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ soot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2781 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/Annotation.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/Annotation.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/ASTNode.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/main/generated/jastadd/soot/JastAddJ/ASTNode.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ soot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ soot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 90 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/asm/backend/ConstantPoolTest.java:[21,50] com.sun.org.apache.bcel.internal.classfile.ClassFormatException is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/asm/backend/ConstantPoolTest.java:[226,26] com.sun.org.apache.bcel.internal.classfile.ClassFormatException is internal proprietary API and may be removed in a future release
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/toolkits/purity/BinarySearchTree.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/src/test/java/soot/toolkits/purity/BinarySearchTree.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ soot ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running soot.toolkits.scalar.ArrayPackedSetTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.274 s - in soot.toolkits.scalar.ArrayPackedSetTest
+[INFO] Running soot.toolkits.scalar.CombinedDUAnalysisTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in soot.toolkits.scalar.CombinedDUAnalysisTest
+[INFO] Running soot.toolkits.scalar.ArraySparseSetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 s - in soot.toolkits.scalar.ArraySparseSetTest
+[INFO] Running soot.toolkits.purity.PurityTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s - in soot.toolkits.purity.PurityTest
+[INFO] Running soot.toolkits.exceptions.UnitThrowAnalysisTest
+[WARNING] Tests run: 45, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.753 s - in soot.toolkits.exceptions.UnitThrowAnalysisTest
+[INFO] Running soot.toolkits.exceptions.MethodThrowableSetTest
+[Thread-1] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: Failed to apply jb to <soot.asm.backend.ConstantPoolTest: void loadClass()>
+java.lang.RuntimeException: Failed to apply jb to <soot.asm.backend.ConstantPoolTest: void loadClass()>
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1914)
+	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:126)
+	at soot.SootMethod.retrieveActiveBody(SootMethod.java:385)
+	at soot.PackManager$3.run(PackManager.java:1244)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: This operation requires resolving level SIGNATURES but java.security.SecureClassLoader is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(java.security.SecureClassLoader,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+	at soot.SootClass.checkLevelIgnoreResolving(SootClass.java:186)
+	at soot.SootClass.checkLevel(SootClass.java:166)
+	at soot.SootClass.getMethodUnsafe(SootClass.java:377)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:174)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:153)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:301)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseInstanceInvokeExpr(UnitThrowAnalysis.java:1131)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseVirtualInvokeExpr(UnitThrowAnalysis.java:976)
+	at soot.jimple.internal.AbstractVirtualInvokeExpr.apply(AbstractVirtualInvokeExpr.java:79)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:293)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$UnitSwitch.caseAssignStmt(UnitThrowAnalysis.java:759)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:238)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:277)
+	at soot.toolkits.graph.ExceptionalUnitGraph.buildExceptionDests(ExceptionalUnitGraph.java:347)
+	at soot.toolkits.graph.ExceptionalUnitGraph.initialize(ExceptionalUnitGraph.java:272)
+	at soot.toolkits.graph.ExceptionalUnitGraph.<init>(ExceptionalUnitGraph.java:159)
+	at soot.jimple.toolkits.scalar.UnreachableCodeEliminator.internalTransform(UnreachableCodeEliminator.java:82)
+	at soot.BodyTransformer.transform(BodyTransformer.java:54)
+	at soot.Transform.apply(Transform.java:108)
+	at soot.JimpleBodyPack.applyPhaseOptions(JimpleBodyPack.java:62)
+	at soot.JimpleBodyPack.internalApply(JimpleBodyPack.java:105)
+	at soot.Pack.apply(Pack.java:125)
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1912)
+	... 6 more
+Exception in thread "Thread-1" java.lang.RuntimeException: Failed to apply jb to <soot.asm.backend.ConstantPoolTest: void loadClass()>
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1914)
+	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:126)
+	at soot.SootMethod.retrieveActiveBody(SootMethod.java:385)
+	at soot.PackManager$3.run(PackManager.java:1244)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: This operation requires resolving level SIGNATURES but java.security.SecureClassLoader is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(java.security.SecureClassLoader,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+	at soot.SootClass.checkLevelIgnoreResolving(SootClass.java:186)
+	at soot.SootClass.checkLevel(SootClass.java:166)
+	at soot.SootClass.getMethodUnsafe(SootClass.java:377)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:174)
+	at soot.SootMethodRefImpl.tryResolve(SootMethodRefImpl.java:153)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:301)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseInstanceInvokeExpr(UnitThrowAnalysis.java:1131)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$ValueSwitch.caseVirtualInvokeExpr(UnitThrowAnalysis.java:976)
+	at soot.jimple.internal.AbstractVirtualInvokeExpr.apply(AbstractVirtualInvokeExpr.java:79)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:293)
+	at soot.toolkits.exceptions.UnitThrowAnalysis$UnitSwitch.caseAssignStmt(UnitThrowAnalysis.java:759)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:238)
+	at soot.toolkits.exceptions.UnitThrowAnalysis.mightThrow(UnitThrowAnalysis.java:277)
+	at soot.toolkits.graph.ExceptionalUnitGraph.buildExceptionDests(ExceptionalUnitGraph.java:347)
+	at soot.toolkits.graph.ExceptionalUnitGraph.initialize(ExceptionalUnitGraph.java:272)
+	at soot.toolkits.graph.ExceptionalUnitGraph.<init>(ExceptionalUnitGraph.java:159)
+	at soot.jimple.toolkits.scalar.UnreachableCodeEliminator.internalTransform(UnreachableCodeEliminator.java:82)
+	at soot.BodyTransformer.transform(BodyTransformer.java:54)
+	at soot.Transform.apply(Transform.java:108)
+	at soot.JimpleBodyPack.applyPhaseOptions(JimpleBodyPack.java:62)
+	at soot.JimpleBodyPack.internalApply(JimpleBodyPack.java:105)
+	at soot.Pack.apply(Pack.java:125)
+	at soot.asm.AsmMethodSource.getBody(AsmMethodSource.java:1912)
+	... 6 more
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.052 s - in soot.toolkits.exceptions.MethodThrowableSetTest
+[INFO] Running soot.toolkits.exceptions.ThrowableSetTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 s - in soot.toolkits.exceptions.ThrowableSetTest
+[INFO] Running soot.toolkits.graph.SCCFastTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.228 s - in soot.toolkits.graph.SCCFastTest
+[INFO] Running soot.toolkits.graph.TestDominance
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in soot.toolkits.graph.TestDominance
+[INFO] Running soot.baf.ASMBackendMockingTest
+[ERROR] Tests run: 23, Failures: 23, Errors: 0, Skipped: 0, Time elapsed: 0.918 s <<< FAILURE! - in soot.baf.ASMBackendMockingTest
+[ERROR] testNOPInst on testNOPInst(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.13 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testJSRInst on testJSRInst(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testSwapInst on testSwapInst(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testPop2Inst on testPop2Inst(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2Inst1 on testDup2Inst1(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2Inst2 on testDup2Inst2(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2Inst3 on testDup2Inst3(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2Inst4 on testDup2Inst4(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x1Inst1 on testDup_x1Inst1(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x1Inst2 on testDup_x1Inst2(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x1Inst3 on testDup_x1Inst3(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x1Inst4 on testDup_x1Inst4(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x2Inst1 on testDup_x2Inst1(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x2Inst2 on testDup_x2Inst2(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x2Inst3 on testDup_x2Inst3(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup_x2Inst4 on testDup_x2Inst4(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x1Inst1 on testDup2_x1Inst1(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x1Inst2 on testDup2_x1Inst2(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x1Inst3 on testDup2_x1Inst3(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x2Inst1 on testDup2_x2Inst1(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x2Inst2 on testDup2_x2Inst2(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x2Inst3 on testDup2_x2Inst3(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[ERROR] testDup2_x2Inst4 on testDup2_x2Inst4(soot.baf.ASMBackendMockingTest)(soot.baf.ASMBackendMockingTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.baf.ASMBackendMockingTest.setUp(ASMBackendMockingTest.java:55)
+
+[INFO] Running soot.util.MediumPriorityQueueTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 s - in soot.util.MediumPriorityQueueTest
+[INFO] Running soot.util.BitVector_intersects_Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 s - in soot.util.BitVector_intersects_Test
+[INFO] Running soot.util.SmallPriorityQueueTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 s - in soot.util.SmallPriorityQueueTest
+[INFO] Running soot.util.backend.SootASMClassWriterTest
+[ERROR] Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.314 s <<< FAILURE! - in soot.util.backend.SootASMClassWriterTest
+[ERROR] testGetCommonSuperClassNormal on testGetCommonSuperClassNormal(soot.util.backend.SootASMClassWriterTest)(soot.util.backend.SootASMClassWriterTest)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.util.backend.SootASMClassWriterTest.setUp(SootASMClassWriterTest.java:40)
+
+[ERROR] testGetCommonSuperClassTransitive on testGetCommonSuperClassTransitive(soot.util.backend.SootASMClassWriterTest)(soot.util.backend.SootASMClassWriterTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.util.backend.SootASMClassWriterTest.setUp(SootASMClassWriterTest.java:40)
+
+[ERROR] testGetCommonSuperClassPhantomClass on testGetCommonSuperClassPhantomClass(soot.util.backend.SootASMClassWriterTest)(soot.util.backend.SootASMClassWriterTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.util.backend.SootASMClassWriterTest.setUp(SootASMClassWriterTest.java:40)
+
+[ERROR] testGetCommonSuperClassTransitivePhantomClass on testGetCommonSuperClassTransitivePhantomClass(soot.util.backend.SootASMClassWriterTest)(soot.util.backend.SootASMClassWriterTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.mockito.mock.MockCreationSettings.isUsingConstructor()Z
+	at soot.util.backend.SootASMClassWriterTest.setUp(SootASMClassWriterTest.java:40)
+
+[INFO] Running soot.util.queue.ChunkedQueueTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 s - in soot.util.queue.ChunkedQueueTest
+[INFO] Running soot.jimple.MethodHandleTest
+Command Line: [-asm-backend, -pp, -cp, /tmp/1566294528639-0, -O, HelloMethodHandles]
+Invalid option -asm-backend
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.279 s - in soot.jimple.MethodHandleTest
+[INFO] Running soot.jimple.toolkit.callgraph.TypeBasedReflectionModelTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.513 s - in soot.jimple.toolkit.callgraph.TypeBasedReflectionModelTest
+[INFO] Running soot.asm.backend.OuterClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:51 SGT 2019
+Soot finished on Tue Aug 20 17:48:51 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.645 s - in soot.asm.backend.OuterClassTest
+[INFO] Running soot.asm.backend.InterfaceTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:52 SGT 2019
+Soot finished on Tue Aug 20 17:48:52 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Comparable.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Comparable.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 s - in soot.asm.backend.InterfaceTest
+[INFO] Running soot.asm.backend.ExceptionTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:53 SGT 2019
+Soot finished on Tue Aug 20 17:48:53 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExceptionMethods.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExceptionMethods.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.529 s - in soot.asm.backend.ExceptionTest
+[INFO] Running soot.asm.backend.StoresTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:54 SGT 2019
+Soot finished on Tue Aug 20 17:48:55 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Stores.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Stores.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.699 s - in soot.asm.backend.StoresTest
+[INFO] Running soot.asm.backend.NullTypesTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:55 SGT 2019
+Soot finished on Tue Aug 20 17:48:56 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.nullTypes.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.nullTypes.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.623 s - in soot.asm.backend.NullTypesTest
+[INFO] Running soot.asm.backend.AbstractASMBackendTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in soot.asm.backend.AbstractASMBackendTest
+[INFO] Running soot.asm.backend.ModifiersTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:57 SGT 2019
+Soot finished on Tue Aug 20 17:48:57 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Modifiers.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Modifiers.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.636 s - in soot.asm.backend.ModifiersTest
+[INFO] Running soot.asm.backend.ArithmeticTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:58 SGT 2019
+Soot finished on Tue Aug 20 17:48:59 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ArithmeticLib.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ArithmeticLib.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.693 s - in soot.asm.backend.ArithmeticTest
+[INFO] Running soot.asm.backend.AnnotatedClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:48:59 SGT 2019
+Soot finished on Tue Aug 20 17:49:00 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedClass.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedClass.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.622 s - in soot.asm.backend.AnnotatedClassTest
+[INFO] Running soot.asm.backend.CompareArithmeticInstructionsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:01 SGT 2019
+Soot finished on Tue Aug 20 17:49:01 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstuctions.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstuctions.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.677 s - in soot.asm.backend.CompareArithmeticInstructionsTest
+[INFO] Running soot.asm.backend.ExtendedArithmeticLibTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:02 SGT 2019
+Soot finished on Tue Aug 20 17:49:02 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExtendedArithmeticLib.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ExtendedArithmeticLib.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in soot.asm.backend.ExtendedArithmeticLibTest
+[INFO] Running soot.asm.backend.MinimalJavaVersionTest
+Soot started on Tue Aug 20 17:49:03 SGT 2019
+[Thread-3] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: Enforced Java version 1.3 too low to support required features (1.5 required)
+java.lang.IllegalArgumentException: Enforced Java version 1.3 too low to support required features (1.5 required)
+	at soot.AbstractASMBackend.<init>(AbstractASMBackend.java:91)
+	at soot.baf.BafASMBackend.<init>(BafASMBackend.java:100)
+	at soot.PackManager.writeClass(PackManager.java:1166)
+	at soot.PackManager$2.run(PackManager.java:693)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Exception in thread "Thread-3" java.lang.IllegalArgumentException: Enforced Java version 1.3 too low to support required features (1.5 required)
+	at soot.AbstractASMBackend.<init>(AbstractASMBackend.java:91)
+	at soot.baf.BafASMBackend.<init>(BafASMBackend.java:100)
+	at soot.PackManager.writeClass(PackManager.java:1166)
+	at soot.PackManager$2.run(PackManager.java:693)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Soot started on Tue Aug 20 17:49:03 SGT 2019
+Soot finished on Tue Aug 20 17:49:03 SGT 2019
+Soot has run for 0 min. 0 sec.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.776 s - in soot.asm.backend.MinimalJavaVersionTest
+[INFO] Running soot.asm.backend.LogicalOperationsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:04 SGT 2019
+Soot finished on Tue Aug 20 17:49:04 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.LogicalOperations.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.LogicalOperations.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.715 s - in soot.asm.backend.LogicalOperationsTest
+[INFO] Running soot.asm.backend.ControlStructuresTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:05 SGT 2019
+Soot finished on Tue Aug 20 17:49:06 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ControlStructures.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ControlStructures.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.668 s - in soot.asm.backend.ControlStructuresTest
+[INFO] Running soot.asm.backend.ConstantPoolTest
+Invalid option -asm-backend
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:06 SGT 2019
+Soot finished on Tue Aug 20 17:49:07 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ConstantPool.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.ConstantPool.asm...
+File comparison successful.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.662 s - in soot.asm.backend.ConstantPoolTest
+[INFO] Running soot.asm.backend.CompareArithmeticInstructions2Test
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:07 SGT 2019
+Soot finished on Tue Aug 20 17:49:08 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstructions2.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareArithmeticInstructions2.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 s - in soot.asm.backend.CompareArithmeticInstructions2Test
+[INFO] Running soot.asm.backend.ArraysTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:09 SGT 2019
+Soot finished on Tue Aug 20 17:49:09 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Arrays.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Arrays.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.713 s - in soot.asm.backend.ArraysTest
+[INFO] Running soot.asm.backend.AnnotatedParameterTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:10 SGT 2019
+Soot finished on Tue Aug 20 17:49:10 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedParameter.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedParameter.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.632 s - in soot.asm.backend.AnnotatedParameterTest
+[INFO] Running soot.asm.backend.MethodExampleTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:11 SGT 2019
+Soot finished on Tue Aug 20 17:49:11 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Bean.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Bean.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.659 s - in soot.asm.backend.MethodExampleTest
+[INFO] Running soot.asm.backend.InnerClass2Test
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:12 SGT 2019
+Soot finished on Tue Aug 20 17:49:12 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$1.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$1.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.677 s - in soot.asm.backend.InnerClass2Test
+[INFO] Running soot.asm.backend.DupsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:13 SGT 2019
+Soot finished on Tue Aug 20 17:49:14 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Dups.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Dups.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.624 s - in soot.asm.backend.DupsTest
+[INFO] Running soot.asm.backend.InstanceOfCastsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:14 SGT 2019
+Soot finished on Tue Aug 20 17:49:15 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InstanceOfCasts.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InstanceOfCasts.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.657 s - in soot.asm.backend.InstanceOfCastsTest
+[INFO] Running soot.asm.backend.CompareInstructionsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:15 SGT 2019
+Soot finished on Tue Aug 20 17:49:16 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareInstructions.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.CompareInstructions.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.706 s - in soot.asm.backend.CompareInstructionsTest
+[INFO] Running soot.asm.backend.LineNumbersTest
+Soot started on Tue Aug 20 17:49:17 SGT 2019
+Soot finished on Tue Aug 20 17:49:17 SGT 2019
+Soot has run for 0 min. 0 sec.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.679 s - in soot.asm.backend.LineNumbersTest
+[INFO] Running soot.asm.backend.ReturnsTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:18 SGT 2019
+Soot finished on Tue Aug 20 17:49:18 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Returns.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Returns.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.655 s - in soot.asm.backend.ReturnsTest
+[INFO] Running soot.asm.backend.TryCatchTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:19 SGT 2019
+Soot finished on Tue Aug 20 17:49:19 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.TryCatch.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.TryCatch.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.65 s - in soot.asm.backend.TryCatchTest
+[INFO] Running soot.asm.backend.AnnotatedFieldTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:20 SGT 2019
+Soot finished on Tue Aug 20 17:49:20 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedField.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedField.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 s - in soot.asm.backend.AnnotatedFieldTest
+[INFO] Running soot.asm.backend.AnnotatedAnnotationTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:21 SGT 2019
+Soot finished on Tue Aug 20 17:49:21 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyAnnotatedAnnotation.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyAnnotatedAnnotation.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.546 s - in soot.asm.backend.AnnotatedAnnotationTest
+[INFO] Running soot.asm.backend.InnerClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:22 SGT 2019
+Soot finished on Tue Aug 20 17:49:23 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$Inner.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.InnerClass$Inner.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.626 s - in soot.asm.backend.InnerClassTest
+[INFO] Running soot.asm.backend.MonitorTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:23 SGT 2019
+Soot finished on Tue Aug 20 17:49:24 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Monitor.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.Monitor.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.666 s - in soot.asm.backend.MonitorTest
+[INFO] Running soot.asm.backend.AnnotatedMethodTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:24 SGT 2019
+Soot finished on Tue Aug 20 17:49:25 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedMethod.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedMethod.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.637 s - in soot.asm.backend.AnnotatedMethodTest
+[INFO] Running soot.asm.backend.AnnotationTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:25 SGT 2019
+Soot finished on Tue Aug 20 17:49:26 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyTestAnnotation.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyTestAnnotation.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.549 s - in soot.asm.backend.AnnotationTest
+[INFO] Running soot.asm.backend.EnumTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:26 SGT 2019
+Soot finished on Tue Aug 20 17:49:27 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyEnum.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.MyEnum.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.758 s - in soot.asm.backend.EnumTest
+[INFO] Running soot.asm.backend.AnnotatedAnnotatedClassTest
+Class path: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/./target/test-classes:/home/cgzhu/opt/jdk1.8.0_151/jre/lib/rt.jar
+Soot started on Tue Aug 20 17:49:28 SGT 2019
+Soot finished on Tue Aug 20 17:49:28 SGT 2019
+Soot has run for 0 min. 0 sec.
+Comparing files /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedAnnotatedClass.asm.compare and /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/sootOutput/soot.asm.backend.targets.AnnotatedAnnotatedClass.asm...
+File comparison successful.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.65 s - in soot.asm.backend.AnnotatedAnnotatedClassTest
+[INFO] Running soot.RefTypeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.544 s - in soot.RefTypeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   ASMBackendMockingTest.setUp:55 » NoSuchMethod org.mockito.mock.MockCreationSet...
+[ERROR]   SootASMClassWriterTest.setUp:40 » NoSuchMethod org.mockito.mock.MockCreationSe...
+[ERROR]   SootASMClassWriterTest.setUp:40 » NoSuchMethod org.mockito.mock.MockCreationSe...
+[ERROR]   SootASMClassWriterTest.setUp:40 » NoSuchMethod org.mockito.mock.MockCreationSe...
+[ERROR]   SootASMClassWriterTest.setUp:40 » NoSuchMethod org.mockito.mock.MockCreationSe...
+[INFO] 
+[ERROR] Tests run: 205, Failures: 27, Errors: 0, Skipped: 8
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:35 min
+[INFO] Finished at: 2019-08-20T17:49:30+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.20.1:test (default-test) on project soot: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/soot/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

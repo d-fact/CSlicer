@@ -1,0 +1,28 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/Mybatis-PageHelper/org.mybatis=mybatis/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/Mybatis-PageHelper/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/Mybatis-PageHelper/org.mybatis=mybatis/mybatis-3.4.4.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.github.pagehelper.PageRowBounds_ESTestJUnit version 4.12
+18:07:57.515 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageRowBounds_ESTest
+18:07:57.517 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageRowBounds_ESTest'.
+18:07:57.572 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageRowBounds_ESTest_scaffolding
+18:07:57.572 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageRowBounds_ESTest_scaffolding'.
+18:07:57.574 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageRowBounds_ESTest_scaffolding
+18:07:57.574 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageRowBounds_ESTest
+18:07:57.651 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:07:57.651 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:07:57.651 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:07:57.651 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:07:57.651 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:07:57.673 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.github.pagehelper.PageRowBounds
+18:07:57.673 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.github.pagehelper.PageRowBounds'.
+18:07:57.679 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/github/pagehelper/PageRowBounds
+18:07:57.769 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/github/pagehelper/PageRowBounds
+18:07:57.769 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.ibatis.session.RowBounds
+18:07:57.769 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.ibatis.session.RowBounds'.
+18:07:57.770 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/ibatis/session/RowBounds
+18:07:57.771 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/ibatis/session/RowBounds
+18:07:57.772 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.ibatis.session, -921960716
+18:07:57.772 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.ibatis.session.RowBounds
+18:07:57.772 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.github.pagehelper.PageRowBounds
+.......
+Time: 0.192
+
+OK (7 tests)
+

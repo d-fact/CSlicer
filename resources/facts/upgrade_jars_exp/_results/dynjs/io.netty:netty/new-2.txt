@@ -1,0 +1,116 @@
+[VERSION]: 4.0.0.Alpha8
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.dynjs:dynjs >---------------------------
+[INFO] Building dynjs 0.3.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ dynjs ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ dynjs ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.headius:invokebinder:jar:1.2:compile
+[INFO]    org.objenesis:objenesis:jar:1.0:test
+[INFO]    org.easytesting:fest-util:jar:1.1.6:test
+[INFO]    com.github.jnr:jnr-constants:jar:0.8.5:compile
+[INFO]    org.ow2.asm:asm-tree:jar:4.0:compile
+[INFO]    com.github.jnr:jnr-posix:jar:3.0.1:compile
+[INFO]    org.mockito:mockito-core:jar:1.8.5:test
+[INFO]    com.github.jnr:jffi:jar:native:1.2.7:runtime
+[INFO]    com.google.guava:guava:jar:14.0.1:compile
+[INFO]    me.qmx.jitescript:jitescript:jar:0.4.0:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:4.0:compile
+[INFO]    org.ow2.asm:asm-util:jar:4.0:compile
+[INFO]    io.netty:netty:jar:4.0.0.Alpha8:test
+[INFO]    args4j:args4j:jar:2.0.26:compile
+[INFO]    org.jboss.aesh:aesh:jar:0.56:compile
+[INFO]    org.fusesource.jansi:jansi:jar:1.11:compile
+[INFO]    com.github.akiellor.jasmine:jasmine-cli:jar:0.0.12:test
+[INFO]    org.ow2.asm:asm-commons:jar:4.0:compile
+[INFO]    org.jruby.joni:joni:jar:2.1.4:compile
+[INFO]    com.github.jnr:jnr-ffi:jar:1.0.7:compile
+[INFO]    junit:junit:jar:4.8.2:test
+[INFO]    com.github.akiellor.jasmine:jasmine-core:jar:0.0.12:test
+[INFO]    org.ow2.asm:asm:jar:4.0:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.9.9:compile
+[INFO]    org.projectodd.rephract:rephract:jar:2.0.1:compile
+[INFO]    org.jruby:dirgra:jar:0.1:compile
+[INFO]    com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+[INFO]    com.headius:options:jar:1.0:compile
+[INFO]    org.jruby.jcodings:jcodings:jar:1.0.8:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    com.github.jnr:jffi:jar:1.2.7:compile
+[INFO]    org.easytesting:fest-assert:jar:1.4:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-maven) @ dynjs ---
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.9:revision (default) @ dynjs ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-resource (default) @ dynjs ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dynjs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ dynjs ---
+[INFO] Compiling 537 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/classes
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (unzip native) @ dynjs ---
+[INFO] jitescript-0.4.0.jar already exists in destination.
+[INFO] invokebinder-1.2.jar already exists in destination.
+[INFO] asm-analysis-4.0.jar already exists in destination.
+[INFO] asm-util-4.0.jar already exists in destination.
+[INFO] args4j-2.0.26.jar already exists in destination.
+[INFO] aesh-0.56.jar already exists in destination.
+[INFO] jansi-1.11.jar already exists in destination.
+[INFO] jnr-constants-0.8.5.jar already exists in destination.
+[INFO] asm-commons-4.0.jar already exists in destination.
+[INFO] asm-tree-4.0.jar already exists in destination.
+[INFO] joni-2.1.4.jar already exists in destination.
+[INFO] jnr-posix-3.0.1.jar already exists in destination.
+[INFO] jnr-ffi-1.0.7.jar already exists in destination.
+[INFO] asm-4.0.jar already exists in destination.
+[INFO] jackson-core-asl-1.9.9.jar already exists in destination.
+[INFO] jffi-1.2.7-native.jar already exists in destination.
+[INFO] rephract-2.0.1.jar already exists in destination.
+[INFO] dirgra-0.1.jar already exists in destination.
+[INFO] jnr-x86asm-1.0.2.jar already exists in destination.
+[INFO] options-1.0.jar already exists in destination.
+[INFO] jcodings-1.0.8.jar already exists in destination.
+[INFO] guava-14.0.1.jar already exists in destination.
+[INFO] jffi-1.2.7.jar already exists in destination.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dynjs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ dynjs ---
+[INFO] Compiling 102 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/src/test/java/org/dynjs/runtime/java/JavaIntegrationTest.java:[6,30] error: package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/src/test/java/org/dynjs/runtime/java/JavaIntegrationTest.java:[235,40] error: cannot find symbol
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.633 s
+[INFO] Finished at: 2019-08-15T04:15:36+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project dynjs: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/src/test/java/org/dynjs/runtime/java/JavaIntegrationTest.java:[6,30] error: package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/src/test/java/org/dynjs/runtime/java/JavaIntegrationTest.java:[235,40] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

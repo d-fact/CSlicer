@@ -1,0 +1,83 @@
+[VERSION]: 2.1.11
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for de.ruedigermoeller:fst:bundle:2.56
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.cedarsoftware:java-util:jar -> version 1.4.0 vs 1.9.0 @ line 205, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 93, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 77, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< de.ruedigermoeller:fst >-----------------------
+[INFO] Building fst 2.56
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fst ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ fst ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.2:test
+[INFO]    javax.json:javax.json-api:jar:1.0:test
+[INFO]    commons-logging:commons-logging:jar:1.1.1:test
+[INFO]    com.cedarsoftware:java-util:jar:1.9.0:test
+[INFO]    junit:junit:jar:4.8.1:test
+[INFO]    org.glassfish:javax.json:jar:1.0.4:test
+[INFO]    com.cedarsoftware:json-io:jar:2.5.1:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.11:test
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.51:test
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO]    org.openjdk.jmh:jmh-core:jar:1.8:test
+[INFO]    org.objenesis:objenesis:jar:2.5.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ fst ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ fst ---
+[INFO] Compiling 141 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[18,15] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[19,17] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[23,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[22,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[18,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[19,18] ReflectionFactory is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[34,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[34,12] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[59,23] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[69,63] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[81,11] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[125,24] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[37,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[41,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[208,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[212,22] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[214,20] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[107,16] ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ fst ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M3:test (default-test) @ fst ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.329 s
+[INFO] Finished at: 2019-08-20T17:21:19+08:00
+[INFO] ------------------------------------------------------------------------

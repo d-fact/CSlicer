@@ -1,0 +1,231 @@
+[VERSION]: 1.21
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for de.ruedigermoeller:fst:bundle:2.56
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.cedarsoftware:java-util:jar -> version 1.4.0 vs 1.9.0 @ line 205, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 93, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 77, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< de.ruedigermoeller:fst >-----------------------
+[INFO] Building fst 2.56
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.pom
+Progress (1): 2.2/9.4 kB
+Progress (1): 5.0/9.4 kB
+Progress (1): 7.8/9.4 kB
+Progress (1): 9.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.pom (9.4 kB at 8.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.21/jmh-parent-1.21.pom
+Progress (1): 2.2/11 kB
+Progress (1): 5.0/11 kB
+Progress (1): 7.8/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.21/jmh-parent-1.21.pom (11 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar
+Progress (1): 2.2/513 kB
+Progress (1): 5.0/513 kB
+Progress (1): 7.7/513 kB
+Progress (1): 10/513 kB 
+Progress (1): 13/513 kB
+Progress (1): 16/513 kB
+Progress (1): 19/513 kB
+Progress (1): 21/513 kB
+Progress (1): 24/513 kB
+Progress (1): 27/513 kB
+Progress (1): 30/513 kB
+Progress (1): 32/513 kB
+Progress (1): 36/513 kB
+Progress (1): 40/513 kB
+Progress (1): 45/513 kB
+Progress (1): 49/513 kB
+Progress (1): 53/513 kB
+Progress (1): 57/513 kB
+Progress (1): 61/513 kB
+Progress (1): 65/513 kB
+Progress (1): 69/513 kB
+Progress (1): 73/513 kB
+Progress (1): 77/513 kB
+Progress (1): 81/513 kB
+Progress (1): 85/513 kB
+Progress (1): 90/513 kB
+Progress (1): 94/513 kB
+Progress (1): 98/513 kB
+Progress (1): 102/513 kB
+Progress (1): 106/513 kB
+Progress (1): 110/513 kB
+Progress (1): 114/513 kB
+Progress (1): 118/513 kB
+Progress (1): 122/513 kB
+Progress (1): 126/513 kB
+Progress (1): 131/513 kB
+Progress (1): 135/513 kB
+Progress (1): 139/513 kB
+Progress (1): 143/513 kB
+Progress (1): 147/513 kB
+Progress (1): 151/513 kB
+Progress (1): 155/513 kB
+Progress (1): 159/513 kB
+Progress (1): 163/513 kB
+Progress (1): 167/513 kB
+Progress (1): 171/513 kB
+Progress (1): 176/513 kB
+Progress (1): 180/513 kB
+Progress (1): 184/513 kB
+Progress (1): 188/513 kB
+Progress (1): 192/513 kB
+Progress (1): 196/513 kB
+Progress (1): 200/513 kB
+Progress (1): 204/513 kB
+Progress (1): 208/513 kB
+Progress (1): 212/513 kB
+Progress (1): 217/513 kB
+Progress (1): 221/513 kB
+Progress (1): 225/513 kB
+Progress (1): 229/513 kB
+Progress (1): 233/513 kB
+Progress (1): 237/513 kB
+Progress (1): 241/513 kB
+Progress (1): 245/513 kB
+Progress (1): 249/513 kB
+Progress (1): 253/513 kB
+Progress (1): 258/513 kB
+Progress (1): 262/513 kB
+Progress (1): 266/513 kB
+Progress (1): 270/513 kB
+Progress (1): 274/513 kB
+Progress (1): 278/513 kB
+Progress (1): 282/513 kB
+Progress (1): 286/513 kB
+Progress (1): 290/513 kB
+Progress (1): 294/513 kB
+Progress (1): 298/513 kB
+Progress (1): 303/513 kB
+Progress (1): 307/513 kB
+Progress (1): 311/513 kB
+Progress (1): 315/513 kB
+Progress (1): 319/513 kB
+Progress (1): 323/513 kB
+Progress (1): 327/513 kB
+Progress (1): 331/513 kB
+Progress (1): 335/513 kB
+Progress (1): 339/513 kB
+Progress (1): 344/513 kB
+Progress (1): 348/513 kB
+Progress (1): 352/513 kB
+Progress (1): 356/513 kB
+Progress (1): 360/513 kB
+Progress (1): 364/513 kB
+Progress (1): 368/513 kB
+Progress (1): 372/513 kB
+Progress (1): 376/513 kB
+Progress (1): 380/513 kB
+Progress (1): 384/513 kB
+Progress (1): 389/513 kB
+Progress (1): 393/513 kB
+Progress (1): 397/513 kB
+Progress (1): 401/513 kB
+Progress (1): 405/513 kB
+Progress (1): 409/513 kB
+Progress (1): 413/513 kB
+Progress (1): 417/513 kB
+Progress (1): 421/513 kB
+Progress (1): 425/513 kB
+Progress (1): 430/513 kB
+Progress (1): 434/513 kB
+Progress (1): 438/513 kB
+Progress (1): 442/513 kB
+Progress (1): 446/513 kB
+Progress (1): 450/513 kB
+Progress (1): 454/513 kB
+Progress (1): 458/513 kB
+Progress (1): 462/513 kB
+Progress (1): 466/513 kB
+Progress (1): 470/513 kB
+Progress (1): 475/513 kB
+Progress (1): 479/513 kB
+Progress (1): 483/513 kB
+Progress (1): 487/513 kB
+Progress (1): 491/513 kB
+Progress (1): 495/513 kB
+Progress (1): 499/513 kB
+Progress (1): 503/513 kB
+Progress (1): 507/513 kB
+Progress (1): 511/513 kB
+Progress (1): 513 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar (513 kB at 435 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fst ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ fst ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.2:test
+[INFO]    javax.json:javax.json-api:jar:1.0:test
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.4:test
+[INFO]    commons-logging:commons-logging:jar:1.1.1:test
+[INFO]    com.cedarsoftware:java-util:jar:1.9.0:test
+[INFO]    org.openjdk.jmh:jmh-core:jar:1.21:test
+[INFO]    junit:junit:jar:4.8.1:test
+[INFO]    org.glassfish:javax.json:jar:1.0.4:test
+[INFO]    com.cedarsoftware:json-io:jar:2.5.1:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.51:test
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO]    org.objenesis:objenesis:jar:2.5.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ fst ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ fst ---
+[INFO] Compiling 141 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[18,15] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[19,17] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[23,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[22,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[18,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[19,18] ReflectionFactory is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[34,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[34,12] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[59,23] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[69,63] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[81,11] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[125,24] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[37,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[41,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[208,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[212,22] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[214,20] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[107,16] ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ fst ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M3:test (default-test) @ fst ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.530 s
+[INFO] Finished at: 2019-08-20T17:22:01+08:00
+[INFO] ------------------------------------------------------------------------

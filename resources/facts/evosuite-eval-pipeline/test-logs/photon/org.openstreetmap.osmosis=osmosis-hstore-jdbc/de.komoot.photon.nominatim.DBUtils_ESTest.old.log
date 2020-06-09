@@ -1,0 +1,17 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/photon/org.openstreetmap.osmosis=osmosis-hstore-jdbc/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/photon/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/photon/org.openstreetmap.osmosis=osmosis-hstore-jdbc/osmosis-hstore-jdbc-0.43.1.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore de.komoot.photon.nominatim.DBUtils_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/log4j-slf4j-impl-2.8.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2019-08-20 18:18:22,625 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.Build: null
+2019-08-20 18:18:22,694 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.logging.DeprecationLogger: Could not initialize class org.elasticsearch.Build
+2019-08-20 18:18:22,897 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.routing.AllocationId: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-08-20 18:18:22,941 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.Index: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 18:18:23,457 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.ClusterState: Could not initialize class org.elasticsearch.common.ParseField
+2019-08-20 18:18:23,458 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.ParseField: Could not initialize class org.elasticsearch.common.ParseField
+...
+Time: 1.607
+
+OK (3 tests)
+

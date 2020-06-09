@@ -1,0 +1,86 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/ebean/org.slf4j=slf4j-api/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/ebean/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/ebean/org.slf4j=slf4j-api/slf4j-api-1.7.25.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+02:03:29.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTest
+02:03:29.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTest'.
+02:03:29.713 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTest_scaffolding
+02:03:29.713 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTest_scaffolding'.
+02:03:29.715 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTest_scaffolding
+02:03:29.716 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeMapping_ESTest
+02:03:29.791 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+02:03:29.791 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+02:03:29.791 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+02:03:29.791 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+02:03:29.791 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+02:03:29.813 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.PropertiesWrapper
+02:03:29.813 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.PropertiesWrapper'.
+02:03:29.819 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/PropertiesWrapper
+02:03:29.908 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/PropertiesWrapper
+02:03:29.908 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.config, 278788483
+02:03:29.909 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.PropertiesWrapper
+02:03:29.909 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.PlatformConfig$DbUuid
+02:03:29.909 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.PlatformConfig$DbUuid'.
+02:03:29.909 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/PlatformConfig$DbUuid
+02:03:29.910 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/PlatformConfig$DbUuid
+02:03:29.911 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.PlatformConfig$DbUuid
+02:03:29.912 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeLookup
+02:03:29.912 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeLookup'.
+02:03:29.912 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbPlatformTypeLookup
+02:03:29.913 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/DbPlatformTypeLookup
+02:03:29.913 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeLookup
+02:03:29.913 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbType
+02:03:29.913 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbType'.
+02:03:29.914 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbType
+02:03:29.914 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/dbplatform/DbType
+02:03:29.915 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbType
+02:03:29.916 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.PlatformConfig
+02:03:29.916 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.PlatformConfig'.
+02:03:29.916 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/PlatformConfig
+02:03:29.918 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/PlatformConfig
+02:03:29.918 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.PlatformConfig
+02:03:29.918 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.IdType
+02:03:29.918 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.IdType'.
+02:03:29.918 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/IdType
+02:03:29.919 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/dbplatform/IdType
+02:03:29.919 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.IdType
+02:03:29.919 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeMapping$BooleanLogicalType
+02:03:29.919 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeMapping$BooleanLogicalType'.
+02:03:29.919 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbPlatformTypeMapping$BooleanLogicalType
+02:03:29.920 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/DbPlatformTypeMapping$BooleanLogicalType
+02:03:29.920 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformType
+02:03:29.920 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformType'.
+02:03:29.920 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbPlatformType
+02:03:29.922 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/DbPlatformType
+02:03:29.922 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.ExtraDbTypes
+02:03:29.922 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.ExtraDbTypes'.
+02:03:29.922 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.ExtraDbTypes
+02:03:29.922 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformType
+02:03:29.922 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeMapping$BooleanLogicalType
+02:03:29.923 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeMapping
+02:03:29.923 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeMapping'.
+02:03:29.924 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbPlatformTypeMapping
+02:03:29.927 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/dbplatform/DbPlatformTypeMapping
+02:03:29.928 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeMapping
+02:03:29.929 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeMapping$1
+02:03:29.929 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeMapping$1'.
+02:03:29.929 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbPlatformTypeMapping$1
+02:03:29.929 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeMapping$1
+02:03:29.930 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.annotation.Platform
+02:03:29.930 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.annotation.Platform'.
+02:03:29.930 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/annotation/Platform
+02:03:29.931 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/annotation/Platform
+02:03:29.931 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.annotation, -1474864912
+02:03:29.931 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.annotation.Platform
+02:03:29.931 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbPlatformTypeParser
+02:03:29.931 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbPlatformTypeParser'.
+02:03:29.932 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbPlatformTypeParser
+02:03:29.932 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/DbPlatformTypeParser
+02:03:29.932 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbPlatformTypeParser
+......................
+Time: 0.245
+
+OK (22 tests)
+

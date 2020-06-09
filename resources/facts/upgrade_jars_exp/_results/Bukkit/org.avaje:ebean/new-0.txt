@@ -1,0 +1,615 @@
+[VERSION]: 2.8.1
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bukkit:bukkit:jar:1.7.9-R0.2
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 69, column 32
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< org.bukkit:bukkit >--------------------------
+[INFO] Building Bukkit 1.7.9-R0.2
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+Progress (1): 2.2/17 kB
+Progress (1): 5.0/17 kB
+Progress (1): 7.8/17 kB
+Progress (1): 11/17 kB 
+Progress (1): 13/17 kB
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.8.1/ebean-2.8.1.pom (17 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.8.1/ebean-2.8.1.jar
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.1/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.2/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.3/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.4/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.5/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.6/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.7/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.8/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 0.9/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.0/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.1/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.2/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.3/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.4/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.5/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.6/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.7/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.8/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9/1.9 MB
+Progress (1): 1.9 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.8.1/ebean-2.8.1.jar (1.9 MB at 993 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bukkit ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ bukkit ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    commons-lang:commons-lang:jar:2.3:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    com.google.guava:guava:jar:10.0.1:compile
+[INFO]    org.yaml:snakeyaml:jar:1.9:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO]    org.avaje:ebean:jar:2.8.1:compile
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    javax.persistence:persistence-api:jar:1.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ bukkit ---
+[INFO] Compiling 641 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ bukkit ---
+[INFO] Compiling 47 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bukkit ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.plugin.PluginManagerTest
+Aug 20, 2019 4:11:46 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.037 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.potion.PotionTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 432, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.898 s
+[INFO] Finished at: 2019-08-20T16:11:47+08:00
+[INFO] ------------------------------------------------------------------------

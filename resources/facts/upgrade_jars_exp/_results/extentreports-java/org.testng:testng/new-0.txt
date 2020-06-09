@@ -1,0 +1,333 @@
+[VERSION]: 7.0.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.aventstack:extentreports >--------------------
+[INFO] Building ExtentAPI Community Version 3.1.5
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.0.0/testng-7.0.0.pom
+Progress (1): 2.2/3.4 kB
+Progress (1): 3.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.0.0/testng-7.0.0.pom (3.4 kB at 3.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.pom (1.2 kB at 3.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.0.0/testng-7.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.jar
+Progress (1): 2.2/941 kB
+Progress (1): 5.0/941 kB
+Progress (1): 7.7/941 kB
+Progress (1): 10/941 kB 
+Progress (1): 13/941 kB
+Progress (1): 16/941 kB
+Progress (1): 19/941 kB
+Progress (1): 21/941 kB
+Progress (1): 24/941 kB
+Progress (1): 27/941 kB
+Progress (1): 30/941 kB
+Progress (1): 32/941 kB
+Progress (1): 36/941 kB
+Progress (1): 40/941 kB
+Progress (1): 45/941 kB
+Progress (1): 49/941 kB
+Progress (1): 53/941 kB
+Progress (1): 57/941 kB
+Progress (1): 61/941 kB
+Progress (1): 65/941 kB
+Progress (1): 69/941 kB
+Progress (1): 73/941 kB
+Progress (1): 77/941 kB
+Progress (1): 81/941 kB
+Progress (1): 85/941 kB
+Progress (1): 90/941 kB
+Progress (1): 94/941 kB
+Progress (1): 98/941 kB
+Progress (2): 98/941 kB | 2.2/69 kB
+Progress (2): 98/941 kB | 5.0/69 kB
+Progress (2): 98/941 kB | 7.7/69 kB
+Progress (2): 98/941 kB | 10/69 kB 
+Progress (2): 98/941 kB | 13/69 kB
+Progress (2): 102/941 kB | 13/69 kB
+Progress (2): 106/941 kB | 13/69 kB
+Progress (2): 110/941 kB | 13/69 kB
+Progress (2): 114/941 kB | 13/69 kB
+Progress (2): 118/941 kB | 13/69 kB
+Progress (2): 122/941 kB | 13/69 kB
+Progress (2): 126/941 kB | 13/69 kB
+Progress (2): 131/941 kB | 13/69 kB
+Progress (2): 135/941 kB | 13/69 kB
+Progress (2): 139/941 kB | 13/69 kB
+Progress (2): 143/941 kB | 13/69 kB
+Progress (2): 147/941 kB | 13/69 kB
+Progress (2): 151/941 kB | 13/69 kB
+Progress (2): 155/941 kB | 13/69 kB
+Progress (2): 159/941 kB | 13/69 kB
+Progress (2): 163/941 kB | 13/69 kB
+Progress (2): 167/941 kB | 13/69 kB
+Progress (2): 171/941 kB | 13/69 kB
+Progress (2): 176/941 kB | 13/69 kB
+Progress (2): 180/941 kB | 13/69 kB
+Progress (2): 184/941 kB | 13/69 kB
+Progress (2): 188/941 kB | 13/69 kB
+Progress (2): 192/941 kB | 13/69 kB
+Progress (2): 196/941 kB | 13/69 kB
+Progress (2): 196/941 kB | 16/69 kB
+Progress (2): 196/941 kB | 19/69 kB
+Progress (2): 196/941 kB | 21/69 kB
+Progress (2): 196/941 kB | 24/69 kB
+Progress (2): 196/941 kB | 27/69 kB
+Progress (2): 196/941 kB | 30/69 kB
+Progress (2): 196/941 kB | 32/69 kB
+Progress (2): 200/941 kB | 32/69 kB
+Progress (2): 204/941 kB | 32/69 kB
+Progress (2): 208/941 kB | 32/69 kB
+Progress (2): 212/941 kB | 32/69 kB
+Progress (2): 217/941 kB | 32/69 kB
+Progress (2): 221/941 kB | 32/69 kB
+Progress (2): 225/941 kB | 32/69 kB
+Progress (2): 229/941 kB | 32/69 kB
+Progress (2): 233/941 kB | 32/69 kB
+Progress (2): 237/941 kB | 32/69 kB
+Progress (2): 241/941 kB | 32/69 kB
+Progress (2): 245/941 kB | 32/69 kB
+Progress (2): 249/941 kB | 32/69 kB
+Progress (2): 253/941 kB | 32/69 kB
+Progress (2): 258/941 kB | 32/69 kB
+Progress (2): 262/941 kB | 32/69 kB
+Progress (2): 266/941 kB | 32/69 kB
+Progress (2): 270/941 kB | 32/69 kB
+Progress (2): 274/941 kB | 32/69 kB
+Progress (2): 278/941 kB | 32/69 kB
+Progress (2): 282/941 kB | 32/69 kB
+Progress (2): 286/941 kB | 32/69 kB
+Progress (2): 290/941 kB | 32/69 kB
+Progress (2): 294/941 kB | 32/69 kB
+Progress (2): 298/941 kB | 32/69 kB
+Progress (2): 303/941 kB | 32/69 kB
+Progress (2): 307/941 kB | 32/69 kB
+Progress (2): 311/941 kB | 32/69 kB
+Progress (2): 315/941 kB | 32/69 kB
+Progress (2): 319/941 kB | 32/69 kB
+Progress (2): 323/941 kB | 32/69 kB
+Progress (2): 327/941 kB | 32/69 kB
+Progress (2): 331/941 kB | 32/69 kB
+Progress (2): 335/941 kB | 32/69 kB
+Progress (2): 339/941 kB | 32/69 kB
+Progress (2): 344/941 kB | 32/69 kB
+Progress (2): 348/941 kB | 32/69 kB
+Progress (2): 352/941 kB | 32/69 kB
+Progress (2): 356/941 kB | 32/69 kB
+Progress (2): 360/941 kB | 32/69 kB
+Progress (2): 364/941 kB | 32/69 kB
+Progress (2): 368/941 kB | 32/69 kB
+Progress (2): 372/941 kB | 32/69 kB
+Progress (2): 376/941 kB | 32/69 kB
+Progress (2): 376/941 kB | 36/69 kB
+Progress (2): 376/941 kB | 40/69 kB
+Progress (2): 376/941 kB | 45/69 kB
+Progress (2): 376/941 kB | 49/69 kB
+Progress (2): 376/941 kB | 53/69 kB
+Progress (2): 376/941 kB | 57/69 kB
+Progress (2): 376/941 kB | 61/69 kB
+Progress (2): 376/941 kB | 65/69 kB
+Progress (2): 376/941 kB | 69/69 kB
+Progress (2): 376/941 kB | 69 kB   
+Progress (2): 380/941 kB | 69 kB
+Progress (2): 384/941 kB | 69 kB
+Progress (2): 389/941 kB | 69 kB
+Progress (2): 393/941 kB | 69 kB
+Progress (2): 397/941 kB | 69 kB
+Progress (2): 401/941 kB | 69 kB
+Progress (2): 405/941 kB | 69 kB
+Progress (2): 409/941 kB | 69 kB
+Progress (2): 413/941 kB | 69 kB
+Progress (2): 417/941 kB | 69 kB
+Progress (2): 421/941 kB | 69 kB
+Progress (2): 425/941 kB | 69 kB
+Progress (2): 430/941 kB | 69 kB
+Progress (2): 434/941 kB | 69 kB
+Progress (2): 438/941 kB | 69 kB
+Progress (2): 442/941 kB | 69 kB
+Progress (2): 446/941 kB | 69 kB
+Progress (2): 450/941 kB | 69 kB
+Progress (2): 454/941 kB | 69 kB
+Progress (2): 458/941 kB | 69 kB
+Progress (2): 462/941 kB | 69 kB
+Progress (2): 466/941 kB | 69 kB
+Progress (2): 471/941 kB | 69 kB
+Progress (2): 475/941 kB | 69 kB
+Progress (2): 479/941 kB | 69 kB
+Progress (2): 483/941 kB | 69 kB
+Progress (2): 487/941 kB | 69 kB
+Progress (2): 491/941 kB | 69 kB
+Progress (2): 495/941 kB | 69 kB
+Progress (2): 499/941 kB | 69 kB
+Progress (2): 503/941 kB | 69 kB
+Progress (2): 507/941 kB | 69 kB
+Progress (2): 511/941 kB | 69 kB
+Progress (2): 516/941 kB | 69 kB
+Progress (2): 520/941 kB | 69 kB
+Progress (2): 524/941 kB | 69 kB
+Progress (2): 528/941 kB | 69 kB
+Progress (2): 532/941 kB | 69 kB
+Progress (2): 536/941 kB | 69 kB
+Progress (2): 540/941 kB | 69 kB
+Progress (2): 544/941 kB | 69 kB
+Progress (2): 548/941 kB | 69 kB
+Progress (2): 552/941 kB | 69 kB
+Progress (2): 557/941 kB | 69 kB
+Progress (2): 561/941 kB | 69 kB
+Progress (2): 565/941 kB | 69 kB
+Progress (2): 569/941 kB | 69 kB
+Progress (2): 573/941 kB | 69 kB
+Progress (2): 577/941 kB | 69 kB
+Progress (2): 581/941 kB | 69 kB
+Progress (2): 585/941 kB | 69 kB
+Progress (2): 589/941 kB | 69 kB
+Progress (2): 593/941 kB | 69 kB
+Progress (2): 597/941 kB | 69 kB
+Progress (2): 602/941 kB | 69 kB
+Progress (2): 606/941 kB | 69 kB
+Progress (2): 610/941 kB | 69 kB
+Progress (2): 614/941 kB | 69 kB
+Progress (2): 618/941 kB | 69 kB
+Progress (2): 622/941 kB | 69 kB
+Progress (2): 626/941 kB | 69 kB
+Progress (2): 630/941 kB | 69 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.jar (69 kB at 68 kB/s)
+Progress (1): 634/941 kB
+Progress (1): 638/941 kB
+Progress (1): 643/941 kB
+Progress (1): 647/941 kB
+Progress (1): 651/941 kB
+Progress (1): 655/941 kB
+Progress (1): 659/941 kB
+Progress (1): 663/941 kB
+Progress (1): 667/941 kB
+Progress (1): 671/941 kB
+Progress (1): 675/941 kB
+Progress (1): 679/941 kB
+Progress (1): 683/941 kB
+Progress (1): 688/941 kB
+Progress (1): 692/941 kB
+Progress (1): 696/941 kB
+Progress (1): 700/941 kB
+Progress (1): 704/941 kB
+Progress (1): 708/941 kB
+Progress (1): 712/941 kB
+Progress (1): 716/941 kB
+Progress (1): 720/941 kB
+Progress (1): 724/941 kB
+Progress (1): 729/941 kB
+Progress (1): 733/941 kB
+Progress (1): 737/941 kB
+Progress (1): 741/941 kB
+Progress (1): 745/941 kB
+Progress (1): 749/941 kB
+Progress (1): 753/941 kB
+Progress (1): 757/941 kB
+Progress (1): 761/941 kB
+Progress (1): 765/941 kB
+Progress (1): 770/941 kB
+Progress (1): 774/941 kB
+Progress (1): 778/941 kB
+Progress (1): 782/941 kB
+Progress (1): 786/941 kB
+Progress (1): 790/941 kB
+Progress (1): 794/941 kB
+Progress (1): 798/941 kB
+Progress (1): 802/941 kB
+Progress (1): 806/941 kB
+Progress (1): 810/941 kB
+Progress (1): 815/941 kB
+Progress (1): 819/941 kB
+Progress (1): 823/941 kB
+Progress (1): 827/941 kB
+Progress (1): 831/941 kB
+Progress (1): 835/941 kB
+Progress (1): 839/941 kB
+Progress (1): 843/941 kB
+Progress (1): 847/941 kB
+Progress (1): 851/941 kB
+Progress (1): 856/941 kB
+Progress (1): 860/941 kB
+Progress (1): 864/941 kB
+Progress (1): 868/941 kB
+Progress (1): 872/941 kB
+Progress (1): 876/941 kB
+Progress (1): 880/941 kB
+Progress (1): 884/941 kB
+Progress (1): 888/941 kB
+Progress (1): 892/941 kB
+Progress (1): 896/941 kB
+Progress (1): 901/941 kB
+Progress (1): 905/941 kB
+Progress (1): 909/941 kB
+Progress (1): 913/941 kB
+Progress (1): 917/941 kB
+Progress (1): 921/941 kB
+Progress (1): 925/941 kB
+Progress (1): 929/941 kB
+Progress (1): 933/941 kB
+Progress (1): 937/941 kB
+Progress (1): 941 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/7.0.0/testng-7.0.0.jar (941 kB at 707 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ extentreports ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ extentreports ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.testng:testng:jar:7.0.0:test
+[INFO]    org.freemarker:freemarker:jar:2.3.23:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+[INFO]    org.jsoup:jsoup:jar:1.9.2:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.0:compile
+[INFO]    org.mongodb:mongodb-driver:jar:3.3.0:compile
+[INFO]    org.mongodb:mongodb-driver-core:jar:3.3.0:compile
+[INFO]    com.beust:jcommander:jar:1.72:test
+[INFO]    org.mongodb:bson:jar:3.3.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ extentreports ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ extentreports ---
+[INFO] Compiling 92 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ extentreports ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ extentreports ---
+[INFO] Compiling 47 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ extentreports ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@24273305
+Tests run: 157, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.605 sec
+
+Results :
+
+Tests run: 157, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.571 s
+[INFO] Finished at: 2019-08-20T20:15:14+08:00
+[INFO] ------------------------------------------------------------------------

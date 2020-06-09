@@ -1,0 +1,363 @@
+[VERSION]: 2.0.0-alpha0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.sparkjava:spark-core >----------------------
+[INFO] Building Spark 2.7.2
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spark-core ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ spark-core ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:compile
+[INFO]    org.powermock:powermock-api-support:jar:1.6.6:test
+[INFO]    org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.8.v20171121:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile
+[INFO]    org.powermock:powermock-api-mockito:jar:1.6.6:test
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:compile
+[INFO]    org.powermock:powermock-module-junit4:jar:1.6.6:test
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile
+[INFO]    org.mockito:mockito-core:jar:1.10.19:test
+[INFO]    com.google.code.gson:gson:jar:2.4:test
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.8.v20171121:test
+[INFO]    org.powermock:powermock-reflect:jar:1.6.6:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.3:test
+[INFO]    org.slf4j:slf4j-api:jar:2.0.0-alpha0:compile
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:test
+[INFO]    org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.8.v20171121:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+[INFO]    org.freemarker:freemarker:jar:2.3.23:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-codec:commons-codec:jar:1.9:test
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.8.v20171121:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    commons-logging:commons-logging:jar:1.2:test
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.13:test
+[INFO]    org.powermock.tests:powermock-tests-utils:jar:1.6.6:test
+[INFO]    javax.servlet:servlet-api:jar:2.5:test
+[INFO]    org.powermock:powermock-module-junit4-common:jar:1.6.6:test
+[INFO]    org.powermock:powermock-core:jar:1.6.6:test
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.1:test
+[INFO]    org.powermock:powermock-api-mockito-common:jar:1.6.6:test
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.8.v20171121:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-maven) @ spark-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-java) @ spark-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spark-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/src/main/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ spark-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 99 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/src/main/java/spark/staticfiles/MimeType.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/src/main/java/spark/staticfiles/MimeType.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spark-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ spark-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 80 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/src/test/java/spark/StaticFilesMemberTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/src/test/java/spark/StaticFilesMemberTest.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/src/test/java/spark/StaticFilesMemberTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ spark-core ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spark/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running spark.SessionTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec - in spark.SessionTest
+Running spark.BooksIntegrationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 sec - in spark.BooksIntegrationTest
+Running spark.FilterImplTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in spark.FilterImplTest
+Running spark.ResponseWrapperDelegationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 sec - in spark.ResponseWrapperDelegationTest
+Running spark.MultipleServicesTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.441 sec - in spark.MultipleServicesTest
+Running spark.GenericSecureIntegrationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.569 sec - in spark.GenericSecureIntegrationTest
+Running spark.BodyAvailabilityTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.423 sec - in spark.BodyAvailabilityTest
+Running spark.route.RouteEntryTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in spark.route.RouteEntryTest
+Running spark.route.HttpMethodTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in spark.route.HttpMethodTest
+Running spark.utils.SparkUtilsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in spark.utils.SparkUtilsTest
+Running spark.utils.CollectionUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in spark.utils.CollectionUtilsTest
+Running spark.utils.ObjectUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in spark.utils.ObjectUtilsTest
+Running spark.utils.MimeParseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in spark.utils.MimeParseTest
+Running spark.StaticFilesFromArchiveTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.447 sec - in spark.StaticFilesFromArchiveTest
+Running spark.embeddedserver.EmbeddedServersTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.262 sec - in spark.embeddedserver.EmbeddedServersTest
+Running spark.embeddedserver.jetty.SocketConnectorFactoryTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec - in spark.embeddedserver.jetty.SocketConnectorFactoryTest
+Running spark.embeddedserver.jetty.JettyServerTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in spark.embeddedserver.jetty.JettyServerTest
+Running spark.embeddedserver.jetty.websocket.WebSocketCreatorFactoryTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in spark.embeddedserver.jetty.websocket.WebSocketCreatorFactoryTest
+Running spark.embeddedserver.jetty.websocket.WebSocketServletContextHandlerFactoryTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.439 sec - in spark.embeddedserver.jetty.websocket.WebSocketServletContextHandlerFactoryTest
+Running spark.embeddedserver.jetty.EmbeddedJettyFactoryTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 sec - in spark.embeddedserver.jetty.EmbeddedJettyFactoryTest
+Running spark.customerrorpages.CustomErrorPagesTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.432 sec - in spark.customerrorpages.CustomErrorPagesTest
+Running spark.ServiceTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec - in spark.ServiceTest
+Running spark.RedirectTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec - in spark.RedirectTest
+Running spark.ExceptionMapperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in spark.ExceptionMapperTest
+Running spark.ServicePortIntegrationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.45 sec - in spark.ServicePortIntegrationTest
+Running spark.FilterTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Filter matched
+response.status = 404
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.431 sec - in spark.FilterTest
+Running spark.RequestTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec - in spark.RequestTest
+Running spark.GenericIntegrationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Method Override Worked
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.683 sec - in spark.GenericIntegrationTest
+Running spark.RouteImplTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in spark.RouteImplTest
+Running spark.CookiesIntegrationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.412 sec - in spark.CookiesIntegrationTest
+Running spark.QueryParamsMapTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in spark.QueryParamsMapTest
+Running spark.ResponseTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec - in spark.ResponseTest
+Running spark.StaticFilesMemberTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.478 sec - in spark.StaticFilesMemberTest
+Running spark.GzipTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.465 sec - in spark.GzipTest
+Running spark.MultipleFiltersTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 sec - in spark.MultipleFiltersTest
+Running spark.InitExceptionHandlerTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 sec - in spark.InitExceptionHandlerTest
+Running spark.globalstate.ServletFlagTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec - in spark.globalstate.ServletFlagTest
+Running spark.staticfiles.DisableMimeGuessingTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.456 sec - in spark.staticfiles.DisableMimeGuessingTest
+Running spark.staticfiles.StaticFilesTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.472 sec - in spark.staticfiles.StaticFilesTest
+Running spark.util.ResourceUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in spark.util.ResourceUtilsTest
+Running spark.servlet.ServletTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.084 sec - in spark.servlet.ServletTest
+Running spark.resource.UriPathTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in spark.resource.UriPathTest
+Running spark.ResponseBodyTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-simple/1.7.13/slf4j-simple-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 sec - in spark.ResponseBodyTest
+
+Results :
+
+Tests run: 296, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.596 s
+[INFO] Finished at: 2019-08-16T07:05:23+08:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,603 @@
+[VERSION]: 3.9
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------< io.github.jhipster.sample:jhipster-sample-application >--------
+[INFO] Building Jhipster Sample Application 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jhipster-sample-application ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jhipster-sample-application ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework.boot:spring-boot-starter-aop:jar:2.0.1.RELEASE:compile
+[INFO]    org.zalando:problem-spring-web:jar:0.22.5:compile
+[INFO]    org.springframework.data:spring-data-commons:jar:2.0.6.RELEASE:compile
+[INFO]    javax.cache:cache-api:jar:1.1.0:compile
+[INFO]    org.hibernate:hibernate-core:jar:5.2.16.Final:compile
+[INFO]    org.springframework.boot:spring-boot-starter-mail:jar:2.0.1.RELEASE:compile
+[INFO]    org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO]    org.hibernate:hibernate-envers:jar:5.2.16.Final:compile
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.1.RELEASE:compile
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:jar:2.9.3:compile
+[INFO]    io.undertow:undertow-core:jar:1.4.23.Final:compile
+[INFO]    io.dropwizard.metrics:metrics-jcache:jar:3.2.6:compile
+[INFO]    org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.1.RELEASE:compile
+[INFO]    org.springframework:spring-context-support:jar:5.0.5.RELEASE:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    org.springframework.security:spring-security-core:jar:5.0.4.RELEASE:compile
+[INFO]    com.google.gag:gag:jar:1.0.1:compile
+[INFO]    org.springframework.security:spring-security-data:jar:5.0.4.RELEASE:compile
+[INFO]    com.papertrail:profiler:jar:1.0.2:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-json-org:jar:2.9.3:compile
+[INFO]    io.undertow:undertow-servlet:jar:1.4.23.Final:compile
+[INFO]    com.fasterxml:classmate:jar:1.3.4:compile
+[INFO]    org.springframework.security:spring-security-config:jar:5.0.4.RELEASE:compile
+[INFO]    org.attoparser:attoparser:jar:2.0.4.RELEASE:compile
+[INFO]    javax.xml.bind:jaxb-api:jar:2.3.0:compile
+[INFO]    com.sun.mail:javax.mail:jar:1.6.1:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO]    org.springframework.boot:spring-boot-devtools:jar:2.0.1.RELEASE:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO]    io.swagger:swagger-models:jar:1.5.14:compile
+[INFO]    org.springframework:spring-jdbc:jar:5.0.5.RELEASE:compile
+[INFO]    org.springframework:spring-context:jar:5.0.5.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-starter-security:jar:2.0.1.RELEASE:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:compile
+[INFO]    com.ryantenney.metrics:metrics-spring:jar:3.1.3:compile
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO]    org.springframework.boot:spring-boot:jar:2.0.1.RELEASE:compile
+[INFO]    org.springframework.cloud:spring-cloud-connectors-core:jar:2.0.1.RELEASE:compile
+[INFO]    dom4j:dom4j:jar:1.6.1:compile
+[INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.1.RELEASE:compile
+[INFO]    org.hibernate:hibernate-jpamodelgen:jar:5.2.16.Final:provided
+[INFO]    io.github.jhipster:jhipster-framework:jar:2.0.2:compile
+[INFO]    org.apiguardian:apiguardian-api:jar:1.0.0:compile
+[INFO]    org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO]    org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO]    org.springframework:spring-aop:jar:5.0.5.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-test:jar:2.0.1.RELEASE:test
+[INFO]    io.dropwizard.metrics:metrics-healthchecks:jar:3.2.6:compile
+[INFO]    org.springframework:spring-expression:jar:5.0.5.RELEASE:compile
+[INFO]    org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.3.Final:compile
+[INFO]    io.jsonwebtoken:jjwt:jar:0.9.0:compile
+[INFO]    org.jboss:jandex:jar:2.0.3.Final:compile
+[INFO]    org.springframework.cloud:spring-cloud-spring-service-connector:jar:2.0.1.RELEASE:compile
+[INFO]    org.yaml:snakeyaml:jar:1.19:compile
+[INFO]    org.zalando:problem:jar:0.20.1:compile
+[INFO]    com.zaxxer:HikariCP:jar:2.7.8:compile
+[INFO]    org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE:compile
+[INFO]    com.h2database:h2:jar:1.4.197:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO]    org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.2.Final:compile
+[INFO]    org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:compile
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE:test
+[INFO]    joda-time:joda-time:jar:2.9.9:compile
+[INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE:compile
+[INFO]    org.springframework:spring-orm:jar:5.0.5.RELEASE:compile
+[INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    javax.transaction:jta:jar:1.1:compile
+[INFO]    org.springframework.security:spring-security-test:jar:5.0.4.RELEASE:test
+[INFO]    org.springframework:spring-core:jar:5.0.5.RELEASE:compile
+[INFO]    org.springframework:spring-beans:jar:5.0.5.RELEASE:compile
+[INFO]    com.mattbertolini:liquibase-slf4j:jar:2.0.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+[INFO]    org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[INFO]    org.reflections:reflections:jar:0.9.11:compile
+[INFO]    org.springframework:spring-test:jar:5.0.5.RELEASE:test
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]    org.liquibase:liquibase-core:jar:3.5.5:compile
+[INFO]    io.springfox:springfox-swagger2:jar:2.8.0:compile
+[INFO]    io.springfox:springfox-swagger-common:jar:2.8.0:compile
+[INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.1.RELEASE:compile
+[INFO]    io.dropwizard.metrics:metrics-servlet:jar:3.2.6:compile
+[INFO]    net.minidev:json-smart:jar:2.3:test
+[INFO]    org.springframework:spring-tx:jar:5.0.5.RELEASE:compile
+[INFO]    org.zalando:jackson-datatype-problem:jar:0.20.1:compile
+[INFO]    org.unbescape:unbescape:jar:1.1.5.RELEASE:compile
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO]    org.hibernate:hibernate-jcache:jar:5.2.16.Final:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO]    io.dropwizard.metrics:metrics-json:jar:3.2.6:compile
+[INFO]    io.springfox:springfox-spring-web:jar:2.8.0:compile
+[INFO]    net.minidev:accessors-smart:jar:1.2:test
+[INFO]    mysql:mysql-connector-java:jar:5.1.46:compile
+[INFO]    javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]    org.assertj:assertj-core:jar:3.9.1:test
+[INFO]    antlr:antlr:jar:2.7.7:compile
+[INFO]    io.dropwizard.metrics:metrics-annotation:jar:3.2.6:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    io.dropwizard.metrics:metrics-jvm:jar:3.2.6:compile
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE:compile
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.2.6:compile
+[INFO]    org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.4:test
+[INFO]    org.springframework.boot:spring-boot-loader-tools:jar:2.0.1.RELEASE:compile
+[INFO]    org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO]    io.springfox:springfox-spi:jar:2.8.0:compile
+[INFO]    io.dropwizard.metrics:metrics-servlets:jar:3.2.6:compile
+[INFO]    org.springframework:spring-aspects:jar:5.0.5.RELEASE:compile
+[INFO]    org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.springframework.boot:spring-boot-starter-undertow:jar:2.0.1.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:2.0.1.RELEASE:compile
+[INFO]    org.glassfish:javax.el:jar:3.0.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+[INFO]    org.springframework.security:spring-security-web:jar:5.0.4.RELEASE:compile
+[INFO]    io.springfox:springfox-bean-validators:jar:2.8.0:compile
+[INFO]    org.springframework.data:spring-data-jpa:jar:2.0.6.RELEASE:compile
+[INFO]    org.mapstruct:mapstruct-jdk8:jar:1.2.0.Final:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hppc:jar:2.9.3:compile
+[INFO]    org.springframework:spring-jcl:jar:5.0.5.RELEASE:compile
+[INFO]    io.swagger:swagger-annotations:jar:1.5.14:compile
+[INFO]    org.hibernate.validator:hibernate-validator:jar:6.0.9.Final:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.3:compile
+[INFO]    org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.11:compile
+[INFO]    org.javassist:javassist:jar:3.22.0-GA:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.3:compile
+[INFO]    org.ehcache:ehcache:jar:3.5.2:compile
+[INFO]    org.springframework.boot:spring-boot-starter-cache:jar:2.0.1.RELEASE:compile
+[INFO]    org.zalando:faux-pas:jar:0.5.0:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.14:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.3:compile
+[INFO]    org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO]    org.apache.geronimo.bundles:json:jar:20090211_1:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO]    io.undertow:undertow-websockets-jsr:jar:1.4.23.Final:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO]    io.springfox:springfox-schema:jar:2.8.0:compile
+[INFO]    net.logstash.logback:logstash-logback-encoder:jar:5.0:compile
+[INFO]    io.springfox:springfox-core:jar:2.8.0:compile
+[INFO]    org.springframework:spring-webmvc:jar:5.0.5.RELEASE:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.springframework.boot:spring-boot-actuator:jar:2.0.1.RELEASE:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.springframework:spring-web:jar:5.0.5.RELEASE:compile
+[INFO]    javax.transaction:javax.transaction-api:jar:1.2:compile
+[INFO]    org.mapstruct:mapstruct-processor:jar:1.2.0.Final:provided
+[INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.1.RELEASE:test
+[INFO]    org.mockito:mockito-core:jar:2.15.0:test
+[INFO]    org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-configuration-processor:jar:2.0.1.RELEASE:provided
+[INFO]    com.google.guava:guava:jar:24.1-jre:compile
+[INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO]    org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:copy-resources (default-resources) @ jhipster-sample-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ jhipster-sample-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-versions) @ jhipster-sample-application ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:copy-resources (docker-resources) @ jhipster-sample-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (pre-unit-tests) @ jhipster-sample-application ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/target/test-results/coverage/jacoco/jacoco.exec -Djava.security.egd=file:/dev/./urandom -Xmx256m
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jhipster-sample-application ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 83 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ jhipster-sample-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jhipster-sample-application ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/src/test/java/io/github/jhipster/sample/web/rest/OperationResourceIntTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/src/test/java/io/github/jhipster/sample/web/rest/OperationResourceIntTest.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/src/test/java/io/github/jhipster/sample/web/rest/OperationResourceIntTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ jhipster-sample-application ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.sample.config.WebConfigurerTest
+2019-08-15 13:34:21.285  INFO   --- [           main] i.g.j.sample.config.WebConfigurer        : Web application configuration, using profiles: prod
+2019-08-15 13:34:21.300  INFO   --- [           main] i.g.j.sample.config.WebConfigurer        : Web application fully configured
+2019-08-15 13:34:21.426  INFO   --- [           main] i.g.j.sample.config.WebConfigurer        : Web application configuration, using profiles: dev
+2019-08-15 13:34:21.428  INFO   --- [           main] i.g.j.sample.config.WebConfigurer        : Web application fully configured
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.109 s - in io.github.jhipster.sample.config.WebConfigurerTest
+[INFO] Running io.github.jhipster.sample.repository.CustomAuditEventRepositoryIntTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster 🤓  :: Running Spring Boot 2.0.1.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2019-08-15 13:34:22.271  INFO 20512 --- [           main] .j.s.r.CustomAuditEventRepositoryIntTest : Starting CustomAuditEventRepositoryIntTest on DebianC8 with PID 20512 (started by cgzhu in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app)
+2019-08-15 13:34:22.272  INFO 20512 --- [           main] .j.s.r.CustomAuditEventRepositoryIntTest : No active profile set, falling back to default profiles: default
+2019-08-15 13:34:24.052  INFO 20512 --- [           main] i.g.j.s.config.MetricsConfiguration      : Initializing Metrics Log reporting
+2019-08-15 13:34:26.898  INFO 20512 --- [           main] i.g.j.s.config.LoggingConfiguration      : Initializing Logstash logging
+2019-08-15 13:34:26.965  INFO 20512 --- [           main] i.g.j.s.config.LoggingConfiguration      : Filtering metrics logs from all appenders except the LOGSTASH appender
+2019-08-15 13:34:30.181  INFO 20512 --- [           main] .j.s.r.CustomAuditEventRepositoryIntTest : Started CustomAuditEventRepositoryIntTest in 8.565 seconds (JVM running for 11.295)
+2019-08-15 13:34:30.322  WARN 20512 --- [           main] i.g.j.s.r.CustomAuditEventRepository     : Event data for test-key too long (265) has been truncated to 255. Consider increasing column width.
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.875 s - in io.github.jhipster.sample.repository.CustomAuditEventRepositoryIntTest
+[INFO] Running io.github.jhipster.sample.security.DomainUserDetailsServiceIntTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 s - in io.github.jhipster.sample.security.DomainUserDetailsServiceIntTest
+[INFO] Running io.github.jhipster.sample.security.SecurityUtilsUnitTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.sample.security.SecurityUtilsUnitTest
+[INFO] Running io.github.jhipster.sample.security.jwt.JWTFilterTest
+2019-08-15 13:34:30.573  INFO 20512 --- [           main] i.g.j.sample.security.jwt.TokenProvider  : Invalid JWT token.
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.293 s - in io.github.jhipster.sample.security.jwt.JWTFilterTest
+[INFO] Running io.github.jhipster.sample.security.jwt.TokenProviderTest
+2019-08-15 13:34:30.896  INFO 20512 --- [           main] i.g.j.sample.security.jwt.TokenProvider  : JWT token compact of handler are invalid.
+2019-08-15 13:34:30.899  INFO 20512 --- [           main] i.g.j.sample.security.jwt.TokenProvider  : Expired JWT token.
+2019-08-15 13:34:30.901  INFO 20512 --- [           main] i.g.j.sample.security.jwt.TokenProvider  : Invalid JWT signature.
+2019-08-15 13:34:30.902  INFO 20512 --- [           main] i.g.j.sample.security.jwt.TokenProvider  : Invalid JWT token.
+2019-08-15 13:34:30.904  INFO 20512 --- [           main] i.g.j.sample.security.jwt.TokenProvider  : Unsupported JWT token.
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.jhipster.sample.security.jwt.TokenProviderTest
+[INFO] Running io.github.jhipster.sample.service.MailServiceIntTest
+2019-08-15 13:34:31.372  WARN 20512 --- [           main] i.g.jhipster.sample.service.MailService  : Email could not be sent to user 'john.doe@example.com': null
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.517 s - in io.github.jhipster.sample.service.MailServiceIntTest
+[INFO] Running io.github.jhipster.sample.service.UserServiceIntTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 s - in io.github.jhipster.sample.service.UserServiceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.AccountResourceIntTest
+2019-08-15 13:34:31.910  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public void io.github.jhipster.sample.web.rest.AccountResource.saveAccount(io.github.jhipster.sample.service.dto.UserDTO), with 1 error(s): [Field error in object 'userDTO' on field 'email': rejected value [invalid email]; codes [Email.userDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@17086be0,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@4ea7d36e]; default message [must be a well-formed email address]] 
+2019-08-15 13:34:32.199  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Incorrect password
+2019-08-15 13:34:32.203  WARN 20512 --- [           main] o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt
+2019-08-15 13:34:32.333 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Email address already in use
+2019-08-15 13:34:32.334  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Email address already in use
+2019-08-15 13:34:32.586  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public void io.github.jhipster.sample.web.rest.AccountResource.registerAccount(io.github.jhipster.sample.web.rest.vm.ManagedUserVM), with 1 error(s): [Field error in object 'managedUserVM' on field 'email': rejected value [invalid]; codes [Email.managedUserVM.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@17086be0,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@54eac1cb]; default message [must be a well-formed email address]] 
+2019-08-15 13:34:32.733  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public void io.github.jhipster.sample.web.rest.AccountResource.registerAccount(io.github.jhipster.sample.web.rest.vm.ManagedUserVM), with 1 error(s): [Field error in object 'managedUserVM' on field 'login': rejected value [funky-log!n]; codes [Pattern.managedUserVM.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@7170c2df,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@2930c060]; default message [must match "^[_.@A-Za-z0-9-]*$"]] 
+2019-08-15 13:34:32.861  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public void io.github.jhipster.sample.web.rest.AccountResource.registerAccount(io.github.jhipster.sample.web.rest.vm.ManagedUserVM), with 1 error(s): [Field error in object 'managedUserVM' on field 'password': rejected value [123]; codes [Size.managedUserVM.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.password,password]; arguments []; default message [password],100,4]; default message [size must be between 4 and 100]] 
+2019-08-15 13:34:33.404  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Incorrect password
+2019-08-15 13:34:33.827 ERROR 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Internal Server Error
+
+io.github.jhipster.sample.web.rest.errors.InternalServerErrorException: No user was found for this activation key
+	at io.github.jhipster.sample.web.rest.AccountResource.activateAccount(AccountResource.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:166)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:133)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:165)
+	at io.github.jhipster.sample.web.rest.AccountResourceIntTest.testActivateAccountWithWrongKey(AccountResourceIntTest.java:449)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+
+2019-08-15 13:34:33.938 ERROR 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Internal Server Error
+
+io.github.jhipster.sample.web.rest.errors.InternalServerErrorException: User could not be found
+	at io.github.jhipster.sample.web.rest.AccountResource.lambda$getAccount$2(AccountResource.java:108)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at io.github.jhipster.sample.web.rest.AccountResource.getAccount(AccountResource.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:166)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:133)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:165)
+	at io.github.jhipster.sample.web.rest.AccountResourceIntTest.testGetUnknownAccount(AccountResourceIntTest.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+
+2019-08-15 13:34:34.492  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Incorrect password
+2019-08-15 13:34:34.669  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Incorrect password
+2019-08-15 13:34:34.777  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Required request body is missing: public void io.github.jhipster.sample.web.rest.AccountResource.changePassword(io.github.jhipster.sample.service.dto.PasswordChangeDTO)
+2019-08-15 13:34:34.962 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Email address already in use
+2019-08-15 13:34:34.962  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Email address already in use
+2019-08-15 13:34:34.967 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Email address already in use
+2019-08-15 13:34:34.967  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Email address already in use
+2019-08-15 13:34:35.151 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Login already in use
+2019-08-15 13:34:35.152  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Login already in use
+2019-08-15 13:34:35.480  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Email address not registered
+2019-08-15 13:34:36.014  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Incorrect password
+2019-08-15 13:34:36.375 ERROR 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Internal Server Error
+
+io.github.jhipster.sample.web.rest.errors.InternalServerErrorException: No user was found for this reset key
+	at io.github.jhipster.sample.web.rest.AccountResource.finishPasswordReset(AccountResource.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:166)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:133)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:165)
+	at io.github.jhipster.sample.web.rest.AccountResourceIntTest.testFinishPasswordResetWrongKey(AccountResourceIntTest.java:785)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.762 s - in io.github.jhipster.sample.web.rest.AccountResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.AuditResourceIntTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in io.github.jhipster.sample.web.rest.AuditResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.BankAccountResourceIntTest
+2019-08-15 13:34:36.557 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Invalid id
+2019-08-15 13:34:36.558  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Invalid id
+2019-08-15 13:34:37.014  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<io.github.jhipster.sample.domain.BankAccount> io.github.jhipster.sample.web.rest.BankAccountResource.createBankAccount(io.github.jhipster.sample.domain.BankAccount) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'bankAccount' on field 'balance': rejected value [null]; codes [NotNull.bankAccount.balance,NotNull.balance,NotNull.java.math.BigDecimal,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bankAccount.balance,balance]; arguments []; default message [balance]]; default message [must not be null]] 
+2019-08-15 13:34:37.069  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<io.github.jhipster.sample.domain.BankAccount> io.github.jhipster.sample.web.rest.BankAccountResource.createBankAccount(io.github.jhipster.sample.domain.BankAccount) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'bankAccount' on field 'name': rejected value [null]; codes [NotNull.bankAccount.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bankAccount.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+2019-08-15 13:34:37.130 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, A new bankAccount cannot already have an ID
+2019-08-15 13:34:37.130  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: A new bankAccount cannot already have an ID
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.654 s - in io.github.jhipster.sample.web.rest.BankAccountResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.LabelResourceIntTest
+2019-08-15 13:34:37.363  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<io.github.jhipster.sample.domain.Label> io.github.jhipster.sample.web.rest.LabelResource.createLabel(io.github.jhipster.sample.domain.Label) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'label' on field 'label': rejected value [null]; codes [NotNull.label.label,NotNull.label,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [label.label,label]; arguments []; default message [label]]; default message [must not be null]] 
+2019-08-15 13:34:37.590 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Invalid id
+2019-08-15 13:34:37.590  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Invalid id
+2019-08-15 13:34:37.643 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, A new label cannot already have an ID
+2019-08-15 13:34:37.643  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: A new label cannot already have an ID
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.56 s - in io.github.jhipster.sample.web.rest.LabelResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.LogsResourceIntTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.jhipster.sample.web.rest.LogsResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.OperationResourceIntTest
+2019-08-15 13:34:37.845 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Invalid id
+2019-08-15 13:34:37.845  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Invalid id
+2019-08-15 13:34:38.156  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<io.github.jhipster.sample.domain.Operation> io.github.jhipster.sample.web.rest.OperationResource.createOperation(io.github.jhipster.sample.domain.Operation) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'operation' on field 'date': rejected value [null]; codes [NotNull.operation.date,NotNull.date,NotNull.java.time.Instant,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [operation.date,date]; arguments []; default message [date]]; default message [must not be null]] 
+2019-08-15 13:34:38.343  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity<io.github.jhipster.sample.domain.Operation> io.github.jhipster.sample.web.rest.OperationResource.createOperation(io.github.jhipster.sample.domain.Operation) throws java.net.URISyntaxException, with 1 error(s): [Field error in object 'operation' on field 'amount': rejected value [null]; codes [NotNull.operation.amount,NotNull.amount,NotNull.java.math.BigDecimal,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [operation.amount,amount]; arguments []; default message [amount]]; default message [must not be null]] 
+2019-08-15 13:34:38.405 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, A new operation cannot already have an ID
+2019-08-15 13:34:38.405  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: A new operation cannot already have an ID
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.717 s - in io.github.jhipster.sample.web.rest.OperationResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.UserJWTControllerIntTest
+2019-08-15 13:34:38.672  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Unauthorized: Bad credentials
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.599 s - in io.github.jhipster.sample.web.rest.UserJWTControllerIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.UserResourceIntTest
+2019-08-15 13:34:39.146 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Email address already in use
+2019-08-15 13:34:39.146  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Email address already in use
+2019-08-15 13:34:39.205 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Login already in use
+2019-08-15 13:34:39.206  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Login already in use
+2019-08-15 13:34:39.512 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, A new user cannot already have an ID
+2019-08-15 13:34:39.513  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: A new user cannot already have an ID
+2019-08-15 13:34:39.848 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Email address already in use
+2019-08-15 13:34:39.848  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Email address already in use
+2019-08-15 13:34:39.908 ERROR 20512 --- [           main] i.g.j.sample.web.rest.util.HeaderUtil    : Entity processing failed, Login already in use
+2019-08-15 13:34:39.908  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Login already in use
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.157 s - in io.github.jhipster.sample.web.rest.UserResourceIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.errors.ExceptionTranslatorIntTest
+2019-08-15 13:34:40.285  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Required request part 'missing Servlet request part' is not present
+2019-08-15 13:34:40.341  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Required parameter type parameter 'missing Servlet request parameter' is not present
+2019-08-15 13:34:40.391  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Forbidden: test access denied!
+2019-08-15 13:34:40.446  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Parameterized Exception
+2019-08-15 13:34:40.506 ERROR 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Internal Server Error
+
+java.lang.RuntimeException: null
+	at io.github.jhipster.sample.web.rest.errors.ExceptionTranslatorTestController.internalServerError(ExceptionTranslatorTestController.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:166)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:133)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:165)
+	at io.github.jhipster.sample.web.rest.errors.ExceptionTranslatorIntTest.testInternalServerError(ExceptionTranslatorIntTest.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+
+2019-08-15 13:34:40.559  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Method Not Allowed: Request method 'POST' not supported
+2019-08-15 13:34:40.614  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: null
+2019-08-15 13:34:40.668  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Validation failed for argument at index 0 in method: public void io.github.jhipster.sample.web.rest.errors.ExceptionTranslatorTestController.methodArgument(io.github.jhipster.sample.web.rest.errors.ExceptionTranslatorTestController$TestDTO), with 1 error(s): [Field error in object 'testDTO' on field 'test': rejected value [null]; codes [NotNull.testDTO.test,NotNull.test,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testDTO.test,test]; arguments []; default message [test]]; default message [must not be null]] 
+2019-08-15 13:34:40.723  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Bad Request: Parameterized Exception
+2019-08-15 13:34:40.772  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Unauthorized: test authentication failed!
+2019-08-15 13:34:40.826  WARN 20512 --- [           main] o.z.p.spring.web.advice.AdviceTrait      : Conflict: test concurrency failure
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.593 s - in io.github.jhipster.sample.web.rest.errors.ExceptionTranslatorIntTest
+[INFO] Running io.github.jhipster.sample.web.rest.util.PaginationUtilUnitTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.sample.web.rest.util.PaginationUtilUnitTest
+2019-08-15 13:34:40.972  WARN 20512 --- [       Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 154, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:report (post-unit-test) @ jhipster-sample-application ---
+[INFO] Loading execution data file /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jhipster-sample-app/target/test-results/coverage/jacoco/jacoco.exec
+[INFO] Analyzed bundle 'Jhipster Sample Application' with 73 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.355 s
+[INFO] Finished at: 2019-08-15T13:34:41+08:00
+[INFO] ------------------------------------------------------------------------

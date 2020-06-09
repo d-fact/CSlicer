@@ -1,0 +1,746 @@
+[VERSION]: 10.0.0-alpha0
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.alibaba:fastjson:jar:1.2.48-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing. @ line 160, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 128, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 112, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 138, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.alibaba:fastjson >------------------------
+[INFO] Building fastjson 1.2.48-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.pom
+Progress (1): 2.2/2.6 kB
+Progress (1): 2.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.pom (2.6 kB at 2.3 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-project/10.0.0-alpha0/jetty-project-10.0.0-alpha0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/10.0.0-alpha0/jetty-project-10.0.0-alpha0.pom
+Progress (1): 2.2/59 kB
+Progress (1): 5.0/59 kB
+Progress (1): 7.8/59 kB
+Progress (1): 11/59 kB 
+Progress (1): 13/59 kB
+Progress (1): 16/59 kB
+Progress (1): 19/59 kB
+Progress (1): 21/59 kB
+Progress (1): 24/59 kB
+Progress (1): 27/59 kB
+Progress (1): 30/59 kB
+Progress (1): 32/59 kB
+Progress (1): 36/59 kB
+Progress (1): 40/59 kB
+Progress (1): 45/59 kB
+Progress (1): 49/59 kB
+Progress (1): 53/59 kB
+Progress (1): 57/59 kB
+Progress (1): 59 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/10.0.0-alpha0/jetty-project-10.0.0-alpha0.pom (59 kB at 75 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.2/jetty-servlet-api-4.0.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.2/jetty-servlet-api-4.0.2.pom
+Progress (1): 4.1/9.2 kB
+Progress (1): 7.7/9.2 kB
+Progress (1): 9.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.2/jetty-servlet-api-4.0.2.pom (9.2 kB at 24 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/toolchain/jetty-toolchain/1.6/jetty-toolchain-1.6.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-toolchain/1.6/jetty-toolchain-1.6.pom
+Progress (1): 4.1/17 kB
+Progress (1): 7.7/17 kB
+Progress (1): 12/17 kB 
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-toolchain/1.6/jetty-toolchain-1.6.pom (17 kB at 43 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-http/10.0.0-alpha0/jetty-http-10.0.0-alpha0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/10.0.0-alpha0/jetty-http-10.0.0-alpha0.pom
+Progress (1): 2.2/4.2 kB
+Progress (1): 4.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/10.0.0-alpha0/jetty-http-10.0.0-alpha0.pom (4.2 kB at 11 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-util/10.0.0-alpha0/jetty-util-10.0.0-alpha0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/10.0.0-alpha0/jetty-util-10.0.0-alpha0.pom
+Progress (1): 2.2/3.6 kB
+Progress (1): 3.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/10.0.0-alpha0/jetty-util-10.0.0-alpha0.pom (3.6 kB at 9.5 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-io/10.0.0-alpha0/jetty-io-10.0.0-alpha0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/10.0.0-alpha0/jetty-io-10.0.0-alpha0.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/10.0.0-alpha0/jetty-io-10.0.0-alpha0.pom (1.3 kB at 3.5 kB/s)
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.jar
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-io/10.0.0-alpha0/jetty-io-10.0.0-alpha0.jar
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-util/10.0.0-alpha0/jetty-util-10.0.0-alpha0.jar
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/jetty-http/10.0.0-alpha0/jetty-http-10.0.0-alpha0.jar
+Downloading from local-file: file:///home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/lib/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.2/jetty-servlet-api-4.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/10.0.0-alpha0/jetty-io-10.0.0-alpha0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/10.0.0-alpha0/jetty-util-10.0.0-alpha0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/10.0.0-alpha0/jetty-http-10.0.0-alpha0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.2/jetty-servlet-api-4.0.2.jar
+Progress (1): 2.2/635 kB
+Progress (1): 5.0/635 kB
+Progress (1): 7.7/635 kB
+Progress (1): 10/635 kB 
+Progress (1): 13/635 kB
+Progress (1): 16/635 kB
+Progress (1): 19/635 kB
+Progress (1): 21/635 kB
+Progress (1): 24/635 kB
+Progress (1): 27/635 kB
+Progress (1): 30/635 kB
+Progress (1): 32/635 kB
+Progress (1): 36/635 kB
+Progress (1): 40/635 kB
+Progress (1): 45/635 kB
+Progress (1): 49/635 kB
+Progress (1): 53/635 kB
+Progress (1): 57/635 kB
+Progress (1): 61/635 kB
+Progress (1): 65/635 kB
+Progress (1): 69/635 kB
+Progress (1): 73/635 kB
+Progress (1): 77/635 kB
+Progress (1): 81/635 kB
+Progress (1): 85/635 kB
+Progress (1): 90/635 kB
+Progress (1): 94/635 kB
+Progress (1): 98/635 kB
+Progress (1): 102/635 kB
+Progress (1): 106/635 kB
+Progress (1): 110/635 kB
+Progress (1): 114/635 kB
+Progress (1): 118/635 kB
+Progress (1): 122/635 kB
+Progress (1): 126/635 kB
+Progress (1): 131/635 kB
+Progress (1): 135/635 kB
+Progress (1): 139/635 kB
+Progress (1): 143/635 kB
+Progress (1): 147/635 kB
+Progress (1): 151/635 kB
+Progress (1): 155/635 kB
+Progress (1): 159/635 kB
+Progress (1): 163/635 kB
+Progress (1): 167/635 kB
+Progress (1): 171/635 kB
+Progress (1): 176/635 kB
+Progress (1): 180/635 kB
+Progress (1): 184/635 kB
+Progress (1): 188/635 kB
+Progress (1): 192/635 kB
+Progress (1): 196/635 kB
+Progress (1): 200/635 kB
+Progress (1): 204/635 kB
+Progress (1): 208/635 kB
+Progress (1): 212/635 kB
+Progress (2): 212/635 kB | 2.2/508 kB
+Progress (2): 212/635 kB | 5.0/508 kB
+Progress (2): 212/635 kB | 7.7/508 kB
+Progress (2): 212/635 kB | 10/508 kB 
+Progress (2): 212/635 kB | 13/508 kB
+Progress (2): 217/635 kB | 13/508 kB
+Progress (2): 221/635 kB | 13/508 kB
+Progress (2): 225/635 kB | 13/508 kB
+Progress (2): 229/635 kB | 13/508 kB
+Progress (3): 229/635 kB | 13/508 kB | 2.2/296 kB
+Progress (3): 229/635 kB | 13/508 kB | 5.0/296 kB
+Progress (3): 229/635 kB | 13/508 kB | 7.7/296 kB
+Progress (3): 229/635 kB | 13/508 kB | 10/296 kB 
+Progress (3): 233/635 kB | 13/508 kB | 10/296 kB
+Progress (3): 233/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 237/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 241/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 245/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 249/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 253/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 258/635 kB | 13/508 kB | 13/296 kB
+Progress (3): 262/635 kB | 13/508 kB | 13/296 kB
+Progress (4): 262/635 kB | 13/508 kB | 13/296 kB | 2.2/162 kB
+Progress (4): 262/635 kB | 13/508 kB | 13/296 kB | 5.0/162 kB
+Progress (4): 262/635 kB | 13/508 kB | 13/296 kB | 7.7/162 kB
+Progress (4): 262/635 kB | 13/508 kB | 13/296 kB | 10/162 kB 
+Progress (4): 262/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 266/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 270/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 274/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 278/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 282/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 286/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 290/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 294/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 298/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 303/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 307/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 311/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 315/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 319/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 323/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 327/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 331/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 335/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 339/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 344/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 348/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 352/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 356/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 360/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 364/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 368/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 372/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 376/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 380/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 384/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 389/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (4): 393/635 kB | 13/508 kB | 13/296 kB | 13/162 kB
+Progress (5): 393/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 2.2/209 kB
+Progress (5): 393/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 5.0/209 kB
+Progress (5): 393/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 7.7/209 kB
+Progress (5): 393/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 10/209 kB 
+Progress (5): 393/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 397/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 401/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 405/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 409/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 413/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 417/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 421/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 425/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 430/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 434/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 438/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 442/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 446/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 450/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 454/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 458/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 462/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 466/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 470/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 475/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 479/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 483/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 487/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 491/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 495/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 499/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 503/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 507/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 511/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 516/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 520/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 524/635 kB | 13/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 524/635 kB | 16/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 524/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 528/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 532/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 536/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 540/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 544/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 548/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 552/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 557/635 kB | 19/508 kB | 13/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 557/635 kB | 19/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 561/635 kB | 19/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 565/635 kB | 19/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 569/635 kB | 19/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 573/635 kB | 19/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 573/635 kB | 21/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 577/635 kB | 21/508 kB | 16/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 577/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 581/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 585/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 589/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 593/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 597/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 602/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 606/635 kB | 21/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 606/635 kB | 24/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 610/635 kB | 24/508 kB | 19/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 610/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 614/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 618/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 622/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 626/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 630/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 634/635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB
+Progress (5): 635 kB | 24/508 kB | 21/296 kB | 13/162 kB | 13/209 kB    
+Progress (5): 635 kB | 24/508 kB | 21/296 kB | 16/162 kB | 13/209 kB
+Progress (5): 635 kB | 24/508 kB | 24/296 kB | 16/162 kB | 13/209 kB
+Progress (5): 635 kB | 27/508 kB | 24/296 kB | 16/162 kB | 13/209 kB
+Progress (5): 635 kB | 27/508 kB | 24/296 kB | 19/162 kB | 13/209 kB
+Progress (5): 635 kB | 27/508 kB | 27/296 kB | 19/162 kB | 13/209 kB
+Progress (5): 635 kB | 30/508 kB | 27/296 kB | 19/162 kB | 13/209 kB
+Progress (5): 635 kB | 30/508 kB | 30/296 kB | 19/162 kB | 13/209 kB
+Progress (5): 635 kB | 32/508 kB | 30/296 kB | 19/162 kB | 13/209 kB
+Progress (5): 635 kB | 32/508 kB | 30/296 kB | 21/162 kB | 13/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 21/162 kB | 13/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 24/162 kB | 13/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 24/162 kB | 16/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 27/162 kB | 16/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 27/162 kB | 19/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 30/162 kB | 19/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 30/162 kB | 21/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 32/162 kB | 21/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 32/162 kB | 24/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 32/162 kB | 27/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 32/162 kB | 30/209 kB
+Progress (5): 635 kB | 32/508 kB | 32/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 36/508 kB | 32/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 40/508 kB | 32/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 45/508 kB | 32/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 49/508 kB | 32/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 49/508 kB | 36/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 49/508 kB | 40/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 49/508 kB | 45/296 kB | 32/162 kB | 32/209 kB
+Progress (5): 635 kB | 49/508 kB | 49/296 kB | 32/162 kB | 32/209 kB
+                                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.jar (635 kB at 654 kB/s)
+Progress (4): 53/508 kB | 49/296 kB | 32/162 kB | 32/209 kB
+Progress (4): 57/508 kB | 49/296 kB | 32/162 kB | 32/209 kB
+Progress (4): 61/508 kB | 49/296 kB | 32/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 49/296 kB | 32/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 49/296 kB | 36/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 53/296 kB | 36/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 53/296 kB | 40/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 57/296 kB | 40/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 57/296 kB | 45/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 61/296 kB | 45/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 61/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 65/508 kB | 65/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 69/508 kB | 65/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 73/508 kB | 65/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 77/508 kB | 65/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 81/508 kB | 65/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 81/508 kB | 69/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 81/508 kB | 73/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 81/508 kB | 77/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 49/162 kB | 32/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 49/162 kB | 36/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 49/162 kB | 40/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 49/162 kB | 45/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 49/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 53/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 57/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 61/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 65/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 69/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 73/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 77/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 81/162 kB | 49/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 81/162 kB | 53/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 81/162 kB | 57/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 81/162 kB | 61/209 kB
+Progress (4): 81/508 kB | 81/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 85/508 kB | 81/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 90/508 kB | 81/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 94/508 kB | 81/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 98/508 kB | 81/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 98/508 kB | 85/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 98/508 kB | 90/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 98/508 kB | 94/296 kB | 81/162 kB | 65/209 kB
+Progress (4): 98/508 kB | 94/296 kB | 81/162 kB | 69/209 kB
+Progress (4): 98/508 kB | 98/296 kB | 81/162 kB | 69/209 kB
+Progress (4): 98/508 kB | 98/296 kB | 81/162 kB | 73/209 kB
+Progress (4): 98/508 kB | 98/296 kB | 81/162 kB | 77/209 kB
+Progress (4): 98/508 kB | 98/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 102/508 kB | 98/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 106/508 kB | 98/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 110/508 kB | 98/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 114/508 kB | 98/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 114/508 kB | 102/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 114/508 kB | 106/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 114/508 kB | 110/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 114/508 kB | 114/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 118/508 kB | 114/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 122/508 kB | 114/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 126/508 kB | 114/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 131/508 kB | 114/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 131/508 kB | 118/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 131/508 kB | 122/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 135/508 kB | 122/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 135/508 kB | 126/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 139/508 kB | 126/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 139/508 kB | 131/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 143/508 kB | 131/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 131/296 kB | 81/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 131/296 kB | 85/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 131/296 kB | 90/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 131/296 kB | 94/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 131/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 135/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 139/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 143/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 147/508 kB | 147/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 151/508 kB | 147/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 155/508 kB | 147/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 159/508 kB | 147/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 163/508 kB | 147/296 kB | 98/162 kB | 81/209 kB
+Progress (4): 163/508 kB | 147/296 kB | 102/162 kB | 81/209 kB
+Progress (4): 163/508 kB | 147/296 kB | 106/162 kB | 81/209 kB
+Progress (4): 163/508 kB | 147/296 kB | 106/162 kB | 85/209 kB
+Progress (4): 163/508 kB | 147/296 kB | 110/162 kB | 85/209 kB
+Progress (4): 163/508 kB | 147/296 kB | 110/162 kB | 90/209 kB
+Progress (4): 167/508 kB | 147/296 kB | 110/162 kB | 90/209 kB
+Progress (4): 167/508 kB | 147/296 kB | 114/162 kB | 90/209 kB
+Progress (4): 171/508 kB | 147/296 kB | 114/162 kB | 90/209 kB
+Progress (4): 171/508 kB | 151/296 kB | 114/162 kB | 90/209 kB
+Progress (4): 171/508 kB | 151/296 kB | 114/162 kB | 94/209 kB
+Progress (4): 171/508 kB | 155/296 kB | 114/162 kB | 94/209 kB
+Progress (4): 176/508 kB | 155/296 kB | 114/162 kB | 94/209 kB
+Progress (4): 176/508 kB | 159/296 kB | 114/162 kB | 94/209 kB
+Progress (4): 176/508 kB | 159/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 176/508 kB | 163/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 163/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 167/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 171/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 176/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 114/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 118/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 122/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 126/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 131/162 kB | 98/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 131/162 kB | 102/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 131/162 kB | 106/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 131/162 kB | 110/209 kB
+Progress (4): 180/508 kB | 180/296 kB | 131/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 184/296 kB | 131/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 188/296 kB | 131/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 192/296 kB | 131/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 131/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 135/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 139/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 143/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 147/162 kB | 114/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 147/162 kB | 118/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 147/162 kB | 122/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 147/162 kB | 126/209 kB
+Progress (4): 180/508 kB | 196/296 kB | 147/162 kB | 131/209 kB
+Progress (4): 184/508 kB | 196/296 kB | 147/162 kB | 131/209 kB
+Progress (4): 188/508 kB | 196/296 kB | 147/162 kB | 131/209 kB
+Progress (4): 192/508 kB | 196/296 kB | 147/162 kB | 131/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 147/162 kB | 131/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 151/162 kB | 131/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 155/162 kB | 131/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 159/162 kB | 131/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 162 kB | 131/209 kB    
+Progress (4): 196/508 kB | 196/296 kB | 162 kB | 135/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 162 kB | 139/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 162 kB | 143/209 kB
+Progress (4): 196/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 200/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 204/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 208/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 212/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 217/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 221/508 kB | 196/296 kB | 162 kB | 147/209 kB
+Progress (4): 221/508 kB | 196/296 kB | 162 kB | 151/209 kB
+Progress (4): 225/508 kB | 196/296 kB | 162 kB | 151/209 kB
+Progress (4): 225/508 kB | 196/296 kB | 162 kB | 155/209 kB
+Progress (4): 229/508 kB | 196/296 kB | 162 kB | 155/209 kB
+Progress (4): 229/508 kB | 196/296 kB | 162 kB | 159/209 kB
+Progress (4): 229/508 kB | 196/296 kB | 162 kB | 163/209 kB
+Progress (4): 229/508 kB | 200/296 kB | 162 kB | 163/209 kB
+Progress (4): 229/508 kB | 204/296 kB | 162 kB | 163/209 kB
+Progress (4): 229/508 kB | 208/296 kB | 162 kB | 163/209 kB
+Progress (4): 229/508 kB | 212/296 kB | 162 kB | 163/209 kB
+Progress (4): 233/508 kB | 212/296 kB | 162 kB | 163/209 kB
+Progress (4): 237/508 kB | 212/296 kB | 162 kB | 163/209 kB
+Progress (4): 241/508 kB | 212/296 kB | 162 kB | 163/209 kB
+Progress (4): 245/508 kB | 212/296 kB | 162 kB | 163/209 kB
+Progress (4): 245/508 kB | 212/296 kB | 162 kB | 167/209 kB
+Progress (4): 245/508 kB | 212/296 kB | 162 kB | 171/209 kB
+Progress (4): 245/508 kB | 212/296 kB | 162 kB | 176/209 kB
+Progress (4): 245/508 kB | 212/296 kB | 162 kB | 180/209 kB
+Progress (4): 245/508 kB | 217/296 kB | 162 kB | 180/209 kB
+Progress (4): 245/508 kB | 221/296 kB | 162 kB | 180/209 kB
+Progress (4): 245/508 kB | 225/296 kB | 162 kB | 180/209 kB
+Progress (4): 245/508 kB | 229/296 kB | 162 kB | 180/209 kB
+Progress (4): 249/508 kB | 229/296 kB | 162 kB | 180/209 kB
+Progress (4): 253/508 kB | 229/296 kB | 162 kB | 180/209 kB
+Progress (4): 258/508 kB | 229/296 kB | 162 kB | 180/209 kB
+Progress (4): 262/508 kB | 229/296 kB | 162 kB | 180/209 kB
+Progress (4): 262/508 kB | 233/296 kB | 162 kB | 180/209 kB
+Progress (4): 266/508 kB | 233/296 kB | 162 kB | 180/209 kB
+Progress (4): 266/508 kB | 237/296 kB | 162 kB | 180/209 kB
+Progress (4): 270/508 kB | 237/296 kB | 162 kB | 180/209 kB
+Progress (4): 270/508 kB | 241/296 kB | 162 kB | 180/209 kB
+Progress (4): 274/508 kB | 241/296 kB | 162 kB | 180/209 kB
+Progress (4): 274/508 kB | 245/296 kB | 162 kB | 180/209 kB
+Progress (4): 278/508 kB | 245/296 kB | 162 kB | 180/209 kB
+Progress (4): 282/508 kB | 245/296 kB | 162 kB | 180/209 kB
+Progress (4): 286/508 kB | 245/296 kB | 162 kB | 180/209 kB
+Progress (4): 290/508 kB | 245/296 kB | 162 kB | 180/209 kB
+Progress (4): 290/508 kB | 249/296 kB | 162 kB | 180/209 kB
+Progress (4): 294/508 kB | 249/296 kB | 162 kB | 180/209 kB
+Progress (4): 294/508 kB | 253/296 kB | 162 kB | 180/209 kB
+Progress (4): 294/508 kB | 258/296 kB | 162 kB | 180/209 kB
+Progress (4): 294/508 kB | 262/296 kB | 162 kB | 180/209 kB
+Progress (4): 298/508 kB | 262/296 kB | 162 kB | 180/209 kB
+Progress (4): 303/508 kB | 262/296 kB | 162 kB | 180/209 kB
+Progress (4): 307/508 kB | 262/296 kB | 162 kB | 180/209 kB
+Progress (4): 311/508 kB | 262/296 kB | 162 kB | 180/209 kB
+Progress (4): 311/508 kB | 266/296 kB | 162 kB | 180/209 kB
+Progress (4): 311/508 kB | 270/296 kB | 162 kB | 180/209 kB
+Progress (4): 311/508 kB | 274/296 kB | 162 kB | 180/209 kB
+Progress (4): 315/508 kB | 274/296 kB | 162 kB | 180/209 kB
+Progress (4): 315/508 kB | 278/296 kB | 162 kB | 180/209 kB
+Progress (4): 319/508 kB | 278/296 kB | 162 kB | 180/209 kB
+Progress (4): 323/508 kB | 278/296 kB | 162 kB | 180/209 kB
+Progress (4): 327/508 kB | 278/296 kB | 162 kB | 180/209 kB
+Progress (4): 327/508 kB | 282/296 kB | 162 kB | 180/209 kB
+Progress (4): 327/508 kB | 286/296 kB | 162 kB | 180/209 kB
+Progress (4): 327/508 kB | 290/296 kB | 162 kB | 180/209 kB
+Progress (4): 327/508 kB | 294/296 kB | 162 kB | 180/209 kB
+Progress (4): 327/508 kB | 296 kB | 162 kB | 180/209 kB    
+Progress (4): 331/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 335/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 339/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 344/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 348/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 352/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 356/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 360/508 kB | 296 kB | 162 kB | 180/209 kB
+Progress (4): 360/508 kB | 296 kB | 162 kB | 184/209 kB
+Progress (4): 360/508 kB | 296 kB | 162 kB | 188/209 kB
+Progress (4): 360/508 kB | 296 kB | 162 kB | 192/209 kB
+Progress (4): 360/508 kB | 296 kB | 162 kB | 196/209 kB
+Progress (4): 364/508 kB | 296 kB | 162 kB | 196/209 kB
+Progress (4): 368/508 kB | 296 kB | 162 kB | 196/209 kB
+Progress (4): 372/508 kB | 296 kB | 162 kB | 196/209 kB
+Progress (4): 376/508 kB | 296 kB | 162 kB | 196/209 kB
+Progress (4): 376/508 kB | 296 kB | 162 kB | 200/209 kB
+Progress (4): 376/508 kB | 296 kB | 162 kB | 204/209 kB
+Progress (4): 376/508 kB | 296 kB | 162 kB | 208/209 kB
+Progress (4): 376/508 kB | 296 kB | 162 kB | 209 kB    
+Progress (4): 380/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 384/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 389/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 393/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 397/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 401/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 405/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 409/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 413/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 417/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 421/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 425/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 430/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 434/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 438/508 kB | 296 kB | 162 kB | 209 kB
+Progress (4): 442/508 kB | 296 kB | 162 kB | 209 kB
+                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/10.0.0-alpha0/jetty-io-10.0.0-alpha0.jar (162 kB at 109 kB/s)
+Progress (3): 446/508 kB | 296 kB | 209 kB
+Progress (3): 450/508 kB | 296 kB | 209 kB
+Progress (3): 454/508 kB | 296 kB | 209 kB
+Progress (3): 458/508 kB | 296 kB | 209 kB
+Progress (3): 462/508 kB | 296 kB | 209 kB
+Progress (3): 466/508 kB | 296 kB | 209 kB
+Progress (3): 470/508 kB | 296 kB | 209 kB
+Progress (3): 475/508 kB | 296 kB | 209 kB
+Progress (3): 479/508 kB | 296 kB | 209 kB
+Progress (3): 483/508 kB | 296 kB | 209 kB
+Progress (3): 487/508 kB | 296 kB | 209 kB
+Progress (3): 491/508 kB | 296 kB | 209 kB
+Progress (3): 495/508 kB | 296 kB | 209 kB
+Progress (3): 499/508 kB | 296 kB | 209 kB
+Progress (3): 503/508 kB | 296 kB | 209 kB
+Progress (3): 507/508 kB | 296 kB | 209 kB
+Progress (3): 508 kB | 296 kB | 209 kB    
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.2/jetty-servlet-api-4.0.2.jar (296 kB at 187 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/10.0.0-alpha0/jetty-http-10.0.0-alpha0.jar (209 kB at 130 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/10.0.0-alpha0/jetty-util-10.0.0-alpha0.jar (508 kB at 299 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastjson ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ fastjson ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.commons:commons-lang3:jar:3.4:test
+[INFO]    org.springframework:spring-web:jar:4.3.7.RELEASE:provided
+[INFO]    com.jayway.jsonpath:json-path:jar:2.3.0:test
+[INFO]    org.glassfish.jersey.containers:jersey-container-jdk-http:jar:2.23.2:test
+[INFO]    com.squareup.okio:okio:jar:1.11.0:provided
+[INFO]    org.springframework.data:spring-data-keyvalue:jar:1.2.6.RELEASE:provided
+[INFO]    org.jetbrains.kotlin:kotlin-reflect:jar:1.1.3-2:test
+[INFO]    aopalliance:aopalliance:jar:1.0:test
+[INFO]    com.google.code.gson:gson:jar:2.6.2:test
+[INFO]    org.codehaus.groovy:groovy:jar:2.1.5:test
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:test
+[INFO]    org.eclipse.jetty:jetty-util:jar:10.0.0-alpha0:test
+[INFO]    org.springframework:spring-core:jar:4.3.7.RELEASE:provided
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.7:test
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.23.2:provided
+[INFO]    org.eclipse.jetty:jetty-http:jar:10.0.0-alpha0:test
+[INFO]    org.springframework:spring-expression:jar:4.3.7.RELEASE:provided
+[INFO]    org.eclipse.jetty:jetty-xml:jar:8.1.8.v20121106:test
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1.1:test
+[INFO]    org.ow2.asm:asm-analysis:jar:4.0:test
+[INFO]    org.ow2.asm:asm-util:jar:4.0:test
+[INFO]    org.springframework.data:spring-data-commons-core:jar:1.4.1.RELEASE:test
+[INFO]    org.springframework:spring-beans:jar:4.3.7.RELEASE:provided
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.23.2:provided
+[INFO]    commons-logging:commons-logging:jar:1.1.1:provided
+[INFO]    org.springframework:spring-context-support:jar:4.3.10.RELEASE:provided
+[INFO]    org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jdk-http:jar:2.23.2:test
+[INFO]    org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.3-2:test
+[INFO]    org.springframework:spring-aop:jar:4.3.7.RELEASE:provided
+[INFO]    org.eclipse.jetty:jetty-server:jar:10.0.0-alpha0:test
+[INFO]    org.eclipse.jetty:jetty-io:jar:10.0.0-alpha0:test
+[INFO]    org.springframework.data:spring-data-commons:jar:1.13.6.RELEASE:provided
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:test
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:test
+[INFO]    dom4j:dom4j:jar:1.6.1:test
+[INFO]    io.javaslang:javaslang:jar:2.0.6:provided
+[INFO]    io.springfox:springfox-spring-web:jar:2.6.1:provided
+[INFO]    io.springfox:springfox-core:jar:2.6.1:provided
+[INFO]    com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.0:test
+[INFO]    org.clojure:clojure:jar:1.5.1:test
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.23.2:test
+[INFO]    org.springframework:spring-oxm:jar:4.3.10.RELEASE:provided
+[INFO]    org.ow2.asm:asm-tree:jar:4.0:test
+[INFO]    org.jboss:jandex:jar:2.0.3.Final:test
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:provided
+[INFO]    org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:test
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.23.2:test
+[INFO]    com.squareup.retrofit2:retrofit:jar:2.1.0:provided
+[INFO]    org.apache.commons:commons-collections4:jar:4.1:test
+[INFO]    org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:test
+[INFO]    org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.2:provided
+[INFO]    com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.0:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.23.2:test
+[INFO]    commons-lang:commons-lang:jar:2.5:test
+[INFO]    com.google.guava:guava:jar:18.0:provided
+[INFO]    net.minidev:accessors-smart:jar:1.1:test
+[INFO]    org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:provided
+[INFO]    org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE:provided
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.7:test
+[INFO]    org.jboss.logging:jboss-logging:jar:3.3.0.Final:test
+[INFO]    org.jetbrains:annotations:jar:13.0:test
+[INFO]    com.fasterxml:classmate:jar:1.3.1:provided
+[INFO]    org.eclipse.jetty:jetty-security:jar:8.1.8.v20121106:test
+[INFO]    org.springframework:spring-test:jar:4.3.7.RELEASE:test
+[INFO]    org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.23.2:test
+[INFO]    antlr:antlr:jar:2.7.7:test
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:8.1.8.v20121106:test
+[INFO]    org.apache.cxf:cxf-rt-transports-http:jar:3.1.2:provided
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.25:provided
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.5.0-b05:provided
+[INFO]    org.apache.cxf:cxf-core:jar:3.1.2:provided
+[INFO]    org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.javassist:javassist:jar:3.18.0-GA:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:test
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
+[INFO]    cglib:cglib-nodep:jar:2.2.2:test
+[INFO]    org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided
+[INFO]    org.ow2.asm:asm-commons:jar:4.0:test
+[INFO]    org.ow2.asm:asm-debug-all:jar:5.0.4:test
+[INFO]    org.eclipse.jetty.toolchain:jetty-servlet-api:jar:4.0.2:test
+[INFO]    com.squareup.okhttp3:okhttp:jar:3.6.0:provided
+[INFO]    com.jsoniter:jsoniter:jar:0.9.8:test
+[INFO]    org.springframework:spring-webmvc:jar:4.3.7.RELEASE:provided
+[INFO]    io.springfox:springfox-spi:jar:2.6.1:provided
+[INFO]    org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.23.2:test
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:8.1.8.v20121106:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.0:test
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:provided
+[INFO]    commons-io:commons-io:jar:1.4:test
+[INFO]    org.springframework:spring-websocket:jar:4.3.7.RELEASE:provided
+[INFO]    org.hibernate:hibernate-core:jar:5.2.10.Final:test
+[INFO]    commons-collections:commons-collections:jar:3.2.1:test
+[INFO]    org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:test
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.7:test
+[INFO]    commons-beanutils:commons-beanutils:jar:1.8.0:test
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b05:provided
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:provided
+[INFO]    org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1:provided
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:provided
+[INFO]    org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.23.2:test
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet:jar:2.23.2:test
+[INFO]    org.springframework:spring-messaging:jar:4.3.7.RELEASE:provided
+[INFO]    org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:test
+[INFO]    org.codehaus.woodstox:stax2-api:jar:3.1.4:provided
+[INFO]    net.sf.json-lib:json-lib:jar:jdk15:2.4:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.springframework:spring-tx:jar:4.3.10.RELEASE:provided
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:provided
+[INFO]    io.javaslang:javaslang-match:jar:2.0.6:provided
+[INFO]    net.sf.ezmorph:ezmorph:jar:1.0.6:test
+[INFO]    net.minidev:json-smart:jar:2.2.1:test
+[INFO]    org.ow2.asm:asm:jar:4.0:test
+[INFO]    org.springframework:spring-context:jar:4.3.7.RELEASE:provided
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.23.2:test
+[INFO]    org.apache.cxf:cxf-rt-rs-client:jar:3.1.2:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 169 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/JSON.java:[44,30] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/serializer/AnnotationSerializer.java:[5,30] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/JSON.java:[44,30] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/serializer/AnnotationSerializer.java:[5,30] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/JSON.java:[44,30] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/serializer/AnnotationSerializer.java:[5,30] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/serializer/AnnotationSerializer.java:[25,13] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/serializer/AnnotationSerializer.java:[25,35] sun.reflect.annotation.AnnotationType is internal proprietary API and may be removed in a future release
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/ASMDeserializerFactory.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/ASMDeserializerFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/util/TypeUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/main/java/com/alibaba/fastjson/util/TypeUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fastjson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 91 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ fastjson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2392 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/test/java/com/alibaba/json/bvt/support/jaxrs/mock/testcase/FastJsonProviderTest.java:[15,32] cannot access org.eclipse.jetty.server.Server
+  bad class file: /home/cgzhu/.m2/repository/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.jar(org/eclipse/jetty/server/Server.class)
+    class file has wrong version 55.0, should be 52.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.085 s
+[INFO] Finished at: 2019-08-20T21:13:54+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile) on project fastjson: Compilation failure
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fastjson/src/test/java/com/alibaba/json/bvt/support/jaxrs/mock/testcase/FastJsonProviderTest.java:[15,32] cannot access org.eclipse.jetty.server.Server
+[ERROR]   bad class file: /home/cgzhu/.m2/repository/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.jar(org/eclipse/jetty/server/Server.class)
+[ERROR]     class file has wrong version 55.0, should be 52.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

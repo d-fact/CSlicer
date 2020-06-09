@@ -1,0 +1,86 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/jdeb/org.bouncycastle=bcpg-jdk15on/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jdeb/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jdeb/org.bouncycastle=bcpg-jdk15on/bcpg-jdk15on-1.60.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore org.vafer.jdeb.maven.DebMojo_ESTestJUnit version 4.12
+17:15:26.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.maven.DebMojo_ESTest
+17:15:26.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.maven.DebMojo_ESTest'.
+17:15:26.464 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.maven.DebMojo_ESTest_scaffolding
+17:15:26.464 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.maven.DebMojo_ESTest_scaffolding'.
+17:15:26.466 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.maven.DebMojo_ESTest_scaffolding
+17:15:26.466 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.maven.DebMojo_ESTest
+17:15:26.538 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+17:15:26.539 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+17:15:26.539 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+17:15:26.539 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+17:15:26.539 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+17:15:26.559 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.maven.Data
+17:15:26.559 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.maven.Data'.
+17:15:26.565 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/maven/Data
+17:15:26.657 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/maven/Data
+17:15:26.657 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.DataProducer
+17:15:26.657 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.DataProducer'.
+17:15:26.658 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb, -827534905
+17:15:26.658 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.DataProducer
+17:15:26.658 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.maven.Data
+17:15:26.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.Utils
+17:15:26.659 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.Utils'.
+17:15:26.660 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/utils/Utils
+17:15:26.666 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/utils/Utils
+17:15:26.667 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb.utils, -2010505782
+17:15:26.667 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.Utils
+17:15:26.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.maven.DebMojo
+17:15:26.670 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.maven.DebMojo'.
+17:15:26.671 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/maven/DebMojo
+17:15:26.676 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/maven/DebMojo
+17:15:26.676 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field KEY
+17:15:26.676 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field KEYRING
+17:15:26.676 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PASSPHRASE
+17:15:26.677 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.maven.DebMojo
+17:15:26.678 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.VariableResolver
+17:15:26.678 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.VariableResolver'.
+17:15:26.678 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.VariableResolver
+17:15:26.678 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException
+17:15:26.678 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException'.
+17:15:26.679 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/sonatype/plexus/components/sec/dispatcher/SecDispatcherException
+17:15:26.679 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/sonatype/plexus/components/sec/dispatcher/SecDispatcherException
+17:15:26.679 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.sonatype.plexus.components.sec.dispatcher, -761731050
+17:15:26.680 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException
+17:15:26.680 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.PackagingException
+17:15:26.680 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.PackagingException'.
+17:15:26.680 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/PackagingException
+17:15:26.680 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/PackagingException
+17:15:26.681 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.PackagingException
+17:15:26.681 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.Console
+17:15:26.681 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.Console'.
+17:15:26.681 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.Console
+17:15:26.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveEntry
+17:15:26.682 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveEntry'.
+17:15:26.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers, -1107036461
+17:15:26.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveEntry
+17:15:26.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.maven.DebMojo$1
+17:15:26.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.maven.DebMojo$1'.
+17:15:26.684 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/maven/DebMojo$1
+17:15:26.686 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.maven.DebMojo$1
+17:15:26.686 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipEncoding
+17:15:26.686 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipEncoding'.
+17:15:26.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.zip, -1697835642
+17:15:26.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipEncoding
+17:15:26.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarConstants
+17:15:26.687 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarConstants'.
+17:15:26.688 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.tar, -1697841654
+17:15:26.688 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarConstants
+17:15:26.689 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarArchiveEntry
+17:15:26.689 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarArchiveEntry'.
+17:15:26.691 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarArchiveEntry
+17:15:26.703 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/tar/TarArchiveEntry
+17:15:26.703 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarArchiveEntry
+17:15:26.704 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.DataConsumer
+17:15:26.704 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.DataConsumer'.
+17:15:26.705 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.DataConsumer
+17:15:26.705 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.maven.MissingSourceBehavior
+17:15:26.705 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.maven.MissingSourceBehavior'.
+17:15:26.706 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/maven/MissingSourceBehavior
+17:15:26.706 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/maven/MissingSourceBehavior
+17:15:26.706 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.maven.MissingSourceBehavior
+........
+Time: 0.241
+
+OK (8 tests)
+

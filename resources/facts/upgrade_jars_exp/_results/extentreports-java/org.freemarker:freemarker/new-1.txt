@@ -1,0 +1,63 @@
+[VERSION]: 2.3.29
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.aventstack:extentreports >--------------------
+[INFO] Building ExtentAPI Community Version 3.1.5
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ extentreports ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ extentreports ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.testng:testng:jar:6.9.10:test
+[INFO]    org.freemarker:freemarker:jar:2.3.29:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    org.jsoup:jsoup:jar:1.9.2:compile
+[INFO]    com.beust:jcommander:jar:1.48:test
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.0:compile
+[INFO]    org.mongodb:mongodb-driver:jar:3.3.0:compile
+[INFO]    org.mongodb:mongodb-driver-core:jar:3.3.0:compile
+[INFO]    org.mongodb:bson:jar:3.3.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ extentreports ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ extentreports ---
+[INFO] Compiling 92 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ extentreports ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ extentreports ---
+[INFO] Compiling 47 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ extentreports ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5c8da962
+Tests run: 157, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.46 sec
+
+Results :
+
+Tests run: 157, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.372 s
+[INFO] Finished at: 2019-08-20T20:11:41+08:00
+[INFO] ------------------------------------------------------------------------

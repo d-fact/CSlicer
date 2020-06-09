@@ -1,0 +1,79 @@
+[VERSION]: 4.5.9
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.github.liyiorg:weixin-popular >------------------
+[INFO] Building weixin-popular 2.8.19
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.pom
+Progress (1): 2.2/5.2 kB
+Progress (1): 5.0/5.2 kB
+Progress (1): 5.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.pom (5.2 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar
+Progress (1): 0.8/42 kB
+Progress (1): 3.5/42 kB
+Progress (1): 4.8/42 kB
+Progress (1): 7.6/42 kB
+Progress (1): 8.9/42 kB
+Progress (1): 12/42 kB 
+Progress (1): 13/42 kB
+Progress (1): 16/42 kB
+Progress (1): 17/42 kB
+Progress (1): 20/42 kB
+Progress (1): 21/42 kB
+Progress (1): 24/42 kB
+Progress (1): 25/42 kB
+Progress (1): 28/42 kB
+Progress (1): 29/42 kB
+Progress (1): 32/42 kB
+Progress (1): 34/42 kB
+Progress (1): 36/42 kB
+Progress (1): 39/42 kB
+Progress (1): 42 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar (42 kB at 58 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ weixin-popular ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ weixin-popular ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.19:compile
+[INFO]    org.json:json:jar:20140107:compile
+[INFO]    com.vdurmont:emoji-java:jar:3.1.3:compile
+[INFO]    com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.9:compile
+[INFO]    com.alibaba:fastjson:jar:1.2.7:compile
+[INFO]    redis.clients:jedis:jar:2.7.3:provided
+[INFO]    commons-logging:commons-logging:jar:1.1.3:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:provided
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.19:provided
+[INFO]    org.apache.commons:commons-pool2:jar:2.3:provided
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+[INFO]    commons-codec:commons-codec:jar:1.6:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ weixin-popular ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ weixin-popular ---
+[INFO] Compiling 545 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ weixin-popular ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ weixin-popular ---
+[INFO] Compiling 8 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ weixin-popular ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.317 s
+[INFO] Finished at: 2019-08-16T00:56:32+08:00
+[INFO] ------------------------------------------------------------------------

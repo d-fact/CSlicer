@@ -1,0 +1,227 @@
+[VERSION]: 2.0.0-alpha0
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------< com.chenlb.mmseg4j:mmseg4j-solr >-------------------
+[INFO] Building mmseg4j-solr 2.4.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mmseg4j-solr ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ mmseg4j-solr ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-expressions:jar:6.0.0:compile
+[INFO]    com.github.ben-manes.caffeine:caffeine:jar:1.0.1:compile
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:9.3.8.v20160314:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.3.2:test
+[INFO]    com.google.protobuf:protobuf-java:jar:2.5.0:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:6.0.0:compile
+[INFO]    org.apache.solr:solr-solrj:jar:6.0.0:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.3.8.v20160314:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:6.0.0:compile
+[INFO]    com.chenlb.mmseg4j:mmseg4j-core:jar:1.10.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.5.4:compile
+[INFO]    jdk.tools:jdk.tools:jar:1.6:system
+[INFO]    org.eclipse.jetty:jetty-rewrite:jar:9.3.8.v20160314:compile
+[INFO]    org.apache.lucene:lucene-join:jar:6.0.0:compile
+[INFO]    org.apache.lucene:lucene-sandbox:jar:6.0.0:compile
+[INFO]    org.apache.hadoop:hadoop-common:jar:2.6.0:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.1.3:test
+[INFO]    org.apache.lucene:lucene-analyzers-kuromoji:jar:6.0.0:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.4:compile
+[INFO]    org.restlet.jee:org.restlet.ext.servlet:jar:2.3.0:compile
+[INFO]    org.apache.ant:ant:jar:1.8.2:test
+[INFO]    org.apache.lucene:lucene-memory:jar:6.0.0:compile
+[INFO]    commons-io:commons-io:jar:2.4:compile
+[INFO]    org.restlet.jee:org.restlet:jar:2.3.0:compile
+[INFO]    com.tdunning:t-digest:jar:3.1:compile
+[INFO]    commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[INFO]    org.apache.lucene:lucene-grouping:jar:6.0.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.4.1:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.7:test
+[INFO]    org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.4.1:compile
+[INFO]    org.apache.hadoop:hadoop-annotations:jar:2.6.0:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:6.0.0:compile
+[INFO]    org.eclipse.jetty:jetty-deploy:jar:9.3.8.v20160314:compile
+[INFO]    org.apache.lucene:lucene-test-framework:jar:6.0.0:test
+[INFO]    org.apache.lucene:lucene-backward-codecs:jar:6.0.0:compile
+[INFO]    dom4j:dom4j:jar:1.6.1:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.3.8.v20160314:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.3.8.v20160314:compile
+[INFO]    com.facebook.presto:presto-parser:jar:0.122:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.7:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile
+[INFO]    commons-configuration:commons-configuration:jar:1.6:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.1.3:test
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.3.8.v20160314:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.3.8.v20160314:compile
+[INFO]    org.apache.lucene:lucene-analyzers-phonetic:jar:6.0.0:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:6.0.0:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.htrace:htrace-core:jar:3.0.4:compile
+[INFO]    org.apache.solr:solr-test-framework:jar:6.0.0:test
+[INFO]    com.carrotsearch.randomizedtesting:junit4-ant:jar:2.3.2:test
+[INFO]    org.apache.lucene:lucene-queries:jar:6.0.0:compile
+[INFO]    io.airlift:slice:jar:0.10:compile
+[INFO]    org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+[INFO]    org.apache.lucene:lucene-core:jar:6.0.0:compile
+[INFO]    org.apache.commons:commons-exec:jar:1.3:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.3.8.v20160314:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.3.8.v20160314:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    com.google.guava:guava:jar:14.0.1:compile
+[INFO]    org.apache.hadoop:hadoop-auth:jar:2.6.0:compile
+[INFO]    org.apache.hadoop:hadoop-hdfs:jar:2.6.0:compile
+[INFO]    org.apache.lucene:lucene-spatial-extras:jar:6.0.0:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO]    org.apache.solr:solr-core:jar:6.0.0:compile
+[INFO]    org.eclipse.jetty:jetty-jmx:jar:9.3.8.v20160314:compile
+[INFO]    org.locationtech.spatial4j:spatial4j:jar:0.6:compile
+[INFO]    joda-time:joda-time:jar:2.2:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.3.8.v20160314:compile
+[INFO]    org.ow2.asm:asm-commons:jar:5.0.4:compile
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:6.0.0:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.apache.lucene:lucene-codecs:jar:6.0.0:compile
+[INFO]    org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.2:compile
+[INFO]    org.eclipse.jetty:jetty-servlets:jar:9.3.8.v20160314:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.7:test
+[INFO]    org.noggit:noggit:jar:0.6:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.7:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mmseg4j-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ mmseg4j-solr ---
+[INFO] Compiling 11 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mmseg4j-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ mmseg4j-solr ---
+[INFO] Compiling 4 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ mmseg4j-solr ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.chenlb.mmseg4j.solr.MMSegTokenizerFactoryTest
+Creating dataDir: /tmp/com.chenlb.mmseg4j.solr.MMSegTokenizerFactoryTest_348CC465C6827600-001/init-core-data-001
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getDefalutPath
+INFO: look up in mmseg.dic.path=null
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getDefalutPath
+INFO: look up in classpath=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getDefalutPath
+WARNING: defalut dic path=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data not exist
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadDic
+INFO: chars loaded time=20ms, line=12638, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/chars.dic
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadWord
+INFO: words loaded time=77ms, line=149853, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/words.dic
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadDic
+INFO: load all dic use time=99ms
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadUnit
+INFO: unit loaded time=0ms, line=22, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/units.dic
+01:51:13.147 [SUITE-MMSegTokenizerFactoryTest-seed#[348CC465C6827600]-worker] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.151 [SUITE-MMSegTokenizerFactoryTest-seed#[348CC465C6827600]-worker] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadDic
+INFO: chars loaded time=4ms, line=12638, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/chars.dic
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadWord
+INFO: words loaded time=42ms, line=149853, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/words.dic
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadWord
+INFO: words loaded time=0ms, line=1, on file=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic/words-test-my.dic
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadDic
+INFO: load all dic use time=50ms
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary loadUnit
+INFO: unit loaded time=0ms, line=22, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/units.dic
+01:51:13.207 [SUITE-MMSegTokenizerFactoryTest-seed#[348CC465C6827600]-worker] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic/
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.209 [SUITE-MMSegTokenizerFactoryTest-seed#[348CC465C6827600]-worker] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.210 [SUITE-MMSegTokenizerFactoryTest-seed#[348CC465C6827600]-worker] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic
+01:51:13.211 [SUITE-MMSegTokenizerFactoryTest-seed#[348CC465C6827600]-worker] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic/
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.789 [coreLoadExecutor-6-thread-1] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.791 [coreLoadExecutor-6-thread-1] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic
+01:51:13.793 [coreLoadExecutor-6-thread-1] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic/
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.794 [coreLoadExecutor-6-thread-1] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+01:51:13.795 [coreLoadExecutor-6-thread-1] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Agu 14, 2019 10:51:13 PM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic
+01:51:13.797 [coreLoadExecutor-6-thread-1] INFO  c.c.m.solr.MMSegTokenizerFactory(67) - dic load... in=file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mmseg4j-solr/target/test-classes/solr/mmseg4j_core/my-ext-dic/
+01:51:14.024 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactoryTest(52) - assert TokenizerFactory field type=textSimple
+01:51:14.101 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactory(29) - create new Seg ...
+01:51:14.102 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactory(33) - use simple mode
+01:51:14.472 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactoryTest(52) - assert TokenizerFactory field type=textComplex
+01:51:14.473 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactory(29) - create new Seg ...
+01:51:14.474 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactory(36) - use complex mode
+01:51:14.682 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactoryTest(52) - assert TokenizerFactory field type=textMaxWord
+01:51:14.683 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactory(29) - create new Seg ...
+01:51:14.683 [TEST-MMSegTokenizerFactoryTest.test_mmseg4j-seed#[348CC465C6827600]] INFO  c.c.m.solr.MMSegTokenizerFactory(39) - use max-word mode
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.413 sec - in com.chenlb.mmseg4j.solr.MMSegTokenizerFactoryTest
+Running com.chenlb.mmseg4j.analysis.AnalyzerTest
+Aug 15, 2019 1:51:14 AM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Aug 15, 2019 1:51:14 AM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Aug 15, 2019 1:51:14 AM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Aug 15, 2019 1:51:14 AM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.chenlb.mmseg4j.analysis.AnalyzerTest
+Running com.chenlb.mmseg4j.analysis.CutLetterDigitFilterTest
+Aug 15, 2019 1:51:14 AM com.chenlb.mmseg4j.Dictionary getInstance
+INFO: try to load dir=
+Aug 15, 2019 1:51:14 AM com.chenlb.mmseg4j.Dictionary loadDic
+INFO: chars loaded time=11ms, line=12638, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/chars.dic
+Aug 15, 2019 1:51:15 AM com.chenlb.mmseg4j.Dictionary loadWord
+INFO: words loaded time=50ms, line=149853, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/words.dic
+Aug 15, 2019 1:51:15 AM com.chenlb.mmseg4j.Dictionary loadDic
+INFO: load all dic use time=63ms
+Aug 15, 2019 1:51:15 AM com.chenlb.mmseg4j.Dictionary loadUnit
+INFO: unit loaded time=0ms, line=22, on file=file:/home/cgzhu/.m2/repository/com/chenlb/mmseg4j/mmseg4j-core/1.10.0/mmseg4j-core-1.10.0.jar!/data/units.dic
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in com.chenlb.mmseg4j.analysis.CutLetterDigitFilterTest
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.011 s
+[INFO] Finished at: 2019-08-15T01:51:15+08:00
+[INFO] ------------------------------------------------------------------------

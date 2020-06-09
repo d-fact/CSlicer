@@ -1,0 +1,273 @@
+[VERSION]: 1.47
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.corundumstudio.socketio:netty-socketio >-------------
+[INFO] Building NettySocketIO 1.7.15
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.47/jmockit-1.47.pom
+Progress (1): 2.2/9.7 kB
+Progress (1): 5.0/9.7 kB
+Progress (1): 7.8/9.7 kB
+Progress (1): 9.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.47/jmockit-1.47.pom (9.7 kB at 9.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.47/jmockit-1.47.jar
+Progress (1): 2.2/717 kB
+Progress (1): 5.0/717 kB
+Progress (1): 7.7/717 kB
+Progress (1): 10/717 kB 
+Progress (1): 13/717 kB
+Progress (1): 16/717 kB
+Progress (1): 19/717 kB
+Progress (1): 21/717 kB
+Progress (1): 24/717 kB
+Progress (1): 27/717 kB
+Progress (1): 30/717 kB
+Progress (1): 32/717 kB
+Progress (1): 36/717 kB
+Progress (1): 40/717 kB
+Progress (1): 45/717 kB
+Progress (1): 49/717 kB
+Progress (1): 53/717 kB
+Progress (1): 57/717 kB
+Progress (1): 61/717 kB
+Progress (1): 65/717 kB
+Progress (1): 69/717 kB
+Progress (1): 73/717 kB
+Progress (1): 77/717 kB
+Progress (1): 81/717 kB
+Progress (1): 85/717 kB
+Progress (1): 90/717 kB
+Progress (1): 94/717 kB
+Progress (1): 98/717 kB
+Progress (1): 102/717 kB
+Progress (1): 106/717 kB
+Progress (1): 110/717 kB
+Progress (1): 114/717 kB
+Progress (1): 118/717 kB
+Progress (1): 122/717 kB
+Progress (1): 126/717 kB
+Progress (1): 131/717 kB
+Progress (1): 135/717 kB
+Progress (1): 139/717 kB
+Progress (1): 143/717 kB
+Progress (1): 147/717 kB
+Progress (1): 151/717 kB
+Progress (1): 155/717 kB
+Progress (1): 159/717 kB
+Progress (1): 163/717 kB
+Progress (1): 167/717 kB
+Progress (1): 171/717 kB
+Progress (1): 176/717 kB
+Progress (1): 180/717 kB
+Progress (1): 184/717 kB
+Progress (1): 188/717 kB
+Progress (1): 192/717 kB
+Progress (1): 196/717 kB
+Progress (1): 200/717 kB
+Progress (1): 204/717 kB
+Progress (1): 208/717 kB
+Progress (1): 212/717 kB
+Progress (1): 217/717 kB
+Progress (1): 221/717 kB
+Progress (1): 225/717 kB
+Progress (1): 229/717 kB
+Progress (1): 233/717 kB
+Progress (1): 237/717 kB
+Progress (1): 241/717 kB
+Progress (1): 245/717 kB
+Progress (1): 249/717 kB
+Progress (1): 253/717 kB
+Progress (1): 258/717 kB
+Progress (1): 262/717 kB
+Progress (1): 266/717 kB
+Progress (1): 270/717 kB
+Progress (1): 274/717 kB
+Progress (1): 278/717 kB
+Progress (1): 282/717 kB
+Progress (1): 286/717 kB
+Progress (1): 290/717 kB
+Progress (1): 294/717 kB
+Progress (1): 298/717 kB
+Progress (1): 303/717 kB
+Progress (1): 307/717 kB
+Progress (1): 311/717 kB
+Progress (1): 315/717 kB
+Progress (1): 319/717 kB
+Progress (1): 323/717 kB
+Progress (1): 327/717 kB
+Progress (1): 331/717 kB
+Progress (1): 335/717 kB
+Progress (1): 339/717 kB
+Progress (1): 344/717 kB
+Progress (1): 348/717 kB
+Progress (1): 352/717 kB
+Progress (1): 356/717 kB
+Progress (1): 360/717 kB
+Progress (1): 364/717 kB
+Progress (1): 368/717 kB
+Progress (1): 372/717 kB
+Progress (1): 376/717 kB
+Progress (1): 380/717 kB
+Progress (1): 384/717 kB
+Progress (1): 389/717 kB
+Progress (1): 393/717 kB
+Progress (1): 397/717 kB
+Progress (1): 401/717 kB
+Progress (1): 405/717 kB
+Progress (1): 409/717 kB
+Progress (1): 413/717 kB
+Progress (1): 417/717 kB
+Progress (1): 421/717 kB
+Progress (1): 425/717 kB
+Progress (1): 430/717 kB
+Progress (1): 434/717 kB
+Progress (1): 438/717 kB
+Progress (1): 442/717 kB
+Progress (1): 446/717 kB
+Progress (1): 450/717 kB
+Progress (1): 454/717 kB
+Progress (1): 458/717 kB
+Progress (1): 462/717 kB
+Progress (1): 466/717 kB
+Progress (1): 470/717 kB
+Progress (1): 475/717 kB
+Progress (1): 479/717 kB
+Progress (1): 483/717 kB
+Progress (1): 487/717 kB
+Progress (1): 491/717 kB
+Progress (1): 495/717 kB
+Progress (1): 499/717 kB
+Progress (1): 503/717 kB
+Progress (1): 507/717 kB
+Progress (1): 511/717 kB
+Progress (1): 516/717 kB
+Progress (1): 520/717 kB
+Progress (1): 524/717 kB
+Progress (1): 528/717 kB
+Progress (1): 532/717 kB
+Progress (1): 536/717 kB
+Progress (1): 540/717 kB
+Progress (1): 544/717 kB
+Progress (1): 548/717 kB
+Progress (1): 552/717 kB
+Progress (1): 557/717 kB
+Progress (1): 561/717 kB
+Progress (1): 565/717 kB
+Progress (1): 569/717 kB
+Progress (1): 573/717 kB
+Progress (1): 577/717 kB
+Progress (1): 581/717 kB
+Progress (1): 585/717 kB
+Progress (1): 589/717 kB
+Progress (1): 593/717 kB
+Progress (1): 597/717 kB
+Progress (1): 602/717 kB
+Progress (1): 606/717 kB
+Progress (1): 610/717 kB
+Progress (1): 614/717 kB
+Progress (1): 618/717 kB
+Progress (1): 622/717 kB
+Progress (1): 626/717 kB
+Progress (1): 630/717 kB
+Progress (1): 634/717 kB
+Progress (1): 638/717 kB
+Progress (1): 643/717 kB
+Progress (1): 647/717 kB
+Progress (1): 651/717 kB
+Progress (1): 655/717 kB
+Progress (1): 659/717 kB
+Progress (1): 663/717 kB
+Progress (1): 667/717 kB
+Progress (1): 671/717 kB
+Progress (1): 675/717 kB
+Progress (1): 679/717 kB
+Progress (1): 683/717 kB
+Progress (1): 688/717 kB
+Progress (1): 692/717 kB
+Progress (1): 696/717 kB
+Progress (1): 700/717 kB
+Progress (1): 704/717 kB
+Progress (1): 708/717 kB
+Progress (1): 712/717 kB
+Progress (1): 716/717 kB
+Progress (1): 717 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jmockit/jmockit/1.47/jmockit-1.47.jar (717 kB at 559 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ netty-socketio ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ netty-socketio ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO]    com.eclipsesource.minimal-json:minimal-json:jar:0.9.2:provided
+[INFO]    io.netty:netty-resolver:jar:4.1.25.Final:compile
+[INFO]    com.hazelcast:hazelcast-client:jar:3.4.3:provided
+[INFO]    org.jodd:jodd-core:jar:3.7.1:provided
+[INFO]    com.hazelcast:hazelcast:jar:3.4.3:provided
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    io.projectreactor:reactor-core:jar:2.0.8.RELEASE:provided
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.8.11:provided
+[INFO]    org.springframework:spring-beans:jar:5.1.9.RELEASE:provided
+[INFO]    org.springframework:spring-core:jar:5.1.9.RELEASE:provided
+[INFO]    org.springframework:spring-jcl:jar:5.1.9.RELEASE:provided
+[INFO]    io.netty:netty-resolver-dns:jar:4.1.24.Final:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile
+[INFO]    io.netty:netty-codec:jar:4.1.25.Final:compile
+[INFO]    net.sourceforge.findbugs:annotations:jar:1.3.2:provided
+[INFO]    org.jmockit:jmockit:jar:1.47:test
+[INFO]    io.netty:netty-handler:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-transport-native-unix-common:jar:4.1.25.Final:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.21:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:provided
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+[INFO]    org.redisson:redisson:jar:2.12.0:provided
+[INFO]    org.reactivestreams:reactive-streams:jar:1.0.0:provided
+[INFO]    io.netty:netty-transport:jar:4.1.25.Final:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    io.projectreactor:reactor-stream:jar:2.0.8.RELEASE:provided
+[INFO]    io.netty:netty-transport-native-epoll:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-codec-dns:jar:4.1.24.Final:provided
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.9:provided
+[INFO]    io.netty:netty-buffer:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-common:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-codec-http:jar:4.1.25.Final:compile
+[INFO]    javax.cache:cache-api:jar:1.0.0:provided
+[INFO]    org.jodd:jodd-bean:jar:3.7.1:provided
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ netty-socketio ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ netty-socketio ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 100 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/JacksonJsonSupport.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/JacksonJsonSupport.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/JacksonJsonSupport.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/Packet.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/Packet.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ netty-socketio ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ netty-socketio ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/parser/DecoderJsonPacketTest.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/parser/DecoderJsonPacketTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/JoinIteratorsTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/JoinIteratorsTest.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/JoinIteratorsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ netty-socketio ---
+[INFO] Tests are skipped.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.597 s
+[INFO] Finished at: 2019-08-16T01:16:04+08:00
+[INFO] ------------------------------------------------------------------------

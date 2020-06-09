@@ -1,0 +1,18 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/restheart/org.mongodb=mongodb-driver/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/restheart/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/restheart/org.mongodb=mongodb-driver/mongodb-driver-3.11.0.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore org.restheart.Shutdowner_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+...18:46:30.952 [pool-1-thread-1] [34mINFO [0;39m org.restheart.Shutdowner - Shutting down the RESTHeart instance run with configuration file /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/-0help
+.18:46:33.950 [Time-limited test] [34mINFO [0;39m org.restheart.Shutdowner - usage: java -cp restheart.jar org.restheart.Shutdowner [configuration file].
+18:46:33.950 [Time-limited test] [34mINFO [0;39m org.restheart.Shutdowner - shutdown --help		prints this help message and exits.
+18:46:33.950 [Time-limited test] [34mINFO [0;39m org.restheart.Shutdowner - shutdown			shutdown the RESTHeart instance run without specifying the configuration file.
+18:46:33.950 [Time-limited test] [34mINFO [0;39m org.restheart.Shutdowner - shutdown restheart.yml	shutdown the RESTHeart instance run with the restheart.yml configuration file.
+18:46:33.950 [Time-limited test] [34mINFO [0;39m org.restheart.Shutdowner - NOTE: shutdown is not supported on windows.
+.18:46:33.956 [pool-1-thread-1] [34mINFO [0;39m org.restheart.Shutdowner - Shutting down the RESTHeart instance run without configuration file
+
+Time: 3.232
+
+OK (5 tests)
+

@@ -1,0 +1,248 @@
+[VERSION]: 10.0.0-alpha0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.flaptor.indextank:indextank-engine >---------------
+[INFO] Building indextank-engine 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ indextank-engine ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ indextank-engine ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.eclipse.jetty:jetty-io:jar:7.4.5.v20110725:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:3.0.1:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:7.4.5.v20110725:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:3.0.1:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:7.4.5.v20110725:compile
+[INFO]    org.apache.lucene:lucene-core:jar:3.0.1:compile
+[INFO]    org.antlr:antlr:jar:3.4:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:7.4.5.v20110725:compile
+[INFO]    com.google.guava:guava:jar:10.0.1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.6.4:compile
+[INFO]    antlr:antlr:jar:2.7.7:compile
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.6.4:compile
+[INFO]    org.antlr:stringtemplate:jar:3.2.1:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:7.4.5.v20110725:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:7.4.5.v20110725:compile
+[INFO]    com.ghosthack:turismo:jar:0.1.0:compile
+[INFO]    log4j:log4j:jar:1.2.16:compile
+[INFO]    org.apache.cassandra.deps:libthrift:jar:0.5.0:compile
+[INFO]    org.apache.lucene:lucene-snowball:jar:3.0.1:compile
+[INFO]    org.apache.lucene:lucene-analyzers:jar:3.0.1:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:3.0.1:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:compile
+[INFO]    org.antlr:ST4:jar:4.0.4:compile
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.eclipse.jetty:jetty-http:jar:7.4.5.v20110725:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    org.apache.commons:commons-lang3:jar:3.1:compile
+[INFO]    org.antlr:antlr-runtime:jar:3.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.4:antlr (default) @ indextank-engine ---
+[INFO] ANTLR: Processing source directory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/antlr3
+ANTLR Parser Generator  Version 3.4
+com/flaptor/indextank/index/scorer/parser/ScoreFormula.g
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.5:add-source (add-source) @ indextank-engine ---
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/gen-java added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/flaptor-util added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/lucene-experimental added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/cojen-2.2.1-sources added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/embedded-api added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ indextank-engine ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ indextank-engine ---
+[INFO] Compiling 335 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ indextank-engine ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ indextank-engine ---
+[INFO] Compiling 27 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ indextank-engine ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.flaptor.indextank.query.IndexEngineParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec
+Running com.flaptor.indextank.suggest.NewPopularityIndexTest
+INFO  [main] com.flaptor.indextank.suggest.NewPopularityIndex - [Dumping PopularityIndex terms file.] 2019-08-16 00:52:58,578
+INFO  [main] com.flaptor.indextank.suggest.NewPopularityIndex - [PopularityIndex dumped to disk.] 2019-08-16 00:52:58,579
+INFO  [main] com.flaptor.indextank.suggest.NewPopularityIndex - [Loading popularity index terms from disk.] 2019-08-16 00:52:58,579
+INFO  [main] com.flaptor.indextank.suggest.NewPopularityIndex - [Terms loaded] 2019-08-16 00:52:58,580
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.flaptor.indextank.storage.LogStorageTest
+INFO  [main] com.flaptor.indextank.storage.RawLog - [Closing a segment with 2 records] 2019-08-16 00:52:58,601
+INFO  [main] com.flaptor.indextank.storage.RawLog - [Closing a segment with 2 records] 2019-08-16 00:52:58,602
+INFO  [main] com.flaptor.indextank.storage.RawLog - [Closing a segment with 2 records] 2019-08-16 00:52:58,604
+LogRecord(timestamp_ms:1565887978594, index_code:idx, docid:a, deleted:false, fields:{text=some text goes here})
+LogRecord(timestamp_ms:1565887978601, index_code:idx, docid:a, deleted:false, fields:{text=another text goes here})
+INFO  [main] com.flaptor.indextank.storage.RawLog - [Closing a segment with 2 records] 2019-08-16 00:52:58,609
+INFO  [main] com.flaptor.indextank.storage.RawLog - [Closing a segment with 2 records] 2019-08-16 00:52:58,609
+INFO  [main] com.flaptor.indextank.storage.RawLog - [Closing a segment with 2 records] 2019-08-16 00:52:58,610
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.flaptor.indextank.ResultsOrderingTest
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:52:58,645
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:52:58,735
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:52:58,736
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:52:58,833
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:52:58,855
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:52:58,856
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:52:58,860
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:52:58,882
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:52:58,882
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 sec
+Running com.flaptor.indextank.search.TrafficLimitingSearcherTest
+WARN  [Thread-4] com.flaptor.indextank.search.TrafficLimitingSearcher - [Concurrent searches queue length is 1, will wait] 2019-08-16 00:52:59,299
+WARN  [Thread-5] com.flaptor.indextank.search.TrafficLimitingSearcher - [Concurrent searches queue length is 2, will wait] 2019-08-16 00:52:59,400
+WARN  [main] com.flaptor.indextank.search.TrafficLimitingSearcher - [Too many waiting to search, queue length = 3, returning without searching] 2019-08-16 00:52:59,500
+WARN  [main] com.flaptor.indextank.search.TrafficLimitingSearcher - [Throwing InterruptedException: Too many concurrent searches] 2019-08-16 00:52:59,500
+InterruptedException thrown, success
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.61 sec
+Running com.flaptor.indextank.search.SnippetSearcherTest
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:52:59,512
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:52:59,541
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:52:59,544
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Using in-memory storage] 2019-08-16 00:52:59,545
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:52:59,826
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:52:59,849
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:52:59,849
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Using in-memory storage] 2019-08-16 00:52:59,849
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:00,072
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:00,098
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:00,099
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Using in-memory storage] 2019-08-16 00:53:00,099
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:00,100
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:00,124
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:00,124
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Using in-memory storage] 2019-08-16 00:53:00,124
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:00,128
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:00,157
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:00,157
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Using in-memory storage] 2019-08-16 00:53:00,157
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.652 sec
+Running com.flaptor.indextank.blender.BlenderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.flaptor.indextank.index.IndexEngineTest
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:00,173
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:00,200
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:00,200
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,204
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.070s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:00,276
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,288
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.053s. Document count is 10. MaxDoc from 10 to 10] 2019-08-16 00:53:00,341
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:00,350
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:00,375
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:00,376
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,379
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.053s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:00,433
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,438
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.053s. Document count is 10. MaxDoc from 10 to 10] 2019-08-16 00:53:00,492
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,498
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.052s. Document count is 15. MaxDoc from 15 to 15] 2019-08-16 00:53:00,551
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,557
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.052s. Document count is 20. MaxDoc from 20 to 20] 2019-08-16 00:53:00,610
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,616
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.051s. Document count is 25. MaxDoc from 25 to 25] 2019-08-16 00:53:00,669
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,675
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.052s. Document count is 30. MaxDoc from 30 to 30] 2019-08-16 00:53:00,727
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,733
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.078s. Document count is 33. MaxDoc from 35 to 35] 2019-08-16 00:53:00,811
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,817
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.078s. Document count is 33. MaxDoc from 40 to 40] 2019-08-16 00:53:00,895
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:00,901
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.152s. Document count is 33. MaxDoc from 45 to 45] 2019-08-16 00:53:01,054
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,061
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.101s. Document count is 33. MaxDoc from 50 to 33] 2019-08-16 00:53:01,163
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,170
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.093s. Document count is 33. MaxDoc from 38 to 38] 2019-08-16 00:53:01,263
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,268
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.078s. Document count is 33. MaxDoc from 43 to 43] 2019-08-16 00:53:01,347
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,352
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.070s. Document count is 33. MaxDoc from 48 to 48] 2019-08-16 00:53:01,422
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:01,438
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:01,457
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:01,457
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,459
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.056s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:01,515
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,519
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.055s. Document count is 10. MaxDoc from 10 to 10] 2019-08-16 00:53:01,574
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:01,582
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:01,608
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:01,609
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,611
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.054s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:01,666
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,670
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.055s. Document count is 10. MaxDoc from 10 to 10] 2019-08-16 00:53:01,725
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:01,734
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:01,759
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:01,759
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,763
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.053s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:01,817
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:01,826
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:01,851
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:01,851
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,855
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.063s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:01,918
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:01,924
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [Index recovery configuration set to recover index from simpleDB] 2019-08-16 00:53:01,943
+INFO  [main] com.flaptor.indextank.index.IndexEngine - [NOT Using storage] 2019-08-16 00:53:01,944
+INFO  [main] com.flaptor.indextank.dealer.Dealer - [(Add) attempting switch.] 2019-08-16 00:53:01,946
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.047s. Document count is 5. MaxDoc from 5 to 5] 2019-08-16 00:53:01,993
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.842 sec
+Running com.flaptor.indextank.index.storage.InMemoryStorageTest
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:02,013
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:02,013
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:02,016
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:02,019
+INFO  [main] com.flaptor.indextank.index.storage.InMemoryStorage - [Starting a new(empty) InMemoryStorage.] 2019-08-16 00:53:02,022
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.flaptor.indextank.index.lsi.LargeScaleIndexTest
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:02,026
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.049s. Document count is 1. MaxDoc from 1 to 1] 2019-08-16 00:53:02,102
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.049s. Document count is 12. MaxDoc from 12 to 12] 2019-08-16 00:53:03,111
+INFO  [main] com.flaptor.indextank.index.lsi.LargeScaleIndex - [Starting with a FRESH, BRAND NEW index.] 2019-08-16 00:53:03,114
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.000s. Document count is 0. MaxDoc from 0 to 0] 2019-08-16 00:53:03,137
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.101s. Document count is 12. MaxDoc from 13 to 13] 2019-08-16 00:53:05,462
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.441 sec
+Running com.flaptor.indextank.index.lsi.LsiIndexerTest
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.082s. Document count is 1. MaxDoc from 3 to 3] 2019-08-16 00:53:05,579
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.082s. Document count is 0. MaxDoc from 3 to 3] 2019-08-16 00:53:05,697
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.082s. Document count is 1. MaxDoc from 2 to 2] 2019-08-16 00:53:05,806
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.049s. Document count is 3. MaxDoc from 3 to 3] 2019-08-16 00:53:05,881
+INFO  [main] com.flaptor.indextank.index.lsi.LsiIndex - [Commited index to disk in 0.059s. Document count is 2. MaxDoc from 2 to 2] 2019-08-16 00:53:05,966
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec
+Running com.flaptor.indextank.index.scorer.ScoreMathTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.536 sec
+Running com.flaptor.indextank.index.scorer.CategoryEncoderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.flaptor.indextank.index.scorer.CategoryMaskManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.flaptor.indextank.index.rti.RealTimeIndexQueriesTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.flaptor.indextank.index.rti.RealTimeIndexMarkTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.817 s
+[INFO] Finished at: 2019-08-16T00:53:06+08:00
+[INFO] ------------------------------------------------------------------------

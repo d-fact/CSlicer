@@ -1,0 +1,7 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/secor/org.apache.hadoop=hadoop-common/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/secor/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/secor/org.apache.hadoop=hadoop-common/hadoop-common-2.7.0.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.pinterest.secor.reader.MessageReader_ESTestJUnit version 4.11
+Could not find class: com.pinterest.secor.reader.MessageReader_ESTest
+
+Time: 0.001
+
+OK (0 tests)
+

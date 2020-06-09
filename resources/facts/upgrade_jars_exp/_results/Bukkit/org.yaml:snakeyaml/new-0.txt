@@ -1,0 +1,241 @@
+[VERSION]: 1.25
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bukkit:bukkit:jar:1.7.9-R0.2
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 69, column 32
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< org.bukkit:bukkit >--------------------------
+[INFO] Building Bukkit 1.7.9-R0.2
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom
+Progress (1): 2.2/38 kB
+Progress (1): 5.0/38 kB
+Progress (1): 7.8/38 kB
+Progress (1): 11/38 kB 
+Progress (1): 13/38 kB
+Progress (1): 16/38 kB
+Progress (1): 19/38 kB
+Progress (1): 21/38 kB
+Progress (1): 24/38 kB
+Progress (1): 27/38 kB
+Progress (1): 30/38 kB
+Progress (1): 32/38 kB
+Progress (1): 35/38 kB
+Progress (1): 38 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom (38 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar
+Progress (1): 2.2/303 kB
+Progress (1): 5.0/303 kB
+Progress (1): 7.7/303 kB
+Progress (1): 10/303 kB 
+Progress (1): 13/303 kB
+Progress (1): 16/303 kB
+Progress (1): 19/303 kB
+Progress (1): 21/303 kB
+Progress (1): 24/303 kB
+Progress (1): 27/303 kB
+Progress (1): 30/303 kB
+Progress (1): 32/303 kB
+Progress (1): 36/303 kB
+Progress (1): 40/303 kB
+Progress (1): 45/303 kB
+Progress (1): 49/303 kB
+Progress (1): 53/303 kB
+Progress (1): 57/303 kB
+Progress (1): 61/303 kB
+Progress (1): 65/303 kB
+Progress (1): 69/303 kB
+Progress (1): 73/303 kB
+Progress (1): 77/303 kB
+Progress (1): 81/303 kB
+Progress (1): 85/303 kB
+Progress (1): 90/303 kB
+Progress (1): 94/303 kB
+Progress (1): 98/303 kB
+Progress (1): 102/303 kB
+Progress (1): 106/303 kB
+Progress (1): 110/303 kB
+Progress (1): 114/303 kB
+Progress (1): 118/303 kB
+Progress (1): 122/303 kB
+Progress (1): 126/303 kB
+Progress (1): 131/303 kB
+Progress (1): 135/303 kB
+Progress (1): 139/303 kB
+Progress (1): 143/303 kB
+Progress (1): 147/303 kB
+Progress (1): 151/303 kB
+Progress (1): 155/303 kB
+Progress (1): 159/303 kB
+Progress (1): 163/303 kB
+Progress (1): 167/303 kB
+Progress (1): 171/303 kB
+Progress (1): 176/303 kB
+Progress (1): 180/303 kB
+Progress (1): 184/303 kB
+Progress (1): 188/303 kB
+Progress (1): 192/303 kB
+Progress (1): 196/303 kB
+Progress (1): 200/303 kB
+Progress (1): 204/303 kB
+Progress (1): 208/303 kB
+Progress (1): 212/303 kB
+Progress (1): 217/303 kB
+Progress (1): 221/303 kB
+Progress (1): 225/303 kB
+Progress (1): 229/303 kB
+Progress (1): 233/303 kB
+Progress (1): 237/303 kB
+Progress (1): 241/303 kB
+Progress (1): 245/303 kB
+Progress (1): 249/303 kB
+Progress (1): 253/303 kB
+Progress (1): 258/303 kB
+Progress (1): 262/303 kB
+Progress (1): 266/303 kB
+Progress (1): 270/303 kB
+Progress (1): 274/303 kB
+Progress (1): 278/303 kB
+Progress (1): 282/303 kB
+Progress (1): 286/303 kB
+Progress (1): 290/303 kB
+Progress (1): 294/303 kB
+Progress (1): 298/303 kB
+Progress (1): 303/303 kB
+Progress (1): 303 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar (303 kB at 341 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bukkit ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ bukkit ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    commons-lang:commons-lang:jar:2.3:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    com.google.guava:guava:jar:10.0.1:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.yaml:snakeyaml:jar:1.25:compile
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    org.avaje:ebean:jar:2.7.3:compile
+[INFO]    javax.persistence:persistence-api:jar:1.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ bukkit ---
+[INFO] Compiling 641 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ bukkit ---
+[INFO] Compiling 47 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bukkit ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Bukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.plugin.PluginManagerTest
+Aug 20, 2019 4:12:27 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.028 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.potion.PotionTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 432, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.920 s
+[INFO] Finished at: 2019-08-20T16:12:27+08:00
+[INFO] ------------------------------------------------------------------------

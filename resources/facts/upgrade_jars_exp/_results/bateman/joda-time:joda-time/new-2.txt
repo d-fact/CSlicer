@@ -1,0 +1,136 @@
+[VERSION]: 2.10.3
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.wkh:bateman >---------------------------
+[INFO] Building bateman 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bateman ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ bateman ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    junit:junit:jar:3.8.1:test
+[INFO]    ch.qos.logback:logback-core:jar:1.0.6:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.6.4:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.0.6:compile
+[INFO]    joda-time:joda-time:jar:2.10.3:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.2.3:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.2.2:compile
+[INFO]    commons-codec:commons-codec:jar:1.6:compile
+[INFO]    com.google.guava:guava:jar:14.0.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bateman ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bateman ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/src/main/java/org/wkh/bateman/model/BuyZoneModel.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/src/main/java/org/wkh/bateman/model/BuyZoneModel.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bateman ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bateman ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bateman ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wkh.bateman.model.BuyZoneModelTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running org.wkh.bateman.pso.SimpleParticleSwarmOptimizerTest
+09:19:28.811 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Particle swarm initialized
+09:19:28.814 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 1: best value 0.002174429133049233 at coords [-0.046630774527657515]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 2: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 3: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 4: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 5: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 6: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 7: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 8: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.815 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 9: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 10: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 11: best value 1.690140784861721E-4 at coords [0.013000541468960902]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 12: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 13: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 14: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 15: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 16: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.816 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 17: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 18: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 19: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 20: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 21: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 22: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 23: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 24: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 25: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.817 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 26: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 27: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 28: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 29: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 30: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 31: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 32: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 33: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 34: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.818 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 35: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 36: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 37: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 38: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 39: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 40: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 41: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 42: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 43: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 44: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.819 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 45: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.820 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 46: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.820 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 47: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.820 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 48: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.820 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 49: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+09:19:28.820 [main] INFO  o.w.b.p.SimpleParticleSwarmOptimizer - Generation 50: best value 4.551986888106381E-12 at coords [-2.1335385836929177E-6]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running org.wkh.bateman.trade.SessionTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.wkh.bateman.trade.AssetTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.wkh.bateman.trade.AccountTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.wkh.bateman.trade.RuleTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.wkh.bateman.trade.TradeTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.wkh.bateman.trade.TimeSeriesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.wkh.bateman.trade.MoneyManagementStrategyTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.wkh.bateman.fetch.GoogleQuoteFetcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.wkh.bateman.fetch.YahooQuoteFetcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.wkh.bateman.fetch.QuoteCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.816 s
+[INFO] Finished at: 2019-08-15T09:19:28+08:00
+[INFO] ------------------------------------------------------------------------

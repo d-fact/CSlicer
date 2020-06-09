@@ -1,0 +1,403 @@
+[VERSION]: 3.6.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.commafeed:commafeed >-----------------------
+[INFO] Building CommaFeed 2.5.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commafeed ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ commafeed ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.commons:commons-lang3:jar:3.4:compile
+[INFO]    org.jadira.usertype:usertype.core:jar:4.0.0.GA:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b31:compile
+[INFO]    com.mysema.codegen:codegen:jar:0.6.7:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile
+[INFO]    org.w3c.css:sac:jar:1.3:compile
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+[INFO]    org.jsoup:jsoup:jar:1.8.2:compile
+[INFO]    com.ibm.icu:icu4j:jar:55.1:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-multipart:jar:2.22.1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO]    com.google.inject:guice:jar:4.0:compile
+[INFO]    org.eclipse.jdt.core.compiler:ecj:jar:4.3.1:provided
+[INFO]    org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.22.1:compile
+[INFO]    io.dropwizard.metrics:metrics-jvm:jar:3.1.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:0.6.8:test
+[INFO]    org.jvnet.mimepull:mimepull:jar:1.9.6:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.1:compile
+[INFO]    io.dropwizard.metrics:metrics-json:jar:3.1.2:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.1.3:compile
+[INFO]    io.dropwizard.metrics:metrics-annotation:jar:3.1.2:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.6.1:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:compile
+[INFO]    io.dropwizard:dropwizard-jackson:jar:0.9.1:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.1:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:compile
+[INFO]    commons-io:commons-io:jar:2.4:compile
+[INFO]    com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile
+[INFO]    redis.clients:jedis:jar:2.7.2:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.1:compile
+[INFO]    io.dropwizard.metrics:metrics-servlets:jar:3.1.2:compile
+[INFO]    org.jadira.usertype:usertype.spi:jar:4.0.0.GA:compile
+[INFO]    org.postgresql:postgresql:jar:9.4.1212:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    io.dropwizard:dropwizard-logging:jar:0.9.1:compile
+[INFO]    dom4j:dom4j:jar:1.6.1:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.1:compile
+[INFO]    org.projectlombok:lombok:jar:1.16.4:provided
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.22.1:compile
+[INFO]    com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+[INFO]    org.jdom:jdom2:jar:2.0.6:compile
+[INFO]    io.dropwizard:dropwizard-lifecycle:jar:0.9.1:compile
+[INFO]    org.hibernate:hibernate-core:jar:4.3.11.Final:compile
+[INFO]    mysql:mysql-connector-java:jar:5.1.37:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.1.3:compile
+[INFO]    org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+[INFO]    org.jboss:jandex:jar:1.1.0.Final:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.12:compile
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk7:jar:2.6.3:compile
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO]    com.querydsl:querydsl-codegen:jar:4.0.2:provided
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    net.sourceforge.argparse4j:argparse4j:jar:0.6.0:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.12:compile
+[INFO]    net.sourceforge.jtds:jtds:jar:1.3.1:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    joda-time:joda-time:jar:2.9:compile
+[INFO]    io.dropwizard:dropwizard-db:jar:0.9.1:compile
+[INFO]    org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile
+[INFO]    com.h2database:h2:jar:1.3.176:compile
+[INFO]    com.google.guava:guava:jar:18.0:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.6.3:compile
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.22.1:compile
+[INFO]    io.dropwizard:dropwizard-validation:jar:0.9.1:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.6.3:compile
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b31:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:compile
+[INFO]    io.dropwizard:dropwizard-servlets:jar:0.9.1:compile
+[INFO]    com.google.code.findbugs:annotations:jar:2.0.1:provided
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.1:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.6.3:compile
+[INFO]    com.querydsl:querydsl-core:jar:4.0.2:compile
+[INFO]    org.glassfish.jersey.ext:jersey-metainf-services:jar:2.22.1:compile
+[INFO]    xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO]    com.rometools:rome-opml:jar:1.5.0:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+[INFO]    org.apache.commons:commons-jexl:jar:2.1.1:compile
+[INFO]    org.apache.commons:commons-pool2:jar:2.3:compile
+[INFO]    antlr:antlr:jar:2.7.7:compile
+[INFO]    com.sun.mail:javax.mail:jar:1.5.3:compile
+[INFO]    org.apache.tomcat:tomcat-juli:jar:8.0.28:compile
+[INFO]    org.apache.tomcat:tomcat-jdbc:jar:8.0.28:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.6.3:compile
+[INFO]    com.fasterxml:classmate:jar:1.1.0:compile
+[INFO]    net.sourceforge.cssparser:cssparser:jar:0.9.16:compile
+[INFO]    io.dropwizard.metrics:metrics-jetty9:jar:3.1.2:compile
+[INFO]    com.google.apis:google-api-services-youtube:jar:v3-rev139-1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-util:jar:0.9.1:compile
+[INFO]    com.google.api-client:google-api-client:jar:1.20.0:compile
+[INFO]    io.dropwizard.metrics:metrics-logback:jar:3.1.2:compile
+[INFO]    io.dropwizard:dropwizard-assets:jar:0.9.1:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hibernate4:jar:2.6.3:compile
+[INFO]    org.glassfish:javax.el:jar:3.0.0:compile
+[INFO]    io.swagger:swagger-annotations:jar:1.5.0:compile
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    io.dropwizard:dropwizard-forms:jar:0.9.1:compile
+[INFO]    com.google.oauth-client:google-oauth-client:jar:1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-jetty:jar:0.9.1:compile
+[INFO]    com.rometools:rome-utils:jar:1.5.0:compile
+[INFO]    org.hibernate:hibernate-validator:jar:5.2.2.Final:compile
+[INFO]    org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.3:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.3:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:compile
+[INFO]    com.querydsl:querydsl-jpa:jar:4.0.2:compile
+[INFO]    com.mattbertolini:liquibase-slf4j:jar:1.2.1:compile
+[INFO]    com.rometools:rome:jar:1.5.0:compile
+[INFO]    com.google.http-client:google-http-client:jar:1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-metrics:jar:0.9.1:compile
+[INFO]    io.dropwizard.metrics:metrics-healthchecks:jar:3.1.2:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.6.3:compile
+[INFO]    org.glassfish.jersey.ext:jersey-bean-validation:jar:2.22.1:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+[INFO]    io.dropwizard.metrics:metrics-graphite:jar:3.1.2:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+[INFO]    io.dropwizard:dropwizard-configuration:jar:0.9.1:compile
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.6.3:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b31:compile
+[INFO]    com.infradna.tool:bridge-method-annotation:jar:1.13:compile
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730:compile
+[INFO]    io.dropwizard:dropwizard-migrations:jar:0.9.1:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    io.dropwizard:dropwizard-jersey:jar:0.9.1:compile
+[INFO]    com.google.http-client:google-http-client-jackson2:jar:1.20.0:compile
+[INFO]    io.dropwizard:dropwizard-core:jar:0.9.1:compile
+[INFO]    io.dropwizard:dropwizard-hibernate:jar:0.9.1:compile
+[INFO]    org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:compile
+[INFO]    org.liquibase:liquibase-core:jar:3.4.1:compile
+[INFO]    org.reflections:reflections:jar:0.9.9:provided
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:compile
+[INFO]    com.querydsl:querydsl-apt:jar:hibernate:4.0.2:provided
+[INFO]    io.dropwizard.metrics:metrics-jersey2:jar:3.1.2:compile
+[INFO]    org.mockito:mockito-core:jar:2.0.11-beta:test
+[INFO] 
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.13:revision (default) @ commafeed ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commafeed ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commafeed ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 122 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target/classes
+[INFO] 
+[INFO] --- swagger-maven-plugin:3.1.1:generate (default) @ commafeed ---
+[INFO] Reflections took 51 ms to scan 1 urls, producing 6 keys and 36 values 
+[INFO] Reflections took 4 ms to scan 1 urls, producing 2 keys and 50 values 
+[INFO] Reflections took 3 ms to scan 1 urls, producing 2 keys and 32 values 
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.SubscribeRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.SubscribeRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.FeedInfoRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.FeedInfoRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.FeedModificationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.FeedModificationRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.UserModel
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.UserModel
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.CollapseRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.CollapseRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingMode
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.Long
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in int
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.backend.model.UserSettings$ReadingOrder
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in boolean
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.IDRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.CategoryModificationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.CategoryModificationRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.AddCategoryRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.AddCategoryRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.RegistrationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.RegistrationRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.ProfileModificationRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.ProfileModificationRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.Settings
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.Settings
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.LoginRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.LoginRequest
+[INFO] Looking for path/query/header/form/cookie params in class java.lang.String
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MultipleMarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MultipleMarkRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.TagRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.TagRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.StarRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.StarRequest
+[INFO] Looking for path/query/header/form/cookie params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] trying extension com.github.kongchen.swagger.docgen.jaxrs.BeanParamInjectParamExtention@45c53ffe
+[INFO] Looking for body params in class com.commafeed.frontend.model.request.MarkRequest
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:install-node-and-npm (install node and npm) @ commafeed ---
+[INFO] Node v6.11.4 is already installed.
+[INFO] NPM 3.10.6 is already installed.
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:npm (npm install) @ commafeed ---
+[INFO] Running 'npm install' in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:bower (bower install) @ commafeed ---
+[INFO] Running 'bower install' in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.6:gulp (gulp build) @ commafeed ---
+[INFO] Running 'gulp ' in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed
+[INFO] [19:38:29] Using gulpfile ~/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/gulpfile.js
+[INFO] [19:38:29] Starting 'images'...
+[INFO] [19:38:29] Starting 'i18n'...
+[INFO] [19:38:29] Starting 'resources'...
+[INFO] [19:38:29] Starting 'sass'...
+[INFO] [19:38:29] Starting 'fonts'...
+[INFO] [19:38:29] Starting 'select2'...
+[INFO] [19:38:29] Starting 'swagger-ui'...
+[INFO] [19:38:29] Starting 'template-cache'...
+[INFO] [19:38:29] Finished 'images' after 61 ms
+[INFO] [19:38:29] Finished 'select2' after 63 ms
+[INFO] [19:38:29] Finished 'sass' after 72 ms
+[INFO] [19:38:29] Finished 'fonts' after 79 ms
+[INFO] [19:38:29] Finished 'template-cache' after 84 ms
+[INFO] [19:38:29] Finished 'resources' after 92 ms
+[INFO] [19:38:29] Finished 'i18n' after 98 ms
+[INFO] [19:38:29] Finished 'swagger-ui' after 96 ms
+[INFO] [19:38:29] Starting 'build'...
+[INFO] [19:38:42] Finished 'build' after 12 s
+[INFO] [19:38:42] Starting 'default'...
+[INFO] [19:38:42] Finished 'default' after 3.29 μs
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commafeed ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commafeed ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ commafeed ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/commafeed/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.commafeed.backend.opml.OPMLImporterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.5 sec
+Running com.commafeed.backend.opml.OPMLExporterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running com.commafeed.backend.service.FeedEntryFilteringServiceTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.591 sec
+Running com.commafeed.backend.service.UserServiceTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec
+Running com.commafeed.backend.FixedSizeSortedSetTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.commafeed.backend.feed.FeedUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.commafeed.backend.feed.EstimateDirectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.commafeed.frontend.resource.UserRestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec
+Running com.commafeed.frontend.auth.SecurityCheckFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.commafeed.frontend.session.SessionHelperTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+
+Results :
+
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.294 s
+[INFO] Finished at: 2019-08-14T19:38:44+08:00
+[INFO] ------------------------------------------------------------------------

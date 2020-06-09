@@ -1,0 +1,1149 @@
+[VERSION]: 2.29
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.opentripplanner:otp:jar:1.3.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 224, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.opentripplanner:otp >-----------------------
+[INFO] Building OpenTripPlanner 1.3.0
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.29/jersey-server-2.29.pom
+Progress (1): 2.2/12 kB
+Progress (1): 5.0/12 kB
+Progress (1): 7.8/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.29/jersey-server-2.29.pom (12 kB at 11 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/project/2.29/project-2.29.pom
+Progress (1): 2.2/96 kB
+Progress (1): 5.0/96 kB
+Progress (1): 7.8/96 kB
+Progress (1): 11/96 kB 
+Progress (1): 13/96 kB
+Progress (1): 16/96 kB
+Progress (1): 19/96 kB
+Progress (1): 21/96 kB
+Progress (1): 24/96 kB
+Progress (1): 27/96 kB
+Progress (1): 30/96 kB
+Progress (1): 32/96 kB
+Progress (1): 36/96 kB
+Progress (1): 40/96 kB
+Progress (1): 45/96 kB
+Progress (1): 49/96 kB
+Progress (1): 53/96 kB
+Progress (1): 57/96 kB
+Progress (1): 61/96 kB
+Progress (1): 65/96 kB
+Progress (1): 69/96 kB
+Progress (1): 73/96 kB
+Progress (1): 77/96 kB
+Progress (1): 81/96 kB
+Progress (1): 85/96 kB
+Progress (1): 90/96 kB
+Progress (1): 94/96 kB
+Progress (1): 96 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/project/2.29/project-2.29.pom (96 kB at 128 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-bom/2.5.0/hk2-bom-2.5.0.pom
+Progress (1): 4.1/7.7 kB
+Progress (1): 7.7 kB    
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-bom/2.5.0/hk2-bom-2.5.0.pom (7.7 kB at 19 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.pom
+Progress (1): 2.2/34 kB
+Progress (1): 5.0/34 kB
+Progress (1): 7.8/34 kB
+Progress (1): 11/34 kB 
+Progress (1): 13/34 kB
+Progress (1): 16/34 kB
+Progress (1): 19/34 kB
+Progress (1): 21/34 kB
+Progress (1): 24/34 kB
+Progress (1): 27/34 kB
+Progress (1): 30/34 kB
+Progress (1): 32/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.pom (34 kB at 88 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.pom
+Progress (1): 2.2/35 kB
+Progress (1): 5.0/35 kB
+Progress (1): 7.8/35 kB
+Progress (1): 11/35 kB 
+Progress (1): 13/35 kB
+Progress (1): 16/35 kB
+Progress (1): 19/35 kB
+Progress (1): 21/35 kB
+Progress (1): 24/35 kB
+Progress (1): 27/35 kB
+Progress (1): 30/35 kB
+Progress (1): 32/35 kB
+Progress (1): 35 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.pom (35 kB at 89 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.pom
+Progress (1): 2.2/17 kB
+Progress (1): 5.0/17 kB
+Progress (1): 7.8/17 kB
+Progress (1): 11/17 kB 
+Progress (1): 13/17 kB
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.pom (17 kB at 44 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.4/project-1.0.4.pom
+Progress (1): 2.2/12 kB
+Progress (1): 5.0/12 kB
+Progress (1): 7.8/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.4/project-1.0.4.pom (12 kB at 30 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.pom
+Progress (1): 2.8/5.2 kB
+Progress (1): 5.2 kB    
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.pom (5.2 kB at 14 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/external/2.5.0/external-2.5.0.pom
+Progress (1): 1.5 kB
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/external/2.5.0/external-2.5.0.pom (1.5 kB at 3.9 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-parent/2.5.0/hk2-parent-2.5.0.pom
+Progress (1): 2.2/40 kB
+Progress (1): 5.0/40 kB
+Progress (1): 7.8/40 kB
+Progress (1): 11/40 kB 
+Progress (1): 13/40 kB
+Progress (1): 16/40 kB
+Progress (1): 19/40 kB
+Progress (1): 21/40 kB
+Progress (1): 24/40 kB
+Progress (1): 27/40 kB
+Progress (1): 30/40 kB
+Progress (1): 32/40 kB
+Progress (1): 35/40 kB
+Progress (1): 38/40 kB
+Progress (1): 40 kB   
+                   
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-parent/2.5.0/hk2-parent-2.5.0.pom (40 kB at 102 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.pom
+Progress (1): 2.8/7.4 kB
+Progress (1): 5.5/7.4 kB
+Progress (1): 7.4 kB    
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.pom (7.4 kB at 19 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.pom
+Progress (1): 2.2/6.5 kB
+Progress (1): 5.0/6.5 kB
+Progress (1): 6.5 kB    
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.pom (6.5 kB at 17 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.29/jersey-media-jaxb-2.29.pom
+Progress (1): 2.2/6.0 kB
+Progress (1): 5.0/6.0 kB
+Progress (1): 6.0 kB    
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.29/jersey-media-jaxb-2.29.pom (6.0 kB at 16 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/media/project/2.29/project-2.29.pom
+Progress (1): 2.0 kB
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/media/project/2.29/project-2.29.pom (2.0 kB at 5.3 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.jar
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.29/jersey-server-2.29.jar
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar
+Downloading from central2: https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.jar
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.1/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.2/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (1): 0.3/1.2 MB
+Progress (2): 0.3/1.2 MB | 2.2/19 kB
+Progress (2): 0.3/1.2 MB | 5.0/19 kB
+Progress (2): 0.3/1.2 MB | 7.7/19 kB
+Progress (2): 0.3/1.2 MB | 10/19 kB 
+Progress (2): 0.3/1.2 MB | 13/19 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 2.2/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 5.0/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 7.7/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 10/927 kB 
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (3): 0.3/1.2 MB | 13/19 kB | 13/927 kB
+Progress (4): 0.3/1.2 MB | 13/19 kB | 13/927 kB | 2.2/140 kB
+Progress (4): 0.3/1.2 MB | 13/19 kB | 13/927 kB | 2.2/140 kB
+Progress (4): 0.3/1.2 MB | 13/19 kB | 13/927 kB | 5.0/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 5.0/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 7.7/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 7.7/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 10/140 kB 
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 10/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (4): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 2.2/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 5.0/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 5.0/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 7.7/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 7.7/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 10/219 kB 
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 10/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.4/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 13/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 16/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19/19 kB | 13/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 13/927 kB | 13/140 kB | 13/219 kB   
+Progress (5): 0.5/1.2 MB | 19 kB | 16/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 19/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 21/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 24/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 27/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 30/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.5/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 13/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 16/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 19/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 19/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 19/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 21/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 21/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 21/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 24/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 24/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 24/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 27/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 27/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 30/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 30/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.6/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 13/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 16/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 16/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 16/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 19/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 19/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 19/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 21/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 21/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 21/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 24/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 24/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 24/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 27/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 27/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 27/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 30/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 30/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 30/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.7/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.8/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.8/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.8/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.8/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+Progress (5): 0.8/1.2 MB | 19 kB | 32/927 kB | 32/140 kB | 32/219 kB
+                                                                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar (19 kB at 22 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.29/jersey-media-jaxb-2.29.jar
+Progress (4): 0.8/1.2 MB | 36/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 40/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 45/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 49/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 53/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 57/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 61/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 65/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 69/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 73/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 77/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 32/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 36/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 40/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 45/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 49/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 53/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 57/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 61/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 65/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 69/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 73/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 77/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 32/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 36/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 40/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 45/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 49/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 53/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 57/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 61/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 65/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 69/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 73/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 77/219 kB
+Progress (4): 0.8/1.2 MB | 81/927 kB | 81/140 kB | 81/219 kB
+Progress (4): 0.8/1.2 MB | 85/927 kB | 81/140 kB | 81/219 kB
+Progress (4): 0.8/1.2 MB | 90/927 kB | 81/140 kB | 81/219 kB
+Progress (4): 0.8/1.2 MB | 94/927 kB | 81/140 kB | 81/219 kB
+Progress (5): 0.8/1.2 MB | 94/927 kB | 81/140 kB | 81/219 kB | 2.2/86 kB
+Progress (5): 0.8/1.2 MB | 98/927 kB | 81/140 kB | 81/219 kB | 2.2/86 kB
+Progress (5): 0.8/1.2 MB | 98/927 kB | 81/140 kB | 81/219 kB | 5.0/86 kB
+Progress (5): 0.8/1.2 MB | 98/927 kB | 81/140 kB | 81/219 kB | 7.7/86 kB
+Progress (5): 0.8/1.2 MB | 102/927 kB | 81/140 kB | 81/219 kB | 7.7/86 kB
+Progress (5): 0.8/1.2 MB | 102/927 kB | 81/140 kB | 81/219 kB | 10/86 kB 
+Progress (5): 0.8/1.2 MB | 106/927 kB | 81/140 kB | 81/219 kB | 10/86 kB
+Progress (5): 0.8/1.2 MB | 106/927 kB | 81/140 kB | 81/219 kB | 13/86 kB
+Progress (5): 0.8/1.2 MB | 110/927 kB | 81/140 kB | 81/219 kB | 13/86 kB
+Progress (5): 0.8/1.2 MB | 110/927 kB | 81/140 kB | 81/219 kB | 16/86 kB
+Progress (5): 0.8/1.2 MB | 114/927 kB | 81/140 kB | 81/219 kB | 16/86 kB
+Progress (5): 0.8/1.2 MB | 114/927 kB | 81/140 kB | 81/219 kB | 19/86 kB
+Progress (5): 0.8/1.2 MB | 114/927 kB | 81/140 kB | 81/219 kB | 21/86 kB
+Progress (5): 0.8/1.2 MB | 118/927 kB | 81/140 kB | 81/219 kB | 21/86 kB
+Progress (5): 0.8/1.2 MB | 118/927 kB | 81/140 kB | 81/219 kB | 24/86 kB
+Progress (5): 0.8/1.2 MB | 122/927 kB | 81/140 kB | 81/219 kB | 24/86 kB
+Progress (5): 0.8/1.2 MB | 122/927 kB | 81/140 kB | 81/219 kB | 27/86 kB
+Progress (5): 0.8/1.2 MB | 126/927 kB | 81/140 kB | 81/219 kB | 27/86 kB
+Progress (5): 0.8/1.2 MB | 126/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 131/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 135/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 139/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 143/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 147/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 151/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 155/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 159/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 163/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 167/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 171/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 176/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 180/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 184/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 188/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 192/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 81/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 85/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 90/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 94/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 98/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 102/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 106/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 110/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 114/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 118/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 122/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 126/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 131/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 135/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 139/140 kB | 81/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 81/219 kB | 30/86 kB    
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 85/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 90/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 94/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 98/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 102/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 106/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 110/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 114/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 118/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 122/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 126/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 131/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 135/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 139/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 143/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 147/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 151/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 155/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 159/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 163/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 167/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 171/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 176/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 196/927 kB | 140 kB | 180/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 200/927 kB | 140 kB | 180/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 204/927 kB | 140 kB | 180/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 208/927 kB | 140 kB | 180/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 212/927 kB | 140 kB | 180/219 kB | 30/86 kB
+Progress (5): 0.8/1.2 MB | 212/927 kB | 140 kB | 180/219 kB | 32/86 kB
+Progress (5): 0.8/1.2 MB | 217/927 kB | 140 kB | 180/219 kB | 32/86 kB
+Progress (5): 0.8/1.2 MB | 221/927 kB | 140 kB | 180/219 kB | 32/86 kB
+Progress (5): 0.8/1.2 MB | 225/927 kB | 140 kB | 180/219 kB | 32/86 kB
+Progress (5): 0.8/1.2 MB | 225/927 kB | 140 kB | 180/219 kB | 36/86 kB
+Progress (5): 0.8/1.2 MB | 229/927 kB | 140 kB | 180/219 kB | 36/86 kB
+Progress (5): 0.8/1.2 MB | 229/927 kB | 140 kB | 180/219 kB | 40/86 kB
+Progress (5): 0.8/1.2 MB | 229/927 kB | 140 kB | 180/219 kB | 45/86 kB
+Progress (5): 0.8/1.2 MB | 233/927 kB | 140 kB | 180/219 kB | 45/86 kB
+Progress (5): 0.8/1.2 MB | 233/927 kB | 140 kB | 180/219 kB | 49/86 kB
+Progress (5): 0.8/1.2 MB | 237/927 kB | 140 kB | 180/219 kB | 49/86 kB
+Progress (5): 0.8/1.2 MB | 241/927 kB | 140 kB | 180/219 kB | 49/86 kB
+Progress (5): 0.8/1.2 MB | 245/927 kB | 140 kB | 180/219 kB | 49/86 kB
+Progress (5): 0.8/1.2 MB | 245/927 kB | 140 kB | 180/219 kB | 53/86 kB
+Progress (5): 0.8/1.2 MB | 245/927 kB | 140 kB | 180/219 kB | 57/86 kB
+Progress (5): 0.8/1.2 MB | 249/927 kB | 140 kB | 180/219 kB | 57/86 kB
+Progress (5): 0.8/1.2 MB | 249/927 kB | 140 kB | 180/219 kB | 61/86 kB
+Progress (5): 0.8/1.2 MB | 253/927 kB | 140 kB | 180/219 kB | 61/86 kB
+Progress (5): 0.8/1.2 MB | 253/927 kB | 140 kB | 180/219 kB | 65/86 kB
+Progress (5): 0.8/1.2 MB | 258/927 kB | 140 kB | 180/219 kB | 65/86 kB
+Progress (5): 0.8/1.2 MB | 262/927 kB | 140 kB | 180/219 kB | 65/86 kB
+Progress (5): 0.8/1.2 MB | 262/927 kB | 140 kB | 180/219 kB | 69/86 kB
+Progress (5): 0.8/1.2 MB | 266/927 kB | 140 kB | 180/219 kB | 69/86 kB
+Progress (5): 0.8/1.2 MB | 266/927 kB | 140 kB | 180/219 kB | 73/86 kB
+Progress (5): 0.8/1.2 MB | 270/927 kB | 140 kB | 180/219 kB | 73/86 kB
+Progress (5): 0.8/1.2 MB | 270/927 kB | 140 kB | 180/219 kB | 77/86 kB
+Progress (5): 0.8/1.2 MB | 274/927 kB | 140 kB | 180/219 kB | 77/86 kB
+Progress (5): 0.8/1.2 MB | 274/927 kB | 140 kB | 180/219 kB | 81/86 kB
+Progress (5): 0.8/1.2 MB | 278/927 kB | 140 kB | 180/219 kB | 81/86 kB
+Progress (5): 0.8/1.2 MB | 278/927 kB | 140 kB | 180/219 kB | 85/86 kB
+Progress (5): 0.8/1.2 MB | 278/927 kB | 140 kB | 180/219 kB | 86 kB   
+Progress (5): 0.8/1.2 MB | 282/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 286/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 290/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 294/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 298/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 303/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 307/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 311/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 315/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 319/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 323/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 327/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 331/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 335/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 339/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 344/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 348/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 352/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 356/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 360/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 364/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 368/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 372/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 376/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 376/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 376/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 376/927 kB | 140 kB | 180/219 kB | 86 kB
+Progress (5): 0.8/1.2 MB | 376/927 kB | 140 kB | 180/219 kB | 86 kB
+                                                                   
+Downloaded from central2: https://repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar (140 kB at 106 kB/s)
+Downloading from central2: https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar
+Progress (4): 0.8/1.2 MB | 376/927 kB | 184/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 188/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 192/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 196/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 200/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 204/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 208/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 212/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 217/219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 376/927 kB | 219 kB | 86 kB    
+Progress (4): 0.8/1.2 MB | 380/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 384/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 389/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 393/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 397/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 401/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 401/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 406/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 409/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 413/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 417/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 421/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 425/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 430/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 434/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 438/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 442/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 446/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 450/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 454/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 458/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 462/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 466/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 470/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 475/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 479/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 483/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 487/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 491/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 495/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 499/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 503/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 507/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 511/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 516/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 520/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 524/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 528/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 532/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 536/927 kB | 219 kB | 86 kB
+Progress (4): 0.8/1.2 MB | 540/927 kB | 219 kB | 86 kB
+                                                      
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.29/jersey-media-jaxb-2.29.jar (86 kB at 61 kB/s)
+Progress (3): 0.8/1.2 MB | 544/927 kB | 219 kB
+                                              
+Downloading from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar
+Progress (3): 0.8/1.2 MB | 548/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 552/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 557/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 561/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 565/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 569/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 573/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 577/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 581/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 585/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 589/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 589/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 589/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 589/927 kB | 219 kB
+Progress (3): 0.8/1.2 MB | 589/927 kB | 219 kB
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 4.1/25 kB
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 7.7/25 kB
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 12/25 kB 
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 16/25 kB
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 20/25 kB
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 24/25 kB
+Progress (4): 0.8/1.2 MB | 589/927 kB | 219 kB | 25 kB   
+                                                      
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.jar (219 kB at 143 kB/s)
+Progress (3): 0.8/1.2 MB | 593/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 597/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 602/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 606/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 610/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 614/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 618/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 622/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 626/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 630/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 634/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 638/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 643/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 647/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 651/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 655/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 659/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 663/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 667/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 671/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 675/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 679/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 683/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 688/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 692/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 696/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 700/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 704/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 708/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 712/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 716/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 720/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 724/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 729/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 733/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 737/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 741/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 745/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 749/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 753/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 757/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 761/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 765/927 kB | 25 kB
+Progress (3): 0.8/1.2 MB | 770/927 kB | 25 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 2.2/5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.0/5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB    
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.8/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+Progress (4): 0.9/1.2 MB | 770/927 kB | 25 kB | 5.4 kB
+                                                      
+Downloaded from central2: https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar (25 kB at 15 kB/s)
+Progress (3): 0.9/1.2 MB | 774/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 778/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 782/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 786/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 790/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 794/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 798/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 802/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 806/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 810/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 815/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 819/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 823/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 827/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 831/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 835/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 839/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 843/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 847/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 851/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 856/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 860/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 864/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 868/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 872/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 876/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 880/927 kB | 5.4 kB
+Progress (3): 0.9/1.2 MB | 884/927 kB | 5.4 kB
+                                              
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar (5.4 kB at 3.1 kB/s)
+Progress (2): 0.9/1.2 MB | 884/927 kB
+Progress (2): 0.9/1.2 MB | 884/927 kB
+Progress (2): 0.9/1.2 MB | 884/927 kB
+Progress (2): 0.9/1.2 MB | 884/927 kB
+Progress (2): 0.9/1.2 MB | 888/927 kB
+Progress (2): 0.9/1.2 MB | 892/927 kB
+Progress (2): 0.9/1.2 MB | 896/927 kB
+Progress (2): 0.9/1.2 MB | 901/927 kB
+Progress (2): 0.9/1.2 MB | 905/927 kB
+Progress (2): 0.9/1.2 MB | 909/927 kB
+Progress (2): 0.9/1.2 MB | 913/927 kB
+Progress (2): 0.9/1.2 MB | 917/927 kB
+Progress (2): 0.9/1.2 MB | 921/927 kB
+Progress (2): 0.9/1.2 MB | 925/927 kB
+Progress (2): 0.9/1.2 MB | 927 kB    
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+Progress (2): 0.9/1.2 MB | 927 kB
+                                 
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.29/jersey-server-2.29.jar (927 kB at 445 kB/s)
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 0.9/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.0/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.1/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2/1.2 MB
+Progress (1): 1.2 MB    
+                    
+Downloaded from central2: https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.jar (1.2 MB at 366 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ otp ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ otp ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.amazonaws:aws-java-sdk-sqs:jar:1.9.39:compile
+[INFO]    org.geotools:gt-coverage:jar:10.5:compile
+[INFO]    org.geotools:gt-main:jar:10.5:compile
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.29:compile
+[INFO]    hsqldb:hsqldb:jar:1.8.0.7:compile
+[INFO]    crosby.binary:osmpbf:jar:1.3.4-SNAPSHOT:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.6.v20170531:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO]    net.sourceforge.javacsv:javacsv:jar:2.0:compile
+[INFO]    org.geotools.ogc:org.w3.xlink:jar:10.5:compile
+[INFO]    org.geotools.ogc:net.opengis.ows:jar:10.5:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.0:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:4.7.1:compile
+[INFO]    org.onebusaway:onebusaway-gtfs:jar:1.3.5-conveyal-SNAPSHOT-2:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.6:compile
+[INFO]    org.geotools:gt-geotiff:jar:10.5:compile
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.5.3:compile
+[INFO]    com.google.protobuf:protobuf-java:jar:2.6.1:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.6.1:compile
+[INFO]    org.onebusaway:onebusaway-csv-entities:jar:1.1.5-SNAPSHOT:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    org.apache.lucene:lucene-core:jar:4.7.1:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.6.v20170531:compile
+[INFO]    com.amazonaws:aws-java-sdk-core:jar:1.9.39:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.29:compile
+[INFO]    org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-multipart:jar:2.18:compile
+[INFO]    net.java.dev.jets3t:jets3t:jar:0.8.1:compile
+[INFO]    org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile
+[INFO]    org.glassfish.grizzly:grizzly-http-server:jar:2.3.19:compile
+[INFO]    org.apache.xml:xml-commons-resolver:jar:1.2:compile
+[INFO]    io.opentraffic:traffic-engine:jar:0.2:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.6.v20170531:compile
+[INFO]    com.graphql-java:graphql-java:jar:2.2.0:compile
+[INFO]    javax.media:jai_imageio:jar:1.1:compile
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:4.7.1:compile
+[INFO]    it.geosolutions.imageio-ext:imageio-ext-utilities:jar:1.1.8:compile
+[INFO]    org.processing:core:jar:1.0.7:compile
+[INFO]    org.geotools:gt-graph:jar:10.5:compile
+[INFO]    org.geotools:gt-xml:jar:10.5:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.6:compile
+[INFO]    org.geotools.xsd:gt-xsd-filter:jar:10.5:compile
+[INFO]    com.conveyal:osm-lib:jar:0.1-SNAPSHOT:compile
+[INFO]    commons-io:commons-io:jar:2.1:compile
+[INFO]    org.geotools:gt-shapefile:jar:10.5:compile
+[INFO]    org.antlr:antlr4-runtime:jar:4.5.1:runtime
+[INFO]    org.geotools.xsd:gt-xsd-ows:jar:10.5:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.5.3:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.5.3:compile
+[INFO]    org.apache.axis:axis-jaxrpc:jar:1.4:compile
+[INFO]    org.geotools:gt-grid:jar:16.0:compile
+[INFO]    org.geotools:gt-referencing3D:jar:10.5:compile
+[INFO]    com.beust:jcommander:jar:1.30:compile
+[INFO]    org.antlr:antlr4:jar:4.5.1:runtime
+[INFO]    com.conveyal:jackson2-geojson:jar:0.8:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.17:compile
+[INFO]    org.eclipse.emf:common:jar:2.6.0:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    com.github.ben-manes.caffeine:caffeine:jar:1.2.0:compile
+[INFO]    org.jvnet.mimepull:mimepull:jar:1.9.5:compile
+[INFO]    org.geotools:gt-referencing:jar:10.5:compile
+[INFO]    org.geotools:gt-arcgrid:jar:10.5:compile
+[INFO]    com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.geotools:gt-epsg-hsql:jar:10.5:compile
+[INFO]    org.glassfish.grizzly:grizzly-framework:jar:2.3.19:compile
+[INFO]    javax.xml.stream:stax-api:jar:1.0-2:compile
+[INFO]    org.jaitools:jt-zonalstats:jar:1.3.1:compile
+[INFO]    com.google.guava:guava:jar:18.0:compile
+[INFO]    org.openstreetmap.osmosis:osmosis-osm-binary:jar:0.43.1:compile
+[INFO]    org.apache.commons:commons-csv:jar:1.1:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.0.13:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:jar:2.5.3:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:provided
+[INFO]    org.geotools.ogc:net.opengis.wfs:jar:10.5:compile
+[INFO]    com.conveyal:r5:jar:4.0.0-SNAPSHOT:compile
+[INFO]    net.sf.trove4j:trove4j:jar:3.0.3:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.6.v20170531:compile
+[INFO]    it.geosolutions.imageio-ext:imageio-ext-arcgrid:jar:1.1.8:compile
+[INFO]    org.geotools.xsd:gt-xsd-core:jar:10.5:compile
+[INFO]    org.javassist:javassist:jar:3.19.0-GA:compile
+[INFO]    commons-cli:commons-cli:jar:1.4:compile
+[INFO]    com.vividsolutions:jts:jar:1.13:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.29:compile
+[INFO]    org.geotools.xsd:gt-xsd-gml2:jar:10.5:compile
+[INFO]    com.github.ben-manes.caffeine:tracing-api:jar:1.2.0:compile
+[INFO]    xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO]    javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]    org.postgresql:postgresql:jar:42.0.0:compile
+[INFO]    org.geotools:gt-data:jar:10.5:compile
+[INFO]    org.hamcrest:java-hamcrest:jar:2.0.0.0:compile
+[INFO]    commons-pool:commons-pool:jar:1.5.4:compile
+[INFO]    org.apache.axis:axis:jar:1.4:compile
+[INFO]    net.sf.flexjson:flexjson:jar:2.0:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO]    org.geotools.ogc:net.opengis.fes:jar:10.5:compile
+[INFO]    org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.18:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.6.v20170531:compile
+[INFO]    org.geotools.xsd:gt-xsd-fes:jar:10.5:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-collections:commons-collections:jar:3.1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    org.geotools.xsd:gt-xsd-gml3:jar:10.5:compile
+[INFO]    org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+[INFO]    com.amazonaws:aws-java-sdk-s3:jar:1.9.39:compile
+[INFO]    org.apache.lucene:lucene-sandbox:jar:4.7.1:compile
+[INFO]    org.mapdb:mapdb:jar:1.0.6:compile
+[INFO]    com.conveyal:gtfs-lib:jar:3.0.3:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.5.3:compile
+[INFO]    net.java.dev.jsr-275:jsr-275:jar:1.0-beta-2:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.5.3:compile
+[INFO]    commons-jxpath:commons-jxpath:jar:1.3:compile
+[INFO]    jakarta.annotation:jakarta.annotation-api:jar:1.3.4:compile
+[INFO]    org.eclipse.xsd:xsd:jar:2.6.0:compile
+[INFO]    it.geosolutions.imageio-ext:imageio-ext-tiff:jar:1.1.8:compile
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b12:compile
+[INFO]    commons-codec:commons-codec:jar:1.11:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+[INFO]    de.grundid.opendatalab:geojson-jackson:jar:1.2:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.4.6.v20170531:compile
+[INFO]    org.geotools:gt-wfs:jar:10.5:compile
+[INFO]    commons-discovery:commons-discovery:jar:0.4:compile
+[INFO]    javax.media:jai_core:jar:1.1.3:compile
+[INFO]    jdom:jdom:jar:1.0:compile
+[INFO]    picocontainer:picocontainer:jar:1.2:compile
+[INFO]    io.netty:netty:jar:3.9.2.Final:compile
+[INFO]    org.geotools:gt-api:jar:10.5:compile
+[INFO]    org.geotools:gt-geojson:jar:10.5:compile
+[INFO]    org.apache.commons:commons-dbcp2:jar:2.1.1:compile
+[INFO]    bsf:bsf:jar:2.4.0:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.6.v20170531:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO]    org.geotools:gt-metadata:jar:10.5:compile
+[INFO]    com.amazonaws:aws-java-sdk-ec2:jar:1.9.39:compile
+[INFO]    commons-logging:commons-logging:jar:1.0.4:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.4.6.v20170531:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.glassfish.grizzly:grizzly-http:jar:2.3.19:compile
+[INFO]    ar.com.hjg:pngj:jar:2.0.1:compile
+[INFO]    xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.29:compile
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:4.7.1:compile
+[INFO]    org.eclipse.emf:ecore:jar:2.6.1:compile
+[INFO]    com.amazonaws:aws-java-sdk-kms:jar:1.9.39:compile
+[INFO]    com.ning:async-http-client:jar:1.8.12:compile
+[INFO]    jgridshift:jgridshift:jar:1.0:compile
+[INFO]    org.objenesis:objenesis:jar:2.1:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.6.v20170531:compile
+[INFO]    javax.media:jai_codec:jar:1.1.3:compile
+[INFO]    org.jaitools:jt-utils:jar:1.3.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.5.3:compile
+[INFO]    commons-dbutils:commons-dbutils:jar:1.6:compile
+[INFO]    it.geosolutions.imageio-ext:imageio-ext-streams:jar:1.1.8:compile
+[INFO]    jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.5:compile
+[INFO]    com.sparkjava:spark-core:jar:2.7.1:compile
+[INFO]    joda-time:joda-time:jar:2.10.3:compile
+[INFO]    org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-server:jar:9.4.6.v20170531:compile
+[INFO]    java3d:vecmath:jar:1.3.2:compile
+[INFO]    org.geotools.xsd:gt-xsd-wfs:jar:10.5:compile
+[INFO]    de.ruedigermoeller:fst:jar:2.34:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.6.v20170531:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.0.13:compile
+[INFO]    org.mockito:mockito-all:jar:1.10.19:test
+[INFO]    com.axiomalaska:polyline-encoder:jar:0.1:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.6.v20170531:compile
+[INFO]    commons-httpclient:commons-httpclient:jar:3.1:compile
+[INFO]    org.geotools:gt-opengis:jar:14.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.15:revision (default) @ otp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ otp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 23 resources
+[INFO] Copying 284 resources to client
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ otp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 828 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/analyst/cluster/JobSimulator.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/analyst/cluster/JobSimulator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/index/IndexGraphQLSchema.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/index/IndexGraphQLSchema.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[17,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[18,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/ProfileState.java:[7,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/ProfileState.java:[8,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/CommandLineParameters.java:[6,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/OTPServer.java:[6,43] package org.glassfish.hk2.utilities.binding does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/OTPServer.java:[88,13] cannot find symbol
+  symbol:   class AbstractBinder
+  location: class org.opentripplanner.standalone.OTPServer
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/graph_builder/linking/SimpleStreetSplitter.java:[13,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/SingleProfileStateStore.java:[11,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[119,50] cannot find symbol
+  symbol:   variable Sets
+  location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[270,68] cannot find symbol
+  symbol:   variable Maps
+  location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[304,45] cannot find symbol
+  symbol:   variable Sets
+  location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[387,66] cannot find symbol
+  symbol:   variable Maps
+  location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[399,33] cannot find symbol
+  symbol:   variable Sets
+  location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/CommandLineParameters.java:[168,29] cannot find symbol
+  symbol:   variable Lists
+  location: class org.opentripplanner.standalone.CommandLineParameters
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/OTPServer.java:[89,20] cannot find symbol
+  symbol:   class AbstractBinder
+  location: class org.opentripplanner.standalone.OTPServer
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/graph_builder/linking/SimpleStreetSplitter.java:[251,47] cannot find symbol
+  symbol:   variable Lists
+  location: class org.opentripplanner.graph_builder.linking.SimpleStreetSplitter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/graph_builder/linking/SimpleStreetSplitter.java:[272,42] cannot find symbol
+  symbol:   variable Lists
+  location: class org.opentripplanner.graph_builder.linking.SimpleStreetSplitter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/SingleProfileStateStore.java:[21,53] cannot find symbol
+  symbol:   variable Maps
+  location: class org.opentripplanner.profile.SingleProfileStateStore
+[INFO] 19 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.644 s
+[INFO] Finished at: 2019-08-16T06:24:10+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project otp: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[17,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[18,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/ProfileState.java:[7,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/ProfileState.java:[8,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/CommandLineParameters.java:[6,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/OTPServer.java:[6,43] package org.glassfish.hk2.utilities.binding does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/OTPServer.java:[88,13] cannot find symbol
+[ERROR]   symbol:   class AbstractBinder
+[ERROR]   location: class org.opentripplanner.standalone.OTPServer
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/graph_builder/linking/SimpleStreetSplitter.java:[13,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/SingleProfileStateStore.java:[11,51] package jersey.repackaged.com.google.common.collect does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[119,50] cannot find symbol
+[ERROR]   symbol:   variable Sets
+[ERROR]   location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[270,68] cannot find symbol
+[ERROR]   symbol:   variable Maps
+[ERROR]   location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[304,45] cannot find symbol
+[ERROR]   symbol:   variable Sets
+[ERROR]   location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[387,66] cannot find symbol
+[ERROR]   symbol:   variable Maps
+[ERROR]   location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/RoundBasedProfileRouter.java:[399,33] cannot find symbol
+[ERROR]   symbol:   variable Sets
+[ERROR]   location: class org.opentripplanner.profile.RoundBasedProfileRouter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/CommandLineParameters.java:[168,29] cannot find symbol
+[ERROR]   symbol:   variable Lists
+[ERROR]   location: class org.opentripplanner.standalone.CommandLineParameters
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/standalone/OTPServer.java:[89,20] cannot find symbol
+[ERROR]   symbol:   class AbstractBinder
+[ERROR]   location: class org.opentripplanner.standalone.OTPServer
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/graph_builder/linking/SimpleStreetSplitter.java:[251,47] cannot find symbol
+[ERROR]   symbol:   variable Lists
+[ERROR]   location: class org.opentripplanner.graph_builder.linking.SimpleStreetSplitter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/graph_builder/linking/SimpleStreetSplitter.java:[272,42] cannot find symbol
+[ERROR]   symbol:   variable Lists
+[ERROR]   location: class org.opentripplanner.graph_builder.linking.SimpleStreetSplitter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OpenTripPlanner/src/main/java/org/opentripplanner/profile/SingleProfileStateStore.java:[21,53] cannot find symbol
+[ERROR]   symbol:   variable Maps
+[ERROR]   location: class org.opentripplanner.profile.SingleProfileStateStore
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

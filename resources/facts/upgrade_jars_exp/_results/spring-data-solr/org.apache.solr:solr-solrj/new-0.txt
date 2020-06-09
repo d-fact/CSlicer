@@ -1,0 +1,316 @@
+[VERSION]: 8.2.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< org.springframework.data:spring-data-solr >--------------
+[INFO] Building Spring Data Solr 3.0.7.RELEASE
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spring-data-solr ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.0:list (default-cli) @ spring-data-solr ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework:spring-aop:jar:5.0.6.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-jmx:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.openwebbeans:openwebbeans-se:jar:2.0.5:test
+[INFO]    com.google.protobuf:protobuf-java:jar:3.1.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+[INFO]    org.apache.tika:tika-java7:jar:1.13:test
+[INFO]    org.apache.lucene:lucene-sandbox:jar:6.6.1:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.3.14.v20161028:compile
+[INFO]    org.springframework:spring-expression:jar:5.0.6.RELEASE:compile
+[INFO]    org.apache.solr:solr-solrj:jar:6.6.1:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.6.14:test
+[INFO]    com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:test
+[INFO]    javax.interceptor:javax.interceptor-api:jar:1.2.1:test
+[INFO]    org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:jar:1.0.1:test
+[INFO]    org.apache.curator:curator-client:jar:2.8.0:compile
+[INFO]    org.apache.poi:poi-scratchpad:jar:3.15-beta1:test
+[INFO]    org.apache.pdfbox:pdfbox:jar:2.0.1:test
+[INFO]    com.googlecode.mp4parser:isoparser:jar:1.1.18:test
+[INFO]    javax.enterprise:cdi-api:jar:1.0:provided (optional) 
+[INFO]    com.healthmarketscience.jackcess:jackcess:jar:2.1.3:test
+[INFO]    org.bouncycastle:bcprov-jdk15:jar:1.45:test
+[INFO]    org.tukaani:xz:jar:1.5:test
+[INFO]    org.apache.lucene:lucene-analyzers-kuromoji:jar:6.6.1:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.2.3:test
+[INFO]    org.apache.openwebbeans:openwebbeans-impl:jar:2.0.5:test
+[INFO]    org.apache.hadoop:hadoop-common:jar:2.7.4:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:provided (optional) 
+[INFO]    org.restlet.jee:org.restlet:jar:2.3.0:compile
+[INFO]    org.mockito:mockito-core:jar:2.8.47:test
+[INFO]    org.springframework:spring-jdbc:jar:5.0.6.RELEASE:test
+[INFO]    com.ibm.icu:icu4j:jar:56.1:test
+[INFO]    org.apache.lucene:lucene-grouping:jar:6.6.1:compile
+[INFO]    org.apache.poi:poi-ooxml:jar:3.15-beta1:test
+[INFO]    net.sourceforge.jmatio:jmatio:jar:1.0:test
+[INFO]    org.springframework:spring-jcl:jar:5.0.6.RELEASE:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+[INFO]    org.jboss.interceptor:jboss-interceptor-api:jar:1.1:provided (optional) 
+[INFO]    org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+[INFO]    dom4j:dom4j:jar:1.6.1:compile
+[INFO]    com.drewnoakes:metadata-extractor:jar:2.8.1:test
+[INFO]    org.apache.commons:commons-compress:jar:1.11:test
+[INFO]    org.springframework.data:spring-data-commons:jar:2.0.7.RELEASE:compile
+[INFO]    org.apache.james:apache-mime4j-dom:jar:0.7.2:test
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.9.5:compile
+[INFO]    org.apache.pdfbox:fontbox:jar:2.0.1:test
+[INFO]    org.apache.curator:curator-framework:jar:2.8.0:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    commons-fileupload:commons-fileupload:jar:1.3.2:compile
+[INFO]    org.apache.lucene:lucene-classification:jar:6.6.1:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.2.3:test
+[INFO]    rome:rome:jar:1.0:test
+[INFO]    org.apache.commons:commons-exec:jar:1.3:compile
+[INFO]    org.apache.hadoop:hadoop-auth:jar:2.7.4:compile
+[INFO]    net.arnx:jsonic:jar:1.2.7:test
+[INFO]    org.eclipse.jetty:jetty-rewrite:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:6.6.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    org.codehaus.janino:commons-compiler:jar:2.7.6:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.3.14.v20161028:compile
+[INFO]    org.aspectj:aspectjrt:jar:1.8.0:test
+[INFO]    com.google.guava:guava:jar:14.0.1:compile
+[INFO]    com.adobe.xmp:xmpcore:jar:5.1.2:test
+[INFO]    org.apache.xbean:xbean-asm6-shaded:jar:4.8:test
+[INFO]    com.cybozu.labs:langdetect:jar:1.1-20120112:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO]    org.apache.poi:poi-ooxml-schemas:jar:3.15-beta1:test
+[INFO]    joda-time:joda-time:jar:2.9.9:compile (optional) 
+[INFO]    org.locationtech.spatial4j:spatial4j:jar:0.6:compile
+[INFO]    org.apache.james:apache-mime4j-core:jar:0.7.2:test
+[INFO]    org.objenesis:objenesis:jar:2.5:test
+[INFO]    javax.inject:javax.inject:jar:1:provided (optional) 
+[INFO]    org.springframework:spring-core:jar:5.0.6.RELEASE:compile
+[INFO]    org.gagravarr:vorbis-java-core:jar:0.8:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.4.1:compile
+[INFO]    com.pff:java-libpst:jar:0.8.1:test
+[INFO]    io.dropwizard.metrics:metrics-jvm:jar:3.2.2:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.3.14.v20161028:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.solr:solr-core:jar:6.6.1:compile (optional) 
+[INFO]    org.springframework:spring-beans:jar:5.0.6.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+[INFO]    org.apache.lucene:lucene-expressions:jar:6.6.1:compile
+[INFO]    io.dropwizard.metrics:metrics-jetty9:jar:3.2.2:compile
+[INFO]    org.apache.calcite.avatica:avatica-core:jar:1.9.0:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    com.github.ben-manes.caffeine:caffeine:jar:2.4.0:compile
+[INFO]    org.springframework:spring-test:jar:5.0.6.RELEASE:test
+[INFO]    org.apache.tika:tika-xmp:jar:1.13:test
+[INFO]    org.eclipse.jetty:jetty-servlets:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.xbean:xbean-finder-shaded:jar:4.8:test
+[INFO]    org.apache.tika:tika-parsers:jar:1.13:test
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    org.codehaus.janino:janino:jar:2.7.6:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:6.6.1:compile
+[INFO]    org.apache.openwebbeans:openwebbeans-spi:jar:2.0.5:test
+[INFO]    org.apache.calcite:calcite-linq4j:jar:1.11.0:compile
+[INFO]    com.h2database:h2:jar:1.3.168:test
+[INFO]    info.ganglia.gmetric4j:gmetric4j:jar:1.0.7:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.3.14.v20161028:compile
+[INFO]    org.restlet.jee:org.restlet.ext.servlet:jar:2.3.0:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+[INFO]    org.springframework:spring-context:jar:5.0.6.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.lucene:lucene-spatial-extras:jar:6.6.1:compile
+[INFO]    org.ow2.asm:asm-commons:jar:5.1:compile
+[INFO]    com.tdunning:t-digest:jar:3.1:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.apache.lucene:lucene-backward-codecs:jar:6.6.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    net.hydromatic:eigenbase-properties:jar:1.1.5:compile
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.4.1:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:6.6.1:compile
+[INFO]    org.apache.calcite:calcite-core:jar:1.11.0:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+[INFO]    org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+[INFO]    org.assertj:assertj-core:jar:3.9.0:test
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.4.1:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:6.6.1:compile
+[INFO]    org.eclipse.jetty:jetty-deploy:jar:9.3.14.v20161028:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.hadoop:hadoop-annotations:jar:2.7.4:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.1:compile
+[INFO]    jdom:jdom:jar:1.0:test
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    de.l3s.boilerpipe:boilerpipe:jar:1.1.0:test
+[INFO]    org.apache.pdfbox:jempbox:jar:1.8.12:test
+[INFO]    commons-configuration:commons-configuration:jar:1.6:compile
+[INFO]    org.apache.curator:curator-recipes:jar:2.8.0:compile
+[INFO]    org.springframework:spring-tx:jar:5.0.6.RELEASE:compile
+[INFO]    org.projectlombok:lombok:jar:1.16.20:compile (optional) 
+[INFO]    org.apache.lucene:lucene-analyzers-phonetic:jar:6.6.1:compile
+[INFO]    org.apache.lucene:lucene-core:jar:6.6.1:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:6.6.1:compile
+[INFO]    org.apache.tika:tika-core:jar:1.13:test
+[INFO]    org.apache.hadoop:hadoop-hdfs:jar:2.7.4:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:6.6.1:compile
+[INFO]    org.apache.poi:poi:jar:3.15-beta1:test
+[INFO]    org.gagravarr:vorbis-java-tika:jar:0.8:test
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+[INFO]    xerces:xercesImpl:jar:2.9.1:test
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.xmlbeans:xmlbeans:jar:2.6.0:test
+[INFO]    javax.annotation:javax.annotation-api:jar:1.3:test
+[INFO]    io.dropwizard.metrics:metrics-ganglia:jar:3.2.2:compile
+[INFO]    org.apache.solr:solr-langid:jar:6.6.1:test
+[INFO]    org.apache.lucene:lucene-join:jar:6.6.1:compile
+[INFO]    io.dropwizard.metrics:metrics-graphite:jar:3.2.2:compile
+[INFO]    org.apache.pdfbox:pdfbox-tools:jar:2.0.1:test
+[INFO]    org.bouncycastle:bcmail-jdk15:jar:1.45:test
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:6.6.1:compile
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.2.2:compile
+[INFO]    org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+[INFO]    org.apache.lucene:lucene-codecs:jar:6.6.1:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.2:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.noggit:noggit:jar:0.6:compile
+[INFO]    org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.3.14.v20161028:compile
+[INFO]    org.apache.htrace:htrace-core:jar:3.2.0-incubating:compile
+[INFO]    org.ow2.asm:asm:jar:5.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-rules) @ spring-data-solr ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.61:compile (compile) @ spring-data-solr ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (java-compile) @ spring-data-solr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 214 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/main/java/org/springframework/data/solr/server/support/HttpSolrClientFactory.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/main/java/org/springframework/data/solr/server/support/HttpSolrClientFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/main/java/org/springframework/data/solr/core/schema/SchemaDefinition.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/main/java/org/springframework/data/solr/core/schema/SchemaDefinition.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 113 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.61:test-compile (test-compile) @ spring-data-solr ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (java-test-compile) @ spring-data-solr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 83 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/test/java/org/springframework/data/solr/HttpSolrClientFactoryTests.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/test/java/org/springframework/data/solr/HttpSolrClientFactoryTests.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/test/java/org/springframework/data/solr/repository/SimpleSolrRepositoryTests.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/test/java/org/springframework/data/solr/repository/SimpleSolrRepositoryTests.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-solr/src/test/java/org/springframework/data/solr/repository/SimpleSolrRepositoryTests.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-solr ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.solr.repository.query.SolrParametersParameterAccessorTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.553 sec - in org.springframework.data.solr.repository.query.SolrParametersParameterAccessorTests
+Running org.springframework.data.solr.repository.query.SolrQueryTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec - in org.springframework.data.solr.repository.query.SolrQueryTests
+Running org.springframework.data.solr.repository.query.SolrParameterTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.solr.repository.query.SolrParameterTests
+Running org.springframework.data.solr.repository.query.SolrQueryMethodTests
+Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.springframework.data.solr.repository.query.SolrQueryMethodTests
+Running org.springframework.data.solr.repository.query.StringBasedSolrQueryTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.springframework.data.solr.repository.query.StringBasedSolrQueryTests
+Running org.springframework.data.solr.repository.query.SolrQueryCreatorTests
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 sec - in org.springframework.data.solr.repository.query.SolrQueryCreatorTests
+Running org.springframework.data.solr.repository.SimpleSolrRepositoryTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 sec - in org.springframework.data.solr.repository.SimpleSolrRepositoryTests
+Running org.springframework.data.solr.repository.config.SolrRepositoryConfigExtensionUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.solr.repository.config.SolrRepositoryConfigExtensionUnitTests
+Running org.springframework.data.solr.repository.config.EnableSolrRepositoriesWithPredefinedConvertersUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.577 sec - in org.springframework.data.solr.repository.config.EnableSolrRepositoriesWithPredefinedConvertersUnitTests
+Running org.springframework.data.solr.repository.config.EnableSolrRepositoriesWithPredefinedMappingContextTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.408 sec - in org.springframework.data.solr.repository.config.EnableSolrRepositoriesWithPredefinedMappingContextTests
+Running org.springframework.data.solr.repository.support.SolrRepositoryFactoryTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec - in org.springframework.data.solr.repository.support.SolrRepositoryFactoryTests
+Running org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests
+Running org.springframework.data.solr.core.query.SimpleHighlightQueryTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.solr.core.query.SimpleHighlightQueryTests
+Running org.springframework.data.solr.core.query.PartialUpdateTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.solr.core.query.PartialUpdateTests
+Running org.springframework.data.solr.core.query.SimpleStringCriteriaTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.solr.core.query.SimpleStringCriteriaTests
+Running org.springframework.data.solr.core.query.SimpleQueryTests
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.springframework.data.solr.core.query.SimpleQueryTests
+Running org.springframework.data.solr.core.query.FieldWithQueryParametersTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.solr.core.query.FieldWithQueryParametersTests
+Running org.springframework.data.solr.core.query.HighlightOptionsTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.query.HighlightOptionsTests
+Running org.springframework.data.solr.core.query.StatsOptionsTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.query.StatsOptionsTests
+Running org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests
+Running org.springframework.data.solr.core.query.result.SimpleStatsResultTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.solr.core.query.result.SimpleStatsResultTests
+Running org.springframework.data.solr.core.query.CriteriaTests
+Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.solr.core.query.CriteriaTests
+Running org.springframework.data.solr.core.query.FacetOptionsTests
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.solr.core.query.FacetOptionsTests
+Running org.springframework.data.solr.core.TermsQueryParserTests
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.solr.core.TermsQueryParserTests
+Running org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests
+Running org.springframework.data.solr.core.mapping.SimpleSolrPersistentPropertyBoostTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.data.solr.core.mapping.SimpleSolrPersistentPropertyBoostTests
+Running org.springframework.data.solr.core.mapping.SimpleSolrPersitentPropertyFieldNameTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.mapping.SimpleSolrPersitentPropertyFieldNameTests
+Running org.springframework.data.solr.core.convert.UpdateToSolrInputDocumentConverterTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.solr.core.convert.UpdateToSolrInputDocumentConverterTests
+Running org.springframework.data.solr.core.convert.MappingSolrConverterTests
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 sec - in org.springframework.data.solr.core.convert.MappingSolrConverterTests
+Running org.springframework.data.solr.core.convert.GeoConverterTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.convert.GeoConverterTests
+Running org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests
+Running org.springframework.data.solr.core.convert.DateTimeConvertersTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.solr.core.convert.DateTimeConvertersTests
+Running org.springframework.data.solr.core.convert.NumberConvertersTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.convert.NumberConvertersTests
+Running org.springframework.data.solr.core.convert.SolrJConverterTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.convert.SolrJConverterTests
+Running org.springframework.data.solr.core.SolrExceptionTranslatorTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.solr.core.SolrExceptionTranslatorTests
+Running org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests
+Running org.springframework.data.solr.core.schema.DefaultSchemaOperationsTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.231 sec - in org.springframework.data.solr.core.schema.DefaultSchemaOperationsTests
+Running org.springframework.data.solr.core.QueryParserBaseTests
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in org.springframework.data.solr.core.QueryParserBaseTests
+Running org.springframework.data.solr.core.DefaultQueryParserTests
+Tests run: 133, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in org.springframework.data.solr.core.DefaultQueryParserTests
+Running org.springframework.data.solr.core.QueryParsersTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.solr.core.QueryParsersTests
+Running org.springframework.data.solr.core.SolrTemplateTests
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec - in org.springframework.data.solr.core.SolrTemplateTests
+Running org.springframework.data.solr.core.FunctionQueryFragmentTests
+Tests run: 73, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.springframework.data.solr.core.FunctionQueryFragmentTests
+Running org.springframework.data.solr.core.ResultHelperTests
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec - in org.springframework.data.solr.core.ResultHelperTests
+Running org.springframework.data.solr.HttpSolrClientFactoryTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.solr.HttpSolrClientFactoryTests
+
+Results :
+
+Tests run: 825, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.690 s
+[INFO] Finished at: 2019-08-20T03:11:29+08:00
+[INFO] ------------------------------------------------------------------------

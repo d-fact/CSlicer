@@ -1,0 +1,130 @@
+[VERSION]: 2.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.github.jsqlparser:jsqlparser >------------------
+[INFO] Building JSQLParser library 1.2
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsqlparser ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jsqlparser ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.9:test
+[INFO]    commons-io:commons-io:jar:2.4:test
+[INFO]    org.hamcrest:hamcrest-library:jar:2.1:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+[INFO]    org.mockito:mockito-core:jar:2.16.0:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO] 
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (javacc) @ jsqlparser ---
+Java Compiler Compiler Version 7.0.3 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/main/jjtree/net/sf/jsqlparser/parser/JSqlParserCC.jjt . . .
+opt:java
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "CCJSqlParserTreeConstants.java" does not exist.  Will create one.
+File "CCJSqlParserVisitor.java" does not exist.  Will create one.
+File "CCJSqlParserDefaultVisitor.java" does not exist.  Will create one.
+File "JJTCCJSqlParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/javacc-1566290231371/node/JSqlParserCC.jj
+Java Compiler Compiler Version 7.0.3 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/javacc-1566290231371/node/JSqlParserCC.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "Provider.java" does not exist.  Will create one.
+File "StringProvider.java" does not exist.  Will create one.
+File "StreamProvider.java" does not exist.  Will create one.
+File "TokenMgrException.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- license-maven-plugin:1.6:update-file-header (first) @ jsqlparser ---
+[INFO] Will search files to update from root /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/main/java
+[INFO] Scan 208 files header done in 167.571ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jsqlparser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jsqlparser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 223 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/generated-sources/javacc/net/sf/jsqlparser/parser/CCJSqlParser.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/generated-sources/javacc/net/sf/jsqlparser/parser/CCJSqlParser.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/generated-sources/javacc/net/sf/jsqlparser/parser/CCJSqlParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ jsqlparser ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jsqlparser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 284 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jsqlparser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/test/select/SpeedTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/test/select/SpeedTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[4,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[166,81] cannot find symbol
+  symbol:   method equalTo(net.sf.jsqlparser.util.deparser.ExpressionDeParser)
+  location: class net.sf.jsqlparser.util.deparser.StatementDeParserTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[166,110] cannot find symbol
+  symbol:   method equalTo(net.sf.jsqlparser.util.deparser.SelectDeParser)
+  location: class net.sf.jsqlparser.util.deparser.StatementDeParserTest
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.155 s
+[INFO] Finished at: 2019-08-20T16:37:17+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project jsqlparser: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[4,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[166,81] cannot find symbol
+[ERROR]   symbol:   method equalTo(net.sf.jsqlparser.util.deparser.ExpressionDeParser)
+[ERROR]   location: class net.sf.jsqlparser.util.deparser.StatementDeParserTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/JSqlParser/src/test/java/net/sf/jsqlparser/util/deparser/StatementDeParserTest.java:[166,110] cannot find symbol
+[ERROR]   symbol:   method equalTo(net.sf.jsqlparser.util.deparser.SelectDeParser)
+[ERROR]   location: class net.sf.jsqlparser.util.deparser.StatementDeParserTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

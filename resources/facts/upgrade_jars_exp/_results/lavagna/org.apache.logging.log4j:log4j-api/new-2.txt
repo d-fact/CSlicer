@@ -1,0 +1,403 @@
+[VERSION]: 2.12.1
+[INFO] Scanning for projects...
+[WARNING] The project io.lavagna:lavagna:war:1.1 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------------------< io.lavagna:lavagna >-------------------------
+[INFO] Building lavagna 1.1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lavagna ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ lavagna ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.ow2.asm:asm-tree:jar:6.0:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+[INFO]    org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:compile
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:5.0.3:provided
+[INFO]    org.apache.commons:commons-text:jar:1.3:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.4.9.v20180320:provided
+[INFO]    org.springframework.integration:spring-integration-core:jar:5.0.3.RELEASE:compile
+[INFO]    com.zaxxer:HikariCP-java7:jar:2.4.13:compile
+[INFO]    org.eclipse.jetty:jetty-annotations:jar:9.4.9.v20180320:provided
+[INFO]    org.hsqldb:hsqldb:jar:2.4.0:compile
+[INFO]    org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+[INFO]    com.lambdaworks:scrypt:jar:1.4.0:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.9.v20180320:provided
+[INFO]    org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.9:test
+[INFO]    org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.9.v20180320:provided
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    org.springframework:spring-jdbc:jar:5.0.4.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.9.v20180320:provided
+[INFO]    org.kubek2k:springockito:jar:1.0.9:test
+[INFO]    org.eclipse.jetty:jetty-jndi:jar:9.4.9.v20180320:provided
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile
+[INFO]    org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.9.v20180320:provided
+[INFO]    io.projectreactor:reactor-core:jar:3.1.5.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.4.9.v20180320:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.reactivestreams:reactive-streams:jar:1.0.2:compile
+[INFO]    mysql:mysql-connector-java:jar:5.1.41:compile
+[INFO]    org.springframework:spring-websocket:jar:5.0.4.RELEASE:compile
+[INFO]    org.postgresql:postgresql:jar:42.2.2.jre7:compile
+[INFO]    org.apache.logging.log4j:log4j-jcl:jar:2.11.0:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:provided
+[INFO]    org.eclipse.jetty:jetty-plus:jar:9.4.9.v20180320:provided
+[INFO]    org.mockito:mockito-all:jar:1.9.0:test
+[INFO]    org.springframework:spring-messaging:jar:5.0.4.RELEASE:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
+[INFO]    org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+[INFO]    ch.digitalfondue.npjt-extra:npjt-extra:jar:1.1.4:compile
+[INFO]    commons-codec:commons-codec:jar:1.11:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.9.v20180320:provided
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:provided
+[INFO]    org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.9.v20180320:provided
+[INFO]    org.ow2.asm:asm:jar:6.0:provided
+[INFO]    javax.servlet:javax.servlet-api:jar:4.0.0:provided
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.9.v20180320:provided
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.11.0:compile
+[INFO]    org.jsoup:jsoup:jar:1.11.2:compile
+[INFO]    org.apache.poi:poi:jar:3.17:compile
+[INFO]    org.scribe:scribe:jar:1.3.7:compile
+[INFO]    org.mockito:mockito-core:jar:2.16.0:test
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.4.9.v20180320:provided
+[INFO]    com.julienvey.trello:trello-java-wrapper:jar:0.3.2:compile
+[INFO]    org.springframework:spring-webmvc:jar:5.0.4.RELEASE:compile
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    org.mnode.ical4j:ical4j:jar:2.2.0:compile
+[INFO]    org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.2:compile
+[INFO]    org.springframework:spring-context-support:jar:5.0.4.RELEASE:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:provided
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+[INFO]    com.atlassian.commonmark:commonmark:jar:0.11.0:compile
+[INFO]    com.samskivert:jmustache:jar:1.14:compile
+[INFO]    org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+[INFO]    org.ow2.asm:asm-commons:jar:6.0:provided
+[INFO]    org.tuckey:urlrewritefilter:jar:4.0.4:compile
+[INFO]    org.flywaydb:flyway-core:jar:4.2.0:compile
+[INFO]    javax.mail:mail:jar:1.4.6:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:provided
+[INFO]    org.threeten:threetenbp:jar:1.3.6:compile
+[INFO]    org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-web:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework.integration:spring-integration-mail:jar:5.0.3.RELEASE:compile
+[INFO]    org.springframework:spring-test:jar:5.0.4.RELEASE:test
+[INFO]    org.eclipse.jetty.websocket:websocket-server:jar:9.4.9.v20180320:provided
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+[INFO]    org.jetbrains.kotlin:kotlin-test:jar:1.2.31:test
+[INFO]    io.micrometer:micrometer-core:jar:1.0.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+[INFO]    org.springframework:spring-tx:jar:5.0.4.RELEASE:compile
+[INFO]    org.jetbrains:annotations:jar:13.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ lavagna ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.0:prepare-agent (prepare-agent) @ lavagna ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.0/org.jacoco.agent-0.8.0-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/jacoco.exec
+[INFO] 
+[INFO] --- license-maven-plugin:1.14:add-third-party (default) @ lavagna ---
+[INFO] Writing third-party file to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/generated-sources/license/THIRD-PARTY.txt
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:copy-resources (default) @ lavagna ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ lavagna ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 81 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.2.31:compile (compile) @ lavagna ---
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ApiHook.kt: (33, 31) This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ApiHook.kt: (38, 60) This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardFullWithCounts.kt: (70, 25) Condition 'dataCount.count != null' is always 'true'
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardLabel.kt: (43, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardLabelValue.kt: (95, 29) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/Event.kt: (55, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/LabelAndValueWithCount.kt: (29, 13) Name shadowed: labelValueType
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/LabelListValue.kt: (31, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ListValueMetadata.kt: (26, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/Role.kt: (29, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/RoleAndPermission.kt: (33, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/User.kt: (44, 46) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/UserWithPermission.kt: (83, 20) Condition 'projectId == null' is always 'true'
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (java-compile) @ lavagna ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 163 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (compile) @ lavagna ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 163 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/classes
+[INFO] 
+[INFO] --- stampo-maven-plugin:1.2.1:build (default) @ lavagna ---
+stampo working path is /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/stampo
+stampo destination path is /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/lavagna/help
+built in 769ms, output in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/lavagna/help
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ lavagna ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.2.31:test-compile (test-compile) @ lavagna ---
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ApiHook.kt: (33, 31) This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ApiHook.kt: (38, 60) This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardFullWithCounts.kt: (70, 25) Condition 'dataCount.count != null' is always 'true'
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardLabel.kt: (43, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardLabelValue.kt: (95, 29) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/Event.kt: (55, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/LabelAndValueWithCount.kt: (29, 13) Name shadowed: labelValueType
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/LabelListValue.kt: (31, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ListValueMetadata.kt: (26, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/Role.kt: (29, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/RoleAndPermission.kt: (33, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/User.kt: (44, 46) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/UserWithPermission.kt: (83, 20) Condition 'projectId == null' is always 'true'
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (java-test-compile) @ lavagna ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/test-classes
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/test/java/io/lavagna/web/api/SearchControllerTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (testCompile) @ lavagna ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/test-classes
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/test/java/io/lavagna/web/api/SearchControllerTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ lavagna ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.lavagna.web.api.UsersAdministrationControllerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.247 sec - in io.lavagna.web.api.UsersAdministrationControllerTest
+Running io.lavagna.web.api.PermissionControllerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in io.lavagna.web.api.PermissionControllerTest
+Running io.lavagna.web.api.WebUserControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.834 sec - in io.lavagna.web.api.WebUserControllerTest
+Running io.lavagna.web.api.MilestoneControllerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.375 sec - in io.lavagna.web.api.MilestoneControllerTest
+Running io.lavagna.web.api.CardDataControllerTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.352 sec - in io.lavagna.web.api.CardDataControllerTest
+Running io.lavagna.web.api.ExportImportControllerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in io.lavagna.web.api.ExportImportControllerTest
+Running io.lavagna.web.api.CardControllerTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in io.lavagna.web.api.CardControllerTest
+Running io.lavagna.web.api.ApplicationConfigurationControllerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec - in io.lavagna.web.api.ApplicationConfigurationControllerTest
+Running io.lavagna.web.api.ProjectPermissionControllerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in io.lavagna.web.api.ProjectPermissionControllerTest
+Running io.lavagna.web.api.BoardColumnControllerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in io.lavagna.web.api.BoardColumnControllerTest
+Running io.lavagna.web.api.BoardControllerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in io.lavagna.web.api.BoardControllerTest
+Running io.lavagna.web.api.SetupControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in io.lavagna.web.api.SetupControllerTest
+Running io.lavagna.web.api.UserControllerTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in io.lavagna.web.api.UserControllerTest
+Running io.lavagna.web.api.CalendarControllerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in io.lavagna.web.api.CalendarControllerTest
+Running io.lavagna.web.api.WebEndpointInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in io.lavagna.web.api.WebEndpointInfoTest
+Running io.lavagna.web.api.SearchControllerTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in io.lavagna.web.api.SearchControllerTest
+Running io.lavagna.web.api.ProjectControllerTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in io.lavagna.web.api.ProjectControllerTest
+Running io.lavagna.web.api.CardLabelControllerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec - in io.lavagna.web.api.CardLabelControllerTest
+Running io.lavagna.web.security.AnonymousUserFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.634 sec - in io.lavagna.web.security.AnonymousUserFilterTest
+Running io.lavagna.web.security.SecurityFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in io.lavagna.web.security.SecurityFilterTest
+Running io.lavagna.web.security.SecurityConfigurationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in io.lavagna.web.security.SecurityConfigurationTest
+Running io.lavagna.web.security.RememberMeFilterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in io.lavagna.web.security.RememberMeFilterTest
+Running io.lavagna.web.security.CSRFFilterTest
+03:48:05.220 [main] INFO  io.lavagna.web.security.CSFRFilter - wrong csrf
+03:48:05.226 [main] INFO  io.lavagna.web.security.CSFRFilter - wrong csrf
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec - in io.lavagna.web.security.CSRFFilterTest
+Running io.lavagna.web.security.login.OauthLoginTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 sec - in io.lavagna.web.security.login.OauthLoginTest
+Running io.lavagna.web.security.login.LdapLoginTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec - in io.lavagna.web.security.login.LdapLoginTest
+Running io.lavagna.web.security.login.oauth.HandlersTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 sec - in io.lavagna.web.security.login.oauth.HandlersTest
+Running io.lavagna.web.security.login.DemoLoginTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in io.lavagna.web.security.login.DemoLoginTest
+Running io.lavagna.web.helper.UserSessionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in io.lavagna.web.helper.UserSessionTest
+Running io.lavagna.web.support.ResourceControllerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in io.lavagna.web.support.ResourceControllerTest
+Running io.lavagna.service.CardEventRepositoryTest
+03:48:05.884 [main] WARN  io.lavagna.common.LavagnaEnvironment - Property datasource.password is not set, using default value: 
+03:48:05.884 [main] WARN  io.lavagna.common.LavagnaEnvironment - Property spring.profiles.active is not set, using default value: dev
+03:48:05.884 [main] INFO  io.lavagna.common.LavagnaEnvironment - For property datasource.dialect, the value is: HSQLDB
+03:48:05.885 [main] INFO  io.lavagna.common.LavagnaEnvironment - For property datasource.url, the value is: jdbc:hsqldb:mem:lavagna
+03:48:05.885 [main] INFO  io.lavagna.common.LavagnaEnvironment - For property datasource.username, the value is: sa
+03:48:05.885 [main] INFO  io.lavagna.common.LavagnaEnvironment - For property spring.profiles.active, the value is: dev
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.83 sec - in io.lavagna.service.CardEventRepositoryTest
+Running io.lavagna.service.ImportServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec - in io.lavagna.service.ImportServiceTest
+Running io.lavagna.service.ListValueMetadataRepositoryTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 sec - in io.lavagna.service.ListValueMetadataRepositoryTest
+Running io.lavagna.service.ExportImportServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.42 sec - in io.lavagna.service.ExportImportServiceTest
+Running io.lavagna.service.BoardColumnRepositoryTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in io.lavagna.service.BoardColumnRepositoryTest
+Running io.lavagna.service.MailTicketServiceTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec - in io.lavagna.service.MailTicketServiceTest
+Running io.lavagna.service.ProjectServiceTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec - in io.lavagna.service.ProjectServiceTest
+Running io.lavagna.service.EventEmitterTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in io.lavagna.service.EventEmitterTest
+Running io.lavagna.service.CardDataRepositoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in io.lavagna.service.CardDataRepositoryTest
+Running io.lavagna.service.BoardRepositoryTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in io.lavagna.service.BoardRepositoryTest
+Running io.lavagna.service.NotificationServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in io.lavagna.service.NotificationServiceTest
+Running io.lavagna.service.EventRepositoryTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in io.lavagna.service.EventRepositoryTest
+Running io.lavagna.service.CardLabelRepositoryTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec - in io.lavagna.service.CardLabelRepositoryTest
+Running io.lavagna.service.CalendarServiceTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec - in io.lavagna.service.CalendarServiceTest
+Running io.lavagna.service.UserServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in io.lavagna.service.UserServiceTest
+Running io.lavagna.service.PermissionServiceTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec - in io.lavagna.service.PermissionServiceTest
+Running io.lavagna.service.StatisticsServiceTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.76 sec - in io.lavagna.service.StatisticsServiceTest
+Running io.lavagna.service.LdapTest
+03:48:13.587 [main] INFO  io.lavagna.service.Ldap - error while checking with username "user\*() " with message: unit test :D [error]
+javax.naming.NamingException: unit test :D
+	at io.lavagna.service.LdapConnection.context(LdapConnection.java:37) ~[classes/:?]
+	at io.lavagna.service.Ldap.authenticateWithParams(Ldap.java:100) [classes/:?]
+	at io.lavagna.service.Ldap.authenticate(Ldap.java:67) [classes/:?]
+	at io.lavagna.service.LdapTest.wrongPassword(LdapTest.java:115) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:79) [mockito-core-2.16.0.jar:?]
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:85) [mockito-core-2.16.0.jar:?]
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39) [mockito-core-2.16.0.jar:?]
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163) [mockito-core-2.16.0.jar:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290) [surefire-booter-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242) [surefire-booter-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121) [surefire-booter-2.19.1.jar:2.19.1]
+03:48:13.596 [main] INFO  io.lavagna.service.Ldap - error for username "user" we have 0 results instead of 1 [error]
+03:48:13.598 [main] ERROR io.lavagna.service.Ldap - error while opening the connection with message: unit test :D [error], check the logs for a more complete trace
+javax.naming.NamingException: unit test :D
+	at io.lavagna.service.LdapConnection.context(LdapConnection.java:37) ~[classes/:?]
+	at io.lavagna.service.Ldap.authenticateWithParams(Ldap.java:78) [classes/:?]
+	at io.lavagna.service.Ldap.authenticate(Ldap.java:67) [classes/:?]
+	at io.lavagna.service.LdapTest.failOnFirstOpen(LdapTest.java:76) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:79) [mockito-core-2.16.0.jar:?]
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:85) [mockito-core-2.16.0.jar:?]
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39) [mockito-core-2.16.0.jar:?]
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163) [mockito-core-2.16.0.jar:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161) [surefire-junit4-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290) [surefire-booter-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242) [surefire-booter-2.19.1.jar:2.19.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121) [surefire-booter-2.19.1.jar:2.19.1]
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.613 sec - in io.lavagna.service.LdapTest
+Running io.lavagna.service.CardDataServiceTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 sec - in io.lavagna.service.CardDataServiceTest
+Running io.lavagna.service.ProjectServiceFindRelatedTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in io.lavagna.service.ProjectServiceFindRelatedTest
+Running io.lavagna.service.BulkOperationServiceTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 sec - in io.lavagna.service.BulkOperationServiceTest
+Running io.lavagna.service.SearchServiceTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.311 sec - in io.lavagna.service.SearchServiceTest
+Running io.lavagna.service.ConfigurationRepositoryTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in io.lavagna.service.ConfigurationRepositoryTest
+Running io.lavagna.service.ExcelExportServiceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.305 sec - in io.lavagna.service.ExcelExportServiceTest
+Running io.lavagna.service.CardRepositoryTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec - in io.lavagna.service.CardRepositoryTest
+Running io.lavagna.service.CardServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in io.lavagna.service.CardServiceTest
+Running io.lavagna.service.UserRepositoryTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in io.lavagna.service.UserRepositoryTest
+Running io.lavagna.service.LabelServiceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in io.lavagna.service.LabelServiceTest
+Running io.lavagna.model.CardLabelValueTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in io.lavagna.model.CardLabelValueTest
+Running io.lavagna.model.CardLabelTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in io.lavagna.model.CardLabelTest
+Running io.lavagna.model.util.ShortNameGeneratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in io.lavagna.model.util.ShortNameGeneratorTest
+Running io.lavagna.model.RoleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in io.lavagna.model.RoleTest
+
+Results :
+
+Tests run: 486, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 33.415 s
+[INFO] Finished at: 2019-08-15T03:48:15+08:00
+[INFO] ------------------------------------------------------------------------

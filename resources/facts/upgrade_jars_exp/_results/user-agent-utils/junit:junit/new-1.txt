@@ -1,0 +1,117 @@
+[VERSION]: 4.13-beta-3
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for eu.bitwalker:UserAgentUtils:jar:1.21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 130, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] --------------------< eu.bitwalker:UserAgentUtils >---------------------
+[INFO] Building User-Agent-Utils 1.21
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ UserAgentUtils ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/user-agent-utils/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ UserAgentUtils ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    junit:junit:jar:4.13-beta-3:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ UserAgentUtils ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/user-agent-utils/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ UserAgentUtils ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/user-agent-utils/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ UserAgentUtils ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/user-agent-utils/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ UserAgentUtils ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 29 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/user-agent-utils/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4:test (default-test) @ UserAgentUtils ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/user-agent-utils/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running eu.bitwalker.useragentutils.browser.CFNetworkParameterizedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running eu.bitwalker.useragentutils.browser.LotusParameterizedTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.ApplicationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.browser.OthersParameterizedTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running eu.bitwalker.useragentutils.VersionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.browser.OutlookParameterizedTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.bitwalker.useragentutils.browser.SafariParameterizedTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running eu.bitwalker.useragentutils.UserAgentTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.OperatingSystemTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running eu.bitwalker.useragentutils.browser.CaminoParameterizedTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.browser.LynxParameterizedTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.bitwalker.useragentutils.ApplicationParameterizedTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running eu.bitwalker.useragentutils.browser.BotParameterizedTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running eu.bitwalker.useragentutils.browser.InternetExplorerMobileParameterizedTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.browser.ThunderbirdParameterizedTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.bitwalker.useragentutils.browser.ChromeMobileParameterizedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.bitwalker.useragentutils.browser.ChromeParameterizedTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.bitwalker.useragentutils.BrowserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running eu.bitwalker.useragentutils.ManufacturerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.bitwalker.useragentutils.browser.InternetExplorerParameterizedTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running eu.bitwalker.useragentutils.browser.OperaParameterizedTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.bitwalker.useragentutils.browser.KonquerorParameterizedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.bitwalker.useragentutils.browser.InternetExplorerXboxParameterizedTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.bitwalker.useragentutils.browser.BlackberryParameterizedTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.bitwalker.useragentutils.browser.FirefoxParameterizedTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.bitwalker.useragentutils.browser.EdgeParameterizedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.bitwalker.useragentutils.browser.ToolParameterizedTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 259, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.538 s
+[INFO] Finished at: 2019-08-20T16:34:11+08:00
+[INFO] ------------------------------------------------------------------------

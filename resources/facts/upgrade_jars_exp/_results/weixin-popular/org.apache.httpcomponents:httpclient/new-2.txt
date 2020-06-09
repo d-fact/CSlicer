@@ -1,0 +1,50 @@
+[VERSION]: 4.5.9
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.github.liyiorg:weixin-popular >------------------
+[INFO] Building weixin-popular 2.8.19
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ weixin-popular ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ weixin-popular ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.9:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.11:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.3.6:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.19:compile
+[INFO]    org.json:json:jar:20140107:compile
+[INFO]    com.vdurmont:emoji-java:jar:3.1.3:compile
+[INFO]    com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile
+[INFO]    com.alibaba:fastjson:jar:1.2.7:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    redis.clients:jedis:jar:2.7.3:provided
+[INFO]    javax.servlet:servlet-api:jar:2.5:provided
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.19:provided
+[INFO]    org.apache.commons:commons-pool2:jar:2.3:provided
+[INFO]    commons-codec:commons-codec:jar:1.11:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ weixin-popular ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ weixin-popular ---
+[INFO] Compiling 545 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ weixin-popular ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ weixin-popular ---
+[INFO] Compiling 8 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/weixin-popular/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ weixin-popular ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.282 s
+[INFO] Finished at: 2019-08-16T00:56:27+08:00
+[INFO] ------------------------------------------------------------------------

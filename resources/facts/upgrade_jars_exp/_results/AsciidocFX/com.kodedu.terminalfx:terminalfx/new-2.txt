@@ -1,0 +1,163 @@
+[VERSION]: 1.1.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.kodedu:AsciidocFX >------------------------
+[INFO] Building AsciidocFX 1.5.9
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ AsciidocFX ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/AsciidocFX/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:list (default-cli) @ AsciidocFX ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.openjfx:javafx-web:jar:linux:12:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
+[INFO]    org.springframework.boot:spring-boot-starter-undertow:jar:1.5.10.RELEASE:compile
+[INFO]    org.hibernate:hibernate-validator:jar:5.3.6.Final:compile
+[INFO]    org.apache.xmlgraphics:batik-transcoder:jar:1.9:compile
+[INFO]    org.openjfx:javafx-media:jar:12:compile
+[INFO]    xml-apis:xml-apis-ext:jar:1.3.04:compile
+[INFO]    xml-apis:xml-apis:jar:1.4.01:compile
+[INFO]    com.fasterxml:classmate:jar:1.3.4:compile
+[INFO]    org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile
+[INFO]    org.apache.xmlgraphics:batik-bridge:jar:1.9:compile
+[INFO]    org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+[INFO]    org.carrot2:morfologik-stemming:jar:2.1.4:compile
+[INFO]    log4j:log4j:jar:1.2.14:runtime
+[INFO]    com.install4j:install4j-runtime:jar:6.1.6:compile
+[INFO]    org.openjfx:javafx-graphics:jar:linux:12:compile
+[INFO]    xalan:serializer:jar:2.7.2:compile
+[INFO]    org.apache.xmlgraphics:batik-anim:jar:1.9:compile
+[INFO]    xalan:xalan:jar:2.7.2:compile
+[INFO]    org.jetbrains:annotations:jar:16.0.2:runtime
+[INFO]    org.apache.xmlgraphics:batik-ext:jar:1.9:compile
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    org.openjfx:javafx-graphics:jar:12:compile
+[INFO]    io.undertow:undertow-core:jar:1.4.22.Final:compile
+[INFO]    org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO]    org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO]    org.apache.odftoolkit:odfdom-java:jar:0.8.8-incubating:compile
+[INFO]    org.apache.xmlgraphics:batik-svggen:jar:1.9:compile
+[INFO]    org.carrot2:morfologik-fsa:jar:2.1.4:compile
+[INFO]    com.google.guava:guava:jar:25.1-jre:runtime
+[INFO]    org.openjfx:javafx-fxml:jar:linux:12:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+[INFO]    org.apache.xmlgraphics:fop:jar:2.2:compile
+[INFO]    org.apache.xmlgraphics:batik-constants:jar:1.9:compile
+[INFO]    net.java.dev.jna:jna-platform:jar:4.2.2:runtime
+[INFO]    org.springframework.boot:spring-boot-starter-websocket:jar:1.5.10.RELEASE:compile
+[INFO]    org.jetbrains.pty4j:pty4j:jar:0.8.6:compile
+[INFO]    org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.apache.odftoolkit:taglets:jar:0.8.8-incubating:compile
+[INFO]    org.checkerframework:checker-qual:jar:2.0.0:runtime
+[INFO]    javax.json:javax.json-api:jar:1.1.2:compile
+[INFO]    org.kordamp.ikonli:ikonli-javafx:jar:2.1.0:compile
+[INFO]    org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.0.Final:compile
+[INFO]    org.openjfx:javafx-media:jar:linux:12:compile
+[INFO]    net.sourceforge.plantuml:plantuml:jar:8059:compile
+[INFO]    org.apache.xmlgraphics:batik-dom:jar:1.9:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO]    org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+[INFO]    org.apache.xmlgraphics:batik-svg-dom:jar:1.9:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+[INFO]    org.openjfx:javafx-fxml:jar:12:compile
+[INFO]    org.apache.xmlgraphics:batik-xml:jar:1.9:compile
+[INFO]    org.apache.xmlgraphics:batik-extension:jar:1.9:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO]    org.carrot2:morfologik-speller:jar:2.1.4:compile
+[INFO]    net.sf.xslthl:xslthl:jar:2.1.0:runtime
+[INFO]    org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile
+[INFO]    io.undertow:undertow-websockets-jsr:jar:1.4.22.Final:compile
+[INFO]    net.java.dev.jna:jna:jar:4.2.2:runtime
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:runtime
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE:compile
+[INFO]    org.apache.odftoolkit:simple-odf:jar:0.7-incubating:compile
+[INFO]    org.apache.avalon.framework:avalon-framework-impl:jar:4.3.1:compile
+[INFO]    org.jetbrains.pty4j:purejavacomm:jar:0.0.11.1:runtime
+[INFO]    org.jooq:joox:jar:1.4.0:compile
+[INFO]    org.apache.xmlgraphics:batik-css:jar:1.9:compile
+[INFO]    org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO]    org.apache.avalon.framework:avalon-framework-api:jar:4.3.1:compile
+[INFO]    org.glassfish:javax.el:jar:3.0.0:compile
+[INFO]    org.apache.xmlgraphics:batik-parser:jar:1.9:compile
+[INFO]    org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+[INFO]    org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+[INFO]    com.kodedu.terminalfx:terminalfx:jar:1.1.0:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:runtime
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+[INFO]    org.openjfx:javafx-base:jar:12:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.9:compile
+[INFO]    de.tototec:de.tototec.cmdoption:jar:0.4.2:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:runtime
+[INFO]    ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO]    commons-logging:commons-logging:jar:1.0.4:compile
+[INFO]    io.undertow:undertow-servlet:jar:1.4.22.Final:compile
+[INFO]    org.openjfx:javafx-web:jar:12:compile
+[INFO]    org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+[INFO]    org.springframework:spring-webmvc:jar:4.3.14.RELEASE:compile
+[INFO]    org.apache.xmlgraphics:batik-script:jar:1.9:compile
+[INFO]    org.apache.xmlgraphics:batik-gvt:jar:1.9:compile
+[INFO]    org.springframework:spring-web:jar:4.3.14.RELEASE:compile
+[INFO]    org.apache.xmlgraphics:batik-util:jar:1.9:compile
+[INFO]    xerces:xercesImpl:jar:2.9.1:compile
+[INFO]    org.zeroturnaround:zt-exec:jar:1.9:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.1.3:runtime
+[INFO]    org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+[INFO]    org.openjfx:javafx-controls:jar:12:compile
+[INFO]    com.dooapp.fxform2:core:jar:8.1.5:compile
+[INFO]    org.kordamp.ikonli:ikonli-fontawesome-pack:jar:2.1.0:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.apache.xmlgraphics:batik-i18n:jar:1.9:compile
+[INFO]    org.glassfish:javax.json:jar:1.1.2:compile
+[INFO]    org.openjfx:javafx-controls:jar:linux:12:compile
+[INFO]    org.apache.xmlgraphics:batik-codec:jar:1.9:compile
+[INFO]    org.kordamp.ikonli:ikonli-core:jar:2.1.0:compile
+[INFO]    org.apache.pdfbox:fontbox:jar:2.0.4:compile
+[INFO]    org.springframework:spring-websocket:jar:4.3.14.RELEASE:compile
+[INFO]    org.openjfx:javafx-base:jar:linux:12:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ AsciidocFX ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 17 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ AsciidocFX ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 162 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/AsciidocFX/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/AsciidocFX/src/main/java/com/kodedu/controller/ApplicationController.java:[39,29] cannot access com.kodedu.terminalfx.TerminalBuilder
+  bad class file: /home/cgzhu/.m2/repository/com/kodedu/terminalfx/terminalfx/1.1.0/terminalfx-1.1.0.jar(com/kodedu/terminalfx/TerminalBuilder.class)
+    class file has wrong version 56.0, should be 52.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.145 s
+[INFO] Finished at: 2019-08-20T20:25:58+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project AsciidocFX: Compilation failure
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/AsciidocFX/src/main/java/com/kodedu/controller/ApplicationController.java:[39,29] cannot access com.kodedu.terminalfx.TerminalBuilder
+[ERROR]   bad class file: /home/cgzhu/.m2/repository/com/kodedu/terminalfx/terminalfx/1.1.0/terminalfx-1.1.0.jar(com/kodedu/terminalfx/TerminalBuilder.class)
+[ERROR]     class file has wrong version 56.0, should be 52.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

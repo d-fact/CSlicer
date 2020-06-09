@@ -1,0 +1,527 @@
+[VERSION]: 2.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.sonian:elasticsearch-jetty >-------------------
+[INFO] Building elasticsearch-jetty 1.2.3-beta
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar
+Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar
+Progress (1): 1.2 kB
+Progress (2): 1.2 kB | 1.5/123 kB
+Progress (2): 1.2 kB | 4.2/123 kB
+Progress (2): 1.2 kB | 5.6/123 kB
+Progress (2): 1.2 kB | 8.3/123 kB
+Progress (2): 1.2 kB | 9.6/123 kB
+Progress (2): 1.2 kB | 12/123 kB 
+Progress (2): 1.2 kB | 14/123 kB
+Progress (2): 1.2 kB | 17/123 kB
+Progress (2): 1.2 kB | 18/123 kB
+Progress (2): 1.2 kB | 21/123 kB
+Progress (2): 1.2 kB | 22/123 kB
+Progress (2): 1.2 kB | 25/123 kB
+Progress (2): 1.2 kB | 26/123 kB
+Progress (2): 1.2 kB | 29/123 kB
+Progress (2): 1.2 kB | 30/123 kB
+Progress (2): 1.2 kB | 33/123 kB
+Progress (2): 1.2 kB | 34/123 kB
+Progress (2): 1.2 kB | 37/123 kB
+Progress (2): 1.2 kB | 38/123 kB
+Progress (2): 1.2 kB | 41/123 kB
+Progress (2): 1.2 kB | 42/123 kB
+Progress (2): 1.2 kB | 45/123 kB
+Progress (2): 1.2 kB | 47/123 kB
+Progress (2): 1.2 kB | 49/123 kB
+Progress (2): 1.2 kB | 51/123 kB
+Progress (2): 1.2 kB | 53/123 kB
+Progress (2): 1.2 kB | 55/123 kB
+Progress (2): 1.2 kB | 57/123 kB
+Progress (2): 1.2 kB | 59/123 kB
+Progress (2): 1.2 kB | 62/123 kB
+Progress (2): 1.2 kB | 63/123 kB
+Progress (2): 1.2 kB | 66/123 kB
+Progress (2): 1.2 kB | 67/123 kB
+Progress (2): 1.2 kB | 71/123 kB
+Progress (2): 1.2 kB | 75/123 kB
+Progress (2): 1.2 kB | 79/123 kB
+Progress (2): 1.2 kB | 82/123 kB
+Progress (2): 1.2 kB | 85/123 kB
+Progress (2): 1.2 kB | 88/123 kB
+Progress (2): 1.2 kB | 90/123 kB
+Progress (2): 1.2 kB | 93/123 kB
+Progress (2): 1.2 kB | 96/123 kB
+Progress (2): 1.2 kB | 98/123 kB
+Progress (2): 1.2 kB | 101/123 kB
+Progress (2): 1.2 kB | 104/123 kB
+Progress (2): 1.2 kB | 107/123 kB
+Progress (2): 1.2 kB | 109/123 kB
+Progress (2): 1.2 kB | 112/123 kB
+Progress (2): 1.2 kB | 115/123 kB
+Progress (2): 1.2 kB | 119/123 kB
+Progress (2): 1.2 kB | 123/123 kB
+Progress (2): 1.2 kB | 123 kB    
+                             
+Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar (1.2 kB at 404 B/s)
+Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar (123 kB at 35 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ elasticsearch-jetty ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ elasticsearch-jetty ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-highlighter:jar:4.8.1:compile
+[INFO]    org.testng:testng:jar:6.8.5:test
+[INFO]    org.hamcrest:hamcrest-core:jar:2.1:test
+[INFO]    org.apache.lucene:lucene-core:jar:4.8.1:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:4.8.1:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:8.1.14.v20131031:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:8.1.14.v20131031:test
+[INFO]    log4j:log4j:jar:1.2.17:runtime
+[INFO]    org.slf4j:slf4j-api:jar:1.7.6:test
+[INFO]    org.apache.lucene:lucene-join:jar:4.8.1:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:4.8.1:compile
+[INFO]    org.hamcrest:hamcrest:jar:2.1:test
+[INFO]    org.eclipse.jetty:jetty-io:jar:8.1.14.v20131031:compile
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:8.1.14.v20131031:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:test
+[INFO]    org.apache.lucene:lucene-sandbox:jar:4.8.1:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:8.1.14.v20131031:compile
+[INFO]    org.easymock:easymock:jar:3.2:test
+[INFO]    org.apache.lucene:lucene-codecs:jar:4.8.1:compile
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:4.8.1:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:8.1.14.v20131031:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.3.1:test
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:8.1.14.v20131031:test
+[INFO]    org.apache.lucene:lucene-queries:jar:4.8.1:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:4.8.1:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:4.8.1:compile
+[INFO]    org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:compile
+[INFO]    com.beust:jcommander:jar:1.27:test
+[INFO]    org.eclipse.jetty:test-jetty-servlet:jar:8.1.14.v20131031:test
+[INFO]    cglib:cglib-nodep:jar:2.2.2:test
+[INFO]    org.elasticsearch:elasticsearch:jar:1.2.3:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:8.1.14.v20131031:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:8.1.14.v20131031:compile
+[INFO]    org.objenesis:objenesis:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:test
+[INFO]    org.apache.lucene:lucene-spatial:jar:4.8.1:compile
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.yaml:snakeyaml:jar:1.6:test
+[INFO]    com.spatial4j:spatial4j:jar:0.4.1:compile
+[INFO]    org.apache.lucene:lucene-grouping:jar:4.8.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ elasticsearch-jetty ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ elasticsearch-jetty ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ elasticsearch-jetty ---
+[INFO] Compiling 23 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ elasticsearch-jetty ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ elasticsearch-jetty ---
+[INFO] Compiling 13 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/src/test/java/com/sonian/elasticsearch/http/jetty/HttpClient.java:[25,15] BASE64Encoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/src/test/java/com/sonian/elasticsearch/http/jetty/security/RestConstraintSecurityHandlerTests.java:[32,15] BASE64Encoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/src/test/java/com/sonian/elasticsearch/http/jetty/HttpClient.java:[57,12] BASE64Encoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/src/test/java/com/sonian/elasticsearch/http/jetty/HttpClient.java:[57,36] BASE64Encoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/src/test/java/com/sonian/elasticsearch/http/jetty/security/RestConstraintSecurityHandlerTests.java:[88,8] BASE64Encoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/src/test/java/com/sonian/elasticsearch/http/jetty/security/RestConstraintSecurityHandlerTests.java:[88,40] BASE64Encoder is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ elasticsearch-jetty ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-jetty/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[08:12:01,570][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:01,570][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:01,578][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:02,332][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:02,332][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:02,335][INFO ][org.elasticsearch.transport] [server1] bound_address {local[1]}, publish_address {local[1]}
+[08:12:02,341][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][oShtEQrsRSaJUTK6WGzPxg][DebianC8][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:02,344][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/oShtEQrsRSaJUTK6WGzPxg
+[08:12:02,357][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:02,436][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:02,485][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:02,488][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:02,490][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:02,644][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:02,802][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] update_mapping [user] (dynamic)
+[08:12:03,111][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] did not find user [foo]
+[08:12:03,112][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:03,299][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:03,299][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:03,302][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:03,305][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:03,306][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:03,306][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:03,334][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:03,334][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:03,334][INFO ][org.elasticsearch.transport] [server1] bound_address {local[2]}, publish_address {local[2]}
+[08:12:03,335][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][dMqmOoYGS7OWsXxvjCPxOw][DebianC8][local[2]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:03,336][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/dMqmOoYGS7OWsXxvjCPxOw
+[08:12:03,337][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:03,350][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:03,352][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:03,352][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:03,353][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:03,369][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:03,394][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] update_mapping [user] (dynamic)
+[08:12:03,404][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] authenticating user [foo]
+[08:12:03,405][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] authenticating user [foo]
+[08:12:03,406][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:03,525][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:03,525][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:03,527][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:03,538][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:03,538][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:03,538][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:03,567][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:03,567][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:03,568][INFO ][org.elasticsearch.transport] [server1] bound_address {local[3]}, publish_address {local[3]}
+[08:12:03,569][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][hq6aSoFHS5ygjk-qSeh4Hw][DebianC8][local[3]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:03,569][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/hq6aSoFHS5ygjk-qSeh4Hw
+[08:12:03,571][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:03,588][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:03,592][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:03,593][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:03,593][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:03,601][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:03,623][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] update_mapping [user] (dynamic)
+[08:12:03,632][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] did not find user [foo]
+[08:12:03,633][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:03,751][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:03,751][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:03,752][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:03,761][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:03,761][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:03,762][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:03,782][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:03,782][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:03,783][INFO ][org.elasticsearch.transport] [server1] bound_address {local[4]}, publish_address {local[4]}
+[08:12:03,783][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][YskuhJ2vQ3-rNBUseyNjxw][DebianC8][local[4]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:03,784][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/YskuhJ2vQ3-rNBUseyNjxw
+[08:12:03,785][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:03,794][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:03,795][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:03,796][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:03,796][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:03,811][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:03,834][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] update_mapping [user] (dynamic)
+[08:12:03,843][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] authenticating user [foo]
+[08:12:03,853][INFO ][org.elasticsearch.cluster.metadata] [server1] [foo] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:03,877][INFO ][org.elasticsearch.cluster.metadata] [server1] [foo] update_mapping [bar] (dynamic)
+[08:12:03,912][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:04,067][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:04,067][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:04,069][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:04,075][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:04,075][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:04,076][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:04,097][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:04,097][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:04,098][INFO ][org.elasticsearch.transport] [server1] bound_address {local[5]}, publish_address {local[5]}
+[08:12:04,098][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][gu9WTxNqRf-hVZI8H6xnCw][DebianC8][local[5]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:04,099][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/gu9WTxNqRf-hVZI8H6xnCw
+[08:12:04,100][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:04,108][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:04,109][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:04,110][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:04,110][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:04,116][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:04,134][INFO ][org.elasticsearch.cluster.metadata] [server1] [auth] update_mapping [user] (dynamic)
+[08:12:04,149][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] authenticating user [john]
+[08:12:04,156][INFO ][org.elasticsearch.cluster.metadata] [server1] [foo] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[08:12:04,175][INFO ][org.elasticsearch.cluster.metadata] [server1] [foo] update_mapping [bar] (dynamic)
+[08:12:04,181][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] authenticating user [jane]
+[08:12:04,185][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] did not find user [john]
+[08:12:04,186][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] did not find user [jane]
+[08:12:04,189][INFO ][org.elasticsearch.org.eclipse.jetty] [server1] did not find user [JaNe]
+[08:12:04,190][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:04,443][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:04,443][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:04,445][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:04,450][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:04,450][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:04,451][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:04,477][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:04,478][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:04,478][INFO ][org.elasticsearch.transport] [server1] bound_address {local[6]}, publish_address {local[6]}
+[08:12:04,479][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][QGfqy4a0Tr2PjhHOgMuV4g][DebianC8][local[6]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:04,479][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/QGfqy4a0Tr2PjhHOgMuV4g
+[08:12:04,480][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:04,497][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:04,504][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:04,505][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:04,505][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:04,513][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:04,585][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:04,585][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:04,586][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:04,590][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:04,591][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:04,591][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:04,615][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:04,615][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:04,615][INFO ][org.elasticsearch.transport] [server1] bound_address {local[7]}, publish_address {local[7]}
+[08:12:04,616][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][eJmZFMG9SOmopYQeAih9Ew][DebianC8][local[7]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:04,616][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/eJmZFMG9SOmopYQeAih9Ew
+[08:12:04,617][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:04,624][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:04,626][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:04,626][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:04,626][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:04,629][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:04,700][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:04,701][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:04,701][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:04,704][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:04,704][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:04,705][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:04,721][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:04,722][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:04,722][INFO ][org.elasticsearch.transport] [server1] bound_address {local[8]}, publish_address {local[8]}
+[08:12:04,723][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][LuffDQxAQCu9sGPpiNj6dg][DebianC8][local[8]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:04,723][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/LuffDQxAQCu9sGPpiNj6dg
+[08:12:04,724][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:04,731][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:04,733][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:04,733][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:04,734][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:04,764][INFO ][org.elasticsearch.cluster.metadata] [server1] [testidx] creating index, cause [api], shards [1]/[0], mappings []
+[08:12:04,787][INFO ][org.elasticsearch.cluster.metadata] [server1] [testidx] update_mapping [msg] (dynamic)
+[08:12:04,844][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:04,970][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:04,970][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:04,971][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:04,975][INFO ][org.elasticsearch.node   ] [server1] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:04,975][INFO ][org.elasticsearch.node   ] [server1] initializing ...
+[08:12:04,976][INFO ][org.elasticsearch.plugins] [server1] loaded [jetty], sites []
+[08:12:04,992][INFO ][org.elasticsearch.node   ] [server1] initialized
+[08:12:04,992][INFO ][org.elasticsearch.node   ] [server1] starting ...
+[08:12:04,992][INFO ][org.elasticsearch.transport] [server1] bound_address {local[9]}, publish_address {local[9]}
+[08:12:04,993][INFO ][org.elasticsearch.cluster.service] [server1] new_master [server1][dIHCeK14TLCyfrv1E7qMjg][DebianC8][local[9]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:04,993][INFO ][org.elasticsearch.discovery] [server1] test-cluster-DebianC8/dIHCeK14TLCyfrv1E7qMjg
+[08:12:04,994][INFO ][org.elasticsearch.gateway] [server1] recovered [0] indices into cluster_state
+[08:12:05,000][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:05,001][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:05,002][INFO ][org.elasticsearch.http   ] [server1] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:05,002][INFO ][org.elasticsearch.node   ] [server1] started
+[08:12:05,014][INFO ][org.elasticsearch.cluster.metadata] [server1] [testidx] creating index, cause [api], shards [1]/[0], mappings []
+[08:12:05,029][INFO ][org.elasticsearch.cluster.metadata] [server1] [testidx] update_mapping [msg] (dynamic)
+[08:12:05,039][INFO ][org.elasticsearch.node   ] [server1] stopping ...
+[08:12:05,151][INFO ][org.elasticsearch.node   ] [server1] stopped
+[08:12:05,151][INFO ][org.elasticsearch.node   ] [server1] closing ...
+[08:12:05,152][INFO ][org.elasticsearch.node   ] [server1] closed
+[08:12:05,158][INFO ][org.elasticsearch.node   ] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:05,158][INFO ][org.elasticsearch.node   ] initializing ...
+[08:12:05,158][INFO ][org.elasticsearch.plugins] loaded [jetty], sites []
+[08:12:05,187][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging.MockESLoggerFactory] Asked for Logger null:org.elasticsearch.com.sonian.elasticsearch.http.filter.jsonlog
+[08:12:05,192][INFO ][org.elasticsearch.node   ] initialized
+[08:12:05,192][INFO ][org.elasticsearch.node   ] starting ...
+[08:12:05,193][INFO ][org.elasticsearch.transport] bound_address {local[10]}, publish_address {local[10]}
+[08:12:05,193][INFO ][org.elasticsearch.cluster.service] new_master [server1][wZUkPkd9R3KRE93CIxsZ2Q][DebianC8][local[10]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:05,194][INFO ][org.elasticsearch.discovery] test-cluster-DebianC8/wZUkPkd9R3KRE93CIxsZ2Q
+[08:12:05,195][INFO ][org.elasticsearch.gateway] recovered [0] indices into cluster_state
+[08:12:05,201][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:05,204][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:05,204][INFO ][org.elasticsearch.http   ] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:05,205][INFO ][org.elasticsearch.node   ] started
+[08:12:05,215][INFO ][org.elasticsearch.cluster.metadata] [test] creating index, cause [api], shards [1]/[0], mappings []
+[08:12:05,437][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging] POST /_search - 200 OK 122 3 [{"query":{"query_string":{"query":"user:kimchy"}}}]
+[08:12:05,444][INFO ][org.elasticsearch.node   ] stopping ...
+[08:12:05,518][INFO ][org.elasticsearch.node   ] stopped
+[08:12:05,518][INFO ][org.elasticsearch.node   ] closing ...
+[08:12:05,519][INFO ][org.elasticsearch.node   ] closed
+[08:12:05,522][INFO ][org.elasticsearch.node   ] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:05,522][INFO ][org.elasticsearch.node   ] initializing ...
+[08:12:05,522][INFO ][org.elasticsearch.plugins] loaded [jetty], sites []
+[08:12:05,547][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging.MockESLoggerFactory] Asked for Logger [server1] :org.elasticsearch.com.sonian.elasticsearch.http.filter.logging
+[08:12:05,551][INFO ][org.elasticsearch.node   ] initialized
+[08:12:05,551][INFO ][org.elasticsearch.node   ] starting ...
+[08:12:05,552][INFO ][org.elasticsearch.transport] bound_address {local[11]}, publish_address {local[11]}
+[08:12:05,552][INFO ][org.elasticsearch.cluster.service] new_master [server1][o04CNDYJQ0qXNMaNIB4NXQ][DebianC8][local[11]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:05,553][INFO ][org.elasticsearch.discovery] test-cluster-DebianC8/o04CNDYJQ0qXNMaNIB4NXQ
+[08:12:05,554][INFO ][org.elasticsearch.gateway] recovered [0] indices into cluster_state
+[08:12:05,563][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:05,566][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:05,567][INFO ][org.elasticsearch.http   ] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:05,567][INFO ][org.elasticsearch.node   ] started
+[08:12:05,579][INFO ][org.elasticsearch.cluster.metadata] [test] creating index, cause [api], shards [1]/[0], mappings []
+[08:12:05,799][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.jsonlog] {"time":"2019-08-16T08:12:05.798+08:00","starttime":"2019-08-16T08:12:05.796+08:00","localaddr":"172.21.178.150","localport":9290,"remoteaddr":"172.21.178.150","remoteport":50022,"scheme":"http","method":"POST","path":"/_search","querystr":"-","code":200,"status":"OK","size":122,"duration":2,"year":"2019","month":"08","day":"16","hour":"08","minute":"12","dow":"Fri","cluster":"test-cluster-DebianC8","data":"{\"query\":{\"query_string\":{\"query\":\"user:kimchy\"}}}"}
+[08:12:05,803][INFO ][org.elasticsearch.node   ] stopping ...
+[08:12:05,879][INFO ][org.elasticsearch.node   ] stopped
+[08:12:05,879][INFO ][org.elasticsearch.node   ] closing ...
+[08:12:05,880][INFO ][org.elasticsearch.node   ] closed
+[08:12:05,884][INFO ][org.elasticsearch.node   ] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:05,884][INFO ][org.elasticsearch.node   ] initializing ...
+[08:12:05,885][INFO ][org.elasticsearch.plugins] loaded [jetty], sites []
+[08:12:05,901][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging.MockESLoggerFactory] Asked for Logger [server1] :org.elasticsearch.com.sonian.elasticsearch.http.filter.logging
+[08:12:05,902][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging.MockESLoggerFactory] Asked for Logger [server1] :org.elasticsearch.com.sonian.elasticsearch.http.filter.logging
+[08:12:05,905][INFO ][org.elasticsearch.node   ] initialized
+[08:12:05,905][INFO ][org.elasticsearch.node   ] starting ...
+[08:12:05,905][INFO ][org.elasticsearch.transport] bound_address {local[12]}, publish_address {local[12]}
+[08:12:05,905][INFO ][org.elasticsearch.cluster.service] new_master [server1][Oq368A2NRASCjqDHAT247g][DebianC8][local[12]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:05,906][INFO ][org.elasticsearch.discovery] test-cluster-DebianC8/Oq368A2NRASCjqDHAT247g
+[08:12:05,907][INFO ][org.elasticsearch.gateway] recovered [0] indices into cluster_state
+[08:12:05,912][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:05,914][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:05,915][INFO ][org.elasticsearch.http   ] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:05,915][INFO ][org.elasticsearch.node   ] started
+[08:12:05,922][INFO ][org.elasticsearch.cluster.metadata] [test] creating index, cause [api], shards [1]/[0], mappings []
+[08:12:06,149][INFO ][org.elasticsearch.node   ] stopping ...
+[08:12:06,225][INFO ][org.elasticsearch.node   ] stopped
+[08:12:06,226][INFO ][org.elasticsearch.node   ] closing ...
+[08:12:06,227][INFO ][org.elasticsearch.node   ] closed
+[08:12:06,231][INFO ][org.elasticsearch.node   ] version[1.2.3], pid[12811], build[4596e81/2014-07-23T13:16:05Z]
+[08:12:06,231][INFO ][org.elasticsearch.node   ] initializing ...
+[08:12:06,231][INFO ][org.elasticsearch.plugins] loaded [jetty], sites []
+[08:12:06,250][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging.MockESLoggerFactory] Asked for Logger [server1] :org.elasticsearch.com.sonian.elasticsearch.http.filter.logging
+[08:12:06,251][INFO ][org.elasticsearch.com.sonian.elasticsearch.http.filter.logging.MockESLoggerFactory] Asked for Logger [server1] :org.elasticsearch.com.sonian.elasticsearch.http.filter.logging
+[08:12:06,255][INFO ][org.elasticsearch.node   ] initialized
+[08:12:06,255][INFO ][org.elasticsearch.node   ] starting ...
+[08:12:06,256][INFO ][org.elasticsearch.transport] bound_address {local[13]}, publish_address {local[13]}
+[08:12:06,257][INFO ][org.elasticsearch.cluster.service] new_master [server1][EpkF6e_dQIyzopwRy2BOBQ][DebianC8][local[13]]{local=true}, reason: local-disco-initial_connect(master)
+[08:12:06,257][INFO ][org.elasticsearch.discovery] test-cluster-DebianC8/EpkF6e_dQIyzopwRy2BOBQ
+[08:12:06,258][INFO ][org.elasticsearch.gateway] recovered [0] indices into cluster_state
+[08:12:06,267][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,270][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started SelectChannelConnector@0.0.0.0:9290
+[08:12:06,271][INFO ][org.elasticsearch.http   ] bound_address {inet[/0:0:0:0:0:0:0:0:9290]}, publish_address {inet[/172.21.178.150:9290]}
+[08:12:06,271][INFO ][org.elasticsearch.node   ] started
+[08:12:06,272][INFO ][org.elasticsearch.node   ] stopping ...
+[08:12:06,344][INFO ][org.elasticsearch.node   ] stopped
+[08:12:06,344][INFO ][org.elasticsearch.node   ] closing ...
+[08:12:06,345][INFO ][org.elasticsearch.node   ] closed
+[08:12:06,349][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,350][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,411][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,419][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,475][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,477][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,532][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,536][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,594][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,595][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,650][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,656][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,713][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,714][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,769][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,771][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,827][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,828][WARN ][org.elasticsearch.org.eclipse.jetty.util.component.AbstractLifeCycle] [server1] FAILED com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandler@39ff4421: java.lang.IllegalArgumentException: No method specified for PathSpec /page.
+java.lang.IllegalArgumentException: No method specified for PathSpec /page.
+	at com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandler.processConstraintMapping(RestConstraintSecurityHandler.java:255)
+	at com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandler.doStart(RestConstraintSecurityHandler.java:192)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandlerTests.testPageWithoutMethod(RestConstraintSecurityHandlerTests.java:343)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:160)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:100)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+[08:12:06,831][WARN ][org.elasticsearch.org.eclipse.jetty.util.component.AbstractLifeCycle] [server1] FAILED org.eclipse.jetty.server.Server@adb15df: java.lang.IllegalArgumentException: No method specified for PathSpec /page.
+java.lang.IllegalArgumentException: No method specified for PathSpec /page.
+	at com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandler.processConstraintMapping(RestConstraintSecurityHandler.java:255)
+	at com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandler.doStart(RestConstraintSecurityHandler.java:192)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.sonian.elasticsearch.http.jetty.security.RestConstraintSecurityHandlerTests.testPageWithoutMethod(RestConstraintSecurityHandlerTests.java:343)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:160)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:100)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+[08:12:06,833][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,835][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,896][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,898][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:06,953][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:06,955][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+[08:12:07,011][INFO ][org.elasticsearch.org.eclipse.jetty.server.Server] [server1] jetty-8.1.14.v20131031
+[08:12:07,013][INFO ][org.elasticsearch.org.eclipse.jetty.server.AbstractConnector] [server1] Started LocalConnector@0.0.0.0:0
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.843 sec
+
+Results :
+
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.678 s
+[INFO] Finished at: 2019-08-16T08:12:07+08:00
+[INFO] ------------------------------------------------------------------------

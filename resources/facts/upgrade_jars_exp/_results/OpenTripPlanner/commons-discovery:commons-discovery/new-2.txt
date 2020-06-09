@@ -1,0 +1,32 @@
+[VERSION]: 1.0-dev
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.opentripplanner:otp:jar:1.3.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 224, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.opentripplanner:otp >-----------------------
+[INFO] Building OpenTripPlanner 1.3.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for commons-discovery:commons-discovery:jar:1.0-dev is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.940 s
+[INFO] Finished at: 2019-08-16T04:23:48+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project otp: Could not resolve dependencies for project org.opentripplanner:otp:jar:1.3.0: Failure to find commons-discovery:commons-discovery:jar:1.0-dev in https://repo1.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central2 has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

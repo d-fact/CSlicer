@@ -1,0 +1,34 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/photon/org.springframework=spring-jdbc/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/photon/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/photon/org.springframework=spring-jdbc/spring-jdbc-4.0.0.RELEASE.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore de.komoot.photon.query.LanguageChecker_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/log4j-slf4j-impl-2.8.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2019-11-12 23:28:56,818 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.delete.DeleteRequest: null
+2019-11-12 23:28:57,016 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.Build: Could not initialize class org.elasticsearch.Build
+2019-11-12 23:28:57,036 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.admin.indices.alias.IndicesAliasesRequest$AliasActions: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,108 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.tasks.TaskInfo: Could not initialize class org.elasticsearch.common.ParseField
+2019-11-12 23:28:57,157 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.rest.RestRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,300 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.apache.logging.log4j.core.async.AsyncLoggerContext: org/apache/logging/log4j/core/async/AsyncLogger
+2019-11-12 23:28:57,352 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.xcontent.ToXContent$MapParams: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,432 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.index.Index: Could not initialize class org.elasticsearch.common.ParseField
+2019-11-12 23:28:57,451 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.bulk.BulkRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,455 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.tasks.TaskResult: Could not initialize class org.elasticsearch.common.ParseField
+2019-11-12 23:28:57,699 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.ClusterState: Could not initialize class org.elasticsearch.common.ParseField
+2019-11-12 23:28:57,754 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.mom.JmsAppender: javax/jms/JMSException
+2019-11-12 23:28:57,770 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.IndexGraveyard: Could not initialize class org.elasticsearch.cluster.metadata.IndexGraveyard
+2019-11-12 23:28:57,772 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.search.SearchRequest: Could not initialize class org.elasticsearch.common.xcontent.ToXContent$MapParams
+2019-11-12 23:28:57,822 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.logging.DeprecationLogger: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,890 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.routing.AllocationId: Could not initialize class org.elasticsearch.common.ParseField
+2019-11-12 23:28:57,891 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.cluster.metadata.MetaData: Could not initialize class org.elasticsearch.cluster.metadata.MetaData
+2019-11-12 23:28:57,894 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.index.IndexRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,944 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.update.UpdateRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+2019-11-12 23:28:57,949 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.common.ParseField: Could not initialize class org.elasticsearch.common.ParseField
+2019-11-12 23:28:57,964 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Could not initialize org.elasticsearch.action.get.GetRequest: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+.2019-11-12 23:28:58,110 [main] ERROR org.evosuite.runtime.classhandling.ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class org.elasticsearch.Build
+2019-11-12 23:28:58,110 [main] ERROR org.evosuite.runtime.classhandling.ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class org.elasticsearch.common.logging.DeprecationLogger
+...
+Time: 1.827
+
+OK (4 tests)
+

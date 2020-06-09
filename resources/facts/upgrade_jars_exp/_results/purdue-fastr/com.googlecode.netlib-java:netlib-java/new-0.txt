@@ -1,0 +1,527 @@
+[VERSION]: 1.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------------< allr:fastr >-----------------------------
+[INFO] Building fastr 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fastr ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ fastr ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    junit:junit:jar:4.8:test
+[INFO]    com.github.fommil.netlib:core:jar:1.1:compile
+[INFO]    jline:jline:jar:2.11:compile
+[INFO]    antlr:antlr:jar:2.7.7:compile
+[INFO]    com.googlecode.netlib-java:netlib-java:jar:1.1:compile
+[INFO]    org.antlr:antlr-runtime:jar:3.5:compile
+[INFO]    org.antlr:stringtemplate:jar:3.2.1:compile
+[INFO]    net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ fastr ---
+[INFO] ANTLR: Processing source directory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src
+ANTLR Parser Generator  Version 3.5
+Output file /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/target/generated-sources/antlr3/r/parser/RParser.java does not exist: must build /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/r/parser/R.g
+r/parser/R.g
+warning(24):  template error: context [/outputFile /parser /genericParser /region__/genericParser__members] 32:3 no such property or can't access: org.antlr.tool.Grammar.indirectDelegates
+Caused by: org.stringtemplate.v4.misc.STNoSuchPropertyException: no such property: org.antlr.tool.Grammar.indirectDelegates
+	at org.stringtemplate.v4.misc.ObjectModelAdaptor.throwNoSuchProperty(ObjectModelAdaptor.java:106)
+	at org.stringtemplate.v4.misc.ObjectModelAdaptor.lookupMethod(ObjectModelAdaptor.java:99)
+	at org.stringtemplate.v4.misc.ObjectModelAdaptor.getProperty(ObjectModelAdaptor.java:67)
+	at org.stringtemplate.v4.Interpreter.getObjectProperty(Interpreter.java:1158)
+	at org.stringtemplate.v4.Interpreter._exec(Interpreter.java:210)
+	at org.stringtemplate.v4.Interpreter.exec(Interpreter.java:145)
+	at org.stringtemplate.v4.Interpreter.writeObject(Interpreter.java:703)
+	at org.stringtemplate.v4.Interpreter.writeObjectNoOptions(Interpreter.java:635)
+	at org.stringtemplate.v4.Interpreter._exec(Interpreter.java:285)
+	at org.stringtemplate.v4.Interpreter.exec(Interpreter.java:145)
+	at org.stringtemplate.v4.Interpreter.writeObject(Interpreter.java:703)
+	at org.stringtemplate.v4.Interpreter.writeObjectNoOptions(Interpreter.java:635)
+	at org.stringtemplate.v4.Interpreter._exec(Interpreter.java:285)
+	at org.stringtemplate.v4.Interpreter.exec(Interpreter.java:145)
+	at org.stringtemplate.v4.Interpreter.writeObject(Interpreter.java:703)
+	at org.stringtemplate.v4.Interpreter.writeObjectNoOptions(Interpreter.java:635)
+	at org.stringtemplate.v4.Interpreter._exec(Interpreter.java:285)
+	at org.stringtemplate.v4.Interpreter.exec(Interpreter.java:145)
+	at org.stringtemplate.v4.ST.write(ST.java:415)
+	at org.antlr.codegen.CodeGenerator.write(CodeGenerator.java:1296)
+	at org.antlr.codegen.Target.genRecognizerFile(Target.java:98)
+	at org.antlr.codegen.CodeGenerator.genRecognizer(CodeGenerator.java:459)
+	at org.antlr.Tool.generateRecognizer(Tool.java:696)
+	at org.antlr.Tool.process(Tool.java:509)
+	at org.antlr.mojo.antlr3.Antlr3Mojo.execute(Antlr3Mojo.java:382)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:154)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:146)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:290)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.stringtemplate.v4.misc.Misc.invokeMethod(Misc.java:218)
+	at org.stringtemplate.v4.misc.ObjectModelAdaptor.lookupMethod(ObjectModelAdaptor.java:84)
+	... 45 more
+Caused by: java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at java.util.ArrayList.removeAll(ArrayList.java:693)
+	at org.antlr.tool.CompositeGrammar.getIndirectDelegates(CompositeGrammar.java:226)
+	at org.antlr.tool.Grammar.getIndirectDelegates(Grammar.java:2722)
+	... 51 more
+
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fastr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ fastr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 343 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/r/Console.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/r/Console.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/r/data/internal/TracingView.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/r/data/internal/TracingView.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fastr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ fastr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 33 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ fastr ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/target/surefire-reports
+[WARNING] java.library.path cannot be set as system property, use <argLine>-Djava.library.path=...<argLine> instead
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running r.runtime.TestNodes
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in r.runtime.TestNodes
+Running r.shootout.binarytrees.TestBinaryTrees
+Running file test/r/shootout/binarytrees/binarytrees.r...
+Running file test/r/shootout/binarytrees/binarytrees-2.r...
+Running file test/r/shootout/binarytrees/binarytrees-naive.r...
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 sec - in r.shootout.binarytrees.TestBinaryTrees
+Running r.shootout.fastaredux.TestFastaRedux
+Running file test/r/shootout/fastaredux/fastaredux.r...
+Running file test/r/shootout/fastaredux/fastaredux-naive.r...
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in r.shootout.fastaredux.TestFastaRedux
+Running r.shootout.regexdna.TestRegexdna
+Running file test/r/shootout/fastaredux/fastaredux.r...
+Running file test/r/shootout/regexdna/regexdna.r...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in r.shootout.regexdna.TestRegexdna
+Running r.shootout.reversecomplement.TestReverseComplement
+Running file test/r/shootout/fastaredux/fastaredux.r...
+Running file test/r/shootout/reversecomplement/reversecomplement.r...
+Running file test/r/shootout/fastaredux/fastaredux.r...
+Running file test/r/shootout/reversecomplement/reversecomplement-naive.r...
+Running file test/r/shootout/fastaredux/fastaredux.r...
+Running file test/r/shootout/reversecomplement/reversecomplement-2.r...
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in r.shootout.reversecomplement.TestReverseComplement
+Running r.shootout.spectralnorm.TestSpectralNorm
+Running file test/r/shootout/spectralnorm/spectralnorm.r...
+Running file test/r/shootout/spectralnorm/spectralnorm.r...
+Running file test/r/shootout/spectralnorm/spectralnorm-alt.r...
+Tests run: 7, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.082 sec <<< FAILURE! - in r.shootout.spectralnorm.TestSpectralNorm
+testSpectralNormAlt(r.shootout.spectralnorm.TestSpectralNorm)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.github.fommil.netlib.BLAS.load(BLAS.java:76)
+	at com.github.fommil.netlib.BLAS.<clinit>(BLAS.java:58)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrixNative(MatrixOperation.java:221)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrix(MatrixOperation.java:177)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.execute(MatrixOperation.java:247)
+	at r.nodes.exec.MatrixOperation.execute(MatrixOperation.java:30)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.WriteVariable$2.execute(WriteVariable.java:75)
+	at r.nodes.exec.WriteVariable$1.execute(WriteVariable.java:65)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:51)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:595)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:582)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor.execute(Loop.java:511)
+	at r.nodes.exec.Sequence.execute(Sequence.java:21)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.callNoDefaults(FunctionImpl.java:118)
+	at r.nodes.exec.FunctionCall$PositionalTopLevelClosureCall$Args1.execute(FunctionCall.java:419)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:189)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.If$IfNoElse.execute(If.java:117)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:52)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.FileTestBase.run(FileTestBase.java:61)
+	at r.FileTestBase.assertRun(FileTestBase.java:91)
+	at r.shootout.ShootoutTestBase.assertShootout(ShootoutTestBase.java:20)
+	at r.shootout.spectralnorm.TestSpectralNorm.testSpectralNormAlt(TestSpectralNorm.java:15)
+
+testSpectralNormAlt2(r.shootout.spectralnorm.TestSpectralNorm)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.blas.BLAS
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrixNative(MatrixOperation.java:221)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrix(MatrixOperation.java:177)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.execute(MatrixOperation.java:247)
+	at r.nodes.exec.MatrixOperation.execute(MatrixOperation.java:30)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.WriteVariable$2.execute(WriteVariable.java:75)
+	at r.nodes.exec.WriteVariable$1.execute(WriteVariable.java:65)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:51)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:595)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:582)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor.execute(Loop.java:511)
+	at r.nodes.exec.Sequence.execute(Sequence.java:21)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.callNoDefaults(FunctionImpl.java:118)
+	at r.nodes.exec.FunctionCall$PositionalTopLevelClosureCall$Args1.execute(FunctionCall.java:419)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:189)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.If$IfNoElse.execute(If.java:117)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:52)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.FileTestBase.run(FileTestBase.java:61)
+	at r.FileTestBase.assertRun(FileTestBase.java:91)
+	at r.shootout.ShootoutTestBase.assertShootout(ShootoutTestBase.java:20)
+	at r.shootout.spectralnorm.TestSpectralNorm.testSpectralNormAlt2(TestSpectralNorm.java:21)
+
+testSpectralNormAlt3(r.shootout.spectralnorm.TestSpectralNorm)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.blas.BLAS
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrixNative(MatrixOperation.java:221)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrix(MatrixOperation.java:177)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.execute(MatrixOperation.java:247)
+	at r.nodes.exec.MatrixOperation.execute(MatrixOperation.java:30)
+	at r.nodes.exec.Sequence$Sequence3.execute(Sequence.java:86)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.WriteVariable$2.execute(WriteVariable.java:75)
+	at r.nodes.exec.WriteVariable$1.execute(WriteVariable.java:65)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:51)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:595)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:582)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor.execute(Loop.java:511)
+	at r.nodes.exec.Sequence.execute(Sequence.java:21)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.callNoDefaults(FunctionImpl.java:118)
+	at r.nodes.exec.FunctionCall$PositionalTopLevelClosureCall$Args1.execute(FunctionCall.java:419)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:189)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.If$IfNoElse.execute(If.java:117)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:52)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.FileTestBase.run(FileTestBase.java:61)
+	at r.FileTestBase.assertRun(FileTestBase.java:91)
+	at r.shootout.ShootoutTestBase.assertShootout(ShootoutTestBase.java:20)
+	at r.shootout.spectralnorm.TestSpectralNorm.testSpectralNormAlt3(TestSpectralNorm.java:27)
+
+testSpectralNormMath(r.shootout.spectralnorm.TestSpectralNorm)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.blas.BLAS
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrixNative(MatrixOperation.java:221)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrix(MatrixOperation.java:177)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.execute(MatrixOperation.java:247)
+	at r.nodes.exec.MatrixOperation.execute(MatrixOperation.java:30)
+	at r.builtins.Builtin.evalArgs(Builtin.java:104)
+	at r.builtins.Builtin.execute(Builtin.java:93)
+	at r.nodes.exec.ReadVector$FieldSelection.execute(ReadVector.java:2053)
+	at r.builtins.Builtin$Builtin1.execute(Builtin.java:41)
+	at r.builtins.Builtin$Builtin1.execute(Builtin.java:41)
+	at r.builtins.Builtin.evalArgs(Builtin.java:104)
+	at r.builtins.Builtin.execute(Builtin.java:93)
+	at r.nodes.exec.Sequence$Sequence5.execute(Sequence.java:175)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.callNoDefaults(FunctionImpl.java:118)
+	at r.nodes.exec.FunctionCall$PositionalTopLevelClosureCall$Args1.execute(FunctionCall.java:419)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:189)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.If$IfNoElse.execute(If.java:117)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:52)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.FileTestBase.run(FileTestBase.java:61)
+	at r.FileTestBase.assertRun(FileTestBase.java:91)
+	at r.shootout.ShootoutTestBase.assertShootout(ShootoutTestBase.java:20)
+	at r.shootout.spectralnorm.TestSpectralNorm.testSpectralNormMath(TestSpectralNorm.java:33)
+
+testSpectralNormAlt4(r.shootout.spectralnorm.TestSpectralNorm)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.blas.BLAS
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrixNative(MatrixOperation.java:221)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrix(MatrixOperation.java:177)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.execute(MatrixOperation.java:247)
+	at r.nodes.exec.MatrixOperation.execute(MatrixOperation.java:30)
+	at r.nodes.exec.Sequence$Sequence3.execute(Sequence.java:86)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.call(FunctionImpl.java:107)
+	at r.nodes.exec.FunctionCall$GenericCall.execute(FunctionCall.java:502)
+	at r.nodes.exec.RNode.replace(RNode.java:108)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:194)
+	at r.nodes.exec.WriteVariable$2.execute(WriteVariable.java:75)
+	at r.nodes.exec.WriteVariable$1.execute(WriteVariable.java:65)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:51)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:595)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor$2.execute(Loop.java:582)
+	at r.nodes.exec.Loop$For$IntSimpleRangeFor.execute(Loop.java:511)
+	at r.nodes.exec.Sequence.execute(Sequence.java:21)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.data.internal.FunctionImpl.callNoDefaults(FunctionImpl.java:118)
+	at r.nodes.exec.FunctionCall$PositionalTopLevelClosureCall$Args1.execute(FunctionCall.java:419)
+	at r.nodes.exec.FunctionCall$UninitializedCall.execute(FunctionCall.java:189)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.exec.If$IfNoElse.execute(If.java:117)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:52)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.FileTestBase.run(FileTestBase.java:61)
+	at r.FileTestBase.assertRun(FileTestBase.java:91)
+	at r.shootout.ShootoutTestBase.assertShootout(ShootoutTestBase.java:20)
+	at r.shootout.spectralnorm.TestSpectralNorm.testSpectralNormAlt4(TestSpectralNorm.java:39)
+
+Running r.shootout.nbody.TestNbody
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec - in r.shootout.nbody.TestNbody
+Running r.shootout.fasta.TestFasta
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in r.shootout.fasta.TestFasta
+Running r.shootout.pidigits.TestPidigits
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec - in r.shootout.pidigits.TestPidigits
+Running r.shootout.fannkuch.TestFannkuch
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in r.shootout.fannkuch.TestFannkuch
+Running r.shootout.mandelbrot.TestMandelbrot
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in r.shootout.mandelbrot.TestMandelbrot
+Running r.shootout.knucleotide.TestKNucleotide
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in r.shootout.knucleotide.TestKNucleotide
+Running r.tud.test.TestTUD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in r.tud.test.TestTUD
+Running r.simple.TestSimpleFunctions
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in r.simple.TestSimpleFunctions
+Running r.simple.TestSimpleVectors
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 sec - in r.simple.TestSimpleVectors
+Running r.simple.TestSimpleAttributes
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 sec <<< FAILURE! - in r.simple.TestSimpleAttributes
+testBuiltinPropagation(r.simple.TestSimpleAttributes)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.github.fommil.netlib.LAPACK.load(LAPACK.java:77)
+	at com.github.fommil.netlib.LAPACK.<clinit>(LAPACK.java:58)
+	at r.builtins.Eigen$1.doBuiltIn(Eigen.java:135)
+	at r.builtins.Builtin.execute(Builtin.java:93)
+	at r.nodes.exec.WriteVariable$3.execute(WriteVariable.java:89)
+	at r.nodes.exec.WriteVariable$1.execute(WriteVariable.java:65)
+	at r.nodes.exec.Sequence$Sequence5.execute(Sequence.java:173)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.simple.SimpleTestBase.eval(SimpleTestBase.java:101)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:135)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:108)
+	at r.simple.SimpleTestBase.assertEval(SimpleTestBase.java:22)
+	at r.simple.TestSimpleAttributes.testBuiltinPropagation(TestSimpleAttributes.java:82)
+
+Running r.simple.TestSimpleArithmetic
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.061 sec <<< FAILURE! - in r.simple.TestSimpleArithmetic
+testMatrices(r.simple.TestSimpleArithmetic)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.blas.BLAS
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrixNative(MatrixOperation.java:221)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.matrixTimesMatrix(MatrixOperation.java:177)
+	at r.nodes.exec.MatrixOperation$MatrixProduct.execute(MatrixOperation.java:247)
+	at r.nodes.exec.MatrixOperation.execute(MatrixOperation.java:30)
+	at r.nodes.exec.Sequence$Sequence3.execute(Sequence.java:86)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.simple.SimpleTestBase.eval(SimpleTestBase.java:101)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:135)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:108)
+	at r.simple.SimpleTestBase.assertEval(SimpleTestBase.java:22)
+	at r.simple.TestSimpleArithmetic.testMatrices(TestSimpleArithmetic.java:324)
+
+Running r.simple.TestSimpleArrays
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 sec - in r.simple.TestSimpleArrays
+Running r.simple.TestSimpleBuiltins
+Tests run: 75, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.95 sec <<< FAILURE! - in r.simple.TestSimpleBuiltins
+testEigen(r.simple.TestSimpleBuiltins)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.lapack.LAPACK
+	at r.builtins.Eigen$1.doBuiltIn(Eigen.java:135)
+	at r.builtins.Builtin.execute(Builtin.java:93)
+	at r.nodes.exec.WriteVariable$3.execute(WriteVariable.java:89)
+	at r.nodes.exec.WriteVariable$1.execute(WriteVariable.java:65)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:51)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.simple.SimpleTestBase.eval(SimpleTestBase.java:101)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:135)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:108)
+	at r.simple.SimpleTestBase.assertEval(SimpleTestBase.java:22)
+	at r.simple.TestSimpleBuiltins.testEigen(TestSimpleBuiltins.java:861)
+
+testCrossprod(r.simple.TestSimpleBuiltins)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.blas.BLAS
+	at r.builtins.Crossprod.matrixNative(Crossprod.java:131)
+	at r.builtins.Crossprod.crossprod(Crossprod.java:109)
+	at r.builtins.Crossprod$2.doBuiltIn(Crossprod.java:46)
+	at r.builtins.Builtin$Builtin1.execute(Builtin.java:41)
+	at r.nodes.exec.Sequence$Sequence2.execute(Sequence.java:52)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.simple.SimpleTestBase.eval(SimpleTestBase.java:101)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:135)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:108)
+	at r.simple.SimpleTestBase.assertEval(SimpleTestBase.java:22)
+	at r.simple.TestSimpleBuiltins.testCrossprod(TestSimpleBuiltins.java:1019)
+
+testDet(r.simple.TestSimpleBuiltins)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.netlib.lapack.LAPACK
+	at r.builtins.Det$1.doBuiltIn(Det.java:55)
+	at r.builtins.Builtin.execute(Builtin.java:93)
+	at r.nodes.exec.LazyBuild.execute(LazyBuild.java:21)
+	at r.nodes.tools.BuildExecutableTree$1.execute(BuildExecutableTree.java:38)
+	at r.RContext.eval(RContext.java:54)
+	at r.RContext.eval(RContext.java:46)
+	at r.simple.SimpleTestBase.eval(SimpleTestBase.java:101)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:135)
+	at r.simple.SimpleTestBase.testEval(SimpleTestBase.java:108)
+	at r.simple.SimpleTestBase.assertEval(SimpleTestBase.java:22)
+	at r.simple.TestSimpleBuiltins.testDet(TestSimpleBuiltins.java:1093)
+
+Running r.simple.TestSimpleIfEvaluator
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in r.simple.TestSimpleIfEvaluator
+Running r.simple.TestSimpleLoop
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in r.simple.TestSimpleLoop
+Running r.simple.TestSimpleComparison
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in r.simple.TestSimpleComparison
+Running r.simple.TestSimpleAssignment
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in r.simple.TestSimpleAssignment
+Running r.benchmark25.test.TestMatcal
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in r.benchmark25.test.TestMatcal
+Running r.benchmark25.test.TestMatfunc
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in r.benchmark25.test.TestMatfunc
+Running r.benchmark25.test.TestProg
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in r.benchmark25.test.TestProg
+Running r.nodes.tools.TestPP
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in r.nodes.tools.TestPP
+
+Results :
+
+Tests in error: 
+  TestSpectralNorm.testSpectralNormAlt:15->ShootoutTestBase.assertShootout:20->FileTestBase.assertRun:91->FileTestBase.run:61 » ExceptionInInitializer
+  TestSpectralNorm.testSpectralNormAlt2:21->ShootoutTestBase.assertShootout:20->FileTestBase.assertRun:91->FileTestBase.run:61 » NoClassDefFound
+  TestSpectralNorm.testSpectralNormAlt3:27->ShootoutTestBase.assertShootout:20->FileTestBase.assertRun:91->FileTestBase.run:61 » NoClassDefFound
+  TestSpectralNorm.testSpectralNormMath:33->ShootoutTestBase.assertShootout:20->FileTestBase.assertRun:91->FileTestBase.run:61 » NoClassDefFound
+  TestSpectralNorm.testSpectralNormAlt4:39->ShootoutTestBase.assertShootout:20->FileTestBase.assertRun:91->FileTestBase.run:61 » NoClassDefFound
+  TestSimpleAttributes.testBuiltinPropagation:82->SimpleTestBase.assertEval:22->SimpleTestBase.testEval:108->SimpleTestBase.testEval:135->SimpleTestBase.eval:101 » ExceptionInInitializer
+  TestSimpleArithmetic.testMatrices:324->SimpleTestBase.assertEval:22->SimpleTestBase.testEval:108->SimpleTestBase.testEval:135->SimpleTestBase.eval:101 » NoClassDefFound
+  TestSimpleBuiltins.testEigen:861->SimpleTestBase.assertEval:22->SimpleTestBase.testEval:108->SimpleTestBase.testEval:135->SimpleTestBase.eval:101 » NoClassDefFound
+  TestSimpleBuiltins.testCrossprod:1019->SimpleTestBase.assertEval:22->SimpleTestBase.testEval:108->SimpleTestBase.testEval:135->SimpleTestBase.eval:101 » NoClassDefFound
+  TestSimpleBuiltins.testDet:1093->SimpleTestBase.assertEval:22->SimpleTestBase.testEval:108->SimpleTestBase.testEval:135->SimpleTestBase.eval:101 » NoClassDefFound
+
+Tests run: 202, Failures: 0, Errors: 10, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.703 s
+[INFO] Finished at: 2019-08-14T21:01:52+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project fastr: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/purdue-fastr/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

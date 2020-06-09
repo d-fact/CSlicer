@@ -1,0 +1,107 @@
+[VERSION]: 28.0-jre
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< pl.project13.maven:git-commit-id-plugin >---------------
+[INFO] Building Git Commit Id Maven Plugin 2.2.4
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ git-commit-id-plugin ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:list (default-cli) @ git-commit-id-plugin ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.0:compile
+[INFO]    org.eclipse.jgit:org.eclipse.jgit:jar:4.5.2.201704071617-r:compile
+[INFO]    com.github.stefanbirkner:system-rules:jar:1.16.0:test
+[INFO]    org.sonatype.aether:aether-util:jar:1.7:compile
+[INFO]    com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    org.apache.maven:maven-core:jar:3.0:compile
+[INFO]    org.apache.maven:maven-model:jar:3.0:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.6.14:test
+[INFO]    org.apache.maven:maven-artifact:jar:3.0:compile
+[INFO]    com.jcraft:jsch:jar:0.1.53:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+[INFO]    pl.pragmatists:JUnitParams:jar:1.0.4:test
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.0:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[INFO]    org.checkerframework:checker-qual:jar:2.8.1:compile
+[INFO]    com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    org.mockito:mockito-core:jar:2.8.47:test
+[INFO]    commons-io:commons-io:jar:2.4:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.sonatype.aether:aether-api:jar:1.7:compile
+[INFO]    org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.13:test
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.3.2:compile
+[INFO]    com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    joda-time:joda-time:jar:2.9.1:compile
+[INFO]    com.intellij:annotations:jar:12.0:compile
+[INFO]    commons-codec:commons-codec:jar:1.6:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.2:compile
+[INFO]    org.easytesting:fest-assert:jar:1.4:test
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.0:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[INFO]    org.easytesting:fest-util:jar:1.1.6:test
+[INFO]    org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[INFO]    org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+[INFO]    org.objenesis:objenesis:jar:2.5:test
+[INFO]    org.sonatype.aether:aether-spi:jar:1.7:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5:provided
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    commons-logging:commons-logging:jar:1.1.3:compile
+[INFO]    org.sonatype.aether:aether-impl:jar:1.7:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.0.22:test
+[INFO]    com.google.guava:guava:jar:28.0-jre:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ git-commit-id-plugin ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ git-commit-id-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ git-commit-id-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/maven/git/NativeGitProvider.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/maven/git/NativeGitProvider.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/maven/git/NativeGitProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/maven/git/util/SortedProperties.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/maven/git/util/SortedProperties.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/maven/git/util/SortedProperties.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/jgit/JGitCommon.java:[67,91] <anonymous pl.project13.jgit.JGitCommon$1> is not abstract and does not override abstract method test(org.eclipse.jgit.lib.Ref) in java.util.function.Predicate
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.497 s
+[INFO] Finished at: 2019-08-16T00:36:49+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project git-commit-id-plugin: Compilation failure
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/maven-git-commit-id-plugin/src/main/java/pl/project13/jgit/JGitCommon.java:[67,91] <anonymous pl.project13.jgit.JGitCommon$1> is not abstract and does not override abstract method test(org.eclipse.jgit.lib.Ref) in java.util.function.Predicate
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

@@ -1,0 +1,88 @@
+[VERSION]: 7.0.0-beta7
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.github.shyiko:mysql-binlog-connector-java >------------
+[INFO] Building mysql-binlog-connector-java 0.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mysql-binlog-connector-java ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ mysql-binlog-connector-java ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    mysql:mysql-connector-java:jar:5.1.21:test
+[INFO]    com.beust:jcommander:jar:1.72:test
+[INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    org.mockito:mockito-all:jar:1.9.5:test
+[INFO]    org.skyscreamer:jsonassert:jar:1.4.0:test
+[INFO]    org.testng:testng:jar:7.0.0-beta7:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mysql-binlog-connector-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ mysql-binlog-connector-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 79 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[18,25] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[33,9] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[33,63] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[33,35] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mysql-binlog-connector-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ mysql-binlog-connector-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientIntegrationTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientIntegrationTest.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientIntegrationTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[18,30] package junit.framework does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[18,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[22,17] package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/jmx/BinaryLogClientStatisticsMXBeanTest.java:[19,17] package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[42,6] cannot find symbol
+  symbol:   class Test
+  location: class com.github.shyiko.mysql.binlog.event.deserialization.PreviousGtidSetDeserializerTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/jmx/BinaryLogClientStatisticsMXBeanTest.java:[32,6] cannot find symbol
+  symbol:   class Test
+  location: class com.github.shyiko.mysql.binlog.jmx.BinaryLogClientStatisticsMXBeanTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[48,9] cannot find symbol
+  symbol:   method assertEquals(java.lang.String,java.lang.String)
+  location: class com.github.shyiko.mysql.binlog.event.deserialization.PreviousGtidSetDeserializerTest
+[INFO] 7 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.685 s
+[INFO] Finished at: 2019-08-16T08:08:00+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile) on project mysql-binlog-connector-java: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[18,30] package junit.framework does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[18,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[22,17] package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/jmx/BinaryLogClientStatisticsMXBeanTest.java:[19,17] package org.junit does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[42,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.github.shyiko.mysql.binlog.event.deserialization.PreviousGtidSetDeserializerTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/jmx/BinaryLogClientStatisticsMXBeanTest.java:[32,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.github.shyiko.mysql.binlog.jmx.BinaryLogClientStatisticsMXBeanTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/event/deserialization/PreviousGtidSetDeserializerTest.java:[48,9] cannot find symbol
+[ERROR]   symbol:   method assertEquals(java.lang.String,java.lang.String)
+[ERROR]   location: class com.github.shyiko.mysql.binlog.event.deserialization.PreviousGtidSetDeserializerTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

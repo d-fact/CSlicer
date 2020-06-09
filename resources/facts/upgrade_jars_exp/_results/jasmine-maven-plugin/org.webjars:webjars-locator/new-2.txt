@@ -1,0 +1,184 @@
+[VERSION]: 0.37
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ---------------< com.github.searls:jasmine-maven-plugin >---------------
+[INFO] Building jasmine-maven-plugin 3.0-alpha-01
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ jasmine-maven-plugin ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jasmine-maven-plugin ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.19:compile
+[INFO]    net.jcip:jcip-annotations:jar:1.0:compile
+[INFO]    org.w3c.css:sac:jar:1.3:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.5:compile
+[INFO]    com.beust:jcommander:jar:1.48:compile
+[INFO]    org.assertj:assertj-guava:jar:3.1.0:test
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.1.1:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    xml-apis:xml-apis:jar:1.4.01:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.1.1:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.7.v20170914:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:compile
+[INFO]    org.seleniumhq.selenium:selenium-server:jar:3.8.1:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO]    xalan:serializer:jar:2.7.2:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M5:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    xalan:xalan:jar:2.7.2:compile
+[INFO]    uk.org.lidalia:lidalia-lang:jar:1.0.0:test
+[INFO]    org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[INFO]    org.seleniumhq.selenium:selenium-safari-driver:jar:3.8.1:compile
+[INFO]    org.webjars.npm:inflight:jar:1.0.6:compile
+[INFO]    org.webjars.npm:balanced-match:jar:1.0.0:compile
+[INFO]    org.apache.maven:maven-model:jar:3.1.1:compile
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.5.1:compile
+[INFO]    org.seleniumhq.selenium:htmlunit-driver:jar:2.28:compile
+[INFO]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO]    commons-net:commons-net:jar:3.6:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.codehaus.plexus:plexus-resources:jar:1.0.1:compile
+[INFO]    org.webjars:webjars-locator-core:jar:0.39:compile
+[INFO]    classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO]    org.apache.commons:commons-text:jar:1.1:compile
+[INFO]    org.seleniumhq.selenium:selenium-opera-driver:jar:3.8.1:compile
+[INFO]    org.seleniumhq.selenium:jetty-repacked:jar:9.4.7.v20170914:compile
+[INFO]    org.webjars.npm:brace-expansion:jar:1.1.11:compile
+[INFO]    org.apache.commons:commons-exec:jar:1.3:compile
+[INFO]    org.antlr:ST4:jar:4.0.8:compile
+[INFO]    xerces:xercesImpl:jar:2.11.0:compile
+[INFO]    org.seleniumhq.selenium:selenium-ie-driver:jar:3.8.1:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+[INFO]    org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.7.v20170914:compile
+[INFO]    org.rauschig:jarchivelib:jar:0.7.1:compile
+[INFO]    org.webjars.npm:once:jar:1.4.0:compile
+[INFO]    org.webjars.npm:glob:jar:7.1.4:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.21:compile
+[INFO]    org.mockito:mockito-core:jar:2.10.0:test
+[INFO]    org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[INFO]    joda-time:joda-time:jar:2.2:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.webjars.npm:path-is-absolute:jar:1.0.1:compile
+[INFO]    org.immutables:value:jar:2.5.6:provided
+[INFO]    org.webjars.npm:jasmine-core:jar:2.6.4:compile
+[INFO]    org.webjars.npm:concat-map:jar:0.0.1:compile
+[INFO]    uk.org.lidalia:slf4j-test:jar:1.1.0:test
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO]    org.webjars.npm:minimatch:jar:3.0.4:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.7.v20170914:compile
+[INFO]    org.jsoup:jsoup:jar:1.10.2:compile
+[INFO]    net.sourceforge.htmlunit:neko-htmlunit:jar:2.28:compile
+[INFO]    org.seleniumhq.selenium:selenium-chrome-driver:jar:3.8.1:compile
+[INFO]    org.seleniumhq.selenium:selenium-support:jar:3.8.1:compile
+[INFO]    net.sourceforge.htmlunit:htmlunit-core-js:jar:2.28:compile
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.1.1:compile
+[INFO]    org.seleniumhq.selenium:selenium-remote-driver:jar:3.8.1:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO]    org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[INFO]    org.webjars.npm:wrappy:jar:1.0.2:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.9:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO]    net.sourceforge.htmlunit:htmlunit:jar:2.29:compile
+[INFO]    org.webjars:webjars-locator:jar:0.37:compile
+[INFO]    org.apache.maven:maven-artifact:jar:3.1.1:compile
+[INFO]    org.apache.maven:maven-core:jar:3.1.1:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.seleniumhq.selenium:selenium-java:jar:3.8.1:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO]    com.google.guava:guava:jar:23.0:compile
+[INFO]    org.assertj:assertj-core:jar:3.8.0:test
+[INFO]    io.github.classgraph:classgraph:jar:4.8.44:compile
+[INFO]    org.seleniumhq.selenium:selenium-edge-driver:jar:3.8.1:compile
+[INFO]    uk.org.lidalia:lidalia-slf4j-ext:jar:1.0.0:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.8:compile
+[INFO]    org.seleniumhq.selenium:selenium-firefox-driver:jar:3.8.1:compile
+[INFO]    org.webjars.npm:jasmine:jar:2.6.0:compile
+[INFO]    io.github.bonigarcia:webdrivermanager:jar:2.1.0:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.7.v20170914:compile
+[INFO]    org.webjars.npm:exit:jar:0.1.2:compile
+[INFO]    org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO]    org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.9.3:compile
+[INFO]    org.webjars.npm:fs.realpath:jar:1.0.0:compile
+[INFO]    org.seleniumhq.selenium:selenium-api:jar:3.8.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.2:compile
+[INFO]    org.apache.maven:maven-aether-provider:jar:3.1.1:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.1.1:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO]    org.webjars.npm:inherits:jar:2.0.4:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.7.v20170914:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.7.v20170914:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    net.sourceforge.cssparser:cssparser:jar:0.9.24:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.7.v20170914:compile
+[INFO]    backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.1.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jasmine-maven-plugin ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/target/jacoco.exec,excludes=com/github/searls/jasmine/mojo/HelpMojo*:**com.steadystate*
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5:helpmojo (generated-helpmojo) @ jasmine-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 0 mojo descriptor.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jasmine-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jasmine-maven-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 51 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/io/RelativizesFilePaths.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/io/RelativizesFilePaths.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/thirdpartylibs/WebJarResourceHandler.java:[93,61] cannot find symbol
+  symbol:   method getFullPathIndex(java.util.regex.Pattern,java.lang.ClassLoader)
+  location: class org.webjars.WebJarAssetLocator
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.731 s
+[INFO] Finished at: 2019-08-16T08:05:22+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project jasmine-maven-plugin: Compilation failure
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/thirdpartylibs/WebJarResourceHandler.java:[93,61] cannot find symbol
+[ERROR]   symbol:   method getFullPathIndex(java.util.regex.Pattern,java.lang.ClassLoader)
+[ERROR]   location: class org.webjars.WebJarAssetLocator
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

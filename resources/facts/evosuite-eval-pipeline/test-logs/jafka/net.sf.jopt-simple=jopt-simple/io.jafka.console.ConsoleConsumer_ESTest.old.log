@@ -1,0 +1,48 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/jafka/net.sf.jopt-simple=jopt-simple/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jafka/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jafka/net.sf.jopt-simple=jopt-simple/jopt-simple-5.0.4.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore io.jafka.console.ConsoleConsumer_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/slf4j-log4j12-1.7.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (org.evosuite.runtime.instrumentation.EvoClassLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+....Missing required argument java.util.ArrayList@0000000177
+Option                                  Description                             
+------                                  -----------                             
+--autocommit.interval.ms <Integer: ms>  The time interval at which to save the  
+                                          current offset in ms (default: java.  
+                                          lang.Integer@0000000181)              
+--consumer-timeout-ms <Integer: prop>   consumer throws timeout exception after 
+                                          waiting this much of time without     
+                                          incoming messages (default: java.lang.
+                                          Integer@0000000183)                   
+--fetch-size <Integer: size>            The amount of data to fetch in a single 
+                                          request. (default: java.lang.         
+                                          Integer@0000000185)                   
+--formatter <String: class>             The name of a class to use for          
+                                          formatting jafka messages for         
+                                          display. (default: java.lang.         
+                                          String@0000000187)                    
+--from-beginning                        If the consumer does not already have   
+                                          an established offset to consume      
+                                          from, start with the earliest message 
+                                          present in the log rather than the    
+                                          latest message.                       
+--group <String: gid>                   The group id to consume on. (default:   
+                                          java.lang.String@0000000190)          
+--skip-message-on-error                 If there is an error when processing a  
+                                          message, skip it instead of halt.     
+--socket-buffer-size <Integer: size>    The size of the tcp RECV size.          
+                                          (default: java.lang.                  
+                                          Integer@0000000193)                   
+--topic <String: topic>                 REQUIRED: The topic id to consumer on.  
+--zookeeper <String: urls>              REQUIRED: The connection string for the 
+                                          zookeeper connection in the form host:
+                                          port.  Multiple URLS can be given to  
+                                          allow fail-over.                      
+...
+Time: 0.457
+
+OK (7 tests)
+

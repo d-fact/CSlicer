@@ -1,0 +1,1332 @@
+[VERSION]: 3.0.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.javafaker:javafaker >-------------------
+[INFO] Building Java Faker 0.15
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.0.0/mockito-core-3.0.0.pom
+Progress (1): 2.2/20 kB
+Progress (1): 5.0/20 kB
+Progress (1): 7.8/20 kB
+Progress (1): 11/20 kB 
+Progress (1): 13/20 kB
+Progress (1): 16/20 kB
+Progress (1): 19/20 kB
+Progress (1): 20 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.0.0/mockito-core-3.0.0.pom (20 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+Progress (1): 2.2/10 kB
+Progress (1): 5.0/10 kB
+Progress (1): 7.8/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom (10 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+Progress (1): 2.2/36 kB
+Progress (1): 5.0/36 kB
+Progress (1): 7.8/36 kB
+Progress (1): 11/36 kB 
+Progress (1): 13/36 kB
+Progress (1): 16/36 kB
+Progress (1): 19/36 kB
+Progress (1): 21/36 kB
+Progress (1): 24/36 kB
+Progress (1): 27/36 kB
+Progress (1): 30/36 kB
+Progress (1): 32/36 kB
+Progress (1): 35/36 kB
+Progress (1): 36 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom (36 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
+Progress (1): 2.8/6.0 kB
+Progress (1): 5.5/6.0 kB
+Progress (1): 6.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom (6.0 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.0.0/mockito-core-3.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+Progress (1): 2.2/591 kB
+Progress (1): 5.0/591 kB
+Progress (1): 7.7/591 kB
+Progress (1): 10/591 kB 
+Progress (1): 13/591 kB
+Progress (1): 16/591 kB
+Progress (1): 19/591 kB
+Progress (1): 21/591 kB
+Progress (1): 24/591 kB
+Progress (1): 27/591 kB
+Progress (1): 30/591 kB
+Progress (1): 32/591 kB
+Progress (1): 36/591 kB
+Progress (1): 40/591 kB
+Progress (1): 45/591 kB
+Progress (1): 49/591 kB
+Progress (1): 53/591 kB
+Progress (1): 57/591 kB
+Progress (1): 61/591 kB
+Progress (1): 65/591 kB
+Progress (1): 69/591 kB
+Progress (1): 73/591 kB
+Progress (1): 77/591 kB
+Progress (1): 81/591 kB
+Progress (1): 85/591 kB
+Progress (1): 90/591 kB
+Progress (1): 94/591 kB
+Progress (1): 98/591 kB
+Progress (1): 102/591 kB
+Progress (1): 106/591 kB
+Progress (1): 110/591 kB
+Progress (1): 114/591 kB
+Progress (1): 118/591 kB
+Progress (1): 122/591 kB
+Progress (1): 126/591 kB
+Progress (1): 131/591 kB
+Progress (1): 135/591 kB
+Progress (1): 139/591 kB
+Progress (1): 143/591 kB
+Progress (1): 147/591 kB
+Progress (1): 151/591 kB
+Progress (1): 155/591 kB
+Progress (1): 159/591 kB
+Progress (1): 163/591 kB
+Progress (1): 167/591 kB
+Progress (1): 171/591 kB
+Progress (1): 176/591 kB
+Progress (1): 180/591 kB
+Progress (1): 184/591 kB
+Progress (1): 188/591 kB
+Progress (1): 192/591 kB
+Progress (1): 196/591 kB
+Progress (1): 200/591 kB
+Progress (1): 204/591 kB
+Progress (1): 208/591 kB
+Progress (1): 212/591 kB
+Progress (1): 217/591 kB
+Progress (1): 221/591 kB
+Progress (1): 225/591 kB
+Progress (1): 229/591 kB
+Progress (1): 233/591 kB
+Progress (1): 237/591 kB
+Progress (1): 241/591 kB
+Progress (1): 245/591 kB
+Progress (1): 249/591 kB
+Progress (1): 253/591 kB
+Progress (1): 258/591 kB
+Progress (1): 262/591 kB
+Progress (1): 266/591 kB
+Progress (1): 270/591 kB
+Progress (1): 274/591 kB
+Progress (1): 278/591 kB
+Progress (1): 282/591 kB
+Progress (1): 286/591 kB
+Progress (1): 290/591 kB
+Progress (1): 294/591 kB
+Progress (1): 298/591 kB
+Progress (1): 303/591 kB
+Progress (1): 307/591 kB
+Progress (1): 311/591 kB
+Progress (1): 315/591 kB
+Progress (1): 319/591 kB
+Progress (1): 323/591 kB
+Progress (1): 327/591 kB
+Progress (1): 331/591 kB
+Progress (1): 335/591 kB
+Progress (1): 339/591 kB
+Progress (1): 344/591 kB
+Progress (1): 348/591 kB
+Progress (1): 352/591 kB
+Progress (1): 356/591 kB
+Progress (1): 360/591 kB
+Progress (1): 364/591 kB
+Progress (1): 368/591 kB
+Progress (1): 372/591 kB
+Progress (1): 376/591 kB
+Progress (2): 376/591 kB | 0/3.3 MB
+Progress (2): 376/591 kB | 0/3.3 MB
+Progress (2): 376/591 kB | 0/3.3 MB
+Progress (2): 376/591 kB | 0/3.3 MB
+Progress (2): 376/591 kB | 0/3.3 MB
+Progress (3): 376/591 kB | 0/3.3 MB | 2.2/43 kB
+Progress (3): 376/591 kB | 0/3.3 MB | 5.0/43 kB
+Progress (3): 376/591 kB | 0/3.3 MB | 7.7/43 kB
+Progress (3): 376/591 kB | 0/3.3 MB | 10/43 kB 
+Progress (3): 376/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 380/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 384/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 389/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 393/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 397/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 401/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 405/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 409/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 413/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 417/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 421/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 425/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 430/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 434/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 438/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 442/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 446/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 450/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 454/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 458/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 462/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 466/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 471/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 475/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 479/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 483/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 487/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 491/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 495/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 499/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 503/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 507/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 511/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 516/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 520/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 524/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 528/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 532/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 536/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 540/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 540/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 544/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 544/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 548/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 548/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 552/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 552/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 557/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 557/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 557/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 561/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 561/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 565/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 569/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 573/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 577/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 581/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 585/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 589/591 kB | 0/3.3 MB | 13/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 13/43 kB    
+Progress (3): 591 kB | 0/3.3 MB | 16/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 19/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 21/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 24/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 27/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 30/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+Progress (3): 591 kB | 0.1/3.3 MB | 32/43 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.0.0/mockito-core-3.0.0.jar (591 kB at 628 kB/s)
+Progress (2): 0.1/3.3 MB | 36/43 kB
+Progress (2): 0.1/3.3 MB | 40/43 kB
+Progress (2): 0.1/3.3 MB | 43 kB   
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.1/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+Progress (2): 0.2/3.3 MB | 43 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar (43 kB at 37 kB/s)
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.2/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.3/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.4/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.5/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.6/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.7/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.8/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 0.9/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.0/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.1/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.2/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.3/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.4/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.5/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.6/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.7/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.8/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 1.9/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.0/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.1/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.2/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.3/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.4/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.5/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.6/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.7/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.8/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 2.9/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.0/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.1/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.2/3.3 MB
+Progress (1): 3.3/3.3 MB
+Progress (1): 3.3/3.3 MB
+Progress (1): 3.3/3.3 MB
+Progress (1): 3.3/3.3 MB
+Progress (1): 3.3/3.3 MB
+Progress (1): 3.3/3.3 MB
+Progress (1): 3.3 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar (3.3 MB at 1.2 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ javafaker ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ javafaker ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-beanutils:commons-beanutils:jar:1.9.2:test
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.25:test
+[INFO]    org.apache.commons:commons-lang3:jar:3.5:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+[INFO]    commons-validator:commons-validator:jar:1.6:test
+[INFO]    commons-digester:commons-digester:jar:1.8.1:test
+[INFO]    commons-collections:commons-collections:jar:3.2.2:test
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.yaml:snakeyaml:jar:android:1.20:compile
+[INFO]    com.google.guava:guava:jar:20.0:test
+[INFO]    dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:test
+[INFO]    commons-logging:commons-logging:jar:1.2:test
+[INFO]    net.bytebuddy:byte-buddy:jar:1.9.10:test
+[INFO]    org.reflections:reflections:jar:0.9.11:test
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    com.github.mifmif:generex:jar:1.0.2:compile
+[INFO]    org.mockito:mockito-core:jar:3.0.0:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javafaker ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javafaker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 47 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ javafaker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javafaker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ javafaker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 71 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ javafaker ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.javafaker.LebowskiTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.988 sec
+Running com.github.javafaker.CommerceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.554 sec
+Running com.github.javafaker.SpaceTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.468 sec
+Running com.github.javafaker.matchers.IsANumberTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.FriendsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec
+Running com.github.javafaker.InternetTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.365 sec
+Running com.github.javafaker.HackerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec
+Running com.github.javafaker.AppTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec
+Running com.github.javafaker.AvatarTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running com.github.javafaker.FinanceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 sec
+Running com.github.javafaker.SuperheroTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec
+Running com.github.javafaker.ColorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.github.javafaker.RickAndMortyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec
+Running com.github.javafaker.HarryPotterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+Running com.github.javafaker.TwinPeaksTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+Running com.github.javafaker.FileTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 sec
+Running com.github.javafaker.MusicTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+Running com.github.javafaker.RockBandTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.github.javafaker.CurrencyTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running com.github.javafaker.idnumbers.SwedishIdNumberTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.javafaker.EsportsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec
+Running com.github.javafaker.TeamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+Running com.github.javafaker.WeatherTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+Running com.github.javafaker.StockTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running com.github.javafaker.YodaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.github.javafaker.LordOfTheRingsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running com.github.javafaker.IdNumberTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.492 sec
+Running com.github.javafaker.WitcherTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 sec
+Running com.github.javafaker.CompanyTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec
+Running com.github.javafaker.JobTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+Running com.github.javafaker.ChuckNorrisTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.github.javafaker.CodeTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.346 sec
+Running com.github.javafaker.OptionsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec
+Running com.github.javafaker.SlackEmojiTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 sec
+Running com.github.javafaker.ShakespeareTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+Running com.github.javafaker.integration.UkLocalDirectivesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running com.github.javafaker.MatzTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running com.github.javafaker.BoolTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+Running com.github.javafaker.DateAndTimeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.359 sec
+Running com.github.javafaker.NumberTest
+[main] INFO com.github.javafaker.NumberTest - Range -25 to 25 is 1.0 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -50 to 50 is 0.92 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -75 to 75 is 0.918918918918919 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -100 to 100 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -125 to 125 is 0.8548387096774194 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -150 to 150 is 0.8933333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -175 to 175 is 0.9310344827586207 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -200 to 200 is 0.87 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -225 to 225 is 0.9107142857142857 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -250 to 250 is 0.896 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -275 to 275 is 0.8540145985401459 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -300 to 300 is 0.8866666666666667 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -325 to 325 is 0.8641975308641975 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -350 to 350 is 0.8971428571428571 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -375 to 375 is 0.8663101604278075 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -400 to 400 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -425 to 425 is 0.8915094339622641 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -450 to 450 is 0.8844444444444445 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -475 to 475 is 0.890295358649789 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -500 to 500 is 0.852 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -525 to 525 is 0.8931297709923665 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -550 to 550 is 0.8872727272727273 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -575 to 575 is 0.8850174216027874 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -600 to 600 is 0.8666666666666667 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -625 to 625 is 0.8814102564102564 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -650 to 650 is 0.8553846153846154 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -675 to 675 is 0.9080118694362018 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -700 to 700 is 0.8885714285714286 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -725 to 725 is 0.914364640883978 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -750 to 750 is 0.8773333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -775 to 775 is 0.8837209302325582 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -800 to 800 is 0.8725 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -825 to 825 is 0.8883495145631068 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -850 to 850 is 0.8729411764705882 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -875 to 875 is 0.8672768878718535 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -900 to 900 is 0.8977777777777778 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -925 to 925 is 0.8766233766233766 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -950 to 950 is 0.8778947368421053 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -975 to 975 is 0.8891170431211499 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -25 to 25 is 0.9166666666666666 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -50 to 50 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -75 to 75 is 0.8378378378378378 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -100 to 100 is 0.86 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -125 to 125 is 0.9193548387096774 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -150 to 150 is 0.8533333333333334 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -175 to 175 is 0.896551724137931 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -200 to 200 is 0.89 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -225 to 225 is 0.9017857142857143 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -250 to 250 is 0.944 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -275 to 275 is 0.9051094890510949 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -300 to 300 is 0.8933333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -325 to 325 is 0.8950617283950617 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -350 to 350 is 0.8914285714285715 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -375 to 375 is 0.8823529411764706 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -400 to 400 is 0.925 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -425 to 425 is 0.8867924528301887 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -450 to 450 is 0.8533333333333334 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -475 to 475 is 0.8438818565400844 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -500 to 500 is 0.892 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -525 to 525 is 0.8854961832061069 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -550 to 550 is 0.8690909090909091 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -575 to 575 is 0.8885017421602788 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -600 to 600 is 0.9066666666666666 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -625 to 625 is 0.8846153846153846 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -650 to 650 is 0.9138461538461539 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -675 to 675 is 0.8902077151335311 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -700 to 700 is 0.9114285714285715 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -725 to 725 is 0.8977900552486188 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -750 to 750 is 0.896 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -775 to 775 is 0.896640826873385 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -800 to 800 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -825 to 825 is 0.8786407766990292 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -850 to 850 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -875 to 875 is 0.8993135011441648 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -900 to 900 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -925 to 925 is 0.8831168831168831 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -950 to 950 is 0.871578947368421 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -975 to 975 is 0.8788501026694046 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -25 to 25 is 0.8333333333333334 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -50 to 50 is 0.92 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -75 to 75 is 0.972972972972973 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -100 to 100 is 0.86 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -125 to 125 is 0.8870967741935484 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -150 to 150 is 0.9066666666666666 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -175 to 175 is 0.8620689655172413 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -200 to 200 is 0.87 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -225 to 225 is 0.8928571428571429 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -250 to 250 is 0.832 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -275 to 275 is 0.8613138686131386 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -300 to 300 is 0.9133333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -325 to 325 is 0.8271604938271605 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -350 to 350 is 0.8228571428571428 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -375 to 375 is 0.8502673796791443 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -400 to 400 is 0.845 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -425 to 425 is 0.8773584905660378 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -450 to 450 is 0.9155555555555556 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -475 to 475 is 0.8776371308016878 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -500 to 500 is 0.84 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -525 to 525 is 0.8473282442748091 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -550 to 550 is 0.8363636363636363 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -575 to 575 is 0.8745644599303136 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -600 to 600 is 0.8866666666666667 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -625 to 625 is 0.875 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -650 to 650 is 0.8738461538461538 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -675 to 675 is 0.8961424332344213 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -700 to 700 is 0.8571428571428571 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -725 to 725 is 0.8535911602209945 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -750 to 750 is 0.9013333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -775 to 775 is 0.9018087855297158 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -800 to 800 is 0.8925 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -825 to 825 is 0.9004854368932039 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -850 to 850 is 0.8729411764705882 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -875 to 875 is 0.8649885583524027 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -900 to 900 is 0.8755555555555555 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -925 to 925 is 0.8917748917748918 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -950 to 950 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -975 to 975 is 0.8583162217659137 percent unique.
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.454 sec
+Running com.github.javafaker.RandomFakerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 sec
+Running com.github.javafaker.ZeldaTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running com.github.javafaker.CatTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+Running com.github.javafaker.AddressTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.55 sec
+Running com.github.javafaker.ArtistTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.github.javafaker.LoremTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 sec
+Running com.github.javafaker.CryptoTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec
+Running com.github.javafaker.FakerTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.987 sec
+Running com.github.javafaker.PokemonTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running com.github.javafaker.service.FakeValuesServiceTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.489 sec
+Running com.github.javafaker.service.RandomServiceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 sec
+Running com.github.javafaker.EducatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+Running com.github.javafaker.BeerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+Running com.github.javafaker.DemographicTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec
+Running com.github.javafaker.AncientTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+Running com.github.javafaker.HipsterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running com.github.javafaker.FoodTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec
+Running com.github.javafaker.NameTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec
+Running com.github.javafaker.GameOfThronesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 sec
+Running com.github.javafaker.UniversityTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+Running com.github.javafaker.BookTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+Running com.github.javafaker.PhoneNumberTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.314 sec
+
+Results :
+
+Tests run: 348, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 33.028 s
+[INFO] Finished at: 2019-08-20T16:17:28+08:00
+[INFO] ------------------------------------------------------------------------

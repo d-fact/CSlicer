@@ -1,0 +1,52 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/jafka/net.sf.jopt-simple=jopt-simple/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jafka/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jafka/net.sf.jopt-simple=jopt-simple/jopt-simple-6.0-alpha-3.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore io.jafka.console.ConsoleProducer_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/slf4j-log4j12-1.7.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (org.evosuite.runtime.instrumentation.EvoClassLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+....Missing required argument java.util.ArrayList@0000000075
+Option                                   Description                          
+------                                   -----------                          
+--broker-list <String: broker_list>      REQUIRED: broker list, form: 0:      
+                                           localhost:9092                     
+--message-encoder <String:               The class name of the message encoder
+  encoder_class>                           (default: java.lang.               
+                                           String@0000000079)                 
+--topic <String: topic>                  REQUIRED: The topic id to produce    
+                                           messages to.                       
+--zookeeper <String: connection_string>  REQUIRED: zokkeper connection string,
+                                           form: HOST:PORT[/CHROOT]           
+.Missing required argument null
+No options specified  
+...Missing required argument java.util.ArrayList@0000000075
+Option                                   Description                          
+------                                   -----------                          
+--broker-list <String: broker_list>      REQUIRED: broker list, form: 0:      
+                                           localhost:9092                     
+--message-encoder <String:               The class name of the message encoder
+  encoder_class>                           (default: java.lang.               
+                                           String@0000000079)                 
+--topic <String: topic>                  REQUIRED: The topic id to produce    
+                                           messages to.                       
+--zookeeper <String: connection_string>  REQUIRED: zokkeper connection string,
+                                           form: HOST:PORT[/CHROOT]           
+.Missing required argument broker-list or zookeeper
+Option                                   Description                          
+------                                   -----------                          
+--broker-list <String: broker_list>      REQUIRED: broker list, form: 0:      
+                                           localhost:9092                     
+--message-encoder <String:               The class name of the message encoder
+  encoder_class>                           (default: java.lang.               
+                                           String@0000000077)                 
+--topic <String: topic>                  REQUIRED: The topic id to produce    
+                                           messages to.                       
+--zookeeper <String: connection_string>  REQUIRED: zokkeper connection string,
+                                           form: HOST:PORT[/CHROOT]           
+
+Time: 0.52
+
+OK (9 tests)
+

@@ -1,0 +1,40 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/ebean/org.slf4j=slf4j-api/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/ebean/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/ebean/org.slf4j=slf4j-api/slf4j-api-2.0.0-alpha0.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore io.ebean.config.dbplatform.SequenceIdGenerator_ESTestJUnit version 4.12
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/tmp/jars/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+.....Failed to delete old native libSecurity manager blocks ("java.io.FilePermission" "/tmp/sqlite-3.15.1-00000000-0100-4000-8200-000003000000-libsqlitejdbc.so" "delete")
+java.lang.Thread.getStackTrace(Thread.java:1559)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:434)
+java.lang.SecurityManager.checkDelete(SecurityManager.java:1007)
+java.io.File.delete(File.java:1036)
+org.sqlite.SQLiteJDBCLoader.cleanup(SQLiteJDBCLoader.java:87)
+org.sqlite.SQLiteJDBCLoader.initialize(SQLiteJDBCLoader.java:62)
+org.sqlite.core.NativeDB.load(NativeDB.java:56)
+org.sqlite.core.CoreConnection.open(CoreConnection.java:211)
+org.sqlite.core.CoreConnection.<init>(CoreConnection.java:76)
+org.sqlite.jdbc3.JDBC3Connection.<init>(JDBC3Connection.java:24)
+org.sqlite.jdbc4.JDBC4Connection.<init>(JDBC4Connection.java:24)
+org.sqlite.SQLiteConnection.<init>(SQLiteConnection.java:45)
+org.sqlite.JDBC.createConnection(JDBC.java:114)
+org.sqlite.SQLiteDataSource.getConnection(SQLiteDataSource.java:410)
+org.sqlite.SQLiteDataSource.getConnection(SQLiteDataSource.java:398)
+io.ebean.config.dbplatform.SequenceIdGenerator.getMoreIds(SequenceIdGenerator.java:167)
+io.ebean.config.dbplatform.SequenceIdGenerator.loadMore(SequenceIdGenerator.java:121)
+io.ebean.config.dbplatform.SequenceIdGenerator.nextId(SequenceIdGenerator.java:105)
+io.ebean.config.dbplatform.SequenceIdGenerator_ESTest$1.run(SequenceIdGenerator_ESTest.java:84)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+null
+.........
+Time: 5.983
+
+OK (14 tests)
+

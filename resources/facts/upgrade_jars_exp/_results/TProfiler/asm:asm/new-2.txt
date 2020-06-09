@@ -1,0 +1,61 @@
+[VERSION]: 20041228.180559
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.taobao:tprofiler >------------------------
+[INFO] Building profile 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tprofiler ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ tprofiler ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    asm:asm:jar:20041228.180559:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tprofiler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ tprofiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/main/java/com/taobao/profile/instrument/ProfTransformer.java:[53,73] cannot find symbol
+  symbol:   variable COMPUTE_MAXS
+  location: class org.objectweb.asm.ClassWriter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/main/java/com/taobao/profile/instrument/ProfTransformer.java:[55,48] incompatible types: int cannot be converted to boolean
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/main/java/com/taobao/profile/instrument/ProfMethodAdapter.java:[53,22] cannot find symbol
+  symbol: method visitCode()
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.188 s
+[INFO] Finished at: 2019-08-14T20:50:45+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project tprofiler: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/main/java/com/taobao/profile/instrument/ProfTransformer.java:[53,73] cannot find symbol
+[ERROR]   symbol:   variable COMPUTE_MAXS
+[ERROR]   location: class org.objectweb.asm.ClassWriter
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/main/java/com/taobao/profile/instrument/ProfTransformer.java:[55,48] incompatible types: int cannot be converted to boolean
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/TProfiler/src/main/java/com/taobao/profile/instrument/ProfMethodAdapter.java:[53,22] cannot find symbol
+[ERROR]   symbol: method visitCode()
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

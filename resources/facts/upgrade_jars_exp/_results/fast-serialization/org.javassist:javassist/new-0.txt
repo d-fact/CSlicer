@@ -1,0 +1,290 @@
+[VERSION]: 3.25.0-GA
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for de.ruedigermoeller:fst:bundle:2.56
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.cedarsoftware:java-util:jar -> version 1.4.0 vs 1.9.0 @ line 205, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 93, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 77, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< de.ruedigermoeller:fst >-----------------------
+[INFO] Building fst 2.56
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.pom
+Progress (1): 2.4/11 kB
+Progress (1): 5.1/11 kB
+Progress (1): 6.5/11 kB
+Progress (1): 9.2/11 kB
+Progress (1): 11 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.pom (11 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar
+Progress (1): 1.8/780 kB
+Progress (1): 4.5/780 kB
+Progress (1): 7.3/780 kB
+Progress (1): 10/780 kB 
+Progress (1): 13/780 kB
+Progress (1): 16/780 kB
+Progress (1): 18/780 kB
+Progress (1): 21/780 kB
+Progress (1): 24/780 kB
+Progress (1): 26/780 kB
+Progress (1): 29/780 kB
+Progress (1): 32/780 kB
+Progress (1): 35/780 kB
+Progress (1): 39/780 kB
+Progress (1): 43/780 kB
+Progress (1): 47/780 kB
+Progress (1): 51/780 kB
+Progress (1): 55/780 kB
+Progress (1): 59/780 kB
+Progress (1): 63/780 kB
+Progress (1): 67/780 kB
+Progress (1): 71/780 kB
+Progress (1): 76/780 kB
+Progress (1): 80/780 kB
+Progress (1): 84/780 kB
+Progress (1): 88/780 kB
+Progress (1): 92/780 kB
+Progress (1): 96/780 kB
+Progress (1): 100/780 kB
+Progress (1): 104/780 kB
+Progress (1): 108/780 kB
+Progress (1): 112/780 kB
+Progress (1): 116/780 kB
+Progress (1): 121/780 kB
+Progress (1): 125/780 kB
+Progress (1): 129/780 kB
+Progress (1): 133/780 kB
+Progress (1): 137/780 kB
+Progress (1): 141/780 kB
+Progress (1): 145/780 kB
+Progress (1): 149/780 kB
+Progress (1): 153/780 kB
+Progress (1): 157/780 kB
+Progress (1): 162/780 kB
+Progress (1): 166/780 kB
+Progress (1): 170/780 kB
+Progress (1): 174/780 kB
+Progress (1): 178/780 kB
+Progress (1): 182/780 kB
+Progress (1): 186/780 kB
+Progress (1): 190/780 kB
+Progress (1): 194/780 kB
+Progress (1): 198/780 kB
+Progress (1): 202/780 kB
+Progress (1): 207/780 kB
+Progress (1): 211/780 kB
+Progress (1): 215/780 kB
+Progress (1): 219/780 kB
+Progress (1): 223/780 kB
+Progress (1): 227/780 kB
+Progress (1): 231/780 kB
+Progress (1): 235/780 kB
+Progress (1): 239/780 kB
+Progress (1): 243/780 kB
+Progress (1): 248/780 kB
+Progress (1): 252/780 kB
+Progress (1): 256/780 kB
+Progress (1): 260/780 kB
+Progress (1): 264/780 kB
+Progress (1): 268/780 kB
+Progress (1): 272/780 kB
+Progress (1): 276/780 kB
+Progress (1): 280/780 kB
+Progress (1): 284/780 kB
+Progress (1): 288/780 kB
+Progress (1): 293/780 kB
+Progress (1): 297/780 kB
+Progress (1): 301/780 kB
+Progress (1): 305/780 kB
+Progress (1): 309/780 kB
+Progress (1): 313/780 kB
+Progress (1): 317/780 kB
+Progress (1): 321/780 kB
+Progress (1): 325/780 kB
+Progress (1): 329/780 kB
+Progress (1): 334/780 kB
+Progress (1): 338/780 kB
+Progress (1): 342/780 kB
+Progress (1): 346/780 kB
+Progress (1): 350/780 kB
+Progress (1): 354/780 kB
+Progress (1): 358/780 kB
+Progress (1): 362/780 kB
+Progress (1): 366/780 kB
+Progress (1): 370/780 kB
+Progress (1): 375/780 kB
+Progress (1): 379/780 kB
+Progress (1): 383/780 kB
+Progress (1): 387/780 kB
+Progress (1): 391/780 kB
+Progress (1): 395/780 kB
+Progress (1): 399/780 kB
+Progress (1): 403/780 kB
+Progress (1): 407/780 kB
+Progress (1): 411/780 kB
+Progress (1): 415/780 kB
+Progress (1): 420/780 kB
+Progress (1): 424/780 kB
+Progress (1): 428/780 kB
+Progress (1): 432/780 kB
+Progress (1): 436/780 kB
+Progress (1): 440/780 kB
+Progress (1): 444/780 kB
+Progress (1): 448/780 kB
+Progress (1): 452/780 kB
+Progress (1): 456/780 kB
+Progress (1): 461/780 kB
+Progress (1): 465/780 kB
+Progress (1): 469/780 kB
+Progress (1): 473/780 kB
+Progress (1): 477/780 kB
+Progress (1): 481/780 kB
+Progress (1): 485/780 kB
+Progress (1): 489/780 kB
+Progress (1): 493/780 kB
+Progress (1): 497/780 kB
+Progress (1): 501/780 kB
+Progress (1): 506/780 kB
+Progress (1): 510/780 kB
+Progress (1): 514/780 kB
+Progress (1): 518/780 kB
+Progress (1): 522/780 kB
+Progress (1): 526/780 kB
+Progress (1): 530/780 kB
+Progress (1): 534/780 kB
+Progress (1): 538/780 kB
+Progress (1): 542/780 kB
+Progress (1): 547/780 kB
+Progress (1): 551/780 kB
+Progress (1): 555/780 kB
+Progress (1): 559/780 kB
+Progress (1): 563/780 kB
+Progress (1): 567/780 kB
+Progress (1): 571/780 kB
+Progress (1): 575/780 kB
+Progress (1): 579/780 kB
+Progress (1): 583/780 kB
+Progress (1): 588/780 kB
+Progress (1): 592/780 kB
+Progress (1): 596/780 kB
+Progress (1): 600/780 kB
+Progress (1): 604/780 kB
+Progress (1): 608/780 kB
+Progress (1): 612/780 kB
+Progress (1): 616/780 kB
+Progress (1): 620/780 kB
+Progress (1): 624/780 kB
+Progress (1): 628/780 kB
+Progress (1): 633/780 kB
+Progress (1): 637/780 kB
+Progress (1): 641/780 kB
+Progress (1): 645/780 kB
+Progress (1): 649/780 kB
+Progress (1): 653/780 kB
+Progress (1): 657/780 kB
+Progress (1): 661/780 kB
+Progress (1): 665/780 kB
+Progress (1): 669/780 kB
+Progress (1): 674/780 kB
+Progress (1): 678/780 kB
+Progress (1): 682/780 kB
+Progress (1): 686/780 kB
+Progress (1): 690/780 kB
+Progress (1): 694/780 kB
+Progress (1): 698/780 kB
+Progress (1): 702/780 kB
+Progress (1): 706/780 kB
+Progress (1): 710/780 kB
+Progress (1): 714/780 kB
+Progress (1): 719/780 kB
+Progress (1): 723/780 kB
+Progress (1): 727/780 kB
+Progress (1): 731/780 kB
+Progress (1): 735/780 kB
+Progress (1): 739/780 kB
+Progress (1): 743/780 kB
+Progress (1): 747/780 kB
+Progress (1): 751/780 kB
+Progress (1): 755/780 kB
+Progress (1): 760/780 kB
+Progress (1): 764/780 kB
+Progress (1): 768/780 kB
+Progress (1): 772/780 kB
+Progress (1): 776/780 kB
+Progress (1): 780/780 kB
+Progress (1): 780 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar (780 kB at 561 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fst ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ fst ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.javassist:javassist:jar:3.25.0-GA:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.2:test
+[INFO]    javax.json:javax.json-api:jar:1.0:test
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.4:test
+[INFO]    commons-logging:commons-logging:jar:1.1.1:test
+[INFO]    com.cedarsoftware:java-util:jar:1.9.0:test
+[INFO]    junit:junit:jar:4.8.1:test
+[INFO]    org.glassfish:javax.json:jar:1.0.4:test
+[INFO]    com.cedarsoftware:json-io:jar:2.5.1:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.51:test
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO]    org.openjdk.jmh:jmh-core:jar:1.8:test
+[INFO]    org.objenesis:objenesis:jar:2.5.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ fst ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ fst ---
+[INFO] Compiling 141 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[18,15] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[19,17] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[23,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[22,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[18,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[19,18] ReflectionFactory is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[34,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[34,12] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[59,23] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[69,63] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[81,11] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[125,24] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[37,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[41,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[208,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[212,22] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[214,20] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[107,16] ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ fst ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M3:test (default-test) @ fst ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.141 s
+[INFO] Finished at: 2019-08-20T17:21:30+08:00
+[INFO] ------------------------------------------------------------------------

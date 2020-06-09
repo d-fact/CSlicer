@@ -1,0 +1,1263 @@
+[VERSION]: 5.1.9.RELEASE
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< org.jfaster:mango >--------------------------
+[INFO] Building mango 1.6.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mango ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ mango ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.4.8:runtime
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.3:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    org.mockito:mockito-core:jar:2.0.87-beta:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    com.google.guava:guava:jar:19.0:test
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:8.1.16.v20140903:test
+[INFO]    org.hsqldb:hsqldb:jar:2.3.1:test
+[INFO]    org.objenesis:objenesis:jar:2.4:runtime
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    commons-lang:commons-lang:jar:2.6:test
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.3:compile
+[INFO]    org.springframework:spring-test:jar:5.1.9.RELEASE:test
+[INFO]    commons-configuration:commons-configuration:jar:1.9:test
+[INFO]    commons-pool:commons-pool:jar:1.5.4:test
+[INFO]    org.springframework:spring-context:jar:4.0.5.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:8.1.16.v20140903:test
+[INFO]    mysql:mysql-connector-java:jar:5.1.29:test
+[INFO]    org.eclipse.jetty:jetty-security:jar:8.1.16.v20140903:test
+[INFO]    org.eclipse.jetty:jetty-server:jar:8.1.16.v20140903:test
+[INFO]    com.alibaba:fastjson:jar:1.1.46:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-dbcp:commons-dbcp:jar:1.4:test
+[INFO]    org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO]    org.springframework:spring-beans:jar:4.0.5.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:8.1.16.v20140903:test
+[INFO]    commons-logging:commons-logging:jar:1.1.3:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.0.13:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.0.13:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:8.1.16.v20140903:test
+[INFO]    org.springframework:spring-expression:jar:4.0.5.RELEASE:compile
+[INFO]    org.springframework:spring-aop:jar:4.0.5.RELEASE:compile
+[INFO]    com.google.code.gson:gson:jar:2.2.4:compile
+[INFO]    org.springframework:spring-core:jar:4.0.5.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:8.1.16.v20140903:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ mango ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (prepare-agent) @ mango ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/target/jacoco.exec,excludes=**/parser/JJTParserState.class:**/parser/ParseException.class:**/parser/Parser.class:**/parser/ParserTokenManager.class:**/parser/SimpleCharStream.class:**/parser/SimpleNode.class:**/parser/Token.class:**/parser/TokenMgrError.class:**/util/logging/**:**/stat/atomic/**:**/exception/**:**/mango/plugin/**
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mango ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ mango ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 462 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[107,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[311,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[335,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[337,22] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[342,64] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[343,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[344,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/stat/atomic/Striped64.java:[344,50] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/invoker/function/enums/IntegerToEnumFunction.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/src/main/java/org/jfaster/mango/invoker/function/enums/IntegerToEnumFunction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mango ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 46 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ mango ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 186 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mango ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mango/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jfaster.mango.MultiCacheByTest
+log4j:WARN No appenders could be found for logger (org.apache.commons.configuration.PropertiesConfiguration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+DROP TABLE IF EXISTS pos 
+CREATE TABLE pos (     x INTEGER,     y INTEGER,     v INTEGER,     PRIMARY KEY (x, y) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.791 sec
+Running org.jfaster.mango.descriptor.MethodsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.jfaster.mango.BTTest
+DROP TABLE IF EXISTS bt 
+CREATE TABLE bt (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     is_ok BOOLEAN,     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.jfaster.mango.CacheNullObjectTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.jfaster.mango.interceptor.InterceptorSQLTypeTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running org.jfaster.mango.interceptor.InvocationInterceptorChainTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.CustomCrudDaoTest
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+Running org.jfaster.mango.crud.custom.builder.CustomDeleteBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.custom.builder.CustomQueryBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.crud.custom.builder.CustomCountBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.custom.parser.OpUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.custom.parser.MethodNameParserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.custom.parser.op.IsNullOpTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.custom.parser.op.LessThanOpTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.custom.parser.op.EqualsOpTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.custom.parser.op.BetweenOpTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.custom.factory.CustomDeleteBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfaster.mango.crud.custom.factory.CustomCountBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.custom.factory.CustomQueryBuilderFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.CrudMetaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.CommonCrudDaoTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.jfaster.mango.crud.CrudDaoTest
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS t_order 
+CREATE TABLE t_order (     id VARCHAR(100),     uid INTEGER,     price INTEGER,     PRIMARY KEY (id) ) 
+CrudOrderB{id=3063136996, userId=1, price=100}
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running org.jfaster.mango.crud.common.builder.CommonDeleteBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.builder.CommonAddBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.builder.CommonGetBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.builder.CommonUpdateBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.builder.CommonGetAllBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonAddBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonGetOneBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonUpdateBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonAddAndReturnGeneratedIdBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonDeleteBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonBatchAddBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.common.factory.CommonGetMultiBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.crud.common.factory.CommonGetAllBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.crud.common.factory.CommonBatchUpdateBuilderFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.ByteTest
+DROP TABLE IF EXISTS byte_info 
+CREATE TABLE byte_info (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     array_byte VARBINARY(1000),     single_byte INTEGER,     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.jfaster.mango.CacheRedisTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.269 sec
+Running org.jfaster.mango.GeneratedLongTest
+DROP TABLE IF EXISTS long_id_msg 
+CREATE TABLE long_id_msg (     id BIGINT GENERATED BY DEFAULT AS IDENTITY (START WITH 1000000000000000, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfaster.mango.GlobalTableTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jfaster.mango.stat.MetaStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.stat.InvocationStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.stat.InitStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.stat.ExecuteStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.stat.CombinedStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.stat.SimpleStatMonitorTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+Performance Statistics  [2019-08-15 13:09:24] - [2019-08-15 13:09:25]
+dao                                 avg         total       error       
+UserDao.insertUser                  0.3         1           0           
+UserDao.getName                     0.0         23312       0           
+
+Performance Statistics  [2019-08-15 13:09:25] - [2019-08-15 13:09:26]
+dao                                 avg         total       error       
+UserDao.getName                     0.0         75754       0           
+
+Performance Statistics  [2019-08-15 13:09:26] - [2019-08-15 13:09:27]
+dao                                 avg         total       error       
+UserDao.getName                     0.0         78755       0           
+
+Performance Statistics  [2019-08-15 13:09:27] - [2019-08-15 13:09:28]
+dao                                 avg         total       error       
+UserDao.getName                     0.0         79452       0           
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.015 sec
+Running org.jfaster.mango.stat.StatCollectorTest
+Performance Statistics  [2019-08-15 13:09:28] - [2019-08-15 13:09:29]
+dao                                 avg         total       error       
+UserDao.getName                     0.0         78777       0           
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.011 sec
+Running org.jfaster.mango.type.CharacterTypeHandlerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.952 sec
+Running org.jfaster.mango.type.BlobTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.jfaster.mango.type.NClobTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.jfaster.mango.type.LongTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.type.BooleanTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.type.FloatTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.ClobTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.TimeOnlyTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.TypeHandlerRegistryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.type.DateTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.NStringTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.BlobByteObjectArrayTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jfaster.mango.type.SqlTimetampTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.StringTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.ByteTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.ShortTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.BigDecimalTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.type.DateOnlyTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.type.BigIntegerTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.type.SqlTimeTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.SqlDateTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.IntegerTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.type.ByteArrayTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.DoubleTypeHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.type.ByteObjectArrayTypeHandlerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.sharding.DatabaseSharding2Test
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 sec
+Running org.jfaster.mango.sharding.TableShardingTest
+DROP TABLE IF EXISTS msg_0 
+DROP TABLE IF EXISTS msg_1 
+DROP TABLE IF EXISTS msg_2 
+DROP TABLE IF EXISTS msg_3 
+DROP TABLE IF EXISTS msg_4 
+DROP TABLE IF EXISTS msg_5 
+DROP TABLE IF EXISTS msg_6 
+DROP TABLE IF EXISTS msg_7 
+DROP TABLE IF EXISTS msg_8 
+DROP TABLE IF EXISTS msg_9 
+CREATE TABLE msg_0 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_1 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_2 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_3 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_4 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_5 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_6 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_7 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_8 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_9 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg_0 
+DROP TABLE IF EXISTS msg_1 
+DROP TABLE IF EXISTS msg_2 
+DROP TABLE IF EXISTS msg_3 
+DROP TABLE IF EXISTS msg_4 
+DROP TABLE IF EXISTS msg_5 
+DROP TABLE IF EXISTS msg_6 
+DROP TABLE IF EXISTS msg_7 
+DROP TABLE IF EXISTS msg_8 
+DROP TABLE IF EXISTS msg_9 
+CREATE TABLE msg_0 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_1 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_2 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_3 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_4 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_5 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_6 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_7 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_8 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_9 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.jfaster.mango.sharding.OrderShardingTest
+DROP TABLE IF EXISTS order_0 
+DROP TABLE IF EXISTS order_1 
+DROP TABLE IF EXISTS order_2 
+DROP TABLE IF EXISTS order_3 
+DROP TABLE IF EXISTS order_4 
+DROP TABLE IF EXISTS order_5 
+DROP TABLE IF EXISTS order_6 
+DROP TABLE IF EXISTS order_7 
+DROP TABLE IF EXISTS order_8 
+DROP TABLE IF EXISTS order_9 
+CREATE TABLE order_0 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_1 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_2 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_3 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_4 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_5 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_6 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_7 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_8 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_9 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS order_0 
+DROP TABLE IF EXISTS order_1 
+DROP TABLE IF EXISTS order_2 
+DROP TABLE IF EXISTS order_3 
+DROP TABLE IF EXISTS order_4 
+DROP TABLE IF EXISTS order_5 
+DROP TABLE IF EXISTS order_6 
+DROP TABLE IF EXISTS order_7 
+DROP TABLE IF EXISTS order_8 
+DROP TABLE IF EXISTS order_9 
+CREATE TABLE order_0 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_1 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_2 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_3 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_4 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_5 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_6 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_7 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_8 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_9 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS order_0 
+DROP TABLE IF EXISTS order_1 
+DROP TABLE IF EXISTS order_2 
+DROP TABLE IF EXISTS order_3 
+DROP TABLE IF EXISTS order_4 
+DROP TABLE IF EXISTS order_5 
+DROP TABLE IF EXISTS order_6 
+DROP TABLE IF EXISTS order_7 
+DROP TABLE IF EXISTS order_8 
+DROP TABLE IF EXISTS order_9 
+CREATE TABLE order_0 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_1 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_2 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_3 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_4 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_5 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_6 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_7 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_8 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_9 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS order_0 
+DROP TABLE IF EXISTS order_1 
+DROP TABLE IF EXISTS order_2 
+DROP TABLE IF EXISTS order_3 
+DROP TABLE IF EXISTS order_4 
+DROP TABLE IF EXISTS order_5 
+DROP TABLE IF EXISTS order_6 
+DROP TABLE IF EXISTS order_7 
+DROP TABLE IF EXISTS order_8 
+DROP TABLE IF EXISTS order_9 
+CREATE TABLE order_0 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_1 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_2 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_3 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_4 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_5 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_6 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_7 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_8 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+CREATE TABLE order_9 (     id INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running org.jfaster.mango.sharding.BillShardingTest
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+DROP TABLE IF EXISTS bill_0 
+DROP TABLE IF EXISTS bill_1 
+DROP TABLE IF EXISTS bill_2 
+DROP TABLE IF EXISTS bill_3 
+DROP TABLE IF EXISTS bill_4 
+DROP TABLE IF EXISTS bill_5 
+DROP TABLE IF EXISTS bill_6 
+DROP TABLE IF EXISTS bill_7 
+DROP TABLE IF EXISTS bill_8 
+DROP TABLE IF EXISTS bill_9 
+CREATE TABLE bill_0 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_1 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_2 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_3 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_4 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_5 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_6 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_7 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_8 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+CREATE TABLE bill_9 (     cid INTEGER,     uid VARCHAR(100),     price INTEGER,     PRIMARY KEY (cid, uid) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+Running org.jfaster.mango.sharding.ShardingExceptionTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.sharding.DatabaseShardingTest
+DROP TABLE IF EXISTS msg_0 
+DROP TABLE IF EXISTS msg_1 
+DROP TABLE IF EXISTS msg_2 
+CREATE TABLE msg_0 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_1 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_2 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg_3 
+DROP TABLE IF EXISTS msg_4 
+DROP TABLE IF EXISTS msg_5 
+CREATE TABLE msg_3 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_4 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_5 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg_6 
+DROP TABLE IF EXISTS msg_7 
+DROP TABLE IF EXISTS msg_8 
+DROP TABLE IF EXISTS msg_9 
+CREATE TABLE msg_6 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_7 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_8 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_9 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg_0 
+DROP TABLE IF EXISTS msg_1 
+DROP TABLE IF EXISTS msg_2 
+CREATE TABLE msg_0 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_1 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_2 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg_3 
+DROP TABLE IF EXISTS msg_4 
+DROP TABLE IF EXISTS msg_5 
+CREATE TABLE msg_3 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_4 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_5 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg_6 
+DROP TABLE IF EXISTS msg_7 
+DROP TABLE IF EXISTS msg_8 
+DROP TABLE IF EXISTS msg_9 
+CREATE TABLE msg_6 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_7 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_8 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+CREATE TABLE msg_9 (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.jfaster.mango.CacheEmptyListTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jfaster.mango.DbTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.jfaster.mango.plugin.spring.MangoDaoScannerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec
+Running org.jfaster.mango.plugin.page.MySQLPageInterceptorTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfaster.mango.plugin.page.PageTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.operator.UnreadableParameterExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jfaster.mango.operator.UpdateOperatorTest
+org.jfaster.mango.type.LongTypeHandler@2c706419
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.jfaster.mango.operator.BatchUpdateOperatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.jfaster.mango.operator.cache.LocalCacheHandlerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.operator.cache.CacheableUpdateOperatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jfaster.mango.operator.cache.CacheableBatchUpdateOperatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.operator.cache.CacheableQueryOperatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jfaster.mango.operator.QueryOperatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.usesjava8.UseActualParamNameTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.binding.BoundSqlTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.binding.BindingParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.binding.InvocationContextFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.binding.DefaultInvocationContextTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.binding.DefaultParameterContextTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfaster.mango.binding.FunctionalBindingParameterInvokerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.invoker.FunctionalSetterInvokerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.jfaster.mango.invoker.FunctionalSetterInvokerGroupTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jfaster.mango.invoker.FunctionalGetterInvokerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jfaster.mango.invoker.function.LongListToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringToIntArrayFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringListToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringToLongListFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.invoker.function.enums.EnumToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.enums.StringToEnumFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.invoker.function.enums.IntegerToEnumFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jfaster.mango.invoker.function.enums.EnumToIntegerFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.invoker.function.StringArrayToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringToIntegerListFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringToLongArrayFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.LongArrayToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringToStringArrayFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.IntegerListToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.function.StringToStringListFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.invoker.function.json.ObjectToFastjsonFunctionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.invoker.function.json.FastjsonToObjectFunctionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.jfaster.mango.invoker.function.json.ObjectToGsonFunctionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running org.jfaster.mango.invoker.function.json.GsonToObjectFunctionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.jfaster.mango.invoker.function.IntArrayToStringFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.invoker.MetaObjectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.jdbc.MapperTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.jdbc.AbstractRowMapperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.jdbc.BeanPropertyRowMapperTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.jfaster.mango.jdbc.exception.BadSqlGrammarExceptionTest
+DROP TABLE IF EXISTS person 
+CREATE TABLE person (     id INTEGER,     name VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.parser.visitor.ParameterExpandVisitorTest
+RootNode
+ Select[select]
+ Block
+  Blank[ ]
+  Text[*]
+  Blank[ ]
+  Text[from]
+  Blank[ ]
+  Text[user]
+  Blank[ ]
+  Text[where]
+  Blank[ ]
+  Text[id=]
+  JDBCParameter{fullName=:1.id, parameterName=1, propertyPath=id}
+  Blank[ ]
+  Text[and]
+  Blank[ ]
+  JoinParameter{fullName=:1.id, parameterName=1, propertyPath=id}
+  Blank[ ]
+  Text[and]
+  Blank[ ]
+  IfStatement
+   Expression
+    ExpressionParameter{fullName=:1.id, parameterName=1, propertyPath=id}
+   Block
+    Blank[ ]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.parser.ParserTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.jfaster.mango.transaction.TransactionTest
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.860 [Thread[main,5,main]] Creating new transaction
+13:09:32.861 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.861 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.863 [Thread[main,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.864 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.865 [Thread[main,5,main]] Creating new transaction
+13:09:32.865 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.865 [Thread[main,5,main]] Changing isolation level of JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to 8
+13:09:32.865 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.865 [Thread[main,5,main]] Rolling back JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.866 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+13:09:32.866 [Thread[main,5,main]] Resetting isolation level of JDBC Connection to 2
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.867 [Thread[main,5,main]] Creating new transaction
+13:09:32.867 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.867 [Thread[main,5,main]] Changing isolation level of JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to 8
+13:09:32.867 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.867 [Thread[main,5,main]] Rolling back JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.867 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+13:09:32.867 [Thread[main,5,main]] Resetting isolation level of JDBC Connection to 2
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.868 [Thread[main,5,main]] Creating new transaction
+13:09:32.868 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.868 [Thread[main,5,main]] Changing isolation level of JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to 8
+13:09:32.868 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.868 [Thread[main,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.868 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+13:09:32.868 [Thread[main,5,main]] Resetting isolation level of JDBC Connection to 2
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.869 [Thread[main,5,main]] Creating new transaction
+13:09:32.869 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.869 [Thread[main,5,main]] Changing isolation level of JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to 8
+13:09:32.869 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.869 [Thread[main,5,main]] Rolling back JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.869 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+13:09:32.869 [Thread[main,5,main]] Resetting isolation level of JDBC Connection to 2
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.870 [Thread[main,5,main]] Creating new transaction
+13:09:32.870 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.870 [Thread[main,5,main]] Changing isolation level of JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to 8
+13:09:32.870 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.871 [Thread[main,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.871 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+13:09:32.871 [Thread[main,5,main]] Resetting isolation level of JDBC Connection to 2
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.jfaster.mango.transaction.TransactionTemplateTest
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.877 [Thread[main,5,main]] Creating new transaction
+13:09:32.877 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.877 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.879 [Thread[main,5,main]] Using existing transaction
+13:09:32.880 [Thread[main,5,main]] Using existing transaction
+13:09:32.880 [Thread[main,5,main]] Commit transaction is not new
+13:09:32.880 [Thread[main,5,main]] Marking transaction as rollback-only
+13:09:32.880 [Thread[main,5,main]] Commit transaction is not new
+13:09:32.880 [Thread[main,5,main]] Transaction is marked as rollback-only, so will rollback
+13:09:32.881 [Thread[main,5,main]] Rolling back JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.881 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.883 [Thread[main,5,main]] Creating new transaction
+13:09:32.883 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.883 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.885 [Thread[main,5,main]] Using existing transaction
+13:09:32.885 [Thread[main,5,main]] Using existing transaction
+13:09:32.886 [Thread[main,5,main]] Rollback transaction is not new, marking transaction as rollback-only
+13:09:32.886 [Thread[main,5,main]] Rollback transaction is not new, marking transaction as rollback-only
+13:09:32.886 [Thread[main,5,main]] Rolling back JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.886 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+13:09:32.888 [Thread[main,5,main]] Creating new transaction
+13:09:32.888 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.889 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.890 [Thread[main,5,main]] Using existing transaction
+13:09:32.890 [Thread[main,5,main]] Using existing transaction
+13:09:32.891 [Thread[main,5,main]] Commit transaction is not new
+13:09:32.891 [Thread[main,5,main]] Commit transaction is not new
+13:09:32.891 [Thread[main,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.891 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.jfaster.mango.transaction.TransactionForBatchUpdateTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+13:09:32.900 [Thread[main,5,main]] Creating new transaction
+13:09:32.900 [Thread[main,5,main]] Acquired Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.900 [Thread[main,5,main]] Switching JDBC Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver] to manual commit
+13:09:32.900 [Thread[main,5,main]] Rolling back JDBC transaction on Connection [jdbc:hsqldb:mem:test, UserName=SA, HSQL Database Engine Driver]
+13:09:32.900 [Thread[main,5,main]] Switching JDBC Connection to auto commit
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.jfaster.mango.transaction.ParallelTransactionTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+13:09:32.907 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.907 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.907 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.907 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.908 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.908 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.909 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.909 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.910 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.910 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.910 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.910 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.911 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.911 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.911 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.911 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.911 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.911 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.911 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.911 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.911 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.911 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.912 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.912 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.912 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.912 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.912 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.912 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.912 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.912 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.912 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.912 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.913 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.913 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.913 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.913 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.913 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.913 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.913 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.913 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.913 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.913 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.914 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.914 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.914 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.914 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.914 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.914 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.914 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.914 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.914 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.914 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.914 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.915 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.915 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.915 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.915 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.915 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.915 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.915 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.915 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.916 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.916 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.916 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.916 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.916 [Thread[Thread-4,5,main]] Creating new transaction
+13:09:32.916 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.917 [Thread[Thread-2,5,main]] Creating new transaction
+13:09:32.919 [Thread[Thread-4,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.919 [Thread[Thread-2,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.919 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.920 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.920 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.920 [Thread[Thread-2,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.920 [Thread[Thread-4,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.920 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.920 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.921 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.921 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.921 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.921 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.921 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.921 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.922 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.922 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.922 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.922 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.922 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.922 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.922 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.922 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.922 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.922 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.922 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.923 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.923 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.923 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.923 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.923 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.923 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.923 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.923 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.923 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.924 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.924 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.924 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.924 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.924 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.924 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.924 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.924 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.924 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.924 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.924 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+13:09:32.925 [Thread[Thread-3,5,main]] Creating new transaction
+13:09:32.925 [Thread[Thread-1,5,main]] Creating new transaction
+13:09:32.925 [Thread[Thread-3,5,main]] Acquired Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.925 [Thread[Thread-1,5,main]] Acquired Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver] for JDBC transaction
+13:09:32.925 [Thread[Thread-3,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test2, UserName=SA, HSQL Database Engine Driver]
+13:09:32.925 [Thread[Thread-1,5,main]] Committing JDBC transaction on Connection [jdbc:hsqldb:mem:test1, UserName=SA, HSQL Database Engine Driver]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running org.jfaster.mango.util.logging.ConsoleLoggerTest
+13:09:32.926 [Thread[main,5,main]] ok
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.util.PropertyTokenizerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.util.bean.BeanUtilTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.jfaster.mango.util.reflect.TypeTokenTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jfaster.mango.util.reflect.DynamicTokensTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jfaster.mango.util.reflect.TypesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.util.reflect.ReflectionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.dao.type.AllTypeTest
+DROP TABLE IF EXISTS table_include_all_types 
+CREATE TABLE table_include_all_types (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     nav_byte TINYINT,     nav_short SMALLINT,     nav_integer INTEGER,     nav_long BIGINT,     nav_float FLOAT,     nav_double DOUBLE,     nav_bollean BOOLEAN,     nav_char CHAR,     obj_byte TINYINT,     obj_short SMALLINT,     obj_integer INTEGER,     obj_long BIGINT,     obj_float FLOAT,     obj_double DOUBLE,     obj_bollean BOOLEAN,     obj_char CHAR,     obj_string VARCHAR(100),     obj_big_decimal DECIMAL(100,2),     obj_big_integer DECIMAL,     nav_bytes VARBINARY(100),     obj_bytes VARBINARY(100),     obj_date TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS table_include_all_types 
+CREATE TABLE table_include_all_types (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     nav_byte TINYINT,     nav_short SMALLINT,     nav_integer INTEGER,     nav_long BIGINT,     nav_float FLOAT,     nav_double DOUBLE,     nav_bollean BOOLEAN,     nav_char CHAR,     obj_byte TINYINT,     obj_short SMALLINT,     obj_integer INTEGER,     obj_long BIGINT,     obj_float FLOAT,     obj_double DOUBLE,     obj_bollean BOOLEAN,     obj_char CHAR,     obj_string VARCHAR(100),     obj_big_decimal DECIMAL(100,2),     obj_big_integer DECIMAL,     nav_bytes VARBINARY(100),     obj_bytes VARBINARY(100),     obj_date TIMESTAMP,     PRIMARY KEY (id) ) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.jfaster.mango.exception.JdkExceptionTest
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS account 
+CREATE TABLE account (     id INTEGER,     balance INTEGER,     PRIMARY KEY (id) ) 
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.jfaster.mango.exception.IncorrectCacheByExceptionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jfaster.mango.exception.IncorrectParameterTypeExceptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.exception.IllegalStateExceptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.exception.IncorrectSqlExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jfaster.mango.CacheTest
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS user 
+CREATE TABLE user (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     name VARCHAR(25),     age INTEGER,     gender BOOLEAN,     money BIGINT,     update_time TIMESTAMP,     PRIMARY KEY (id) ) 
+DROP TABLE IF EXISTS msg 
+CREATE TABLE msg (     id INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1, INCREMENT BY 1) NOT NULL,     uid INTEGER,     content VARCHAR(25),     PRIMARY KEY (id) ) 
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+
+Results :
+
+Tests run: 382, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.026 s
+[INFO] Finished at: 2019-08-15T13:09:33+08:00
+[INFO] ------------------------------------------------------------------------

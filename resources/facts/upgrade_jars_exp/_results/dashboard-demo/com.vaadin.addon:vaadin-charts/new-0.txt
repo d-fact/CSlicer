@@ -1,0 +1,911 @@
+[VERSION]: 4.0.0-alpha4
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.vaadin.demo:quicktickets-dashboard:war:1.0.1
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 163, column 12
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:jetty-maven-plugin is missing. @ line 158, column 12
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------< com.vaadin.demo:quicktickets-dashboard >---------------
+[INFO] Building quicktickets-dashboard 1.0.1
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts/4.0.0-alpha4/vaadin-charts-4.0.0-alpha4.pom
+Progress (1): 2.3/9.2 kB
+Progress (1): 6.4/9.2 kB
+Progress (1): 9.2 kB    
+                    
+Downloaded from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts/4.0.0-alpha4/vaadin-charts-4.0.0-alpha4.pom (9.2 kB at 7.8 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts-parent/4.0.0-alpha4/vaadin-charts-parent-4.0.0-alpha4.pom
+Progress (1): 0.9/9.7 kB
+Progress (1): 5.0/9.7 kB
+Progress (1): 9.1/9.7 kB
+Progress (1): 9.7 kB    
+                    
+Downloaded from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts-parent/4.0.0-alpha4/vaadin-charts-parent-4.0.0-alpha4.pom (9.7 kB at 12 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts-model/4.0.0-alpha4/vaadin-charts-model-4.0.0-alpha4.pom
+Progress (1): 0.9/3.0 kB
+Progress (1): 3.0 kB    
+                    
+Downloaded from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts-model/4.0.0-alpha4/vaadin-charts-model-4.0.0-alpha4.pom (3.0 kB at 3.9 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom (1.2 kB at 836 B/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+Progress (1): 2.2/7.8 kB
+Progress (1): 5.0/7.8 kB
+Progress (1): 7.8/7.8 kB
+Progress (1): 7.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom (7.8 kB at 15 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/oss-parent/18/oss-parent-18.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/oss-parent/18/oss-parent-18.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/18/oss-parent-18.pom
+Progress (1): 2.2/19 kB
+Progress (1): 5.0/19 kB
+Progress (1): 7.8/19 kB
+Progress (1): 11/19 kB 
+Progress (1): 13/19 kB
+Progress (1): 16/19 kB
+Progress (1): 19/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/18/oss-parent-18.pom (19 kB at 23 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.pom
+Progress (1): 2.2/5.9 kB
+Progress (1): 5.0/5.9 kB
+Progress (1): 5.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.pom (5.9 kB at 566 B/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.pom
+Progress (1): 2.2/4.8 kB
+Progress (1): 4.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.pom (4.8 kB at 1.2 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom
+Downloading from Vaadin releases: https://oss.sonatype.org/content/repositories/vaadin-releases/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom
+Downloading from maven2-repository.dev.java.net: http://download.java.net/maven/2/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom
+Downloading from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom
+Progress (1): 4.1/10 kB
+Progress (1): 7.9/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/com/vaadin/vaadin-server/8.0.0.alpha8/vaadin-server-8.0.0.alpha8.pom (10 kB at 6.2 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom
+Downloading from Vaadin releases: https://oss.sonatype.org/content/repositories/vaadin-releases/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom
+Downloading from maven2-repository.dev.java.net: http://download.java.net/maven/2/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom
+Downloading from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom
+Progress (1): 4.1/30 kB
+Progress (1): 7.9/30 kB
+Progress (1): 12/30 kB 
+Progress (1): 16/30 kB
+Progress (1): 20/30 kB
+Progress (1): 24/30 kB
+Progress (1): 28/30 kB
+Progress (1): 30 kB   
+                   
+Downloaded from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/com/vaadin/vaadin-root/8.0.0.alpha8/vaadin-root-8.0.0.alpha8.pom (30 kB at 29 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/vaadin-parent/1.0.0/vaadin-parent-1.0.0.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/vaadin/vaadin-parent/1.0.0/vaadin-parent-1.0.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-parent/1.0.0/vaadin-parent-1.0.0.pom
+Progress (1): 2.2/5.1 kB
+Progress (1): 5.0/5.1 kB
+Progress (1): 5.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-parent/1.0.0/vaadin-parent-1.0.0.pom (5.1 kB at 4.9 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.pom
+Progress (1): 2.2/12 kB
+Progress (1): 5.0/12 kB
+Progress (1): 7.8/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.pom (12 kB at 21 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/external/flute/flute/1.3.0.gg2/flute-1.3.0.gg2.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/vaadin/external/flute/flute/1.3.0.gg2/flute-1.3.0.gg2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/vaadin/external/flute/flute/1.3.0.gg2/flute-1.3.0.gg2.pom
+Progress (1): 2.2/2.5 kB
+Progress (1): 2.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vaadin/external/flute/flute/1.3.0.gg2/flute-1.3.0.gg2.pom (2.5 kB at 4.6 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom
+Downloading from Vaadin releases: https://oss.sonatype.org/content/repositories/vaadin-releases/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom
+Downloading from maven2-repository.dev.java.net: http://download.java.net/maven/2/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom
+Downloading from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom
+Progress (1): 4.1/6.6 kB
+Progress (1): 6.6 kB    
+                    
+Downloaded from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/com/vaadin/vaadin-shared/8.0.0.alpha8/vaadin-shared-8.0.0.alpha8.pom (6.6 kB at 8.8 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom
+Progress (1): 2.2/6.4 kB
+Progress (1): 5.0/6.4 kB
+Progress (1): 6.4 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom (6.4 kB at 5.9 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.pom
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.pom
+Progress (1): 2.2/4.3 kB
+Progress (1): 4.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.pom (4.3 kB at 7.9 kB/s)
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts/4.0.0-alpha4/vaadin-charts-4.0.0-alpha4.jar
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts-model/4.0.0-alpha4/vaadin-charts-model-4.0.0-alpha4.jar
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar
+Downloading from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.jar
+Progress (1): 3.8/251 kB
+Progress (1): 7.9/251 kB
+Progress (1): 12/251 kB 
+Progress (1): 13/251 kB
+Progress (2): 13/251 kB | 0.8/524 kB
+Progress (2): 13/251 kB | 4.9/524 kB
+Progress (2): 13/251 kB | 9.0/524 kB
+Progress (2): 13/251 kB | 13/524 kB 
+Progress (2): 13/251 kB | 13/524 kB
+                                   
+Progress (2): 13/251 kB | 16/524 kB
+Progress (2): 13/251 kB | 20/524 kB
+Progress (2): 13/251 kB | 24/524 kB
+Progress (2): 13/251 kB | 28/524 kB
+Progress (2): 13/251 kB | 32/524 kB
+Progress (2): 13/251 kB | 37/524 kB
+Progress (2): 13/251 kB | 41/524 kB
+Progress (2): 13/251 kB | 42/524 kB
+Progress (2): 15/251 kB | 42/524 kB
+Progress (2): 19/251 kB | 42/524 kB
+Progress (2): 23/251 kB | 42/524 kB
+Progress (2): 27/251 kB | 42/524 kB
+Progress (2): 31/251 kB | 42/524 kB
+Progress (2): 35/251 kB | 42/524 kB
+Progress (2): 39/251 kB | 42/524 kB
+Progress (2): 42/251 kB | 42/524 kB
+Progress (2): 42/251 kB | 46/524 kB
+Progress (2): 42/251 kB | 50/524 kB
+Progress (2): 42/251 kB | 54/524 kB
+Progress (2): 42/251 kB | 58/524 kB
+Progress (2): 42/251 kB | 63/524 kB
+Progress (2): 42/251 kB | 67/524 kB
+Progress (2): 42/251 kB | 71/524 kB
+Progress (2): 42/251 kB | 71/524 kB
+Progress (2): 45/251 kB | 71/524 kB
+Progress (2): 49/251 kB | 71/524 kB
+Progress (2): 53/251 kB | 71/524 kB
+Progress (2): 57/251 kB | 71/524 kB
+Progress (2): 61/251 kB | 71/524 kB
+Progress (2): 66/251 kB | 71/524 kB
+Progress (2): 70/251 kB | 71/524 kB
+Progress (2): 71/251 kB | 71/524 kB
+Progress (2): 71/251 kB | 75/524 kB
+Progress (2): 71/251 kB | 79/524 kB
+Progress (2): 71/251 kB | 83/524 kB
+Progress (2): 71/251 kB | 87/524 kB
+Progress (2): 71/251 kB | 92/524 kB
+Progress (2): 71/251 kB | 96/524 kB
+Progress (2): 71/251 kB | 100/524 kB
+Progress (2): 71/251 kB | 104/524 kB
+Progress (2): 71/251 kB | 108/524 kB
+Progress (2): 71/251 kB | 112/524 kB
+Progress (2): 71/251 kB | 116/524 kB
+Progress (2): 71/251 kB | 120/524 kB
+Progress (2): 71/251 kB | 124/524 kB
+Progress (2): 71/251 kB | 128/524 kB
+Progress (2): 71/251 kB | 129/524 kB
+Progress (2): 75/251 kB | 129/524 kB
+Progress (2): 79/251 kB | 129/524 kB
+Progress (2): 83/251 kB | 129/524 kB
+Progress (2): 87/251 kB | 129/524 kB
+Progress (2): 92/251 kB | 129/524 kB
+Progress (2): 96/251 kB | 129/524 kB
+Progress (2): 100/251 kB | 129/524 kB
+Progress (2): 104/251 kB | 129/524 kB
+Progress (2): 108/251 kB | 129/524 kB
+Progress (2): 112/251 kB | 129/524 kB
+Progress (2): 116/251 kB | 129/524 kB
+Progress (2): 120/251 kB | 129/524 kB
+Progress (2): 124/251 kB | 129/524 kB
+Progress (2): 128/251 kB | 129/524 kB
+Progress (2): 129/251 kB | 129/524 kB
+Progress (2): 129/251 kB | 133/524 kB
+Progress (2): 129/251 kB | 137/524 kB
+Progress (2): 129/251 kB | 141/524 kB
+Progress (2): 129/251 kB | 145/524 kB
+Progress (2): 129/251 kB | 149/524 kB
+Progress (2): 129/251 kB | 154/524 kB
+Progress (2): 129/251 kB | 158/524 kB
+Progress (2): 129/251 kB | 162/524 kB
+Progress (2): 129/251 kB | 166/524 kB
+Progress (2): 129/251 kB | 170/524 kB
+Progress (2): 129/251 kB | 174/524 kB
+Progress (2): 129/251 kB | 178/524 kB
+Progress (2): 129/251 kB | 182/524 kB
+Progress (2): 129/251 kB | 186/524 kB
+Progress (2): 129/251 kB | 190/524 kB
+Progress (2): 129/251 kB | 195/524 kB
+Progress (2): 129/251 kB | 199/524 kB
+Progress (2): 129/251 kB | 203/524 kB
+Progress (2): 129/251 kB | 207/524 kB
+Progress (2): 129/251 kB | 211/524 kB
+Progress (2): 129/251 kB | 215/524 kB
+Progress (2): 129/251 kB | 219/524 kB
+Progress (2): 129/251 kB | 223/524 kB
+Progress (2): 129/251 kB | 227/524 kB
+Progress (2): 129/251 kB | 231/524 kB
+Progress (2): 129/251 kB | 235/524 kB
+Progress (2): 129/251 kB | 240/524 kB
+Progress (2): 129/251 kB | 244/524 kB
+Progress (2): 129/251 kB | 245/524 kB
+Progress (2): 133/251 kB | 245/524 kB
+Progress (2): 137/251 kB | 245/524 kB
+Progress (2): 141/251 kB | 245/524 kB
+Progress (2): 145/251 kB | 245/524 kB
+Progress (2): 150/251 kB | 245/524 kB
+Progress (2): 154/251 kB | 245/524 kB
+Progress (2): 158/251 kB | 245/524 kB
+Progress (2): 162/251 kB | 245/524 kB
+Progress (2): 166/251 kB | 245/524 kB
+Progress (2): 170/251 kB | 245/524 kB
+Progress (2): 174/251 kB | 245/524 kB
+Progress (2): 178/251 kB | 245/524 kB
+Progress (2): 182/251 kB | 245/524 kB
+Progress (2): 186/251 kB | 245/524 kB
+Progress (2): 190/251 kB | 245/524 kB
+Progress (2): 195/251 kB | 245/524 kB
+Progress (2): 199/251 kB | 245/524 kB
+Progress (2): 203/251 kB | 245/524 kB
+Progress (2): 207/251 kB | 245/524 kB
+Progress (2): 211/251 kB | 245/524 kB
+Progress (2): 215/251 kB | 245/524 kB
+Progress (2): 219/251 kB | 245/524 kB
+Progress (2): 223/251 kB | 245/524 kB
+Progress (2): 227/251 kB | 245/524 kB
+Progress (2): 230/251 kB | 245/524 kB
+Progress (2): 230/251 kB | 249/524 kB
+Progress (2): 230/251 kB | 253/524 kB
+Progress (2): 230/251 kB | 257/524 kB
+Progress (2): 230/251 kB | 261/524 kB
+Progress (2): 230/251 kB | 265/524 kB
+Progress (2): 230/251 kB | 269/524 kB
+Progress (2): 230/251 kB | 273/524 kB
+Progress (2): 230/251 kB | 278/524 kB
+Progress (2): 230/251 kB | 282/524 kB
+Progress (2): 230/251 kB | 286/524 kB
+Progress (2): 230/251 kB | 290/524 kB
+Progress (2): 230/251 kB | 294/524 kB
+Progress (2): 230/251 kB | 298/524 kB
+Progress (2): 230/251 kB | 302/524 kB
+Progress (2): 230/251 kB | 306/524 kB
+Progress (2): 230/251 kB | 310/524 kB
+Progress (2): 230/251 kB | 314/524 kB
+Progress (2): 230/251 kB | 319/524 kB
+Progress (2): 230/251 kB | 323/524 kB
+Progress (2): 230/251 kB | 327/524 kB
+Progress (2): 230/251 kB | 331/524 kB
+Progress (2): 230/251 kB | 335/524 kB
+Progress (2): 230/251 kB | 339/524 kB
+Progress (2): 230/251 kB | 343/524 kB
+Progress (2): 230/251 kB | 347/524 kB
+Progress (2): 230/251 kB | 351/524 kB
+Progress (2): 230/251 kB | 355/524 kB
+Progress (2): 230/251 kB | 360/524 kB
+Progress (2): 230/251 kB | 364/524 kB
+Progress (2): 230/251 kB | 368/524 kB
+Progress (2): 230/251 kB | 372/524 kB
+Progress (2): 230/251 kB | 376/524 kB
+Progress (2): 230/251 kB | 380/524 kB
+Progress (2): 230/251 kB | 384/524 kB
+Progress (2): 230/251 kB | 388/524 kB
+Progress (2): 230/251 kB | 392/524 kB
+Progress (2): 230/251 kB | 396/524 kB
+Progress (2): 230/251 kB | 398/524 kB
+Progress (2): 233/251 kB | 398/524 kB
+Progress (2): 237/251 kB | 398/524 kB
+Progress (2): 241/251 kB | 398/524 kB
+Progress (2): 246/251 kB | 398/524 kB
+Progress (2): 250/251 kB | 398/524 kB
+Progress (2): 251 kB | 398/524 kB    
+Progress (2): 251 kB | 401/524 kB
+Progress (2): 251 kB | 405/524 kB
+Progress (2): 251 kB | 409/524 kB
+Progress (2): 251 kB | 413/524 kB
+Progress (2): 251 kB | 418/524 kB
+Progress (2): 251 kB | 422/524 kB
+Progress (2): 251 kB | 426/524 kB
+Progress (2): 251 kB | 430/524 kB
+Progress (2): 251 kB | 434/524 kB
+Progress (2): 251 kB | 438/524 kB
+Progress (2): 251 kB | 442/524 kB
+Progress (2): 251 kB | 446/524 kB
+Progress (2): 251 kB | 450/524 kB
+Progress (2): 251 kB | 454/524 kB
+Progress (2): 251 kB | 459/524 kB
+Progress (2): 251 kB | 463/524 kB
+Progress (2): 251 kB | 467/524 kB
+Progress (2): 251 kB | 471/524 kB
+Progress (2): 251 kB | 475/524 kB
+Progress (2): 251 kB | 479/524 kB
+Progress (2): 251 kB | 483/524 kB
+Progress (2): 251 kB | 487/524 kB
+Progress (2): 251 kB | 491/524 kB
+Progress (2): 251 kB | 495/524 kB
+Progress (2): 251 kB | 500/524 kB
+Progress (2): 251 kB | 504/524 kB
+Progress (2): 251 kB | 508/524 kB
+Progress (2): 251 kB | 512/524 kB
+Progress (2): 251 kB | 516/524 kB
+Progress (2): 251 kB | 520/524 kB
+Progress (2): 251 kB | 524 kB    
+                             
+Downloaded from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts-model/4.0.0-alpha4/vaadin-charts-model-4.0.0-alpha4.jar (251 kB at 82 kB/s)
+Downloaded from vaadin-addons: http://maven.vaadin.com/vaadin-addons/com/vaadin/addon/vaadin-charts/4.0.0-alpha4/vaadin-charts-4.0.0-alpha4.jar (524 kB at 165 kB/s)
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar
+Downloading from sonatype vaadin: https://oss.sonatype.org/content/repositories/vaadin/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.jar
+Progress (1): 2.2/40 kB
+Progress (1): 5.0/40 kB
+Progress (1): 7.7/40 kB
+Progress (1): 10/40 kB 
+Progress (1): 13/40 kB
+Progress (1): 16/40 kB
+Progress (1): 19/40 kB
+Progress (1): 21/40 kB
+Progress (1): 24/40 kB
+Progress (1): 27/40 kB
+Progress (1): 30/40 kB
+Progress (1): 32/40 kB
+Progress (1): 35/40 kB
+Progress (1): 38/40 kB
+Progress (1): 40 kB   
+Progress (2): 40 kB | 2.2/230 kB
+Progress (2): 40 kB | 5.0/230 kB
+Progress (2): 40 kB | 7.7/230 kB
+Progress (2): 40 kB | 10/230 kB 
+Progress (2): 40 kB | 13/230 kB
+Progress (3): 40 kB | 13/230 kB | 0/1.1 MB
+Progress (3): 40 kB | 13/230 kB | 0/1.1 MB
+Progress (3): 40 kB | 13/230 kB | 0/1.1 MB
+Progress (3): 40 kB | 13/230 kB | 0/1.1 MB
+Progress (3): 40 kB | 13/230 kB | 0/1.1 MB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar (40 kB at 47 kB/s)
+Progress (2): 16/230 kB | 0/1.1 MB
+Progress (2): 19/230 kB | 0/1.1 MB
+Progress (2): 21/230 kB | 0/1.1 MB
+Progress (2): 24/230 kB | 0/1.1 MB
+Progress (2): 27/230 kB | 0/1.1 MB
+Progress (2): 30/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 32/230 kB | 0/1.1 MB
+Progress (2): 36/230 kB | 0/1.1 MB
+Progress (2): 40/230 kB | 0/1.1 MB
+Progress (2): 45/230 kB | 0/1.1 MB
+Progress (2): 49/230 kB | 0/1.1 MB
+Progress (2): 53/230 kB | 0/1.1 MB
+Progress (2): 57/230 kB | 0/1.1 MB
+Progress (2): 61/230 kB | 0/1.1 MB
+Progress (2): 65/230 kB | 0/1.1 MB
+Progress (2): 65/230 kB | 0/1.1 MB
+Progress (2): 65/230 kB | 0/1.1 MB
+Progress (2): 65/230 kB | 0/1.1 MB
+Progress (2): 65/230 kB | 0/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 65/230 kB | 0.1/1.1 MB
+Progress (2): 69/230 kB | 0.1/1.1 MB
+Progress (2): 73/230 kB | 0.1/1.1 MB
+Progress (2): 77/230 kB | 0.1/1.1 MB
+Progress (2): 81/230 kB | 0.1/1.1 MB
+Progress (2): 85/230 kB | 0.1/1.1 MB
+Progress (2): 90/230 kB | 0.1/1.1 MB
+Progress (2): 94/230 kB | 0.1/1.1 MB
+Progress (2): 98/230 kB | 0.1/1.1 MB
+Progress (2): 102/230 kB | 0.1/1.1 MB
+Progress (2): 106/230 kB | 0.1/1.1 MB
+Progress (2): 106/230 kB | 0.1/1.1 MB
+Progress (2): 110/230 kB | 0.1/1.1 MB
+Progress (2): 110/230 kB | 0.1/1.1 MB
+Progress (2): 114/230 kB | 0.1/1.1 MB
+Progress (2): 114/230 kB | 0.1/1.1 MB
+Progress (2): 114/230 kB | 0.1/1.1 MB
+Progress (2): 118/230 kB | 0.1/1.1 MB
+Progress (2): 118/230 kB | 0.1/1.1 MB
+Progress (2): 122/230 kB | 0.1/1.1 MB
+Progress (2): 122/230 kB | 0.1/1.1 MB
+Progress (2): 126/230 kB | 0.1/1.1 MB
+Progress (2): 126/230 kB | 0.1/1.1 MB
+Progress (2): 131/230 kB | 0.1/1.1 MB
+Progress (2): 131/230 kB | 0.1/1.1 MB
+Progress (2): 135/230 kB | 0.1/1.1 MB
+Progress (2): 135/230 kB | 0.1/1.1 MB
+Progress (2): 139/230 kB | 0.1/1.1 MB
+Progress (2): 139/230 kB | 0.1/1.1 MB
+Progress (2): 143/230 kB | 0.1/1.1 MB
+Progress (2): 143/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.1/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 147/230 kB | 0.2/1.1 MB
+Progress (2): 151/230 kB | 0.2/1.1 MB
+Progress (2): 155/230 kB | 0.2/1.1 MB
+Progress (2): 159/230 kB | 0.2/1.1 MB
+Progress (2): 163/230 kB | 0.2/1.1 MB
+Progress (2): 167/230 kB | 0.2/1.1 MB
+Progress (2): 171/230 kB | 0.2/1.1 MB
+Progress (2): 176/230 kB | 0.2/1.1 MB
+Progress (2): 180/230 kB | 0.2/1.1 MB
+Progress (2): 180/230 kB | 0.2/1.1 MB
+Progress (2): 184/230 kB | 0.2/1.1 MB
+Progress (2): 184/230 kB | 0.2/1.1 MB
+Progress (2): 188/230 kB | 0.2/1.1 MB
+Progress (2): 188/230 kB | 0.2/1.1 MB
+Progress (2): 192/230 kB | 0.2/1.1 MB
+Progress (2): 192/230 kB | 0.2/1.1 MB
+Progress (2): 196/230 kB | 0.2/1.1 MB
+Progress (2): 196/230 kB | 0.2/1.1 MB
+Progress (2): 200/230 kB | 0.2/1.1 MB
+Progress (2): 200/230 kB | 0.2/1.1 MB
+Progress (2): 204/230 kB | 0.2/1.1 MB
+Progress (2): 204/230 kB | 0.2/1.1 MB
+Progress (2): 208/230 kB | 0.2/1.1 MB
+Progress (2): 208/230 kB | 0.2/1.1 MB
+Progress (2): 212/230 kB | 0.2/1.1 MB
+Progress (2): 212/230 kB | 0.2/1.1 MB
+Progress (2): 217/230 kB | 0.2/1.1 MB
+Progress (2): 217/230 kB | 0.2/1.1 MB
+Progress (2): 221/230 kB | 0.2/1.1 MB
+Progress (2): 221/230 kB | 0.2/1.1 MB
+Progress (2): 225/230 kB | 0.2/1.1 MB
+Progress (2): 225/230 kB | 0.2/1.1 MB
+Progress (2): 229/230 kB | 0.2/1.1 MB
+Progress (2): 230 kB | 0.2/1.1 MB    
+Progress (2): 230 kB | 0.2/1.1 MB
+Progress (2): 230 kB | 0.2/1.1 MB
+Progress (2): 230 kB | 0.2/1.1 MB
+Progress (2): 230 kB | 0.2/1.1 MB
+Progress (2): 230 kB | 0.2/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.3/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+Progress (2): 230 kB | 0.4/1.1 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar (230 kB at 118 kB/s)
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.2/jackson-databind-2.5.2.jar (1.1 MB at 445 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ quicktickets-dashboard ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ quicktickets-dashboard ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.w3c.css:sac:jar:1.3:compile
+[INFO]    com.vaadin:vaadin-client-compiler:jar:7.1.0:compile
+[INFO]    ant:ant:jar:1.6.5:compile
+[INFO]    commons-codec:commons-codec:jar:1.3:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.jdesktop:swing-worker:jar:1.1:compile
+[INFO]    org.apache.commons:commons-jexl:jar:2.1.1:compile
+[INFO]    com.vaadin:vaadin-server:jar:7.1.0:compile
+[INFO]    com.vaadin:vaadin-themes:jar:7.1.0:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.jsoup:jsoup:jar:1.6.3:compile
+[INFO]    com.vaadin:vaadin-theme-compiler:jar:7.1.0:compile
+[INFO]    org.mortbay.jetty:servlet-api-2.5:jar:6.1.11:compile
+[INFO]    com.vaadin:vaadin-client-compiler-deps:jar:1.0.2:compile
+[INFO]    com.vaadin:vaadin-shared:jar:7.1.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.5.2:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    com.vaadin:vaadin-shared-deps:jar:1.0.2:compile
+[INFO]    commons-collections:commons-collections:jar:3.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile
+[INFO]    javax.validation:validation-api:jar:1.0.0.GA:compile
+[INFO]    com.vaadin.addon:vaadin-charts:jar:4.0.0-alpha4:compile
+[INFO]    commons-io:commons-io:jar:2.2:compile
+[INFO]    com.vaadin.addon:vaadin-charts-model:jar:4.0.0-alpha4:compile
+[INFO]    com.vaadin:vaadin-client:jar:7.1.0:compile
+[INFO]    org.apache.james:apache-mime4j:jar:0.6:compile
+[INFO]    ant:ant-launcher:jar:1.6.5:compile
+[INFO]    org.mortbay.jetty:jetty-util:jar:6.1.11:compile
+[INFO]    javax.validation:validation-api:jar:sources:1.0.0.GA:compile
+[INFO]    net.sourceforge.cssparser:cssparser:jar:0.9.5:compile
+[INFO]    org.mortbay.jetty:jetty:jar:6.1.11:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ quicktickets-dashboard ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- vaadin-maven-plugin:7.1.0:resources (default) @ quicktickets-dashboard ---
+[INFO] auto discovered modules [com.vaadin.demo.dashboard.DashboardWidgetSet]
+[INFO] 1 source files from GWT module com.vaadin.demo.dashboard.DashboardWidgetSet
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ quicktickets-dashboard ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 19 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[34,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[35,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[36,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[37,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[201,19] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[216,19] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[76,16] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class Movie
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[76,41] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class Movie
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/SalesView.java:[17,32] error: package com.vaadin.addon.timeline does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/SalesView.java:[36,12] error: cannot find symbol
+[ERROR]   symbol:   class Timeline
+  location: class SalesView
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[146,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[171,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonArray
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[175,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[176,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[207,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonElement
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[207,39] error: cannot find symbol
+[ERROR]   symbol:   class JsonParser
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[208,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[219,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonElement
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[219,35] error: cannot find symbol
+[ERROR]   symbol:   class JsonParser
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[220,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+  location: class DataProvider
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/SalesView.java:[97,23] error: cannot find symbol
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:12 min
+[INFO] Finished at: 2019-08-20T14:38:28+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project quicktickets-dashboard: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[34,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[35,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[36,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[37,22] error: package com.google.gson does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[201,19] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[216,19] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[76,16] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class Movie
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[76,41] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class Movie
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/SalesView.java:[17,32] error: package com.vaadin.addon.timeline does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/SalesView.java:[36,12] error: cannot find symbol
+[ERROR]   symbol:   class Timeline
+[ERROR]   location: class SalesView
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[146,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[171,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonArray
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[175,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[176,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[207,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[207,39] error: cannot find symbol
+[ERROR]   symbol:   class JsonParser
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[208,12] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[219,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[219,35] error: cannot find symbol
+[ERROR]   symbol:   class JsonParser
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/data/DataProvider.java:[220,8] error: cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class DataProvider
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dashboard-demo/src/main/java/com/vaadin/demo/dashboard/SalesView.java:[97,23] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

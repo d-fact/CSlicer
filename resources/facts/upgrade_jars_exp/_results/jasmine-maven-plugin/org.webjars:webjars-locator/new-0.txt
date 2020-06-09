@@ -1,0 +1,686 @@
+[VERSION]: 0.37
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ---------------< com.github.searls:jasmine-maven-plugin >---------------
+[INFO] Building jasmine-maven-plugin 3.0-alpha-01
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.37/webjars-locator-0.37.pom
+Progress (1): 2.2/6.0 kB
+Progress (1): 5.0/6.0 kB
+Progress (1): 6.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.37/webjars-locator-0.37.pom (6.0 kB at 5.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.39/webjars-locator-core-0.39.pom
+Progress (1): 2.2/8.8 kB
+Progress (1): 5.0/8.8 kB
+Progress (1): 7.8/8.8 kB
+Progress (1): 8.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.39/webjars-locator-core-0.39.pom (8.8 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.pom
+Progress (1): 2.2/24 kB
+Progress (1): 5.0/24 kB
+Progress (1): 7.8/24 kB
+Progress (1): 11/24 kB 
+Progress (1): 13/24 kB
+Progress (1): 16/24 kB
+Progress (1): 19/24 kB
+Progress (1): 21/24 kB
+Progress (1): 24 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.pom (24 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.39/webjars-locator-core-0.39.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.37/webjars-locator-0.37.jar
+Progress (1): 2.2/17 kB
+Progress (1): 5.0/17 kB
+Progress (1): 7.7/17 kB
+Progress (1): 11/17 kB 
+Progress (1): 13/17 kB
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.39/webjars-locator-core-0.39.jar (17 kB at 37 kB/s)
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (1): 0/1.3 MB
+Progress (2): 0/1.3 MB | 2.2/13 kB
+Progress (2): 0/1.3 MB | 5.0/13 kB
+Progress (2): 0/1.3 MB | 7.7/13 kB
+Progress (2): 0/1.3 MB | 10/13 kB 
+Progress (2): 0/1.3 MB | 13 kB   
+Progress (3): 0/1.3 MB | 13 kB | 2.2/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 5.0/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 7.7/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 10/465 kB 
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 13/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 16/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 19/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 21/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 24/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 27/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 30/465 kB
+Progress (3): 0/1.3 MB | 13 kB | 32/465 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.37/webjars-locator-0.37.jar (13 kB at 16 kB/s)
+Progress (2): 0/1.3 MB | 32/465 kB
+Progress (2): 0/1.3 MB | 32/465 kB
+Progress (2): 0/1.3 MB | 32/465 kB
+Progress (2): 0/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 32/465 kB
+Progress (2): 0.1/1.3 MB | 36/465 kB
+Progress (2): 0.1/1.3 MB | 40/465 kB
+Progress (2): 0.1/1.3 MB | 45/465 kB
+Progress (2): 0.1/1.3 MB | 49/465 kB
+Progress (2): 0.1/1.3 MB | 53/465 kB
+Progress (2): 0.1/1.3 MB | 57/465 kB
+Progress (2): 0.1/1.3 MB | 61/465 kB
+Progress (2): 0.1/1.3 MB | 65/465 kB
+Progress (2): 0.1/1.3 MB | 69/465 kB
+Progress (2): 0.1/1.3 MB | 73/465 kB
+Progress (2): 0.1/1.3 MB | 77/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.1/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 81/465 kB
+Progress (2): 0.2/1.3 MB | 85/465 kB
+Progress (2): 0.2/1.3 MB | 90/465 kB
+Progress (2): 0.2/1.3 MB | 94/465 kB
+Progress (2): 0.2/1.3 MB | 98/465 kB
+Progress (2): 0.2/1.3 MB | 102/465 kB
+Progress (2): 0.2/1.3 MB | 106/465 kB
+Progress (2): 0.2/1.3 MB | 110/465 kB
+Progress (2): 0.2/1.3 MB | 114/465 kB
+Progress (2): 0.2/1.3 MB | 118/465 kB
+Progress (2): 0.2/1.3 MB | 122/465 kB
+Progress (2): 0.2/1.3 MB | 126/465 kB
+Progress (2): 0.2/1.3 MB | 131/465 kB
+Progress (2): 0.2/1.3 MB | 135/465 kB
+Progress (2): 0.2/1.3 MB | 139/465 kB
+Progress (2): 0.2/1.3 MB | 143/465 kB
+Progress (2): 0.2/1.3 MB | 147/465 kB
+Progress (2): 0.2/1.3 MB | 151/465 kB
+Progress (2): 0.2/1.3 MB | 155/465 kB
+Progress (2): 0.2/1.3 MB | 159/465 kB
+Progress (2): 0.2/1.3 MB | 163/465 kB
+Progress (2): 0.2/1.3 MB | 167/465 kB
+Progress (2): 0.2/1.3 MB | 171/465 kB
+Progress (2): 0.2/1.3 MB | 176/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.2/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.3/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 180/465 kB
+Progress (2): 0.4/1.3 MB | 184/465 kB
+Progress (2): 0.4/1.3 MB | 188/465 kB
+Progress (2): 0.4/1.3 MB | 192/465 kB
+Progress (2): 0.4/1.3 MB | 196/465 kB
+Progress (2): 0.4/1.3 MB | 200/465 kB
+Progress (2): 0.4/1.3 MB | 204/465 kB
+Progress (2): 0.4/1.3 MB | 208/465 kB
+Progress (2): 0.4/1.3 MB | 212/465 kB
+Progress (2): 0.4/1.3 MB | 217/465 kB
+Progress (2): 0.4/1.3 MB | 221/465 kB
+Progress (2): 0.4/1.3 MB | 225/465 kB
+Progress (2): 0.4/1.3 MB | 229/465 kB
+Progress (2): 0.4/1.3 MB | 233/465 kB
+Progress (2): 0.4/1.3 MB | 237/465 kB
+Progress (2): 0.4/1.3 MB | 241/465 kB
+Progress (2): 0.4/1.3 MB | 245/465 kB
+Progress (2): 0.4/1.3 MB | 249/465 kB
+Progress (2): 0.4/1.3 MB | 253/465 kB
+Progress (2): 0.4/1.3 MB | 258/465 kB
+Progress (2): 0.4/1.3 MB | 262/465 kB
+Progress (2): 0.4/1.3 MB | 266/465 kB
+Progress (2): 0.4/1.3 MB | 270/465 kB
+Progress (2): 0.4/1.3 MB | 274/465 kB
+Progress (2): 0.4/1.3 MB | 278/465 kB
+Progress (2): 0.4/1.3 MB | 282/465 kB
+Progress (2): 0.4/1.3 MB | 286/465 kB
+Progress (2): 0.4/1.3 MB | 290/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.4/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.5/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.6/1.3 MB | 294/465 kB
+Progress (2): 0.7/1.3 MB | 294/465 kB
+Progress (2): 0.7/1.3 MB | 294/465 kB
+Progress (2): 0.7/1.3 MB | 298/465 kB
+Progress (2): 0.7/1.3 MB | 303/465 kB
+Progress (2): 0.7/1.3 MB | 307/465 kB
+Progress (2): 0.7/1.3 MB | 311/465 kB
+Progress (2): 0.7/1.3 MB | 315/465 kB
+Progress (2): 0.7/1.3 MB | 319/465 kB
+Progress (2): 0.7/1.3 MB | 323/465 kB
+Progress (2): 0.7/1.3 MB | 327/465 kB
+Progress (2): 0.7/1.3 MB | 331/465 kB
+Progress (2): 0.7/1.3 MB | 335/465 kB
+Progress (2): 0.7/1.3 MB | 339/465 kB
+Progress (2): 0.7/1.3 MB | 344/465 kB
+Progress (2): 0.7/1.3 MB | 348/465 kB
+Progress (2): 0.7/1.3 MB | 352/465 kB
+Progress (2): 0.7/1.3 MB | 356/465 kB
+Progress (2): 0.7/1.3 MB | 360/465 kB
+Progress (2): 0.7/1.3 MB | 364/465 kB
+Progress (2): 0.7/1.3 MB | 368/465 kB
+Progress (2): 0.7/1.3 MB | 372/465 kB
+Progress (2): 0.7/1.3 MB | 376/465 kB
+Progress (2): 0.7/1.3 MB | 380/465 kB
+Progress (2): 0.7/1.3 MB | 384/465 kB
+Progress (2): 0.7/1.3 MB | 389/465 kB
+Progress (2): 0.7/1.3 MB | 393/465 kB
+Progress (2): 0.7/1.3 MB | 397/465 kB
+Progress (2): 0.7/1.3 MB | 401/465 kB
+Progress (2): 0.7/1.3 MB | 405/465 kB
+Progress (2): 0.7/1.3 MB | 409/465 kB
+Progress (2): 0.7/1.3 MB | 413/465 kB
+Progress (2): 0.7/1.3 MB | 417/465 kB
+Progress (2): 0.7/1.3 MB | 421/465 kB
+Progress (2): 0.7/1.3 MB | 425/465 kB
+Progress (2): 0.7/1.3 MB | 430/465 kB
+Progress (2): 0.7/1.3 MB | 434/465 kB
+Progress (2): 0.7/1.3 MB | 438/465 kB
+Progress (2): 0.7/1.3 MB | 442/465 kB
+Progress (2): 0.7/1.3 MB | 446/465 kB
+Progress (2): 0.7/1.3 MB | 450/465 kB
+Progress (2): 0.7/1.3 MB | 454/465 kB
+Progress (2): 0.7/1.3 MB | 458/465 kB
+Progress (2): 0.7/1.3 MB | 462/465 kB
+Progress (2): 0.7/1.3 MB | 465 kB    
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.7/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.8/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 0.9/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+Progress (2): 1.0/1.3 MB | 465 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar (465 kB at 274 kB/s)
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.0/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.1/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.2/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3/1.3 MB
+Progress (1): 1.3 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar (1.3 MB at 695 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ jasmine-maven-plugin ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jasmine-maven-plugin ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.19:compile
+[INFO]    net.jcip:jcip-annotations:jar:1.0:compile
+[INFO]    org.w3c.css:sac:jar:1.3:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.5:compile
+[INFO]    com.beust:jcommander:jar:1.48:compile
+[INFO]    org.assertj:assertj-guava:jar:3.1.0:test
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.1.1:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    xml-apis:xml-apis:jar:1.4.01:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.1.1:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.7.v20170914:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:compile
+[INFO]    org.seleniumhq.selenium:selenium-server:jar:3.8.1:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO]    xalan:serializer:jar:2.7.2:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M5:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    xalan:xalan:jar:2.7.2:compile
+[INFO]    uk.org.lidalia:lidalia-lang:jar:1.0.0:test
+[INFO]    org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[INFO]    org.seleniumhq.selenium:selenium-safari-driver:jar:3.8.1:compile
+[INFO]    org.webjars.npm:inflight:jar:1.0.6:compile
+[INFO]    org.webjars.npm:balanced-match:jar:1.0.0:compile
+[INFO]    org.apache.maven:maven-model:jar:3.1.1:compile
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.5.1:compile
+[INFO]    org.seleniumhq.selenium:htmlunit-driver:jar:2.28:compile
+[INFO]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO]    commons-net:commons-net:jar:3.6:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.codehaus.plexus:plexus-resources:jar:1.0.1:compile
+[INFO]    org.webjars:webjars-locator-core:jar:0.39:compile
+[INFO]    classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO]    org.apache.commons:commons-text:jar:1.1:compile
+[INFO]    org.seleniumhq.selenium:selenium-opera-driver:jar:3.8.1:compile
+[INFO]    org.seleniumhq.selenium:jetty-repacked:jar:9.4.7.v20170914:compile
+[INFO]    org.webjars.npm:brace-expansion:jar:1.1.11:compile
+[INFO]    org.apache.commons:commons-exec:jar:1.3:compile
+[INFO]    org.antlr:ST4:jar:4.0.8:compile
+[INFO]    xerces:xercesImpl:jar:2.11.0:compile
+[INFO]    org.seleniumhq.selenium:selenium-ie-driver:jar:3.8.1:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+[INFO]    org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.7.v20170914:compile
+[INFO]    org.rauschig:jarchivelib:jar:0.7.1:compile
+[INFO]    org.webjars.npm:once:jar:1.4.0:compile
+[INFO]    org.webjars.npm:glob:jar:7.1.4:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.21:compile
+[INFO]    org.mockito:mockito-core:jar:2.10.0:test
+[INFO]    org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[INFO]    joda-time:joda-time:jar:2.2:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.webjars.npm:path-is-absolute:jar:1.0.1:compile
+[INFO]    org.immutables:value:jar:2.5.6:provided
+[INFO]    org.webjars.npm:jasmine-core:jar:2.6.4:compile
+[INFO]    org.webjars.npm:concat-map:jar:0.0.1:compile
+[INFO]    uk.org.lidalia:slf4j-test:jar:1.1.0:test
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO]    org.webjars.npm:minimatch:jar:3.0.4:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.7.v20170914:compile
+[INFO]    org.jsoup:jsoup:jar:1.10.2:compile
+[INFO]    net.sourceforge.htmlunit:neko-htmlunit:jar:2.28:compile
+[INFO]    org.seleniumhq.selenium:selenium-chrome-driver:jar:3.8.1:compile
+[INFO]    org.seleniumhq.selenium:selenium-support:jar:3.8.1:compile
+[INFO]    net.sourceforge.htmlunit:htmlunit-core-js:jar:2.28:compile
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.1.1:compile
+[INFO]    org.seleniumhq.selenium:selenium-remote-driver:jar:3.8.1:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO]    org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[INFO]    org.webjars.npm:wrappy:jar:1.0.2:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.9:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO]    net.sourceforge.htmlunit:htmlunit:jar:2.29:compile
+[INFO]    org.webjars:webjars-locator:jar:0.37:compile
+[INFO]    org.apache.maven:maven-artifact:jar:3.1.1:compile
+[INFO]    org.apache.maven:maven-core:jar:3.1.1:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.seleniumhq.selenium:selenium-java:jar:3.8.1:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO]    com.google.guava:guava:jar:23.0:compile
+[INFO]    org.assertj:assertj-core:jar:3.8.0:test
+[INFO]    io.github.classgraph:classgraph:jar:4.8.44:compile
+[INFO]    org.seleniumhq.selenium:selenium-edge-driver:jar:3.8.1:compile
+[INFO]    uk.org.lidalia:lidalia-slf4j-ext:jar:1.0.0:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.8:compile
+[INFO]    org.seleniumhq.selenium:selenium-firefox-driver:jar:3.8.1:compile
+[INFO]    org.webjars.npm:jasmine:jar:2.6.0:compile
+[INFO]    io.github.bonigarcia:webdrivermanager:jar:2.1.0:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.7.v20170914:compile
+[INFO]    org.webjars.npm:exit:jar:0.1.2:compile
+[INFO]    org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO]    org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.9.3:compile
+[INFO]    org.webjars.npm:fs.realpath:jar:1.0.0:compile
+[INFO]    org.seleniumhq.selenium:selenium-api:jar:3.8.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.2:compile
+[INFO]    org.apache.maven:maven-aether-provider:jar:3.1.1:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.1.1:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO]    org.webjars.npm:inherits:jar:2.0.4:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.7.v20170914:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.7.v20170914:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    net.sourceforge.cssparser:cssparser:jar:0.9.24:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.7.v20170914:compile
+[INFO]    backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.1.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jasmine-maven-plugin ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/target/jacoco.exec,excludes=com/github/searls/jasmine/mojo/HelpMojo*:**com.steadystate*
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5:helpmojo (generated-helpmojo) @ jasmine-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 0 mojo descriptor.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jasmine-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jasmine-maven-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 51 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/io/RelativizesFilePaths.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/io/RelativizesFilePaths.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/thirdpartylibs/WebJarResourceHandler.java:[93,61] cannot find symbol
+  symbol:   method getFullPathIndex(java.util.regex.Pattern,java.lang.ClassLoader)
+  location: class org.webjars.WebJarAssetLocator
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.124 s
+[INFO] Finished at: 2019-08-16T08:05:13+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project jasmine-maven-plugin: Compilation failure
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jasmine-maven-plugin/src/main/java/com/github/searls/jasmine/thirdpartylibs/WebJarResourceHandler.java:[93,61] cannot find symbol
+[ERROR]   symbol:   method getFullPathIndex(java.util.regex.Pattern,java.lang.ClassLoader)
+[ERROR]   location: class org.webjars.WebJarAssetLocator
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

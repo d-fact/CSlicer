@@ -1,0 +1,176 @@
+[VERSION]: 2.0.24.Final
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.restheart:restheart >-----------------------
+[INFO] Building Restheart 3.2.2
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ restheart ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ restheart ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO]    org.mongodb:mongodb-driver:jar:3.6.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:test
+[INFO]    org.apache.tika:tika-core:jar:1.16:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    com.eclipsesource.minimal-json:minimal-json:jar:0.9.4:test
+[INFO]    org.mongodb:bson:jar:3.6.0:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.2:test
+[INFO]    commons-validator:commons-validator:jar:1.6:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO]    org.mockito:mockito-core:jar:2.11.0:test
+[INFO]    org.yaml:snakeyaml:jar:1.19:compile
+[INFO]    com.github.everit-org.json-schema:org.everit.json.schema:jar:1.6.0:compile
+[INFO]    com.damnhandy:handy-uri-templates:jar:2.1.6:compile
+[INFO]    org.apache.httpcomponents:fluent-hc:jar:4.5.3:test
+[INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+[INFO]    com.mashape.unirest:unirest-java:jar:1.4.9:test
+[INFO]    io.undertow:undertow-core:jar:2.0.24.Final:compile
+[INFO]    org.kohsuke:akuma:jar:1.10:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO]    org.mongodb:mongodb-driver-core:jar:3.6.0:compile
+[INFO]    joda-time:joda-time:jar:2.9.4:compile
+[INFO]    de.svenkubiak:jBCrypt:jar:0.4.1:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.9.2:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:test
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.1.1:test
+[INFO]    commons-codec:commons-codec:jar:1.9:test
+[INFO]    commons-digester:commons-digester:jar:1.8.1:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.4:test
+[INFO]    org.json:json:jar:20170516:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.fusesource.jansi:jansi:jar:1.16:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.4.4:test
+[INFO]    org.jboss.logging:jboss-logging:jar:3.4.0.Final:compile
+[INFO]    net.java.dev.jna:jna:jar:4.1.0:compile
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.2.5:compile
+[INFO]    org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO]    com.google.guava:guava:jar:23.2-jre:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-versions) @ restheart ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ restheart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ restheart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 203 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/handlers/injectors/RequestContextInjectorHandler.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/handlers/injectors/RequestContextInjectorHandler.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/db/CursorPool.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/db/CursorPool.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ restheart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ restheart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 53 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/integration/PutDBIT.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/integration/PutDBIT.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/performance/AbstractPT.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/performance/AbstractPT.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ restheart ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest
+20:28:48.043 [main] INFO  o.r.h.i.CollectionPropsInjectorHandlerTest - executing test testCheckCollectionPut(org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest)
+20:28:48.051 [main] INFO  o.r.h.i.CollectionPropsInjectorHandlerTest - executing test testCheckCollectionFilesPost(org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest)
+20:28:48.051 [main] INFO  o.r.h.i.CollectionPropsInjectorHandlerTest - executing test testCheckCollectionRoot(org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest)
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 sec
+Running org.restheart.handlers.injectors.BodyInjectorHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.restheart.handlers.applicationlogic.ResponseTypeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running org.restheart.handlers.applicationlogic.MetricsHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 sec
+Running org.restheart.handlers.RequestContextTest
+20:28:48.406 [main] INFO  o.r.handlers.RequestContextTest - executing test testGetMappedRequestUri2(org.restheart.handlers.RequestContextTest)
+20:28:48.407 [main] INFO  o.r.handlers.RequestContextTest - executing test test_FILE_selectRequestType(org.restheart.handlers.RequestContextTest)
+20:28:48.407 [main] INFO  o.r.handlers.RequestContextTest - executing test testSelectRequestType(org.restheart.handlers.RequestContextTest)
+20:28:48.407 [main] INFO  o.r.handlers.RequestContextTest - executing test testSelectRequestMethod(org.restheart.handlers.RequestContextTest)
+20:28:48.407 [main] INFO  o.r.handlers.RequestContextTest - executing test testGetMappedRequestUri(org.restheart.handlers.RequestContextTest)
+20:28:48.408 [main] INFO  o.r.handlers.RequestContextTest - executing test test_COLLECTION_FILES_selectRequestType(org.restheart.handlers.RequestContextTest)
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.restheart.handlers.files.GetFileHandlerTest
+20:28:48.409 [main] INFO  o.r.h.files.GetFileHandlerTest - executing test testExtractBucket(org.restheart.handlers.files.GetFileHandlerTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.restheart.handlers.MetricsInstrumentationHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec
+Running org.restheart.handlers.RequestDispacherHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running org.restheart.utils.URLUtilsTest
+20:28:48.513 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetQueryStringRemovingParams(org.restheart.utils.URLUtilsTest)
+20:28:48.514 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyInverse(org.restheart.utils.URLUtilsTest)
+20:28:48.515 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyInverseObjectId(org.restheart.utils.URLUtilsTest)
+20:28:48.532 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterMany(org.restheart.utils.URLUtilsTest)
+20:28:48.533 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyInverseLong(org.restheart.utils.URLUtilsTest)
+20:28:48.533 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithDocIdStringValidObjectId(org.restheart.utils.URLUtilsTest)
+20:28:48.534 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testDecodeQueryString(org.restheart.utils.URLUtilsTest)
+20:28:48.534 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterOneObjectId(org.restheart.utils.URLUtilsTest)
+20:28:48.534 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testRemoveTrailingSlashes(org.restheart.utils.URLUtilsTest)
+20:28:48.534 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithDocId(org.restheart.utils.URLUtilsTest)
+20:28:48.535 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyIdsWithSpaces(org.restheart.utils.URLUtilsTest)
+20:28:48.535 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterOne(org.restheart.utils.URLUtilsTest)
+20:28:48.535 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetParentPath(org.restheart.utils.URLUtilsTest)
+20:28:48.535 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyString(org.restheart.utils.URLUtilsTest)
+20:28:48.535 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterOneInteger(org.restheart.utils.URLUtilsTest)
+20:28:48.536 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithLongDocId(org.restheart.utils.URLUtilsTest)
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running org.restheart.utils.MetricsJsonGeneratorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.restheart.utils.JsonUtilsTest
+20:28:48.549 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testGetPropFromPath(org.restheart.utils.JsonUtilsTest)
+20:28:48.557 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseFloat(org.restheart.utils.JsonUtilsTest)
+20:28:48.557 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseToBsonArray(org.restheart.utils.JsonUtilsTest)
+20:28:48.557 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test checkCountOnComplexJson(org.restheart.utils.JsonUtilsTest)
+20:28:48.571 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseToBsonObject(org.restheart.utils.JsonUtilsTest)
+20:28:48.571 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testJsonArray(org.restheart.utils.JsonUtilsTest)
+20:28:48.574 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testJsonObject(org.restheart.utils.JsonUtilsTest)
+20:28:48.575 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseToBsonArrayOfObjectets(org.restheart.utils.JsonUtilsTest)
+20:28:48.576 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseObjectId(org.restheart.utils.JsonUtilsTest)
+20:28:48.576 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testMinify(org.restheart.utils.JsonUtilsTest)
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running org.restheart.cache.impl.GuavaCacheTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.restheart.db.GridFsDAOTest
+20:28:48.594 [main] INFO  org.restheart.db.GridFsDAOTest - executing test testDetectMediatype(org.restheart.db.GridFsDAOTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running org.restheart.db.DAOUtilsTest
+20:28:48.667 [main] INFO  org.restheart.db.DAOUtilsTest - executing test testValidContent(org.restheart.db.DAOUtilsTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.restheart.security.impl.DbIdentityManagerTest
+20:28:48.670 [main] INFO  o.r.h.files.GetFileHandlerTest - executing test testHashedPassword(org.restheart.security.impl.DbIdentityManagerTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+
+Results :
+
+Tests run: 56, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.162 s
+[INFO] Finished at: 2019-08-14T20:28:48+08:00
+[INFO] ------------------------------------------------------------------------

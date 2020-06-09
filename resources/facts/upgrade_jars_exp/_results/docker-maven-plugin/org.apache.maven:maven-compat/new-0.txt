@@ -1,0 +1,260 @@
+[VERSION]: 3.6.1
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------< com.spotify:docker-maven-plugin >-------------------
+[INFO] Building docker-maven-plugin 1.1.1
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.6.1/maven-compat-3.6.1.pom
+Progress (1): 2.2/4.5 kB
+Progress (1): 4.5 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.6.1/maven-compat-3.6.1.pom (4.5 kB at 4.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.2/wagon-provider-api-3.3.2.pom
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.2/wagon-provider-api-3.3.2.pom (1.9 kB at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.3.2/wagon-3.3.2.pom
+Progress (1): 2.2/21 kB
+Progress (1): 5.0/21 kB
+Progress (1): 7.8/21 kB
+Progress (1): 11/21 kB 
+Progress (1): 13/21 kB
+Progress (1): 16/21 kB
+Progress (1): 19/21 kB
+Progress (1): 21 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.3.2/wagon-3.3.2.pom (21 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.6.1/maven-compat-3.6.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.2/wagon-provider-api-3.3.2.jar
+Progress (1): 2.2/56 kB
+Progress (1): 5.0/56 kB
+Progress (1): 7.7/56 kB
+Progress (1): 10/56 kB 
+Progress (1): 13/56 kB
+Progress (1): 16/56 kB
+Progress (1): 19/56 kB
+Progress (1): 21/56 kB
+Progress (1): 24/56 kB
+Progress (1): 27/56 kB
+Progress (1): 30/56 kB
+Progress (1): 32/56 kB
+Progress (1): 36/56 kB
+Progress (1): 40/56 kB
+Progress (1): 45/56 kB
+Progress (1): 49/56 kB
+Progress (1): 53/56 kB
+Progress (1): 56 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.2/wagon-provider-api-3.3.2.jar (56 kB at 105 kB/s)
+Progress (1): 2.2/291 kB
+Progress (1): 5.0/291 kB
+Progress (1): 7.7/291 kB
+Progress (1): 10/291 kB 
+Progress (1): 13/291 kB
+Progress (1): 16/291 kB
+Progress (1): 19/291 kB
+Progress (1): 21/291 kB
+Progress (1): 24/291 kB
+Progress (1): 27/291 kB
+Progress (1): 30/291 kB
+Progress (1): 32/291 kB
+Progress (1): 36/291 kB
+Progress (1): 40/291 kB
+Progress (1): 45/291 kB
+Progress (1): 49/291 kB
+Progress (1): 53/291 kB
+Progress (1): 57/291 kB
+Progress (1): 61/291 kB
+Progress (1): 65/291 kB
+Progress (1): 69/291 kB
+Progress (1): 73/291 kB
+Progress (1): 77/291 kB
+Progress (1): 81/291 kB
+Progress (1): 85/291 kB
+Progress (1): 90/291 kB
+Progress (1): 94/291 kB
+Progress (1): 98/291 kB
+Progress (1): 102/291 kB
+Progress (1): 106/291 kB
+Progress (1): 110/291 kB
+Progress (1): 114/291 kB
+Progress (1): 118/291 kB
+Progress (1): 122/291 kB
+Progress (1): 126/291 kB
+Progress (1): 131/291 kB
+Progress (1): 135/291 kB
+Progress (1): 139/291 kB
+Progress (1): 143/291 kB
+Progress (1): 147/291 kB
+Progress (1): 151/291 kB
+Progress (1): 155/291 kB
+Progress (1): 159/291 kB
+Progress (1): 163/291 kB
+Progress (1): 167/291 kB
+Progress (1): 171/291 kB
+Progress (1): 176/291 kB
+Progress (1): 180/291 kB
+Progress (1): 184/291 kB
+Progress (1): 188/291 kB
+Progress (1): 192/291 kB
+Progress (1): 196/291 kB
+Progress (1): 200/291 kB
+Progress (1): 204/291 kB
+Progress (1): 208/291 kB
+Progress (1): 212/291 kB
+Progress (1): 217/291 kB
+Progress (1): 221/291 kB
+Progress (1): 225/291 kB
+Progress (1): 229/291 kB
+Progress (1): 233/291 kB
+Progress (1): 237/291 kB
+Progress (1): 241/291 kB
+Progress (1): 245/291 kB
+Progress (1): 249/291 kB
+Progress (1): 253/291 kB
+Progress (1): 258/291 kB
+Progress (1): 262/291 kB
+Progress (1): 266/291 kB
+Progress (1): 270/291 kB
+Progress (1): 274/291 kB
+Progress (1): 278/291 kB
+Progress (1): 282/291 kB
+Progress (1): 286/291 kB
+Progress (1): 290/291 kB
+Progress (1): 291 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.6.1/maven-compat-3.6.1.jar (291 kB at 188 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ docker-maven-plugin ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/docker-maven-plugin/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ docker-maven-plugin ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.maven.wagon:wagon-provider-api:jar:3.3.2:test
+[INFO]    org.springframework:spring-core:jar:4.1.6.RELEASE:test
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.4:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.3.3:compile
+[INFO]    com.google.http-client:google-http-client-jackson2:jar:1.19.0:compile
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.19:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+[INFO]    org.apache.maven:maven-model:jar:3.3.3:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:compile
+[INFO]    org.ow2.asm:asm-commons:jar:5.0.3:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2:compile
+[INFO]    com.github.jnr:jnr-constants:jar:0.9.8:compile
+[INFO]    org.codehaus.plexus:plexus-io:jar:2.0.4:test
+[INFO]    com.google.http-client:google-http-client:jar:1.19.0:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.22.2:compile
+[INFO]    org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.5:compile
+[INFO]    com.google.guava:guava:jar:20.0:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.apache.maven.resolver:maven-resolver-api:jar:1.3.3:test
+[INFO]    org.apache.maven:maven-compat:jar:3.6.1:test
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile
+[INFO]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.4:compile
+[INFO]    com.typesafe:config:jar:1.2.0:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.3:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.0:compile
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile
+[INFO]    org.apache.maven:maven-resolver-provider:jar:3.6.1:test
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    classworlds:classworlds:jar:1.1-alpha-2:test
+[INFO]    org.apache.maven.resolver:maven-resolver-impl:jar:1.3.3:test
+[INFO]    com.github.jnr:jnr-unixsocket:jar:0.18:compile
+[INFO]    org.codehaus.plexus:plexus-archiver:jar:2.2:test
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.3.3:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:compile
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:compile
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile
+[INFO]    org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+[INFO]    org.apache.maven:maven-artifact:jar:3.3.3:compile
+[INFO]    org.apache.maven.resolver:maven-resolver-util:jar:1.3.3:test
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.4:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.22:compile
+[INFO]    org.apache.maven:maven-core:jar:3.3.3:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.9:compile
+[INFO]    com.github.jnr:jffi:jar:native:1.2.15:runtime
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0:compile
+[INFO]    org.ow2.asm:asm-util:jar:5.0.3:compile
+[INFO]    org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO]    com.jcraft:jsch:jar:0.1.46:compile
+[INFO]    org.objenesis:objenesis:jar:1.2:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.assertj:assertj-core:jar:2.3.0:test
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.22.2:compile
+[INFO]    com.google.auth:google-auth-library-oauth2-http:jar:0.6.0:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.22.2:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[INFO]    com.github.jnr:jnr-posix:jar:3.0.35:compile
+[INFO]    org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:5.0.3:compile
+[INFO]    com.github.jnr:jffi:jar:1.2.15:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.2.3:compile
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    org.apache.maven:maven-aether-provider:jar:3.3.3:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.3.3:compile
+[INFO]    org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.4:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.3.3:compile
+[INFO]    org.apache.maven.resolver:maven-resolver-spi:jar:1.3.3:test
+[INFO]    com.github.jnr:jnr-ffi:jar:2.1.4:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
+[INFO]    com.github.jnr:jnr-enxio:jar:0.16:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[INFO]    com.spotify:docker-client:jar:shaded:8.11.4:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]    org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+[INFO]    org.apache.maven:maven-builder-support:jar:3.3.3:compile
+[INFO]    org.ow2.asm:asm-tree:jar:5.0.3:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO]    org.springframework:spring-test:jar:4.1.6.RELEASE:test
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile
+[INFO]    org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.22.2:compile
+[INFO]    com.google.auth:google-auth-library-credentials:jar:0.6.0:compile
+[INFO]    org.mockito:mockito-all:jar:1.10.19:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:compile
+[INFO]    com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.3.3:compile
+[INFO]    org.eclipse.jgit:org.eclipse.jgit:jar:3.2.0.201312181205-r:compile
+[INFO]    org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:3.3.0:test
+[INFO]    com.googlecode.javaewah:JavaEWAH:jar:0.5.6:compile
+[INFO]    eu.codearte.catch-exception:catch-exception:jar:1.4.4:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ docker-maven-plugin ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ docker-maven-plugin ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.067 s
+[INFO] Finished at: 2019-08-16T08:15:24+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (validate) on project docker-maven-plugin: Failed during checkstyle configuration: cannot initialize module SuppressionFilter - Cannot set property 'file' to 'checkstyle-suppressions.xml' in module SuppressionFilter: InvocationTargetException: Unable to find: checkstyle-suppressions.xml: http://www.puppycrawl.com/dtds/suppressions_1_0.dtd -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Build failures were ignored.

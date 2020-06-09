@@ -1,0 +1,704 @@
+[VERSION]: 4.0.0.Alpha8
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.webbitserver:webbit >-----------------------
+[INFO] Building webbit 0.4.16-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from repository.jboss.org: http://repository.jboss.org/nexus/content/groups/public/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.pom
+Downloading from gson: http://google-gson.googlecode.com/svn/mavenrepo/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.pom
+Progress (1): 2.2/11 kB
+Progress (1): 5.0/11 kB
+Progress (1): 7.8/11 kB
+Progress (1): 11/11 kB 
+Progress (1): 11 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.pom (11 kB at 7.2 kB/s)
+Downloading from repository.jboss.org: http://repository.jboss.org/nexus/content/groups/public/io/netty/netty-parent/4.0.0.Alpha8/netty-parent-4.0.0.Alpha8.pom
+Downloading from gson: http://google-gson.googlecode.com/svn/mavenrepo/io/netty/netty-parent/4.0.0.Alpha8/netty-parent-4.0.0.Alpha8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.0.0.Alpha8/netty-parent-4.0.0.Alpha8.pom
+Progress (1): 2.2/17 kB
+Progress (1): 5.0/17 kB
+Progress (1): 7.8/17 kB
+Progress (1): 11/17 kB 
+Progress (1): 13/17 kB
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.0.0.Alpha8/netty-parent-4.0.0.Alpha8.pom (17 kB at 28 kB/s)
+Downloading from repository.jboss.org: http://repository.jboss.org/nexus/content/groups/public/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.jar
+Downloading from gson: http://google-gson.googlecode.com/svn/mavenrepo/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.jar
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.2/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.3/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.4/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.5/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.6/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.7/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.8/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 0.9/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.0/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1/1.1 MB
+Progress (1): 1.1 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.jar (1.1 MB at 223 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webbit ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ webbit ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.3.2:test
+[INFO]    commons-logging:commons-logging:jar:1.1.3:test
+[INFO]    io.netty:netty:jar:4.0.0.Alpha8:compile
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.3.2:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.google.code.gson:gson:jar:2.2.4:test
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.3.2:test
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.0.1:test
+[INFO]    commons-codec:commons-codec:jar:1.6:test
+[INFO]    org.mockito:mockito-all:jar:1.9.5:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ webbit ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ webbit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ webbit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 93 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[7,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[8,28] package org.jboss.netty.util does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[5,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[6,28] package org.jboss.netty.util does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[19,91] cannot find symbol
+  symbol:   class ChannelHandlerContext
+  location: class org.webbitserver.netty.NettyWebSocketConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[16,19] cannot find symbol
+  symbol:   class ChannelHandlerContext
+  location: class org.webbitserver.netty.AbstractHttpConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[18,35] cannot find symbol
+  symbol:   class ChannelHandlerContext
+  location: class org.webbitserver.netty.AbstractHttpConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[24,15] cannot find symbol
+  symbol:   class ChannelFuture
+  location: class org.webbitserver.netty.AbstractHttpConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[17,19] cannot find symbol
+  symbol:   class HttpRequest
+  location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[18,19] cannot find symbol
+  symbol:   class MessageEvent
+  location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[26,29] cannot find symbol
+  symbol:   class MessageEvent
+  location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[26,56] cannot find symbol
+  symbol:   class HttpRequest
+  location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[4,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[7,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[8,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[9,43] package org.jboss.netty.handler.codec.frame does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[10,43] package org.jboss.netty.handler.codec.frame does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[11,44] package org.jboss.netty.handler.codec.replay does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[26,48] cannot find symbol
+  symbol: class ReplayingDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[62,29] cannot find symbol
+  symbol:   class ChannelHandlerContext
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[62,62] cannot find symbol
+  symbol:   class Channel
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[62,79] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[212,27] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[219,36] cannot find symbol
+  symbol:   class Channel
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[219,75] cannot find symbol
+  symbol:   class CorruptedFrameException
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[228,46] cannot find symbol
+  symbol:   class TooLongFrameException
+  location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[17,18] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.DecodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[20,65] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.DecodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[26,24] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.DecodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[3,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[29,54] cannot find symbol
+  symbol:   class ExceptionEvent
+  location: class org.webbitserver.WebbitException
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[33,62] cannot find symbol
+  symbol:   class Channel
+  location: class org.webbitserver.WebbitException
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[4,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[6,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[7,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[8,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[9,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[10,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[11,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[16,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[16,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[17,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[17,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[18,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[18,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[19,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[19,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[20,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[20,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[21,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[21,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[22,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[22,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[23,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[23,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[24,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[24,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketVersion.java:[3,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[38,19] cannot find symbol
+  symbol:   class HttpRequest
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[39,19] cannot find symbol
+  symbol:   class HttpResponse
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[41,20] cannot find symbol
+  symbol:   class HttpRequest
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[41,37] cannot find symbol
+  symbol:   class HttpResponse
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[80,12] cannot find symbol
+  symbol:   class ChannelHandler
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[85,12] cannot find symbol
+  symbol:   class ChannelHandler
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[89,41] cannot find symbol
+  symbol:   class HttpRequest
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[93,47] cannot find symbol
+  symbol:   class HttpRequest
+  location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketVersion.java:[10,5] cannot find symbol
+  symbol:   class ChannelHandler
+  location: interface org.webbitserver.netty.WebSocketVersion
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketVersion.java:[12,5] cannot find symbol
+  symbol:   class ChannelHandler
+  location: interface org.webbitserver.netty.WebSocketVersion
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[4,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[5,43] package org.jboss.netty.handler.codec.frame does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[15,19] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[17,83] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[25,12] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[25,42] cannot find symbol
+  symbol:   class TooLongFrameException
+  location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[74,13] cannot find symbol
+  symbol:   class ChannelBuffer
+  location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/handler/DateHeaderHandler.java:[3,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[3,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[7,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[8,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.723 s
+[INFO] Finished at: 2019-08-20T14:40:43+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project webbit: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[7,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[8,28] package org.jboss.netty.util does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[5,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[6,28] package org.jboss.netty.util does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyWebSocketConnection.java:[19,91] cannot find symbol
+[ERROR]   symbol:   class ChannelHandlerContext
+[ERROR]   location: class org.webbitserver.netty.NettyWebSocketConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class ChannelHandlerContext
+[ERROR]   location: class org.webbitserver.netty.AbstractHttpConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[18,35] cannot find symbol
+[ERROR]   symbol:   class ChannelHandlerContext
+[ERROR]   location: class org.webbitserver.netty.AbstractHttpConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/AbstractHttpConnection.java:[24,15] cannot find symbol
+[ERROR]   symbol:   class ChannelFuture
+[ERROR]   location: class org.webbitserver.netty.AbstractHttpConnection
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[17,19] cannot find symbol
+[ERROR]   symbol:   class HttpRequest
+[ERROR]   location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[18,19] cannot find symbol
+[ERROR]   symbol:   class MessageEvent
+[ERROR]   location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[26,29] cannot find symbol
+[ERROR]   symbol:   class MessageEvent
+[ERROR]   location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/NettyHttpRequest.java:[26,56] cannot find symbol
+[ERROR]   symbol:   class HttpRequest
+[ERROR]   location: class org.webbitserver.netty.NettyHttpRequest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[4,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[7,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[8,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[9,43] package org.jboss.netty.handler.codec.frame does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[10,43] package org.jboss.netty.handler.codec.frame does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[11,44] package org.jboss.netty.handler.codec.replay does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[26,48] cannot find symbol
+[ERROR]   symbol: class ReplayingDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[62,29] cannot find symbol
+[ERROR]   symbol:   class ChannelHandlerContext
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[62,62] cannot find symbol
+[ERROR]   symbol:   class Channel
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[62,79] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[212,27] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[219,36] cannot find symbol
+[ERROR]   symbol:   class Channel
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[219,75] cannot find symbol
+[ERROR]   symbol:   class CorruptedFrameException
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/HybiWebSocketFrameDecoder.java:[228,46] cannot find symbol
+[ERROR]   symbol:   class TooLongFrameException
+[ERROR]   location: class org.webbitserver.netty.HybiWebSocketFrameDecoder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[17,18] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.DecodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[20,65] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.DecodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/DecodingHybiFrame.java:[26,24] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.DecodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[3,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[29,54] cannot find symbol
+[ERROR]   symbol:   class ExceptionEvent
+[ERROR]   location: class org.webbitserver.WebbitException
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/WebbitException.java:[33,62] cannot find symbol
+[ERROR]   symbol:   class Channel
+[ERROR]   location: class org.webbitserver.WebbitException
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[4,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[6,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[7,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[8,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[9,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[10,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[11,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[16,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[16,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[17,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[17,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[18,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[18,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[19,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[19,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[20,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[20,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[21,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[21,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[22,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[22,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[23,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[23,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[24,61] package org.jboss.netty.handler.codec.http.HttpHeaders does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[24,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketVersion.java:[3,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[38,19] cannot find symbol
+[ERROR]   symbol:   class HttpRequest
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[39,19] cannot find symbol
+[ERROR]   symbol:   class HttpResponse
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[41,20] cannot find symbol
+[ERROR]   symbol:   class HttpRequest
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[41,37] cannot find symbol
+[ERROR]   symbol:   class HttpResponse
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[80,12] cannot find symbol
+[ERROR]   symbol:   class ChannelHandler
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[85,12] cannot find symbol
+[ERROR]   symbol:   class ChannelHandler
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[89,41] cannot find symbol
+[ERROR]   symbol:   class HttpRequest
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/Hixie76.java:[93,47] cannot find symbol
+[ERROR]   symbol:   class HttpRequest
+[ERROR]   location: class org.webbitserver.netty.Hixie76
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketVersion.java:[10,5] cannot find symbol
+[ERROR]   symbol:   class ChannelHandler
+[ERROR]   location: interface org.webbitserver.netty.WebSocketVersion
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketVersion.java:[12,5] cannot find symbol
+[ERROR]   symbol:   class ChannelHandler
+[ERROR]   location: interface org.webbitserver.netty.WebSocketVersion
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[3,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[4,30] package org.jboss.netty.buffer does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[5,43] package org.jboss.netty.handler.codec.frame does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[15,19] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[17,83] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[25,42] cannot find symbol
+[ERROR]   symbol:   class TooLongFrameException
+[ERROR]   location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/EncodingHybiFrame.java:[74,13] cannot find symbol
+[ERROR]   symbol:   class ChannelBuffer
+[ERROR]   location: class org.webbitserver.netty.EncodingHybiFrame
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/handler/DateHeaderHandler.java:[3,42] package org.jboss.netty.handler.codec.http does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[3,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[4,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[5,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[6,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[7,31] package org.jboss.netty.channel does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/webbit/src/main/java/org/webbitserver/netty/WebSocketConnectionHandler.java:[8,52] package org.jboss.netty.handler.codec.http.websocket does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

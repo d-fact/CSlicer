@@ -1,0 +1,22 @@
+[VERSION]: 2.8.5
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< cn.nukkit:nukkit >--------------------------
+[INFO] Building Nukkit 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.tinfoiled.mcpe.leveldb:leveldb:jar:0.8 is missing, no dependency information available
+[WARNING] The artifact com.github.dblock:oshi-core:jar:3.4.0 has been relocated to com.github.oshi:oshi-core:jar:3.4.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.305 s
+[INFO] Finished at: 2019-08-14T20:26:35+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project nukkit: Could not resolve dependencies for project cn.nukkit:nukkit:jar:1.0-SNAPSHOT: Failure to find com.tinfoiled.mcpe.leveldb:leveldb:jar:0.8 in http://ci.emc.gs/nexus/content/groups/aikar/ was cached in the local repository, resolution will not be reattempted until the update interval of aikar has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

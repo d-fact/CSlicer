@@ -1,0 +1,123 @@
+[VERSION]: 2.0.0-alpha0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< io.jafka:jafka >---------------------------
+[INFO] Building jafka 3.0.6
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jafka ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jafka ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.github.adyliu:zkclient:jar:2.1.2:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    org.apache.zookeeper:zookeeper:jar:3.4.9:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.10.0.pr1:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    mx4j:mx4j-tools:jar:3.0.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0.pr1:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.26:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    io.netty:netty-all:jar:4.1.36.Final:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.10.0.pr1:compile
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+[INFO]    org.slf4j:slf4j-api:jar:2.0.0-alpha0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jafka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jafka ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 201 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/src/main/java/io/jafka/http/HttpServerHandler.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/src/main/java/io/jafka/http/HttpServerHandler.java uses or overrides a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/src/main/java/io/jafka/http/HttpServerHandler.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jafka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jafka ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jafka ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jafka/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.jafka.admin.AdminOperationTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.188 sec
+Running io.jafka.api.ProducerRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.jafka.api.FetchRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.jafka.consumer.ZookeeperStringTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.91 sec
+Running io.jafka.consumer.ZookeeperConsumerConnector2Test
+message sent/received 1024 =? 1024
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.2 sec
+Running io.jafka.consumer.ZookeeperConsumerConnector3Test
+message sent/received 1024 =? 1024
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.137 sec
+Running io.jafka.consumer.SimpleConsumerTest
+demo#message#100 demo#message#102 demo#message#104 demo#message#106 demo#message#108 demo#message#110 demo#message#112 demo#message#114 demo#message#116 demo#message#118 demo#message#120 demo#message#122 demo#message#124 demo#message#126 demo#message#128 demo#message#130 demo#message#132 demo#message#134 demo#message#136 demo#message#138 demo#message#140 demo#message#142 demo#message#144 demo#message#146 demo#message#148 demo#message#150 demo#message#152 demo#message#154 demo#message#156 demo#message#158 demo#message#160 demo#message#162 demo#message#164 demo#message#166 demo#message#168 demo#message#170 demo#message#172 demo#message#174 demo#message#176 demo#message#178 demo#message#180 demo#message#182 demo#message#184 demo#message#186 demo#message#188 demo#message#190 demo#message#192 demo#message#194 demo#message#196 demo#message#198 demo#message#300 demo#message#302 demo#message#304 demo#message#306 demo#message#308 demo#message#310 demo#message#312 demo#message#314 demo#message#316 demo#message#318 demo#message#320 demo#message#322 demo#message#324 demo#message#326 demo#message#328 demo#message#330 demo#message#332 demo#message#334 demo#message#336 demo#message#338 demo#message#340 demo#message#342 demo#message#344 demo#message#346 demo#message#348 demo#message#350 demo#message#352 demo#message#354 demo#message#356 demo#message#358 demo#message#360 demo#message#362 demo#message#364 demo#message#366 demo#message#368 demo#message#370 demo#message#372 demo#message#374 demo#message#376 demo#message#378 demo#message#380 demo#message#382 demo#message#384 demo#message#386 demo#message#388 demo#message#390 demo#message#392 demo#message#394 demo#message#396 demo#message#398 demo#message#400 demo#message#402 demo#message#404 demo#message#406 demo#message#408 demo#message#410 demo#message#412 demo#message#414 demo#message#416 demo#message#418 demo#message#420 demo#message#422 demo#message#424 demo#message#426 demo#message#428 demo#message#430 demo#message#432 demo#message#434 demo#message#436 demo#message#438 demo#message#440 demo#message#442 demo#message#444 demo#message#446 demo#message#448 demo#message#450 demo#message#452 demo#message#454 demo#message#456 demo#message#458 demo#message#460 demo#message#462 demo#message#464 demo#message#466 demo#message#468 demo#message#470 demo#message#472 demo#message#474 demo#message#476 demo#message#478 demo#message#480 demo#message#482 demo#message#484 demo#message#486 demo#message#488 demo#message#490 demo#message#492 demo#message#494 demo#message#496 demo#message#498 demo#message#500 demo#message#502 demo#message#504 demo#message#506 demo#message#508 demo#message#510 demo#message#512 demo#message#514 demo#message#516 demo#message#518 demo#message#520 demo#message#522 demo#message#524 demo#message#526 demo#message#528 demo#message#530 demo#message#532 demo#message#534 demo#message#536 demo#message#538 demo#message#540 demo#message#542 demo#message#544 demo#message#546 demo#message#548 demo#message#550 demo#message#552 demo#message#554 demo#message#556 demo#message#558 demo#message#560 demo#message#562 demo#message#564 demo#message#566 demo#message#568 demo#message#570 demo#message#572 demo#message#574 demo#message#576 demo#message#578 demo#message#580 demo#message#582 demo#message#584 demo#message#586 demo#message#588 demo#message#590 demo#message#592 demo#message#594 demo#message#596 demo#message#598 demo#message#0 demo#message#2 demo#message#4 demo#message#6 demo#message#8 demo#message#10 demo#message#12 demo#message#14 demo#message#16 demo#message#18 demo#message#20 demo#message#22 demo#message#24 demo#message#26 demo#message#28 demo#message#30 demo#message#32 demo#message#34 demo#message#36 demo#message#38 demo#message#40 demo#message#42 demo#message#44 demo#message#46 demo#message#48 demo#message#50 demo#message#52 demo#message#54 demo#message#56 demo#message#58 demo#message#60 demo#message#62 demo#message#64 demo#message#66 demo#message#68 demo#message#70 demo#message#72 demo#message#74 demo#message#76 demo#message#78 demo#message#80 demo#message#82 demo#message#84 demo#message#86 demo#message#88 demo#message#90 demo#message#92 demo#message#94 demo#message#96 demo#message#98 demo#message#200 demo#message#202 demo#message#204 demo#message#206 demo#message#208 demo#message#210 demo#message#212 demo#message#214 demo#message#216 demo#message#218 demo#message#220 demo#message#222 demo#message#224 demo#message#226 demo#message#228 demo#message#230 demo#message#232 demo#message#234 demo#message#236 demo#message#238 demo#message#240 demo#message#242 demo#message#244 demo#message#246 demo#message#248 demo#message#250 demo#message#252 demo#message#254 demo#message#256 demo#message#258 demo#message#260 demo#message#262 demo#message#264 demo#message#266 demo#message#268 demo#message#270 demo#message#272 demo#message#274 demo#message#276 demo#message#278 demo#message#280 demo#message#282 demo#message#284 demo#message#286 demo#message#288 demo#message#290 demo#message#292 demo#message#294 demo#message#296 demo#message#298 receive message count: 300
+demo#message#200 demo#message#202 demo#message#204 demo#message#206 demo#message#208 demo#message#210 demo#message#212 demo#message#214 demo#message#216 demo#message#218 demo#message#220 demo#message#222 demo#message#224 demo#message#226 demo#message#228 demo#message#230 demo#message#232 demo#message#234 demo#message#236 demo#message#238 demo#message#240 demo#message#242 demo#message#244 demo#message#246 demo#message#248 demo#message#250 demo#message#252 demo#message#254 demo#message#256 demo#message#258 demo#message#260 demo#message#262 demo#message#264 demo#message#266 demo#message#268 demo#message#270 demo#message#272 demo#message#274 demo#message#276 demo#message#278 demo#message#280 demo#message#282 demo#message#284 demo#message#286 demo#message#288 demo#message#290 demo#message#292 demo#message#294 demo#message#296 demo#message#298 demo#message#100 demo#message#102 demo#message#104 demo#message#106 demo#message#108 demo#message#110 demo#message#112 demo#message#114 demo#message#116 demo#message#118 demo#message#120 demo#message#122 demo#message#124 demo#message#126 demo#message#128 demo#message#130 demo#message#132 demo#message#134 demo#message#136 demo#message#138 demo#message#140 demo#message#142 demo#message#144 demo#message#146 demo#message#148 demo#message#150 demo#message#152 demo#message#154 demo#message#156 demo#message#158 demo#message#160 demo#message#162 demo#message#164 demo#message#166 demo#message#168 demo#message#170 demo#message#172 demo#message#174 demo#message#176 demo#message#178 demo#message#180 demo#message#182 demo#message#184 demo#message#186 demo#message#188 demo#message#190 demo#message#192 demo#message#194 demo#message#196 demo#message#198 demo#message#400 demo#message#402 demo#message#404 demo#message#406 demo#message#408 demo#message#410 demo#message#412 demo#message#414 demo#message#416 demo#message#418 demo#message#420 demo#message#422 demo#message#424 demo#message#426 demo#message#428 demo#message#430 demo#message#432 demo#message#434 demo#message#436 demo#message#438 demo#message#440 demo#message#442 demo#message#444 demo#message#446 demo#message#448 demo#message#450 demo#message#452 demo#message#454 demo#message#456 demo#message#458 demo#message#460 demo#message#462 demo#message#464 demo#message#466 demo#message#468 demo#message#470 demo#message#472 demo#message#474 demo#message#476 demo#message#478 demo#message#480 demo#message#482 demo#message#484 demo#message#486 demo#message#488 demo#message#490 demo#message#492 demo#message#494 demo#message#496 demo#message#498 demo#message#600 demo#message#602 demo#message#604 demo#message#606 demo#message#608 demo#message#610 demo#message#612 demo#message#614 demo#message#616 demo#message#618 demo#message#620 demo#message#622 demo#message#624 demo#message#626 demo#message#628 demo#message#630 demo#message#632 demo#message#634 demo#message#636 demo#message#638 demo#message#640 demo#message#642 demo#message#644 demo#message#646 demo#message#648 demo#message#650 demo#message#652 demo#message#654 demo#message#656 demo#message#658 demo#message#660 demo#message#662 demo#message#664 demo#message#666 demo#message#668 demo#message#670 demo#message#672 demo#message#674 demo#message#676 demo#message#678 demo#message#680 demo#message#682 demo#message#684 demo#message#686 demo#message#688 demo#message#690 demo#message#692 demo#message#694 demo#message#696 demo#message#698 demo#message#0 demo#message#2 demo#message#4 demo#message#6 demo#message#8 demo#message#10 demo#message#12 demo#message#14 demo#message#16 demo#message#18 demo#message#20 demo#message#22 demo#message#24 demo#message#26 demo#message#28 demo#message#30 demo#message#32 demo#message#34 demo#message#36 demo#message#38 demo#message#40 demo#message#42 demo#message#44 demo#message#46 demo#message#48 demo#message#50 demo#message#52 demo#message#54 demo#message#56 demo#message#58 demo#message#60 demo#message#62 demo#message#64 demo#message#66 demo#message#68 demo#message#70 demo#message#72 demo#message#74 demo#message#76 demo#message#78 demo#message#80 demo#message#82 demo#message#84 demo#message#86 demo#message#88 demo#message#90 demo#message#92 demo#message#94 demo#message#96 demo#message#98 demo#message#300 demo#message#302 demo#message#304 demo#message#306 demo#message#308 demo#message#310 demo#message#312 demo#message#314 demo#message#316 demo#message#318 demo#message#320 demo#message#322 demo#message#324 demo#message#326 demo#message#328 demo#message#330 demo#message#332 demo#message#334 demo#message#336 demo#message#338 demo#message#340 demo#message#342 demo#message#344 demo#message#346 demo#message#348 demo#message#350 demo#message#352 demo#message#354 demo#message#356 demo#message#358 demo#message#360 demo#message#362 demo#message#364 demo#message#366 demo#message#368 demo#message#370 demo#message#372 demo#message#374 demo#message#376 demo#message#378 demo#message#380 demo#message#382 demo#message#384 demo#message#386 demo#message#388 demo#message#390 demo#message#392 demo#message#394 demo#message#396 demo#message#398 demo#message#500 demo#message#502 demo#message#504 demo#message#506 demo#message#508 demo#message#510 demo#message#512 demo#message#514 demo#message#516 demo#message#518 demo#message#520 demo#message#522 demo#message#524 demo#message#526 demo#message#528 demo#message#530 demo#message#532 demo#message#534 demo#message#536 demo#message#538 demo#message#540 demo#message#542 demo#message#544 demo#message#546 demo#message#548 demo#message#550 demo#message#552 demo#message#554 demo#message#556 demo#message#558 demo#message#560 demo#message#562 demo#message#564 demo#message#566 demo#message#568 demo#message#570 demo#message#572 demo#message#574 demo#message#576 demo#message#578 demo#message#580 demo#message#582 demo#message#584 demo#message#586 demo#message#588 demo#message#590 demo#message#592 demo#message#594 demo#message#596 demo#message#598 demo#message#700 demo#message#702 demo#message#704 demo#message#706 demo#message#708 demo#message#710 demo#message#712 demo#message#714 demo#message#716 demo#message#718 demo#message#720 demo#message#722 demo#message#724 demo#message#726 demo#message#728 demo#message#730 demo#message#732 demo#message#734 demo#message#736 demo#message#738 demo#message#740 demo#message#742 demo#message#744 demo#message#746 demo#message#748 demo#message#750 demo#message#752 demo#message#754 receive message count: 378
+demo largest offset: 5145
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.73 sec
+Running io.jafka.consumer.ZookeeperConsumerConnectorTest
+receive message => 100
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.357 sec
+Running io.jafka.consumer.ZookeeperConsumerConnector4Test
+receive message => 100
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.654 sec
+Running io.jafka.server.AuthenticationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.jafka.utils.KVTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.jafka.utils.UtilsTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running io.jafka.utils.zookeeper.ZkGroupDirsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.jafka.utils.zookeeper.ZkGroupTopicDirsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.jafka.utils.TopicNameValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.jafka.utils.ImmutableMapTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.jafka.JafkaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running io.jafka.log.SegmentListTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running io.jafka.common.ErrorMappingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.jafka.producer.ProducerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 sec
+Running io.jafka.message.MessageTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running io.jafka.cluster.BrokerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.jafka.cluster.PartitionTest
+[1-0, 1-1, 1-2, 1-3, 2-0, 2-1, 2-2]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:10 min
+[INFO] Finished at: 2019-08-14T20:45:25+08:00
+[INFO] ------------------------------------------------------------------------

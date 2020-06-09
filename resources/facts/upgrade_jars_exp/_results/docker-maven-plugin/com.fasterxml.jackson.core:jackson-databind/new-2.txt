@@ -1,0 +1,135 @@
+[VERSION]: 2.10.0.pr1
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------< com.spotify:docker-maven-plugin >-------------------
+[INFO] Building docker-maven-plugin 1.1.1
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ docker-maven-plugin ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/docker-maven-plugin/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ docker-maven-plugin ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework:spring-core:jar:4.1.6.RELEASE:test
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.4:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.3.3:compile
+[INFO]    com.google.http-client:google-http-client-jackson2:jar:1.19.0:compile
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.19:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+[INFO]    org.apache.maven:maven-model:jar:3.3.3:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.10.0.pr1:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:compile
+[INFO]    org.ow2.asm:asm-commons:jar:5.0.3:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2:compile
+[INFO]    com.github.jnr:jnr-constants:jar:0.9.8:compile
+[INFO]    org.codehaus.plexus:plexus-io:jar:2.0.4:test
+[INFO]    com.google.http-client:google-http-client:jar:1.19.0:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.22.2:compile
+[INFO]    org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.5:compile
+[INFO]    com.google.guava:guava:jar:20.0:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile
+[INFO]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
+[INFO]    com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.4:compile
+[INFO]    com.typesafe:config:jar:1.2.0:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.3:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.0:compile
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    classworlds:classworlds:jar:1.1-alpha-2:test
+[INFO]    com.github.jnr:jnr-unixsocket:jar:0.18:compile
+[INFO]    org.codehaus.plexus:plexus-archiver:jar:2.2:test
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.3.3:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.10.0.pr1:compile
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0.pr1:compile
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:compile
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:compile
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile
+[INFO]    org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+[INFO]    org.apache.maven:maven-artifact:jar:3.3.3:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.4:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.22:compile
+[INFO]    org.apache.maven:maven-core:jar:3.3.3:compile
+[INFO]    org.apache.maven.wagon:wagon-provider-api:jar:2.9:test
+[INFO]    org.apache.commons:commons-compress:jar:1.9:compile
+[INFO]    com.github.jnr:jffi:jar:native:1.2.15:runtime
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0:compile
+[INFO]    org.apache.maven:maven-compat:jar:3.3.3:test
+[INFO]    org.ow2.asm:asm-util:jar:5.0.3:compile
+[INFO]    org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO]    com.jcraft:jsch:jar:0.1.46:compile
+[INFO]    org.objenesis:objenesis:jar:1.2:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.assertj:assertj-core:jar:2.3.0:test
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO]    org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.22.2:compile
+[INFO]    com.google.auth:google-auth-library-oauth2-http:jar:0.6.0:compile
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.22.2:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[INFO]    com.github.jnr:jnr-posix:jar:3.0.35:compile
+[INFO]    org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:5.0.3:compile
+[INFO]    com.github.jnr:jffi:jar:1.2.15:compile
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    org.apache.maven:maven-aether-provider:jar:3.3.3:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.3.3:compile
+[INFO]    org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+[INFO]    com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.4:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.3.3:compile
+[INFO]    com.github.jnr:jnr-ffi:jar:2.1.4:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
+[INFO]    com.github.jnr:jnr-enxio:jar:0.16:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[INFO]    com.spotify:docker-client:jar:shaded:8.11.4:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO]    org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+[INFO]    org.apache.maven:maven-builder-support:jar:3.3.3:compile
+[INFO]    org.ow2.asm:asm-tree:jar:5.0.3:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO]    org.springframework:spring-test:jar:4.1.6.RELEASE:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile
+[INFO]    org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.22.2:compile
+[INFO]    com.google.auth:google-auth-library-credentials:jar:0.6.0:compile
+[INFO]    org.mockito:mockito-all:jar:1.10.19:test
+[INFO]    com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.3.3:compile
+[INFO]    org.eclipse.jgit:org.eclipse.jgit:jar:3.2.0.201312181205-r:compile
+[INFO]    org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:3.3.0:test
+[INFO]    com.googlecode.javaewah:JavaEWAH:jar:0.5.6:compile
+[INFO]    eu.codearte.catch-exception:catch-exception:jar:1.4.4:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ docker-maven-plugin ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ docker-maven-plugin ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.390 s
+[INFO] Finished at: 2019-08-16T08:14:20+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (validate) on project docker-maven-plugin: Failed during checkstyle configuration: cannot initialize module SuppressionFilter - Cannot set property 'file' to 'checkstyle-suppressions.xml' in module SuppressionFilter: InvocationTargetException: Unable to find: checkstyle-suppressions.xml: http://www.puppycrawl.com/dtds/suppressions_1_0.dtd -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Build failures were ignored.

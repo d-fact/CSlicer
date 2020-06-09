@@ -1,0 +1,189 @@
+[VERSION]: 1.7.11
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< com.github.rnewson.couchdb.lucene:couchdb-lucene >----------
+[INFO] Building CouchDB Lucene 2.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ couchdb-lucene ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/couchdb-lucene/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ couchdb-lucene ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    net.jcip:jcip-annotations:jar:1.0:compile
+[INFO]    org.apache.poi:poi:jar:3.11-beta2:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.3.9.v20160517:compile
+[INFO]    commons-codec:commons-codec:jar:1.5:compile
+[INFO]    org.apache.pdfbox:fontbox:jar:1.8.6:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:6.4.1:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.8.1:compile
+[INFO]    org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+[INFO]    com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
+[INFO]    org.hamcrest:hamcrest-all:jar:1.1:test
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:9.3.9.v20160517:compile
+[INFO]    commons-lang:commons-lang:jar:2.4:compile
+[INFO]    edu.ucar:unidataCommon:jar:4.2.20:compile
+[INFO]    org.mozilla:rhino:jar:1.7.11:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.3.9.v20160517:compile
+[INFO]    com.uwyn:jhighlight:jar:1.0:compile
+[INFO]    org.ow2.asm:asm-debug-all:jar:4.1:compile
+[INFO]    edu.ucar:netcdf:jar:4.2.20:compile
+[INFO]    org.tukaani:xz:jar:1.5:compile
+[INFO]    org.bouncycastle:bcprov-jdk15:jar:1.45:compile
+[INFO]    org.gagravarr:vorbis-java-core:jar:0.6:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.5:compile
+[INFO]    org.gagravarr:vorbis-java-tika:jar:0.6:compile
+[INFO]    com.drewnoakes:metadata-extractor:jar:2.6.2:compile
+[INFO]    org.apache.poi:poi-ooxml:jar:3.11-beta2:compile
+[INFO]    xerces:xercesImpl:jar:2.8.1:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    org.apache.lucene:lucene-core:jar:6.4.1:compile
+[INFO]    log4j:log4j:jar:1.2.14:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.3.9.v20160517:compile
+[INFO]    org.apache.poi:poi-scratchpad:jar:3.11-beta2:compile
+[INFO]    org.erlang.otp:jinterface:jar:1.5.3.2:compile
+[INFO]    com.googlecode.mp4parser:isoparser:jar:1.0.2:compile
+[INFO]    org.apache.lucene:lucene-analyzers-smartcn:jar:6.4.1:compile
+[INFO]    net.sourceforge.jmatio:jmatio:jar:1.0:compile
+[INFO]    org.apache.tika:tika-core:jar:1.6:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+[INFO]    jdom:jdom:jar:1.0:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:6.4.1:compile
+[INFO]    org.apache.james:apache-mime4j-dom:jar:0.7.2:compile
+[INFO]    de.l3s.boilerpipe:boilerpipe:jar:1.1.0:compile
+[INFO]    commons-configuration:commons-configuration:jar:1.6:compile
+[INFO]    commons-digester:commons-digester:jar:1.8:compile
+[INFO]    commons-io:commons-io:jar:1.4:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:6.4.1:compile
+[INFO]    org.apache.pdfbox:jempbox:jar:1.8.6:compile
+[INFO]    org.apache.lucene:lucene-sandbox:jar:6.4.1:compile
+[INFO]    xml-apis:xml-apis:jar:1.3.03:compile
+[INFO]    rome:rome:jar:1.0:compile
+[INFO]    org.apache.pdfbox:pdfbox:jar:1.8.6:compile
+[INFO]    org.apache.tika:tika-parsers:jar:1.6:compile
+[INFO]    org.eclipse.jetty:jetty-servlets:jar:9.3.9.v20160517:compile
+[INFO]    org.aspectj:aspectjrt:jar:1.8.0:compile
+[INFO]    org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+[INFO]    com.adobe.xmp:xmpcore:jar:5.1.2:compile
+[INFO]    org.apache.lucene:lucene-join:jar:6.4.1:compile
+[INFO]    org.apache.james:apache-mime4j-core:jar:0.7.2:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.3.9.v20160517:compile
+[INFO]    junit:junit:jar:4.5:test
+[INFO]    org.bouncycastle:bcmail-jdk15:jar:1.45:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:6.4.1:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.3.9.v20160517:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:6.4.1:compile
+[INFO]    org.apache.poi:ooxml-schemas:jar:1.1:compile
+[INFO]    com.pff:java-libpst:jar:0.8.1:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.3.9.v20160517:compile
+[INFO]    org.apache.poi:poi-ooxml-schemas:jar:3.11-beta2:compile
+[INFO]    org.json:json:jar:20090211:compile
+[INFO]    commons-httpclient:commons-httpclient:jar:3.1:compile
+[INFO]    stax:stax-api:jar:1.0.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ couchdb-lucene ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ couchdb-lucene ---
+[INFO] Compiling 32 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/couchdb-lucene/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ couchdb-lucene ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ couchdb-lucene ---
+[INFO] Compiling 12 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/couchdb-lucene/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ couchdb-lucene ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/couchdb-lucene/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.rnewson.couchdb.lucene.TikaTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.873 sec
+Running com.github.rnewson.couchdb.lucene.CustomQueryParserTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running com.github.rnewson.couchdb.lucene.couchdb.DesignDocumentTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.rnewson.couchdb.lucene.couchdb.ViewTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.rnewson.couchdb.lucene.couchdb.UpdateSequenceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.github.rnewson.couchdb.lucene.couchdb.CouchDocumentTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.rnewson.couchdb.lucene.JsonTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.rnewson.couchdb.lucene.util.UtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.rnewson.couchdb.lucene.util.AnalyzersTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running com.github.rnewson.couchdb.lucene.DocumentConverterTest
+2019-08-16 07:47:46,753 WARN [DocumentConverterTest] You can ignore the following exception stack trace.
+2019-08-16 07:47:46,756 WARN [DocumentConverter] com.github.rnewson.couchdb.lucene.couchdb.CouchDocument@5852c06f caused exception during conversion.
+org.mozilla.javascript.JavaScriptException: [object Object]
+	at org.mozilla.javascript.gen.unnamed_script_9._c_anonymous_0(unnamed script:0)
+	at org.mozilla.javascript.gen.unnamed_script_9.call(unnamed script)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:409)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3566)
+	at org.mozilla.javascript.gen.unnamed_script_9.call(unnamed script)
+	at com.github.rnewson.couchdb.lucene.DocumentConverter.convert(DocumentConverter.java:85)
+	at com.github.rnewson.couchdb.lucene.DocumentConverterTest.testRuntimeException(DocumentConverterTest.java:170)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:46)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2019-08-16 07:47:46,757 WARN [DocumentConverterTest] You can ignore the preceding exception stack trace.
+2019-08-16 07:47:46,763 ERROR [DocumentConverter] View code for View[name=null, digest=dqh3iqddvnip15afxe87i61dl] does not compile.
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec
+Running com.github.rnewson.couchdb.lucene.ConfigTest
+2019-08-16 07:47:46,954 INFO [Config] Index output goes to: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/couchdb-lucene/target/indexes
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 sec
+Running com.github.rnewson.couchdb.lucene.PathPartsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 73, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.816 s
+[INFO] Finished at: 2019-08-16T07:47:46+08:00
+[INFO] ------------------------------------------------------------------------

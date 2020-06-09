@@ -1,0 +1,89 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/extentreports-java/org.jsoup=jsoup/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/extentreports-java/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/extentreports-java/org.jsoup=jsoup/jsoup-1.12.1.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.aventstack.extentreports.model.ScreenCapture_ESTestJUnit version 4.12
+22:24:24.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.model.ScreenCapture_ESTest
+22:24:24.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.model.ScreenCapture_ESTest'.
+22:24:24.433 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.model.ScreenCapture_ESTest_scaffolding
+22:24:24.433 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.model.ScreenCapture_ESTest_scaffolding'.
+22:24:24.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.model.ScreenCapture_ESTest_scaffolding
+22:24:24.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.model.ScreenCapture_ESTest
+22:24:24.519 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:24:24.519 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:24:24.519 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:24:24.519 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:24:24.519 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:24:24.540 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.model.ScreenCapture
+22:24:24.540 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.model.ScreenCapture'.
+22:24:24.546 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/model/ScreenCapture
+22:24:24.632 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/model/ScreenCapture
+22:24:24.632 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.model.Media
+22:24:24.632 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.model.Media'.
+22:24:24.632 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/model/Media
+22:24:24.634 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/model/Media
+22:24:24.634 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.model.Media
+22:24:24.634 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.model.ScreenCapture
+22:24:24.634 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bson.diagnostics.Loggers
+22:24:24.634 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bson.diagnostics.Loggers'.
+22:24:24.635 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bson/diagnostics/Loggers
+22:24:24.637 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bson/diagnostics/Loggers
+22:24:24.637 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PREFIX
+22:24:24.638 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bson.diagnostics, -219378568
+22:24:24.638 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bson.diagnostics.Loggers
+22:24:24.638 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bson.types.ObjectId
+22:24:24.638 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bson.types.ObjectId'.
+22:24:24.640 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bson/types/ObjectId
+22:24:24.650 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bson/types/ObjectId
+22:24:24.651 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bson.types, 949638213
+22:24:24.651 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bson.types.ObjectId
+22:24:24.657 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Security manager blocks permission ("java.io.FilePermission" "/dev/random" "write")
+java.lang.Thread.getStackTrace(Thread.java:1559)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:434)
+java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+sun.security.provider.NativePRNG$RandomIO$1.run(NativePRNG.java:461)
+sun.security.provider.NativePRNG$RandomIO$1.run(NativePRNG.java:457)
+java.security.AccessController.doPrivileged(Native Method)
+sun.security.provider.NativePRNG$RandomIO.implSetSeed(NativePRNG.java:456)
+sun.security.provider.NativePRNG$RandomIO.access$300(NativePRNG.java:331)
+sun.security.provider.NativePRNG.engineSetSeed(NativePRNG.java:214)
+java.security.SecureRandom.getDefaultPRNG(SecureRandom.java:209)
+java.security.SecureRandom.<init>(SecureRandom.java:190)
+org.evosuite.runtime.mock.java.security.MockSecureRandom.<init>(MockSecureRandom.java:35)
+org.bson.types.ObjectId.<clinit>(ObjectId.java)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Class.java:348)
+org.evosuite.runtime.classhandling.ClassStateSupport.loadClasses(ClassStateSupport.java:163)
+org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(ClassStateSupport.java:64)
+com.aventstack.extentreports.model.ScreenCapture_ESTest_scaffolding.initializeClasses(ScreenCapture_ESTest_scaffolding.java:87)
+com.aventstack.extentreports.model.ScreenCapture_ESTest_scaffolding.initEvoSuiteFramework(ScreenCapture_ESTest_scaffolding.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+org.junit.runners.Suite.runChild(Suite.java:128)
+org.junit.runners.Suite.runChild(Suite.java:27)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+22:24:24.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.model.MediaType
+22:24:24.660 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.model.MediaType'.
+22:24:24.661 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/model/MediaType
+22:24:24.661 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/aventstack/extentreports/model/MediaType
+22:24:24.662 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.model.MediaType
+...
+Time: 0.217
+
+OK (3 tests)
+

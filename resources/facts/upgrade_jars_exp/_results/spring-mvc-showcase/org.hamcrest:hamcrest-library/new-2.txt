@@ -1,0 +1,167 @@
+[VERSION]: 2.1
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.samples:spring-mvc-showcase:war:1.0.0-BUILD-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.apache.logging.log4j:log4j-core:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 48, column 13
+[WARNING] 'dependencies.dependency.version' for org.apache.logging.log4j:log4j-slf4j-impl:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 53, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 183, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------< org.springframework.samples:spring-mvc-showcase >-----------
+[INFO] Building spring-mvc-showcase 1.0.0-BUILD-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spring-mvc-showcase ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ spring-mvc-showcase ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.jdom:jdom2:jar:2.0.6:compile
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    net.minidev:json-smart:jar:2.3:test
+[INFO]    org.hibernate.validator:hibernate-validator:jar:6.0.7.Final:compile
+[INFO]    com.fasterxml:classmate:jar:1.3.1:compile
+[INFO]    org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-webmvc:jar:5.0.4.RELEASE:compile
+[INFO]    javax.el:javax.el-api:jar:3.0.1-b04:compile
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.12.1:compile
+[INFO]    javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]    net.minidev:accessors-smart:jar:1.2:test
+[INFO]    org.xmlunit:xmlunit-matchers:jar:2.5.1:test
+[INFO]    org.hamcrest:hamcrest-library:jar:2.1:test
+[INFO]    javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.2-b02:provided
+[INFO]    javax.servlet:jstl:jar:1.2:compile
+[INFO]    org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1:compile
+[INFO]    com.rometools:rome-utils:jar:1.9.0:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.4:test
+[INFO]    org.springframework.security:spring-security-web:jar:5.0.0.RELEASE:compile
+[INFO]    joda-time:joda-time:jar:2.9.9:compile
+[INFO]    org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+[INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.12.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-web:jar:5.0.4.RELEASE:compile
+[INFO]    org.aspectj:aspectjrt:jar:1.8.1:compile
+[INFO]    org.springframework.security:spring-security-core:jar:5.0.0.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+[INFO]    org.glassfish:javax.el:jar:3.0.1-b08:compile
+[INFO]    org.springframework:spring-test:jar:5.0.4.RELEASE:test
+[INFO]    org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+[INFO]    com.rometools:rome:jar:1.9.0:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO]    commons-fileupload:commons-fileupload:jar:1.3.3:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-mvc-showcase ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ spring-mvc-showcase ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 40 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/main/java/org/springframework/samples/mvc/form/FormBean.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/main/java/org/springframework/samples/mvc/form/FormBean.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.11:compile (default) @ spring-mvc-showcase ---
+[INFO] Showing AJC message detail for messages of types: [error, warning, fail]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-mvc-showcase ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ spring-mvc-showcase ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 18 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/DataControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/DataControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/convert/ConvertControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/convert/ConvertControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/mapping/MappingControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/mapping/MappingControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/CallableControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/CallableControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/views/ViewsControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/views/ViewsControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/StandardArgumentsControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/StandardArgumentsControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/DeferredResultControllerTests.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/DeferredResultControllerTests.java:[3,1] static import only from classes and interfaces
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.450 s
+[INFO] Finished at: 2019-08-20T03:38:46+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project spring-mvc-showcase: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/DataControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/DataControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/convert/ConvertControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/convert/ConvertControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/mapping/MappingControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/mapping/MappingControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/CallableControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/CallableControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/views/ViewsControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/views/ViewsControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/StandardArgumentsControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/data/StandardArgumentsControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/DeferredResultControllerTests.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/async/DeferredResultControllerTests.java:[3,1] static import only from classes and interfaces
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

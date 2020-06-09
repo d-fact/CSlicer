@@ -1,0 +1,36 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/ebean/org.slf4j=slf4j-api/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/ebean/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/ebean/org.slf4j=slf4j-api/slf4j-api-1.7.25.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+22:14:50.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTest
+22:14:50.382 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTest'.
+22:14:50.434 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTest_scaffolding
+22:14:50.434 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTest_scaffolding'.
+22:14:50.436 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTest_scaffolding
+22:14:50.437 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.postgres.PostgresHistorySupport_ESTest
+22:14:50.517 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:14:50.517 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:14:50.517 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:14:50.517 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:14:50.517 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:14:50.538 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbHistorySupport
+22:14:50.538 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbHistorySupport'.
+22:14:50.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.config.dbplatform, 1958493244
+22:14:50.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbHistorySupport
+22:14:50.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbViewHistorySupport
+22:14:50.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbViewHistorySupport'.
+22:14:50.581 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DbViewHistorySupport
+22:14:50.633 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/DbViewHistorySupport
+22:14:50.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbViewHistorySupport
+22:14:50.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.postgres.PostgresHistorySupport
+22:14:50.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.postgres.PostgresHistorySupport'.
+22:14:50.634 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/postgres/PostgresHistorySupport
+22:14:50.634 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/postgres/PostgresHistorySupport
+22:14:50.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.postgres.PostgresHistorySupport
+....
+Time: 0.19
+
+OK (4 tests)
+

@@ -1,0 +1,160 @@
+[VERSION]: 7.3.0.0
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.codelibs:elasticsearch-taste:jar:2.3.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 69, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< org.codelibs:elasticsearch-taste >------------------
+[INFO] Building Elasticsearch Mahout Taste Plugin 2.3.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ elasticsearch-taste ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ elasticsearch-taste ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-memory:jar:5.5.0:provided
+[INFO]    org.apache.lucene:lucene-grouping:jar:5.5.0:provided
+[INFO]    org.apache.commons:commons-lang3:jar:3.4:compile
+[INFO]    org.elasticsearch:elasticsearch:jar:2.3.5:provided
+[INFO]    com.tdunning:t-digest:jar:3.0:provided
+[INFO]    org.codelibs:elasticsearch-cluster-runner:jar:7.3.0.0:test
+[INFO]    log4j:log4j:jar:1.2.17:test
+[INFO]    io.netty:netty-codec:jar:4.1.36.Final:test
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.4.11:test
+[INFO]    io.netty:netty:jar:3.10.5.Final:provided
+[INFO]    org.apache.lucene:lucene-suggest:jar:5.5.0:provided
+[INFO]    org.codelibs.elasticsearch.module:analysis-common:jar:7.3.0:test
+[INFO]    org.codelibs.elasticsearch.lib:dissect:jar:7.3.0:test
+[INFO]    org.codelibs.elasticsearch.module:parent-join:jar:7.3.0:test
+[INFO]    io.netty:netty-handler:jar:4.1.36.Final:test
+[INFO]    org.apache.lucene:lucene-core:jar:5.5.0:compile
+[INFO]    com.spatial4j:spatial4j:jar:0.5:provided
+[INFO]    io.netty:netty-resolver:jar:4.1.36.Final:test
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.1.4:test
+[INFO]    commons-io:commons-io:jar:2.6:test
+[INFO]    org.apache.lucene:lucene-spatial:jar:5.5.0:provided
+[INFO]    com.ning:compress-lzf:jar:1.0.2:provided
+[INFO]    org.apache.lucene:lucene-highlighter:jar:5.5.0:provided
+[INFO]    org.elasticsearch.client:elasticsearch-rest-client:jar:7.3.0:test
+[INFO]    org.apache.lucene:lucene-queryparser:jar:5.5.0:provided
+[INFO]    org.codelibs.elasticsearch.module:lang-painless:jar:7.3.0:test
+[INFO]    joda-time:joda-time:jar:2.9.4:provided
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.6:provided
+[INFO]    org.yaml:snakeyaml:jar:1.15:provided
+[INFO]    org.codelibs.elasticsearch.module:ingest-common:jar:7.3.0:test
+[INFO]    org.codelibs.elasticsearch.module:reindex:jar:7.3.0:test
+[INFO]    org.locationtech.jts:jts-core:jar:1.15.0:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO]    org.codelibs.elasticsearch.lib:plugin-classloader:jar:7.3.0:test
+[INFO]    org.apache.lucene:lucene-spatial3d:jar:5.5.0:provided
+[INFO]    org.codelibs.elasticsearch.module:rank-eval:jar:7.3.0:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.6:provided
+[INFO]    commons-cli:commons-cli:jar:1.3.1:provided
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:5.5.0:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:provided
+[INFO]    org.codelibs.elasticsearch.module:ingest-user-agent:jar:7.3.0:test
+[INFO]    org.antlr:antlr4-runtime:jar:4.5.1-1:test
+[INFO]    commons-codec:commons-codec:jar:1.11:test
+[INFO]    org.codelibs.elasticsearch.module:scripting-painless-spi:jar:7.3.0:test
+[INFO]    io.netty:netty-common:jar:4.1.36.Final:test
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.8:test
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.6:provided
+[INFO]    org.codelibs.elasticsearch.module:lang-mustache:jar:7.3.0:test
+[INFO]    io.netty:netty-transport:jar:4.1.36.Final:test
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.11.1:test
+[INFO]    org.apache.lucene:lucene-join:jar:5.5.0:provided
+[INFO]    org.apache.commons:commons-math3:jar:3.2:compile
+[INFO]    org.codelibs.elasticsearch.module:lang-expression:jar:7.3.0:test
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.6.6:provided
+[INFO]    org.codelibs.elasticsearch.module:aggs-matrix-stats:jar:7.3.0:test
+[INFO]    org.locationtech.spatial4j:spatial4j:jar:0.7:test
+[INFO]    com.google.guava:guava:jar:19.0:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.11.1:test
+[INFO]    org.apache.lucene:lucene-backward-codecs:jar:5.5.0:provided
+[INFO]    org.elasticsearch:securesm:jar:1.0:provided
+[INFO]    com.github.spullara.mustache.java:compiler:jar:0.9.3:test
+[INFO]    com.twitter:jsr166e:jar:1.1.0:provided
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.codelibs.elasticsearch.lib:grok:jar:7.3.0:test
+[INFO]    org.codelibs.elasticsearch.module:mapper-extras:jar:7.3.0:test
+[INFO]    org.apache.lucene:lucene-queries:jar:5.5.0:provided
+[INFO]    org.jruby.jcodings:jcodings:jar:1.0.44:test
+[INFO]    org.codelibs.elasticsearch.module:transport-netty4:jar:7.3.0:test
+[INFO]    io.netty:netty-buffer:jar:4.1.36.Final:test
+[INFO]    org.jruby.joni:joni:jar:2.1.6:test
+[INFO]    org.codelibs.elasticsearch.lib:ssl-config:jar:7.3.0:test
+[INFO]    org.apache.lucene:lucene-expressions:jar:8.1.0:test
+[INFO]    org.joda:joda-convert:jar:1.2:provided
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.11:test
+[INFO]    args4j:args4j:jar:2.33:test
+[INFO]    io.netty:netty-codec-http:jar:4.1.36.Final:test
+[INFO]    org.apache.lucene:lucene-sandbox:jar:5.5.0:provided
+[INFO]    org.ow2.asm:asm-debug-all:jar:5.1:test
+[INFO]    org.codelibs.elasticsearch.module:percolator:jar:7.3.0:test
+[INFO]    commons-logging:commons-logging:jar:1.1.3:test
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6:provided
+[INFO]    org.apache.mahout:mahout-math:jar:0.9:compile
+[INFO]    org.codelibs:curl4j:jar:1.2.3:test
+[INFO]    org.apache.lucene:lucene-misc:jar:5.5.0:provided
+[INFO]    org.codelibs.elasticsearch.module:repository-url:jar:7.3.0:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ elasticsearch-taste ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ elasticsearch-taste ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ elasticsearch-taste ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 200 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/main/java/org/codelibs/elasticsearch/taste/common/FastByIDMap.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/main/java/org/codelibs/elasticsearch/taste/common/FastByIDMap.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ elasticsearch-taste ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ elasticsearch-taste ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/test/java/org/codelibs/elasticsearch/taste/TastePluginTest.java:[9,45] cannot find symbol
+  symbol:   class Curl
+  location: package org.codelibs.elasticsearch.runner.net
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/test/java/org/codelibs/elasticsearch/taste/TastePluginTest.java:[10,45] cannot find symbol
+  symbol:   class CurlResponse
+  location: package org.codelibs.elasticsearch.runner.net
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.633 s
+[INFO] Finished at: 2019-08-15T03:04:05+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile) on project elasticsearch-taste: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/test/java/org/codelibs/elasticsearch/taste/TastePluginTest.java:[9,45] cannot find symbol
+[ERROR]   symbol:   class Curl
+[ERROR]   location: package org.codelibs.elasticsearch.runner.net
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/elasticsearch-taste/src/test/java/org/codelibs/elasticsearch/taste/TastePluginTest.java:[10,45] cannot find symbol
+[ERROR]   symbol:   class CurlResponse
+[ERROR]   location: package org.codelibs.elasticsearch.runner.net
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

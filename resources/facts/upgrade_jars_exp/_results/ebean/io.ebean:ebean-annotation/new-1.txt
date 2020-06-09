@@ -1,0 +1,90 @@
+[VERSION]: 4.12
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< io.ebean:ebean >---------------------------
+[INFO] Building ebean 11.15.3
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.slf4j:slf4j-api:jar:1.8.0-beta1-SNAPSHOT is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ebean ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:list (default-cli) @ ebean ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    io.ebean:ebean-jsr305:jar:1.1:provided
+[INFO]    io.ebean:ebean-annotation:jar:4.12:compile
+[INFO]    io.ebean:ebean-docker-run:jar:1.5.1:test
+[INFO]    commons-io:commons-io:jar:2.5:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+[INFO]    org.avaje.moduuid:avaje-moduuid:jar:2.1:test
+[INFO]    org.avaje:avaje-datasource-api:jar:3.2:compile
+[INFO]    org.avaje:avaje-classpath-scanner:jar:3.1.1:compile
+[INFO]    com.microsoft.sqlserver:mssql-jdbc:jar:6.4.0.jre8:test
+[INFO]    io.ebean:ebean-migration:jar:11.5.1:compile
+[INFO]    org.yaml:snakeyaml:jar:1.19:compile
+[INFO]    org.mockito:mockito-core:jar:1.10.19:test
+[INFO]    org.assertj:assertj-core:jar:3.1.0:test
+[INFO]    joda-time:joda-time:jar:2.9.7:provided
+[INFO]    io.ebean:ebean-agent:jar:11.11.1:test
+[INFO]    ch.qos.logback:logback-core:jar:1.2.3:test
+[INFO]    io.ebean:persistence-api:jar:2.2.1:compile
+[INFO]    org.xerial:sqlite-jdbc:jar:3.15.1:test
+[INFO]    org.avaje:avaje-agentloader:jar:2.1.2:test
+[INFO]    org.avaje:avaje-classpath-scanner-api:jar:2.2:compile
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    org.antlr:antlr4-runtime:jar:4.7.1:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.2.3:test
+[INFO]    org.avaje.composite:avaje-composite-testing:pom:1.1:test
+[INFO]    mysql:mysql-connector-java:jar:5.1.43:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided
+[INFO]    javax.transaction:jta:jar:1.1:provided
+[INFO]    com.h2database:h2:jar:1.4.196:provided
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:provided
+[INFO]    org.avaje:avaje-datasource:jar:3.2.2:compile
+[INFO]    org.avaje.docker:docker-commands:jar:1.5.1:test
+[INFO]    org.postgresql:postgresql:jar:9.4.1212:provided
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:provided
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:provided
+[INFO]    org.hsqldb:hsqldb:jar:2.3.4:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ ebean ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ebean ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ ebean ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1244 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/transaction/JdbcTransaction.java:[662,12] an enum switch case label must be the unqualified name of an enumeration constant
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.179 s
+[INFO] Finished at: 2019-08-15T07:17:17+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project ebean: Compilation failure
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/ebean/src/main/java/io/ebeaninternal/server/transaction/JdbcTransaction.java:[662,12] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

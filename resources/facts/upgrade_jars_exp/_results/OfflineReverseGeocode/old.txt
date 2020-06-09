@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< OfflineReverseGeocode:OfflineReverseGeocode >-------------
+[INFO] Building Offline Reverse Geocoding Java library 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ OfflineReverseGeocode ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ OfflineReverseGeocode ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    none
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ OfflineReverseGeocode ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OfflineReverseGeocode/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ OfflineReverseGeocode ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OfflineReverseGeocode/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OfflineReverseGeocode/src/main/java/geocode/kdtree/KDTree.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OfflineReverseGeocode/src/main/java/geocode/kdtree/KDTree.java uses unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OfflineReverseGeocode/src/main/java/geocode/kdtree/KDTree.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ OfflineReverseGeocode ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/OfflineReverseGeocode/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ OfflineReverseGeocode ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ OfflineReverseGeocode ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.485 s
+[INFO] Finished at: 2019-08-20T16:09:34+08:00
+[INFO] ------------------------------------------------------------------------

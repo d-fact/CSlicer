@@ -1,0 +1,90 @@
+[VERSION]: 4.13-beta-3
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< org.la4j:la4j >----------------------------
+[INFO] Building la4j 0.6.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ la4j ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/la4j/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ la4j ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    junit:junit:jar:4.13-beta-3:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ la4j ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ la4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/la4j/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ la4j ---
+[INFO] Compiling 86 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/la4j/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ la4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/la4j/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ la4j ---
+[INFO] Compiling 31 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/la4j/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ la4j ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/la4j/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.la4j.inversion.GaussJordanInverterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.578 sec
+Running org.la4j.inversion.NoPivotGaussInverterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 sec
+Running org.la4j.linear.LeastSquaresSolverTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.la4j.linear.SeidelSolverTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.la4j.linear.SweepSolverTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.la4j.linear.SquareRootSolverTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.la4j.linear.JacobiSolverTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.la4j.linear.ForwardBackSubstitutionSolverTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.la4j.linear.GaussianSolverTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.la4j.matrix.sparse.CCSMatrixTest
+Tests run: 147, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running org.la4j.matrix.sparse.CRSMatrixTest
+Tests run: 147, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
+Running org.la4j.matrix.dense.Basic1DMatrixTest
+Tests run: 134, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.la4j.matrix.dense.Basic2DMatrixTest
+Tests run: 134, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.la4j.decomposition.EigenDecompositorTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 sec
+Running org.la4j.decomposition.SingularValueDecompositorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.la4j.decomposition.CholeskyDecompositorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.la4j.decomposition.QRDecompositorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.la4j.decomposition.LUDecompositorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.la4j.vector.sparse.CompressedVectorTest
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.la4j.vector.dense.BasicVectorTest
+Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 799, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.698 s
+[INFO] Finished at: 2019-08-14T19:08:58+08:00
+[INFO] ------------------------------------------------------------------------

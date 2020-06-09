@@ -1,0 +1,71 @@
+[VERSION]: 2.6
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.jakewharton:disklrucache >--------------------
+[INFO] Building Disk LRU Cache 2.0.2
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ disklrucache ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/DiskLruCache/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ disklrucache ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    commons-io:commons-io:jar:2.1:test
+[INFO]    org.easytesting:fest-util:jar:1.2.5:test
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    org.easytesting:fest-assert-core:jar:2.0M10:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ disklrucache ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ disklrucache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/DiskLruCache/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ disklrucache ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/DiskLruCache/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ disklrucache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/DiskLruCache/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ disklrucache ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/DiskLruCache/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ disklrucache ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/DiskLruCache/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.jakewharton.disklrucache.StrictLineReaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.jakewharton.disklrucache.DiskLruCacheTest
+Journal compacted from 73 bytes to 57 bytes
+Journal compacted from 40033 bytes to 65 bytes
+Journal compacted from 14101 bytes to 57 bytes
+Journal compacted from 20073 bytes to 65 bytes
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal line: DIRTY   k1, removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal header: [libcore.io.DiskLruCache, 0, 2, ], removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal header: [libcore.io.DiskLruCache, 1, 2, ], removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal header: [libcore.io.DiskLruCache, 1, 1, ], removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal header: [libcore.io.DiskLruCache, 1, 2, x], removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal line: BOGUS, removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal line: [0000x001, 1], removing
+DiskLruCache /tmp/DiskLruCacheTest is corrupt: unexpected journal line: [1, 1, 1], removing
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.262 sec
+
+Results :
+
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.552 s
+[INFO] Finished at: 2019-08-20T16:38:32+08:00
+[INFO] ------------------------------------------------------------------------

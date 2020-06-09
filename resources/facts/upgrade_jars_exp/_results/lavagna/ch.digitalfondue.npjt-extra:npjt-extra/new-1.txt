@@ -1,0 +1,166 @@
+[VERSION]: 2.0.1
+[INFO] Scanning for projects...
+[WARNING] The project io.lavagna:lavagna:war:1.1 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------------------< io.lavagna:lavagna >-------------------------
+[INFO] Building lavagna 1.1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lavagna ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ lavagna ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.ow2.asm:asm-tree:jar:6.0:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+[INFO]    org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:compile
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:5.0.3:provided
+[INFO]    org.apache.commons:commons-text:jar:1.3:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.4.9.v20180320:provided
+[INFO]    org.springframework.integration:spring-integration-core:jar:5.0.3.RELEASE:compile
+[INFO]    com.zaxxer:HikariCP-java7:jar:2.4.13:compile
+[INFO]    org.eclipse.jetty:jetty-annotations:jar:9.4.9.v20180320:provided
+[INFO]    org.hsqldb:hsqldb:jar:2.4.0:compile
+[INFO]    org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+[INFO]    com.lambdaworks:scrypt:jar:1.4.0:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.9.v20180320:provided
+[INFO]    org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.9:test
+[INFO]    org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.9.v20180320:provided
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    org.springframework:spring-jdbc:jar:5.0.4.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.9.v20180320:provided
+[INFO]    org.kubek2k:springockito:jar:1.0.9:test
+[INFO]    org.eclipse.jetty:jetty-jndi:jar:9.4.9.v20180320:provided
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile
+[INFO]    org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.9.v20180320:provided
+[INFO]    io.projectreactor:reactor-core:jar:3.1.5.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.4.9.v20180320:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.reactivestreams:reactive-streams:jar:1.0.2:compile
+[INFO]    mysql:mysql-connector-java:jar:5.1.41:compile
+[INFO]    org.springframework:spring-websocket:jar:5.0.4.RELEASE:compile
+[INFO]    org.postgresql:postgresql:jar:42.2.2.jre7:compile
+[INFO]    org.apache.logging.log4j:log4j-jcl:jar:2.11.0:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:provided
+[INFO]    org.eclipse.jetty:jetty-plus:jar:9.4.9.v20180320:provided
+[INFO]    org.mockito:mockito-all:jar:1.9.0:test
+[INFO]    org.springframework:spring-messaging:jar:5.0.4.RELEASE:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
+[INFO]    org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+[INFO]    commons-codec:commons-codec:jar:1.11:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.9.v20180320:provided
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:provided
+[INFO]    org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.9.v20180320:provided
+[INFO]    org.ow2.asm:asm:jar:6.0:provided
+[INFO]    javax.servlet:javax.servlet-api:jar:4.0.0:provided
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.9.v20180320:provided
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.11.0:compile
+[INFO]    org.jsoup:jsoup:jar:1.11.2:compile
+[INFO]    org.apache.poi:poi:jar:3.17:compile
+[INFO]    org.scribe:scribe:jar:1.3.7:compile
+[INFO]    org.mockito:mockito-core:jar:2.16.0:test
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.4.9.v20180320:provided
+[INFO]    com.julienvey.trello:trello-java-wrapper:jar:0.3.2:compile
+[INFO]    org.springframework:spring-webmvc:jar:5.0.4.RELEASE:compile
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    org.mnode.ical4j:ical4j:jar:2.2.0:compile
+[INFO]    org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.2:compile
+[INFO]    org.springframework:spring-context-support:jar:5.0.4.RELEASE:compile
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:provided
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+[INFO]    com.atlassian.commonmark:commonmark:jar:0.11.0:compile
+[INFO]    ch.digitalfondue.npjt-extra:npjt-extra:jar:2.0.1:compile
+[INFO]    com.samskivert:jmustache:jar:1.14:compile
+[INFO]    org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+[INFO]    org.ow2.asm:asm-commons:jar:6.0:provided
+[INFO]    org.tuckey:urlrewritefilter:jar:4.0.4:compile
+[INFO]    org.flywaydb:flyway-core:jar:4.2.0:compile
+[INFO]    javax.mail:mail:jar:1.4.6:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:provided
+[INFO]    org.threeten:threetenbp:jar:1.3.6:compile
+[INFO]    org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-web:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework.integration:spring-integration-mail:jar:5.0.3.RELEASE:compile
+[INFO]    org.springframework:spring-test:jar:5.0.4.RELEASE:test
+[INFO]    org.eclipse.jetty.websocket:websocket-server:jar:9.4.9.v20180320:provided
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+[INFO]    org.jetbrains.kotlin:kotlin-test:jar:1.2.31:test
+[INFO]    io.micrometer:micrometer-core:jar:1.0.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+[INFO]    org.springframework:spring-tx:jar:5.0.4.RELEASE:compile
+[INFO]    org.jetbrains:annotations:jar:13.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ lavagna ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.0:prepare-agent (prepare-agent) @ lavagna ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.0/org.jacoco.agent-0.8.0-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/jacoco.exec
+[INFO] 
+[INFO] --- license-maven-plugin:1.14:add-third-party (default) @ lavagna ---
+[INFO] Writing third-party file to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/generated-sources/license/THIRD-PARTY.txt
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:copy-resources (default) @ lavagna ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ lavagna ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 81 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.2.31:compile (compile) @ lavagna ---
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ApiHook.kt: (33, 31) This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ApiHook.kt: (38, 60) This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardFullWithCounts.kt: (70, 25) Condition 'dataCount.count != null' is always 'true'
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardLabel.kt: (43, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/CardLabelValue.kt: (95, 29) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/Event.kt: (55, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/LabelAndValueWithCount.kt: (29, 13) Name shadowed: labelValueType
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/LabelListValue.kt: (31, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/ListValueMetadata.kt: (26, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/Role.kt: (29, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/RoleAndPermission.kt: (33, 25) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/User.kt: (44, 46) The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/model/UserWithPermission.kt: (83, 20) Condition 'projectId == null' is always 'true'
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (java-compile) @ lavagna ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 163 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/target/classes
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/config/PersistenceAndServiceConfig.java:21: error: cannot find symbol
+import ch.digitalfondue.npjt.QueryRepositoryScanner;
+                            ^
+  symbol:   class QueryRepositoryScanner
+  location: package ch.digitalfondue.npjt
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/lavagna/src/main/java/io/lavagna/config/PersistenceAndServiceConfig.java:87: error: cannot find symbol
+	public QueryRepositoryScanner queryRepoScanner(QueryFactory queryFactory) {
+	       ^
+  symbol:   class QueryRepositoryScanner
+  location: class PersistenceAndServiceConfig
+2 errors
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.757 s
+[INFO] Finished at: 2019-08-15T03:22:36+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (java-compile) on project lavagna: Compilation failure -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

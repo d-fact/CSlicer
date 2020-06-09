@@ -1,0 +1,46 @@
+[VERSION]: 1.0-dev
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.opentripplanner:otp:jar:1.3.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 224, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.opentripplanner:otp >-----------------------
+[INFO] Building OpenTripPlanner 1.3.0
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central2: https://repo1.maven.org/maven2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+Downloading from download.java.net: http://download.java.net/maven/2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+Downloading from osgeo: http://download.osgeo.org/webdav/geotools/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+Downloading from axis: https://people.apache.org/repo/m1-ibiblio-rsync-repository/org.apache.axis2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+Downloading from sonatype-oss: https://oss.sonatype.org/content/repositories/snapshots/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+Downloading from conveyal: https://maven.conveyal.com/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+Downloading from central: https://repo.maven.apache.org/maven2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.pom
+[WARNING] The POM for commons-discovery:commons-discovery:jar:1.0-dev is missing, no dependency information available
+Downloading from central2: https://repo1.maven.org/maven2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+Downloading from download.java.net: http://download.java.net/maven/2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+Downloading from osgeo: http://download.osgeo.org/webdav/geotools/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+Downloading from axis: https://people.apache.org/repo/m1-ibiblio-rsync-repository/org.apache.axis2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+Downloading from sonatype-oss: https://oss.sonatype.org/content/repositories/snapshots/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+Downloading from conveyal: https://maven.conveyal.com/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-discovery/commons-discovery/1.0-dev/commons-discovery-1.0-dev.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.377 s
+[INFO] Finished at: 2019-08-16T04:23:45+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project otp: Could not resolve dependencies for project org.opentripplanner:otp:jar:1.3.0: Could not find artifact commons-discovery:commons-discovery:jar:1.0-dev in central2 (https://repo1.maven.org/maven2) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

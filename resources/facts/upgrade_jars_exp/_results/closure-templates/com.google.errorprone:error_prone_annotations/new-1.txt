@@ -1,0 +1,142 @@
+[VERSION]: 2.3.3
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< com.google.template:soy >-----------------------
+[INFO] Building Closure Templates 2018-03-14
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soy ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ soy ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.guava:guava:jar:21.0:compile
+[INFO]    org.ow2.asm:asm-tree:jar:6.0:compile
+[INFO]    com.google.inject:guice:jar:4.1.0:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.apache.ant:ant-launcher:jar:1.8.3:provided
+[INFO]    org.mozilla:rhino:jar:1.7R3:test
+[INFO]    org.ow2.asm:asm-util:jar:6.0:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:2.0.3:compile
+[INFO]    com.google.auto.value:auto-value:jar:1.4:provided
+[INFO]    com.google.common.html.types:types:jar:1.0.4:compile
+[INFO]    org.apache.ant:ant:jar:1.8.3:provided
+[INFO]    com.google.code.gson:gson:jar:2.7:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    org.ow2.asm:asm-commons:jar:6.0:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    javax.validation:validation-api:jar:1.0.0.GA:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.3.3:provided
+[INFO]    com.google.guava:guava-testlib:jar:21.0:test
+[INFO]    com.google.truth:truth:jar:0.36:test
+[INFO]    com.ibm.icu:icu4j:jar:57.1:compile
+[INFO]    javax.validation:validation-api:jar:sources:1.0.0.GA:compile
+[INFO]    args4j:args4j:jar:2.0.23:compile
+[INFO]    com.google.protobuf:protobuf-java:jar:3.3.0:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:6.0:compile
+[INFO]    org.json:json:jar:20160212:compile
+[INFO]    org.ow2.asm:asm:jar:6.0:compile
+[INFO]    com.google.gwt:gwt-user:jar:2.8.0-beta1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce) @ soy ---
+[INFO] Adding ignore: org.hamcrest.*
+[INFO] Adding ignore: org.hamcrest.core.*
+[INFO] Adding ignore: module-info
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ soy ---
+Java Compiler Compiler Version 6.1_2 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/soyparse/SoyFileParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- protoc-bundled-plugin:1.4.61:run (default) @ soy ---
+[INFO] Using protoc com.comoyo.maven.plugins:protoc-bundled-plugin:exe:3.3.0-linux-x86_64:1.4.61
+[INFO] Compiling /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/src/main/protobuf to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-sources/protobuf [main]
+[INFO] Compiling /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/src/test/protobuf to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/generated-test-sources/protobuf [test]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ soy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ soy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 658 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/BytecodeUtils.java:[36,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/restricted/MethodRef.java:[32,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/ExpressionCompiler.java:[33,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/EvalVisitor.java:[38,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/AugmentMapFunction.java:[22,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/KeysFunction.java:[20,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/jbcsrc/runtime/JbcSrcRuntime.java:[28,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/data/internal/EasyListImpl.java:[23,36] com.google.template.soy.data.SoyEasyList in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/basicfunctions/BasicFunctionsRuntime.java:[26,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/sharedpasses/render/TofuTypeChecks.java:[21,36] com.google.template.soy.data.SoyLegacyObjectMap in com.google.template.soy.data has been deprecated
+[INFO] 30 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/msgs/restricted/SoyMsg.java:[25,41] cannot find symbol
+  symbol:   class DoNotMock
+  location: package com.google.errorprone.annotations
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/msgs/restricted/SoyMsg.java:[38,2] cannot find symbol
+  symbol: class DoNotMock
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.611 s
+[INFO] Finished at: 2019-08-15T12:34:35+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project soy: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/msgs/restricted/SoyMsg.java:[25,41] cannot find symbol
+[ERROR]   symbol:   class DoNotMock
+[ERROR]   location: package com.google.errorprone.annotations
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/closure-templates/java/src/com/google/template/soy/msgs/restricted/SoyMsg.java:[38,2] cannot find symbol
+[ERROR]   symbol: class DoNotMock
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

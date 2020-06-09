@@ -1,0 +1,196 @@
+[VERSION]: 4.13-beta-3
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< cn.jpush.api:jpush-client >----------------------
+[INFO] Building JPush API Java Client 3.3.3
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jpush-client ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jpush-client ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    cn.jpush.api:jiguang-common:jar:1.0.8:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.50:test
+[INFO]    io.netty:netty-all:jar:4.1.6.Final:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO]    com.squareup.okio:okio:jar:1.8.0:compile
+[INFO]    log4j:log4j:jar:1.2.17:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.squareup.okhttp:okhttp:jar:2.0.0:test
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    com.squareup.okhttp3:okhttp:jar:3.3.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.3:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.7:test
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    junit:junit:jar:4.13-beta-3:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.7:compile
+[INFO]    com.squareup.okhttp:mockwebserver:jar:2.0.0:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ jpush-client ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jpush-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jpush-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 42 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jpush-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jpush-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 35 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/PlatformTesst.java:[30,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/PlatformTesst.java:[39,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/remote/AudienceTest.java:[64,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/remote/AudienceTest.java:[67,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/MessageTest.java:[33,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/MessageTest.java:[54,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/MessageTest.java:[75,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/notification/IosNotificationTest.java:[151,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[41,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[55,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[69,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[82,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[97,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[113,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/model/OptionsTest.java:[129,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/remote/SpecialCharacterTest.java:[70,5] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jpush-client ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target/surefire-reports
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cn.jpush.api.schedule.model.TriggerPayloadTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in cn.jpush.api.schedule.model.TriggerPayloadTest
+Running cn.jpush.api.schedule.model.SchedulePayloadTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in cn.jpush.api.schedule.model.SchedulePayloadTest
+Running cn.jpush.api.push.model.MessageTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cn.jpush.api.push.model.MessageTest
+Running cn.jpush.api.push.model.audience.AudienceTargetTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cn.jpush.api.push.model.audience.AudienceTargetTest
+Running cn.jpush.api.push.model.audience.AudienceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cn.jpush.api.push.model.audience.AudienceTest
+Running cn.jpush.api.push.model.OptionsTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cn.jpush.api.push.model.OptionsTest
+Running cn.jpush.api.push.model.PushPayloadTest
+Size: 1324
+Size: 4555
+Size: 4555
+Size: 247
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cn.jpush.api.push.model.PushPayloadTest
+Running cn.jpush.api.push.model.notification.IosNotificationTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cn.jpush.api.push.model.notification.IosNotificationTest
+Running cn.jpush.api.push.model.notification.WinphoneNotificationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cn.jpush.api.push.model.notification.WinphoneNotificationTest
+Running cn.jpush.api.push.model.notification.NotificationTest
+19/08/15 13:48:16 WARN notification.PlatformNotification: Null extras param. Throw away it.
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cn.jpush.api.push.model.notification.NotificationTest
+Running cn.jpush.api.push.model.notification.AndroidNotificationTest
+19/08/15 13:48:16 DEBUG notification.PlatformNotification: Extra value is null, throw away it.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cn.jpush.api.push.model.notification.AndroidNotificationTest
+Running cn.jpush.api.device.DeviceNormalRemoteTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in cn.jpush.api.device.DeviceNormalRemoteTest
+initializationError(cn.jpush.api.device.DeviceNormalRemoteTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: null
+	at java.util.Collections$UnmodifiableList.sort(Collections.java:1331)
+	at java.util.Collections.sort(Collections.java:175)
+	at cn.jpush.api.JUnitOrderedRunner.computeTestMethods(JUnitOrderedRunner.java:19)
+	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:223)
+	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:154)
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:509)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:91)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:74)
+	at cn.jpush.api.JUnitOrderedRunner.<init>(JUnitOrderedRunner.java:13)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runner.Computer.getRunner(Computer.java:50)
+	at org.junit.runner.Computer$1.runnerForClass(Computer.java:31)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:125)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:111)
+	at org.junit.runners.Suite.<init>(Suite.java:81)
+	at org.junit.runner.Computer$2.<init>(Computer.java:33)
+	at org.junit.runner.Computer.getSuite(Computer.java:28)
+	at org.junit.runner.Request.classes(Request.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:102)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:85)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:134)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+
+Results :
+
+Tests in error: 
+  DeviceNormalRemoteTest.initializationError » UnsupportedOperation
+
+Tests run: 73, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.969 s
+[INFO] Finished at: 2019-08-15T13:48:16+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project jpush-client: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

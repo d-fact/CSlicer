@@ -1,0 +1,156 @@
+[VERSION]: 5.0.7
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.b3log:xiaov >---------------------------
+[INFO] Building XiaoV 2.2.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ xiaov ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ xiaov ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.2.7.v20150116:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    com.alibaba:druid:jar:1.0.29:compile
+[INFO]    com.alibaba:fastjson:jar:1.2.7:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.2.7.v20150116:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.2.7.v20150116:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO]    org.b3log:latke:jar:2.4.1:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.2.7.v20150116:compile
+[INFO]    com.alibaba:jconsole:jar:1.8.0:system
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.2.7.v20150116:compile
+[INFO]    com.alibaba:tools:jar:1.8.0:system
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.2.7.v20150116:compile
+[INFO]    org.freemarker:freemarker:jar:2.3.23:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.2.7.v20150116:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    net.dongliu:requests:jar:5.0.7:compile
+[INFO]    redis.clients:jedis:jar:2.9.0:compile
+[INFO]    net.dongliu:commons:jar:6.10.8:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.7:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.2.7.v20150116:compile
+[INFO]    org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.7:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ xiaov ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ xiaov ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[9,28] cannot find symbol
+  symbol:   class Client
+  location: package net.dongliu.requests
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[10,28] cannot find symbol
+  symbol:   class HeadOnlyRequestBuilder
+  location: package net.dongliu.requests
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[13,38] cannot find symbol
+  symbol:   class RequestException
+  location: package net.dongliu.requests.exception
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[14,35] package net.dongliu.requests.struct does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[51,13] cannot find symbol
+  symbol:   class Client
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[70,23] cannot find symbol
+  symbol:   variable Client
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[84,34] cannot find symbol
+  symbol: class RequestException
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[125,17] cannot find symbol
+  symbol:   method addHeader(java.lang.String,java.lang.String)
+  location: class net.dongliu.requests.RequestBuilder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[127,14] cannot find symbol
+  symbol:   class Cookie
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[174,50] incompatible types: java.lang.String cannot be converted to int
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[612,9] cannot find symbol
+  symbol:   class HeadOnlyRequestBuilder
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[613,17] cannot find symbol
+  symbol:   method addHeader(java.lang.String,java.lang.String)
+  location: class net.dongliu.requests.RequestBuilder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[623,17] cannot find symbol
+  symbol:   method addHeader(java.lang.String,java.lang.String)
+  location: class net.dongliu.requests.RequestBuilder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[668,23] cannot find symbol
+  symbol:   class RequestException
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[673,23] cannot find symbol
+  symbol:   class RequestException
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[685,31] cannot find symbol
+  symbol:   class RequestException
+  location: class com.scienjus.smartqq.client.SmartQQClient
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.310 s
+[INFO] Finished at: 2019-08-14T21:47:48+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project xiaov: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[9,28] cannot find symbol
+[ERROR]   symbol:   class Client
+[ERROR]   location: package net.dongliu.requests
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[10,28] cannot find symbol
+[ERROR]   symbol:   class HeadOnlyRequestBuilder
+[ERROR]   location: package net.dongliu.requests
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[13,38] cannot find symbol
+[ERROR]   symbol:   class RequestException
+[ERROR]   location: package net.dongliu.requests.exception
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[14,35] package net.dongliu.requests.struct does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[51,13] cannot find symbol
+[ERROR]   symbol:   class Client
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[70,23] cannot find symbol
+[ERROR]   symbol:   variable Client
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[84,34] cannot find symbol
+[ERROR]   symbol: class RequestException
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[125,17] cannot find symbol
+[ERROR]   symbol:   method addHeader(java.lang.String,java.lang.String)
+[ERROR]   location: class net.dongliu.requests.RequestBuilder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[127,14] cannot find symbol
+[ERROR]   symbol:   class Cookie
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[174,50] incompatible types: java.lang.String cannot be converted to int
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[612,9] cannot find symbol
+[ERROR]   symbol:   class HeadOnlyRequestBuilder
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[613,17] cannot find symbol
+[ERROR]   symbol:   method addHeader(java.lang.String,java.lang.String)
+[ERROR]   location: class net.dongliu.requests.RequestBuilder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[623,17] cannot find symbol
+[ERROR]   symbol:   method addHeader(java.lang.String,java.lang.String)
+[ERROR]   location: class net.dongliu.requests.RequestBuilder
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[668,23] cannot find symbol
+[ERROR]   symbol:   class RequestException
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[673,23] cannot find symbol
+[ERROR]   symbol:   class RequestException
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/main/java/com/scienjus/smartqq/client/SmartQQClient.java:[685,31] cannot find symbol
+[ERROR]   symbol:   class RequestException
+[ERROR]   location: class com.scienjus.smartqq.client.SmartQQClient
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

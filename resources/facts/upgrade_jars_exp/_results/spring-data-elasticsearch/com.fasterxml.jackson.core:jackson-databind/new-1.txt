@@ -1,0 +1,240 @@
+[VERSION]: 2.10.0.pr1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< org.springframework.data:spring-data-elasticsearch >---------
+[INFO] Building Spring Data Elasticsearch 3.0.7.RELEASE
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spring-data-elasticsearch ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.0:list (default-cli) @ spring-data-elasticsearch ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework:spring-aop:jar:5.0.6.RELEASE:compile
+[INFO]    org.apache.lucene:lucene-grouping:jar:6.6.0:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:6.6.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:6.6.0:compile
+[INFO]    com.tdunning:t-digest:jar:3.0:compile
+[INFO]    io.netty:netty-handler:jar:4.1.11.Final:compile
+[INFO]    org.springframework:spring-expression:jar:5.0.6.RELEASE:compile
+[INFO]    org.springframework:spring-test:jar:5.0.6.RELEASE:test
+[INFO]    org.apache.openwebbeans:openwebbeans-impl:jar:1.2.8:test
+[INFO]    org.apache.lucene:lucene-highlighter:jar:6.6.0:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.6.14:test
+[INFO]    org.apache.xbean:xbean-finder-shaded:jar:4.1:test
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    io.netty:netty-codec:jar:4.1.11.Final:compile
+[INFO]    org.apache.openwebbeans:openwebbeans-spi:jar:1.2.8:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+[INFO]    org.elasticsearch.plugin:transport-netty4-client:jar:5.5.0:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:provided (optional) 
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+[INFO]    org.elasticsearch.plugin:parent-join-client:jar:5.5.0:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.2.3:test
+[INFO]    io.netty:netty-common:jar:4.1.11.Final:compile
+[INFO]    org.springframework:spring-context:jar:5.0.6.RELEASE:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:provided (optional) 
+[INFO]    io.netty:netty:jar:3.10.6.Final:compile
+[INFO]    org.mockito:mockito-core:jar:2.8.47:test
+[INFO]    org.apache.lucene:lucene-queries:jar:6.6.0:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:6.6.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:compile
+[INFO]    org.elasticsearch.client:transport:jar:5.5.0:compile
+[INFO]    org.assertj:assertj-core:jar:3.9.0:test
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:6.6.0:compile
+[INFO]    org.springframework:spring-jcl:jar:5.0.6.RELEASE:compile
+[INFO]    org.apache.lucene:lucene-spatial:jar:6.6.0:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO]    org.elasticsearch:jna:jar:4.4.0:compile
+[INFO]    org.jboss.interceptor:jboss-interceptor-api:jar:1.1:provided (optional) 
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.8.2:test
+[INFO]    io.netty:netty-resolver:jar:4.1.11.Final:compile
+[INFO]    org.apache.lucene:lucene-join:jar:6.6.0:compile
+[INFO]    org.springframework.data:spring-data-commons:jar:2.0.7.RELEASE:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.9.5:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.25:test
+[INFO]    org.elasticsearch.plugin:percolator-client:jar:5.5.0:compile
+[INFO]    org.springframework:spring-tx:jar:5.0.6.RELEASE:compile
+[INFO]    org.projectlombok:lombok:jar:1.16.20:test
+[INFO]    com.github.spullara.mustache.java:compiler:jar:0.9.3:compile
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+[INFO]    org.apache.openwebbeans.test:cditest-owb:jar:1.2.8:test
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+[INFO]    org.apache.lucene:lucene-backward-codecs:jar:6.6.0:compile
+[INFO]    org.apache.lucene:lucene-spatial3d:jar:6.6.0:compile
+[INFO]    io.netty:netty-transport:jar:4.1.11.Final:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.2.3:test
+[INFO]    javax.servlet:servlet-api:jar:3.0-alpha-1:test
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+[INFO]    org.apache.xbean:xbean-asm5-shaded:jar:4.5:test
+[INFO]    joda-time:joda-time:jar:2.9.9:compile
+[INFO]    org.objenesis:objenesis:jar:2.5:test
+[INFO]    javax.inject:javax.inject:jar:1:provided (optional) 
+[INFO]    org.springframework:spring-core:jar:5.0.6.RELEASE:compile
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+[INFO]    org.elasticsearch.plugin:reindex-client:jar:5.5.0:compile
+[INFO]    org.elasticsearch:elasticsearch:jar:5.5.0:compile
+[INFO]    org.elasticsearch:securesm:jar:1.1:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.9.5:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    io.netty:netty-codec-http:jar:4.1.11.Final:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:6.6.0:compile
+[INFO]    io.netty:netty-buffer:jar:4.1.11.Final:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.elasticsearch.plugin:transport-netty3-client:jar:5.5.0:compile
+[INFO]    org.springframework:spring-beans:jar:5.0.6.RELEASE:compile
+[INFO]    org.elasticsearch.plugin:lang-mustache-client:jar:5.5.0:compile
+[INFO]    org.apache.lucene:lucene-core:jar:6.6.0:compile
+[INFO]    org.elasticsearch.client:rest:jar:5.5.0:compile
+[INFO]    org.apache.lucene:lucene-sandbox:jar:6.6.0:compile
+[INFO]    org.apache.openwebbeans.test:cditest:jar:1.2.8:test
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+[INFO]    org.apache.lucene:lucene-spatial-extras:jar:6.6.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-elasticsearch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.61:compile (compile) @ spring-data-elasticsearch ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (java-compile) @ spring-data-elasticsearch ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 118 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/main/java/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/main/java/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/main/java/org/springframework/data/elasticsearch/core/query/AbstractQuery.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/main/java/org/springframework/data/elasticsearch/core/query/AbstractQuery.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-elasticsearch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 44 resources
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.1.61:test-compile (test-compile) @ spring-data-elasticsearch ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (java-test-compile) @ spring-data-elasticsearch ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 122 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/test/java/org/springframework/data/elasticsearch/core/facet/ElasticsearchTemplateFacetTests.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/test/java/org/springframework/data/elasticsearch/core/facet/ElasticsearchTemplateFacetTests.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/test/java/org/springframework/data/elasticsearch/core/DefaultResultMapperTests.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/src/test/java/org/springframework/data/elasticsearch/core/DefaultResultMapperTests.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-elasticsearch ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.elasticsearch.repositories.synonym.SynonymRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.222 sec - in org.springframework.data.elasticsearch.repositories.synonym.SynonymRepositoryTests
+Running org.springframework.data.elasticsearch.repositories.existing.index.CreateIndexFalseRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.307 sec - in org.springframework.data.elasticsearch.repositories.existing.index.CreateIndexFalseRepositoryTests
+Running org.springframework.data.elasticsearch.repositories.CustomMethodRepositoryTests
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.399 sec - in org.springframework.data.elasticsearch.repositories.CustomMethodRepositoryTests
+Running org.springframework.data.elasticsearch.repositories.geo.SpringDataGeoRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.308 sec - in org.springframework.data.elasticsearch.repositories.geo.SpringDataGeoRepositoryTests
+Running org.springframework.data.elasticsearch.repositories.cdi.CdiRepositoryTests
+Aug 19, 2019 8:31:27 PM org.apache.webbeans.lifecycle.AbstractLifeCycle bootstrapApplication
+INFO: OpenWebBeans Container is starting...
+Aug 19, 2019 8:31:27 PM org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery addWebBeansXmlLocation
+INFO: added beans.xml marker: file:/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-data-elasticsearch/target/test-classes/META-INF/beans.xml
+Aug 19, 2019 8:31:27 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 19, 2019 8:31:27 PM org.apache.webbeans.lifecycle.AbstractLifeCycle bootstrapApplication
+INFO: OpenWebBeans Container has started, it took [167] ms.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.813 sec - in org.springframework.data.elasticsearch.repositories.cdi.CdiRepositoryTests
+Running org.springframework.data.elasticsearch.repositories.setting.FieldDynamicMappingEntityRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.807 sec - in org.springframework.data.elasticsearch.repositories.setting.FieldDynamicMappingEntityRepositoryTests
+Running org.springframework.data.elasticsearch.repositories.setting.DynamicSettingAndMappingEntityRepositoryTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.563 sec - in org.springframework.data.elasticsearch.repositories.setting.DynamicSettingAndMappingEntityRepositoryTests
+Running org.springframework.data.elasticsearch.SpELEntityTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.003 sec - in org.springframework.data.elasticsearch.SpELEntityTests
+Running org.springframework.data.elasticsearch.repository.complex.ComplexCustomMethodRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.125 sec - in org.springframework.data.elasticsearch.repository.complex.ComplexCustomMethodRepositoryTests
+Running org.springframework.data.elasticsearch.repository.complex.ComplexCustomMethodRepositoryManualWiringTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.229 sec - in org.springframework.data.elasticsearch.repository.complex.ComplexCustomMethodRepositoryManualWiringTests
+Running org.springframework.data.elasticsearch.repository.support.UUIDElasticsearchRepositoryTests
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.208 sec - in org.springframework.data.elasticsearch.repository.support.UUIDElasticsearchRepositoryTests
+Running org.springframework.data.elasticsearch.repository.support.IntegerIDRepositoryTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.954 sec - in org.springframework.data.elasticsearch.repository.support.IntegerIDRepositoryTests
+Running org.springframework.data.elasticsearch.repository.support.QueryKeywordsTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.996 sec - in org.springframework.data.elasticsearch.repository.support.QueryKeywordsTests
+Running org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepositoryTests
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.872 sec - in org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepositoryTests
+Running org.springframework.data.elasticsearch.repository.support.DoubleIDRepositoryTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.452 sec - in org.springframework.data.elasticsearch.repository.support.DoubleIDRepositoryTests
+Running org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 sec - in org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryTests
+Running org.springframework.data.elasticsearch.repository.support.ElasticsearchEntityInformationCreatorImplTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in org.springframework.data.elasticsearch.repository.support.ElasticsearchEntityInformationCreatorImplTests
+Running org.springframework.data.elasticsearch.core.query.CriteriaQueryTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 15.825 sec - in org.springframework.data.elasticsearch.core.query.CriteriaQueryTests
+Running org.springframework.data.elasticsearch.core.mapping.SimpleElasticsearchPersistentEntityTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.elasticsearch.core.mapping.SimpleElasticsearchPersistentEntityTests
+Running org.springframework.data.elasticsearch.core.convert.MappingElasticsearchConverterTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.elasticsearch.core.convert.MappingElasticsearchConverterTests
+Running org.springframework.data.elasticsearch.core.convert.DateTimeConvertersTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.elasticsearch.core.convert.DateTimeConvertersTests
+Running org.springframework.data.elasticsearch.core.SimpleElasticsearchDateMappingTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.elasticsearch.core.SimpleElasticsearchDateMappingTests
+Running org.springframework.data.elasticsearch.core.DefaultResultMapperTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 sec - in org.springframework.data.elasticsearch.core.DefaultResultMapperTests
+Running org.springframework.data.elasticsearch.core.facet.ElasticsearchTemplateFacetTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.757 sec - in org.springframework.data.elasticsearch.core.facet.ElasticsearchTemplateFacetTests
+Running org.springframework.data.elasticsearch.core.ElasticsearchTemplateTests
+Tests run: 71, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.43 sec - in org.springframework.data.elasticsearch.core.ElasticsearchTemplateTests
+Running org.springframework.data.elasticsearch.core.LogEntityTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.863 sec - in org.springframework.data.elasticsearch.core.LogEntityTests
+Running org.springframework.data.elasticsearch.core.DefaultEntityMapperTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.elasticsearch.core.DefaultEntityMapperTests
+Running org.springframework.data.elasticsearch.core.completion.ElasticsearchTemplateCompletionTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.099 sec - in org.springframework.data.elasticsearch.core.completion.ElasticsearchTemplateCompletionTests
+Running org.springframework.data.elasticsearch.core.ElasticsearchTemplateCustomMapperTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.23 sec - in org.springframework.data.elasticsearch.core.ElasticsearchTemplateCustomMapperTests
+Running org.springframework.data.elasticsearch.core.AliasTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.893 sec - in org.springframework.data.elasticsearch.core.AliasTests
+Running org.springframework.data.elasticsearch.core.geo.ElasticsearchTemplateGeoTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.25 sec - in org.springframework.data.elasticsearch.core.geo.ElasticsearchTemplateGeoTests
+Running org.springframework.data.elasticsearch.core.aggregation.ElasticsearchTemplateAggregationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.827 sec - in org.springframework.data.elasticsearch.core.aggregation.ElasticsearchTemplateAggregationTests
+Running org.springframework.data.elasticsearch.core.MappingBuilderTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.556 sec - in org.springframework.data.elasticsearch.core.MappingBuilderTests
+Running org.springframework.data.elasticsearch.core.ElasticsearchTemplateParentChildTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.739 sec - in org.springframework.data.elasticsearch.core.ElasticsearchTemplateParentChildTests
+Running org.springframework.data.elasticsearch.InnerObjectTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.475 sec - in org.springframework.data.elasticsearch.InnerObjectTests
+Running org.springframework.data.elasticsearch.NestedObjectTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.26 sec - in org.springframework.data.elasticsearch.NestedObjectTests
+Running org.springframework.data.elasticsearch.NonDocumentEntityTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.215 sec - in org.springframework.data.elasticsearch.NonDocumentEntityTests
+Running org.springframework.data.elasticsearch.immutable.ImmutableElasticsearchRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.992 sec - in org.springframework.data.elasticsearch.immutable.ImmutableElasticsearchRepositoryTests
+Running org.springframework.data.elasticsearch.config.ElasticsearchNamespaceHandlerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.169 sec - in org.springframework.data.elasticsearch.config.ElasticsearchNamespaceHandlerTests
+Running org.springframework.data.elasticsearch.config.EnableElasticsearchRepositoriesTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.186 sec - in org.springframework.data.elasticsearch.config.EnableElasticsearchRepositoriesTests
+Running org.springframework.data.elasticsearch.config.EnableNestedElasticsearchRepositoriesTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.135 sec - in org.springframework.data.elasticsearch.config.EnableNestedElasticsearchRepositoriesTests
+2019-08-19 20:35:59,074 Thread-20 WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
+
+Results :
+
+Tests run: 306, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 05:31 min
+[INFO] Finished at: 2019-08-19T20:35:59+08:00
+[INFO] ------------------------------------------------------------------------

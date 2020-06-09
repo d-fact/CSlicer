@@ -1,0 +1,89 @@
+[VERSION]: 2.0.0-alpha0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.wkh:bateman >---------------------------
+[INFO] Building bateman 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bateman ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ bateman ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    junit:junit:jar:3.8.1:test
+[INFO]    ch.qos.logback:logback-core:jar:1.0.6:compile
+[INFO]    joda-time:joda-time:jar:2.2:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.0.6:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.2.3:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.2.2:compile
+[INFO]    commons-codec:commons-codec:jar:1.6:compile
+[INFO]    org.slf4j:slf4j-api:jar:2.0.0-alpha0:compile
+[INFO]    com.google.guava:guava:jar:14.0.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bateman ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bateman ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bateman ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bateman ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bateman ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/bateman/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wkh.bateman.model.BuyZoneModelTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running org.wkh.bateman.pso.SimpleParticleSwarmOptimizerTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/home/cgzhu/.m2/repository/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.wkh.bateman.trade.SessionTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.wkh.bateman.trade.AssetTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.wkh.bateman.trade.AccountTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.wkh.bateman.trade.RuleTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.wkh.bateman.trade.TradeTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.wkh.bateman.trade.TimeSeriesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.wkh.bateman.trade.MoneyManagementStrategyTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.wkh.bateman.fetch.GoogleQuoteFetcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running org.wkh.bateman.fetch.YahooQuoteFetcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.wkh.bateman.fetch.QuoteCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.791 s
+[INFO] Finished at: 2019-08-15T09:19:59+08:00
+[INFO] ------------------------------------------------------------------------

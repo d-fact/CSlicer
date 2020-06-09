@@ -1,0 +1,1053 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/jdeb/org.bouncycastle=bcpg-jdk15on/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jdeb/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jdeb/org.bouncycastle=bcpg-jdk15on/bcpg-jdk15on-1.62.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore org.vafer.jdeb.producers.AbstractDataProducer_ESTestJUnit version 4.12
+22:51:53.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.AbstractDataProducer_ESTest
+22:51:53.033 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.AbstractDataProducer_ESTest'.
+22:51:53.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.AbstractDataProducer_ESTest_scaffolding
+22:51:53.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.AbstractDataProducer_ESTest_scaffolding'.
+22:51:53.094 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.AbstractDataProducer_ESTest_scaffolding
+22:51:53.094 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.AbstractDataProducer_ESTest
+22:51:53.178 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:51:53.178 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:51:53.178 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:51:53.178 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:51:53.178 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:51:53.199 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.io.LineIterator
+22:51:53.199 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.io.LineIterator'.
+22:51:53.206 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/io/LineIterator
+22:51:53.298 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/io/LineIterator
+22:51:53.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.io, 1229883650
+22:51:53.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.io.LineIterator
+22:51:53.300 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException$Feature
+22:51:53.300 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException$Feature'.
+22:51:53.300 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException$Feature
+22:51:53.301 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException$Feature
+22:51:53.302 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.zip, -1697835642
+22:51:53.302 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException$Feature
+22:51:53.302 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.Utils
+22:51:53.303 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.Utils'.
+22:51:53.303 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/utils/Utils
+22:51:53.309 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/utils/Utils
+22:51:53.309 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb.utils, -2010505782
+22:51:53.310 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.Utils
+22:51:53.313 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream
+22:51:53.313 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream'.
+22:51:53.315 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream
+22:51:53.323 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream
+22:51:53.323 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MIN_BLOCKSIZE
+22:51:53.323 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_BLOCKSIZE
+22:51:53.323 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field GREATER_ICOST
+22:51:53.323 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field LESSER_ICOST
+22:51:53.323 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.bzip2, -1853073597
+22:51:53.324 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.bzip2.BZip2Constants
+22:51:53.324 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.bzip2.BZip2Constants'.
+22:51:53.324 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.bzip2.BZip2Constants
+22:51:53.324 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.CompressorOutputStream
+22:51:53.324 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.CompressorOutputStream'.
+22:51:53.325 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/CompressorOutputStream
+22:51:53.325 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/CompressorOutputStream
+22:51:53.325 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors, 1667222686
+22:51:53.325 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.CompressorOutputStream
+22:51:53.325 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream
+22:51:53.326 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.jar.JarArchiveInputStream
+22:51:53.326 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.jar.JarArchiveInputStream'.
+22:51:53.327 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/jar/JarArchiveInputStream
+22:51:53.327 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/jar/JarArchiveInputStream
+22:51:53.327 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.jar, -1697851264
+22:51:53.327 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream
+22:51:53.327 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveInputStream'.
+22:51:53.329 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveInputStream
+22:51:53.335 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveInputStream
+22:51:53.336 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveInputStream
+22:51:53.336 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveInputStream'.
+22:51:53.337 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ArchiveInputStream
+22:51:53.337 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/ArchiveInputStream
+22:51:53.337 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BYTE_MASK
+22:51:53.337 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers, -1107036461
+22:51:53.337 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveInputStream
+22:51:53.337 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream
+22:51:53.337 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.jar.JarArchiveInputStream
+22:51:53.338 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveEntry
+22:51:53.338 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveEntry'.
+22:51:53.338 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveEntry
+22:51:53.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException
+22:51:53.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException'.
+22:51:53.339 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException
+22:51:53.340 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException
+22:51:53.340 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException
+22:51:53.341 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream$BoundedInputStream
+22:51:53.341 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveInputStream$BoundedInputStream'.
+22:51:53.341 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$BoundedInputStream
+22:51:53.342 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$BoundedInputStream
+22:51:53.342 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream$BoundedInputStream
+22:51:53.342 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.UnshrinkingInputStream
+22:51:53.342 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.UnshrinkingInputStream'.
+22:51:53.342 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/UnshrinkingInputStream
+22:51:53.344 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/UnshrinkingInputStream
+22:51:53.344 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_CODE_SIZE
+22:51:53.344 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_TABLE_SIZE
+22:51:53.344 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lzw.LZWInputStream
+22:51:53.344 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lzw.LZWInputStream'.
+22:51:53.345 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lzw/LZWInputStream
+22:51:53.347 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lzw/LZWInputStream
+22:51:53.347 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_CODE_SIZE
+22:51:53.347 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNUSED_PREFIX
+22:51:53.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.lzw, -547169447
+22:51:53.348 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.CompressorInputStream
+22:51:53.348 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.CompressorInputStream'.
+22:51:53.348 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/CompressorInputStream
+22:51:53.353 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/CompressorInputStream
+22:51:53.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.CompressorInputStream
+22:51:53.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lzw.LZWInputStream
+22:51:53.354 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.UnshrinkingInputStream
+22:51:53.354 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ExplodingInputStream
+22:51:53.354 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ExplodingInputStream'.
+22:51:53.354 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ExplodingInputStream
+22:51:53.355 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/ExplodingInputStream
+22:51:53.356 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ExplodingInputStream
+22:51:53.356 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream
+22:51:53.356 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream'.
+22:51:53.357 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field EOF
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field START_BLOCK_STATE
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RAND_PART_A_STATE
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RAND_PART_B_STATE
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RAND_PART_C_STATE
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_RAND_PART_A_STATE
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_RAND_PART_B_STATE
+22:51:53.362 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_RAND_PART_C_STATE
+22:51:53.362 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream
+22:51:53.362 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipLong
+22:51:53.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipLong'.
+22:51:53.363 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipLong
+22:51:53.364 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipLong
+22:51:53.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipLong
+22:51:53.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.ByteUtils
+22:51:53.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.ByteUtils'.
+22:51:53.365 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/ByteUtils
+22:51:53.367 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/ByteUtils
+22:51:53.367 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.utils, -373561087
+22:51:53.367 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.ByteUtils
+22:51:53.368 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerLink
+22:51:53.368 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerLink'.
+22:51:53.368 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/DataProducerLink
+22:51:53.368 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/DataProducerLink
+22:51:53.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.DataProducer
+22:51:53.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.DataProducer'.
+22:51:53.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb, -827534905
+22:51:53.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.DataProducer
+22:51:53.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.AbstractDataProducer
+22:51:53.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.AbstractDataProducer'.
+22:51:53.369 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/AbstractDataProducer
+22:51:53.371 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/AbstractDataProducer
+22:51:53.371 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.AbstractDataProducer
+22:51:53.371 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerLink
+22:51:53.371 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.LsMapper
+22:51:53.371 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.LsMapper'.
+22:51:53.372 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/mapping/LsMapper
+22:51:53.373 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/mapping/LsMapper
+22:51:53.373 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb.mapping, 1591755687
+22:51:53.373 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.Mapper
+22:51:53.373 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.Mapper'.
+22:51:53.373 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.Mapper
+22:51:53.374 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.LsMapper
+22:51:53.374 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.LsMapper$ParseError
+22:51:53.374 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.LsMapper$ParseError'.
+22:51:53.374 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/mapping/LsMapper$ParseError
+22:51:53.374 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/mapping/LsMapper$ParseError
+22:51:53.374 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.LsMapper$ParseError
+22:51:53.375 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.Folder
+22:51:53.375 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.Folder'.
+22:51:53.376 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/Folder
+22:51:53.376 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/sevenz/Folder
+22:51:53.376 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.sevenz, 1404415368
+22:51:53.376 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.Folder
+22:51:53.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStream
+22:51:53.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStream'.
+22:51:53.377 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream
+22:51:53.379 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream
+22:51:53.380 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MIN_BACK_REFERENCE_LENGTH
+22:51:53.380 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MIN_OFFSET_OF_LAST_BACK_REFERENCE
+22:51:53.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.lz4, -547169514
+22:51:53.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStream
+22:51:53.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$Callback
+22:51:53.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.LZ77Compressor$Callback'.
+22:51:53.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.lz77support, 1171903953
+22:51:53.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$Callback
+22:51:53.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField
+22:51:53.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField'.
+22:51:53.382 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField
+22:51:53.383 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField
+22:51:53.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipExtraField
+22:51:53.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipExtraField'.
+22:51:53.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipExtraField
+22:51:53.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField
+22:51:53.385 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipShort
+22:51:53.385 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipShort'.
+22:51:53.385 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipShort
+22:51:53.386 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipShort
+22:51:53.386 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipShort
+22:51:53.387 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.Producers
+22:51:53.387 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.Producers'.
+22:51:53.387 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/Producers
+22:51:53.387 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/Producers
+22:51:53.387 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ROOT_UID
+22:51:53.387 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ROOT_NAME
+22:51:53.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.Producers
+22:51:53.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.MemoryLimitException
+22:51:53.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.MemoryLimitException'.
+22:51:53.388 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/MemoryLimitException
+22:51:53.389 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/MemoryLimitException
+22:51:53.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.tukaani.xz, -1782460427
+22:51:53.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.XZIOException
+22:51:53.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.XZIOException'.
+22:51:53.389 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/XZIOException
+22:51:53.389 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/XZIOException
+22:51:53.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.XZIOException
+22:51:53.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.MemoryLimitException
+22:51:53.390 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.LZMA2Options
+22:51:53.390 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.LZMA2Options'.
+22:51:53.390 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/LZMA2Options
+22:51:53.391 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/tukaani/xz/LZMA2Options
+22:51:53.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.FilterOptions
+22:51:53.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.FilterOptions'.
+22:51:53.392 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/FilterOptions
+22:51:53.392 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/FilterOptions
+22:51:53.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.FilterOptions
+22:51:53.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.LZMA2Options
+22:51:53.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.FilterEncoder
+22:51:53.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.FilterEncoder'.
+22:51:53.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.FilterCoder
+22:51:53.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.FilterCoder'.
+22:51:53.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.FilterCoder
+22:51:53.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.FilterEncoder
+22:51:53.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.UnsupportedOptionsException
+22:51:53.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.UnsupportedOptionsException'.
+22:51:53.394 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/UnsupportedOptionsException
+22:51:53.394 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/UnsupportedOptionsException
+22:51:53.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.UnsupportedOptionsException
+22:51:53.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.LZMA2InputStream
+22:51:53.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.LZMA2InputStream'.
+22:51:53.395 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/LZMA2InputStream
+22:51:53.397 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/LZMA2InputStream
+22:51:53.397 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DICT_SIZE_MIN
+22:51:53.397 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DICT_SIZE_MAX
+22:51:53.397 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field COMPRESSED_SIZE_MAX
+22:51:53.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.LZMA2InputStream
+22:51:53.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.FinishableOutputStream
+22:51:53.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.FinishableOutputStream'.
+22:51:53.398 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/FinishableOutputStream
+22:51:53.398 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/FinishableOutputStream
+22:51:53.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.FinishableOutputStream
+22:51:53.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.UncompressedLZMA2OutputStream
+22:51:53.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.UncompressedLZMA2OutputStream'.
+22:51:53.398 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/UncompressedLZMA2OutputStream
+22:51:53.399 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/UncompressedLZMA2OutputStream
+22:51:53.399 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.UncompressedLZMA2OutputStream
+22:51:53.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.LZMA2OutputStream
+22:51:53.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.LZMA2OutputStream'.
+22:51:53.400 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/LZMA2OutputStream
+22:51:53.401 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/tukaani/xz/LZMA2OutputStream
+22:51:53.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.LZMA2OutputStream
+22:51:53.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerArchive$EntryConverter
+22:51:53.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerArchive$EntryConverter'.
+22:51:53.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerArchive$EntryConverter
+22:51:53.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream
+22:51:53.402 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarArchiveOutputStream'.
+22:51:53.403 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarArchiveOutputStream
+22:51:53.408 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/tar/TarArchiveOutputStream
+22:51:53.408 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.tar, -1697841654
+22:51:53.408 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveOutputStream
+22:51:53.408 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveOutputStream'.
+22:51:53.409 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ArchiveOutputStream
+22:51:53.409 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/ArchiveOutputStream
+22:51:53.409 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BYTE_MASK
+22:51:53.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveOutputStream
+22:51:53.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream
+22:51:53.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.CountingOutputStream
+22:51:53.409 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.CountingOutputStream'.
+22:51:53.410 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/CountingOutputStream
+22:51:53.410 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/CountingOutputStream
+22:51:53.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.CountingOutputStream
+22:51:53.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipEncodingHelper
+22:51:53.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipEncodingHelper'.
+22:51:53.411 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+22:51:53.411 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+22:51:53.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipEncodingHelper
+22:51:53.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipEncoding
+22:51:53.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipEncoding'.
+22:51:53.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipEncoding
+22:51:53.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.Charsets
+22:51:53.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.Charsets'.
+22:51:53.413 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/Charsets
+22:51:53.413 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/utils/Charsets
+22:51:53.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.Charsets
+22:51:53.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.NioZipEncoding
+22:51:53.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.NioZipEncoding'.
+22:51:53.414 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/NioZipEncoding
+22:51:53.415 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/NioZipEncoding
+22:51:53.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.CharsetAccessor
+22:51:53.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.CharsetAccessor'.
+22:51:53.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.CharsetAccessor
+22:51:53.415 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.NioZipEncoding
+22:51:53.416 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.ByteUtils$ByteConsumer
+22:51:53.416 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.ByteUtils$ByteConsumer'.
+22:51:53.416 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.ByteUtils$ByteConsumer
+22:51:53.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.MemoryLimitException
+22:51:53.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.MemoryLimitException'.
+22:51:53.417 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/MemoryLimitException
+22:51:53.417 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/MemoryLimitException
+22:51:53.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress, -2023157186
+22:51:53.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.MemoryLimitException
+22:51:53.418 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.ByteUtils$ByteSupplier
+22:51:53.418 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.ByteUtils$ByteSupplier'.
+22:51:53.418 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.ByteUtils$ByteSupplier
+22:51:53.418 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.Archive
+22:51:53.418 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.Archive'.
+22:51:53.419 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/Archive
+22:51:53.419 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/sevenz/Archive
+22:51:53.419 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.Archive
+22:51:53.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.SingleXZInputStream
+22:51:53.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.SingleXZInputStream'.
+22:51:53.420 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/SingleXZInputStream
+22:51:53.421 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/SingleXZInputStream
+22:51:53.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.SingleXZInputStream
+22:51:53.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.CorruptedInputException
+22:51:53.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.CorruptedInputException'.
+22:51:53.421 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/CorruptedInputException
+22:51:53.421 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/CorruptedInputException
+22:51:53.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.CorruptedInputException
+22:51:53.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.IndexIndicatorException
+22:51:53.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.IndexIndicatorException'.
+22:51:53.422 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/IndexIndicatorException
+22:51:53.422 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/IndexIndicatorException
+22:51:53.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.IndexIndicatorException
+22:51:53.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.BitInputStream
+22:51:53.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.BitInputStream'.
+22:51:53.423 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/BitInputStream
+22:51:53.424 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/utils/BitInputStream
+22:51:53.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.BitInputStream
+22:51:53.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.XZInputStream
+22:51:53.425 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.XZInputStream'.
+22:51:53.425 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/XZInputStream
+22:51:53.425 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/XZInputStream
+22:51:53.425 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.XZInputStream
+22:51:53.426 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.XZFormatException
+22:51:53.426 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.XZFormatException'.
+22:51:53.426 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/XZFormatException
+22:51:53.426 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/XZFormatException
+22:51:53.426 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.XZFormatException
+22:51:53.427 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.arj.ArjArchiveEntry
+22:51:53.427 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.arj.ArjArchiveEntry'.
+22:51:53.427 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/arj/ArjArchiveEntry
+22:51:53.428 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/arj/ArjArchiveEntry
+22:51:53.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.arj, -1697859394
+22:51:53.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.arj.ArjArchiveEntry
+22:51:53.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.StreamingNotSupportedException
+22:51:53.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.StreamingNotSupportedException'.
+22:51:53.428 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/StreamingNotSupportedException
+22:51:53.429 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/StreamingNotSupportedException
+22:51:53.429 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveException
+22:51:53.429 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveException'.
+22:51:53.429 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ArchiveException
+22:51:53.429 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/ArchiveException
+22:51:53.429 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveException
+22:51:53.429 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.StreamingNotSupportedException
+22:51:53.430 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.cpio.CpioConstants
+22:51:53.430 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.cpio.CpioConstants'.
+22:51:53.430 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.cpio, -1093975922
+22:51:53.430 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.cpio.CpioConstants
+22:51:53.431 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.io.output.ByteArrayOutputStream
+22:51:53.431 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.io.output.ByteArrayOutputStream'.
+22:51:53.431 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/io/output/ByteArrayOutputStream
+22:51:53.432 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/io/output/ByteArrayOutputStream
+22:51:53.432 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.io.output, -651726995
+22:51:53.432 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.io.output.ByteArrayOutputStream
+22:51:53.433 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.io.input.ClosedInputStream
+22:51:53.433 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.io.input.ClosedInputStream'.
+22:51:53.433 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/io/input/ClosedInputStream
+22:51:53.433 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/io/input/ClosedInputStream
+22:51:53.433 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.io.input, -1966439458
+22:51:53.433 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.io.input.ClosedInputStream
+22:51:53.434 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.Parameters
+22:51:53.434 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.Parameters'.
+22:51:53.434 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz77support/Parameters
+22:51:53.435 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz77support/Parameters
+22:51:53.435 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TRUE_MIN_BACK_REFERENCE_LENGTH
+22:51:53.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.Parameters
+22:51:53.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.Zip64Mode
+22:51:53.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.Zip64Mode'.
+22:51:53.435 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/Zip64Mode
+22:51:53.436 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/Zip64Mode
+22:51:53.436 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.Zip64Mode
+22:51:53.436 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.io.IOUtils
+22:51:53.436 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.io.IOUtils'.
+22:51:53.437 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/io/IOUtils
+22:51:53.441 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/io/IOUtils
+22:51:53.443 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.io.IOUtils
+22:51:53.443 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.io.output.StringBuilderWriter
+22:51:53.443 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.io.output.StringBuilderWriter'.
+22:51:53.443 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/io/output/StringBuilderWriter
+22:51:53.444 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/io/output/StringBuilderWriter
+22:51:53.444 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.io.output.StringBuilderWriter
+22:51:53.445 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.VariableResolver
+22:51:53.445 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.VariableResolver'.
+22:51:53.446 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.VariableResolver
+22:51:53.446 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$LiteralBlock
+22:51:53.446 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.LZ77Compressor$LiteralBlock'.
+22:51:53.446 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz77support/LZ77Compressor$LiteralBlock
+22:51:53.446 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz77support/LZ77Compressor$LiteralBlock
+22:51:53.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$Block
+22:51:53.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.LZ77Compressor$Block'.
+22:51:53.447 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz77support/LZ77Compressor$Block
+22:51:53.447 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz77support/LZ77Compressor$Block
+22:51:53.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$Block
+22:51:53.447 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$LiteralBlock
+22:51:53.448 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.DumpArchiveSummary
+22:51:53.448 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.DumpArchiveSummary'.
+22:51:53.448 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/DumpArchiveSummary
+22:51:53.449 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/dump/DumpArchiveSummary
+22:51:53.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.dump, -1093941201
+22:51:53.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.DumpArchiveSummary
+22:51:53.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.rangecoder.RangeDecoderFromStream
+22:51:53.449 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.rangecoder.RangeDecoderFromStream'.
+22:51:53.450 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/rangecoder/RangeDecoderFromStream
+22:51:53.450 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/rangecoder/RangeDecoderFromStream
+22:51:53.450 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.tukaani.xz.rangecoder, 1316505761
+22:51:53.450 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.rangecoder.RangeDecoder
+22:51:53.450 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.rangecoder.RangeDecoder'.
+22:51:53.450 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/rangecoder/RangeDecoder
+22:51:53.450 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/rangecoder/RangeDecoder
+22:51:53.451 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.rangecoder.RangeCoder
+22:51:53.451 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.rangecoder.RangeCoder'.
+22:51:53.451 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/rangecoder/RangeCoder
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/rangecoder/RangeCoder
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SHIFT_BITS
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TOP_MASK
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BIT_MODEL_TOTAL_BITS
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BIT_MODEL_TOTAL
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PROB_INIT
+22:51:53.451 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MOVE_BITS
+22:51:53.451 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.rangecoder.RangeCoder
+22:51:53.451 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.rangecoder.RangeDecoder
+22:51:53.451 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.rangecoder.RangeDecoderFromStream
+22:51:53.451 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarUtils
+22:51:53.452 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarUtils'.
+22:51:53.452 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarUtils
+22:51:53.454 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/tar/TarUtils
+22:51:53.455 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarUtils
+22:51:53.455 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarUtils$1
+22:51:53.455 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarUtils$1'.
+22:51:53.456 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarUtils$1
+22:51:53.456 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarUtils$1
+22:51:53.456 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorInputStream
+22:51:53.456 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorInputStream'.
+22:51:53.457 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream
+22:51:53.458 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream
+22:51:53.458 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field WINDOW_SIZE
+22:51:53.458 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SIZE_BITS
+22:51:53.458 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BACK_REFERENCE_SIZE_MASK
+22:51:53.458 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field LITERAL_SIZE_MASK
+22:51:53.458 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.AbstractLZ77CompressorInputStream
+22:51:53.458 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.AbstractLZ77CompressorInputStream'.
+22:51:53.458 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz77support/AbstractLZ77CompressorInputStream
+22:51:53.460 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz77support/AbstractLZ77CompressorInputStream
+22:51:53.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.AbstractLZ77CompressorInputStream
+22:51:53.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorInputStream
+22:51:53.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.LZMAInputStream
+22:51:53.460 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.LZMAInputStream'.
+22:51:53.461 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/LZMAInputStream
+22:51:53.462 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/tukaani/xz/LZMAInputStream
+22:51:53.462 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.LZMAInputStream
+22:51:53.462 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry
+22:51:53.463 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.cpio.CpioArchiveEntry'.
+22:51:53.463 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/cpio/CpioArchiveEntry
+22:51:53.465 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/cpio/CpioArchiveEntry
+22:51:53.465 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry
+22:51:53.466 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.UnrecognizedFormatException
+22:51:53.466 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.UnrecognizedFormatException'.
+22:51:53.466 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/UnrecognizedFormatException
+22:51:53.466 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/dump/UnrecognizedFormatException
+22:51:53.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.DumpArchiveException
+22:51:53.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.DumpArchiveException'.
+22:51:53.467 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/DumpArchiveException
+22:51:53.467 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/dump/DumpArchiveException
+22:51:53.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.DumpArchiveException
+22:51:53.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.UnrecognizedFormatException
+22:51:53.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.GeneralPurposeBit
+22:51:53.467 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.GeneralPurposeBit'.
+22:51:53.468 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/GeneralPurposeBit
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/GeneralPurposeBit
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ENCRYPTION_FLAG
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SLIDING_DICTIONARY_SIZE_FLAG
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NUMBER_OF_SHANNON_FANO_TREES_FLAG
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DATA_DESCRIPTOR_FLAG
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field STRONG_ENCRYPTION_FLAG
+22:51:53.469 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UFT8_NAMES_FLAG
+22:51:53.469 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.GeneralPurposeBit
+22:51:53.469 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.FileNameUtil
+22:51:53.469 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.FileNameUtil'.
+22:51:53.470 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/FileNameUtil
+22:51:53.470 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/FileNameUtil
+22:51:53.470 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.FileNameUtil
+22:51:53.470 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lzma.LZMACompressorOutputStream
+22:51:53.470 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lzma.LZMACompressorOutputStream'.
+22:51:53.471 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lzma/LZMACompressorOutputStream
+22:51:53.471 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lzma/LZMACompressorOutputStream
+22:51:53.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.lzma, 217616114
+22:51:53.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lzma.LZMACompressorOutputStream
+22:51:53.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lzma.LZMAUtils
+22:51:53.471 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lzma.LZMAUtils'.
+22:51:53.472 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lzma/LZMAUtils
+22:51:53.472 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/lzma/LZMAUtils
+22:51:53.472 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lzma.LZMAUtils
+22:51:53.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lzma.LZMAUtils$CachedAvailability
+22:51:53.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lzma.LZMAUtils$CachedAvailability'.
+22:51:53.473 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lzma/LZMAUtils$CachedAvailability
+22:51:53.473 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/lzma/LZMAUtils$CachedAvailability
+22:51:53.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lzma.LZMAUtils$CachedAvailability
+22:51:53.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:53.473 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:53.474 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:53.474 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lzma.LZMACompressorInputStream
+22:51:53.474 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lzma.LZMACompressorInputStream'.
+22:51:53.474 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lzma/LZMACompressorInputStream
+22:51:53.475 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lzma/LZMACompressorInputStream
+22:51:53.475 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lzma.LZMACompressorInputStream
+22:51:53.475 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarArchiveInputStream
+22:51:53.475 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarArchiveInputStream'.
+22:51:53.475 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarArchiveInputStream
+22:51:53.477 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/tar/TarArchiveInputStream
+22:51:53.477 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SMALL_BUFFER_SIZE
+22:51:53.478 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarArchiveInputStream
+22:51:53.478 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.rangecoder.RangeEncoder
+22:51:53.478 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.rangecoder.RangeEncoder'.
+22:51:53.478 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/rangecoder/RangeEncoder
+22:51:53.479 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/tukaani/xz/rangecoder/RangeEncoder
+22:51:53.480 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.rangecoder.RangeEncoder
+22:51:53.480 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.jar.JarArchiveOutputStream
+22:51:53.480 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.jar.JarArchiveOutputStream'.
+22:51:53.481 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/jar/JarArchiveOutputStream
+22:51:53.481 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/jar/JarArchiveOutputStream
+22:51:53.481 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream
+22:51:53.481 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream'.
+22:51:53.482 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream
+22:51:53.486 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream
+22:51:53.487 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream
+22:51:53.487 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.jar.JarArchiveOutputStream
+22:51:53.488 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.Zip64RequiredException
+22:51:53.488 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.Zip64RequiredException'.
+22:51:53.488 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/Zip64RequiredException
+22:51:53.488 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/Zip64RequiredException
+22:51:53.489 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ARCHIVE_TOO_BIG_MESSAGE
+22:51:53.489 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TOO_MANY_ENTRIES_MESSAGE
+22:51:53.489 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.Zip64RequiredException
+22:51:53.490 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarConstants
+22:51:53.490 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarConstants'.
+22:51:53.490 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarConstants
+22:51:53.490 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream
+22:51:53.490 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream'.
+22:51:53.491 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream
+22:51:53.493 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream
+22:51:53.493 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream
+22:51:53.493 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.rangecoder.RangeEncoderToBuffer
+22:51:53.493 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.rangecoder.RangeEncoderToBuffer'.
+22:51:53.494 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/rangecoder/RangeEncoderToBuffer
+22:51:53.494 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/rangecoder/RangeEncoderToBuffer
+22:51:53.494 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.rangecoder.RangeEncoderToBuffer
+22:51:53.495 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.InvalidFormatException
+22:51:53.495 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.InvalidFormatException'.
+22:51:53.495 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/InvalidFormatException
+22:51:53.495 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/dump/InvalidFormatException
+22:51:53.495 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.InvalidFormatException
+22:51:53.496 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarArchiveEntry
+22:51:53.496 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarArchiveEntry'.
+22:51:53.496 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarArchiveEntry
+22:51:53.499 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/tar/TarArchiveEntry
+22:51:53.500 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarArchiveEntry
+22:51:53.501 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.CRC32VerifyingInputStream
+22:51:53.501 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.CRC32VerifyingInputStream'.
+22:51:53.501 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/CRC32VerifyingInputStream
+22:51:53.501 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/CRC32VerifyingInputStream
+22:51:53.501 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.ChecksumVerifyingInputStream
+22:51:53.502 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.ChecksumVerifyingInputStream'.
+22:51:53.502 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/ChecksumVerifyingInputStream
+22:51:53.502 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/ChecksumVerifyingInputStream
+22:51:53.503 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.ChecksumVerifyingInputStream
+22:51:53.503 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.CRC32VerifyingInputStream
+22:51:53.503 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream
+22:51:53.503 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream'.
+22:51:53.503 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/pack200/Pack200CompressorOutputStream
+22:51:53.504 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/pack200/Pack200CompressorOutputStream
+22:51:53.504 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.pack200, 426433449
+22:51:53.504 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream
+22:51:53.504 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.BoundedSeekableByteChannelInputStream
+22:51:53.504 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.BoundedSeekableByteChannelInputStream'.
+22:51:53.504 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream
+22:51:53.505 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream
+22:51:53.505 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_BUF_LEN
+22:51:53.505 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.BoundedSeekableByteChannelInputStream
+22:51:53.505 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.arj.LocalFileHeader
+22:51:53.505 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.arj.LocalFileHeader'.
+22:51:53.505 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/arj/LocalFileHeader
+22:51:53.506 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/arj/LocalFileHeader
+22:51:53.506 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.arj.LocalFileHeader
+22:51:53.506 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveStreamFactory
+22:51:53.506 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveStreamFactory'.
+22:51:53.506 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ArchiveStreamFactory
+22:51:53.508 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/ArchiveStreamFactory
+22:51:53.508 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveStreamProvider
+22:51:53.508 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveStreamProvider'.
+22:51:53.509 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveStreamProvider
+22:51:53.509 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveStreamFactory
+22:51:53.509 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ar.ArArchiveInputStream
+22:51:53.509 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ar.ArArchiveInputStream'.
+22:51:53.509 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ar/ArArchiveInputStream
+22:51:53.510 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/ar/ArArchiveInputStream
+22:51:53.510 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.ar, 1330703660
+22:51:53.511 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ar.ArArchiveInputStream
+22:51:53.511 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.arj.ArjArchiveInputStream
+22:51:53.511 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.arj.ArjArchiveInputStream'.
+22:51:53.511 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/arj/ArjArchiveInputStream
+22:51:53.513 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/arj/ArjArchiveInputStream
+22:51:53.513 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ARJ_MAGIC_1
+22:51:53.513 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ARJ_MAGIC_2
+22:51:53.513 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.arj.ArjArchiveInputStream
+22:51:53.513 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream
+22:51:53.513 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream'.
+22:51:53.514 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream
+22:51:53.515 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream
+22:51:53.516 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream
+22:51:53.516 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.DumpArchiveInputStream
+22:51:53.516 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.DumpArchiveInputStream'.
+22:51:53.516 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/DumpArchiveInputStream
+22:51:53.518 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/dump/DumpArchiveInputStream
+22:51:53.518 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.DumpArchiveInputStream
+22:51:53.518 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream
+22:51:53.518 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ar.ArArchiveOutputStream'.
+22:51:53.518 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ar/ArArchiveOutputStream
+22:51:53.519 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/ar/ArArchiveOutputStream
+22:51:53.519 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field LONGFILE_ERROR
+22:51:53.519 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field LONGFILE_BSD
+22:51:53.520 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream
+22:51:53.520 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream
+22:51:53.520 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream'.
+22:51:53.521 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream
+22:51:53.522 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream
+22:51:53.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.gzip, 217467050
+22:51:53.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream
+22:51:53.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.brotli.BrotliCompressorInputStream
+22:51:53.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.brotli.BrotliCompressorInputStream'.
+22:51:53.523 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStream
+22:51:53.523 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStream
+22:51:53.523 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.brotli, -1617910334
+22:51:53.523 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.brotli.BrotliCompressorInputStream
+22:51:53.523 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.UnparseableExtraFieldData
+22:51:53.523 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.UnparseableExtraFieldData'.
+22:51:53.523 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData
+22:51:53.524 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData
+22:51:53.524 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.UnparseableExtraFieldData
+22:51:53.524 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$BackReference
+22:51:53.524 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.LZ77Compressor$BackReference'.
+22:51:53.525 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz77support/LZ77Compressor$BackReference
+22:51:53.525 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz77support/LZ77Compressor$BackReference
+22:51:53.525 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.LZ77Compressor$BackReference
+22:51:53.525 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.xz.XZCompressorOutputStream
+22:51:53.525 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.xz.XZCompressorOutputStream'.
+22:51:53.525 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/xz/XZCompressorOutputStream
+22:51:53.526 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/xz/XZCompressorOutputStream
+22:51:53.526 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.xz, 1229275730
+22:51:53.526 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.xz.XZCompressorOutputStream
+22:51:53.527 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.rangecoder.RangeDecoderFromBuffer
+22:51:53.527 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.rangecoder.RangeDecoderFromBuffer'.
+22:51:53.527 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/rangecoder/RangeDecoderFromBuffer
+22:51:53.527 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/tukaani/xz/rangecoder/RangeDecoderFromBuffer
+22:51:53.527 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field INIT_SIZE
+22:51:53.527 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.rangecoder.RangeDecoderFromBuffer
+22:51:53.528 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.NullMapper
+22:51:53.528 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.NullMapper'.
+22:51:53.528 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/mapping/NullMapper
+22:51:53.528 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/mapping/NullMapper
+22:51:53.528 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.NullMapper
+22:51:53.529 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream$Data
+22:51:53.529 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream$Data'.
+22:51:53.529 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream$Data
+22:51:53.529 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream$Data
+22:51:53.529 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream$Data
+22:51:53.530 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveEntry
+22:51:53.530 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveEntry'.
+22:51:53.530 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveEntry
+22:51:53.533 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveEntry
+22:51:53.533 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.EntryStreamOffsets
+22:51:53.533 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.EntryStreamOffsets'.
+22:51:53.534 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.EntryStreamOffsets
+22:51:53.534 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveEntry
+22:51:53.535 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerArchive
+22:51:53.535 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerArchive'.
+22:51:53.535 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/DataProducerArchive
+22:51:53.537 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/DataProducerArchive
+22:51:53.537 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerArchive
+22:51:53.537 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.CompressorException
+22:51:53.537 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.CompressorException'.
+22:51:53.537 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/CompressorException
+22:51:53.538 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/CompressorException
+22:51:53.538 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.CompressorException
+22:51:53.538 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.PermMapper
+22:51:53.538 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.PermMapper'.
+22:51:53.538 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/mapping/PermMapper
+22:51:53.539 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/mapping/PermMapper
+22:51:53.539 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.PermMapper
+22:51:53.539 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerFile
+22:51:53.539 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerFile'.
+22:51:53.539 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/DataProducerFile
+22:51:53.540 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/DataProducerFile
+22:51:53.540 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerFile
+22:51:53.540 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStream
+22:51:53.540 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStream'.
+22:51:53.541 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStream
+22:51:53.543 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStream
+22:51:53.543 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStream
+22:51:53.543 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.BoundedInputStream
+22:51:53.543 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.BoundedInputStream'.
+22:51:53.543 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/BoundedInputStream
+22:51:53.544 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/BoundedInputStream
+22:51:53.544 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.BoundedInputStream
+22:51:53.544 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.ChecksumCalculatingInputStream
+22:51:53.544 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.ChecksumCalculatingInputStream'.
+22:51:53.544 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/ChecksumCalculatingInputStream
+22:51:53.545 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/ChecksumCalculatingInputStream
+22:51:53.545 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.ChecksumCalculatingInputStream
+22:51:53.545 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerDirectory
+22:51:53.545 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerDirectory'.
+22:51:53.545 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/DataProducerDirectory
+22:51:53.546 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/DataProducerDirectory
+22:51:53.546 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerDirectory
+22:51:53.546 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.xz.XZCompressorInputStream
+22:51:53.546 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.xz.XZCompressorInputStream'.
+22:51:53.547 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/xz/XZCompressorInputStream
+22:51:53.547 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/xz/XZCompressorInputStream
+22:51:53.547 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.xz.XZCompressorInputStream
+22:51:53.547 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream
+22:51:53.547 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream'.
+22:51:53.548 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream
+22:51:53.549 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream
+22:51:53.549 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field FNAME
+22:51:53.549 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field FCOMMENT
+22:51:53.549 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream
+22:51:53.549 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.snappy.SnappyCompressorOutputStream
+22:51:53.549 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.snappy.SnappyCompressorOutputStream'.
+22:51:53.549 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/snappy/SnappyCompressorOutputStream
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/snappy/SnappyCompressorOutputStream
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_LITERAL_SIZE_WITHOUT_SIZE_BYTES
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_LITERAL_SIZE_WITH_ONE_SIZE_BYTE
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_LITERAL_SIZE_WITH_TWO_SIZE_BYTES
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_LITERAL_SIZE_WITH_THREE_SIZE_BYTES
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ONE_SIZE_BYTE_MARKER
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TWO_SIZE_BYTE_MARKER
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field THREE_SIZE_BYTE_MARKER
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field FOUR_SIZE_BYTE_MARKER
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MIN_MATCH_LENGTH_WITH_ONE_OFFSET_BYTE
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_MATCH_LENGTH_WITH_ONE_OFFSET_BYTE
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_OFFSET_WITH_ONE_OFFSET_BYTE
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_OFFSET_WITH_TWO_OFFSET_BYTES
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ONE_BYTE_COPY_TAG
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TWO_BYTE_COPY_TAG
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field FOUR_BYTE_COPY_TAG
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MIN_MATCH_LENGTH
+22:51:53.550 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_MATCH_LENGTH
+22:51:53.550 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.snappy, -1135329629
+22:51:53.550 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.snappy.SnappyCompressorOutputStream
+22:51:53.551 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipEightByteInteger
+22:51:53.551 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipEightByteInteger'.
+22:51:53.551 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipEightByteInteger
+22:51:53.552 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipEightByteInteger
+22:51:53.552 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipEightByteInteger
+22:51:53.553 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream$1
+22:51:53.553 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream$1'.
+22:51:53.553 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream$1
+22:51:53.554 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream$1
+22:51:53.554 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.arj.MainHeader
+22:51:53.554 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.arj.MainHeader'.
+22:51:53.554 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/arj/MainHeader
+22:51:53.555 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/arj/MainHeader
+22:51:53.555 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.arj.MainHeader
+22:51:53.555 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream
+22:51:53.555 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream'.
+22:51:53.556 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream
+22:51:53.556 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream
+22:51:53.556 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_1
+22:51:53.556 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_2a
+22:51:53.556 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_2b
+22:51:53.556 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_2c
+22:51:53.556 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_2d
+22:51:53.556 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.deflate, -1516311845
+22:51:53.556 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream
+22:51:53.557 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.StartHeader
+22:51:53.557 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.StartHeader'.
+22:51:53.557 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/StartHeader
+22:51:53.557 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/sevenz/StartHeader
+22:51:53.557 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.StartHeader
+22:51:53.557 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStream$Pair
+22:51:53.557 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStream$Pair'.
+22:51:53.558 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream$Pair
+22:51:53.559 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream$Pair
+22:51:53.559 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStream$Pair
+22:51:53.559 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream$CurrentEntry
+22:51:53.559 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveInputStream$CurrentEntry'.
+22:51:53.559 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$CurrentEntry
+22:51:53.560 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$CurrentEntry
+22:51:53.560 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream$CurrentEntry
+22:51:53.561 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.z.ZCompressorInputStream
+22:51:53.561 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.z.ZCompressorInputStream'.
+22:51:53.561 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/z/ZCompressorInputStream
+22:51:53.562 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/z/ZCompressorInputStream
+22:51:53.562 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_1
+22:51:53.562 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAGIC_2
+22:51:53.562 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BLOCK_MODE_MASK
+22:51:53.562 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_CODE_SIZE_MASK
+22:51:53.562 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.compressors.z, 178201386
+22:51:53.562 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.z.ZCompressorInputStream
+22:51:53.562 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.CompressorStreamFactory
+22:51:53.562 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.CompressorStreamFactory'.
+22:51:53.563 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/CompressorStreamFactory
+22:51:53.564 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/CompressorStreamFactory
+22:51:53.565 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.CompressorStreamProvider
+22:51:53.565 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.CompressorStreamProvider'.
+22:51:53.565 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.CompressorStreamProvider
+22:51:53.565 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.CompressorStreamFactory
+22:51:53.565 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream
+22:51:53.565 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream'.
+22:51:53.566 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream
+22:51:53.566 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream
+22:51:53.567 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream
+22:51:53.567 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.snappy.SnappyCompressorInputStream
+22:51:53.567 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.snappy.SnappyCompressorInputStream'.
+22:51:53.567 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream
+22:51:53.568 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream
+22:51:53.568 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TAG_MASK
+22:51:53.568 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_BLOCK_SIZE
+22:51:53.568 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.snappy.SnappyCompressorInputStream
+22:51:53.568 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorInputStream
+22:51:53.568 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorInputStream'.
+22:51:53.569 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream
+22:51:53.569 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream
+22:51:53.570 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorInputStream
+22:51:53.570 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStream
+22:51:53.570 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStream'.
+22:51:53.570 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStream
+22:51:53.570 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStream
+22:51:53.571 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStream
+22:51:53.571 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorOutputStream
+22:51:53.571 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorOutputStream'.
+22:51:53.571 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorOutputStream
+22:51:53.571 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorOutputStream
+22:51:53.571 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_COMPRESSED_BUFFER_SIZE
+22:51:53.571 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorOutputStream
+22:51:53.572 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorOutputStream
+22:51:53.572 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorOutputStream'.
+22:51:53.572 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorOutputStream
+22:51:53.572 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorOutputStream
+22:51:53.573 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorOutputStream
+22:51:53.573 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.DumpArchiveEntry
+22:51:53.573 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.DumpArchiveEntry'.
+22:51:53.574 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/DumpArchiveEntry
+22:51:53.575 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/dump/DumpArchiveEntry
+22:51:53.575 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.DumpArchiveEntry
+22:51:53.575 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.Coder
+22:51:53.575 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.Coder'.
+22:51:53.576 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/Coder
+22:51:53.576 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/sevenz/Coder
+22:51:53.576 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.Coder
+22:51:53.576 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.xz.XZUtils$CachedAvailability
+22:51:53.576 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.xz.XZUtils$CachedAvailability'.
+22:51:53.577 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/xz/XZUtils$CachedAvailability
+22:51:53.577 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/xz/XZUtils$CachedAvailability
+22:51:53.577 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.xz.XZUtils$CachedAvailability
+22:51:53.577 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.pack200.StreamBridge
+22:51:53.577 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.pack200.StreamBridge'.
+22:51:53.577 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/pack200/StreamBridge
+22:51:53.578 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/pack200/StreamBridge
+22:51:53.578 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.pack200.StreamBridge
+22:51:53.578 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry
+22:51:53.578 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry'.
+22:51:53.579 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry
+22:51:53.580 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry
+22:51:53.580 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry
+22:51:53.580 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.tukaani.xz.XZ
+22:51:53.580 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.tukaani.xz.XZ'.
+22:51:53.581 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/tukaani/xz/XZ
+22:51:53.581 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/tukaani/xz/XZ
+22:51:53.581 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.tukaani.xz.XZ
+22:51:53.581 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.CloseShieldFilterInputStream
+22:51:53.581 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.CloseShieldFilterInputStream'.
+22:51:53.581 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/CloseShieldFilterInputStream
+22:51:53.582 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/utils/CloseShieldFilterInputStream
+22:51:53.582 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.CloseShieldFilterInputStream
+22:51:53.582 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz77support.Parameters$Builder
+22:51:53.582 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz77support.Parameters$Builder'.
+22:51:53.582 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz77support/Parameters$Builder
+22:51:53.583 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz77support/Parameters$Builder
+22:51:53.583 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz77support.Parameters$Builder
+22:51:53.584 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.gzip.GzipParameters
+22:51:53.584 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.gzip.GzipParameters'.
+22:51:53.585 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/gzip/GzipParameters
+22:51:53.585 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/gzip/GzipParameters
+22:51:53.585 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.gzip.GzipParameters
+22:51:53.585 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.lz4.XXHash32
+22:51:53.586 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.lz4.XXHash32'.
+22:51:53.586 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/lz4/XXHash32
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/compressors/lz4/XXHash32
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BUF_SIZE
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ROTATE_BITS
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PRIME1
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PRIME2
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PRIME3
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PRIME4
+22:51:53.586 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PRIME5
+22:51:53.586 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.lz4.XXHash32
+22:51:53.586 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.sevenz.SevenZFile
+22:51:53.586 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.sevenz.SevenZFile'.
+22:51:53.587 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/sevenz/SevenZFile
+22:51:53.592 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/sevenz/SevenZFile
+22:51:53.592 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.sevenz.SevenZFile
+22:51:53.593 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.compressors.xz.XZUtils
+22:51:53.593 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.compressors.xz.XZUtils'.
+22:51:53.594 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/compressors/xz/XZUtils
+22:51:53.594 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/compressors/xz/XZUtils
+22:51:53.594 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.compressors.xz.XZUtils
+22:51:53.594 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:53.595 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:53.595 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:53.595 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.DataConsumer
+22:51:53.595 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.DataConsumer'.
+22:51:53.595 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.DataConsumer
+22:51:53.597 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream$UnicodeExtraFieldPolicy
+22:51:53.597 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream$UnicodeExtraFieldPolicy'.
+22:51:53.597 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$UnicodeExtraFieldPolicy
+22:51:53.597 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$UnicodeExtraFieldPolicy
+22:51:53.597 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream$UnicodeExtraFieldPolicy
+22:51:53.597 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerFiles
+22:51:53.597 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerFiles'.
+22:51:53.598 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/DataProducerFiles
+22:51:53.598 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/DataProducerFiles
+22:51:53.598 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerFiles
+22:51:53.599 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.IOUtils
+22:51:53.599 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.IOUtils'.
+22:51:53.599 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/IOUtils
+22:51:53.600 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/utils/IOUtils
+22:51:53.600 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.IOUtils
+22:51:53.600 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.DumpArchiveConstants$SEGMENT_TYPE
+22:51:53.600 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.DumpArchiveConstants$SEGMENT_TYPE'.
+22:51:53.601 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/DumpArchiveConstants$SEGMENT_TYPE
+22:51:53.601 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/dump/DumpArchiveConstants$SEGMENT_TYPE
+22:51:53.601 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.DumpArchiveConstants$SEGMENT_TYPE
+22:51:53.601 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.jar.JarArchiveEntry
+22:51:53.601 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.jar.JarArchiveEntry'.
+22:51:53.602 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/jar/JarArchiveEntry
+22:51:53.602 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/jar/JarArchiveEntry
+22:51:53.602 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.jar.JarArchiveEntry
+22:51:53.602 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream$EntryMetaData
+22:51:53.602 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream$EntryMetaData'.
+22:51:53.602 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$EntryMetaData
+22:51:53.602 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$EntryMetaData
+22:51:53.603 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream$EntryMetaData
+22:51:53.603 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ar.ArArchiveEntry
+22:51:53.603 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ar.ArArchiveEntry'.
+22:51:53.603 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/ar/ArArchiveEntry
+22:51:53.604 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/compress/archivers/ar/ArArchiveEntry
+22:51:53.604 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field HEADER
+22:51:53.604 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TRAILER
+22:51:53.604 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_MODE
+22:51:53.604 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ar.ArArchiveEntry
+22:51:53.604 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.dump.DumpArchiveEntry$TYPE
+22:51:53.604 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.dump.DumpArchiveEntry$TYPE'.
+22:51:53.604 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/dump/DumpArchiveEntry$TYPE
+22:51:53.605 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/dump/DumpArchiveEntry$TYPE
+22:51:53.605 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.dump.DumpArchiveEntry$TYPE
+22:51:53.605 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.producers.DataProducerPathTemplate
+22:51:53.605 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.producers.DataProducerPathTemplate'.
+22:51:53.605 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/producers/DataProducerPathTemplate
+22:51:53.605 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/producers/DataProducerPathTemplate
+22:51:53.605 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.producers.DataProducerPathTemplate
+.22:51:53.991 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:53.991 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:53.992 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:53.992 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:53.992 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:53.992 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:53.998 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:53.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:53.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:53.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:53.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:53.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.027 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.027 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.027 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.030 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.036 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.036 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.039 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.039 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.039 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.039 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.039 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.039 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.044 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.044 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.044 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.044 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.044 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.044 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+.22:51:54.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+22:51:54.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.osgi.framework.BundleEvent
+22:51:54.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.osgi.framework.BundleEvent'.
+22:51:54.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/osgi/framework/BundleEvent.class' should be in target project, but could not be found!
+
+Time: 0.928
+
+OK (13 tests)
+

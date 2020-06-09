@@ -1,0 +1,136 @@
+[VERSION]: 28.0-jre
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.bj58.spat:argo-hello-world:war:1.0.0
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 81, column 12
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:jetty-maven-plugin is missing. @ line 60, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.bj58.spat:company-sample:war:1.0.0
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 84, column 21
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:jetty-maven-plugin is missing. @ line 63, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] 58.com argo                                                        [jar]
+[INFO] argo-hello-world                                                   [war]
+[INFO] company-sample                                                     [war]
+[INFO] 58.com argo                                                        [pom]
+[INFO] 
+[INFO] -------------------------< com.bj58.spat:argo >-------------------------
+[INFO] Building 58.com argo 1.0.0                                         [1/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ argo ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ argo ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    org.testng:testng:jar:6.8:test
+[INFO]    com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    org.mockito:mockito-all:jar:1.9.5:test
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    commons-lang:commons-lang:jar:2.4:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[INFO]    org.checkerframework:checker-qual:jar:2.8.1:compile
+[INFO]    log4j:log4j:jar:1.2.16:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    com.google.inject:guice:jar:3.0:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[INFO]    com.beust:jcommander:jar:1.27:test
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.3.2:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.yaml:snakeyaml:jar:1.6:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.2:compile
+[INFO]    com.google.guava:guava:jar:28.0-jre:compile
+[INFO]    org.apache.velocity:velocity:jar:1.7:compile
+[INFO]    org.javassist:javassist:jar:3.17.1-GA:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ argo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ argo ---
+[INFO] Compiling 109 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[4,19] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/internal/ControllerInfo.java:[112,82] error: <anonymous com.bj58.argo.internal.ControllerInfo$1> is not abstract and does not override abstract method test(Method) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/internal/DefaultArgoDispatcher.java:[72,22] error: no suitable method found for closeQuietly(ArgoRequest)
+[ERROR]     method Closeables.closeQuietly(InputStream) is not applicable
+      (argument mismatch; ArgoRequest cannot be converted to InputStream)
+    method Closeables.closeQuietly(Reader) is not applicable
+      (argument mismatch; ArgoRequest cannot be converted to Reader)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[20,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[25,13] IPAddressUtil is internal proprietary API and may be removed in a future release
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] 
+[INFO] -------------------< com.bj58.spat:argo-hello-world >-------------------
+[INFO] Building argo-hello-world 1.0.0                                    [2/4]
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/bj58/spat/argo/1.0.0/argo-1.0.0.jar
+[INFO] 
+[INFO] --------------------< com.bj58.spat:company-sample >--------------------
+[INFO] Building company-sample 1.0.0                                      [3/4]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] ---------------------< com.bj58.spat:argo-project >---------------------
+[INFO] Building 58.com argo 1.0-SNAPSHOT                                  [4/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ argo-project ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ argo-project ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    none
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] 58.com argo 1.0.0 .................................. FAILURE [  1.740 s]
+[INFO] argo-hello-world 1.0.0 ............................. FAILURE [  1.433 s]
+[INFO] company-sample 1.0.0 ............................... FAILURE [  0.006 s]
+[INFO] 58.com argo 1.0-SNAPSHOT ........................... SUCCESS [  0.005 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.364 s
+[INFO] Finished at: 2019-08-14T19:09:18+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project argo: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[4,19] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/internal/ControllerInfo.java:[112,82] error: <anonymous com.bj58.argo.internal.ControllerInfo$1> is not abstract and does not override abstract method test(Method) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/internal/DefaultArgoDispatcher.java:[72,22] error: no suitable method found for closeQuietly(ArgoRequest)
+[ERROR]     method Closeables.closeQuietly(InputStream) is not applicable
+[ERROR]       (argument mismatch; ArgoRequest cannot be converted to InputStream)
+[ERROR]     method Closeables.closeQuietly(Reader) is not applicable
+[ERROR]       (argument mismatch; ArgoRequest cannot be converted to Reader)
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[20,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/Argo/core/src/main/java/com/bj58/argo/utils/NetUtils.java:[25,13] IPAddressUtil is internal proprietary API and may be removed in a future release
+[ERROR] -> [Help 1]
+[ERROR] Failed to execute goal on project argo-hello-world: Could not resolve dependencies for project com.bj58.spat:argo-hello-world:war:1.0.0: Could not find artifact com.bj58.spat:argo:jar:1.0.0 in central (https://repo.maven.apache.org/maven2) -> [Help 2]
+[ERROR] Failed to execute goal on project company-sample: Could not resolve dependencies for project com.bj58.spat:company-sample:war:1.0.0: Failure to find com.bj58.spat:argo:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

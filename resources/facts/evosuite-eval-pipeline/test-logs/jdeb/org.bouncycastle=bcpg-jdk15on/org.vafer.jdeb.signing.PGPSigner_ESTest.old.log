@@ -1,0 +1,534 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/jdeb/org.bouncycastle=bcpg-jdk15on/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jdeb/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jdeb/org.bouncycastle=bcpg-jdk15on/bcpg-jdk15on-1.60.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore org.vafer.jdeb.signing.PGPSigner_ESTestJUnit version 4.12
+17:15:26.915 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.signing.PGPSigner_ESTest
+17:15:26.917 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.signing.PGPSigner_ESTest'.
+17:15:26.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.signing.PGPSigner_ESTest_scaffolding
+17:15:26.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.signing.PGPSigner_ESTest_scaffolding'.
+17:15:26.973 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.signing.PGPSigner_ESTest_scaffolding
+17:15:26.973 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.signing.PGPSigner_ESTest
+17:15:27.046 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+17:15:27.046 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+17:15:27.046 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+17:15:27.046 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+17:15:27.046 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+17:15:27.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.BCPGInputStream$PartialInputStream
+17:15:27.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.BCPGInputStream$PartialInputStream'.
+17:15:27.122 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/BCPGInputStream$PartialInputStream
+17:15:27.209 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/BCPGInputStream$PartialInputStream
+17:15:27.209 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.bcpg, 752934024
+17:15:27.209 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.BCPGInputStream$PartialInputStream
+17:15:27.210 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.Strings$1
+17:15:27.210 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.Strings$1'.
+17:15:27.257 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/Strings$1
+17:15:27.258 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.util, 753516178
+17:15:27.258 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.Strings$1
+17:15:27.259 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.io.Streams
+17:15:27.259 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.io.Streams'.
+17:15:27.259 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/io/Streams
+17:15:27.261 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/util/io/Streams
+17:15:27.261 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.util.io, -1793549822
+17:15:27.261 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.io.Streams
+17:15:27.261 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.io.StreamOverflowException
+17:15:27.261 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.io.StreamOverflowException'.
+17:15:27.262 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/io/StreamOverflowException
+17:15:27.262 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/util/io/StreamOverflowException
+17:15:27.262 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.io.StreamOverflowException
+17:15:27.262 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SignatureSubpacket
+17:15:27.262 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SignatureSubpacket'.
+17:15:27.264 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SignatureSubpacket
+17:15:27.264 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SignatureSubpacket
+17:15:27.264 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SignatureSubpacket
+17:15:27.265 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPException
+17:15:27.265 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPException'.
+17:15:27.265 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPException
+17:15:27.266 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPException
+17:15:27.266 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.openpgp, 1353274943
+17:15:27.266 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPException
+17:15:27.266 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.attr.ImageAttribute
+17:15:27.266 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.attr.ImageAttribute'.
+17:15:27.267 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/attr/ImageAttribute
+17:15:27.269 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/bcpg/attr/ImageAttribute
+17:15:27.269 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.bcpg.attr, 873581463
+17:15:27.269 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.UserAttributeSubpacket
+17:15:27.269 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.UserAttributeSubpacket'.
+17:15:27.270 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/UserAttributeSubpacket
+17:15:27.271 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/UserAttributeSubpacket
+17:15:27.271 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.UserAttributeSubpacket
+17:15:27.271 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.attr.ImageAttribute
+17:15:27.271 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.apache.bzip2.CBZip2InputStream
+17:15:27.271 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.apache.bzip2.CBZip2InputStream'.
+17:15:27.272 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/apache/bzip2/CBZip2InputStream
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/apache/bzip2/CBZip2InputStream
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field START_BLOCK_STATE
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RAND_PART_A_STATE
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RAND_PART_B_STATE
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RAND_PART_C_STATE
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_RAND_PART_A_STATE
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_RAND_PART_B_STATE
+17:15:27.279 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_RAND_PART_C_STATE
+17:15:27.279 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.apache.bzip2, 764967555
+17:15:27.279 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.apache.bzip2.BZip2Constants
+17:15:27.279 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.apache.bzip2.BZip2Constants'.
+17:15:27.281 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.apache.bzip2.BZip2Constants
+17:15:27.281 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.apache.bzip2.CBZip2InputStream
+17:15:27.283 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPContentVerifierBuilder
+17:15:27.283 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPContentVerifierBuilder'.
+17:15:27.283 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.openpgp.operator, -1375708301
+17:15:27.283 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPContentVerifierBuilder
+17:15:27.284 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.S2K
+17:15:27.284 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.S2K'.
+17:15:27.284 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/S2K
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/S2K
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field EXPBIAS
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SIMPLE
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SALTED
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SALTED_AND_ITERATED
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field GNU_DUMMY_S2K
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field GNU_PROTECTION_MODE_NO_PRIVATE_KEY
+17:15:27.285 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field GNU_PROTECTION_MODE_DIVERT_TO_CARD
+17:15:27.285 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.BCPGObject
+17:15:27.285 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.BCPGObject'.
+17:15:27.286 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/BCPGObject
+17:15:27.290 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/BCPGObject
+17:15:27.290 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.Encodable
+17:15:27.290 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.Encodable'.
+17:15:27.291 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.Encodable
+17:15:27.291 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.BCPGObject
+17:15:27.291 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.S2K
+17:15:27.291 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.MPInteger
+17:15:27.291 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.MPInteger'.
+17:15:27.292 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/MPInteger
+17:15:27.293 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/MPInteger
+17:15:27.293 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.MPInteger
+17:15:27.294 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.CompressedDataPacket
+17:15:27.294 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.CompressedDataPacket'.
+17:15:27.294 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/CompressedDataPacket
+17:15:27.294 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/CompressedDataPacket
+17:15:27.294 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.InputStreamPacket
+17:15:27.294 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.InputStreamPacket'.
+17:15:27.295 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/InputStreamPacket
+17:15:27.296 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/InputStreamPacket
+17:15:27.296 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.Packet
+17:15:27.296 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.Packet'.
+17:15:27.296 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/Packet
+17:15:27.297 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/Packet
+17:15:27.297 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.PacketTags
+17:15:27.297 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.PacketTags'.
+17:15:27.297 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.PacketTags
+17:15:27.297 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.Packet
+17:15:27.297 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.InputStreamPacket
+17:15:27.297 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.CompressedDataPacket
+17:15:27.298 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.ContainedPacket
+17:15:27.298 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.ContainedPacket'.
+17:15:27.298 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/ContainedPacket
+17:15:27.299 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/ContainedPacket
+17:15:27.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.ContainedPacket
+17:15:27.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPPublicKey
+17:15:27.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPPublicKey'.
+17:15:27.300 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPPublicKey
+17:15:27.307 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/openpgp/PGPPublicKey
+17:15:27.307 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.PublicKeyAlgorithmTags
+17:15:27.307 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.PublicKeyAlgorithmTags'.
+17:15:27.308 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.PublicKeyAlgorithmTags
+17:15:27.308 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPPublicKey
+17:15:27.308 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.PublicKeyPacket
+17:15:27.308 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.PublicKeyPacket'.
+17:15:27.309 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/PublicKeyPacket
+17:15:27.311 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/PublicKeyPacket
+17:15:27.311 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.PublicKeyPacket
+17:15:27.311 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.TrustPacket
+17:15:27.311 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.TrustPacket'.
+17:15:27.311 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/TrustPacket
+17:15:27.312 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/TrustPacket
+17:15:27.312 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.TrustPacket
+17:15:27.312 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.BCPGOutputStream
+17:15:27.312 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.BCPGOutputStream'.
+17:15:27.313 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/BCPGOutputStream
+17:15:27.315 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/BCPGOutputStream
+17:15:27.315 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BUF_SIZE_POWER
+17:15:27.315 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.CompressionAlgorithmTags
+17:15:27.315 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.CompressionAlgorithmTags'.
+17:15:27.316 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.CompressionAlgorithmTags
+17:15:27.316 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.BCPGOutputStream
+17:15:27.316 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.UserIDPacket
+17:15:27.316 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.UserIDPacket'.
+17:15:27.316 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/UserIDPacket
+17:15:27.317 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/UserIDPacket
+17:15:27.317 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.UserIDPacket
+17:15:27.317 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.UserAttributePacket
+17:15:27.317 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.UserAttributePacket'.
+17:15:27.317 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/UserAttributePacket
+17:15:27.318 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/UserAttributePacket
+17:15:27.318 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.UserAttributePacket
+17:15:27.318 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPUserAttributeSubpacketVector
+17:15:27.318 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPUserAttributeSubpacketVector'.
+17:15:27.318 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPUserAttributeSubpacketVector
+17:15:27.319 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPUserAttributeSubpacketVector
+17:15:27.319 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPUserAttributeSubpacketVector
+17:15:27.320 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.KeyFingerPrintCalculator
+17:15:27.320 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.KeyFingerPrintCalculator'.
+17:15:27.321 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.KeyFingerPrintCalculator
+17:15:27.321 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPSignatureSubpacketVector
+17:15:27.321 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPSignatureSubpacketVector'.
+17:15:27.321 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPSignatureSubpacketVector
+17:15:27.323 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPSignatureSubpacketVector
+17:15:27.323 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPSignatureSubpacketVector
+17:15:27.323 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.signing.PGPSigner
+17:15:27.323 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.signing.PGPSigner'.
+17:15:27.324 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/signing/PGPSigner
+17:15:27.325 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/signing/PGPSigner
+17:15:27.325 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.signing.PGPSigner
+17:15:27.325 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPContentSignerBuilder
+17:15:27.325 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPContentSignerBuilder'.
+17:15:27.326 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPContentSignerBuilder
+17:15:27.326 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.ArmoredOutputStream
+17:15:27.326 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.ArmoredOutputStream'.
+17:15:27.327 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/ArmoredOutputStream
+17:15:27.329 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/bcpg/ArmoredOutputStream
+17:15:27.329 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.ArmoredOutputStream
+17:15:27.330 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPDigestCalculatorProvider
+17:15:27.330 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPDigestCalculatorProvider'.
+17:15:27.330 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPDigestCalculatorProvider
+17:15:27.330 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.DLOutputStream
+17:15:27.330 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.DLOutputStream'.
+17:15:27.331 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/asn1/DLOutputStream
+17:15:27.332 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/asn1/DLOutputStream
+17:15:27.332 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.asn1, 752919493
+17:15:27.332 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.ASN1OutputStream
+17:15:27.332 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.ASN1OutputStream'.
+17:15:27.332 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/asn1/ASN1OutputStream
+17:15:27.334 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/asn1/ASN1OutputStream
+17:15:27.334 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.ASN1OutputStream
+17:15:27.334 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.DLOutputStream
+17:15:27.334 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.ASN1OutputStream$ImplicitOutputStream
+17:15:27.334 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.ASN1OutputStream$ImplicitOutputStream'.
+17:15:27.334 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/asn1/ASN1OutputStream$ImplicitOutputStream
+17:15:27.335 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/asn1/ASN1OutputStream$ImplicitOutputStream
+17:15:27.335 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.ASN1OutputStream$ImplicitOutputStream
+17:15:27.335 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.DEROutputStream
+17:15:27.335 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.DEROutputStream'.
+17:15:27.335 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/asn1/DEROutputStream
+17:15:27.336 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/asn1/DEROutputStream
+17:15:27.336 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.DEROutputStream
+17:15:27.336 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.encoders.Base64Encoder
+17:15:27.337 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.encoders.Base64Encoder'.
+17:15:27.337 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/encoders/Base64Encoder
+17:15:27.339 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/util/encoders/Base64Encoder
+17:15:27.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.util.encoders, 660182707
+17:15:27.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.encoders.Encoder
+17:15:27.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.encoders.Encoder'.
+17:15:27.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.encoders.Encoder
+17:15:27.339 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.encoders.Base64Encoder
+17:15:27.340 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPKeyRing
+17:15:27.340 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPKeyRing'.
+17:15:27.340 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPKeyRing
+17:15:27.343 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPKeyRing
+17:15:27.343 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPKeyRing
+17:15:27.343 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPCompressedData
+17:15:27.343 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPCompressedData'.
+17:15:27.344 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPCompressedData
+17:15:27.344 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPCompressedData
+17:15:27.344 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPCompressedData
+17:15:27.344 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.BCPGInputStream
+17:15:27.344 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.BCPGInputStream'.
+17:15:27.345 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/BCPGInputStream
+17:15:27.346 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/BCPGInputStream
+17:15:27.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.BCPGInputStream
+17:15:27.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPCompressedData$1
+17:15:27.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPCompressedData$1'.
+17:15:27.347 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPCompressedData$1
+17:15:27.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPCompressedData$1
+17:15:27.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPCompressedData$2
+17:15:27.347 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPCompressedData$2'.
+17:15:27.348 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPCompressedData$2
+17:15:27.348 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPCompressedData$2
+17:15:27.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.sig.Features
+17:15:27.349 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.sig.Features'.
+17:15:27.349 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/sig/Features
+17:15:27.350 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/sig/Features
+17:15:27.350 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field FEATURE_MODIFICATION_DETECTION
+17:15:27.350 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.bcpg.sig, -525992341
+17:15:27.350 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.sig.Features
+17:15:27.351 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.ASN1Primitive
+17:15:27.351 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.ASN1Primitive'.
+17:15:27.351 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/asn1/ASN1Primitive
+17:15:27.352 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/asn1/ASN1Primitive
+17:15:27.352 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.ASN1Object
+17:15:27.352 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.ASN1Object'.
+17:15:27.352 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/asn1/ASN1Object
+17:15:27.353 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/asn1/ASN1Object
+17:15:27.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.asn1.ASN1Encodable
+17:15:27.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.asn1.ASN1Encodable'.
+17:15:27.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.ASN1Encodable
+17:15:27.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.ASN1Object
+17:15:27.353 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.asn1.ASN1Primitive
+17:15:27.354 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SignaturePacket
+17:15:27.354 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SignaturePacket'.
+17:15:27.354 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SignaturePacket
+17:15:27.357 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SignaturePacket
+17:15:27.357 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SignaturePacket
+17:15:27.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPContentVerifierBuilderProvider
+17:15:27.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPContentVerifierBuilderProvider'.
+17:15:27.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPContentVerifierBuilderProvider
+17:15:27.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.crypto.CryptoException
+17:15:27.358 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.crypto.CryptoException'.
+17:15:27.359 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/crypto/CryptoException
+17:15:27.359 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/crypto/CryptoException
+17:15:27.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.crypto, 2057853777
+17:15:27.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.crypto.CryptoException
+17:15:27.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SymmetricEncDataPacket
+17:15:27.359 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SymmetricEncDataPacket'.
+17:15:27.360 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SymmetricEncDataPacket
+17:15:27.360 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SymmetricEncDataPacket
+17:15:27.360 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SymmetricEncDataPacket
+17:15:27.360 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.crypto.InvalidCipherTextException
+17:15:27.360 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.crypto.InvalidCipherTextException'.
+17:15:27.360 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/crypto/InvalidCipherTextException
+17:15:27.360 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/crypto/InvalidCipherTextException
+17:15:27.361 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.crypto.InvalidCipherTextException
+17:15:27.361 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.PublicKeyEncSessionPacket
+17:15:27.361 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.PublicKeyEncSessionPacket'.
+17:15:27.362 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/PublicKeyEncSessionPacket
+17:15:27.363 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/PublicKeyEncSessionPacket
+17:15:27.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.PublicKeyEncSessionPacket
+17:15:27.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.OnePassSignaturePacket
+17:15:27.363 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.OnePassSignaturePacket'.
+17:15:27.364 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/OnePassSignaturePacket
+17:15:27.364 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/OnePassSignaturePacket
+17:15:27.364 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.OnePassSignaturePacket
+17:15:27.364 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.bc.BcPBESecretKeyDecryptorBuilder$1
+17:15:27.364 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.bc.BcPBESecretKeyDecryptorBuilder$1'.
+17:15:27.365 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/operator/bc/BcPBESecretKeyDecryptorBuilder$1
+17:15:27.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.openpgp.operator.bc, -1148009316
+17:15:27.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PBESecretKeyDecryptor
+17:15:27.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PBESecretKeyDecryptor'.
+17:15:27.366 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/operator/PBESecretKeyDecryptor
+17:15:27.366 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/operator/PBESecretKeyDecryptor
+17:15:27.366 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PBESecretKeyDecryptor
+17:15:27.366 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.bc.BcPBESecretKeyDecryptorBuilder$1
+17:15:27.366 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SecretSubkeyPacket
+17:15:27.366 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SecretSubkeyPacket'.
+17:15:27.367 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SecretSubkeyPacket
+17:15:27.367 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SecretSubkeyPacket
+17:15:27.367 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SecretKeyPacket
+17:15:27.367 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SecretKeyPacket'.
+17:15:27.367 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SecretKeyPacket
+17:15:27.368 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SecretKeyPacket
+17:15:27.368 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field USAGE_NONE
+17:15:27.368 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field USAGE_CHECKSUM
+17:15:27.368 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field USAGE_SHA1
+17:15:27.368 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SecretKeyPacket
+17:15:27.368 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SecretSubkeyPacket
+17:15:27.368 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.PublicSubkeyPacket
+17:15:27.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.PublicSubkeyPacket'.
+17:15:27.369 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/PublicSubkeyPacket
+17:15:27.369 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/PublicSubkeyPacket
+17:15:27.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.PublicSubkeyPacket
+17:15:27.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.CRC24
+17:15:27.369 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.CRC24'.
+17:15:27.370 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/CRC24
+17:15:27.370 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/CRC24
+17:15:27.370 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field CRC24_INIT
+17:15:27.370 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field CRC24_POLY
+17:15:27.370 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.CRC24
+17:15:27.370 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPSignatureList
+17:15:27.370 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPSignatureList'.
+17:15:27.371 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPSignatureList
+17:15:27.371 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPSignatureList
+17:15:27.371 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.Iterable
+17:15:27.371 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.Iterable'.
+17:15:27.372 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.Iterable
+17:15:27.372 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPSignatureList
+17:15:27.372 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPSecretKeyRingCollection
+17:15:27.372 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPSecretKeyRingCollection'.
+17:15:27.373 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPSecretKeyRingCollection
+17:15:27.374 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPSecretKeyRingCollection
+17:15:27.374 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPSecretKeyRingCollection
+17:15:27.375 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.ExperimentalPacket
+17:15:27.375 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.ExperimentalPacket'.
+17:15:27.375 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/ExperimentalPacket
+17:15:27.376 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/ExperimentalPacket
+17:15:27.376 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.ExperimentalPacket
+17:15:27.376 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.BCPGKey
+17:15:27.376 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.BCPGKey'.
+17:15:27.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.BCPGKey
+17:15:27.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PBEProtectionRemoverFactory
+17:15:27.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PBEProtectionRemoverFactory'.
+17:15:27.377 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PBEProtectionRemoverFactory
+17:15:27.378 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SymmetricKeyEncSessionPacket
+17:15:27.378 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SymmetricKeyEncSessionPacket'.
+17:15:27.378 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SymmetricKeyEncSessionPacket
+17:15:27.378 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SymmetricKeyEncSessionPacket
+17:15:27.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SymmetricKeyEncSessionPacket
+17:15:27.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.MarkerPacket
+17:15:27.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.MarkerPacket'.
+17:15:27.379 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/MarkerPacket
+17:15:27.379 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/MarkerPacket
+17:15:27.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.MarkerPacket
+17:15:27.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.LiteralDataPacket
+17:15:27.379 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.LiteralDataPacket'.
+17:15:27.380 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/LiteralDataPacket
+17:15:27.380 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/LiteralDataPacket
+17:15:27.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.LiteralDataPacket
+17:15:27.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.SymmetricEncIntegrityPacket
+17:15:27.380 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.SymmetricEncIntegrityPacket'.
+17:15:27.381 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/SymmetricEncIntegrityPacket
+17:15:27.381 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/SymmetricEncIntegrityPacket
+17:15:27.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.SymmetricEncIntegrityPacket
+17:15:27.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.ModDetectionCodePacket
+17:15:27.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.ModDetectionCodePacket'.
+17:15:27.381 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/ModDetectionCodePacket
+17:15:27.381 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/ModDetectionCodePacket
+17:15:27.381 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.ModDetectionCodePacket
+17:15:27.382 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.bc.BcPGPDigestCalculatorProvider
+17:15:27.382 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.bc.BcPGPDigestCalculatorProvider'.
+17:15:27.382 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/operator/bc/BcPGPDigestCalculatorProvider
+17:15:27.383 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/operator/bc/BcPGPDigestCalculatorProvider
+17:15:27.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.bc.BcPGPDigestCalculatorProvider
+17:15:27.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPDigestCalculator
+17:15:27.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPDigestCalculator'.
+17:15:27.383 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPDigestCalculator
+17:15:27.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.encoders.EncoderException
+17:15:27.384 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.encoders.EncoderException'.
+17:15:27.384 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/encoders/EncoderException
+17:15:27.385 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/util/encoders/EncoderException
+17:15:27.385 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.encoders.EncoderException
+17:15:27.385 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPSecretKeyRing
+17:15:27.385 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPSecretKeyRing'.
+17:15:27.386 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPSecretKeyRing
+17:15:27.387 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPSecretKeyRing
+17:15:27.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPSecretKeyRing
+17:15:27.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPKeyPair
+17:15:27.388 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPKeyPair'.
+17:15:27.389 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPKeyPair
+17:15:27.389 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPKeyPair
+17:15:27.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPKeyPair
+17:15:27.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.HashAlgorithmTags
+17:15:27.389 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.HashAlgorithmTags'.
+17:15:27.390 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.HashAlgorithmTags
+17:15:27.390 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPPublicKeyRing
+17:15:27.390 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPPublicKeyRing'.
+17:15:27.390 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPPublicKeyRing
+17:15:27.392 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPPublicKeyRing
+17:15:27.392 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPPublicKeyRing
+17:15:27.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.encoders.DecoderException
+17:15:27.393 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.encoders.DecoderException'.
+17:15:27.393 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/encoders/DecoderException
+17:15:27.394 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/util/encoders/DecoderException
+17:15:27.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.encoders.DecoderException
+17:15:27.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.jcajce.JcaKeyFingerprintCalculator
+17:15:27.394 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.jcajce.JcaKeyFingerprintCalculator'.
+17:15:27.394 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/operator/jcajce/JcaKeyFingerprintCalculator
+17:15:27.395 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/operator/jcajce/JcaKeyFingerprintCalculator
+17:15:27.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.bouncycastle.openpgp.operator.jcajce, -2097443361
+17:15:27.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.jcajce.JcaKeyFingerprintCalculator
+17:15:27.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPUtil$BufferedInputStreamExt
+17:15:27.395 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPUtil$BufferedInputStreamExt'.
+17:15:27.395 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPUtil$BufferedInputStreamExt
+17:15:27.396 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPUtil$BufferedInputStreamExt
+17:15:27.396 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPUtil$BufferedInputStreamExt
+17:15:27.396 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPPrivateKey
+17:15:27.396 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPPrivateKey'.
+17:15:27.396 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPPrivateKey
+17:15:27.397 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPPrivateKey
+17:15:27.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPPrivateKey
+17:15:27.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPContentVerifier
+17:15:27.397 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPContentVerifier'.
+17:15:27.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPContentVerifier
+17:15:27.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.Strings$StringListImpl
+17:15:27.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.Strings$StringListImpl'.
+17:15:27.398 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/Strings$StringListImpl
+17:15:27.398 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/util/Strings$StringListImpl
+17:15:27.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.StringList
+17:15:27.398 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.StringList'.
+17:15:27.399 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.StringList
+17:15:27.399 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.Strings$StringListImpl
+17:15:27.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPSecretKey
+17:15:27.400 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPSecretKey'.
+17:15:27.400 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPSecretKey
+17:15:27.405 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPSecretKey
+17:15:27.405 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPSecretKey
+17:15:27.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPObjectFactory
+17:15:27.406 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPObjectFactory'.
+17:15:27.407 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPObjectFactory
+17:15:27.408 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPObjectFactory
+17:15:27.408 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPObjectFactory
+17:15:27.408 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPLiteralData
+17:15:27.408 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPLiteralData'.
+17:15:27.409 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPLiteralData
+17:15:27.410 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/openpgp/PGPLiteralData
+17:15:27.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPLiteralData
+17:15:27.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.bc.BcPBESecretKeyDecryptorBuilder
+17:15:27.410 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.bc.BcPBESecretKeyDecryptorBuilder'.
+17:15:27.411 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/operator/bc/BcPBESecretKeyDecryptorBuilder
+17:15:27.411 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/operator/bc/BcPBESecretKeyDecryptorBuilder
+17:15:27.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.bc.BcPBESecretKeyDecryptorBuilder
+17:15:27.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.sig.SignatureTarget
+17:15:27.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.sig.SignatureTarget'.
+17:15:27.412 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/sig/SignatureTarget
+17:15:27.412 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/sig/SignatureTarget
+17:15:27.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.sig.SignatureTarget
+17:15:27.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.encoders.Base64
+17:15:27.412 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.encoders.Base64'.
+17:15:27.413 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/encoders/Base64
+17:15:27.413 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/util/encoders/Base64
+17:15:27.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.encoders.Base64
+17:15:27.414 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPUtil
+17:15:27.414 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPUtil'.
+17:15:27.414 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPUtil
+17:15:27.417 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/openpgp/PGPUtil
+17:15:27.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPUtil
+17:15:27.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.ArmoredInputStream
+17:15:27.417 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.ArmoredInputStream'.
+17:15:27.418 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/ArmoredInputStream
+17:15:27.419 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/bcpg/ArmoredInputStream
+17:15:27.419 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.ArmoredInputStream
+17:15:27.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPRuntimeOperationException
+17:15:27.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPRuntimeOperationException'.
+17:15:27.420 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPRuntimeOperationException
+17:15:27.420 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPRuntimeOperationException
+17:15:27.420 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPRuntimeOperationException
+17:15:27.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PBESecretKeyEncryptor
+17:15:27.421 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PBESecretKeyEncryptor'.
+17:15:27.422 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/operator/PBESecretKeyEncryptor
+17:15:27.422 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/operator/PBESecretKeyEncryptor
+17:15:27.422 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PBESecretKeyEncryptor
+17:15:27.423 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.bcpg.sig.NotationData
+17:15:27.423 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.bcpg.sig.NotationData'.
+17:15:27.423 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/bcpg/sig/NotationData
+17:15:27.424 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/bcpg/sig/NotationData
+17:15:27.424 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field HEADER_FLAG_LENGTH
+17:15:27.424 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field HEADER_NAME_LENGTH
+17:15:27.424 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field HEADER_VALUE_LENGTH
+17:15:27.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.bcpg.sig.NotationData
+17:15:27.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.util.Strings
+17:15:27.424 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.util.Strings'.
+17:15:27.425 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/util/Strings
+17:15:27.427 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/bouncycastle/util/Strings
+17:15:27.427 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.util.Strings
+17:15:27.427 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.operator.PGPContentSigner
+17:15:27.427 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.operator.PGPContentSigner'.
+17:15:27.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.operator.PGPContentSigner
+17:15:27.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.bouncycastle.openpgp.PGPSignature
+17:15:27.428 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.bouncycastle.openpgp.PGPSignature'.
+17:15:27.429 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/bouncycastle/openpgp/PGPSignature
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/bouncycastle/openpgp/PGPSignature
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BINARY_DOCUMENT
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field CANONICAL_TEXT_DOCUMENT
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field STAND_ALONE
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_CERTIFICATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field NO_CERTIFICATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field CASUAL_CERTIFICATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field POSITIVE_CERTIFICATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SUBKEY_BINDING
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field PRIMARYKEY_BINDING
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DIRECT_KEY
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field KEY_REVOCATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SUBKEY_REVOCATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field CERTIFICATION_REVOCATION
+17:15:27.430 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TIMESTAMP
+17:15:27.431 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.bouncycastle.openpgp.PGPSignature
+.....
+Time: 0.471
+
+OK (5 tests)
+

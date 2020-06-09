@@ -1,0 +1,154 @@
+[VERSION]: 4.13-beta-3
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< org.vafer:jdeb >---------------------------
+[INFO] Building jdeb 1.6
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jdeb ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jdeb ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[INFO]    com.google.inject:guice:jar:no_aop:4.0:compile
+[INFO]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.apache.maven.resolver:maven-resolver-impl:jar:1.1.0:compile
+[INFO]    org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile
+[INFO]    org.apache.maven:maven-resolver-provider:jar:3.5.2:compile
+[INFO]    org.mockito:mockito-core:jar:1.9.5:test
+[INFO]    org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:compile
+[INFO]    org.apache.maven:maven-model-builder:jar:3.5.2:compile
+[INFO]    org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[INFO]    org.bouncycastle:bcpg-jdk15on:jar:1.58:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.apache.maven:maven-artifact:jar:3.5.2:compile
+[INFO]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile
+[INFO]    org.apache.maven:maven-builder-support:jar:3.5.2:compile
+[INFO]    javax.enterprise:cdi-api:jar:1.0:compile
+[INFO]    org.apache.maven:maven-repository-metadata:jar:3.5.2:compile
+[INFO]    org.apache.maven:maven-core:jar:3.5.2:compile
+[INFO]    org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[INFO]    org.apache.maven:maven-plugin-api:jar:3.5.2:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:compile
+[INFO]    javax.annotation:jsr250-api:jar:1.0:compile
+[INFO]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.apache.maven:maven-settings-builder:jar:3.5.2:compile
+[INFO]    org.apache.ant:ant-launcher:jar:1.10.1:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.5:compile
+[INFO]    com.google.guava:guava:jar:20.0:compile
+[INFO]    org.apache.ant:ant:jar:1.10.1:compile
+[INFO]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[INFO]    org.tukaani:xz:jar:1.6:compile
+[INFO]    org.apache.maven:maven-settings:jar:3.5.2:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+[INFO]    org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO]    junit:junit:jar:4.13-beta-3:test
+[INFO]    org.apache.commons:commons-compress:jar:1.15:compile
+[INFO]    org.apache.maven:maven-model:jar:3.5.2:compile
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (pre-unit-test) @ jdeb ---
+[INFO] argLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/target/jacoco.exec,append=true,includes=org/vafer/jdeb/*,excludes=org/vafer/jdeb/shaded/*
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jdeb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jdeb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 50 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/src/main/java/org/vafer/jdeb/producers/Producers.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/src/main/java/org/vafer/jdeb/producers/Producers.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5:descriptor (default-descriptor) @ jdeb ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-annotations mojo extractor found 1 mojo descriptor.
+line 8 column 4 - Error: <build> is not recognized!
+line 9 column 6 - Error: <plugins> is not recognized!
+line 10 column 8 - Error: <plugin> is not recognized!
+line 11 column 8 - Error: <artifactid> is not recognized!
+line 12 column 8 - Error: <groupid> is not recognized!
+line 14 column 8 - Error: <configuration> is not recognized!
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5:descriptor (mojo-descriptor) @ jdeb ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-annotations mojo extractor found 1 mojo descriptor.
+line 8 column 4 - Error: <build> is not recognized!
+line 9 column 6 - Error: <plugins> is not recognized!
+line 10 column 8 - Error: <plugin> is not recognized!
+line 11 column 8 - Error: <artifactid> is not recognized!
+line 12 column 8 - Error: <groupid> is not recognized!
+line 14 column 8 - Error: <configuration> is not recognized!
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jdeb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jdeb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/src/test/java/org/vafer/jdeb/ArchiveWalker.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/src/test/java/org/vafer/jdeb/ArchiveWalker.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/src/test/java/org/vafer/jdeb/ArchiveWalker.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jdeb ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jdeb/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vafer.jdeb.maven.DataTestCase
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.vafer.jdeb.maven.DataTestCase
+Running org.vafer.jdeb.mapping.LsMapperTestCase
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.vafer.jdeb.mapping.LsMapperTestCase
+Running org.vafer.jdeb.utils.FilteredFileTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.vafer.jdeb.utils.FilteredFileTestCase
+Running org.vafer.jdeb.utils.InformationInputStreamTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.vafer.jdeb.utils.InformationInputStreamTestCase
+Running org.vafer.jdeb.utils.UtilsTestCase
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.vafer.jdeb.utils.UtilsTestCase
+Running org.vafer.jdeb.debian.PackageControlFileTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.vafer.jdeb.debian.PackageControlFileTestCase
+Running org.vafer.jdeb.debian.ControlFieldTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.vafer.jdeb.debian.ControlFieldTestCase
+Running org.vafer.jdeb.debian.ChangesFileTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.vafer.jdeb.debian.ChangesFileTestCase
+Running org.vafer.jdeb.producers.DataProducerPathTemplateTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.vafer.jdeb.producers.DataProducerPathTemplateTestCase
+Running org.vafer.jdeb.producers.DataProducerFilesTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec - in org.vafer.jdeb.producers.DataProducerFilesTestCase
+Running org.vafer.jdeb.signing.DebMakerTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec - in org.vafer.jdeb.signing.DebMakerTestCase
+Running org.vafer.jdeb.signing.PGPSignerTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.vafer.jdeb.signing.PGPSignerTestCase
+Running org.vafer.jdeb.ant.DebAntTaskTestCase
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.522 sec - in org.vafer.jdeb.ant.DebAntTaskTestCase
+Running org.vafer.jdeb.ant.AntSelectorTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.vafer.jdeb.ant.AntSelectorTestCase
+Running org.vafer.jdeb.DataBuilderTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.vafer.jdeb.DataBuilderTestCase
+Running org.vafer.jdeb.DebMakerTestCase
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.vafer.jdeb.DebMakerTestCase
+Running org.vafer.jdeb.changes.TextfileChangesProviderTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.vafer.jdeb.changes.TextfileChangesProviderTestCase
+
+Results :
+
+Tests run: 77, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:report (post-unit-test) @ jdeb ---
+[INFO] Analyzed bundle 'jdeb' with 12 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.807 s
+[INFO] Finished at: 2019-08-20T03:49:54+08:00
+[INFO] ------------------------------------------------------------------------

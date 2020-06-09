@@ -1,0 +1,241 @@
+[VERSION]: 4.0.1
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.b3log:symphony:war:2.5.0
+[WARNING] 'dependencies.dependency.systemPath' for org.patchca:patchca:jar should not point at files within the project directory, ${project.basedir}/src/main/resources/lib/net/pusuo/patchca-0.5.0.jar will be unresolvable by dependent projects @ line 264, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< org.b3log:symphony >-------------------------
+[INFO] Building Symphony 2.5.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ symphony ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ symphony ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-memory:jar:5.5.0:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-superscript:jar:0.28.18:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.2:test
+[INFO]    mysql:mysql-connector-java:jar:5.1.42:compile
+[INFO]    com.vladsch.flexmark:flexmark-all:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-definition:jar:0.28.18:compile
+[INFO]    io.netty:netty:jar:3.10.5.Final:test
+[INFO]    com.vladsch.flexmark:flexmark-profile-pegdown:jar:0.28.18:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:5.5.0:test
+[INFO]    com.alibaba:druid:jar:1.0.29:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.2.7.v20150116:test
+[INFO]    com.vladsch.flexmark:flexmark-html-parser:jar:0.28.18:compile
+[INFO]    org.apache.lucene:lucene-spatial:jar:5.5.0:test
+[INFO]    org.apache.lucene:lucene-highlighter:jar:5.5.0:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-tables:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-youtube-embedded:jar:0.28.18:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:5.5.0:test
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.2:test
+[INFO]    com.alibaba:jconsole:jar:1.8.0:system
+[INFO]    com.alibaba:tools:jar:1.8.0:system
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.2.7.v20150116:test
+[INFO]    org.freemarker:freemarker:jar:2.3.23:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-emoji:jar:0.28.18:compile
+[INFO]    org.jodd:jodd-core:jar:4.3.0:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-jekyll-tag:jar:0.28.18:compile
+[INFO]    org.nibor.autolink:autolink:jar:0.6.0:compile
+[INFO]    com.qiniu:happy-dns-java:jar:0.1.6:compile
+[INFO]    org.apache.lucene:lucene-spatial3d:jar:5.5.0:test
+[INFO]    javax.mail:mail:jar:1.4.7:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-ins:jar:0.28.18:compile
+[INFO]    commons-cli:commons-cli:jar:1.3.1:test
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:test
+[INFO]    org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-aside:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-autolink:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.28.18:compile
+[INFO]    com.vdurmont:emoji-java:jar:4.0.0:compile
+[INFO]    com.vladsch.flexmark:flexmark-util:jar:0.28.18:compile
+[INFO]    javax.websocket:javax.websocket-api:jar:1.1:compile
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    org.apache.lucene:lucene-backward-codecs:jar:5.5.0:test
+[INFO]    com.twitter:jsr166e:jar:1.1.0:test
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    junit:junit:jar:3.8.1:test
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.2.7.v20150116:test
+[INFO]    javax.activation:activation:jar:1.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-issues:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.28.18:compile
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-tables:jar:0.28.18:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.2.7.v20150116:test
+[INFO]    eu.bitwalker:UserAgentUtils:jar:1.20:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.2.7.v20150116:test
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.2.7.v20150116:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    com.google.guava:guava:jar:18.0:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-toc:jar:0.28.18:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.2.7.v20150116:test
+[INFO]    org.jsoup:jsoup:jar:1.10.2:compile
+[INFO]    joda-time:joda-time:jar:2.8.2:test
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.6.2:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.7:compile
+[INFO]    org.b3log:latke-repository-mysql:jar:2.4.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.28.18:compile
+[INFO]    com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+[INFO]    org.apache.lucene:lucene-grouping:jar:5.5.0:test
+[INFO]    com.tdunning:t-digest:jar:3.0:test
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.28.18:compile
+[INFO]    org.apache.lucene:lucene-core:jar:5.5.0:test
+[INFO]    com.spatial4j:spatial4j:jar:0.5:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.28.18:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.jodd:jodd-http:jar:4.3.0:compile
+[INFO]    com.ning:compress-lzf:jar:1.0.2:test
+[INFO]    org.owasp.encoder:encoder:jar:1.2.1:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-typographic:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark:jar:0.28.18:compile
+[INFO]    org.patchca:patchca:jar:0.5.0:system
+[INFO]    redis.clients:jedis:jar:2.9.0:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.28.18:compile
+[INFO]    org.testng:testng:jar:6.1.1:test
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:5.5.0:test
+[INFO]    org.yaml:snakeyaml:jar:1.18:compile
+[INFO]    org.elasticsearch:elasticsearch:jar:2.3.1:test
+[INFO]    com.beust:jcommander:jar:1.12:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.28.18:compile
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.6:test
+[INFO]    org.apache.lucene:lucene-join:jar:5.5.0:test
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.2.7.v20150116:test
+[INFO]    com.squareup.okio:okio:jar:1.13.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.2:test
+[INFO]    org.elasticsearch:securesm:jar:1.0:test
+[INFO]    com.vladsch.flexmark:flexmark-formatter:jar:0.28.18:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:5.5.0:test
+[INFO]    com.google.code.gson:gson:jar:2.8.2:compile
+[INFO]    com.qiniu:qiniu-java-sdk:jar:7.2.11:compile
+[INFO]    org.b3log:latke:jar:2.4.1:compile
+[INFO]    org.joda:joda-convert:jar:1.2:test
+[INFO]    org.apache.lucene:lucene-sandbox:jar:5.5.0:test
+[INFO]    com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.28.18:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.7:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.28.18:compile
+[INFO]    com.vladsch.flexmark:flexmark-ext-xwiki-macros:jar:0.28.18:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:5.5.0:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ symphony ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ symphony ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 217 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/src/main/java/org/b3log/symphony/util/Markdowns.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/src/main/java/org/b3log/symphony/util/Markdowns.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/src/main/java/org/b3log/symphony/util/Markdowns.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/src/main/java/org/b3log/symphony/processor/DomainProcessor.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/src/main/java/org/b3log/symphony/processor/DomainProcessor.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ symphony ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ symphony ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ symphony ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/symphony/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNGMapConfigurator
+{
+  "multi_match" : {
+    "query" : "test",
+    "fields" : [ "test1", "test2" ]
+  }
+}
+{"size":20,"query":{"bool":{"must":{"query_string":{"default_operator":"and","query":"test","fields":["articleTitle","articleContent"]}}}},"from":0,"sort":[{"articleCreateTime":"desc"},"_score"]}
+[INFO ]-[2019-08-14 21:44:41]-[org.b3log.symphony.util.Markdowns:168]: [marked] is not available caused by [Connection refused (Connection refused)], uses built-in [flexmark] for markdown processing
+<html>
+ <head></head>
+ <body < body>
+  <p><strong><br>大家提提意见</strong></p> 
+  <hr> 
+  <p>一 基本情况<br> -学习和掌握 java （）年<br> -学习和掌握 javascript（）年<br> -在搭好框架的前提下，写一个中等复杂度的查添删改的时间（）小时<br> -是否有能力独立写一个自己的blog网站（），如果能需要的时间（）天<br> -英文水平（ ）<br> -业余时间的安排（ ）</p> 
+  <p>一 选择题（答案统一写在第十题下面）</p> 
+  <p>1有一段java 应用程序，它的主类名是a1，那么保存它的源文件名可以是（）<br> A ) a1.java B) a1.class C) a1 D) 都对</p> 
+  <p>2 Java中（）<br> A) 一个子类可以有多个父类，一个父类也可以有多个子类<br> B) 一个子类可以有多个父类，但一个父类只可以有一个子类<br> C) 一个子类可以有一个父类，但一个父类可以有多个子类<br> D)上述说法都不对</p> 
+  <p>3 main方法是Java应用程序执行的入口点，关于main方法的方法头以下哪项是合法的？<br> A)public static void main（）<br> B)public static void main（ String[] args ）<br> C)public static int main（String [] arg ）<br> D)public void main（String arg[] ）</p> 
+  <p>4 在Java中，一个类可同时定义许多同名的方法，这些方法的形式参数个数、类型或顺序各不相同，传回的值也可以不相同。这种面向对象程序的特性称为（ ）<br>A)隐藏 B)覆盖 C)重载 D)Java不支持此特性</p> 
+  <p>5 A派生出子类B，B派生出子类C，并且在Java源代码中有如下声明： </p> 
+  <pre><code>1.    A  a0=new  A(); 
+</code></pre>
+  <ol> 
+   <li>A a1 =new B(); </li> 
+   <li>A a2=new C();<br>问以下哪个说法是正确的？ （ ）<br>A)只有第1行能通过编译<br>B)第1、2行能通过编译，但第3行编译出错<br>C)第1、2、3行能通过编译，但第2、3行运行时出错<br>D)第1行、第2行和第3行的声明都是正确的 </li> 
+  </ol> 
+  <p>6 关于以下程序段，正确的说法是（ ）<br> 1． String s1=“a”+“b”;<br> 2． String s2=new String（s1）；<br>3． if（s1= =s2）<br>4． System.out.println(“= = is succeeded”);<br>5． if (s1.equals(s2))<br>6． System.out.println(“.equals() is succeeded”);<br>A)行4与行6都将执行<br>B)行4执行，行6不执行<br>C)行6执行，行4不执行<br> D)行4、行6都不执行 </p> 
+  <p>7 设计用户表时，身份证号为固定18位长，对该字段最好采用（）数据类型</p> 
+  <p>A)int B) char C) varchar D)text </p> 
+  <p>8为了加快对某表查询的速度，应对此表建立（）。<br> A.)约束 B)存储过程 C) 规则 D) 索引</p> 
+  <p>9 在HTML页面上编写Javascript代码时，应编写在（）标签中间。<br> A)
+   <javascript>
+    和
+   </javascript><br> B)<script>和</script><br> C) 和<br> D) </p> 
+  <p>10 以下（）选项不能够正确地得到这个标签：</p> 
+  <p><input id="btnGo" type="button" value="单击我" class="btn"><br>A) $("#btnGo")<br>B) $(".btnGo")<br>C) $(".btn")<br> D) $("input[type='button']")</p> 
+  <p>统一写出选择题答案：</p> 
+  <p>二 问答题<br>-简述Java中接口和抽象类的区别</p> 
+  <p>-简述java的集合对象list，Map,Set, Queue的特点</p> 
+  <p>-用一句话简述下列框架的作用<br>Spring:<br>springmvc（struts2):<br>Hibernate（mybatis):<br>Jquery:<br>Bootstrap：</p> 
+  <p>-简述Javascript中的对象是什么，怎么创建一个对象的实例（简单代码）</p> 
+  <p>-简述下列sql关键字的作用<br>Select * from Table:<br>Where :<br>Having:<br>Group by:<br>Order by:</p> 
+  <p>三 知识面题<br>写出你学习过或者了解过的相关扩展知识。<br>-学习或者了解过的其他编程语言：</p> 
+  <p>-学习或者了解过java其他框架(除去SSH)：</p> 
+  <p>-学习或者了解过相关数据库：</p> 
+  <p>-游览过或者知道的任何技术网站:</p> 
+  <p>-其他你知道的新奇技术：</p> 
+  <hr> 
+ </body>
+</html>
+[7 : 4 , 0 , 0.7089214053677908
+, 12 : 2 , 0 , 0.549092369988321
+, 0 : 3 , 1 , 0.4325414503689865
+, 16 : 3 , 1 , 0.4325414503689865
+, 6 : 4 , 2 , 0.4094013068271834
+, 15 : 4 , 2 , 0.4094013068271834
+, 1 : 4 , 3 , 0.3416970536208449
+, 3 : 4 , 3 , 0.3416970536208449
+, 10 : 4 , 3 , 0.3416970536208449
+, 11 : 4 , 3 , 0.3416970536208449
+, 13 : 4 , 3 , 0.3416970536208449
+, 19 : 2 , 1 , 0.3211826478302644
+, 17 : 4 , 4 , 0.2936454286356919
+, 5 : 3 , 3 , 0.2682114736194922
+, 9 : 2 , 2 , 0.23024149937758714
+, 8 : 3 , 4 , 0.22598811161447777
+, 4 : 1 , 1 , 0.16425172002984176
+, 2 : 2 , 4 , 0.14770253477604653
+, 18 : 1 , 4 , 0.06189574902873927
+, 14 : 0 , 3 , 0.0
+]
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.51 sec - in TestSuite
+
+Results :
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.930 s
+[INFO] Finished at: 2019-08-14T21:44:41+08:00
+[INFO] ------------------------------------------------------------------------

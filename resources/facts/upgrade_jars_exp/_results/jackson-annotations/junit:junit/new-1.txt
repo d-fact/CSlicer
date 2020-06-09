@@ -1,0 +1,75 @@
+[VERSION]: 4.13-beta-3
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.fasterxml.jackson.core:jackson-annotations >-----------
+[INFO] Building Jackson-annotations 2.9.5
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jackson-annotations ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jackson-annotations/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jackson-annotations ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java) @ jackson-annotations ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-generated-sources) @ jackson-annotations ---
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jackson-annotations/target/generated-sources added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jackson-annotations ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jackson-annotations ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 44 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jackson-annotations/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jackson-annotations ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jackson-annotations/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jackson-annotations ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jackson-annotations/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jackson-annotations ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jackson-annotations/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fasterxml.jackson.annotation.ObjectIdStuffTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in com.fasterxml.jackson.annotation.ObjectIdStuffTest
+Running com.fasterxml.jackson.annotation.FormatTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.fasterxml.jackson.annotation.FormatTest
+Running com.fasterxml.jackson.annotation.JacksonInjectTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.annotation.JacksonInjectTest
+Running com.fasterxml.jackson.annotation.JsonIgnorePropertiesTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.annotation.JsonIgnorePropertiesTest
+Running com.fasterxml.jackson.annotation.OptBooleanTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fasterxml.jackson.annotation.OptBooleanTest
+Running com.fasterxml.jackson.annotation.PropertyAccessorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.fasterxml.jackson.annotation.PropertyAccessorTest
+Running com.fasterxml.jackson.annotation.VisibilityTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.fasterxml.jackson.annotation.VisibilityTest
+Running com.fasterxml.jackson.annotation.JsonSetterTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.fasterxml.jackson.annotation.JsonSetterTest
+Running com.fasterxml.jackson.annotation.IncludeTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.fasterxml.jackson.annotation.IncludeTest
+
+Results :
+
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.101 s
+[INFO] Finished at: 2019-08-20T16:25:40+08:00
+[INFO] ------------------------------------------------------------------------

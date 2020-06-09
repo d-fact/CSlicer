@@ -1,0 +1,94 @@
+[VERSION]: 3.1.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.cxy:redisclient >-------------------------
+[INFO] Building redisclient win32.x86.2.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ redisclient ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ redisclient ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.eclipse.core:commands:jar:3.3.0-I20070605-0010:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    redis.clients:jedis:jar:3.1.0:compile
+[INFO]    org.eclipse:swt:jar:3.3.0-v3346:compile
+[INFO]    com.google.code.gson:gson:jar:2.3:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    junit:junit:jar:3.8.1:test
+[INFO]    org.eclipse.equinox:common:jar:3.6.200-v20130402-1505:compile
+[INFO]    xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+[INFO]    org.apache.commons:commons-pool2:jar:2.6.2:compile
+[INFO]    org.eclipse.swt.org.eclipse.swt.win32.win32.x86.4.3.swt:org.eclipse.swt.win32.win32.x86:jar:4.3:compile
+[INFO]    org.eclipse:jface:jar:3.3.0-I20070606-0010:compile
+[INFO]    dom4j:dom4j:jar:1.6.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redisclient ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 24 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redisclient ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 167 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/presentation/WatchDialog.java:[8,16] sun.misc.BASE64Decoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/presentation/WatchDialog.java:[162,25] sun.misc.BASE64Decoder is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/presentation/WatchDialog.java:[162,52] sun.misc.BASE64Decoder is internal proprietary API and may be removed in a future release
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/list/InsertList.java:[3,40] cannot find symbol
+  symbol:   class LIST_POSITION
+  location: class redis.clients.jedis.BinaryClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/list/InsertList.java:[27,48] cannot find symbol
+  symbol:   variable LIST_POSITION
+  location: class com.cxy.redisclient.integration.list.InsertList
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/list/InsertList.java:[27,69] cannot find symbol
+  symbol:   variable LIST_POSITION
+  location: class com.cxy.redisclient.integration.list.InsertList
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/key/FindContainerKeys28.java:[36,40] cannot find symbol
+  symbol:   method getStringCursor()
+  location: variable result of type redis.clients.jedis.ScanResult<java.lang.String>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/key/FindContainerKeys28.java:[37,31] cannot find symbol
+  symbol:   method getStringCursor()
+  location: variable result of type redis.clients.jedis.ScanResult<java.lang.String>
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.581 s
+[INFO] Finished at: 2019-08-15T01:19:59+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project redisclient: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/list/InsertList.java:[3,40] cannot find symbol
+[ERROR]   symbol:   class LIST_POSITION
+[ERROR]   location: class redis.clients.jedis.BinaryClient
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/list/InsertList.java:[27,48] cannot find symbol
+[ERROR]   symbol:   variable LIST_POSITION
+[ERROR]   location: class com.cxy.redisclient.integration.list.InsertList
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/list/InsertList.java:[27,69] cannot find symbol
+[ERROR]   symbol:   variable LIST_POSITION
+[ERROR]   location: class com.cxy.redisclient.integration.list.InsertList
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/key/FindContainerKeys28.java:[36,40] cannot find symbol
+[ERROR]   symbol:   method getStringCursor()
+[ERROR]   location: variable result of type redis.clients.jedis.ScanResult<java.lang.String>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/RedisClient/src/main/java/com/cxy/redisclient/integration/key/FindContainerKeys28.java:[37,31] cannot find symbol
+[ERROR]   symbol:   method getStringCursor()
+[ERROR]   location: variable result of type redis.clients.jedis.ScanResult<java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

@@ -1,0 +1,1008 @@
+[VERSION]: 3.11.0
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.restheart:restheart >-----------------------
+[INFO] Building Restheart 3.2.2
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from jitpack.io: https://jitpack.io/org/mongodb/mongodb-driver/3.11.0/mongodb-driver-3.11.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.11.0/mongodb-driver-3.11.0.pom
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.11.0/mongodb-driver-3.11.0.pom (1.7 kB at 1.9 kB/s)
+Downloading from jitpack.io: https://jitpack.io/org/mongodb/bson/3.11.0/bson-3.11.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.11.0/bson-3.11.0.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.11.0/bson-3.11.0.pom (1.3 kB at 3.5 kB/s)
+Downloading from jitpack.io: https://jitpack.io/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.pom
+Progress (1): 2.2/3.1 kB
+Progress (1): 3.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.pom (3.1 kB at 8.4 kB/s)
+Downloading from jitpack.io: https://jitpack.io/org/mongodb/bson/3.11.0/bson-3.11.0.jar
+Downloading from jitpack.io: https://jitpack.io/org/mongodb/mongodb-driver/3.11.0/mongodb-driver-3.11.0.jar
+Downloading from jitpack.io: https://jitpack.io/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.11.0/mongodb-driver-3.11.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.11.0/bson-3.11.0.jar
+Progress (1): 2.2/375 kB
+Progress (1): 5.0/375 kB
+Progress (1): 7.7/375 kB
+Progress (1): 10/375 kB 
+Progress (1): 13/375 kB
+Progress (1): 16/375 kB
+Progress (1): 19/375 kB
+Progress (1): 21/375 kB
+Progress (1): 24/375 kB
+Progress (1): 27/375 kB
+Progress (1): 30/375 kB
+Progress (1): 32/375 kB
+Progress (2): 32/375 kB | 2.2/494 kB
+Progress (2): 32/375 kB | 5.0/494 kB
+Progress (2): 32/375 kB | 7.7/494 kB
+Progress (2): 36/375 kB | 7.7/494 kB
+Progress (2): 36/375 kB | 10/494 kB 
+Progress (2): 40/375 kB | 10/494 kB
+Progress (2): 40/375 kB | 13/494 kB
+Progress (2): 45/375 kB | 13/494 kB
+Progress (2): 49/375 kB | 13/494 kB
+Progress (2): 53/375 kB | 13/494 kB
+Progress (2): 57/375 kB | 13/494 kB
+Progress (2): 61/375 kB | 13/494 kB
+Progress (2): 65/375 kB | 13/494 kB
+Progress (2): 69/375 kB | 13/494 kB
+Progress (2): 73/375 kB | 13/494 kB
+Progress (2): 77/375 kB | 13/494 kB
+Progress (2): 81/375 kB | 13/494 kB
+Progress (2): 85/375 kB | 13/494 kB
+Progress (2): 90/375 kB | 13/494 kB
+Progress (2): 94/375 kB | 13/494 kB
+Progress (2): 98/375 kB | 13/494 kB
+Progress (3): 98/375 kB | 13/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 13/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 13/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 13/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 13/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 16/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 19/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 21/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 24/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 27/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 30/494 kB | 0/1.4 MB
+Progress (3): 98/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 102/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 106/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 110/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 114/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 118/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 122/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 126/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 131/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 135/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 139/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 143/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 147/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 151/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 155/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 159/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 163/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 167/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 171/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 176/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 180/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 184/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 188/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 192/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 32/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 36/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 40/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 45/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 49/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 53/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 57/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 61/494 kB | 0/1.4 MB
+Progress (3): 196/375 kB | 65/494 kB | 0/1.4 MB
+Progress (3): 200/375 kB | 65/494 kB | 0/1.4 MB
+Progress (3): 204/375 kB | 65/494 kB | 0/1.4 MB
+Progress (3): 208/375 kB | 65/494 kB | 0/1.4 MB
+Progress (3): 208/375 kB | 69/494 kB | 0/1.4 MB
+Progress (3): 212/375 kB | 69/494 kB | 0/1.4 MB
+Progress (3): 212/375 kB | 73/494 kB | 0/1.4 MB
+Progress (3): 212/375 kB | 77/494 kB | 0/1.4 MB
+Progress (3): 217/375 kB | 77/494 kB | 0/1.4 MB
+Progress (3): 217/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 221/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 225/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 229/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 233/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 237/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 241/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 245/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 249/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 253/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 258/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 262/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 266/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 270/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 274/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 278/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 282/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 286/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 290/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 294/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 298/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 303/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 307/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 311/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 315/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 319/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 323/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 327/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 331/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 335/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 339/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 344/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 348/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 352/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 356/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 360/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 364/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 368/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 372/375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0/1.4 MB    
+Progress (3): 375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 81/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 85/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 90/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 94/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 98/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 102/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 106/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 110/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 114/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 118/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 122/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 126/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 131/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 135/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 139/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 143/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 147/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 151/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 155/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 159/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 163/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 167/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 171/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 176/494 kB | 0.1/1.4 MB
+Progress (3): 375 kB | 180/494 kB | 0.1/1.4 MB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.11.0/mongodb-driver-3.11.0.jar (375 kB at 340 kB/s)
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.1/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 180/494 kB | 0.2/1.4 MB
+Progress (2): 184/494 kB | 0.2/1.4 MB
+Progress (2): 188/494 kB | 0.2/1.4 MB
+Progress (2): 192/494 kB | 0.2/1.4 MB
+Progress (2): 196/494 kB | 0.2/1.4 MB
+Progress (2): 200/494 kB | 0.2/1.4 MB
+Progress (2): 204/494 kB | 0.2/1.4 MB
+Progress (2): 208/494 kB | 0.2/1.4 MB
+Progress (2): 212/494 kB | 0.2/1.4 MB
+Progress (2): 217/494 kB | 0.2/1.4 MB
+Progress (2): 221/494 kB | 0.2/1.4 MB
+Progress (2): 225/494 kB | 0.2/1.4 MB
+Progress (2): 229/494 kB | 0.2/1.4 MB
+Progress (2): 233/494 kB | 0.2/1.4 MB
+Progress (2): 237/494 kB | 0.2/1.4 MB
+Progress (2): 241/494 kB | 0.2/1.4 MB
+Progress (2): 245/494 kB | 0.2/1.4 MB
+Progress (2): 249/494 kB | 0.2/1.4 MB
+Progress (2): 253/494 kB | 0.2/1.4 MB
+Progress (2): 258/494 kB | 0.2/1.4 MB
+Progress (2): 262/494 kB | 0.2/1.4 MB
+Progress (2): 266/494 kB | 0.2/1.4 MB
+Progress (2): 270/494 kB | 0.2/1.4 MB
+Progress (2): 274/494 kB | 0.2/1.4 MB
+Progress (2): 278/494 kB | 0.2/1.4 MB
+Progress (2): 282/494 kB | 0.2/1.4 MB
+Progress (2): 286/494 kB | 0.2/1.4 MB
+Progress (2): 290/494 kB | 0.2/1.4 MB
+Progress (2): 294/494 kB | 0.2/1.4 MB
+Progress (2): 298/494 kB | 0.2/1.4 MB
+Progress (2): 303/494 kB | 0.2/1.4 MB
+Progress (2): 307/494 kB | 0.2/1.4 MB
+Progress (2): 311/494 kB | 0.2/1.4 MB
+Progress (2): 315/494 kB | 0.2/1.4 MB
+Progress (2): 319/494 kB | 0.2/1.4 MB
+Progress (2): 323/494 kB | 0.2/1.4 MB
+Progress (2): 327/494 kB | 0.2/1.4 MB
+Progress (2): 331/494 kB | 0.2/1.4 MB
+Progress (2): 335/494 kB | 0.2/1.4 MB
+Progress (2): 339/494 kB | 0.2/1.4 MB
+Progress (2): 344/494 kB | 0.2/1.4 MB
+Progress (2): 348/494 kB | 0.2/1.4 MB
+Progress (2): 352/494 kB | 0.2/1.4 MB
+Progress (2): 356/494 kB | 0.2/1.4 MB
+Progress (2): 360/494 kB | 0.2/1.4 MB
+Progress (2): 364/494 kB | 0.2/1.4 MB
+Progress (2): 368/494 kB | 0.2/1.4 MB
+Progress (2): 372/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.2/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.3/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 376/494 kB | 0.4/1.4 MB
+Progress (2): 380/494 kB | 0.4/1.4 MB
+Progress (2): 384/494 kB | 0.4/1.4 MB
+Progress (2): 389/494 kB | 0.4/1.4 MB
+Progress (2): 393/494 kB | 0.4/1.4 MB
+Progress (2): 397/494 kB | 0.4/1.4 MB
+Progress (2): 401/494 kB | 0.4/1.4 MB
+Progress (2): 405/494 kB | 0.4/1.4 MB
+Progress (2): 409/494 kB | 0.4/1.4 MB
+Progress (2): 413/494 kB | 0.4/1.4 MB
+Progress (2): 417/494 kB | 0.4/1.4 MB
+Progress (2): 421/494 kB | 0.4/1.4 MB
+Progress (2): 425/494 kB | 0.4/1.4 MB
+Progress (2): 430/494 kB | 0.4/1.4 MB
+Progress (2): 434/494 kB | 0.4/1.4 MB
+Progress (2): 438/494 kB | 0.4/1.4 MB
+Progress (2): 442/494 kB | 0.4/1.4 MB
+Progress (2): 446/494 kB | 0.4/1.4 MB
+Progress (2): 450/494 kB | 0.4/1.4 MB
+Progress (2): 454/494 kB | 0.4/1.4 MB
+Progress (2): 458/494 kB | 0.4/1.4 MB
+Progress (2): 462/494 kB | 0.4/1.4 MB
+Progress (2): 466/494 kB | 0.4/1.4 MB
+Progress (2): 471/494 kB | 0.4/1.4 MB
+Progress (2): 475/494 kB | 0.4/1.4 MB
+Progress (2): 479/494 kB | 0.4/1.4 MB
+Progress (2): 483/494 kB | 0.4/1.4 MB
+Progress (2): 487/494 kB | 0.4/1.4 MB
+Progress (2): 491/494 kB | 0.4/1.4 MB
+Progress (2): 494 kB | 0.4/1.4 MB    
+Progress (2): 494 kB | 0.4/1.4 MB
+Progress (2): 494 kB | 0.4/1.4 MB
+Progress (2): 494 kB | 0.4/1.4 MB
+Progress (2): 494 kB | 0.4/1.4 MB
+Progress (2): 494 kB | 0.4/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.5/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.6/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.7/1.4 MB
+Progress (2): 494 kB | 0.8/1.4 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.11.0/bson-3.11.0.jar (494 kB at 309 kB/s)
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.8/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.0/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.1/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.2/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.3/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4/1.4 MB
+Progress (1): 1.4 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.11.0/mongodb-driver-core-3.11.0.jar (1.4 MB at 655 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ restheart ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ restheart ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:test
+[INFO]    org.apache.tika:tika-core:jar:1.16:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO]    com.eclipsesource.minimal-json:minimal-json:jar:0.9.4:test
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.2:test
+[INFO]    commons-validator:commons-validator:jar:1.6:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO]    org.mockito:mockito-core:jar:2.11.0:test
+[INFO]    org.yaml:snakeyaml:jar:1.19:compile
+[INFO]    com.github.everit-org.json-schema:org.everit.json.schema:jar:1.6.0:compile
+[INFO]    com.damnhandy:handy-uri-templates:jar:2.1.6:compile
+[INFO]    io.undertow:undertow-core:jar:1.4.20.Final:compile
+[INFO]    org.apache.httpcomponents:fluent-hc:jar:4.5.3:test
+[INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+[INFO]    com.mashape.unirest:unirest-java:jar:1.4.9:test
+[INFO]    org.kohsuke:akuma:jar:1.10:compile
+[INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO]    joda-time:joda-time:jar:2.9.4:compile
+[INFO]    de.svenkubiak:jBCrypt:jar:0.4.1:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.9.2:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:test
+[INFO]    org.mongodb:mongodb-driver-core:jar:3.11.0:compile
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.1.1:test
+[INFO]    commons-codec:commons-codec:jar:1.9:test
+[INFO]    commons-digester:commons-digester:jar:1.8.1:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.7.4:test
+[INFO]    org.json:json:jar:20170516:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.fusesource.jansi:jansi:jar:1.16:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.4.4:test
+[INFO]    org.mongodb:bson:jar:3.11.0:compile
+[INFO]    net.java.dev.jna:jna:jar:4.1.0:compile
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.2.5:compile
+[INFO]    org.mongodb:mongodb-driver:jar:3.11.0:compile
+[INFO]    org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO]    com.google.guava:guava:jar:23.2-jre:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-versions) @ restheart ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ restheart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ restheart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 203 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/db/Database.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/db/Database.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/db/CursorPool.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/main/java/org/restheart/db/CursorPool.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ restheart ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ restheart ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 53 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/integration/PutDBIT.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/integration/PutDBIT.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/performance/AbstractPT.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/src/test/java/org/restheart/test/performance/AbstractPT.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ restheart ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest
+20:29:58.693 [main] INFO  o.r.h.i.CollectionPropsInjectorHandlerTest - executing test testCheckCollectionPut(org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest)
+20:29:58.702 [main] INFO  o.r.h.i.CollectionPropsInjectorHandlerTest - executing test testCheckCollectionFilesPost(org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest)
+20:29:58.702 [main] INFO  o.r.h.i.CollectionPropsInjectorHandlerTest - executing test testCheckCollectionRoot(org.restheart.handlers.injectors.CollectionPropsInjectorHandlerTest)
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec
+Running org.restheart.handlers.injectors.BodyInjectorHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.restheart.handlers.applicationlogic.ResponseTypeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.restheart.handlers.applicationlogic.MetricsHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 sec
+Running org.restheart.handlers.RequestContextTest
+20:29:59.091 [main] INFO  o.r.handlers.RequestContextTest - executing test testGetMappedRequestUri2(org.restheart.handlers.RequestContextTest)
+20:29:59.092 [main] INFO  o.r.handlers.RequestContextTest - executing test test_FILE_selectRequestType(org.restheart.handlers.RequestContextTest)
+20:29:59.092 [main] INFO  o.r.handlers.RequestContextTest - executing test testSelectRequestType(org.restheart.handlers.RequestContextTest)
+20:29:59.092 [main] INFO  o.r.handlers.RequestContextTest - executing test testSelectRequestMethod(org.restheart.handlers.RequestContextTest)
+20:29:59.092 [main] INFO  o.r.handlers.RequestContextTest - executing test testGetMappedRequestUri(org.restheart.handlers.RequestContextTest)
+20:29:59.094 [main] INFO  o.r.handlers.RequestContextTest - executing test test_COLLECTION_FILES_selectRequestType(org.restheart.handlers.RequestContextTest)
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.restheart.handlers.files.GetFileHandlerTest
+20:29:59.094 [main] INFO  o.r.h.files.GetFileHandlerTest - executing test testExtractBucket(org.restheart.handlers.files.GetFileHandlerTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.restheart.handlers.MetricsInstrumentationHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec
+Running org.restheart.handlers.RequestDispacherHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running org.restheart.utils.URLUtilsTest
+20:29:59.207 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetQueryStringRemovingParams(org.restheart.utils.URLUtilsTest)
+20:29:59.208 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyInverse(org.restheart.utils.URLUtilsTest)
+20:29:59.210 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyInverseObjectId(org.restheart.utils.URLUtilsTest)
+20:29:59.223 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterMany(org.restheart.utils.URLUtilsTest)
+20:29:59.224 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyInverseLong(org.restheart.utils.URLUtilsTest)
+20:29:59.224 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithDocIdStringValidObjectId(org.restheart.utils.URLUtilsTest)
+20:29:59.225 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testDecodeQueryString(org.restheart.utils.URLUtilsTest)
+20:29:59.225 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterOneObjectId(org.restheart.utils.URLUtilsTest)
+20:29:59.225 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testRemoveTrailingSlashes(org.restheart.utils.URLUtilsTest)
+20:29:59.225 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithDocId(org.restheart.utils.URLUtilsTest)
+20:29:59.226 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyIdsWithSpaces(org.restheart.utils.URLUtilsTest)
+20:29:59.226 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterOne(org.restheart.utils.URLUtilsTest)
+20:29:59.226 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetParentPath(org.restheart.utils.URLUtilsTest)
+20:29:59.226 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterManyString(org.restheart.utils.URLUtilsTest)
+20:29:59.226 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithFilterOneInteger(org.restheart.utils.URLUtilsTest)
+20:29:59.227 [main] INFO  org.restheart.utils.URLUtilsTest - executing test testGetUriWithLongDocId(org.restheart.utils.URLUtilsTest)
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.restheart.utils.MetricsJsonGeneratorTest
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
+testGenerationWithMeter(org.restheart.utils.MetricsJsonGeneratorTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { }, "meters" : { "foobar" : { "count" : 1, "m15_rate" : 0.0, "m1_rate" : 0.0, "m5_rate" : 0.0, "mean_rate" : 1, "units" : "calls/second" } }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {}, "meters": {"foobar": {"count": 1, "m15_rate": 0.0, "m1_rate": 0.0, "m5_rate": 0.0, "mean_rate": 146.3215137253238, "units": "calls/second"}}, "timers": {}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.restheart.utils.MetricsJsonGeneratorTest.testGenerationWithMeter(MetricsJsonGeneratorTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+testGenerationWithHistogram(org.restheart.utils.MetricsJsonGeneratorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { "foobar" : { "count" : 1, "max" : 5.0, "mean" : 5.0, "min" : 5.0, "p50" : 5.0, "p75" : 5.0, "p95" : 5.0, "p98" : 5.0, "p99" : 5.0, "p999" : 5.0, "stddev" : 0.0 } }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {"foobar": {"count": 1, "max": 5.0, "mean": 5.0, "min": 5.0, "p50": 5.0, "p75": 5.0, "p95": 5.0, "p98": 5.0, "p99": 5.0, "p999": 5.0, "stddev": 0.0}}, "meters": {}, "timers": {}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.restheart.utils.MetricsJsonGeneratorTest.testGenerationWithHistogram(MetricsJsonGeneratorTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+testGenerationWithCounter(org.restheart.utils.MetricsJsonGeneratorTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { "foobar" : { "count" : 3 } }, "histograms" : { }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {"foobar": {"count": 3}}, "histograms": {}, "meters": {}, "timers": {}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.restheart.utils.MetricsJsonGeneratorTest.testGenerationWithCounter(MetricsJsonGeneratorTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+testGenerationWithGauges(org.restheart.utils.MetricsJsonGeneratorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{[ "version" : "3.0.0", "gauges" : { "foobar" : { "value" : 5 } }, "counters" : { }, "histograms" : { }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {"foobar": {"value": 5}}, "counters": {}, "histograms": {}, "meters": {}, "timers": {}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.restheart.utils.MetricsJsonGeneratorTest.testGenerationWithGauges(MetricsJsonGeneratorTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+testGenerationWithEmptyRegistry(org.restheart.utils.MetricsJsonGeneratorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {}, "meters": {}, "timers": {}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.restheart.utils.MetricsJsonGeneratorTest.testGenerationWithEmptyRegistry(MetricsJsonGeneratorTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+testGenerationWithOneTimer(org.restheart.utils.MetricsJsonGeneratorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { }, "meters" : { }, "timers" : { "foobar" : { "count" : 1, "max" : 5.0, "mean" : 5.0, "min" : 5.0, "p50" : 5.0, "p75" : 5.0, "p95" : 5.0, "p98" : 5.0, "p99" : 5.0, "p999" : 5.0, "stddev" : 0.0, "m15_rate" : 0.0, "m1_rate" : 0.0, "m5_rate" : 0.0, "mean_rate" : 1, "duration_units" : "milliseconds", "rate_units" : "calls/second" } } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {}, "meters": {}, "timers": {"foobar": {"count": 1, "max": 5.0, "mean": 5.0, "min": 5.0, "p50": 5.0, "p75": 5.0, "p95": 5.0, "p98": 5.0, "p99": 5.0, "p999": 5.0, "stddev": 0.0, "m15_rate": 0.0, "m1_rate": 0.0, "m5_rate": 0.0, "mean_rate": 6760.822386435087, "duration_units": "milliseconds", "rate_units": "calls/second"}}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.restheart.utils.MetricsJsonGeneratorTest.testGenerationWithOneTimer(MetricsJsonGeneratorTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Running org.restheart.utils.JsonUtilsTest
+20:29:59.243 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testGetPropFromPath(org.restheart.utils.JsonUtilsTest)
+20:29:59.252 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseFloat(org.restheart.utils.JsonUtilsTest)
+20:29:59.252 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseToBsonArray(org.restheart.utils.JsonUtilsTest)
+20:29:59.252 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test checkCountOnComplexJson(org.restheart.utils.JsonUtilsTest)
+20:29:59.266 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseToBsonObject(org.restheart.utils.JsonUtilsTest)
+20:29:59.267 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testJsonArray(org.restheart.utils.JsonUtilsTest)
+20:29:59.269 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testJsonObject(org.restheart.utils.JsonUtilsTest)
+20:29:59.271 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseToBsonArrayOfObjectets(org.restheart.utils.JsonUtilsTest)
+20:29:59.271 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testParseObjectId(org.restheart.utils.JsonUtilsTest)
+20:29:59.271 [main] INFO  org.restheart.utils.JsonUtilsTest - executing test testMinify(org.restheart.utils.JsonUtilsTest)
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.restheart.cache.impl.GuavaCacheTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.restheart.db.GridFsDAOTest
+20:29:59.289 [main] INFO  org.restheart.db.GridFsDAOTest - executing test testDetectMediatype(org.restheart.db.GridFsDAOTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running org.restheart.db.DAOUtilsTest
+20:29:59.362 [main] INFO  org.restheart.db.DAOUtilsTest - executing test testValidContent(org.restheart.db.DAOUtilsTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.restheart.security.impl.DbIdentityManagerTest
+20:29:59.364 [main] INFO  o.r.h.files.GetFileHandlerTest - executing test testHashedPassword(org.restheart.security.impl.DbIdentityManagerTest)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+
+Results :
+
+Failed tests:   testGenerationWithMeter(org.restheart.utils.MetricsJsonGeneratorTest): expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { }, "meters" : { "foobar" : { "count" : 1, "m15_rate" : 0.0, "m1_rate" : 0.0, "m5_rate" : 0.0, "mean_rate" : 1, "units" : "calls/second" } }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {}, "meters": {"foobar": {"count": 1, "m15_rate": 0.0, "m1_rate": 0.0, "m5_rate": 0.0, "mean_rate": 146.3215137253238, "units": "calls/second"}}, "timers": {}]}>
+  testGenerationWithHistogram(org.restheart.utils.MetricsJsonGeneratorTest): expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { "foobar" : { "count" : 1, "max" : 5.0, "mean" : 5.0, "min" : 5.0, "p50" : 5.0, "p75" : 5.0, "p95" : 5.0, "p98" : 5.0, "p99" : 5.0, "p999" : 5.0, "stddev" : 0.0 } }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {"foobar": {"count": 1, "max": 5.0, "mean": 5.0, "min": 5.0, "p50": 5.0, "p75": 5.0, "p95": 5.0, "p98": 5.0, "p99": 5.0, "p999": 5.0, "stddev": 0.0}}, "meters": {}, "timers": {}]}>
+  testGenerationWithCounter(org.restheart.utils.MetricsJsonGeneratorTest): expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { "foobar" : { "count" : 3 } }, "histograms" : { }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {"foobar": {"count": 3}}, "histograms": {}, "meters": {}, "timers": {}]}>
+  testGenerationWithGauges(org.restheart.utils.MetricsJsonGeneratorTest): expected:<{[ "version" : "3.0.0", "gauges" : { "foobar" : { "value" : 5 } }, "counters" : { }, "histograms" : { }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {"foobar": {"value": 5}}, "counters": {}, "histograms": {}, "meters": {}, "timers": {}]}>
+  testGenerationWithEmptyRegistry(org.restheart.utils.MetricsJsonGeneratorTest): expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { }, "meters" : { }, "timers" : { } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {}, "meters": {}, "timers": {}]}>
+  testGenerationWithOneTimer(org.restheart.utils.MetricsJsonGeneratorTest): expected:<{[ "version" : "3.0.0", "gauges" : { }, "counters" : { }, "histograms" : { }, "meters" : { }, "timers" : { "foobar" : { "count" : 1, "max" : 5.0, "mean" : 5.0, "min" : 5.0, "p50" : 5.0, "p75" : 5.0, "p95" : 5.0, "p98" : 5.0, "p99" : 5.0, "p999" : 5.0, "stddev" : 0.0, "m15_rate" : 0.0, "m1_rate" : 0.0, "m5_rate" : 0.0, "mean_rate" : 1, "duration_units" : "milliseconds", "rate_units" : "calls/second" } } ]}> but was:<{["version": "3.0.0", "gauges": {}, "counters": {}, "histograms": {}, "meters": {}, "timers": {"foobar": {"count": 1, "max": 5.0, "mean": 5.0, "min": 5.0, "p50": 5.0, "p75": 5.0, "p95": 5.0, "p98": 5.0, "p99": 5.0, "p999": 5.0, "stddev": 0.0, "m15_rate": 0.0, "m1_rate": 0.0, "m5_rate": 0.0, "mean_rate": 6760.822386435087, "duration_units": "milliseconds", "rate_units": "calls/second"}}]}>
+
+Tests run: 56, Failures: 6, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.689 s
+[INFO] Finished at: 2019-08-14T20:29:59+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project restheart: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/restheart/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

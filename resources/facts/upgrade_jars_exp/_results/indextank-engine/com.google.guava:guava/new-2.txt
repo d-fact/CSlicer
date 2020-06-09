@@ -1,0 +1,118 @@
+[VERSION]: 28.0-jre
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.flaptor.indextank:indextank-engine >---------------
+[INFO] Building indextank-engine 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ indextank-engine ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ indextank-engine ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:7.4.5.v20110725:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:3.0.1:compile
+[INFO]    com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO]    org.eclipse.jetty:jetty-continuation:jar:7.4.5.v20110725:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:3.0.1:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:7.4.5.v20110725:compile
+[INFO]    org.apache.lucene:lucene-core:jar:3.0.1:compile
+[INFO]    org.antlr:antlr:jar:3.4:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:7.4.5.v20110725:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.6.4:compile
+[INFO]    antlr:antlr:jar:2.7.7:compile
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO]    com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO]    org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.6.4:compile
+[INFO]    org.antlr:stringtemplate:jar:3.2.1:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:7.4.5.v20110725:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:7.4.5.v20110725:compile
+[INFO]    org.checkerframework:checker-qual:jar:2.8.1:compile
+[INFO]    com.ghosthack:turismo:jar:0.1.0:compile
+[INFO]    log4j:log4j:jar:1.2.16:compile
+[INFO]    com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO]    org.apache.cassandra.deps:libthrift:jar:0.5.0:compile
+[INFO]    org.apache.lucene:lucene-snowball:jar:3.0.1:compile
+[INFO]    org.apache.lucene:lucene-analyzers:jar:3.0.1:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:3.0.1:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:compile
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.3.2:compile
+[INFO]    org.antlr:ST4:jar:4.0.4:compile
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.eclipse.jetty:jetty-http:jar:7.4.5.v20110725:compile
+[INFO]    com.google.guava:guava:jar:28.0-jre:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    org.apache.commons:commons-lang3:jar:3.1:compile
+[INFO]    org.antlr:antlr-runtime:jar:3.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.4:antlr (default) @ indextank-engine ---
+[INFO] ANTLR: Processing source directory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/antlr3
+ANTLR Parser Generator  Version 3.4
+com/flaptor/indextank/index/scorer/parser/ScoreFormula.g
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.5:add-source (add-source) @ indextank-engine ---
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/gen-java added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/flaptor-util added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/lucene-experimental added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/cojen-2.2.1-sources added.
+[INFO] Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/embedded-api added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ indextank-engine ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ indextank-engine ---
+[INFO] Compiling 335 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/flaptor-util/com/flaptor/util/CollectionsUtil.java:[229,56] error: <anonymous com.flaptor.util.CollectionsUtil$10> is not abstract and does not override abstract method test(T) in Predicate
+[ERROR] 
+    T extends Object declared in method <T>allButOne(Iterable<T>,T)
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/index/rti/inverted/InvertedIndex.java:[174,39] error: <anonymous com.flaptor.indextank.index.rti.inverted.InvertedIndex$1> is not abstract and does not override abstract method test(DocTermMatch) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/LogCleaner.java:[60,41] error: cannot find symbol
+[ERROR]  class Files
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/LogDealer.java:[133,21] error: cannot find symbol
+[ERROR]  class Files
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/LogDealer.java:[139,21] error: cannot find symbol
+[ERROR]  class Files
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/Segment.java:[261,80] error: <anonymous com.flaptor.indextank.storage.Segment$2> is not abstract and does not override abstract method test(Segment) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/IndexLog.java:[67,69] error: <anonymous com.flaptor.indextank.storage.IndexLog$1> is not abstract and does not override abstract method test(LogRecord) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/blender/BlendingQueryMatcher.java:[124,64] error: <anonymous com.flaptor.indextank.blender.BlendingQueryMatcher$1> is not abstract and does not override abstract method test(ScoredMatch) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/blender/BlendingQueryMatcher.java:[133,32] error: <anonymous com.flaptor.indextank.blender.BlendingQueryMatcher$2> is not abstract and does not override abstract method test(DocId) in Predicate
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.334 s
+[INFO] Finished at: 2019-08-16T00:44:50+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project indextank-engine: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/flaptor-util/com/flaptor/util/CollectionsUtil.java:[229,56] error: <anonymous com.flaptor.util.CollectionsUtil$10> is not abstract and does not override abstract method test(T) in Predicate
+[ERROR] 
+[ERROR]     T extends Object declared in method <T>allButOne(Iterable<T>,T)
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/index/rti/inverted/InvertedIndex.java:[174,39] error: <anonymous com.flaptor.indextank.index.rti.inverted.InvertedIndex$1> is not abstract and does not override abstract method test(DocTermMatch) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/LogCleaner.java:[60,41] error: cannot find symbol
+[ERROR]  class Files
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/LogDealer.java:[133,21] error: cannot find symbol
+[ERROR]  class Files
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/LogDealer.java:[139,21] error: cannot find symbol
+[ERROR]  class Files
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/Segment.java:[261,80] error: <anonymous com.flaptor.indextank.storage.Segment$2> is not abstract and does not override abstract method test(Segment) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/storage/IndexLog.java:[67,69] error: <anonymous com.flaptor.indextank.storage.IndexLog$1> is not abstract and does not override abstract method test(LogRecord) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/blender/BlendingQueryMatcher.java:[124,64] error: <anonymous com.flaptor.indextank.blender.BlendingQueryMatcher$1> is not abstract and does not override abstract method test(ScoredMatch) in Predicate
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/indextank-engine/src/main/java/com/flaptor/indextank/blender/BlendingQueryMatcher.java:[133,32] error: <anonymous com.flaptor.indextank.blender.BlendingQueryMatcher$2> is not abstract and does not override abstract method test(DocId) in Predicate
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

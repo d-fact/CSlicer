@@ -1,0 +1,79 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/jdeb/org.bouncycastle=bcpg-jdk15on/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/jdeb/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/jdeb/org.bouncycastle=bcpg-jdk15on/bcpg-jdk15on-1.60.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore org.vafer.jdeb.mapping.PermMapper_ESTestJUnit version 4.12
+22:51:43.241 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.PermMapper_ESTest
+22:51:43.243 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.PermMapper_ESTest'.
+22:51:43.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.PermMapper_ESTest_scaffolding
+22:51:43.299 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.PermMapper_ESTest_scaffolding'.
+22:51:43.301 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.PermMapper_ESTest_scaffolding
+22:51:43.301 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.PermMapper_ESTest
+22:51:43.382 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:51:43.382 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:51:43.382 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:51:43.382 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:51:43.383 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:51:43.403 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarUtils$1
+22:51:43.403 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarUtils$1'.
+22:51:43.409 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarUtils$1
+22:51:43.496 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.tar, -1697841654
+22:51:43.496 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipEncoding
+22:51:43.496 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipEncoding'.
+22:51:43.497 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers.zip, -1697835642
+22:51:43.497 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipEncoding
+22:51:43.497 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarUtils$1
+22:51:43.497 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.Utils
+22:51:43.497 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.Utils'.
+22:51:43.498 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/utils/Utils
+22:51:43.505 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/vafer/jdeb/utils/Utils
+22:51:43.506 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.vafer.jdeb.utils, -2010505782
+22:51:43.506 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.Utils
+22:51:43.509 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.ArchiveEntry
+22:51:43.509 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.ArchiveEntry'.
+22:51:43.510 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.archivers, -1107036461
+22:51:43.510 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.ArchiveEntry
+22:51:43.510 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.CharsetAccessor
+22:51:43.510 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.CharsetAccessor'.
+22:51:43.511 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.CharsetAccessor
+22:51:43.511 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.PermMapper
+22:51:43.511 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.PermMapper'.
+22:51:43.512 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/vafer/jdeb/mapping/PermMapper
+22:51:43.513 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/vafer/jdeb/mapping/PermMapper
+22:51:43.513 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.mapping.Mapper
+22:51:43.513 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.mapping.Mapper'.
+22:51:43.513 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.Mapper
+22:51:43.514 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.mapping.PermMapper
+22:51:43.514 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.ZipEncodingHelper
+22:51:43.514 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.ZipEncodingHelper'.
+22:51:43.515 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+22:51:43.515 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+22:51:43.515 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.ZipEncodingHelper
+22:51:43.516 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.utils.Charsets
+22:51:43.516 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.utils.Charsets'.
+22:51:43.516 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/utils/Charsets
+22:51:43.517 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/utils/Charsets
+22:51:43.517 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.compress.utils, -373561087
+22:51:43.517 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.utils.Charsets
+22:51:43.517 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.zip.NioZipEncoding
+22:51:43.517 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.zip.NioZipEncoding'.
+22:51:43.518 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/zip/NioZipEncoding
+22:51:43.519 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/zip/NioZipEncoding
+22:51:43.519 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.zip.NioZipEncoding
+22:51:43.520 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarConstants
+22:51:43.520 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarConstants'.
+22:51:43.521 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarConstants
+22:51:43.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.vafer.jdeb.utils.VariableResolver
+22:51:43.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.vafer.jdeb.utils.VariableResolver'.
+22:51:43.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.vafer.jdeb.utils.VariableResolver
+22:51:43.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarArchiveEntry
+22:51:43.522 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarArchiveEntry'.
+22:51:43.524 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarArchiveEntry
+22:51:43.533 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/tar/TarArchiveEntry
+22:51:43.533 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarArchiveEntry
+22:51:43.534 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.compress.archivers.tar.TarUtils
+22:51:43.534 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.compress.archivers.tar.TarUtils'.
+22:51:43.535 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/compress/archivers/tar/TarUtils
+22:51:43.539 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/compress/archivers/tar/TarUtils
+22:51:43.539 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.compress.archivers.tar.TarUtils
+.........................
+Time: 0.29
+
+OK (25 tests)
+

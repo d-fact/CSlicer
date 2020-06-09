@@ -1,0 +1,65 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/extentreports-java/org.jsoup=jsoup/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/extentreports-java/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/extentreports-java/org.jsoup=jsoup/jsoup-1.12.1.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTestJUnit version 4.12
+22:24:23.930 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTest
+22:24:23.932 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTest'.
+22:24:23.985 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTest_scaffolding
+22:24:23.986 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTest_scaffolding'.
+22:24:23.988 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTest_scaffolding
+22:24:23.988 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel_ESTest
+22:24:24.071 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:24:24.071 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:24:24.071 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:24:24.071 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:24:24.071 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:24:24.093 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel
+22:24:24.093 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel'.
+22:24:24.136 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.IGherkinFormatterModel
+.22:24:24.141 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.But
+22:24:24.141 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.But'.
+22:24:24.142 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/But
+22:24:24.197 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/But
+22:24:24.198 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.But
+22:24:24.198 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Background
+22:24:24.198 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Background'.
+22:24:24.199 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/Background
+22:24:24.199 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/Background
+22:24:24.199 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Background
+22:24:24.199 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Then
+22:24:24.199 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Then'.
+22:24:24.200 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/Then
+22:24:24.200 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/Then
+22:24:24.200 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Then
+22:24:24.200 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Feature
+22:24:24.200 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Feature'.
+22:24:24.201 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/Feature
+22:24:24.201 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/Feature
+22:24:24.201 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Feature
+22:24:24.201 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.When
+22:24:24.202 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.When'.
+22:24:24.202 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/When
+22:24:24.202 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/When
+22:24:24.202 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.When
+22:24:24.203 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Scenario
+22:24:24.203 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Scenario'.
+22:24:24.203 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/Scenario
+22:24:24.204 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/Scenario
+22:24:24.204 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Scenario
+22:24:24.204 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.ScenarioOutline
+22:24:24.204 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.ScenarioOutline'.
+22:24:24.204 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/ScenarioOutline
+22:24:24.205 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/ScenarioOutline
+22:24:24.205 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.ScenarioOutline
+22:24:24.205 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.And
+22:24:24.205 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.And'.
+22:24:24.206 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/And
+22:24:24.206 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/And
+22:24:24.206 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.And
+22:24:24.206 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.aventstack.extentreports.gherkin.model.Given
+22:24:24.206 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.aventstack.extentreports.gherkin.model.Given'.
+22:24:24.207 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/aventstack/extentreports/gherkin/model/Given
+22:24:24.207 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/aventstack/extentreports/gherkin/model/Given
+22:24:24.207 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.aventstack.extentreports.gherkin.model.Given
+
+Time: 0.198
+
+OK (1 test)
+

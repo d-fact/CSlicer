@@ -1,0 +1,544 @@
+[VERSION]: 2.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.javafaker:javafaker >-------------------
+[INFO] Building Java Faker 0.15
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ javafaker ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ javafaker ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:test
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.8.0:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-beanutils:commons-beanutils:jar:1.9.2:test
+[INFO]    org.slf4j:slf4j-simple:jar:1.7.25:test
+[INFO]    org.apache.commons:commons-lang3:jar:3.5:compile
+[INFO]    commons-validator:commons-validator:jar:1.6:test
+[INFO]    commons-digester:commons-digester:jar:1.8.1:test
+[INFO]    commons-collections:commons-collections:jar:3.2.2:test
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.mockito:mockito-core:jar:2.17.0:test
+[INFO]    org.yaml:snakeyaml:jar:android:1.20:compile
+[INFO]    com.google.guava:guava:jar:20.0:test
+[INFO]    dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:test
+[INFO]    commons-logging:commons-logging:jar:1.2:test
+[INFO]    org.reflections:reflections:jar:0.9.11:test
+[INFO]    org.hamcrest:hamcrest-library:jar:2.1:test
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    com.github.mifmif:generex:jar:1.0.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.8.0:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javafaker ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javafaker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 47 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ javafaker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javafaker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ javafaker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 71 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/target/test-classes
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[7,20] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[16,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[16,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[17,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[17,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[18,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[18,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[19,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[19,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[20,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[20,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[21,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[21,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[22,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[23,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[24,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[25,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FriendsTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FriendsTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[9,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[9,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[10,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[5,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/service/RandomServiceTest.java:[13,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/CodeTest.java:[12,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/AddressTest.java:[11,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/TwinPeaksTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/TwinPeaksTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[5,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/FakerIT.java:[18,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/NumberTest.java:[17,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/BoolTest.java:[5,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/BoolTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/MostSpecificLocaleIT.java:[10,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/UkLocalDirectivesTest.java:[10,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/UkLocalDirectivesTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FakerTest.java:[9,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/service/FakeValuesServiceTest.java:[18,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[4,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[5,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RandomFakerTest.java:[9,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RandomFakerTest.java:[9,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RickAndMortyTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RickAndMortyTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/GameOfThronesTest.java:[4,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/GameOfThronesTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/WeatherTest.java:[7,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/WeatherTest.java:[7,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FinanceTest.java:[7,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FinanceTest.java:[7,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/HarryPotterTest.java:[6,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/HarryPotterTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[3,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[4,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/YodaTest.java:[5,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/YodaTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/MatzTest.java:[5,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/MatzTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/DateAndTimeTest.java:[13,27] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[33,72] cannot find symbol
+  symbol:   method is(boolean)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[39,34] cannot find symbol
+  symbol:   method startsWith(java.lang.String)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[40,72] cannot find symbol
+  symbol:   method is(boolean)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[48,76] cannot find symbol
+  symbol:   method is(boolean)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[54,34] cannot find symbol
+  symbol:   variable Matchers
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[54,17] cannot find symbol
+  symbol:   variable Matchers
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[62,38] cannot find symbol
+  symbol:   method startsWith(java.lang.String)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[63,76] cannot find symbol
+  symbol:   method is(boolean)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[69,34] cannot find symbol
+  symbol:   variable Matchers
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[69,17] cannot find symbol
+  symbol:   variable Matchers
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[134,64] cannot find symbol
+  symbol:   method is(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[135,66] cannot find symbol
+  symbol:   method is(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[137,61] cannot find symbol
+  symbol:   method startsWith(java.lang.String)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[138,74] cannot find symbol
+  symbol:   method is(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[140,58] cannot find symbol
+  symbol:   method startsWith(java.lang.String)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[141,71] cannot find symbol
+  symbol:   method is(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[154,65] cannot find symbol
+  symbol:   method is(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[158,46] cannot find symbol
+  symbol:   method lessThanOrEqualTo(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[158,26] cannot find symbol
+  symbol:   method greaterThan(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[160,55] cannot find symbol
+  symbol:   method lessThanOrEqualTo(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[160,26] cannot find symbol
+  symbol:   method greaterThanOrEqualTo(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[162,55] cannot find symbol
+  symbol:   method lessThanOrEqualTo(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[162,26] cannot find symbol
+  symbol:   method greaterThanOrEqualTo(int)
+  location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[164,55] cannot find symbol
+  symbol:   method lessThanOrEqualTo(int)
+  location: class com.github.javafaker.InternetTest
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.434 s
+[INFO] Finished at: 2019-08-20T16:16:54+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project javafaker: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[7,20] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[16,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[16,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[17,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[17,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[18,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[18,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[19,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[19,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[20,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[20,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[21,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[21,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[22,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[23,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[24,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[25,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FriendsTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FriendsTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[9,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[9,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[10,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/OptionsTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[5,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ShakespeareTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/service/RandomServiceTest.java:[13,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/CodeTest.java:[12,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/AddressTest.java:[11,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/TwinPeaksTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/TwinPeaksTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[5,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/ChuckNorrisTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/FakerIT.java:[18,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/NumberTest.java:[17,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/BoolTest.java:[5,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/BoolTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/MostSpecificLocaleIT.java:[10,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/UkLocalDirectivesTest.java:[10,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/integration/UkLocalDirectivesTest.java:[10,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FakerTest.java:[9,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/service/FakeValuesServiceTest.java:[18,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[4,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[5,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/LoremTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RandomFakerTest.java:[9,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RandomFakerTest.java:[9,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RickAndMortyTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/RickAndMortyTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/GameOfThronesTest.java:[4,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/GameOfThronesTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/WeatherTest.java:[7,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/WeatherTest.java:[7,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FinanceTest.java:[7,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/FinanceTest.java:[7,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/HarryPotterTest.java:[6,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/HarryPotterTest.java:[6,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[3,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[3,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[4,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/StockTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/YodaTest.java:[5,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/YodaTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/MatzTest.java:[5,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/MatzTest.java:[5,1] static import only from classes and interfaces
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/DateAndTimeTest.java:[13,27] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[33,72] cannot find symbol
+[ERROR]   symbol:   method is(boolean)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[39,34] cannot find symbol
+[ERROR]   symbol:   method startsWith(java.lang.String)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[40,72] cannot find symbol
+[ERROR]   symbol:   method is(boolean)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[48,76] cannot find symbol
+[ERROR]   symbol:   method is(boolean)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[54,34] cannot find symbol
+[ERROR]   symbol:   variable Matchers
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[54,17] cannot find symbol
+[ERROR]   symbol:   variable Matchers
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[62,38] cannot find symbol
+[ERROR]   symbol:   method startsWith(java.lang.String)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[63,76] cannot find symbol
+[ERROR]   symbol:   method is(boolean)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[69,34] cannot find symbol
+[ERROR]   symbol:   variable Matchers
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[69,17] cannot find symbol
+[ERROR]   symbol:   variable Matchers
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[134,64] cannot find symbol
+[ERROR]   symbol:   method is(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[135,66] cannot find symbol
+[ERROR]   symbol:   method is(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[137,61] cannot find symbol
+[ERROR]   symbol:   method startsWith(java.lang.String)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[138,74] cannot find symbol
+[ERROR]   symbol:   method is(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[140,58] cannot find symbol
+[ERROR]   symbol:   method startsWith(java.lang.String)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[141,71] cannot find symbol
+[ERROR]   symbol:   method is(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[154,65] cannot find symbol
+[ERROR]   symbol:   method is(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[158,46] cannot find symbol
+[ERROR]   symbol:   method lessThanOrEqualTo(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[158,26] cannot find symbol
+[ERROR]   symbol:   method greaterThan(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[160,55] cannot find symbol
+[ERROR]   symbol:   method lessThanOrEqualTo(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[160,26] cannot find symbol
+[ERROR]   symbol:   method greaterThanOrEqualTo(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[162,55] cannot find symbol
+[ERROR]   symbol:   method lessThanOrEqualTo(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[162,26] cannot find symbol
+[ERROR]   symbol:   method greaterThanOrEqualTo(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/java-faker/src/test/java/com/github/javafaker/InternetTest.java:[164,55] cannot find symbol
+[ERROR]   symbol:   method lessThanOrEqualTo(int)
+[ERROR]   location: class com.github.javafaker.InternetTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

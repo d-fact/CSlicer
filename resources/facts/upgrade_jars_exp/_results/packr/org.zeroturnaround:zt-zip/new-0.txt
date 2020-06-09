@@ -1,0 +1,261 @@
+[VERSION]: 1.13
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.badlogicgames.packr:packr:jar:1.2
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 52, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< com.badlogicgames.packr:packr >--------------------
+[INFO] Building packr 1.2
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from gdx-nightlies: https://oss.sonatype.org/content/repositories/snapshots/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom
+Progress (1): 2.2/5.8 kB
+Progress (1): 5.0/5.8 kB
+Progress (1): 5.8 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom (5.8 kB at 6.1 kB/s)
+Downloading from gdx-nightlies: https://oss.sonatype.org/content/repositories/snapshots/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.jar
+Progress (1): 2.2/111 kB
+Progress (1): 5.0/111 kB
+Progress (1): 7.7/111 kB
+Progress (1): 10/111 kB 
+Progress (1): 13/111 kB
+Progress (1): 16/111 kB
+Progress (1): 19/111 kB
+Progress (1): 21/111 kB
+Progress (1): 24/111 kB
+Progress (1): 27/111 kB
+Progress (1): 30/111 kB
+Progress (1): 32/111 kB
+Progress (1): 36/111 kB
+Progress (1): 40/111 kB
+Progress (1): 45/111 kB
+Progress (1): 49/111 kB
+Progress (1): 53/111 kB
+Progress (1): 57/111 kB
+Progress (1): 61/111 kB
+Progress (1): 65/111 kB
+Progress (1): 69/111 kB
+Progress (1): 73/111 kB
+Progress (1): 77/111 kB
+Progress (1): 81/111 kB
+Progress (1): 85/111 kB
+Progress (1): 90/111 kB
+Progress (1): 94/111 kB
+Progress (1): 98/111 kB
+Progress (1): 102/111 kB
+Progress (1): 106/111 kB
+Progress (1): 110/111 kB
+Progress (1): 111 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.jar (111 kB at 123 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ packr ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ packr ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.eclipsesource.minimal-json:minimal-json:jar:0.9.1:compile
+[INFO]    org.zeroturnaround:zt-zip:jar:1.13:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.6.6:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ packr ---
+[INFO] 
+[INFO] --- maven-source-plugin:3.1.0:jar-no-fork (attach-sources) @ packr ---
+[INFO] Building jar: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/target/packr-1.2-sources.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ packr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ packr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] bootstrap class path not set in conjunction with -source 1.6
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[32,28] error: package org.apache.commons.io does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[33,28] error: package org.apache.commons.io does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[34,39] error: package org.apache.commons.io.filefilter does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[78,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[89,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[114,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[116,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[125,25] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[126,3] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[141,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[142,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[175,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[185,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[190,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[194,26] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[202,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[214,46] error: cannot find symbol
+[ERROR]   symbol:   variable TrueFileFilter
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[214,72] error: cannot find symbol
+[ERROR]   symbol:   variable TrueFileFilter
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[214,18] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[223,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[234,4] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[239,4] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[259,9] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[263,15] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[290,26] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[294,27] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[307,42] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[322,27] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+  location: class Packr
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[326,28] error: cannot find symbol
+[INFO] 29 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.882 s
+[INFO] Finished at: 2019-08-16T00:43:09+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project packr: Compilation failure: Compilation failure: 
+[ERROR] bootstrap class path not set in conjunction with -source 1.6
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[32,28] error: package org.apache.commons.io does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[33,28] error: package org.apache.commons.io does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[34,39] error: package org.apache.commons.io.filefilter does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[78,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[89,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[114,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[116,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[125,25] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[126,3] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[141,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[142,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[175,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[185,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[190,3] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[194,26] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[202,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[214,46] error: cannot find symbol
+[ERROR]   symbol:   variable TrueFileFilter
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[214,72] error: cannot find symbol
+[ERROR]   symbol:   variable TrueFileFilter
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[214,18] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[223,2] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[234,4] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[239,4] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[259,9] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[263,15] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[290,26] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[294,27] error: cannot find symbol
+[ERROR]   symbol:   variable IOUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[307,42] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[322,27] error: cannot find symbol
+[ERROR]   symbol:   variable FileUtils
+[ERROR]   location: class Packr
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/main/java/com/badlogicgames/packr/Packr.java:[326,28] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

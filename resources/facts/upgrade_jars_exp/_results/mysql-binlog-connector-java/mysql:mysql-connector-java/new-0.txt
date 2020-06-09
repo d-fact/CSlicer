@@ -1,0 +1,69 @@
+[VERSION]: 8.0.17
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.github.shyiko:mysql-binlog-connector-java >------------
+[INFO] Building mysql-binlog-connector-java 0.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mysql-binlog-connector-java ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ mysql-binlog-connector-java ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.testng:testng:jar:6.8.5:test
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.yaml:snakeyaml:jar:1.6:test
+[INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    com.beust:jcommander:jar:1.27:test
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    org.mockito:mockito-all:jar:1.9.5:test
+[INFO]    org.skyscreamer:jsonassert:jar:1.4.0:test
+[INFO]    mysql:mysql-connector-java:jar:8.0.17:test
+[INFO]    com.google.protobuf:protobuf-java:jar:3.6.1:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mysql-binlog-connector-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ mysql-binlog-connector-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 79 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[18,25] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[33,9] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[33,63] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/main/java/com/github/shyiko/mysql/binlog/network/TLSHostnameVerifier.java:[33,35] sun.security.util.HostnameChecker is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mysql-binlog-connector-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ mysql-binlog-connector-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientIntegrationTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientIntegrationTest.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientIntegrationTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ mysql-binlog-connector-java ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/mysql-binlog-connector-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Aug 16, 2019 8:07:23 AM com.github.shyiko.mysql.binlog.BinaryLogClient$2 run
+WARNING: Failed to establish connection in 995ms. Forcing disconnect.
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.282 sec
+
+Results :
+
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.351 s
+[INFO] Finished at: 2019-08-16T08:07:23+08:00
+[INFO] ------------------------------------------------------------------------

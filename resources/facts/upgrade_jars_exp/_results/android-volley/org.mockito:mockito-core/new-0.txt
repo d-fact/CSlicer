@@ -1,0 +1,500 @@
+[VERSION]: 3.0.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.android.volley:volley >----------------------
+[INFO] Building volley 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ volley ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ volley ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:test
+[INFO]    org.apache.maven:maven-error-diagnostics:jar:2.2.1:test
+[INFO]    org.json:json:jar:20080701:compile
+[INFO]    org.easytesting:fest-util:jar:1.2.5:test
+[INFO]    org.ow2.asm:asm-analysis:jar:4.1:test
+[INFO]    org.apache.maven:maven-settings:jar:2.2.1:test
+[INFO]    org.ow2.asm:asm-commons:jar:4.1:test
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+[INFO]    org.apache.maven:maven-artifact-manager:jar:2.2.1:test
+[INFO]    org.ow2.asm:asm-util:jar:4.1:test
+[INFO]    org.apache.maven:maven-project:jar:2.2.1:test
+[INFO]    com.google.android:android:jar:4.1.1.4:compile
+[INFO]    org.apache.maven.wagon:wagon-file:jar:1.0-beta-6:test
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    nekohtml:xercesMinimal:jar:1.9.6.2:test
+[INFO]    org.xerial:sqlite-jdbc:jar:3.7.2:test
+[INFO]    org.objenesis:objenesis:jar:1.3:test
+[INFO]    org.codehaus.plexus:plexus-utils:jar:1.5.15:test
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.codehaus.plexus:plexus-interpolation:jar:1.11:test
+[INFO]    org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-6:test
+[INFO]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+[INFO]    org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:compile
+[INFO]    commons-codec:commons-codec:jar:1.3:compile
+[INFO]    classworlds:classworlds:jar:1.1-alpha-2:test
+[INFO]    nekohtml:nekohtml:jar:1.9.6.2:test
+[INFO]    org.easytesting:fest-reflect:jar:1.4.1:test
+[INFO]    org.ow2.asm:asm:jar:4.1:test
+[INFO]    org.apache.maven:maven-repository-metadata:jar:2.2.1:test
+[INFO]    com.ximpleware:vtd-xml:jar:2.11:test
+[INFO]    org.mockito:mockito-core:jar:3.0.0:test
+[INFO]    org.apache.maven:maven-artifact:jar:2.2.1:test
+[INFO]    org.apache.maven:maven-ant-tasks:jar:2.1.3:test
+[INFO]    org.ow2.asm:asm-tree:jar:4.1:test
+[INFO]    org.apache.maven:maven-profile:jar:2.2.1:test
+[INFO]    xerces:xmlParserAPIs:jar:2.6.2:compile
+[INFO]    org.apache.ant:ant-launcher:jar:1.8.0:test
+[INFO]    org.robolectric:robolectric:jar:2.2:test
+[INFO]    org.apache.ant:ant:jar:1.8.0:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[INFO]    com.google.android:support-v4:jar:r7:test
+[INFO]    org.apache.maven:maven-model:jar:2.2.1:test
+[INFO]    net.bytebuddy:byte-buddy:jar:1.9.10:test
+[INFO]    org.apache.maven:maven-plugin-registry:jar:2.2.1:test
+[INFO]    xpp3:xpp3:jar:1.1.4c:compile
+[INFO]    backport-util-concurrent:backport-util-concurrent:jar:3.1:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-6:test
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (pre-unit-test) @ volley ---
+[INFO] surefireArgLine set to -javaagent:/home/cgzhu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/target/surefire-reports/jacoco-ut.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ volley ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ volley ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/main/java/com/android/volley/RequestQueue.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/main/java/com/android/volley/RequestQueue.java uses unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/main/java/com/android/volley/RequestQueue.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ volley ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ volley ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/test/java/com/android/volley/mock/MockRequest.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/test/java/com/android/volley/mock/MockRequest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ volley ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.android.volley.ResponseDeliveryTest
+WARNING: no system properties value for ro.build.date.utc
+DEBUG: Loading resources for android from jar:/home/cgzhu/.m2/repository/org/robolectric/android-res/4.1.2_r1_rc/android-res-4.1.2_r1_rc-real.jar!/res...
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.31 sec - in com.android.volley.ResponseDeliveryTest
+Running com.android.volley.NetworkDispatcherTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in com.android.volley.NetworkDispatcherTest
+Running com.android.volley.toolbox.RequestFutureTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.android.volley.toolbox.RequestFutureTest
+Running com.android.volley.toolbox.JsonRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.android.volley.toolbox.JsonRequestTest
+Running com.android.volley.toolbox.PoolingByteArrayOutputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.android.volley.toolbox.PoolingByteArrayOutputStreamTest
+Running com.android.volley.toolbox.ByteArrayPoolTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.android.volley.toolbox.ByteArrayPoolTest
+Running com.android.volley.toolbox.JsonRequestCharsetTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in com.android.volley.toolbox.JsonRequestCharsetTest
+Running com.android.volley.toolbox.ImageRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec - in com.android.volley.toolbox.ImageRequestTest
+Running com.android.volley.toolbox.ImageLoaderTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE! - in com.android.volley.toolbox.ImageLoaderTest
+getWithCacheHit(com.android.volley.toolbox.ImageLoaderTest)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.ImageLoaderTest.setUp(ImageLoaderTest.java:40)
+
+getWithCacheMiss(com.android.volley.toolbox.ImageLoaderTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.ImageLoaderTest.setUp(ImageLoaderTest.java:40)
+
+isCachedChecksCache(com.android.volley.toolbox.ImageLoaderTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.ImageLoaderTest.setUp(ImageLoaderTest.java:40)
+
+publicMethods(com.android.volley.toolbox.ImageLoaderTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.ImageLoaderTest.setUp(ImageLoaderTest.java:40)
+
+Running com.android.volley.toolbox.RequestQueueTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.android.volley.toolbox.RequestQueueTest
+Running com.android.volley.toolbox.HurlStackTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in com.android.volley.toolbox.HurlStackTest
+Running com.android.volley.toolbox.RequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.android.volley.toolbox.RequestTest
+Running com.android.volley.toolbox.HttpHeaderParserTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in com.android.volley.toolbox.HttpHeaderParserTest
+Running com.android.volley.toolbox.HttpClientStackTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec - in com.android.volley.toolbox.HttpClientStackTest
+Running com.android.volley.toolbox.StringRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.android.volley.toolbox.StringRequestTest
+Running com.android.volley.toolbox.BasicNetworkTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.android.volley.toolbox.BasicNetworkTest
+Running com.android.volley.toolbox.ResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.android.volley.toolbox.ResponseTest
+Running com.android.volley.toolbox.NetworkImageViewTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in com.android.volley.toolbox.NetworkImageViewTest
+Running com.android.volley.toolbox.DiskBasedCacheTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.android.volley.toolbox.DiskBasedCacheTest
+Running com.android.volley.toolbox.AndroidAuthenticatorTest
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE! - in com.android.volley.toolbox.AndroidAuthenticatorTest
+failedGetAuthToken(com.android.volley.toolbox.AndroidAuthenticatorTest)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.AndroidAuthenticatorTest.setUp(AndroidAuthenticatorTest.java:47)
+
+resultContainsIntent(com.android.volley.toolbox.AndroidAuthenticatorTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.AndroidAuthenticatorTest.setUp(AndroidAuthenticatorTest.java:47)
+
+missingAuthToken(com.android.volley.toolbox.AndroidAuthenticatorTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.AndroidAuthenticatorTest.setUp(AndroidAuthenticatorTest.java:47)
+
+invalidateAuthToken(com.android.volley.toolbox.AndroidAuthenticatorTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.AndroidAuthenticatorTest.setUp(AndroidAuthenticatorTest.java:47)
+
+goodToken(com.android.volley.toolbox.AndroidAuthenticatorTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.AndroidAuthenticatorTest.setUp(AndroidAuthenticatorTest.java:47)
+
+publicMethods(com.android.volley.toolbox.AndroidAuthenticatorTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at com.android.volley.toolbox.AndroidAuthenticatorTest.setUp(AndroidAuthenticatorTest.java:47)
+
+Running com.android.volley.toolbox.CacheTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.android.volley.toolbox.CacheTest
+Running com.android.volley.RequestQueueTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.android.volley.RequestQueueTest
+cancelAll_onlyCorrectTag(com.android.volley.RequestQueueTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Wrong type at constant pool index
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:77)
+	at java.lang.reflect.Field.declaredAnnotations(Field.java:1150)
+	at java.lang.reflect.Field.declaredAnnotations(Field.java:1148)
+	at java.lang.reflect.Field.getDeclaredAnnotations(Field.java:1139)
+	at java.lang.reflect.AccessibleObject.getAnnotations(AccessibleObject.java:207)
+	at org.junit.runners.model.FrameworkField.getAnnotations(FrameworkField.java:26)
+	at org.junit.runners.model.TestClass.addToAnnotationLists(TestClass.java:52)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:45)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.IllegalArgumentException: Wrong type at constant pool index
+	at sun.reflect.ConstantPool.getClassAt0(Native Method)
+	at sun.reflect.ConstantPool.getClassAt(ConstantPool.java:37)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:244)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:120)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:72)
+	at java.lang.reflect.Field.declaredAnnotations(Field.java:1150)
+	at java.lang.reflect.Field.declaredAnnotations(Field.java:1148)
+	at java.lang.reflect.Field.getDeclaredAnnotations(Field.java:1139)
+	at java.lang.reflect.AccessibleObject.getAnnotations(AccessibleObject.java:207)
+	at org.junit.runners.model.FrameworkField.getAnnotations(FrameworkField.java:26)
+	at org.junit.runners.model.TestClass.addToAnnotationLists(TestClass.java:52)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:45)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+Running com.android.volley.RequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.android.volley.RequestTest
+Running com.android.volley.RequestQueueIntegrationTest
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.android.volley.RequestQueueIntegrationTest
+add_requestProcessedInCorrectOrder(com.android.volley.RequestQueueIntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructors(Class.java:1651)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:36)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+add_requestFinishedListenerCanceled(com.android.volley.RequestQueueIntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructors(Class.java:1651)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:36)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+add_requestFinishedListenerSuccess(com.android.volley.RequestQueueIntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructors(Class.java:1651)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:36)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+add_requestFinishedListenerError(com.android.volley.RequestQueueIntegrationTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructors(Class.java:1651)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:36)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+add_dedupeByCacheKey(com.android.volley.RequestQueueIntegrationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.findClass(AsmInstrumentingClassLoader.java:128)
+	at org.robolectric.bytecode.AsmInstrumentingClassLoader.loadClass(AsmInstrumentingClassLoader.java:95)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructors(Class.java:1651)
+	at org.junit.runners.model.TestClass.<init>(TestClass.java:36)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:55)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner.<init>(RobolectricTestRunner.java:643)
+	at org.robolectric.RobolectricTestRunner.getHelperTestRunner(RobolectricTestRunner.java:261)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:194)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+Running com.android.volley.CacheDispatcherTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.android.volley.CacheDispatcherTest
+
+Results :
+
+Tests in error: 
+  RequestQueueIntegrationTest.add_dedupeByCacheKey » IllegalArgument
+  RequestQueueIntegrationTest.add_requestFinishedListenerCanceled » IllegalArgument
+  RequestQueueIntegrationTest.add_requestFinishedListenerError » IllegalArgument
+  RequestQueueIntegrationTest.add_requestFinishedListenerSuccess » IllegalArgument
+  RequestQueueIntegrationTest.add_requestProcessedInCorrectOrder » IllegalArgument
+  RequestQueueTest.cancelAll_onlyCorrectTag » AnnotationFormat java.lang.Illegal...
+  AndroidAuthenticatorTest.setUp:47 » IllegalArgument
+  AndroidAuthenticatorTest.setUp:47 » IllegalArgument
+  AndroidAuthenticatorTest.setUp:47 » IllegalArgument
+  AndroidAuthenticatorTest.setUp:47 » IllegalArgument
+  AndroidAuthenticatorTest.setUp:47 » IllegalArgument
+  AndroidAuthenticatorTest.setUp:47 » IllegalArgument
+  ImageLoaderTest.setUp:40 » IllegalArgument
+  ImageLoaderTest.setUp:40 » IllegalArgument
+  ImageLoaderTest.setUp:40 » IllegalArgument
+  ImageLoaderTest.setUp:40 » IllegalArgument
+
+Tests run: 100, Failures: 0, Errors: 16, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.277 s
+[INFO] Finished at: 2019-08-16T01:06:44+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test) on project volley: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/android-volley/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

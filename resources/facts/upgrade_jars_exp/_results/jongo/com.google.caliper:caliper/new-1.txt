@@ -1,0 +1,177 @@
+[VERSION]: 1.0-beta-2
+[INFO] Scanning for projects...
+[WARNING] The project org.jongo:jongo:jar:1.4.0 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] --------------------------< org.jongo:jongo >---------------------------
+[INFO] Building Jongo 1.4.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jongo ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:list (default-cli) @ jongo ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.mongodb:mongo-java-driver:jar:3.5.0:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+[INFO]    de.undercouch:bson4jackson:jar:2.9.0:compile
+[INFO]    junit:junit:jar:4.10:test
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    org.assertj:assertj-core:jar:1.4.0:test
+[INFO]    org.mockito:mockito-all:jar:1.9.0:test
+[INFO]    com.google.caliper:caliper:jar:1.0-beta-2:test
+[INFO]    com.google.code.gson:gson:jar:2.2.2:test
+[INFO]    joda-time:joda-time:jar:2.1:test
+[INFO]    com.sun.jersey:jersey-client:jar:1.11:test
+[INFO]    com.sun.jersey:jersey-core:jar:1.11:test
+[INFO]    com.google.guava:guava:jar:18.0:test
+[INFO]    com.google.inject:guice:jar:3.0:test
+[INFO]    javax.inject:javax.inject:jar:1:test
+[INFO]    aopalliance:aopalliance:jar:1.0:test
+[INFO]    com.google.inject.extensions:guice-multibindings:jar:3.0:test
+[INFO]    com.google.inject.extensions:guice-assistedinject:jar:3.0:test
+[INFO]    org.apache.commons:commons-math:jar:2.2:test
+[INFO]    com.google.code.java-allocation-instrumenter:java-allocation-instrumenter:jar:3.0:test
+[INFO]    org.ow2.asm:asm:jar:5.0.3:test
+[INFO]    org.ow2.asm:asm-analysis:jar:5.0.3:test
+[INFO]    org.ow2.asm:asm-commons:jar:5.0.3:test
+[INFO]    org.ow2.asm:asm-tree:jar:5.0.3:test
+[INFO]    org.ow2.asm:asm-util:jar:5.0.3:test
+[INFO]    org.ow2.asm:asm-xml:jar:5.0.3:test
+[INFO]    de.flapdoodle.embed:de.flapdoodle.embed.mongo:jar:1.47.3:test
+[INFO]    de.flapdoodle.embed:de.flapdoodle.embed.process:jar:1.41.1:test
+[INFO]    commons-io:commons-io:jar:2.4:test
+[INFO]    org.apache.commons:commons-lang3:jar:3.1:test
+[INFO]    net.java.dev.jna:jna:jar:4.0.0:test
+[INFO]    net.java.dev.jna:jna-platform:jar:4.0.0:test
+[INFO]    org.apache.commons:commons-compress:jar:1.3:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.10:test
+[INFO]    org.reflections:reflections:jar:0.9.9-RC1:test
+[INFO]    org.javassist:javassist:jar:3.16.1-GA:test
+[INFO]    dom4j:dom4j:jar:1.6.1:test
+[INFO]    xml-apis:xml-apis:jar:1.0.b2:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ jongo ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ jongo ---
+[INFO] Compiling 66 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ jongo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ jongo ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:testCompile (default-testCompile) @ jongo ---
+[INFO] Compiling 80 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[19,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[30,34] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[21,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[33,31] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[21,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[29,31] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[19,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+  location: package com.google.caliper
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[36,34] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[60,8] error: cannot find symbol
+[ERROR]   symbol:   variable Runner
+  location: class DecoderBench
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[75,8] error: cannot find symbol
+[ERROR]   symbol:   variable Runner
+  location: class FindBench
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[62,8] error: cannot find symbol
+[ERROR]   symbol:   variable Runner
+  location: class SaveBench
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[100,8] error: cannot find symbol
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.147 s
+[INFO] Finished at: 2019-08-14T21:53:51+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:testCompile (default-testCompile) on project jongo: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[19,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[30,34] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[21,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[33,31] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[21,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[29,31] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[19,25] error: cannot find symbol
+[ERROR]   symbol:   class Runner
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[20,25] error: cannot find symbol
+[ERROR]   symbol:   class SimpleBenchmark
+[ERROR]   location: package com.google.caliper
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[36,34] error: cannot find symbol
+[ERROR]   symbol: class SimpleBenchmark
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/DecoderBench.java:[60,8] error: cannot find symbol
+[ERROR]   symbol:   variable Runner
+[ERROR]   location: class DecoderBench
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/FindBench.java:[75,8] error: cannot find symbol
+[ERROR]   symbol:   variable Runner
+[ERROR]   location: class FindBench
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/SaveBench.java:[62,8] error: cannot find symbol
+[ERROR]   symbol:   variable Runner
+[ERROR]   location: class SaveBench
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jongo/src/test/java/org/jongo/bench/EncoderBench.java:[100,8] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

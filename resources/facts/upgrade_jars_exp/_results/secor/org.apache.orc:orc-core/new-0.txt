@@ -1,0 +1,1224 @@
+[VERSION]: 1.5.6
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.pinterest:secor:jar:0.26
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.codehaus.mojo:exec-maven-plugin @ line 395, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 565, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< com.pinterest:secor >-------------------------
+[INFO] Building secor 0.26
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.pom
+Progress (1): 0.9/4.5 kB
+Progress (1): 4.5 kB    
+                    
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.pom (4.5 kB at 7.7 kB/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/orc/orc/1.5.6/orc-1.5.6.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/orc/orc/1.5.6/orc-1.5.6.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/orc/orc/1.5.6/orc-1.5.6.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/orc/orc/1.5.6/orc-1.5.6.pom
+Progress (1): 2.4/23 kB
+Progress (1): 6.5/23 kB
+Progress (1): 11/23 kB 
+Progress (1): 14/23 kB
+Progress (1): 18/23 kB
+Progress (1): 22/23 kB
+Progress (1): 23 kB   
+                   
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/orc/orc/1.5.6/orc-1.5.6.pom (23 kB at 41 kB/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.pom
+Progress (1): 0.9/3.1 kB
+Progress (1): 3.1 kB    
+                    
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.pom (3.1 kB at 8.2 kB/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/io/airlift/aircompressor/0.10/aircompressor-0.10.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/io/airlift/aircompressor/0.10/aircompressor-0.10.pom
+Downloading from confluent: http://packages.confluent.io/maven/io/airlift/aircompressor/0.10/aircompressor-0.10.pom
+Downloading from central: http://repo1.maven.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.pom
+Progress (1): 0.9/7.1 kB
+Progress (1): 5.0/7.1 kB
+Progress (1): 7.1 kB    
+                    
+Downloaded from central: http://repo1.maven.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.pom (7.1 kB at 19 kB/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/io/airlift/airbase/78/airbase-78.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/io/airlift/airbase/78/airbase-78.pom
+Downloading from confluent: http://packages.confluent.io/maven/io/airlift/airbase/78/airbase-78.pom
+Downloading from central: http://repo1.maven.org/maven2/io/airlift/airbase/78/airbase-78.pom
+Progress (1): 2.4/64 kB
+Progress (1): 6.5/64 kB
+Progress (1): 11/64 kB 
+Progress (1): 15/64 kB
+Progress (1): 19/64 kB
+Progress (1): 23/64 kB
+Progress (1): 27/64 kB
+Progress (1): 30/64 kB
+Progress (1): 33/64 kB
+Progress (1): 37/64 kB
+Progress (1): 41/64 kB
+Progress (1): 45/64 kB
+Progress (1): 49/64 kB
+Progress (1): 53/64 kB
+Progress (1): 57/64 kB
+Progress (1): 61/64 kB
+Progress (1): 64 kB   
+                   
+Downloaded from central: http://repo1.maven.org/maven2/io/airlift/airbase/78/airbase-78.pom (64 kB at 114 kB/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-project-dist/2.2.0/hadoop-project-dist-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-project-dist/2.2.0/hadoop-project-dist-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-project-dist/2.2.0/hadoop-project-dist-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.2.0/hadoop-project-dist-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.2.0/hadoop-project-dist-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-project/2.2.0/hadoop-project-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-project/2.2.0/hadoop-project-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-project/2.2.0/hadoop-project-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.2.0/hadoop-project-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.2.0/hadoop-project-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-main/2.2.0/hadoop-main-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-main/2.2.0/hadoop-main-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-main/2.2.0/hadoop-main-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.2.0/hadoop-main-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.2.0/hadoop-main-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom (0 B at 0 B/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.pom
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.pom
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.pom
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.pom
+Progress (1): 4.1/6.5 kB
+Progress (1): 5.8/6.5 kB
+Progress (1): 6.5 kB    
+                    
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.pom (6.5 kB at 17 kB/s)
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.jar
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar
+Downloading from Twitter public Maven repo: http://maven.twttr.com/io/airlift/aircompressor/0.10/aircompressor-0.10.jar
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.jar
+Downloading from Twitter public Maven repo: http://maven.twttr.com/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.jar
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.jar
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/io/airlift/aircompressor/0.10/aircompressor-0.10.jar
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.jar
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.jar
+Downloading from Typesafe public Maven repo: http://repo.typesafe.com/typesafe/releases/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.jar
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.jar
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.jar
+Downloading from confluent: http://packages.confluent.io/maven/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar
+Downloading from confluent: http://packages.confluent.io/maven/io/airlift/aircompressor/0.10/aircompressor-0.10.jar
+Downloading from central: http://repo1.maven.org/maven2/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.jar
+Downloading from central: http://repo1.maven.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.jar
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.jar
+Downloading from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar
+Downloading from central: http://repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.jar
+Progress (1): 0.9/803 kB
+Progress (1): 2.4/803 kB
+Progress (1): 3.8/803 kB
+Progress (1): 5.3/803 kB
+Progress (1): 6.7/803 kB
+Progress (1): 8.1/803 kB
+Progress (1): 9.6/803 kB
+Progress (1): 11/803 kB 
+Progress (1): 12/803 kB
+Progress (1): 14/803 kB
+Progress (1): 15/803 kB
+Progress (1): 17/803 kB
+Progress (1): 18/803 kB
+Progress (1): 20/803 kB
+Progress (1): 21/803 kB
+Progress (1): 23/803 kB
+Progress (1): 24/803 kB
+Progress (1): 26/803 kB
+Progress (1): 27/803 kB
+Progress (1): 28/803 kB
+Progress (1): 30/803 kB
+Progress (1): 31/803 kB
+Progress (1): 33/803 kB
+Progress (1): 34/803 kB
+Progress (1): 36/803 kB
+Progress (1): 37/803 kB
+Progress (1): 39/803 kB
+Progress (1): 40/803 kB
+Progress (1): 41/803 kB
+Progress (1): 43/803 kB
+Progress (1): 44/803 kB
+Progress (1): 46/803 kB
+Progress (1): 47/803 kB
+Progress (1): 49/803 kB
+Progress (1): 50/803 kB
+Progress (1): 52/803 kB
+Progress (1): 53/803 kB
+Progress (1): 54/803 kB
+Progress (1): 56/803 kB
+Progress (1): 57/803 kB
+Progress (1): 59/803 kB
+Progress (1): 60/803 kB
+Progress (1): 62/803 kB
+Progress (1): 63/803 kB
+Progress (1): 65/803 kB
+Progress (1): 66/803 kB
+Progress (1): 68/803 kB
+Progress (1): 69/803 kB
+Progress (1): 70/803 kB
+Progress (1): 72/803 kB
+Progress (1): 73/803 kB
+Progress (1): 75/803 kB
+Progress (1): 76/803 kB
+Progress (1): 78/803 kB
+Progress (1): 79/803 kB
+Progress (1): 81/803 kB
+Progress (1): 82/803 kB
+Progress (1): 83/803 kB
+Progress (1): 85/803 kB
+Progress (1): 86/803 kB
+Progress (1): 88/803 kB
+Progress (1): 89/803 kB
+Progress (1): 91/803 kB
+Progress (1): 92/803 kB
+Progress (1): 94/803 kB
+                       
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar (0 B at 0 B/s)
+Progress (2): 94/803 kB | 0.9/134 kB
+Progress (2): 94/803 kB | 5.0/134 kB
+Progress (2): 94/803 kB | 9.1/134 kB
+Progress (2): 94/803 kB | 13/134 kB 
+Progress (2): 94/803 kB | 14/134 kB
+Progress (3): 94/803 kB | 14/134 kB | 0.9/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 2.4/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 3.8/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 5.3/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 6.7/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 8.2/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 9.6/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 11/28 kB 
+Progress (3): 94/803 kB | 14/134 kB | 12/28 kB
+Progress (3): 94/803 kB | 14/134 kB | 14/28 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 0.9/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 2.4/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 3.8/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 5.3/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 6.7/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 8.1/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 9.6/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 11/232 kB 
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 12/232 kB
+Progress (4): 94/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 95/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 96/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 98/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 99/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 101/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 102/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 104/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 105/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 107/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 108/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 110/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 111/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 112/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 114/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 115/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 117/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 118/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 120/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 121/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 123/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 124/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 125/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 127/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 128/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 130/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 131/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 133/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 134/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 136/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 137/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 138/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 140/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 141/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 143/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 144/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 146/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 147/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 149/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 150/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 152/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 153/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 154/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 156/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 157/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 159/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 160/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 162/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 163/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 165/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 166/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 167/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 169/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 170/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 172/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 173/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 175/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 176/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 178/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 179/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 180/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 182/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 183/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 185/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 186/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 188/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 189/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 191/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 192/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 193/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 195/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 196/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 198/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 199/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 14/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 18/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 22/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 26/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 30/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 34/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 39/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 14/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 15/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 17/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 18/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 20/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 21/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 23/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 24/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 26/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 27/28 kB | 14/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 14/232 kB   
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 15/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 17/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 18/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 20/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 21/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 23/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 24/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 26/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 27/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 28/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 30/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 31/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 33/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 34/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 36/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 37/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 39/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 40/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 41/232 kB
+Progress (4): 201/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 202/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 204/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 205/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 207/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 208/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 209/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 211/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 212/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 214/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 215/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 217/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 218/803 kB | 43/134 kB | 28 kB | 43/232 kB
+Progress (4): 218/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 220/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 221/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 222/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 224/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 225/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 227/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 228/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 230/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 231/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 233/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 234/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 235/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 237/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 238/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 240/803 kB | 44/134 kB | 28 kB | 43/232 kB
+Progress (4): 240/803 kB | 48/134 kB | 28 kB | 43/232 kB
+Progress (4): 241/803 kB | 48/134 kB | 28 kB | 43/232 kB
+Progress (4): 241/803 kB | 53/134 kB | 28 kB | 43/232 kB
+Progress (4): 241/803 kB | 57/134 kB | 28 kB | 43/232 kB
+Progress (4): 241/803 kB | 61/134 kB | 28 kB | 43/232 kB
+Progress (4): 243/803 kB | 61/134 kB | 28 kB | 43/232 kB
+Progress (4): 243/803 kB | 65/134 kB | 28 kB | 43/232 kB
+Progress (4): 243/803 kB | 69/134 kB | 28 kB | 43/232 kB
+Progress (4): 244/803 kB | 69/134 kB | 28 kB | 43/232 kB
+Progress (4): 244/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 244/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 246/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 247/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 249/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 250/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 251/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 253/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 254/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 256/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 257/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 259/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 260/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 262/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 263/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 264/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 266/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 267/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 269/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 270/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 272/803 kB | 73/134 kB | 28 kB | 43/232 kB
+Progress (4): 273/803 kB | 73/134 kB | 28 kB | 43/232 kB
+                                                        
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.6/orc-shims-1.5.6.jar (28 kB at 37 kB/s)
+Progress (3): 273/803 kB | 73/134 kB | 44/232 kB
+Progress (3): 275/803 kB | 73/134 kB | 44/232 kB
+Progress (3): 275/803 kB | 73/134 kB | 48/232 kB
+Progress (3): 275/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 276/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 277/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 279/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 280/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 282/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 283/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 285/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 286/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 288/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 289/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 291/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 292/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 293/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 295/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 296/803 kB | 73/134 kB | 49/232 kB
+Progress (3): 296/803 kB | 73/134 kB | 50/232 kB
+Progress (3): 298/803 kB | 73/134 kB | 50/232 kB
+Progress (3): 298/803 kB | 73/134 kB | 53/232 kB
+Progress (3): 298/803 kB | 73/134 kB | 56/232 kB
+Progress (3): 298/803 kB | 73/134 kB | 57/232 kB
+Progress (3): 299/803 kB | 73/134 kB | 57/232 kB
+Progress (3): 299/803 kB | 73/134 kB | 59/232 kB
+Progress (3): 299/803 kB | 73/134 kB | 62/232 kB
+Progress (3): 299/803 kB | 73/134 kB | 65/232 kB
+Progress (3): 299/803 kB | 73/134 kB | 66/232 kB
+Progress (3): 301/803 kB | 73/134 kB | 66/232 kB
+Progress (3): 301/803 kB | 73/134 kB | 69/232 kB
+Progress (3): 301/803 kB | 73/134 kB | 70/232 kB
+Progress (3): 301/803 kB | 73/134 kB | 73/232 kB
+Progress (3): 302/803 kB | 73/134 kB | 73/232 kB
+Progress (3): 302/803 kB | 73/134 kB | 75/232 kB
+Progress (3): 304/803 kB | 73/134 kB | 75/232 kB
+Progress (3): 304/803 kB | 73/134 kB | 79/232 kB
+Progress (3): 304/803 kB | 73/134 kB | 81/232 kB
+Progress (3): 304/803 kB | 73/134 kB | 82/232 kB
+Progress (3): 305/803 kB | 73/134 kB | 82/232 kB
+Progress (3): 305/803 kB | 73/134 kB | 83/232 kB
+Progress (3): 306/803 kB | 73/134 kB | 83/232 kB
+Progress (3): 306/803 kB | 73/134 kB | 85/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 85/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 86/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 88/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 89/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 91/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 92/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 94/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 95/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 96/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 98/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 99/232 kB
+Progress (3): 308/803 kB | 73/134 kB | 101/232 kB
+Progress (3): 308/803 kB | 77/134 kB | 101/232 kB
+Progress (3): 308/803 kB | 77/134 kB | 102/232 kB
+Progress (3): 308/803 kB | 82/134 kB | 102/232 kB
+Progress (3): 308/803 kB | 86/134 kB | 102/232 kB
+Progress (3): 308/803 kB | 90/134 kB | 102/232 kB
+Progress (3): 308/803 kB | 90/134 kB | 104/232 kB
+Progress (3): 308/803 kB | 94/134 kB | 104/232 kB
+Progress (3): 308/803 kB | 94/134 kB | 105/232 kB
+Progress (3): 308/803 kB | 98/134 kB | 105/232 kB
+Progress (3): 308/803 kB | 102/134 kB | 105/232 kB
+Progress (3): 308/803 kB | 106/134 kB | 105/232 kB
+Progress (3): 308/803 kB | 106/134 kB | 107/232 kB
+Progress (3): 308/803 kB | 110/134 kB | 107/232 kB
+Progress (3): 308/803 kB | 110/134 kB | 108/232 kB
+Progress (3): 308/803 kB | 114/134 kB | 108/232 kB
+Progress (3): 308/803 kB | 118/134 kB | 108/232 kB
+Progress (3): 308/803 kB | 118/134 kB | 110/232 kB
+Progress (3): 308/803 kB | 122/134 kB | 110/232 kB
+Progress (3): 308/803 kB | 127/134 kB | 110/232 kB
+Progress (3): 308/803 kB | 131/134 kB | 110/232 kB
+Progress (3): 308/803 kB | 131/134 kB | 111/232 kB
+Progress (3): 308/803 kB | 134 kB | 111/232 kB    
+Progress (3): 308/803 kB | 134 kB | 112/232 kB
+Progress (3): 309/803 kB | 134 kB | 112/232 kB
+Progress (3): 311/803 kB | 134 kB | 112/232 kB
+Progress (3): 312/803 kB | 134 kB | 112/232 kB
+Progress (3): 314/803 kB | 134 kB | 112/232 kB
+Progress (3): 314/803 kB | 134 kB | 114/232 kB
+Progress (3): 315/803 kB | 134 kB | 114/232 kB
+Progress (3): 315/803 kB | 134 kB | 115/232 kB
+Progress (3): 317/803 kB | 134 kB | 115/232 kB
+Progress (3): 318/803 kB | 134 kB | 115/232 kB
+Progress (3): 318/803 kB | 134 kB | 117/232 kB
+Progress (3): 319/803 kB | 134 kB | 117/232 kB
+Progress (3): 319/803 kB | 134 kB | 118/232 kB
+Progress (3): 321/803 kB | 134 kB | 118/232 kB
+Progress (3): 321/803 kB | 134 kB | 120/232 kB
+Progress (3): 321/803 kB | 134 kB | 121/232 kB
+Progress (3): 322/803 kB | 134 kB | 121/232 kB
+Progress (3): 324/803 kB | 134 kB | 121/232 kB
+Progress (3): 324/803 kB | 134 kB | 123/232 kB
+Progress (3): 325/803 kB | 134 kB | 123/232 kB
+Progress (3): 325/803 kB | 134 kB | 124/232 kB
+Progress (3): 325/803 kB | 134 kB | 125/232 kB
+Progress (3): 327/803 kB | 134 kB | 125/232 kB
+Progress (3): 327/803 kB | 134 kB | 127/232 kB
+Progress (3): 328/803 kB | 134 kB | 127/232 kB
+Progress (3): 330/803 kB | 134 kB | 127/232 kB
+Progress (3): 330/803 kB | 134 kB | 128/232 kB
+Progress (3): 330/803 kB | 134 kB | 130/232 kB
+Progress (3): 331/803 kB | 134 kB | 130/232 kB
+Progress (3): 331/803 kB | 134 kB | 131/232 kB
+Progress (3): 332/803 kB | 134 kB | 131/232 kB
+Progress (3): 334/803 kB | 134 kB | 131/232 kB
+Progress (3): 334/803 kB | 134 kB | 133/232 kB
+Progress (3): 335/803 kB | 134 kB | 133/232 kB
+Progress (3): 335/803 kB | 134 kB | 134/232 kB
+Progress (3): 335/803 kB | 134 kB | 136/232 kB
+Progress (3): 335/803 kB | 134 kB | 137/232 kB
+Progress (3): 337/803 kB | 134 kB | 137/232 kB
+Progress (3): 338/803 kB | 134 kB | 137/232 kB
+Progress (3): 338/803 kB | 134 kB | 138/232 kB
+Progress (3): 340/803 kB | 134 kB | 138/232 kB
+Progress (3): 340/803 kB | 134 kB | 140/232 kB
+Progress (3): 340/803 kB | 134 kB | 141/232 kB
+Progress (3): 341/803 kB | 134 kB | 141/232 kB
+Progress (3): 341/803 kB | 134 kB | 143/232 kB
+Progress (3): 343/803 kB | 134 kB | 143/232 kB
+Progress (3): 344/803 kB | 134 kB | 143/232 kB
+Progress (3): 344/803 kB | 134 kB | 144/232 kB
+Progress (3): 346/803 kB | 134 kB | 144/232 kB
+Progress (3): 346/803 kB | 134 kB | 146/232 kB
+Progress (3): 347/803 kB | 134 kB | 146/232 kB
+Progress (3): 348/803 kB | 134 kB | 146/232 kB
+Progress (3): 348/803 kB | 134 kB | 147/232 kB
+Progress (3): 350/803 kB | 134 kB | 147/232 kB
+Progress (3): 350/803 kB | 134 kB | 149/232 kB
+Progress (3): 351/803 kB | 134 kB | 149/232 kB
+Progress (3): 353/803 kB | 134 kB | 149/232 kB
+Progress (3): 353/803 kB | 134 kB | 150/232 kB
+Progress (3): 354/803 kB | 134 kB | 150/232 kB
+Progress (3): 356/803 kB | 134 kB | 150/232 kB
+Progress (3): 356/803 kB | 134 kB | 152/232 kB
+Progress (3): 357/803 kB | 134 kB | 152/232 kB
+Progress (3): 357/803 kB | 134 kB | 153/232 kB
+Progress (3): 357/803 kB | 134 kB | 154/232 kB
+Progress (3): 359/803 kB | 134 kB | 154/232 kB
+Progress (3): 359/803 kB | 134 kB | 156/232 kB
+Progress (3): 360/803 kB | 134 kB | 156/232 kB
+Progress (3): 361/803 kB | 134 kB | 156/232 kB
+Progress (3): 361/803 kB | 134 kB | 157/232 kB
+Progress (3): 363/803 kB | 134 kB | 157/232 kB
+Progress (3): 363/803 kB | 134 kB | 159/232 kB
+Progress (3): 364/803 kB | 134 kB | 159/232 kB
+Progress (3): 364/803 kB | 134 kB | 160/232 kB
+Progress (3): 366/803 kB | 134 kB | 160/232 kB
+Progress (3): 366/803 kB | 134 kB | 162/232 kB
+Progress (3): 366/803 kB | 134 kB | 163/232 kB
+Progress (3): 367/803 kB | 134 kB | 163/232 kB
+Progress (3): 367/803 kB | 134 kB | 165/232 kB
+Progress (3): 369/803 kB | 134 kB | 165/232 kB
+Progress (3): 369/803 kB | 134 kB | 166/232 kB
+Progress (3): 369/803 kB | 134 kB | 167/232 kB
+Progress (3): 370/803 kB | 134 kB | 167/232 kB
+Progress (3): 372/803 kB | 134 kB | 167/232 kB
+Progress (3): 372/803 kB | 134 kB | 169/232 kB
+Progress (3): 373/803 kB | 134 kB | 169/232 kB
+Progress (3): 373/803 kB | 134 kB | 170/232 kB
+Progress (3): 374/803 kB | 134 kB | 170/232 kB
+Progress (3): 374/803 kB | 134 kB | 172/232 kB
+Progress (3): 374/803 kB | 134 kB | 173/232 kB
+Progress (3): 376/803 kB | 134 kB | 173/232 kB
+Progress (3): 377/803 kB | 134 kB | 173/232 kB
+Progress (3): 377/803 kB | 134 kB | 175/232 kB
+Progress (3): 379/803 kB | 134 kB | 175/232 kB
+Progress (3): 380/803 kB | 134 kB | 175/232 kB
+Progress (3): 380/803 kB | 134 kB | 176/232 kB
+Progress (3): 380/803 kB | 134 kB | 178/232 kB
+Progress (3): 382/803 kB | 134 kB | 178/232 kB
+Progress (3): 382/803 kB | 134 kB | 179/232 kB
+Progress (3): 382/803 kB | 134 kB | 180/232 kB
+Progress (3): 383/803 kB | 134 kB | 180/232 kB
+Progress (3): 385/803 kB | 134 kB | 180/232 kB
+Progress (3): 385/803 kB | 134 kB | 182/232 kB
+Progress (3): 385/803 kB | 134 kB | 183/232 kB
+Progress (3): 386/803 kB | 134 kB | 183/232 kB
+Progress (3): 386/803 kB | 134 kB | 185/232 kB
+Progress (3): 388/803 kB | 134 kB | 185/232 kB
+Progress (3): 388/803 kB | 134 kB | 186/232 kB
+Progress (3): 389/803 kB | 134 kB | 186/232 kB
+Progress (3): 390/803 kB | 134 kB | 186/232 kB
+Progress (3): 390/803 kB | 134 kB | 188/232 kB
+Progress (3): 390/803 kB | 134 kB | 189/232 kB
+Progress (3): 392/803 kB | 134 kB | 189/232 kB
+Progress (3): 392/803 kB | 134 kB | 191/232 kB
+Progress (3): 393/803 kB | 134 kB | 191/232 kB
+Progress (3): 393/803 kB | 134 kB | 192/232 kB
+Progress (3): 393/803 kB | 134 kB | 193/232 kB
+Progress (3): 395/803 kB | 134 kB | 193/232 kB
+Progress (3): 396/803 kB | 134 kB | 193/232 kB
+Progress (3): 396/803 kB | 134 kB | 195/232 kB
+Progress (3): 398/803 kB | 134 kB | 195/232 kB
+Progress (3): 399/803 kB | 134 kB | 195/232 kB
+Progress (3): 399/803 kB | 134 kB | 196/232 kB
+Progress (3): 401/803 kB | 134 kB | 196/232 kB
+Progress (3): 402/803 kB | 134 kB | 196/232 kB
+Progress (3): 403/803 kB | 134 kB | 196/232 kB
+Progress (3): 403/803 kB | 134 kB | 198/232 kB
+Progress (3): 405/803 kB | 134 kB | 198/232 kB
+Progress (3): 405/803 kB | 134 kB | 199/232 kB
+Progress (3): 406/803 kB | 134 kB | 199/232 kB
+Progress (3): 408/803 kB | 134 kB | 199/232 kB
+Progress (3): 408/803 kB | 134 kB | 201/232 kB
+Progress (3): 409/803 kB | 134 kB | 201/232 kB
+Progress (3): 409/803 kB | 134 kB | 202/232 kB
+Progress (3): 411/803 kB | 134 kB | 202/232 kB
+Progress (3): 411/803 kB | 134 kB | 204/232 kB
+Progress (3): 412/803 kB | 134 kB | 204/232 kB
+Progress (3): 412/803 kB | 134 kB | 205/232 kB
+Progress (3): 414/803 kB | 134 kB | 205/232 kB
+Progress (3): 414/803 kB | 134 kB | 207/232 kB
+Progress (3): 415/803 kB | 134 kB | 207/232 kB
+Progress (3): 415/803 kB | 134 kB | 208/232 kB
+Progress (3): 415/803 kB | 134 kB | 209/232 kB
+Progress (3): 416/803 kB | 134 kB | 209/232 kB
+Progress (3): 416/803 kB | 134 kB | 211/232 kB
+Progress (3): 416/803 kB | 134 kB | 212/232 kB
+Progress (3): 416/803 kB | 134 kB | 214/232 kB
+Progress (3): 416/803 kB | 134 kB | 215/232 kB
+Progress (3): 416/803 kB | 134 kB | 217/232 kB
+                                              
+Downloaded from central: http://repo1.maven.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.jar (134 kB at 119 kB/s)
+Progress (2): 416/803 kB | 218/232 kB
+Progress (2): 416/803 kB | 220/232 kB
+Progress (2): 416/803 kB | 221/232 kB
+Progress (2): 416/803 kB | 222/232 kB
+Progress (2): 416/803 kB | 224/232 kB
+Progress (2): 416/803 kB | 225/232 kB
+Progress (2): 416/803 kB | 227/232 kB
+Progress (2): 416/803 kB | 228/232 kB
+Progress (2): 416/803 kB | 230/232 kB
+Progress (2): 416/803 kB | 231/232 kB
+Progress (2): 416/803 kB | 232 kB    
+Progress (2): 418/803 kB | 232 kB
+Progress (2): 419/803 kB | 232 kB
+Progress (2): 421/803 kB | 232 kB
+Progress (2): 422/803 kB | 232 kB
+Progress (2): 424/803 kB | 232 kB
+Progress (2): 425/803 kB | 232 kB
+Progress (2): 427/803 kB | 232 kB
+Progress (2): 428/803 kB | 232 kB
+Progress (2): 430/803 kB | 232 kB
+Progress (2): 431/803 kB | 232 kB
+Progress (2): 432/803 kB | 232 kB
+Progress (2): 434/803 kB | 232 kB
+Progress (2): 435/803 kB | 232 kB
+Progress (2): 437/803 kB | 232 kB
+Progress (2): 438/803 kB | 232 kB
+Progress (2): 440/803 kB | 232 kB
+Progress (2): 441/803 kB | 232 kB
+Progress (2): 443/803 kB | 232 kB
+Progress (2): 444/803 kB | 232 kB
+Progress (2): 445/803 kB | 232 kB
+Progress (2): 447/803 kB | 232 kB
+Progress (2): 448/803 kB | 232 kB
+Progress (2): 450/803 kB | 232 kB
+Progress (2): 451/803 kB | 232 kB
+Progress (2): 453/803 kB | 232 kB
+Progress (2): 454/803 kB | 232 kB
+Progress (2): 456/803 kB | 232 kB
+Progress (2): 457/803 kB | 232 kB
+Progress (2): 458/803 kB | 232 kB
+Progress (2): 460/803 kB | 232 kB
+Progress (2): 461/803 kB | 232 kB
+Progress (2): 463/803 kB | 232 kB
+Progress (2): 464/803 kB | 232 kB
+Progress (2): 466/803 kB | 232 kB
+Progress (2): 467/803 kB | 232 kB
+Progress (2): 469/803 kB | 232 kB
+Progress (2): 470/803 kB | 232 kB
+Progress (2): 472/803 kB | 232 kB
+Progress (2): 473/803 kB | 232 kB
+Progress (2): 474/803 kB | 232 kB
+Progress (2): 476/803 kB | 232 kB
+Progress (2): 477/803 kB | 232 kB
+Progress (2): 479/803 kB | 232 kB
+Progress (2): 480/803 kB | 232 kB
+Progress (2): 482/803 kB | 232 kB
+Progress (2): 483/803 kB | 232 kB
+Progress (2): 485/803 kB | 232 kB
+Progress (2): 486/803 kB | 232 kB
+Progress (2): 487/803 kB | 232 kB
+Progress (2): 489/803 kB | 232 kB
+Progress (2): 490/803 kB | 232 kB
+Progress (2): 492/803 kB | 232 kB
+Progress (2): 493/803 kB | 232 kB
+Progress (2): 495/803 kB | 232 kB
+Progress (2): 496/803 kB | 232 kB
+Progress (2): 498/803 kB | 232 kB
+Progress (2): 499/803 kB | 232 kB
+Progress (2): 500/803 kB | 232 kB
+Progress (2): 502/803 kB | 232 kB
+Progress (2): 503/803 kB | 232 kB
+Progress (2): 505/803 kB | 232 kB
+Progress (2): 506/803 kB | 232 kB
+Progress (2): 508/803 kB | 232 kB
+Progress (2): 509/803 kB | 232 kB
+Progress (2): 511/803 kB | 232 kB
+Progress (2): 512/803 kB | 232 kB
+Progress (2): 514/803 kB | 232 kB
+Progress (2): 515/803 kB | 232 kB
+Progress (2): 516/803 kB | 232 kB
+Progress (2): 518/803 kB | 232 kB
+Progress (2): 519/803 kB | 232 kB
+Progress (2): 521/803 kB | 232 kB
+Progress (2): 522/803 kB | 232 kB
+Progress (2): 524/803 kB | 232 kB
+Progress (2): 525/803 kB | 232 kB
+Progress (2): 527/803 kB | 232 kB
+                                 
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/hive/hive-storage-api/2.6.0/hive-storage-api-2.6.0.jar (232 kB at 175 kB/s)
+Progress (1): 528/803 kB
+Progress (1): 529/803 kB
+Progress (1): 531/803 kB
+Progress (1): 532/803 kB
+Progress (1): 534/803 kB
+Progress (1): 535/803 kB
+Progress (1): 537/803 kB
+Progress (1): 538/803 kB
+Progress (1): 540/803 kB
+Progress (1): 541/803 kB
+Progress (1): 542/803 kB
+Progress (1): 544/803 kB
+Progress (1): 545/803 kB
+Progress (1): 547/803 kB
+Progress (1): 548/803 kB
+Progress (1): 550/803 kB
+Progress (1): 551/803 kB
+Progress (1): 553/803 kB
+Progress (1): 554/803 kB
+Progress (1): 555/803 kB
+Progress (1): 557/803 kB
+Progress (1): 558/803 kB
+Progress (1): 560/803 kB
+Progress (1): 561/803 kB
+Progress (1): 563/803 kB
+Progress (1): 564/803 kB
+Progress (1): 566/803 kB
+Progress (1): 567/803 kB
+Progress (1): 569/803 kB
+Progress (1): 570/803 kB
+Progress (1): 571/803 kB
+Progress (1): 574/803 kB
+Progress (1): 576/803 kB
+Progress (1): 577/803 kB
+Progress (1): 579/803 kB
+Progress (1): 580/803 kB
+Progress (1): 582/803 kB
+Progress (1): 583/803 kB
+Progress (1): 584/803 kB
+Progress (1): 586/803 kB
+Progress (1): 587/803 kB
+Progress (1): 589/803 kB
+Progress (1): 590/803 kB
+Progress (1): 592/803 kB
+Progress (1): 593/803 kB
+Progress (1): 595/803 kB
+Progress (1): 596/803 kB
+Progress (1): 597/803 kB
+Progress (1): 599/803 kB
+Progress (1): 600/803 kB
+Progress (1): 602/803 kB
+Progress (1): 603/803 kB
+Progress (1): 605/803 kB
+Progress (1): 606/803 kB
+Progress (1): 608/803 kB
+Progress (1): 609/803 kB
+Progress (1): 611/803 kB
+Progress (1): 612/803 kB
+Progress (1): 613/803 kB
+Progress (1): 615/803 kB
+Progress (1): 616/803 kB
+Progress (1): 618/803 kB
+Progress (1): 619/803 kB
+Progress (1): 621/803 kB
+Progress (1): 622/803 kB
+Progress (1): 624/803 kB
+Progress (1): 625/803 kB
+Progress (1): 626/803 kB
+Progress (1): 628/803 kB
+Progress (1): 629/803 kB
+Progress (1): 631/803 kB
+Progress (1): 632/803 kB
+Progress (1): 634/803 kB
+Progress (1): 635/803 kB
+Progress (1): 637/803 kB
+Progress (1): 638/803 kB
+Progress (1): 639/803 kB
+Progress (1): 641/803 kB
+Progress (1): 642/803 kB
+Progress (1): 644/803 kB
+Progress (1): 645/803 kB
+Progress (1): 647/803 kB
+Progress (1): 648/803 kB
+Progress (1): 650/803 kB
+Progress (1): 651/803 kB
+Progress (1): 653/803 kB
+Progress (1): 654/803 kB
+Progress (1): 655/803 kB
+Progress (1): 657/803 kB
+Progress (1): 658/803 kB
+Progress (1): 660/803 kB
+Progress (1): 661/803 kB
+Progress (1): 663/803 kB
+Progress (1): 664/803 kB
+Progress (1): 666/803 kB
+Progress (1): 667/803 kB
+Progress (1): 668/803 kB
+Progress (1): 670/803 kB
+Progress (1): 671/803 kB
+Progress (1): 673/803 kB
+Progress (1): 674/803 kB
+Progress (1): 676/803 kB
+Progress (1): 677/803 kB
+Progress (1): 679/803 kB
+Progress (1): 680/803 kB
+Progress (1): 681/803 kB
+Progress (1): 683/803 kB
+Progress (1): 684/803 kB
+Progress (1): 686/803 kB
+Progress (1): 687/803 kB
+Progress (1): 689/803 kB
+Progress (1): 690/803 kB
+Progress (1): 692/803 kB
+Progress (1): 693/803 kB
+Progress (1): 694/803 kB
+Progress (1): 696/803 kB
+Progress (1): 697/803 kB
+Progress (1): 699/803 kB
+Progress (1): 700/803 kB
+Progress (1): 702/803 kB
+Progress (1): 703/803 kB
+Progress (1): 705/803 kB
+Progress (1): 706/803 kB
+Progress (1): 708/803 kB
+Progress (1): 709/803 kB
+Progress (1): 710/803 kB
+Progress (1): 712/803 kB
+Progress (1): 713/803 kB
+Progress (1): 715/803 kB
+Progress (1): 716/803 kB
+Progress (1): 718/803 kB
+Progress (1): 719/803 kB
+Progress (1): 721/803 kB
+Progress (1): 722/803 kB
+Progress (1): 723/803 kB
+Progress (1): 725/803 kB
+Progress (1): 726/803 kB
+Progress (1): 728/803 kB
+Progress (1): 729/803 kB
+Progress (1): 731/803 kB
+Progress (1): 732/803 kB
+Progress (1): 734/803 kB
+Progress (1): 735/803 kB
+Progress (1): 736/803 kB
+Progress (1): 738/803 kB
+Progress (1): 739/803 kB
+Progress (1): 741/803 kB
+Progress (1): 742/803 kB
+Progress (1): 744/803 kB
+Progress (1): 745/803 kB
+Progress (1): 747/803 kB
+Progress (1): 748/803 kB
+Progress (1): 750/803 kB
+Progress (1): 751/803 kB
+Progress (1): 752/803 kB
+Progress (1): 754/803 kB
+Progress (1): 755/803 kB
+Progress (1): 757/803 kB
+Progress (1): 758/803 kB
+Progress (1): 760/803 kB
+Progress (1): 761/803 kB
+Progress (1): 763/803 kB
+Progress (1): 764/803 kB
+Progress (1): 765/803 kB
+Progress (1): 767/803 kB
+Progress (1): 768/803 kB
+Progress (1): 770/803 kB
+Progress (1): 771/803 kB
+Progress (1): 773/803 kB
+Progress (1): 774/803 kB
+Progress (1): 776/803 kB
+Progress (1): 777/803 kB
+Progress (1): 778/803 kB
+Progress (1): 780/803 kB
+Progress (1): 781/803 kB
+Progress (1): 783/803 kB
+Progress (1): 784/803 kB
+Progress (1): 786/803 kB
+Progress (1): 787/803 kB
+Progress (1): 789/803 kB
+Progress (1): 790/803 kB
+Progress (1): 792/803 kB
+Progress (1): 793/803 kB
+Progress (1): 794/803 kB
+Progress (1): 796/803 kB
+Progress (1): 797/803 kB
+Progress (1): 799/803 kB
+Progress (1): 800/803 kB
+Progress (1): 802/803 kB
+Progress (1): 803 kB    
+                    
+Downloaded from central: http://repo1.maven.org/maven2/org/apache/orc/orc-core/1.5.6/orc-core-1.5.6.jar (803 kB at 365 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ secor ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ secor ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.commons:commons-lang3:jar:3.4:compile
+[INFO]    com.twitter:util-app_2.10:jar:6.8.1:compile
+[INFO]    org.powermock:powermock-api-support:jar:1.5.2:test
+[INFO]    org.apache.parquet:parquet-format:jar:2.3.1:compile
+[INFO]    org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile
+[INFO]    com.amazonaws:aws-java-sdk-kms:jar:1.11.160:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.apache.commons:commons-compress:jar:1.8.1:compile
+[INFO]    com.sun.jersey:jersey-json:jar:1.9:compile
+[INFO]    org.mockito:mockito-all:jar:1.9.5:compile
+[INFO]    com.hadoop.gplcompression:hadoop-lzo:jar:0.4.16:compile
+[INFO]    joda-time:joda-time:jar:2.8.1:compile
+[INFO]    org.apache.hadoop:hadoop-openstack:jar:2.7.0:compile
+[INFO]    io.confluent:kafka-avro-serializer:jar:2.0.1:compile
+[INFO]    org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:compile
+[INFO]    net.minidev:json-smart:jar:2.0-RC3:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.0:compile
+[INFO]    com.amazonaws:aws-java-sdk-s3:jar:1.11.160:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5:compile
+[INFO]    org.tukaani:xz:jar:1.5:compile
+[INFO]    com.twitter:ostrich_2.10:jar:9.2.1:compile
+[INFO]    com.timgroup:java-statsd-client:jar:3.0.2:compile
+[INFO]    com.google.inject:guice:jar:3.0:compile
+[INFO]    commons-io:commons-io:jar:2.4:compile
+[INFO]    com.thoughtworks.paranamer:paranamer:jar:2.7:compile
+[INFO]    com.sun.jersey:jersey-core:jar:1.9:compile
+[INFO]    org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:compile
+[INFO]    com.twitter:util-logging_2.10:jar:6.8.1:compile
+[INFO]    org.apache.kafka:kafka_2.10:jar:0.10.0.1:compile
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    org.apache.hadoop:hadoop-aws:jar:2.7.0:compile
+[INFO]    io.confluent:kafka-schema-registry-client:jar:2.0.1:compile
+[INFO]    org.xerial.snappy:snappy-java:jar:1.1.1.3:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+[INFO]    com.101tec:zkclient:jar:0.8:compile
+[INFO]    net.jpountz.lz4:lz4:jar:1.3.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.2:compile
+[INFO]    com.sun.jersey.contribs:jersey-guice:jar:1.9:compile
+[INFO]    org.scala-lang:scala-reflect:jar:2.10.0:compile
+[INFO]    net.minidev:asm:jar:1.0-RC3:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile
+[INFO]    org.powermock:powermock-module-junit4-common:jar:1.5.2:test
+[INFO]    com.microsoft.azure:azure-storage:jar:4.0.0:compile
+[INFO]    com.amazonaws:jmespath-java:jar:1.11.160:compile
+[INFO]    jdk.tools:jdk.tools:jar:1.8:system
+[INFO]    com.sun.jersey:jersey-client:jar:1.9:compile
+[INFO]    org.apache.orc:orc-core:jar:1.5.6:compile
+[INFO]    commons-net:commons-net:jar:3.1:compile
+[INFO]    com.google.protobuf:protobuf-java:jar:3.5.1:compile
+[INFO]    org.apache.hadoop:hadoop-annotations:jar:2.7.0:compile
+[INFO]    com.twitter.common:collections:jar:0.0.34:compile
+[INFO]    it.unimi.dsi:fastutil:jar:6.5.7:compile
+[INFO]    org.scala-lang:scala-compiler:jar:2.10.0:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.powermock:powermock-reflect:jar:1.5.2:test
+[INFO]    org.codehaus.jackson:jackson-jaxrs:jar:1.8.3:compile
+[INFO]    com.yammer.metrics:metrics-core:jar:2.2.0:compile
+[INFO]    org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+[INFO]    commons-configuration:commons-configuration:jar:1.9:compile
+[INFO]    org.apache.parquet:parquet-encoding:jar:1.9.0:compile
+[INFO]    com.amazonaws:aws-java-sdk-core:jar:1.11.160:compile
+[INFO]    javax.activation:activation:jar:1.1.1:compile
+[INFO]    asm:asm:jar:3.1:compile
+[INFO]    org.apache.orc:orc-shims:jar:1.5.6:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.7:compile
+[INFO]    com.twitter.common:quantity:jar:0.0.30:compile
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.apache.parquet:parquet-common:jar:1.9.0:compile
+[INFO]    com.twitter.elephantbird:elephant-bird-pig:jar:4.4:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.0:compile
+[INFO]    org.mortbay.jetty:jetty:jar:6.1.26:compile
+[INFO]    com.google.guava:guava:jar:18.0:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:compile
+[INFO]    com.jcraft:jsch:jar:0.1.42:compile
+[INFO]    org.apache.parquet:parquet-hadoop:jar:1.9.0:compile
+[INFO]    com.twitter:util-core_2.10:jar:6.8.1:compile
+[INFO]    com.twitter.common:base:jar:0.0.38:compile
+[INFO]    org.apache.parquet:parquet-thrift:jar:1.9.0:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    org.apache.thrift:libthrift:jar:0.10.0:compile
+[INFO]    org.codehaus.jackson:jackson-xc:jar:1.8.3:compile
+[INFO]    org.apache.curator:curator-framework:jar:2.7.1:compile
+[INFO]    org.apache.curator:curator-recipes:jar:2.7.1:compile
+[INFO]    com.twitter.common.zookeeper:lock:jar:0.0.7:compile
+[INFO]    org.scala-lang:scala-library:jar:2.10.0:compile
+[INFO]    org.apache.avro:avro:jar:1.8.2:compile
+[INFO]    org.apache.hadoop:hadoop-common:test-jar:tests:2.7.0:compile
+[INFO]    org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:compile
+[INFO]    com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.1.1:compile
+[INFO]    commons-pool:commons-pool:jar:1.5.4:compile
+[INFO]    com.google.protobuf:protobuf-java-util:jar:3.5.1:compile
+[INFO]    org.objenesis:objenesis:jar:1.2:test
+[INFO]    org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+[INFO]    com.google.api-client:google-api-client:jar:1.20.0:compile
+[INFO]    org.apache.hadoop:hadoop-auth:jar:2.7.0:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.javassist:javassist:jar:3.18.0-GA:test
+[INFO]    org.apache.hadoop:hadoop-hdfs:jar:2.2.0:compile
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+[INFO]    javax.xml.bind:jaxb-api:jar:2.2.11:compile
+[INFO]    javax.servlet.jsp:jsp-api:jar:2.1:runtime
+[INFO]    com.google.oauth-client:google-oauth-client:jar:1.20.0:compile
+[INFO]    io.confluent:common-utils:jar:2.0.1:compile
+[INFO]    com.twitter:util-jvm_2.10:jar:6.8.1:compile
+[INFO]    com.sun.jersey:jersey-server:jar:1.9:compile
+[INFO]    org.apache.hadoop:hadoop-common:jar:2.7.0:compile
+[INFO]    xmlenc:xmlenc:jar:0.52:compile
+[INFO]    com.twitter:scala-json_2.10:jar:3.0.1:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+[INFO]    org.apache.directory.api:api-util:jar:1.0.0-M20:compile
+[INFO]    org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:compile
+[INFO]    com.twitter.common.zookeeper:client:jar:0.0.7:compile
+[INFO]    org.apache.parquet:parquet-pig:jar:1.9.0:compile
+[INFO]    org.apache.parquet:parquet-jackson:jar:1.9.0:compile
+[INFO]    org.powermock:powermock-api-mockito:jar:1.5.2:test
+[INFO]    com.google.http-client:google-http-client:jar:1.20.0:compile
+[INFO]    com.google.apis:google-api-services-storage:jar:v1-rev40-1.20.0:compile
+[INFO]    org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:compile
+[INFO]    io.airlift:aircompressor:jar:0.10:compile
+[INFO]    org.msgpack:jackson-dataformat-msgpack:jar:0.7.0-p2:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.apache.parquet:parquet-protobuf:jar:1.9.0:compile
+[INFO]    org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.0:compile
+[INFO]    org.apache.curator:curator-client:jar:2.7.1:compile
+[INFO]    com.twitter.elephantbird:elephant-bird-core:jar:4.4:compile
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO]    org.powermock:powermock-module-junit4:jar:1.5.2:test
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    net.iharder:base64:jar:2.3.8:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+[INFO]    org.msgpack:msgpack-core:jar:0.7.0-p2:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.2:compile
+[INFO]    org.apache.parquet:parquet-column:jar:1.9.0:compile
+[INFO]    net.java.dev.jets3t:jets3t:jar:0.9.4:compile
+[INFO]    com.twitter:util-eval_2.10:jar:6.8.1:compile
+[INFO]    com.amazonaws:aws-java-sdk-sts:jar:1.11.160:compile
+[INFO]    com.twitter.elephantbird:elephant-bird-hadoop-compat:jar:4.4:compile
+[INFO]    com.twitter.common:net-util:jar:0.0.29:compile
+[INFO]    org.codehaus.jettison:jettison:jar:1.1:compile
+[INFO]    io.confluent:common-config:jar:2.0.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.13:compile
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:4.9:compile
+[INFO]    org.powermock:powermock-core:jar:1.5.2:test
+[INFO]    com.google.http-client:google-http-client-jackson2:jar:1.20.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6:compile
+[INFO]    com.google.inject.extensions:guice-servlet:jar:3.0:compile
+[INFO]    org.apache.kafka:kafka-clients:jar:0.10.0.1:compile
+[INFO]    software.amazon.ion:ion-java:jar:1.0.2:compile
+[INFO]    com.jamesmurty.utils:java-xmlbuilder:jar:1.1:compile
+[INFO]    org.apache.parquet:parquet-avro:jar:1.9.0:compile
+[INFO]    io.netty:netty:jar:3.6.2.Final:compile
+[INFO]    com.twitter.common:util-system-mocks:jar:0.0.26:compile
+[INFO]    commons-httpclient:commons-httpclient:jar:3.1:compile
+[INFO]    org.apache.hive:hive-storage-api:jar:2.6.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-finagle-thrift-plugin:0.0.9:compile (thrift-sources) @ secor ---
+[INFO] compiling thrift files [/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/main/thrift/secor.thrift] with generators [finagle]
+[INFO] copying /thrift/thrift-finagle.linux64 to /tmp/thrift-finagle8923140722082904918
+[INFO] running [-o, /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-sources/thrift, --gen, java, /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/main/thrift/secor.thrift]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ secor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 19 resources
+[INFO] Copying 1 resource
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ secor ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 90 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/main/java/com/pinterest/secor/tools/TestLogMessageProducer.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/main/java/com/pinterest/secor/tools/TestLogMessageProducer.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/main/java/com/pinterest/secor/parser/QuboleClient.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/main/java/com/pinterest/secor/parser/QuboleClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default) @ secor ---
+[INFO] 
+[INFO] --- protoc-jar-maven-plugin:3.1.0:run (protobuf-test-sources) @ secor ---
+[INFO] Protoc version: 3.1.0
+protoc-jar: protoc version: 310, detected platform: linux/amd64
+[INFO] Protoc command: /tmp/protocjar7829093475682074191/bin/protoc.exe
+[INFO] Input directories:
+[INFO]     /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf
+[INFO] Include directories:
+[INFO]     /tmp/protocjar7829093475682074191/include
+[INFO]     /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf
+[INFO] Output targets:
+[INFO]     java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-test-sources/protobuf/gen-java (add: none, clean: false, plugin: null, outputOptions: null)
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-test-sources/protobuf/gen-java does not exist. Creating...
+[INFO]     Processing (java): unittest.proto
+protoc-jar: executing: [/tmp/protocjar7829093475682074191/bin/protoc.exe, -I/tmp/protocjar7829093475682074191/include, -I/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf, -I/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf, --java_out=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-test-sources/protobuf/gen-java, /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf/unittest.proto]
+[INFO]     Processing (java): unittesttimestamp.proto
+protoc-jar: executing: [/tmp/protocjar7829093475682074191/bin/protoc.exe, -I/tmp/protocjar7829093475682074191/include, -I/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf, -I/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf, --java_out=/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-test-sources/protobuf/gen-java, /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/protobuf/unittesttimestamp.proto]
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-test-source (add-test-sources) @ secor ---
+[INFO] Test Source directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-test-sources/protobuf/gen-java added.
+[INFO] 
+[INFO] --- maven-finagle-thrift-plugin:0.0.9:testCompile (thrift-test-sources) @ secor ---
+[INFO] compiling thrift files [/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/thrift/unittest.thrift] with generators [finagle]
+[INFO] copying /thrift/thrift-finagle.linux64 to /tmp/thrift-finagle5512582299078201711
+[INFO] running [-o, /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/generated-test-sources/thrift, --gen, java, /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/thrift/unittest.thrift]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ secor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ secor ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/java/com/pinterest/secor/common/LogFilePathTest.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/java/com/pinterest/secor/common/LogFilePathTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/java/com/pinterest/secor/io/impl/ProtobufParquetFileReaderWriterFactoryTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/src/test/java/com/pinterest/secor/io/impl/ProtobufParquetFileReaderWriterFactoryTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ secor ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/secor/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pinterest.secor.monitoring.OstrichMetricCollectorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.5 sec
+Running com.pinterest.secor.uploader.UploaderTest
+log4j:WARN No appenders could be found for logger (com.pinterest.secor.uploader.Uploader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.622 sec
+Running com.pinterest.secor.io.impl.AvroParquetFileReaderWriterFactoryTest
+log4j:WARN No appenders could be found for logger (com.pinterest.secor.io.impl.AvroParquetFileReaderWriterFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.837 sec
+Running com.pinterest.secor.io.impl.ProtobufParquetFileReaderWriterFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 sec
+Running com.pinterest.secor.io.impl.ThriftParquetFileReaderWriterFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 sec
+Running com.pinterest.secor.io.impl.SequenceFileReaderWriterFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+Running com.pinterest.secor.io.impl.MessagePackSequenceFileReaderWriterFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.pinterest.secor.io.FileReaderWriterFactoryTest
+log4j:WARN No appenders could be found for logger (com.pinterest.secor.io.impl.SequenceFileReaderWriterFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.015 sec
+Running com.pinterest.secor.common.LogFilePathTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.pinterest.secor.common.SecorConfigTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.pinterest.secor.common.FileRegistryTest
+log4j:WARN No appenders could be found for logger (com.pinterest.secor.common.FileRegistry).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.699 sec
+Running com.pinterest.secor.common.SecorSchemaRegistryClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.pinterest.secor.common.ZookeeperConnectorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.pinterest.secor.message.MessageTest
+Message{topic='testTopic', kafkaPartition=0, offset=123, kafkaKey=, payload=, timestamp=0}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.pinterest.secor.timestamp.KafkaMessageTimestampFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.pinterest.secor.parser.ProtobufMessageParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.pinterest.secor.parser.ProtobufTimestampParserTest
+com.pinterest.secor.protobuf.TimestampedMessages$UnitTestTimestamp1
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.pinterest.secor.parser.Iso8601ParserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.pinterest.secor.parser.DateMessageParserTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.pinterest.secor.parser.SplitByFieldMessageParserTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running com.pinterest.secor.parser.RegexMessageParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.pinterest.secor.parser.MessagePackParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running com.pinterest.secor.parser.JsonMessageParserTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.pinterest.secor.parser.ThriftMessageParserTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.pinterest.secor.util.ReflectionUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.pinterest.secor.util.FileUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+
+Results :
+
+Tests run: 101, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 37.827 s
+[INFO] Finished at: 2019-08-16T07:33:33+08:00
+[INFO] ------------------------------------------------------------------------

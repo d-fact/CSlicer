@@ -1,0 +1,83 @@
+[VERSION]: 1.12.1
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.aventstack:extentreports >--------------------
+[INFO] Building ExtentAPI Community Version 3.1.5
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ extentreports ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ extentreports ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.testng:testng:jar:6.9.10:test
+[INFO]    org.freemarker:freemarker:jar:2.3.23:compile
+[INFO]    org.jsoup:jsoup:jar:1.12.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+[INFO]    org.beanshell:bsh:jar:2.0b4:test
+[INFO]    com.beust:jcommander:jar:1.48:test
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    com.google.code.gson:gson:jar:2.8.0:compile
+[INFO]    org.mongodb:mongodb-driver:jar:3.3.0:compile
+[INFO]    org.mongodb:mongodb-driver-core:jar:3.3.0:compile
+[INFO]    org.mongodb:bson:jar:3.3.0:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ extentreports ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ extentreports ---
+[INFO] Compiling 92 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ extentreports ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ extentreports ---
+[INFO] Compiling 47 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ extentreports ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5c8da962
+Tests run: 157, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.561 sec <<< FAILURE!
+validateCategoryViewEnabled(com.aventstack.extentreports.view.extenthtml.TestAttributesTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.jsoup.select.Selector$SelectorParseException: Did not find balanced marker at 'view=category-view'
+	at org.jsoup.select.QueryParser.parse(QueryParser.java:44)
+	at org.jsoup.select.Selector.select(Selector.java:91)
+	at org.jsoup.nodes.Element.select(Element.java:372)
+	at com.aventstack.extentreports.view.extenthtml.TestAttributesTest.validateCategoryViewEnabled(TestAttributesTest.java:46)
+
+
+Results :
+
+Failed tests:   validateCategoryViewEnabled(com.aventstack.extentreports.view.extenthtml.TestAttributesTest): Did not find balanced marker at 'view=category-view'
+
+Tests run: 157, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.520 s
+[INFO] Finished at: 2019-08-20T20:13:25+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project extentreports: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/extentreports-java/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

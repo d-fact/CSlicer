@@ -1,0 +1,93 @@
+[VERSION]: 2.7.5
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< cn.jpush.api:jpush-client >----------------------
+[INFO] Building JPush API Java Client 3.3.3
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jpush-client ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ jpush-client ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    cn.jpush.api:jiguang-common:jar:1.0.8:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.50:test
+[INFO]    io.netty:netty-all:jar:4.1.6.Final:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO]    com.squareup.okio:okio:jar:1.8.0:compile
+[INFO]    log4j:log4j:jar:1.2.17:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    com.squareup.okhttp3:okhttp:jar:3.3.1:compile
+[INFO]    com.google.code.gson:gson:jar:2.3:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.7:test
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    com.squareup.okhttp:okhttp:jar:2.7.5:test
+[INFO]    com.squareup.okhttp:okhttp-ws:jar:2.7.5:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.7:compile
+[INFO]    com.squareup.okhttp:mockwebserver:jar:2.7.5:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ jpush-client ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jpush-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jpush-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 42 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jpush-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jpush-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 35 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/target/test-classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING]   symbol:   method play()
+  location: variable _server of type MockWebServer
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/ConnectionExceptionTest.java:[94,29] [deprecation] getUrl(String) in MockWebServer has been deprecated
+[WARNING]   symbol:   method play()
+  location: variable _mockServer of type MockWebServer
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/BaseMockTest.java:[169,30] [deprecation] getUrl(String) in MockWebServer has been deprecated
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] bootstrap class path not set in conjunction with -source 1.6
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/ConnectionExceptionTest.java:[52,15] error: cannot find symbol
+[ERROR]   symbol:   method play()
+  location: variable _server of type MockWebServer
+/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/ConnectionExceptionTest.java:[92,15] error: cannot find symbol
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/BaseMockTest.java:[168,19] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.210 s
+[INFO] Finished at: 2019-08-15T13:47:55+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project jpush-client: Compilation failure: Compilation failure: 
+[ERROR] bootstrap class path not set in conjunction with -source 1.6
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/ConnectionExceptionTest.java:[52,15] error: cannot find symbol
+[ERROR]   symbol:   method play()
+[ERROR]   location: variable _server of type MockWebServer
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/ConnectionExceptionTest.java:[92,15] error: cannot find symbol
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/jpush-api-java-client/src/test/java/cn/jpush/api/push/mock/BaseMockTest.java:[168,19] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

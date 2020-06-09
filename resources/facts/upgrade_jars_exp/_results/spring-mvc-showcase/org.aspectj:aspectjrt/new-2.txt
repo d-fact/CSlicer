@@ -1,0 +1,147 @@
+[VERSION]: 1.9.4
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.samples:spring-mvc-showcase:war:1.0.0-BUILD-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.apache.logging.log4j:log4j-core:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 48, column 13
+[WARNING] 'dependencies.dependency.version' for org.apache.logging.log4j:log4j-slf4j-impl:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 53, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 183, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------< org.springframework.samples:spring-mvc-showcase >-----------
+[INFO] Building spring-mvc-showcase 1.0.0-BUILD-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spring-mvc-showcase ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ spring-mvc-showcase ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.jdom:jdom2:jar:2.0.6:compile
+[INFO]    commons-io:commons-io:jar:2.5:compile
+[INFO]    net.minidev:json-smart:jar:2.3:test
+[INFO]    org.hibernate.validator:hibernate-validator:jar:6.0.7.Final:compile
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    com.fasterxml:classmate:jar:1.3.1:compile
+[INFO]    org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-webmvc:jar:5.0.4.RELEASE:compile
+[INFO]    javax.el:javax.el-api:jar:3.0.1-b04:compile
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.12.1:compile
+[INFO]    javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]    net.minidev:accessors-smart:jar:1.2:test
+[INFO]    org.xmlunit:xmlunit-matchers:jar:2.5.1:test
+[INFO]    javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.2-b02:provided
+[INFO]    javax.servlet:jstl:jar:1.2:compile
+[INFO]    org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1:compile
+[INFO]    com.rometools:rome-utils:jar:1.9.0:compile
+[INFO]    org.ow2.asm:asm:jar:5.0.4:test
+[INFO]    org.springframework.security:spring-security-web:jar:5.0.0.RELEASE:compile
+[INFO]    joda-time:joda-time:jar:2.9.9:compile
+[INFO]    org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO]    javax.inject:javax.inject:jar:1:compile
+[INFO]    org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+[INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.12.1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-web:jar:5.0.4.RELEASE:compile
+[INFO]    org.aspectj:aspectjrt:jar:1.8.1:compile
+[INFO]    org.springframework.security:spring-security-core:jar:5.0.0.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+[INFO]    org.glassfish:javax.el:jar:3.0.1-b08:compile
+[INFO]    org.springframework:spring-test:jar:5.0.4.RELEASE:test
+[INFO]    org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+[INFO]    org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+[INFO]    com.rometools:rome:jar:1.9.0:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO]    commons-fileupload:commons-fileupload:jar:1.3.3:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-mvc-showcase ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ spring-mvc-showcase ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 40 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/main/java/org/springframework/samples/mvc/form/FormBean.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/main/java/org/springframework/samples/mvc/form/FormBean.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.11:compile (default) @ spring-mvc-showcase ---
+[INFO] Showing AJC message detail for messages of types: [error, warning, fail]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-mvc-showcase ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ spring-mvc-showcase ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 18 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/fileupload/FileUploadControllerTests.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/spring-mvc-showcase/src/test/java/org/springframework/samples/mvc/fileupload/FileUploadControllerTests.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.11:test-compile (default) @ spring-mvc-showcase ---
+[INFO] Showing AJC message detail for messages of types: [error, warning, fail]
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ spring-mvc-showcase ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.samples.mvc.mapping.MappingControllerTests
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.323 s - in org.springframework.samples.mvc.mapping.MappingControllerTests
+[INFO] Running org.springframework.samples.mvc.fileupload.FileUploadControllerTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.samples.mvc.fileupload.FileUploadControllerTests
+[INFO] Running org.springframework.samples.mvc.convert.ConvertControllerTests
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in org.springframework.samples.mvc.convert.ConvertControllerTests
+[INFO] Running org.springframework.samples.mvc.async.CallableControllerTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.04 s - in org.springframework.samples.mvc.async.CallableControllerTests
+[INFO] Running org.springframework.samples.mvc.async.DeferredResultControllerTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.626 s - in org.springframework.samples.mvc.async.DeferredResultControllerTests
+[INFO] Running org.springframework.samples.mvc.views.ViewsControllerTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.springframework.samples.mvc.views.ViewsControllerTests
+[INFO] Running org.springframework.samples.mvc.redirect.RedirectControllerTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.springframework.samples.mvc.redirect.RedirectControllerTests
+[INFO] Running org.springframework.samples.mvc.form.FormControllerTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in org.springframework.samples.mvc.form.FormControllerTests
+[INFO] Running org.springframework.samples.mvc.simple.SimpleControllerTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.samples.mvc.simple.SimpleControllerTests
+[INFO] Running org.springframework.samples.mvc.simple.SimpleControllerRevisitedTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.samples.mvc.simple.SimpleControllerRevisitedTests
+[INFO] Running org.springframework.samples.mvc.validation.ValidationControllerTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.samples.mvc.validation.ValidationControllerTests
+[INFO] Running org.springframework.samples.mvc.data.DataControllerTests
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.samples.mvc.data.DataControllerTests
+[INFO] Running org.springframework.samples.mvc.data.CustomArgumentControllerTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.springframework.samples.mvc.data.CustomArgumentControllerTests
+[INFO] Running org.springframework.samples.mvc.data.StandardArgumentsControllerTests
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.springframework.samples.mvc.data.StandardArgumentsControllerTests
+[INFO] Running org.springframework.samples.mvc.messageconverters.MessageConvertersControllerTests
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 s - in org.springframework.samples.mvc.messageconverters.MessageConvertersControllerTests
+[INFO] Running org.springframework.samples.mvc.response.ResponseControllerTests
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.springframework.samples.mvc.response.ResponseControllerTests
+[INFO] Running org.springframework.samples.mvc.exceptions.ExceptionControllerTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.samples.mvc.exceptions.ExceptionControllerTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 81, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.250 s
+[INFO] Finished at: 2019-08-20T03:37:40+08:00
+[INFO] ------------------------------------------------------------------------

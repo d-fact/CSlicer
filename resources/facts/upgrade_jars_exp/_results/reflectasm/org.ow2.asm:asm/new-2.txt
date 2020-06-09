@@ -1,0 +1,591 @@
+[VERSION]: 7.2-beta
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.esotericsoftware:reflectasm >-------------------
+[INFO] Building ReflectASM 1.11.6-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ reflectasm ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ reflectasm ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.ow2.asm:asm:jar:7.2-beta:compile
+[INFO]    junit:junit:jar:4.8.2:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ reflectasm ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ reflectasm ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[17,39] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[23,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[24,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[25,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[26,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[188,48] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[198,46] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[276,46] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[339,46] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[388,49] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[389,17] cannot find symbol
+  symbol:   class Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[484,49] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[485,17] cannot find symbol
+  symbol:   class Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[575,76] cannot find symbol
+  symbol:   class MethodVisitor
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[575,24] cannot find symbol
+  symbol:   class MethodVisitor
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[590,72] cannot find symbol
+  symbol:   class MethodVisitor
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[590,24] cannot find symbol
+  symbol:   class MethodVisitor
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[17,39] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[22,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[23,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[126,48] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.ConstructorAccess<T>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[136,40] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.ConstructorAccess<T>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[147,45] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.ConstructorAccess<T>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[17,39] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[24,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[25,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[26,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[27,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[28,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[149,41] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[149,62] cannot find symbol
+  symbol:   class ClassWriter
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[150,50] cannot find symbol
+  symbol:   variable V1_1
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[150,56] cannot find symbol
+  symbol:   variable ACC_PUBLIC
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[150,69] cannot find symbol
+  symbol:   variable ACC_SUPER
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[155,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[156,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[157,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[158,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[159,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[160,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[161,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[162,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[163,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[164,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[165,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[166,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[167,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[168,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[169,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[170,91] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[189,17] cannot find symbol
+  symbol:   class MethodVisitor
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[189,51] cannot find symbol
+  symbol:   variable ACC_PUBLIC
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[191,33] cannot find symbol
+  symbol:   variable ALOAD
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[192,36] cannot find symbol
+  symbol:   variable INVOKESPECIAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[193,30] cannot find symbol
+  symbol:   variable RETURN
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[200,17] cannot find symbol
+  symbol:   class MethodVisitor
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[200,51] cannot find symbol
+  symbol:   variable ACC_PUBLIC
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[202,33] cannot find symbol
+  symbol:   variable ILOAD
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[206,25] cannot find symbol
+  symbol:   class Label
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[206,46] cannot find symbol
+  symbol:   class Label
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[208,49] cannot find symbol
+  symbol:   class Label
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[209,25] cannot find symbol
+  symbol:   class Label
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[209,50] cannot find symbol
+  symbol:   class Label
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[214,33] cannot find symbol
+  symbol:   class Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[214,50] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[217,47] cannot find symbol
+  symbol:   variable F_SAME
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[218,49] cannot find symbol
+  symbol:   variable ALOAD
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[219,50] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[220,49] cannot find symbol
+  symbol:   variable ALOAD
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[222,40] strings in switch are not supported in -source 1.5
+  (use -source 7 or higher to enable strings in switch)
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[223,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[224,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[225,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[227,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[228,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[229,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[231,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[232,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[233,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[235,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[236,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[237,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[239,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[240,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[241,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[243,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[244,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[245,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[247,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[248,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[249,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[251,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[252,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[253,60] cannot find symbol
+  symbol:   variable INVOKEVIRTUAL
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[255,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[256,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[258,38] cannot find symbol
+  symbol:   variable Type
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[259,58] cannot find symbol
+  symbol:   variable CHECKCAST
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[263,51] cannot find symbol
+  symbol:   variable PUTFIELD
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[265,46] cannot find symbol
+  symbol:   variable RETURN
+  location: class com.esotericsoftware.reflectasm.FieldAccess
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.297 s
+[INFO] Finished at: 2019-08-14T19:48:08+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project reflectasm: Compilation failure: Compilation failure: 
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[17,39] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[23,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[24,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[25,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[26,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[188,48] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[198,46] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[276,46] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[339,46] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[388,49] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[389,17] cannot find symbol
+[ERROR]   symbol:   class Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[484,49] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[485,17] cannot find symbol
+[ERROR]   symbol:   class Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[575,76] cannot find symbol
+[ERROR]   symbol:   class MethodVisitor
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[575,24] cannot find symbol
+[ERROR]   symbol:   class MethodVisitor
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[590,72] cannot find symbol
+[ERROR]   symbol:   class MethodVisitor
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[590,24] cannot find symbol
+[ERROR]   symbol:   class MethodVisitor
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[17,39] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[22,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[23,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[126,48] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.ConstructorAccess<T>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[136,40] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.ConstructorAccess<T>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/ConstructorAccess.java:[147,45] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.ConstructorAccess<T>
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[17,39] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[24,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[25,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[26,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[27,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/MethodAccess.java:[28,32] package com.esotericsoftware.asm does not exist
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[149,41] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[149,62] cannot find symbol
+[ERROR]   symbol:   class ClassWriter
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[150,50] cannot find symbol
+[ERROR]   symbol:   variable V1_1
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[150,56] cannot find symbol
+[ERROR]   symbol:   variable ACC_PUBLIC
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[150,69] cannot find symbol
+[ERROR]   symbol:   variable ACC_SUPER
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[155,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[156,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[157,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[158,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[159,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[160,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[161,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[162,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[163,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[164,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[165,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[166,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[167,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[168,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[169,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[170,91] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[189,17] cannot find symbol
+[ERROR]   symbol:   class MethodVisitor
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[189,51] cannot find symbol
+[ERROR]   symbol:   variable ACC_PUBLIC
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[191,33] cannot find symbol
+[ERROR]   symbol:   variable ALOAD
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[192,36] cannot find symbol
+[ERROR]   symbol:   variable INVOKESPECIAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[193,30] cannot find symbol
+[ERROR]   symbol:   variable RETURN
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[200,17] cannot find symbol
+[ERROR]   symbol:   class MethodVisitor
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[200,51] cannot find symbol
+[ERROR]   symbol:   variable ACC_PUBLIC
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[202,33] cannot find symbol
+[ERROR]   symbol:   variable ILOAD
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[206,25] cannot find symbol
+[ERROR]   symbol:   class Label
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[206,46] cannot find symbol
+[ERROR]   symbol:   class Label
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[208,49] cannot find symbol
+[ERROR]   symbol:   class Label
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[209,25] cannot find symbol
+[ERROR]   symbol:   class Label
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[209,50] cannot find symbol
+[ERROR]   symbol:   class Label
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[214,33] cannot find symbol
+[ERROR]   symbol:   class Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[214,50] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[217,47] cannot find symbol
+[ERROR]   symbol:   variable F_SAME
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[218,49] cannot find symbol
+[ERROR]   symbol:   variable ALOAD
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[219,50] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[220,49] cannot find symbol
+[ERROR]   symbol:   variable ALOAD
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[222,40] strings in switch are not supported in -source 1.5
+[ERROR]   (use -source 7 or higher to enable strings in switch)
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[223,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[224,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[225,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[227,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[228,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[229,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[231,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[232,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[233,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[235,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[236,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[237,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[239,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[240,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[241,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[243,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[244,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[245,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[247,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[248,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[249,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[251,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[252,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[253,60] cannot find symbol
+[ERROR]   symbol:   variable INVOKEVIRTUAL
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[255,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[256,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[258,38] cannot find symbol
+[ERROR]   symbol:   variable Type
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[259,58] cannot find symbol
+[ERROR]   symbol:   variable CHECKCAST
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[263,51] cannot find symbol
+[ERROR]   symbol:   variable PUTFIELD
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/reflectasm/src/com/esotericsoftware/reflectasm/FieldAccess.java:[265,46] cannot find symbol
+[ERROR]   symbol:   variable RETURN
+[ERROR]   location: class com.esotericsoftware.reflectasm.FieldAccess
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

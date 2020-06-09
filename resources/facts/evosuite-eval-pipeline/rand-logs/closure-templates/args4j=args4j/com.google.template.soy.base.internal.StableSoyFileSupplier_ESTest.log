@@ -1,0 +1,910 @@
+NEW TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/rand-tests/closure-templates/args4j=args4j/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/closure-templates/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/closure-templates/args4j=args4j/args4j-2.33.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore com.google.template.soy.base.internal.StableSoyFileSupplier_ESTestJUnit version 4.11
+22:00:04.648 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.StableSoyFileSupplier_ESTest
+22:00:04.650 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.StableSoyFileSupplier_ESTest'.
+22:00:04.703 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.StableSoyFileSupplier_ESTest_scaffolding
+22:00:04.703 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.StableSoyFileSupplier_ESTest_scaffolding'.
+22:00:04.707 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.StableSoyFileSupplier_ESTest_scaffolding
+22:00:04.707 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.StableSoyFileSupplier_ESTest
+22:00:04.779 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+22:00:04.779 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+22:00:04.779 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+22:00:04.779 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+22:00:04.779 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+22:00:04.801 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.AllEqualOrdering
+22:00:04.801 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.AllEqualOrdering'.
+22:00:04.807 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/AllEqualOrdering
+22:00:04.894 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/AllEqualOrdering
+22:00:04.895 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.collect, 173171663
+22:00:04.895 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Ordering
+22:00:04.895 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Ordering'.
+22:00:04.896 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Ordering
+22:00:04.901 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Ordering
+22:00:04.901 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field LEFT_IS_GREATER
+22:00:04.901 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field RIGHT_IS_GREATER
+22:00:04.902 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Ordering
+22:00:04.902 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.AllEqualOrdering
+22:00:04.902 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ComparatorOrdering
+22:00:04.902 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ComparatorOrdering'.
+22:00:04.902 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ComparatorOrdering
+22:00:04.903 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ComparatorOrdering
+22:00:04.903 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ComparatorOrdering
+22:00:04.903 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ReverseOrdering
+22:00:04.903 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ReverseOrdering'.
+22:00:04.904 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ReverseOrdering
+22:00:04.905 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ReverseOrdering
+22:00:04.905 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ReverseOrdering
+22:00:04.905 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.NullsFirstOrdering
+22:00:04.905 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.NullsFirstOrdering'.
+22:00:04.906 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/NullsFirstOrdering
+22:00:04.906 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/NullsFirstOrdering
+22:00:04.907 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.NullsFirstOrdering
+22:00:04.907 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.NullsLastOrdering
+22:00:04.907 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.NullsLastOrdering'.
+22:00:04.907 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/NullsLastOrdering
+22:00:04.908 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/NullsLastOrdering
+22:00:04.908 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.NullsLastOrdering
+22:00:04.908 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ExplicitOrdering
+22:00:04.908 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ExplicitOrdering'.
+22:00:04.909 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ExplicitOrdering
+22:00:04.909 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ExplicitOrdering
+22:00:04.910 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ExplicitOrdering
+22:00:04.910 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.UsingToStringOrdering
+22:00:04.910 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.UsingToStringOrdering'.
+22:00:04.910 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/UsingToStringOrdering
+22:00:04.910 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/UsingToStringOrdering
+22:00:04.911 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.UsingToStringOrdering
+22:00:04.911 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ByFunctionOrdering
+22:00:04.911 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ByFunctionOrdering'.
+22:00:04.911 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ByFunctionOrdering
+22:00:04.912 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ByFunctionOrdering
+22:00:04.912 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ByFunctionOrdering
+22:00:04.912 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.CompoundOrdering
+22:00:04.912 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.CompoundOrdering'.
+22:00:04.913 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/CompoundOrdering
+22:00:04.913 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/CompoundOrdering
+22:00:04.913 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.CompoundOrdering
+22:00:04.913 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.NaturalOrdering
+22:00:04.913 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.NaturalOrdering'.
+22:00:04.914 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/NaturalOrdering
+22:00:04.914 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/NaturalOrdering
+22:00:04.915 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.NaturalOrdering
+22:00:04.915 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.LexicographicalOrdering
+22:00:04.915 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.LexicographicalOrdering'.
+22:00:04.915 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/LexicographicalOrdering
+22:00:04.916 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/LexicographicalOrdering
+22:00:04.916 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.LexicographicalOrdering
+22:00:04.917 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.HashCode$LongHashCode
+22:00:04.917 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.HashCode$LongHashCode'.
+22:00:04.917 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/HashCode$LongHashCode
+22:00:04.918 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/hash/HashCode$LongHashCode
+22:00:04.918 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.hash, 1714178185
+22:00:04.918 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.HashCode
+22:00:04.918 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.HashCode'.
+22:00:04.919 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/HashCode
+22:00:04.921 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/hash/HashCode
+22:00:04.921 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.HashCode
+22:00:04.921 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.HashCode$LongHashCode
+22:00:04.921 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.HashCode$IntHashCode
+22:00:04.921 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.HashCode$IntHashCode'.
+22:00:04.922 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/HashCode$IntHashCode
+22:00:04.928 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/hash/HashCode$IntHashCode
+22:00:04.928 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.HashCode$IntHashCode
+22:00:04.928 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.HashCode$BytesHashCode
+22:00:04.928 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.HashCode$BytesHashCode'.
+22:00:04.929 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/HashCode$BytesHashCode
+22:00:04.930 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/hash/HashCode$BytesHashCode
+22:00:04.930 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.HashCode$BytesHashCode
+22:00:04.930 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$SubList
+22:00:04.930 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$SubList'.
+22:00:04.931 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$SubList
+22:00:04.931 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList$SubList
+22:00:04.931 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList
+22:00:04.931 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList'.
+22:00:04.933 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList
+22:00:04.937 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList
+22:00:04.938 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection
+22:00:04.938 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableCollection'.
+22:00:04.939 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableCollection
+22:00:04.940 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableCollection
+22:00:04.940 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SPLITERATOR_CHARACTERISTICS
+22:00:04.940 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableCollection
+22:00:04.940 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList
+22:00:04.940 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$SubList
+22:00:04.940 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.RegularImmutableAsList
+22:00:04.940 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.RegularImmutableAsList'.
+22:00:04.941 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/RegularImmutableAsList
+22:00:04.941 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/RegularImmutableAsList
+22:00:04.941 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableAsList
+22:00:04.941 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableAsList'.
+22:00:04.942 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableAsList
+22:00:04.942 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableAsList
+22:00:04.942 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableAsList
+22:00:04.942 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.RegularImmutableAsList
+22:00:04.942 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.SingletonImmutableList
+22:00:04.942 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.SingletonImmutableList'.
+22:00:04.943 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/SingletonImmutableList
+22:00:04.945 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/SingletonImmutableList
+22:00:04.945 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.SingletonImmutableList
+22:00:04.945 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.RegularImmutableList
+22:00:04.945 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.RegularImmutableList'.
+22:00:04.945 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/RegularImmutableList
+22:00:04.946 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/RegularImmutableList
+22:00:04.946 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.RegularImmutableList
+22:00:04.946 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.UnmodifiableIterator
+22:00:04.946 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.UnmodifiableIterator'.
+22:00:04.946 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/UnmodifiableIterator
+22:00:04.947 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/UnmodifiableIterator
+22:00:04.947 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.UnmodifiableIterator
+22:00:04.947 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.UnmodifiableListIterator
+22:00:04.947 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.UnmodifiableListIterator'.
+22:00:04.947 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/UnmodifiableListIterator
+22:00:04.947 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/UnmodifiableListIterator
+22:00:04.948 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.UnmodifiableListIterator
+22:00:04.948 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$ReverseImmutableList
+22:00:04.948 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$ReverseImmutableList'.
+22:00:04.948 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$ReverseImmutableList
+22:00:04.949 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList$ReverseImmutableList
+22:00:04.949 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$ReverseImmutableList
+22:00:04.949 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$1
+22:00:04.949 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$1'.
+22:00:04.950 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$1
+22:00:04.950 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.AbstractIndexedListIterator
+22:00:04.950 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.AbstractIndexedListIterator'.
+22:00:04.951 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/AbstractIndexedListIterator
+22:00:04.951 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/AbstractIndexedListIterator
+22:00:04.951 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.AbstractIndexedListIterator
+22:00:04.951 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$1
+22:00:04.952 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Whitespace
+22:00:04.952 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Whitespace'.
+22:00:04.952 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Whitespace
+22:00:04.953 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$Whitespace
+22:00:04.953 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.base, 1713999436
+22:00:04.953 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$NamedFastMatcher
+22:00:04.953 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$NamedFastMatcher'.
+22:00:04.953 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$NamedFastMatcher
+22:00:04.954 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$NamedFastMatcher
+22:00:04.954 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$FastMatcher
+22:00:04.954 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$FastMatcher'.
+22:00:04.954 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$FastMatcher
+22:00:04.954 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$FastMatcher
+22:00:04.954 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher
+22:00:04.955 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher'.
+22:00:04.955 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher
+22:00:04.960 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher
+22:00:04.961 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Predicate
+22:00:04.961 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Predicate'.
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Predicate
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$FastMatcher
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$NamedFastMatcher
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Whitespace
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Negated
+22:00:04.962 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Negated'.
+22:00:04.963 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Negated
+22:00:04.963 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$Negated
+22:00:04.963 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Negated
+22:00:04.963 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Digit
+22:00:04.963 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Digit'.
+22:00:04.964 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Digit
+22:00:04.964 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$Digit
+22:00:04.964 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$RangesMatcher
+22:00:04.964 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$RangesMatcher'.
+22:00:04.965 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$RangesMatcher
+22:00:04.965 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$RangesMatcher
+22:00:04.965 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$RangesMatcher
+22:00:04.965 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Digit
+22:00:04.965 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Ascii
+22:00:04.965 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Ascii'.
+22:00:04.966 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Ascii
+22:00:04.966 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$Ascii
+22:00:04.966 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Ascii
+22:00:04.966 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$And
+22:00:04.966 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$And'.
+22:00:04.967 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$And
+22:00:04.967 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$And
+22:00:04.967 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$And
+22:00:04.967 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Or
+22:00:04.967 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Or'.
+22:00:04.968 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Or
+22:00:04.968 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$Or
+22:00:04.968 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Or
+22:00:04.968 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$None
+22:00:04.968 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$None'.
+22:00:04.969 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$None
+22:00:04.969 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$None
+22:00:04.969 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$None
+22:00:04.969 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$InRange
+22:00:04.969 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$InRange'.
+22:00:04.970 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$InRange
+22:00:04.970 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$InRange
+22:00:04.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$InRange
+22:00:04.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Is
+22:00:04.970 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Is'.
+22:00:04.971 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Is
+22:00:04.972 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$Is
+22:00:04.972 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Is
+22:00:04.972 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Any
+22:00:04.972 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Any'.
+22:00:04.973 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Any
+22:00:04.973 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$Any
+22:00:04.974 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Any
+22:00:04.974 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$JavaDigit
+22:00:04.974 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$JavaDigit'.
+22:00:04.974 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$JavaDigit
+22:00:04.974 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$JavaDigit
+22:00:04.975 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$JavaDigit
+22:00:04.975 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$JavaLetter
+22:00:04.975 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$JavaLetter'.
+22:00:04.975 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$JavaLetter
+22:00:04.975 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$JavaLetter
+22:00:04.975 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$JavaLetter
+22:00:04.976 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$JavaLetterOrDigit
+22:00:04.976 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$JavaLetterOrDigit'.
+22:00:04.976 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$JavaLetterOrDigit
+22:00:04.976 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$JavaLetterOrDigit
+22:00:04.976 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$JavaLetterOrDigit
+22:00:04.977 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$JavaUpperCase
+22:00:04.977 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$JavaUpperCase'.
+22:00:04.977 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$JavaUpperCase
+22:00:04.977 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$JavaUpperCase
+22:00:04.977 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$JavaUpperCase
+22:00:04.977 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$JavaLowerCase
+22:00:04.977 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$JavaLowerCase'.
+22:00:04.978 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$JavaLowerCase
+22:00:04.978 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$JavaLowerCase
+22:00:04.978 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$JavaLowerCase
+22:00:04.978 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$JavaIsoControl
+22:00:04.978 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$JavaIsoControl'.
+22:00:04.979 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$JavaIsoControl
+22:00:04.979 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$JavaIsoControl
+22:00:04.979 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$JavaIsoControl
+22:00:04.979 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$Invisible
+22:00:04.979 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$Invisible'.
+22:00:04.980 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$Invisible
+22:00:04.980 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$Invisible
+22:00:04.980 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$Invisible
+22:00:04.980 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$SingleWidth
+22:00:04.980 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$SingleWidth'.
+22:00:04.980 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$SingleWidth
+22:00:04.981 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$SingleWidth
+22:00:04.981 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$SingleWidth
+22:00:04.981 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$IsNot
+22:00:04.981 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$IsNot'.
+22:00:04.981 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$IsNot
+22:00:04.982 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$IsNot
+22:00:04.983 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$IsNot
+22:00:04.983 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$IsEither
+22:00:04.983 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$IsEither'.
+22:00:04.983 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$IsEither
+22:00:04.983 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$IsEither
+22:00:04.984 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$IsEither
+22:00:04.984 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$AnyOf
+22:00:04.984 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$AnyOf'.
+22:00:04.984 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$AnyOf
+22:00:04.985 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$AnyOf
+22:00:04.985 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$AnyOf
+22:00:04.985 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$ForPredicate
+22:00:04.985 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$ForPredicate'.
+22:00:04.985 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$ForPredicate
+22:00:04.985 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$ForPredicate
+22:00:04.985 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$ForPredicate
+22:00:04.986 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$1
+22:00:04.986 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$1'.
+22:00:04.986 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$1
+22:00:04.986 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$NegatedFastMatcher
+22:00:04.986 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$NegatedFastMatcher'.
+22:00:04.987 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$NegatedFastMatcher
+22:00:04.987 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$NegatedFastMatcher
+22:00:04.987 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$NegatedFastMatcher
+22:00:04.987 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$1
+22:00:04.987 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$BitSetMatcher
+22:00:04.987 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$BitSetMatcher'.
+22:00:04.987 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$BitSetMatcher
+22:00:04.988 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CharMatcher$BitSetMatcher
+22:00:04.988 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$BitSetMatcher
+22:00:04.988 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CharMatcher$BreakingWhitespace
+22:00:04.988 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CharMatcher$BreakingWhitespace'.
+22:00:04.988 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CharMatcher$BreakingWhitespace
+22:00:04.989 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/CharMatcher$BreakingWhitespace
+22:00:04.989 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CharMatcher$BreakingWhitespace
+22:00:04.989 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Preconditions
+22:00:04.989 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Preconditions'.
+22:00:04.990 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Preconditions
+22:00:04.996 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Preconditions
+22:00:04.997 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Preconditions
+22:00:04.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$RandomAccessPartition
+22:00:04.999 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$RandomAccessPartition'.
+22:00:04.999 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$RandomAccessPartition
+22:00:05.000 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$RandomAccessPartition
+22:00:05.000 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$Partition
+22:00:05.000 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$Partition'.
+22:00:05.000 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$Partition
+22:00:05.000 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$Partition
+22:00:05.001 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$Partition
+22:00:05.001 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$RandomAccessPartition
+22:00:05.001 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.math.LongMath$1
+22:00:05.001 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.math.LongMath$1'.
+22:00:05.001 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/math/LongMath$1
+22:00:05.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.math, 1714327171
+22:00:05.002 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.math.LongMath$1
+22:00:05.003 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.BoundType$2
+22:00:05.003 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.BoundType$2'.
+22:00:05.003 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/BoundType$2
+22:00:05.003 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.BoundType
+22:00:05.003 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.BoundType'.
+22:00:05.004 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/BoundType
+22:00:05.004 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/BoundType
+22:00:05.004 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.BoundType
+22:00:05.004 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.BoundType$2
+22:00:05.004 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.BoundType$1
+22:00:05.004 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.BoundType$1'.
+22:00:05.004 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/BoundType$1
+22:00:05.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.BoundType$1
+22:00:05.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.Closer$Suppressor
+22:00:05.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.Closer$Suppressor'.
+22:00:05.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.io, 412956513
+22:00:05.005 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.Closer$Suppressor
+22:00:05.006 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.JdkPattern
+22:00:05.006 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.JdkPattern'.
+22:00:05.006 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/JdkPattern
+22:00:05.006 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/JdkPattern
+22:00:05.007 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CommonPattern
+22:00:05.007 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CommonPattern'.
+22:00:05.007 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CommonPattern
+22:00:05.007 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CommonPattern
+22:00:05.007 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CommonPattern
+22:00:05.007 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.JdkPattern
+22:00:05.007 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.CommonMatcher
+22:00:05.007 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.CommonMatcher'.
+22:00:05.008 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/CommonMatcher
+22:00:05.008 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/CommonMatcher
+22:00:05.008 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.CommonMatcher
+22:00:05.008 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.JdkPattern$JdkMatcher
+22:00:05.008 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.JdkPattern$JdkMatcher'.
+22:00:05.008 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/JdkPattern$JdkMatcher
+22:00:05.008 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/JdkPattern$JdkMatcher
+22:00:05.009 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.JdkPattern$JdkMatcher
+22:00:05.009 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.PeekingIterator
+22:00:05.009 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.PeekingIterator'.
+22:00:05.009 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.PeekingIterator
+22:00:05.009 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ObjectArrays
+22:00:05.010 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ObjectArrays'.
+22:00:05.010 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ObjectArrays
+22:00:05.011 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/ObjectArrays
+22:00:05.011 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ObjectArrays
+22:00:05.012 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.BloomFilter$Strategy
+22:00:05.012 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.BloomFilter$Strategy'.
+22:00:05.012 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.BloomFilter$Strategy
+22:00:05.012 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.BloomFilterStrategies$1
+22:00:05.012 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.BloomFilterStrategies$1'.
+22:00:05.013 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/BloomFilterStrategies$1
+22:00:05.013 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.BloomFilterStrategies
+22:00:05.013 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.BloomFilterStrategies'.
+22:00:05.014 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/BloomFilterStrategies
+22:00:05.014 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/hash/BloomFilterStrategies
+22:00:05.014 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.BloomFilterStrategies
+22:00:05.014 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.BloomFilterStrategies$1
+22:00:05.014 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.BloomFilterStrategies$2
+22:00:05.014 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.BloomFilterStrategies$2'.
+22:00:05.015 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/BloomFilterStrategies$2
+22:00:05.015 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.BloomFilterStrategies$2
+22:00:05.016 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Optional
+22:00:05.016 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Optional'.
+22:00:05.016 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Optional
+22:00:05.017 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Optional
+22:00:05.017 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Optional
+22:00:05.017 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Present
+22:00:05.017 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Present'.
+22:00:05.018 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Present
+22:00:05.018 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Present
+22:00:05.018 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Present
+22:00:05.018 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Platform$JdkPatternCompiler
+22:00:05.018 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Platform$JdkPatternCompiler'.
+22:00:05.019 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Platform$JdkPatternCompiler
+22:00:05.019 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Platform$JdkPatternCompiler
+22:00:05.019 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.PatternCompiler
+22:00:05.019 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.PatternCompiler'.
+22:00:05.019 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.PatternCompiler
+22:00:05.019 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Platform$JdkPatternCompiler
+22:00:05.020 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter$MapSplitter
+22:00:05.020 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter$MapSplitter'.
+22:00:05.020 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Splitter$MapSplitter
+22:00:05.021 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Splitter$MapSplitter
+22:00:05.021 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field INVALID_ENTRY_MESSAGE
+22:00:05.021 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter$MapSplitter
+22:00:05.021 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$TransformingRandomAccessList
+22:00:05.021 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$TransformingRandomAccessList'.
+22:00:05.021 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$TransformingRandomAccessList
+22:00:05.022 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$TransformingRandomAccessList
+22:00:05.022 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$TransformingRandomAccessList
+22:00:05.022 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.StableSoyFileSupplier
+22:00:05.022 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.StableSoyFileSupplier'.
+22:00:05.022 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/base/internal/StableSoyFileSupplier
+22:00:05.023 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/base/internal/StableSoyFileSupplier
+22:00:05.023 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.AbstractSoyFileSupplier
+22:00:05.023 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.AbstractSoyFileSupplier'.
+22:00:05.023 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/base/internal/AbstractSoyFileSupplier
+22:00:05.023 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/base/internal/AbstractSoyFileSupplier
+22:00:05.024 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.SoyFileSupplier
+22:00:05.024 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.SoyFileSupplier'.
+22:00:05.024 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.SoyFileSupplier
+22:00:05.024 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource
+22:00:05.024 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource'.
+22:00:05.024 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource
+22:00:05.025 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/CharSource
+22:00:05.025 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource
+22:00:05.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.AbstractSoyFileSupplier
+22:00:05.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.StableSoyFileSupplier
+22:00:05.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource$ConcatenatedCharSource
+22:00:05.026 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource$ConcatenatedCharSource'.
+22:00:05.026 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource$ConcatenatedCharSource
+22:00:05.027 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/CharSource$ConcatenatedCharSource
+22:00:05.027 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource$ConcatenatedCharSource
+22:00:05.027 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource$CharSequenceCharSource
+22:00:05.027 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource$CharSequenceCharSource'.
+22:00:05.027 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource$CharSequenceCharSource
+22:00:05.028 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/io/CharSource$CharSequenceCharSource
+22:00:05.028 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource$CharSequenceCharSource
+22:00:05.028 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource$EmptyCharSource
+22:00:05.028 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource$EmptyCharSource'.
+22:00:05.028 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource$EmptyCharSource
+22:00:05.029 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/io/CharSource$EmptyCharSource
+22:00:05.029 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource$EmptyCharSource
+22:00:05.029 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSource
+22:00:05.029 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSource'.
+22:00:05.029 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSource
+22:00:05.030 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSource
+22:00:05.031 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSource
+22:00:05.031 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource$AsByteSource
+22:00:05.031 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource$AsByteSource'.
+22:00:05.031 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource$AsByteSource
+22:00:05.031 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/CharSource$AsByteSource
+22:00:05.031 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource$AsByteSource
+22:00:05.032 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharStreams$NullWriter
+22:00:05.032 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharStreams$NullWriter'.
+22:00:05.032 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharStreams$NullWriter
+22:00:05.032 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/io/CharStreams$NullWriter
+22:00:05.033 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharStreams$NullWriter
+22:00:05.033 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$ArrayBasedBuilder
+22:00:05.033 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableCollection$ArrayBasedBuilder'.
+22:00:05.033 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableCollection$ArrayBasedBuilder
+22:00:05.033 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableCollection$ArrayBasedBuilder
+22:00:05.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableCollection$Builder
+22:00:05.034 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableCollection$Builder'.
+22:00:05.034 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableCollection$Builder
+22:00:05.034 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableCollection$Builder
+22:00:05.034 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_INITIAL_CAPACITY
+22:00:05.035 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableCollection$Builder
+22:00:05.035 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableCollection$ArrayBasedBuilder
+22:00:05.035 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.AbstractIterator$1
+22:00:05.035 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.AbstractIterator$1'.
+22:00:05.036 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/AbstractIterator$1
+22:00:05.036 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.AbstractIterator$1
+22:00:05.036 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.AbstractIterator$State
+22:00:05.036 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.AbstractIterator$State'.
+22:00:05.036 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/AbstractIterator$State
+22:00:05.036 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/AbstractIterator$State
+22:00:05.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.AbstractIterator$State
+22:00:05.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Converter$IdentityConverter
+22:00:05.037 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Converter$IdentityConverter'.
+22:00:05.038 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Converter$IdentityConverter
+22:00:05.038 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/Converter$IdentityConverter
+22:00:05.038 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Converter
+22:00:05.038 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Converter'.
+22:00:05.038 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Converter
+22:00:05.039 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Converter
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Function
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Function'.
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Function
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Converter
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Converter$IdentityConverter
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Converter$FunctionBasedConverter
+22:00:05.040 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Converter$FunctionBasedConverter'.
+22:00:05.041 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Converter$FunctionBasedConverter
+22:00:05.041 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Converter$FunctionBasedConverter
+22:00:05.041 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Converter$FunctionBasedConverter
+22:00:05.041 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Converter$ReverseConverter
+22:00:05.041 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Converter$ReverseConverter'.
+22:00:05.041 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Converter$ReverseConverter
+22:00:05.042 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Converter$ReverseConverter
+22:00:05.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Converter$ReverseConverter
+22:00:05.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Converter$ConverterComposition
+22:00:05.042 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Converter$ConverterComposition'.
+22:00:05.042 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Converter$ConverterComposition
+22:00:05.043 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Converter$ConverterComposition
+22:00:05.043 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Converter$ConverterComposition
+22:00:05.043 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Range
+22:00:05.043 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Range'.
+22:00:05.044 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Range
+22:00:05.045 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/Range
+22:00:05.045 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Range
+22:00:05.046 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Range$RangeLexOrdering
+22:00:05.046 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Range$RangeLexOrdering'.
+22:00:05.046 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Range$RangeLexOrdering
+22:00:05.046 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Range$RangeLexOrdering
+22:00:05.046 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Range$RangeLexOrdering
+22:00:05.047 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Range$1
+22:00:05.047 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Range$1'.
+22:00:05.047 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Range$1
+22:00:05.047 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Range$1
+22:00:05.047 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Range$2
+22:00:05.047 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Range$2'.
+22:00:05.048 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Range$2
+22:00:05.048 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Range$2
+22:00:05.048 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Cut
+22:00:05.048 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Cut'.
+22:00:05.048 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Cut
+22:00:05.049 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Cut
+22:00:05.049 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Cut
+22:00:05.049 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Cut$AboveValue
+22:00:05.049 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Cut$AboveValue'.
+22:00:05.049 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Cut$AboveValue
+22:00:05.050 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Cut$AboveValue
+22:00:05.050 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Cut$AboveValue
+22:00:05.050 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Cut$BelowValue
+22:00:05.050 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Cut$BelowValue'.
+22:00:05.050 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Cut$BelowValue
+22:00:05.051 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Cut$BelowValue
+22:00:05.051 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Cut$BelowValue
+22:00:05.051 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Cut$BelowAll
+22:00:05.051 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Cut$BelowAll'.
+22:00:05.052 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Cut$BelowAll
+22:00:05.053 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/Cut$BelowAll
+22:00:05.053 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Cut$BelowAll
+22:00:05.053 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Cut$AboveAll
+22:00:05.053 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Cut$AboveAll'.
+22:00:05.053 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Cut$AboveAll
+22:00:05.054 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/Cut$AboveAll
+22:00:05.054 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Cut$AboveAll
+22:00:05.055 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSink
+22:00:05.055 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSink'.
+22:00:05.055 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSink
+22:00:05.055 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSink
+22:00:05.055 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSink
+22:00:05.056 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSink
+22:00:05.056 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSink'.
+22:00:05.056 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSink
+22:00:05.056 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/CharSink
+22:00:05.057 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSink
+22:00:05.057 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSink$AsCharSink
+22:00:05.057 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSink$AsCharSink'.
+22:00:05.057 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSink$AsCharSink
+22:00:05.057 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSink$AsCharSink
+22:00:05.057 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSink$AsCharSink
+22:00:05.057 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$10
+22:00:05.058 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$10'.
+22:00:05.058 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$10
+22:00:05.058 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$10
+22:00:05.058 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.Funnel
+22:00:05.058 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.Funnel'.
+22:00:05.059 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.Funnel
+22:00:05.059 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$12
+22:00:05.059 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$12'.
+22:00:05.059 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$12
+22:00:05.060 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$12
+22:00:05.060 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$11
+22:00:05.060 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$11'.
+22:00:05.060 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$11
+22:00:05.060 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$11
+22:00:05.061 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.BloomFilterStrategies$BitArray
+22:00:05.061 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.BloomFilterStrategies$BitArray'.
+22:00:05.061 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/BloomFilterStrategies$BitArray
+22:00:05.062 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/hash/BloomFilterStrategies$BitArray
+22:00:05.062 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.BloomFilterStrategies$BitArray
+22:00:05.063 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSequenceReader
+22:00:05.063 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSequenceReader'.
+22:00:05.063 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSequenceReader
+22:00:05.064 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/CharSequenceReader
+22:00:05.064 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSequenceReader
+22:00:05.064 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter
+22:00:05.064 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter'.
+22:00:05.065 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Splitter
+22:00:05.065 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Splitter
+22:00:05.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter
+22:00:05.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter$Strategy
+22:00:05.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter$Strategy'.
+22:00:05.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter$Strategy
+22:00:05.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Platform
+22:00:05.066 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Platform'.
+22:00:05.067 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Platform
+22:00:05.067 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/Platform
+22:00:05.068 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Platform
+22:00:05.073 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter$3
+22:00:05.073 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter$3'.
+22:00:05.074 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Splitter$3
+22:00:05.074 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter$3
+22:00:05.074 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter$SplittingIterator
+22:00:05.074 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter$SplittingIterator'.
+22:00:05.074 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Splitter$SplittingIterator
+22:00:05.075 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/Splitter$SplittingIterator
+22:00:05.075 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.AbstractIterator
+22:00:05.075 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.AbstractIterator'.
+22:00:05.075 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/AbstractIterator
+22:00:05.075 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/base/AbstractIterator
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.AbstractIterator
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter$SplittingIterator
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter$3$1
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter$3$1'.
+22:00:05.076 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Splitter$3$1
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter$3$1
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.MultiReader
+22:00:05.076 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.MultiReader'.
+22:00:05.077 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/MultiReader
+22:00:05.077 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/MultiReader
+22:00:05.077 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.MultiReader
+22:00:05.078 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteProcessor
+22:00:05.078 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteProcessor'.
+22:00:05.078 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteProcessor
+22:00:05.078 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.DiscreteDomain$BigIntegerDomain
+22:00:05.078 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.DiscreteDomain$BigIntegerDomain'.
+22:00:05.079 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/DiscreteDomain$BigIntegerDomain
+22:00:05.079 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/DiscreteDomain$BigIntegerDomain
+22:00:05.079 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.DiscreteDomain
+22:00:05.079 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.DiscreteDomain'.
+22:00:05.080 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/DiscreteDomain
+22:00:05.080 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/DiscreteDomain
+22:00:05.080 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.DiscreteDomain
+22:00:05.080 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.DiscreteDomain$BigIntegerDomain
+22:00:05.080 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.DiscreteDomain$LongDomain
+22:00:05.080 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.DiscreteDomain$LongDomain'.
+22:00:05.081 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/DiscreteDomain$LongDomain
+22:00:05.081 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/DiscreteDomain$LongDomain
+22:00:05.081 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.DiscreteDomain$LongDomain
+22:00:05.081 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.DiscreteDomain$IntegerDomain
+22:00:05.081 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.DiscreteDomain$IntegerDomain'.
+22:00:05.081 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/DiscreteDomain$IntegerDomain
+22:00:05.082 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/DiscreteDomain$IntegerDomain
+22:00:05.082 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.DiscreteDomain$IntegerDomain
+22:00:05.083 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists
+22:00:05.083 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists'.
+22:00:05.084 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists
+22:00:05.087 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists
+22:00:05.087 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists
+22:00:05.088 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$TransformingSequentialList
+22:00:05.088 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$TransformingSequentialList'.
+22:00:05.088 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$TransformingSequentialList
+22:00:05.088 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$TransformingSequentialList
+22:00:05.088 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$TransformingSequentialList
+22:00:05.088 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$StringAsImmutableList
+22:00:05.088 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$StringAsImmutableList'.
+22:00:05.089 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$StringAsImmutableList
+22:00:05.089 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$StringAsImmutableList
+22:00:05.089 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$StringAsImmutableList
+22:00:05.089 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$AbstractListWrapper
+22:00:05.089 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$AbstractListWrapper'.
+22:00:05.089 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$AbstractListWrapper
+22:00:05.090 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$AbstractListWrapper
+22:00:05.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$AbstractListWrapper
+22:00:05.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$1
+22:00:05.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$1'.
+22:00:05.090 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$1
+22:00:05.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$RandomAccessListWrapper
+22:00:05.090 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$RandomAccessListWrapper'.
+22:00:05.090 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$RandomAccessListWrapper
+22:00:05.091 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Lists$RandomAccessListWrapper
+22:00:05.091 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$RandomAccessListWrapper
+22:00:05.091 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$1
+22:00:05.091 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Lists$2
+22:00:05.091 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Lists$2'.
+22:00:05.091 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Lists$2
+22:00:05.091 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Lists$2
+22:00:05.092 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.Closer
+22:00:05.092 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.Closer'.
+22:00:05.092 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/Closer
+22:00:05.093 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/io/Closer
+22:00:05.093 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.Closer
+22:00:05.094 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.Closer$SuppressingSuppressor
+22:00:05.094 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.Closer$SuppressingSuppressor'.
+22:00:05.094 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/Closer$SuppressingSuppressor
+22:00:05.094 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/io/Closer$SuppressingSuppressor
+22:00:05.094 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.Closer$SuppressingSuppressor
+22:00:05.095 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.PrimitiveSink
+22:00:05.095 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.PrimitiveSink'.
+22:00:05.095 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.PrimitiveSink
+22:00:05.096 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSource$ConcatenatedByteSource
+22:00:05.096 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSource$ConcatenatedByteSource'.
+22:00:05.096 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSource$ConcatenatedByteSource
+22:00:05.096 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSource$ConcatenatedByteSource
+22:00:05.096 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSource$ConcatenatedByteSource
+22:00:05.097 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSource$ByteArrayByteSource
+22:00:05.097 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSource$ByteArrayByteSource'.
+22:00:05.097 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSource$ByteArrayByteSource
+22:00:05.097 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSource$ByteArrayByteSource
+22:00:05.097 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSource$ByteArrayByteSource
+22:00:05.098 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSource$EmptyByteSource
+22:00:05.098 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSource$EmptyByteSource'.
+22:00:05.098 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSource$EmptyByteSource
+22:00:05.098 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/io/ByteSource$EmptyByteSource
+22:00:05.098 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSource$EmptyByteSource
+22:00:05.098 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSource$SlicedByteSource
+22:00:05.098 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSource$SlicedByteSource'.
+22:00:05.098 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSource$SlicedByteSource
+22:00:05.099 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSource$SlicedByteSource
+22:00:05.099 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSource$SlicedByteSource
+22:00:05.099 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ByteSource$AsCharSource
+22:00:05.099 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ByteSource$AsCharSource'.
+22:00:05.099 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ByteSource$AsCharSource
+22:00:05.099 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ByteSource$AsCharSource
+22:00:05.100 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ByteSource$AsCharSource
+22:00:05.100 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.Hasher
+22:00:05.100 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.Hasher'.
+22:00:05.100 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.Hasher
+22:00:05.101 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.ReaderInputStream
+22:00:05.101 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.ReaderInputStream'.
+22:00:05.101 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/ReaderInputStream
+22:00:05.102 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/ReaderInputStream
+22:00:05.102 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.ReaderInputStream
+22:00:05.102 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Absent
+22:00:05.102 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Absent'.
+22:00:05.103 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Absent
+22:00:05.103 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/Absent
+22:00:05.103 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Absent
+22:00:05.104 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.AbstractIterator
+22:00:05.104 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.AbstractIterator'.
+22:00:05.104 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/AbstractIterator
+22:00:05.104 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/AbstractIterator
+22:00:05.105 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.AbstractIterator
+22:00:05.105 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Throwables
+22:00:05.105 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Throwables'.
+22:00:05.105 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Throwables
+22:00:05.107 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/Throwables
+22:00:05.107 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Throwables
+22:00:05.108 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.SoyFileSupplier$Version$1
+22:00:05.108 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.SoyFileSupplier$Version$1'.
+22:00:05.108 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/base/internal/SoyFileSupplier$Version$1
+22:00:05.109 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.SoyFileSupplier$Version
+22:00:05.109 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.SoyFileSupplier$Version'.
+22:00:05.109 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.SoyFileSupplier$Version
+22:00:05.109 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.SoyFileSupplier$Version$1
+22:00:05.110 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource$CharSequenceCharSource$1
+22:00:05.110 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource$CharSequenceCharSource$1'.
+22:00:05.110 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource$CharSequenceCharSource$1
+22:00:05.110 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource$CharSequenceCharSource$1
+22:00:05.111 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.MultiInputStream
+22:00:05.111 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.MultiInputStream'.
+22:00:05.111 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/MultiInputStream
+22:00:05.111 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/MultiInputStream
+22:00:05.111 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.MultiInputStream
+22:00:05.112 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.AppendableWriter
+22:00:05.112 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.AppendableWriter'.
+22:00:05.112 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/AppendableWriter
+22:00:05.113 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/AppendableWriter
+22:00:05.113 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.AppendableWriter
+22:00:05.114 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.SoyFileKind
+22:00:05.114 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.SoyFileKind'.
+22:00:05.114 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/base/internal/SoyFileKind
+22:00:05.114 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/template/soy/base/internal/SoyFileKind
+22:00:05.114 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.SoyFileKind
+22:00:05.114 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharStreams
+22:00:05.115 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharStreams'.
+22:00:05.115 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharStreams
+22:00:05.115 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/CharStreams
+22:00:05.115 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharStreams
+22:00:05.116 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.LineReader$1
+22:00:05.116 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.LineReader$1'.
+22:00:05.117 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/LineReader$1
+22:00:05.117 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.LineBuffer
+22:00:05.117 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.LineBuffer'.
+22:00:05.117 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/LineBuffer
+22:00:05.118 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/LineBuffer
+22:00:05.118 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.LineBuffer
+22:00:05.118 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.LineReader$1
+22:00:05.118 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$6
+22:00:05.118 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$6'.
+22:00:05.118 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$6
+22:00:05.119 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$6
+22:00:05.120 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.CollectPreconditions
+22:00:05.120 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.CollectPreconditions'.
+22:00:05.120 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/CollectPreconditions
+22:00:05.121 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/CollectPreconditions
+22:00:05.121 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.CollectPreconditions
+22:00:05.121 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$1
+22:00:05.121 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$1'.
+22:00:05.122 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$1
+22:00:05.122 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$1
+22:00:05.122 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.math.LongMath
+22:00:05.122 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.math.LongMath'.
+22:00:05.123 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/math/LongMath
+22:00:05.124 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/math/LongMath
+22:00:05.125 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.math.LongMath
+22:00:05.126 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$2
+22:00:05.126 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$2'.
+22:00:05.126 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$2
+22:00:05.126 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$2
+22:00:05.126 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$3
+22:00:05.126 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$3'.
+22:00:05.127 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$3
+22:00:05.127 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$3
+22:00:05.127 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.primitives.Ints$IntConverter
+22:00:05.127 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.primitives.Ints$IntConverter'.
+22:00:05.127 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/primitives/Ints$IntConverter
+22:00:05.128 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/primitives/Ints$IntConverter
+22:00:05.128 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package com.google.common.primitives, 1398230951
+22:00:05.128 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.primitives.Ints$IntConverter
+22:00:05.128 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$5
+22:00:05.128 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$5'.
+22:00:05.128 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$5
+22:00:05.129 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$5
+22:00:05.129 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.template.soy.base.internal.SoyFileSupplier$Factory
+22:00:05.129 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.template.soy.base.internal.SoyFileSupplier$Factory'.
+22:00:05.129 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/template/soy/base/internal/SoyFileSupplier$Factory
+22:00:05.130 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/template/soy/base/internal/SoyFileSupplier$Factory
+22:00:05.131 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.template.soy.base.internal.SoyFileSupplier$Factory
+22:00:05.131 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.CharSource$CharSequenceCharSource$1$1
+22:00:05.131 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.CharSource$CharSequenceCharSource$1$1'.
+22:00:05.131 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/CharSource$CharSequenceCharSource$1$1
+22:00:05.131 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.CharSource$CharSequenceCharSource$1$1
+22:00:05.132 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Ordering$IncomparableValueException
+22:00:05.132 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Ordering$IncomparableValueException'.
+22:00:05.132 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Ordering$IncomparableValueException
+22:00:05.132 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Ordering$IncomparableValueException
+22:00:05.132 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Ordering$IncomparableValueException
+22:00:05.133 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.HashFunction
+22:00:05.133 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.HashFunction'.
+22:00:05.134 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.HashFunction
+22:00:05.134 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ImmutableList$Builder
+22:00:05.134 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ImmutableList$Builder'.
+22:00:05.134 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ImmutableList$Builder
+22:00:05.134 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/ImmutableList$Builder
+22:00:05.134 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ImmutableList$Builder
+22:00:05.135 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.primitives.Booleans
+22:00:05.135 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.primitives.Booleans'.
+22:00:05.135 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/primitives/Booleans
+22:00:05.136 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/primitives/Booleans
+22:00:05.136 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.primitives.Booleans
+22:00:05.136 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Supplier
+22:00:05.136 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Supplier'.
+22:00:05.137 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Supplier
+22:00:05.137 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.AbstractIterator$1
+22:00:05.137 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.AbstractIterator$1'.
+22:00:05.137 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/AbstractIterator$1
+22:00:05.137 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.AbstractIterator$1
+22:00:05.137 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.AbstractIterator$State
+22:00:05.137 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.AbstractIterator$State'.
+22:00:05.138 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/AbstractIterator$State
+22:00:05.138 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/base/AbstractIterator$State
+22:00:05.138 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.AbstractIterator$State
+22:00:05.138 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators
+22:00:05.138 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators'.
+22:00:05.139 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators
+22:00:05.140 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/Iterators
+22:00:05.141 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators
+22:00:05.141 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.Iterators$MergingIterator
+22:00:05.141 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.Iterators$MergingIterator'.
+22:00:05.141 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/Iterators$MergingIterator
+22:00:05.142 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/collect/Iterators$MergingIterator
+22:00:05.142 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.Iterators$MergingIterator
+22:00:05.143 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.base.Splitter$5
+22:00:05.143 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.base.Splitter$5'.
+22:00:05.143 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/base/Splitter$5
+22:00:05.143 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.base.Splitter$5
+22:00:05.144 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.hash.BloomFilter
+22:00:05.144 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.hash.BloomFilter'.
+22:00:05.144 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/hash/BloomFilter
+22:00:05.146 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/hash/BloomFilter
+22:00:05.146 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.hash.BloomFilter
+22:00:05.146 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.collect.ReverseNaturalOrdering
+22:00:05.146 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.collect.ReverseNaturalOrdering'.
+22:00:05.147 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/collect/ReverseNaturalOrdering
+22:00:05.147 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class com/google/common/collect/ReverseNaturalOrdering
+22:00:05.147 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.collect.ReverseNaturalOrdering
+22:00:05.147 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.primitives.Ints
+22:00:05.147 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.primitives.Ints'.
+22:00:05.148 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/primitives/Ints
+22:00:05.148 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/primitives/Ints
+22:00:05.148 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field BYTES
+22:00:05.148 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field MAX_POWER_OF_TWO
+22:00:05.149 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.primitives.Ints
+22:00:05.149 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.LineProcessor
+22:00:05.149 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.LineProcessor'.
+22:00:05.150 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.LineProcessor
+22:00:05.150 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: com.google.common.io.LineReader
+22:00:05.150 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'com.google.common.io.LineReader'.
+22:00:05.151 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class com/google/common/io/LineReader
+22:00:05.151 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/google/common/io/LineReader
+22:00:05.151 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: com.google.common.io.LineReader
+.......
+Time: 0.506
+
+OK (7 tests)
+

@@ -1,0 +1,319 @@
+[VERSION]: 2.1.29
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.dynjs:dynjs >---------------------------
+[INFO] Building dynjs 0.3.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ dynjs ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ dynjs ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.headius:invokebinder:jar:1.2:compile
+[INFO]    org.objenesis:objenesis:jar:1.0:test
+[INFO]    org.easytesting:fest-util:jar:1.1.6:test
+[INFO]    com.github.jnr:jnr-constants:jar:0.8.5:compile
+[INFO]    org.ow2.asm:asm-tree:jar:4.0:compile
+[INFO]    com.github.jnr:jnr-posix:jar:3.0.1:compile
+[INFO]    org.mockito:mockito-core:jar:1.8.5:test
+[INFO]    com.github.jnr:jffi:jar:native:1.2.7:runtime
+[INFO]    com.google.guava:guava:jar:14.0.1:compile
+[INFO]    me.qmx.jitescript:jitescript:jar:0.4.0:compile
+[INFO]    org.ow2.asm:asm-analysis:jar:4.0:compile
+[INFO]    io.netty:netty:jar:3.6.1.Final:test
+[INFO]    org.ow2.asm:asm-util:jar:4.0:compile
+[INFO]    args4j:args4j:jar:2.0.26:compile
+[INFO]    org.jboss.aesh:aesh:jar:0.56:compile
+[INFO]    org.fusesource.jansi:jansi:jar:1.11:compile
+[INFO]    com.github.akiellor.jasmine:jasmine-cli:jar:0.0.12:test
+[INFO]    org.ow2.asm:asm-commons:jar:4.0:compile
+[INFO]    org.jruby.joni:joni:jar:2.1.4:compile
+[INFO]    com.github.jnr:jnr-ffi:jar:1.0.7:compile
+[INFO]    junit:junit:jar:4.8.2:test
+[INFO]    com.github.akiellor.jasmine:jasmine-core:jar:0.0.12:test
+[INFO]    org.ow2.asm:asm:jar:4.0:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.9.9:compile
+[INFO]    org.projectodd.rephract:rephract:jar:2.0.1:compile
+[INFO]    org.jruby:dirgra:jar:0.1:compile
+[INFO]    com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+[INFO]    com.headius:options:jar:1.0:compile
+[INFO]    org.jruby.jcodings:jcodings:jar:1.0.8:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO]    com.github.jnr:jffi:jar:1.2.7:compile
+[INFO]    org.easytesting:fest-assert:jar:1.4:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1:enforce (enforce-maven) @ dynjs ---
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.9:revision (default) @ dynjs ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-resource (default) @ dynjs ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dynjs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ dynjs ---
+[INFO] Compiling 537 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/classes
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (unzip native) @ dynjs ---
+[INFO] jitescript-0.4.0.jar already exists in destination.
+[INFO] invokebinder-1.2.jar already exists in destination.
+[INFO] asm-analysis-4.0.jar already exists in destination.
+[INFO] asm-util-4.0.jar already exists in destination.
+[INFO] args4j-2.0.26.jar already exists in destination.
+[INFO] aesh-0.56.jar already exists in destination.
+[INFO] jansi-1.11.jar already exists in destination.
+[INFO] jnr-constants-0.8.5.jar already exists in destination.
+[INFO] asm-commons-4.0.jar already exists in destination.
+[INFO] asm-tree-4.0.jar already exists in destination.
+[INFO] joni-2.1.4.jar already exists in destination.
+[INFO] jnr-posix-3.0.1.jar already exists in destination.
+[INFO] jnr-ffi-1.0.7.jar already exists in destination.
+[INFO] asm-4.0.jar already exists in destination.
+[INFO] jackson-core-asl-1.9.9.jar already exists in destination.
+[INFO] jffi-1.2.7-native.jar already exists in destination.
+[INFO] rephract-2.0.1.jar already exists in destination.
+[INFO] dirgra-0.1.jar already exists in destination.
+[INFO] jnr-x86asm-1.0.2.jar already exists in destination.
+[INFO] options-1.0.jar already exists in destination.
+[INFO] jcodings-1.0.8.jar already exists in destination.
+[INFO] guava-14.0.1.jar already exists in destination.
+[INFO] jffi-1.2.7.jar already exists in destination.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dynjs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ dynjs ---
+[INFO] Compiling 102 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/test-classes
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (classpath-test) @ dynjs ---
+[INFO] Configured Artifact: me.qmx.vraptor-authz:vraptor-authz:0.2:jar
+[INFO] Copying vraptor-authz-0.2.jar to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/fixtures/vraptor-authz-0.2.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (benchmark) @ dynjs ---
+[INFO] Configured Artifact: org.mozilla:rhino:1.7R4:jar
+[INFO] Copying rhino-1.7R4.jar to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/benchmark/rhino-1.7R4.jar
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dynjs ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/dynjs/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.dynjs.jsr223.ScriptEngineTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.502 sec
+Running org.dynjs.runtime.RegexpLiteralTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.029 sec
+Running org.dynjs.runtime.OutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.WithStatementTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.dynjs.runtime.ContinueStatementTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.dynjs.runtime.ForExprStatementTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.dynjs.runtime.FunctionCallExpressionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.dynjs.runtime.FunctionDeclarationTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.dynjs.runtime.SwitchStatementTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running org.dynjs.runtime.BlockStatementTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.ObjectLiteralTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.dynjs.runtime.JSJavaImplementationTest
+howdy
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.dynjs.runtime.MultiplicativeExpressionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.dynjs.runtime.CommaOpExpressionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.dynjs.runtime.PostOpExpressionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.dynjs.runtime.DynJSTest
+taco
+Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec
+Running org.dynjs.runtime.ForVarDeclInStatementTest
+a
+b
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.runtime.CoffeeLikeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.WhileStatementTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.dynjs.runtime.MemberExpressionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.dynjs.runtime.BenBreaksStuffTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.866 sec
+Running org.dynjs.runtime.PreOpExpressionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.dynjs.runtime.FigureOutJoniTest
+1
+1
+4
+foo
+Region: 
+ 0: (1-4)
+foo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.dynjs.runtime.StringLiteralTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.dynjs.runtime.BitwiseInversionOperatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.runtime.java.JavaIntegrationTest
+PUT FILTERS: [MethodHandle(Object)Object, MethodHandle(Object)Object]
+HANDLE: MethodHandle(HashMap,Object,Object)Object
+--------------
+org.dynjs.gen.impl.DefaultFooJS_2@635eaaf1
+[DynamicMethod: name=getContent; isStatic=false; methods=[[MethodHandle(DefaultFooJS_2)String, MethodHandle(DefaultFoo)String, MethodHandle(AbstractFoo)String]]]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+default content
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.317 sec
+Running org.dynjs.runtime.java.JavaClassTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.dynjs.runtime.java.ExternalIndexedDataTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.dynjs.runtime.builtins.ParsersTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+Running org.dynjs.runtime.builtins.types.JSONTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.dynjs.runtime.builtins.types.BuiltinTypeErrorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.dynjs.runtime.builtins.types.BuiltinArrayTest
+1
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+Running org.dynjs.runtime.builtins.types.BuiltinObjectTest
+RESULT: [unknown@2119891622]
+RESULT: [unknown@454305524]
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.dynjs.runtime.builtins.types.BuiltinBooleanTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.dynjs.runtime.builtins.types.BuiltinFunctionTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.dynjs.runtime.builtins.types.BuiltinDateTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.087 sec
+Running org.dynjs.runtime.builtins.types.BuiltinNumberTest
+result: Infinity // class java.lang.Double
+Tests run: 70, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec
+Running org.dynjs.runtime.builtins.types.BuiltinStringTest
+o: function(searchValue, replaceValue){
+  <native code in: org.dynjs.runtime.builtins.types.string.prototype.Replace>
+}
+Tests run: 65, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.136 sec
+Running org.dynjs.runtime.builtins.ThrowTypeErrorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.runtime.builtins.IsFiniteTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.dynjs.runtime.builtins.MathTest
+Tests run: 108, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec
+Running org.dynjs.runtime.builtins.IsNaNTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.dynjs.runtime.builtins.RequireTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.modules.JavaClassModuleProviderRequireTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 sec
+Running org.dynjs.runtime.modules.FilesystemModuleProviderRequireTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.dynjs.runtime.modules.UtilModuleTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 12, Time elapsed: 0.001 sec
+Running org.dynjs.runtime.modules.ClasspathModuleProviderTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running org.dynjs.runtime.ForVarDeclStatementTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.dynjs.runtime.DeleteOpTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.NodeJSFailuresTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.runtime.BitwiseShiftTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.dynjs.runtime.TypeofExpressionTest
+string
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.dynjs.runtime.AdditiveExpressionTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.dynjs.runtime.ForExprOfStatementTest
+null
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.dynjs.runtime.NewOperatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.dynjs.runtime.ArrayLiteralTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.dynjs.runtime.TryCatchFinallyTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.dynjs.runtime.SpecTestHarnessWeirdnessTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.dynjs.runtime.UnaryMinusExpressionTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.dynjs.runtime.VariableDeclarationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.dynjs.runtime.ReferenceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.dynjs.runtime.DoWhileExpressionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.dynjs.runtime.StackTraceTest
+TypeError: dangit
+  at <native function: TypeError> (org/dynjs/runtime/builtins/types/BuiltinTypeError.java:0:0)
+  at <native function: TypeError> (org/dynjs/runtime/builtins/types/BuiltinTypeError.java:0:0)
+  at foo (<eval>:5:2)
+  at bar (<eval>:8:3)
+  at Object.one (<eval>:2:29)
+  at <eval> (<eval>:12:3)
+  at <eval> (<eval>:4:2)
+
+Error
+  at <eval> (<eval>:1:0)
+  at thrower (<eval>:1:131)
+  at <eval> (<eval>:1:186)
+  at <eval> (<eval>:4:2)
+
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.dynjs.runtime.DynJSNamespaceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.dynjs.runtime.TypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.dynjs.runtime.InvokeDynamicTest
+foo is nice
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.dynjs.runtime.RhinoCompatTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.dynjs.runtime.ForExprInStatementTest
+null
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.MiscTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.dynjs.runtime.ForVarDeclOfStatementTest
+1
+2
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.runtime.RelationalExpressionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.dynjs.runtime.EvalTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.cli.MainTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.dynjs.cli.ArgumentsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.dynjs.parser.js.JSLexerTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.dynjs.parser.js.CircularCharBufferTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.dynjs.parser.js.StackTraceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+
+Results :
+
+Tests run: 888, Failures: 0, Errors: 0, Skipped: 24
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.683 s
+[INFO] Finished at: 2019-08-15T04:17:50+08:00
+[INFO] ------------------------------------------------------------------------

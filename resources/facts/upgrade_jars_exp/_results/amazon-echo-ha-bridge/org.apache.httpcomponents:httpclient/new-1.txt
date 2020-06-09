@@ -1,0 +1,190 @@
+[VERSION]: 4.5.9
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.armzilla.ha:amazon-echo-bridge >-----------------
+[INFO] Building Amazon Echo Bridge 0.2.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ amazon-echo-bridge ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/amazon-echo-ha-bridge/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:list (default-cli) @ amazon-echo-bridge ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-highlighter:jar:4.9.0:compile
+[INFO]    org.apache.lucene:lucene-core:jar:4.9.0:compile
+[INFO]    org.yaml:snakeyaml:jar:1.14:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:4.9.0:compile
+[INFO]    org.ow2.asm:asm-commons:jar:4.1:compile
+[INFO]    org.springframework:spring-beans:jar:4.1.7.RELEASE:compile
+[INFO]    org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO]    org.mockito:mockito-core:jar:1.10.19:test
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+[INFO]    org.springframework.data:spring-data-commons:jar:1.9.3.RELEASE:compile
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:4.9.0:compile
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:1.2.6.RELEASE:test
+[INFO]    ch.qos.logback:logback-classic:jar:1.1.3:compile
+[INFO]    org.springframework:spring-aop:jar:4.1.7.RELEASE:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:1.2.6.RELEASE:compile
+[INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.26:compile
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:1.2.6.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile
+[INFO]    org.elasticsearch:elasticsearch:jar:1.3.2:compile
+[INFO]    org.springframework.boot:spring-boot:jar:1.2.6.RELEASE:compile
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+[INFO]    org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.26:compile
+[INFO]    org.springframework:spring-expression:jar:4.1.7.RELEASE:compile
+[INFO]    com.fasterxml:classmate:jar:1.0.0:compile
+[INFO]    org.apache.lucene:lucene-join:jar:4.9.0:compile
+[INFO]    ch.qos.logback:logback-core:jar:1.1.3:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.12:compile
+[INFO]    org.apache.lucene:lucene-sandbox:jar:4.9.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile
+[INFO]    joda-time:joda-time:jar:2.5:compile
+[INFO]    org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+[INFO]    org.ow2.asm:asm:jar:4.1:compile
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:1.2.6.RELEASE:compile
+[INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.0.26:compile
+[INFO]    org.apache.lucene:lucene-codecs:jar:4.9.0:compile
+[INFO]    org.springframework:spring-webmvc:jar:4.1.7.RELEASE:compile
+[INFO]    org.antlr:antlr-runtime:jar:3.5:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+[INFO]    org.apache.tomcat.embed:tomcat-embed-logging-juli:jar:8.0.26:compile
+[INFO]    org.hibernate:hibernate-validator:jar:5.1.3.Final:compile
+[INFO]    org.springframework:spring-context:jar:4.1.7.RELEASE:compile
+[INFO]    org.objenesis:objenesis:jar:2.1:test
+[INFO]    org.apache.lucene:lucene-queries:jar:4.9.0:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:4.9.0:compile
+[INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:1.2.6.RELEASE:compile
+[INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:1.2.6.RELEASE:compile
+[INFO]    org.slf4j:log4j-over-slf4j:jar:1.7.12:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:4.9.0:compile
+[INFO]    org.springframework:spring-web:jar:4.1.7.RELEASE:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    org.springframework:spring-test:jar:4.1.7.RELEASE:test
+[INFO]    org.springframework.data:spring-data-elasticsearch:jar:1.1.3.RELEASE:compile
+[INFO]    org.apache.lucene:lucene-spatial:jar:4.9.0:compile
+[INFO]    org.springframework.boot:spring-boot-actuator:jar:1.2.6.RELEASE:compile
+[INFO]    org.springframework:spring-tx:jar:4.1.7.RELEASE:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:4.9.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile
+[INFO]    org.springframework.boot:spring-boot-starter:jar:1.2.6.RELEASE:compile
+[INFO]    org.springframework:spring-core:jar:4.1.7.RELEASE:compile
+[INFO]    org.apache.lucene:lucene-grouping:jar:4.9.0:compile
+[INFO]    com.spatial4j:spatial4j:jar:0.4.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ amazon-echo-bridge ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ amazon-echo-bridge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/amazon-echo-ha-bridge/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ amazon-echo-bridge ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ amazon-echo-bridge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/amazon-echo-ha-bridge/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ amazon-echo-bridge ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/amazon-echo-ha-bridge/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running demo.DemoApplicationTests
+20:22:06.749 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class demo.DemoApplicationTests].
+20:22:06.758 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+20:22:06.773 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@cb644e declaringClass = 'demo.DemoApplicationTests', classes = '{class com.armzilla.ha.SpringbootEntry}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+20:22:06.779 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [demo.DemoApplicationTests]
+20:22:06.784 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [demo.DemoApplicationTests]: using defaults.
+20:22:06.789 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+20:22:06.803 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53f65459, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b088d51, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1786dec2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74650e52, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15d0c81b]
+20:22:06.805 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.DemoApplicationTests]
+20:22:06.806 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.DemoApplicationTests]
+20:22:06.807 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.DemoApplicationTests]
+20:22:06.807 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.DemoApplicationTests]
+20:22:06.810 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.DemoApplicationTests]
+20:22:06.810 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.DemoApplicationTests]
+20:22:06.865 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:22:06.867 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:22:06.867 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:22:06.868 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.6.RELEASE)
+
+2019-08-20 20:22:07.027  INFO 3940 --- [           main] demo.DemoApplicationTests                : Starting DemoApplicationTests on CSLS59U with PID 3940 (/home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/amazon-echo-ha-bridge/target/test-classes started by cgzhu in /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/amazon-echo-ha-bridge)
+2019-08-20 20:22:07.073  INFO 3940 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5bd03f44: startup date [Tue Aug 20 20:22:07 SGT 2019]; root of context hierarchy
+2019-08-20 20:22:07.494  INFO 3940 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-08-20 20:22:07.826  INFO 3940 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.scheduling.annotation.SchedulingConfiguration' of type [class org.springframework.scheduling.annotation.SchedulingConfiguration$$EnhancerBySpringCGLIB$$f04a8f94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-20 20:22:08.065  INFO 3940 --- [           main] org.elasticsearch.node                   : [Gremlin] version[1.3.2], pid[3940], build[dee175d/2014-08-13T14:29:30Z]
+2019-08-20 20:22:08.066  INFO 3940 --- [           main] org.elasticsearch.node                   : [Gremlin] initializing ...
+2019-08-20 20:22:08.069  INFO 3940 --- [           main] org.elasticsearch.plugins                : [Gremlin] loaded [], sites []
+2019-08-20 20:22:09.177  INFO 3940 --- [           main] org.elasticsearch.node                   : [Gremlin] initialized
+2019-08-20 20:22:09.177  INFO 3940 --- [           main] org.elasticsearch.node                   : [Gremlin] starting ...
+2019-08-20 20:22:09.182  INFO 3940 --- [           main] org.elasticsearch.transport              : [Gremlin] bound_address {local[1]}, publish_address {local[1]}
+2019-08-20 20:22:09.194  INFO 3940 --- [           main] org.elasticsearch.discovery              : [Gremlin] elasticsearch/_sRsJtiRR46ZHy8Kx0xCRw
+2019-08-20 20:22:09.197  INFO 3940 --- [pdateTask][T#1]] org.elasticsearch.cluster.service        : [Gremlin] new_master [Gremlin][_sRsJtiRR46ZHy8Kx0xCRw][CSLS59U][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+2019-08-20 20:22:09.211  INFO 3940 --- [           main] org.elasticsearch.node                   : [Gremlin] started
+2019-08-20 20:22:09.528  INFO 3940 --- [pdateTask][T#1]] org.elasticsearch.gateway                : [Gremlin] recovered [1] indices into cluster_state
+2019-08-20 20:22:10.198  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5bd03f44: startup date [Tue Aug 20 20:22:07 SGT 2019]; root of context hierarchy
+2019-08-20 20:22:10.239  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upnp/{deviceId}/setup.xml],methods=[GET],produces=[application/xml]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.armzilla.ha.upnp.UpnpSettingsResource.getUpnpConfiguration(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.241  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/devices/{lightId}],methods=[PUT],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.armzilla.ha.dao.DeviceDescriptor> com.armzilla.ha.devicemanagmeent.DeviceResource.updateDevice(java.lang.String,com.armzilla.ha.api.Device)
+2019-08-20 20:22:10.241  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/devices],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.armzilla.ha.dao.DeviceDescriptor>> com.armzilla.ha.devicemanagmeent.DeviceResource.findAllDevices()
+2019-08-20 20:22:10.241  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/devices/{lightId}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.armzilla.ha.dao.DeviceDescriptor> com.armzilla.ha.devicemanagmeent.DeviceResource.findByDevicId(java.lang.String)
+2019-08-20 20:22:10.241  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/devices/{lightId}],methods=[DELETE],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.armzilla.ha.devicemanagmeent.DeviceResource.deleteDeviceById(java.lang.String)
+2019-08-20 20:22:10.241  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/devices],methods=[POST],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.armzilla.ha.dao.DeviceDescriptor> com.armzilla.ha.devicemanagmeent.DeviceResource.createDevice(com.armzilla.ha.api.Device)
+2019-08-20 20:22:10.242  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/*],methods=[POST],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.armzilla.ha.hue.HueMulator.postAPI(javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.242  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/{userId}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.armzilla.ha.api.hue.HueApiResponse> com.armzilla.ha.hue.HueMulator.getApi(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.242  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/{userId}/lights/{lightId}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.armzilla.ha.api.hue.DeviceResponse> com.armzilla.ha.hue.HueMulator.getLigth(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.243  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/{userId}/lights/{lightId}/state],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.armzilla.ha.hue.HueMulator.stateChange(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,java.lang.String)
+2019-08-20 20:22:10.243  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/{userId}/lights],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.String>> com.armzilla.ha.hue.HueMulator.getUpnpConfiguration(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.244  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.244  INFO 3940 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-20 20:22:10.262  INFO 3940 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-20 20:22:10.262  INFO 3940 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-20 20:22:10.289  INFO 3940 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-20 20:22:10.520  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-08-20 20:22:10.520  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.520  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-08-20 20:22:10.520  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.520  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.521  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.521  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.521  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.521  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.521  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.522  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2019-08-20 20:22:10.522  INFO 3940 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-08-20 20:22:10.557  INFO 3940 --- [pool-1-thread-1] com.armzilla.ha.upnp.UpnpListener        : Starting UPNP Discovery Listener
+2019-08-20 20:22:10.557  INFO 3940 --- [           main] demo.DemoApplicationTests                : Started DemoApplicationTests in 3.682 seconds (JVM running for 4.127)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.964 sec - in demo.DemoApplicationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.500 s
+[INFO] Finished at: 2019-08-20T20:22:10+08:00
+[INFO] ------------------------------------------------------------------------

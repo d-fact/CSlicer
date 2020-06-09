@@ -1,0 +1,81 @@
+[VERSION]: 3.12.2
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.corundumstudio.socketio:netty-socketio >-------------
+[INFO] Building NettySocketIO 1.7.15
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ netty-socketio ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ netty-socketio ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.google.code.findbugs:jsr305:jar:3.0.2:test
+[INFO]    com.hazelcast:hazelcast-client:jar:3.12.2:provided
+[INFO]    io.netty:netty-resolver:jar:4.1.25.Final:compile
+[INFO]    org.jodd:jodd-core:jar:3.7.1:provided
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.jmockit:jmockit:jar:1.39:test
+[INFO]    io.projectreactor:reactor-core:jar:2.0.8.RELEASE:provided
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.2:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.8.11:provided
+[INFO]    org.springframework:spring-beans:jar:5.1.9.RELEASE:provided
+[INFO]    org.springframework:spring-core:jar:5.1.9.RELEASE:provided
+[INFO]    org.springframework:spring-jcl:jar:5.1.9.RELEASE:provided
+[INFO]    io.netty:netty-resolver-dns:jar:4.1.24.Final:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile
+[INFO]    com.hazelcast:hazelcast:jar:3.12.2:provided
+[INFO]    io.netty:netty-codec:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-handler:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-transport-native-unix-common:jar:4.1.25.Final:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.21:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:provided
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+[INFO]    org.redisson:redisson:jar:2.12.0:provided
+[INFO]    org.reactivestreams:reactive-streams:jar:1.0.0:provided
+[INFO]    io.netty:netty-transport:jar:4.1.25.Final:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    io.projectreactor:reactor-stream:jar:2.0.8.RELEASE:provided
+[INFO]    io.netty:netty-transport-native-epoll:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-codec-dns:jar:4.1.24.Final:provided
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.9:provided
+[INFO]    io.netty:netty-buffer:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-common:jar:4.1.25.Final:compile
+[INFO]    io.netty:netty-codec-http:jar:4.1.25.Final:compile
+[INFO]    javax.cache:cache-api:jar:1.0.0:provided
+[INFO]    org.jodd:jodd-bean:jar:3.7.1:provided
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ netty-socketio ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ netty-socketio ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 100 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/JacksonJsonSupport.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/JacksonJsonSupport.java uses or overrides a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/JacksonJsonSupport.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/Packet.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/main/java/com/corundumstudio/socketio/protocol/Packet.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ netty-socketio ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ netty-socketio ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/target/test-classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/parser/DecoderJsonPacketTest.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/parser/DecoderJsonPacketTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/JoinIteratorsTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/JoinIteratorsTest.java uses unchecked or unsafe operations.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/netty-socketio/src/test/java/com/corundumstudio/socketio/JoinIteratorsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ netty-socketio ---
+[INFO] Tests are skipped.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.113 s
+[INFO] Finished at: 2019-08-16T01:14:39+08:00
+[INFO] ------------------------------------------------------------------------

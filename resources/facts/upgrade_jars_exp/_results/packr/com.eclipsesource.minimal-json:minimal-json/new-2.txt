@@ -1,0 +1,55 @@
+[VERSION]: 0.9.5
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.badlogicgames.packr:packr:jar:1.2
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 52, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< com.badlogicgames.packr:packr >--------------------
+[INFO] Building packr 1.2
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ packr ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ packr ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    com.eclipsesource.minimal-json:minimal-json:jar:0.9.5:compile
+[INFO]    commons-io:commons-io:jar:1.4:compile
+[INFO]    org.zeroturnaround:zt-zip:jar:1.7:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.6.6:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ packr ---
+[INFO] 
+[INFO] --- maven-source-plugin:3.1.0:jar-no-fork (attach-sources) @ packr ---
+[INFO] Building jar: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/target/packr-1.2-sources.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ packr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ packr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ packr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/packr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ packr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ packr ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.574 s
+[INFO] Finished at: 2019-08-16T00:43:03+08:00
+[INFO] ------------------------------------------------------------------------

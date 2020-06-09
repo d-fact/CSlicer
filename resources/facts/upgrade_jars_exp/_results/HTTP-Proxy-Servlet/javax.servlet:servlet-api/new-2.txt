@@ -1,0 +1,200 @@
+[VERSION]: 3.0-alpha-1
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[WARNING] The project org.mitre.dsmiley.httpproxy:smiley-http-proxy-servlet:jar:1.10 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------< org.mitre.dsmiley.httpproxy:smiley-http-proxy-servlet >--------
+[INFO] Building Smiley's HTTP Proxy Servlet 1.10
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ smiley-http-proxy-servlet ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ smiley-http-proxy-servlet ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    commons-logging:commons-logging:jar:1.2:compile
+[INFO]    httpunit:httpunit:jar:1.7:test
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:tests:4.3.5:test
+[INFO]    log4j:log4j:jar:1.2.17:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    javax.servlet:servlet-api:jar:3.0-alpha-1:provided
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    jtidy:jtidy:jar:4aug2000r7-dev:test
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ smiley-http-proxy-servlet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ smiley-http-proxy-servlet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/target/classes
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/src/main/java/org/mitre/dsmiley/httpproxy/ProxyServlet.java: Some input files use or override a deprecated API.
+[INFO] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/src/main/java/org/mitre/dsmiley/httpproxy/ProxyServlet.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ smiley-http-proxy-servlet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ smiley-http-proxy-servlet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ smiley-http-proxy-servlet ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/HTTP-Proxy-Servlet/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.mitre.dsmiley.httpproxy.ProxyServletTest
+Rhino classes (js.jar) not found - Javascript disabled
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:45325/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:45485/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/pathInfo -- http://localhost:45485/targetPath/pathInfo
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/pathInfo/%23%25abc -- http://localhost:45485/targetPath/pathInfo/%23%25abc
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:45485/targetPath?q=v
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/p -- http://localhost:45485/targetPath/p?q=v
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/p -- http://localhost:45485/targetPath/p?query=note:Leitbild
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/p -- http://localhost:45485/targetPath/p?id=p%20i
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/p%20i -- http://localhost:45485/targetPath/p%20i
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe -- http://localhost:45723/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe/pathInfo -- http://localhost:45723/targetPath/pathInfo
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe/pathInfo/%23%25abc -- http://localhost:45723/targetPath/pathInfo/%23%25abc
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe -- http://localhost:45723/targetPath?q=v
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe/p -- http://localhost:45723/targetPath/p?q=v
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe/p -- http://localhost:45723/targetPath/p?query=note:Leitbild
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe/p -- http://localhost:45723/targetPath/p?id=p%20i
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe/p%20i -- http://localhost:45723/targetPath/p%20i
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:39373/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:39233/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:43239/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:34059/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:46137/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:38043/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:34243/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:39473/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:43197/targetPath?fq=%7B!f=field%7D
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:43197/targetPath?fq=%7B!f=field%7D
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:41695/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:39737/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:36513/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe/test -- http://localhost:41137/targetPath/test
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:39941/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy GET uri: /proxyMe -- http://localhost:39941/targetPath
+org.mitre.dsmiley.httpproxy.ProxyServlet: proxy POST uri: /proxyMe -- http://localhost:35557/targetPath
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.509 sec
+Running org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:33137/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:41139/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:40719/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:37171/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/pathInfo -- http://localhost:37171/targetPath/pathInfo
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/pathInfo/%23%25abc -- http://localhost:37171/targetPath/pathInfo/%23%25abc
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:37171/targetPath?q=v
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/p -- http://localhost:37171/targetPath/p?q=v
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/p -- http://localhost:37171/targetPath/p?query=note:Leitbild
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/p -- http://localhost:37171/targetPath/p?id=p%20i
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/p%20i -- http://localhost:37171/targetPath/p%20i
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe -- http://localhost:39381/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe/pathInfo -- http://localhost:39381/targetPath/pathInfo
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe/pathInfo/%23%25abc -- http://localhost:39381/targetPath/pathInfo/%23%25abc
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe -- http://localhost:39381/targetPath?q=v
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe/p -- http://localhost:39381/targetPath/p?q=v
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe/p -- http://localhost:39381/targetPath/p?query=note:Leitbild
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe/p -- http://localhost:39381/targetPath/p?id=p%20i
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe/p%20i -- http://localhost:39381/targetPath/p%20i
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:45141/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/%64%69%72%2F -- http://localhost:40763/targetPath/dir/
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:43351/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:33829/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:46649/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:38797/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:36809/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:33805/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:34179/targetPath?fq=%7B!f=field%7D
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:34179/targetPath?fq=%7B!f=field%7D
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:32901/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:35187/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:40891/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe/test -- http://localhost:34745/targetPath/test
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:41579/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy GET uri: /proxyMe -- http://localhost:41579/targetPath
+org.mitre.dsmiley.httpproxy.ModifyHeadersProxyServletTest$ModifyHeadersProxyServlet: proxy POST uri: /proxyMe -- http://localhost:42603/targetPath
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.155 sec
+Running org.mitre.dsmiley.httpproxy.URITemplateProxyServletTest
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:46449/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:42169/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/pathInfo -- http://localhost:42169/targetPath/pathInfo
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/pathInfo/%23%25abc -- http://localhost:42169/targetPath/pathInfo/%23%25abc
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:42169/targetPath?q=v
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/p -- http://localhost:42169/targetPath/p?q=v
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/p -- http://localhost:42169/targetPath/p?query=note:Leitbild
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/p -- http://localhost:42169/targetPath/p?id=p%20i
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/p%20i -- http://localhost:42169/targetPath/p%20i
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized -- http://localhost:40571/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized/pathInfo -- http://localhost:40571/targetPath/pathInfo
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized/pathInfo/%23%25abc -- http://localhost:40571/targetPath/pathInfo/%23%25abc
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized -- http://localhost:40571/targetPath?q=v
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized/p -- http://localhost:40571/targetPath/p?q=v
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized/p -- http://localhost:40571/targetPath/p?query=note:Leitbild
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized/p -- http://localhost:40571/targetPath/p?id=p%20i
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy POST uri: /proxyParameterized/p%20i -- http://localhost:40571/targetPath/p%20i
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:39013/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/%64%69%72%2F -- http://localhost:42719/targetPath/dir/
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:35873/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:43155/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:33817/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:40817/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:39205/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:36735/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:46131/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:39475/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:43223/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized/test -- http://localhost:45823/targetPath/test
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:39831/targetPath
+org.mitre.dsmiley.httpproxy.URITemplateProxyServlet: proxy GET uri: /proxyParameterized -- http://localhost:39831/targetPath
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 5.148 sec
+
+Results :
+
+Tests run: 56, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.600 s
+[INFO] Finished at: 2019-08-16T01:08:44+08:00
+[INFO] ------------------------------------------------------------------------

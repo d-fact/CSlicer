@@ -1,0 +1,846 @@
+[VERSION]: 3.0.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< de.komoot.photon:photon >-----------------------
+[INFO] Building photon 0.3.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ photon ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ photon ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-grouping:jar:6.6.0:compile
+[INFO]    io.netty:netty-handler:jar:4.1.11.Final:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-client:jar:9.4.6.v20170531:compile
+[INFO]    aopalliance:aopalliance:jar:1.0:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.4.6.v20170531:compile
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+[INFO]    org.objenesis:objenesis:jar:2.6:test
+[INFO]    org.elasticsearch.plugin:transport-netty4-client:jar:5.5.0:compile
+[INFO]    io.netty:netty-common:jar:4.1.11.Final:compile
+[INFO]    org.yaml:snakeyaml:jar:1.15:compile
+[INFO]    io.netty:netty:jar:3.10.6.Final:compile
+[INFO]    commons-io:commons-io:jar:2.4:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:6.6.0:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.9.2:test
+[INFO]    commons-dbcp:commons-dbcp:jar:1.4:compile
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.4.6.v20170531:compile
+[INFO]    org.elasticsearch.client:transport:jar:5.5.0:compile
+[INFO]    org.codehaus.jackson:jackson-jaxrs:jar:1.4.0:compile
+[INFO]    org.apache.lucene:lucene-analyzers-common:jar:6.6.0:compile
+[INFO]    com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO]    org.springframework:spring-beans:jar:4.0.0.RELEASE:compile
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.4.6.v20170531:compile
+[INFO]    com.google.guava:guava:jar:19.0:compile
+[INFO]    com.github.spullara.mustache.java:compiler:jar:0.9.3:compile
+[INFO]    org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO]    io.netty:netty-transport:jar:4.1.11.Final:compile
+[INFO]    org.mockito:mockito-core:jar:3.0.0:test
+[INFO]    commons-codec:commons-codec:jar:1.10:compile
+[INFO]    org.projectlombok:lombok:jar:1.16.18:provided
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+[INFO]    org.springframework:spring-jdbc:jar:4.0.0.RELEASE:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    org.apache.lucene:lucene-misc:jar:6.6.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.6:compile
+[INFO]    io.netty:netty-buffer:jar:4.1.11.Final:compile
+[INFO]    org.openstreetmap.osmosis:osmosis-hstore-jdbc:jar:0.43.1:compile
+[INFO]    org.elasticsearch.plugin:lang-mustache-client:jar:5.5.0:compile
+[INFO]    net.bytebuddy:byte-buddy:jar:1.9.10:test
+[INFO]    org.apache.lucene:lucene-sandbox:jar:6.6.0:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-common:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:6.6.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6:compile
+[INFO]    org.apache.lucene:lucene-suggest:jar:6.6.0:compile
+[INFO]    com.tdunning:t-digest:jar:3.0:compile
+[INFO]    com.vividsolutions:jts:jar:1.13:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:6.6.0:compile
+[INFO]    postgis:postgis-jdbc-jts:jar:1.1.5:compile
+[INFO]    joda-time:joda-time:jar:2.9.5:compile
+[INFO]    io.netty:netty-codec:jar:4.1.11.Final:compile
+[INFO]    commons-pool:commons-pool:jar:1.5.4:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO]    org.eclipse.jetty:jetty-client:jar:9.4.6.v20170531:compile
+[INFO]    net.lingala.zip4j:zip4j:jar:1.2.3:compile
+[INFO]    org.springframework:spring-core:jar:4.0.0.RELEASE:compile
+[INFO]    org.elasticsearch.plugin:parent-join-client:jar:5.5.0:compile
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.json:json:jar:20140107:compile
+[INFO]    org.apache.lucene:lucene-queryparser:jar:6.6.0:compile
+[INFO]    org.apache.lucene:lucene-spatial:jar:6.6.0:compile
+[INFO]    org.elasticsearch:jna:jar:4.4.0:compile
+[INFO]    com.beust:jcommander:jar:1.32:compile
+[INFO]    org.springframework:spring-tx:jar:4.0.0.RELEASE:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+[INFO]    org.apache.commons:commons-lang3:jar:3.3.2:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.4.0:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.4.6.v20170531:compile
+[INFO]    com.google.code.findbugs:jsr305:jar:2.0.2:compile
+[INFO]    io.netty:netty-resolver:jar:4.1.11.Final:compile
+[INFO]    org.apache.lucene:lucene-join:jar:6.6.0:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.4.6.v20170531:compile
+[INFO]    org.elasticsearch.plugin:percolator-client:jar:5.5.0:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.4.6.v20170531:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:test
+[INFO]    org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:1.4.0:compile
+[INFO]    org.apache.lucene:lucene-backward-codecs:jar:6.6.0:compile
+[INFO]    org.apache.lucene:lucene-spatial3d:jar:6.6.0:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-api:jar:9.4.6.v20170531:compile
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+[INFO]    org.elasticsearch.plugin:reindex-client:jar:5.5.0:compile
+[INFO]    org.elasticsearch:elasticsearch:jar:5.5.0:compile
+[INFO]    com.sparkjava:spark-core:jar:2.7.1:compile
+[INFO]    org.elasticsearch:securesm:jar:1.1:compile
+[INFO]    com.neovisionaries:nv-i18n:jar:1.4:compile
+[INFO]    org.eclipse.jetty.websocket:websocket-server:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile
+[INFO]    junit:junit:jar:4.12:test
+[INFO]    io.netty:netty-codec-http:jar:4.1.11.Final:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    org.elasticsearch.plugin:transport-netty3-client:jar:5.5.0:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.lucene:lucene-core:jar:6.6.0:compile
+[INFO]    org.elasticsearch.client:rest:jar:5.5.0:compile
+[INFO]    postgresql:postgresql:jar:9.1-901-1.jdbc4:compile
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.4.6.v20170531:compile
+[INFO]    org.apache.lucene:lucene-spatial-extras:jar:6.6.0:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ photon ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ photon ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 51 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/main/java/de/komoot/photon/searcher/ReverseElasticsearchSearcher.java: Some input files use or override a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/main/java/de/komoot/photon/searcher/ReverseElasticsearchSearcher.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/main/java/de/komoot/photon/Command.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/main/java/de/komoot/photon/Command.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ photon ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ photon ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/target/test-classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/test/java/de/komoot/photon/query/TagFilterQueryBuilderSearchTest.java: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/test/java/de/komoot/photon/query/TagFilterQueryBuilderSearchTest.java uses or overrides a deprecated API.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/test/java/de/komoot/photon/query/TagFilterQueryBuilderSearchTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/test/java/de/komoot/photon/SearchRequestHandlerTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/src/test/java/de/komoot/photon/SearchRequestHandlerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ photon ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running de.komoot.photon.query.PhotonQueryBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 sec
+Running de.komoot.photon.query.TagFilterQueryBuilderSearchTest
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 1.476 sec <<< FAILURE!
+testKeyTourismAndKeyNotAmenity(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.336 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testFilterWithTagTourismAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.175 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testTagNotTourismAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.108 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testFilterWithoutTagTourismAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.148 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testKeyTourism(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.094 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testKeyNotTourismAndKeyNotAmenity(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testValueInformationButKeyNotAmenity(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.092 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testKeyTourismAndValueNotInformation(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.107 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testValueNotInformation(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.081 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testKeyTourismButValueNotInformation(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testValueAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+testKeyNotTourism(de.komoot.photon.query.TagFilterQueryBuilderSearchTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-painless
+Description: An easy, safe and fast scripting language for Elasticsearch
+Version: 5.5.0
+Native Controller: false
+ * Classname: org.elasticsearch.painless.PainlessPlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:376)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:140)
+	at org.elasticsearch.node.Node.<init>(Node.java:312)
+	at de.komoot.photon.elasticsearch.Server$MyNode.<init>(Server.java:55)
+	at de.komoot.photon.elasticsearch.Server.start(Server.java:112)
+	at de.komoot.photon.ESBaseTester.setUpES(ESBaseTester.java:26)
+	at de.komoot.photon.query.TagFilterQueryBuilderSearchTest.setUp(TagFilterQueryBuilderSearchTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: jar hell!
+class: META-INF.versions.9.module-info
+jar1: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+jar2: /home/cgzhu/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:282)
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192)
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:374)
+	... 36 more
+
+Running de.komoot.photon.query.ReverseRequestFactoryTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.362 sec
+Running de.komoot.photon.query.FilteredPhotonRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running de.komoot.photon.query.PhotonRequestFactoryTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running de.komoot.photon.query.TagFilterQueryBuilderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running de.komoot.photon.searcher.ElasticsearchSearcherFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running de.komoot.photon.SearchRequestHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+Running de.komoot.photon.nominatim.GlobalDocCompositionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running de.komoot.photon.nominatim.OsmKeyValueFromExtratagsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running de.komoot.photon.nominatim.NominatimConnectorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.komoot.photon.nominatim.DocCompositionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec
+Running de.komoot.photon.ReverseSearchRequestHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests in error: 
+  testKeyTourismAndKeyNotAmenity(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testFilterWithTagTourismAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testTagNotTourismAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testFilterWithoutTagTourismAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testKeyTourism(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testKeyNotTourismAndKeyNotAmenity(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testValueInformationButKeyNotAmenity(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testKeyTourismAndValueNotInformation(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testValueNotInformation(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testKeyTourismButValueNotInformation(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testValueAttraction(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+  testKeyNotTourism(de.komoot.photon.query.TagFilterQueryBuilderSearchTest): failed to load plugin - Plugin information:(..)
+
+Tests run: 58, Failures: 0, Errors: 12, Skipped: 3
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.396 s
+[INFO] Finished at: 2019-08-15T14:46:19+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project photon: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/photon/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Build failures were ignored.

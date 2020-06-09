@@ -1,0 +1,45 @@
+[VERSION]: 5.0.0-M4
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< cn.nukkit:nukkit >--------------------------
+[INFO] Building Nukkit 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from aikar: http://ci.emc.gs/nexus/content/groups/aikar/com/tinfoiled/mcpe/leveldb/leveldb/0.8/leveldb-0.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/tinfoiled/mcpe/leveldb/leveldb/0.8/leveldb-0.8.pom
+[WARNING] The POM for com.tinfoiled.mcpe.leveldb:leveldb:jar:0.8 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+Downloading from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/json-smart/maven-metadata.xml
+Progress (1): 908 B
+Progress (2): 908 B | 849 B
+                           
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (849 B at 1.2 kB/s)
+Downloaded from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/json-smart/maven-metadata.xml (908 B at 1.2 kB/s)
+Downloading from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB
+                    
+Downloaded from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.2 kB/s)
+Downloading from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
+Progress (1): 598 B
+                   
+Downloaded from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml (598 B at 1.2 kB/s)
+Downloading from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB
+                    
+Downloaded from aikar: http://ci.emc.gs/nexus/content/groups/aikar/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.4 kB/s)
+[WARNING] The artifact com.github.dblock:oshi-core:jar:3.4.0 has been relocated to com.github.oshi:oshi-core:jar:3.4.0
+Downloading from aikar: http://ci.emc.gs/nexus/content/groups/aikar/com/tinfoiled/mcpe/leveldb/leveldb/0.8/leveldb-0.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/tinfoiled/mcpe/leveldb/leveldb/0.8/leveldb-0.8.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.234 s
+[INFO] Finished at: 2019-08-14T20:26:09+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project nukkit: Could not resolve dependencies for project cn.nukkit:nukkit:jar:1.0-SNAPSHOT: Could not find artifact com.tinfoiled.mcpe.leveldb:leveldb:jar:0.8 in aikar (http://ci.emc.gs/nexus/content/groups/aikar/) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Build failures were ignored.

@@ -1,0 +1,67 @@
+[VERSION]: 10.0.0-alpha0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< org.b3log:xiaov >---------------------------
+[INFO] Building XiaoV 2.2.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ xiaov ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ xiaov ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.eclipse.jetty:jetty-util:jar:9.2.7.v20150116:compile
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    com.alibaba:druid:jar:1.0.29:compile
+[INFO]    com.alibaba:fastjson:jar:1.2.7:compile
+[INFO]    commons-lang:commons-lang:jar:2.6:compile
+[INFO]    org.eclipse.jetty:jetty-servlet:jar:9.2.7.v20150116:compile
+[INFO]    org.eclipse.jetty:jetty-server:jar:9.2.7.v20150116:compile
+[INFO]    org.apache.httpcomponents:httpmime:jar:4.5.1:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO]    org.b3log:latke:jar:2.4.1:compile
+[INFO]    org.eclipse.jetty:jetty-io:jar:9.2.7.v20150116:compile
+[INFO]    com.alibaba:jconsole:jar:1.8.0:system
+[INFO]    org.eclipse.jetty:jetty-xml:jar:9.2.7.v20150116:compile
+[INFO]    com.alibaba:tools:jar:1.8.0:system
+[INFO]    org.eclipse.jetty:jetty-http:jar:9.2.7.v20150116:compile
+[INFO]    org.freemarker:freemarker:jar:2.3.23:compile
+[INFO]    org.eclipse.jetty:jetty-security:jar:9.2.7.v20150116:compile
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    redis.clients:jedis:jar:2.9.0:compile
+[INFO]    commons-codec:commons-codec:jar:1.9:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.7:compile
+[INFO]    net.dongliu:requests:jar:2.1.5:compile
+[INFO]    org.eclipse.jetty:jetty-webapp:jar:9.2.7.v20150116:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+[INFO]    org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.7.7:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ xiaov ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ xiaov ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ xiaov ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/xiaov/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ xiaov ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ xiaov ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.454 s
+[INFO] Finished at: 2019-08-14T21:48:01+08:00
+[INFO] ------------------------------------------------------------------------

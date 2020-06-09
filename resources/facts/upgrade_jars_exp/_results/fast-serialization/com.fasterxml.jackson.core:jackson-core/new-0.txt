@@ -1,0 +1,213 @@
+[VERSION]: 2.10.0.pr1
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for de.ruedigermoeller:fst:bundle:2.56
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.cedarsoftware:java-util:jar -> version 1.4.0 vs 1.9.0 @ line 205, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 93, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 77, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< de.ruedigermoeller:fst >-----------------------
+[INFO] Building fst 2.56
+[INFO] -------------------------------[ bundle ]-------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0.pr1/jackson-core-2.10.0.pr1.pom
+Progress (1): 2.2/4.1 kB
+Progress (1): 4.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0.pr1/jackson-core-2.10.0.pr1.pom (4.1 kB at 3.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.10.0.pr1/jackson-base-2.10.0.pr1.pom
+Progress (1): 2.2/6.6 kB
+Progress (1): 5.0/6.6 kB
+Progress (1): 6.6 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.10.0.pr1/jackson-base-2.10.0.pr1.pom (6.6 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.0.pr1/jackson-bom-2.10.0.pr1.pom
+Progress (1): 2.2/12 kB
+Progress (1): 5.0/12 kB
+Progress (1): 7.8/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.0.pr1/jackson-bom-2.10.0.pr1.pom (12 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10.pr1/jackson-parent-2.10.pr1.pom
+Progress (1): 2.2/8.3 kB
+Progress (1): 5.0/8.3 kB
+Progress (1): 7.8/8.3 kB
+Progress (1): 8.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10.pr1/jackson-parent-2.10.pr1.pom (8.3 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Progress (1): 2.2/23 kB
+Progress (1): 5.0/23 kB
+Progress (1): 7.8/23 kB
+Progress (1): 11/23 kB 
+Progress (1): 13/23 kB
+Progress (1): 16/23 kB
+Progress (1): 19/23 kB
+Progress (1): 21/23 kB
+Progress (1): 23 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom (23 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0.pr1/jackson-core-2.10.0.pr1.jar
+Progress (1): 2.2/345 kB
+Progress (1): 5.0/345 kB
+Progress (1): 7.7/345 kB
+Progress (1): 10/345 kB 
+Progress (1): 13/345 kB
+Progress (1): 16/345 kB
+Progress (1): 19/345 kB
+Progress (1): 21/345 kB
+Progress (1): 24/345 kB
+Progress (1): 27/345 kB
+Progress (1): 30/345 kB
+Progress (1): 32/345 kB
+Progress (1): 36/345 kB
+Progress (1): 40/345 kB
+Progress (1): 45/345 kB
+Progress (1): 49/345 kB
+Progress (1): 53/345 kB
+Progress (1): 57/345 kB
+Progress (1): 61/345 kB
+Progress (1): 65/345 kB
+Progress (1): 69/345 kB
+Progress (1): 73/345 kB
+Progress (1): 77/345 kB
+Progress (1): 81/345 kB
+Progress (1): 85/345 kB
+Progress (1): 90/345 kB
+Progress (1): 94/345 kB
+Progress (1): 98/345 kB
+Progress (1): 102/345 kB
+Progress (1): 106/345 kB
+Progress (1): 110/345 kB
+Progress (1): 114/345 kB
+Progress (1): 118/345 kB
+Progress (1): 122/345 kB
+Progress (1): 126/345 kB
+Progress (1): 131/345 kB
+Progress (1): 135/345 kB
+Progress (1): 139/345 kB
+Progress (1): 143/345 kB
+Progress (1): 147/345 kB
+Progress (1): 151/345 kB
+Progress (1): 155/345 kB
+Progress (1): 159/345 kB
+Progress (1): 163/345 kB
+Progress (1): 167/345 kB
+Progress (1): 171/345 kB
+Progress (1): 176/345 kB
+Progress (1): 180/345 kB
+Progress (1): 184/345 kB
+Progress (1): 188/345 kB
+Progress (1): 192/345 kB
+Progress (1): 196/345 kB
+Progress (1): 200/345 kB
+Progress (1): 204/345 kB
+Progress (1): 208/345 kB
+Progress (1): 212/345 kB
+Progress (1): 217/345 kB
+Progress (1): 221/345 kB
+Progress (1): 225/345 kB
+Progress (1): 229/345 kB
+Progress (1): 233/345 kB
+Progress (1): 237/345 kB
+Progress (1): 241/345 kB
+Progress (1): 245/345 kB
+Progress (1): 249/345 kB
+Progress (1): 253/345 kB
+Progress (1): 258/345 kB
+Progress (1): 262/345 kB
+Progress (1): 266/345 kB
+Progress (1): 270/345 kB
+Progress (1): 274/345 kB
+Progress (1): 278/345 kB
+Progress (1): 282/345 kB
+Progress (1): 286/345 kB
+Progress (1): 290/345 kB
+Progress (1): 294/345 kB
+Progress (1): 298/345 kB
+Progress (1): 303/345 kB
+Progress (1): 307/345 kB
+Progress (1): 311/345 kB
+Progress (1): 315/345 kB
+Progress (1): 319/345 kB
+Progress (1): 323/345 kB
+Progress (1): 327/345 kB
+Progress (1): 331/345 kB
+Progress (1): 335/345 kB
+Progress (1): 339/345 kB
+Progress (1): 344/345 kB
+Progress (1): 345 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0.pr1/jackson-core-2.10.0.pr1.jar (345 kB at 360 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fst ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ fst ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO]    org.apache.commons:commons-math3:jar:3.2:test
+[INFO]    javax.json:javax.json-api:jar:1.0:test
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.4:test
+[INFO]    commons-logging:commons-logging:jar:1.1.1:test
+[INFO]    com.cedarsoftware:java-util:jar:1.9.0:test
+[INFO]    junit:junit:jar:4.8.1:test
+[INFO]    org.glassfish:javax.json:jar:1.0.4:test
+[INFO]    com.cedarsoftware:json-io:jar:2.5.1:test
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.10.0.pr1:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.51:test
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:4.6:test
+[INFO]    org.openjdk.jmh:jmh-core:jar:1.8:test
+[INFO]    org.objenesis:objenesis:jar:2.5.1:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ fst ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ fst ---
+[INFO] Compiling 141 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[18,15] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[19,17] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[23,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[22,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[18,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[19,18] ReflectionFactory is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MallocBytez.java:[34,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[34,12] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[59,23] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[69,63] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[81,11] Cleaner is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/malloc/MMFBytez.java:[125,24] FileChannelImpl is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/offheap/bytez/onheap/HeapBytez.java:[37,11] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[41,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[208,18] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[212,22] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/util/FSTUtil.java:[214,20] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/main/java/org/nustaq/serialization/FSTDefaultClassInstantiator.java:[107,16] ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ fst ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/fast-serialization/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ fst ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M3:test (default-test) @ fst ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.416 s
+[INFO] Finished at: 2019-08-20T17:20:00+08:00
+[INFO] ------------------------------------------------------------------------

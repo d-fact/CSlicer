@@ -1,0 +1,90 @@
+[VERSION]: 2.6
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.manning:mia >---------------------------
+[INFO] Building Mahout in Action Examples 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mia ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/MiA/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ mia ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.apache.lucene:lucene-benchmark:jar:3.1.0:compile
+[INFO]    org.slf4j:slf4j-api:jar:1.6.0:compile
+[INFO]    org.uncommons.watchmaker:watchmaker-swing:jar:0.6.2:compile
+[INFO]    org.apache.mahout:mahout-math:jar:0.5:compile
+[INFO]    commons-pool:commons-pool:jar:1.4:compile
+[INFO]    org.apache.mahout:mahout-core:test-jar:tests:0.5:test
+[INFO]    commons-lang:commons-lang:jar:2.4:compile
+[INFO]    org.apache.mahout.commons:commons-cli:jar:2.0-mahout:compile
+[INFO]    xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO]    com.thoughtworks.xstream:xstream:jar:1.3.1:compile
+[INFO]    junit:junit:jar:4.4:compile
+[INFO]    commons-io:commons-io:jar:2.6:compile
+[INFO]    commons-digester:commons-digester:jar:1.7:compile
+[INFO]    net.java.dev.jets3t:jets3t:jar:0.7.1:compile
+[INFO]    com.google.collections:google-collections:jar:1.0-rc2:compile
+[INFO]    commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    log4j:log4j:jar:1.2.14:compile
+[INFO]    org.uncommons.maths:uncommons-maths:jar:1.2:compile
+[INFO]    org.apache.mahout:mahout-collections:jar:1.0:compile
+[INFO]    org.apache.mahout:mahout-core:jar:0.5:compile
+[INFO]    org.apache.lucene:lucene-analyzers:jar:3.1.0:compile
+[INFO]    org.apache.lucene:lucene-queries:jar:3.1.0:compile
+[INFO]    org.twitter4j:twitter4j-core:jar:2.2.3:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.5.11:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+[INFO]    org.apache.commons:commons-math:jar:2.1:compile
+[INFO]    org.apache.lucene:lucene-highlighter:jar:3.1.0:compile
+[INFO]    jline:jline:jar:0.9.94:compile
+[INFO]    org.apache.lucene:lucene-memory:jar:3.1.0:compile
+[INFO]    commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO]    commons-httpclient:commons-httpclient:jar:3.0.1:compile
+[INFO]    commons-codec:commons-codec:jar:1.3:compile
+[INFO]    org.apache.hadoop:hadoop-core:jar:0.20.2:compile
+[INFO]    org.apache.lucene:lucene-core:jar:3.1.0:compile
+[INFO]    commons-collections:commons-collections:jar:3.2.1:compile
+[INFO]    org.slf4j:slf4j-jcl:jar:1.6.0:compile
+[INFO]    org.twitter4j:twitter4j-stream:jar:2.2.3:compile
+[INFO]    xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO]    org.apache.thrift:libthrift:jar:0.6.1:compile
+[INFO]    org.apache.solr:solr-commons-csv:jar:3.1.0:compile
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.uncommons.watchmaker:watchmaker-framework:jar:0.6.2:compile
+[INFO]    commons-dbcp:commons-dbcp:jar:1.2.2:compile
+[INFO]    org.apache.mahout:mahout-math:test-jar:tests:0.5:test
+[INFO]    org.apache.commons:commons-compress:jar:1.1:compile
+[INFO]    org.apache.mahout:mahout-utils:jar:0.5:compile
+[INFO]    jakarta-regexp:jakarta-regexp:jar:1.4:compile
+[INFO]    com.google.guava:guava:jar:r03:compile
+[INFO]    javax.servlet:servlet-api:jar:2.5:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[INFO]    org.apache.hadoop:zookeeper:jar:3.3.1:compile
+[INFO]    org.apache.lucene:lucene-xercesImpl:jar:3.1.0:compile
+[INFO]    org.apache.mahout:mahout-examples:jar:0.5:compile
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mia ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mia ---
+[INFO] Compiling 91 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/MiA/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mia ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/MiA/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mia ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mia ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.486 s
+[INFO] Finished at: 2019-08-20T03:52:42+08:00
+[INFO] ------------------------------------------------------------------------

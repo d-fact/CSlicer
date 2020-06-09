@@ -1,0 +1,1107 @@
+OLD TEST CMD: java -cp /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/gen-tests/ebean/org.slf4j=slf4j-api/evosuite-tests:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/ebean/target/classes$(for i in $(ls /tmp/jars); do printf ':/tmp/jars/'$i;done):/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/../evosuite-eval-pipeline/lib-jars/ebean/org.slf4j=slf4j-api/slf4j-api-1.7.25.jar:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar org.junit.runner.JUnitCore io.ebean.BeanFinder_ESTestJUnit version 4.12
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/jars/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/evosuite-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+02:05:01.209 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.BeanFinder_ESTest
+02:05:01.211 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.BeanFinder_ESTest'.
+02:05:01.264 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.BeanFinder_ESTest_scaffolding
+02:05:01.264 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.BeanFinder_ESTest_scaffolding'.
+02:05:01.267 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.BeanFinder_ESTest_scaffolding
+02:05:01.267 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.BeanFinder_ESTest
+02:05:01.338 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+02:05:01.338 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+02:05:01.338 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+02:05:01.338 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+02:05:01.338 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+02:05:01.360 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.BeanFinder
+02:05:01.360 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.BeanFinder'.
+02:05:01.366 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/BeanFinder
+02:05:01.453 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/BeanFinder
+02:05:01.454 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.BeanFinder
+02:05:01.454 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.Query
+02:05:01.454 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.Query'.
+02:05:01.457 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.Query
+02:05:01.457 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.EbeanServer
+02:05:01.457 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.EbeanServer'.
+02:05:01.459 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.EbeanServer
+02:05:01.460 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.Transaction
+02:05:01.460 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.Transaction'.
+02:05:01.461 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.Transaction
+02:05:01.461 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.UpdateQuery
+02:05:01.461 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.UpdateQuery'.
+02:05:01.462 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.UpdateQuery
+.02:05:01.466 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.EbeanVersion
+02:05:01.466 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.EbeanVersion'.
+02:05:01.467 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/EbeanVersion
+02:05:01.467 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/EbeanVersion
+02:05:01.469 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.EbeanVersion
+02:05:01.470 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.Ebean
+02:05:01.470 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.Ebean'.
+02:05:01.471 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/Ebean
+02:05:01.474 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/Ebean
+02:05:01.474 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.Ebean
+02:05:01.475 [main] INFO io.ebean.EbeanVersion - ebean version: unknown
+02:05:01.476 [main] INFO io.ebean.EbeanVersion - ebean version: unknown
+02:05:01.476 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.Ebean$ServerManager
+02:05:01.476 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.Ebean$ServerManager'.
+02:05:01.476 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/Ebean$ServerManager
+02:05:01.478 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/Ebean$ServerManager
+02:05:01.479 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.Ebean$ServerManager
+02:05:01.479 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.PrimaryServer
+02:05:01.479 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.PrimaryServer'.
+02:05:01.479 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/PrimaryServer
+02:05:01.480 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/PrimaryServer
+02:05:01.480 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field globalProperties
+02:05:01.480 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field defaultServerName
+02:05:01.480 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field skip
+02:05:01.480 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.PrimaryServer
+02:05:01.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.properties.PropertiesLoader
+02:05:01.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.properties.PropertiesLoader'.
+02:05:01.481 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/properties/PropertiesLoader
+02:05:01.481 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/properties/PropertiesLoader
+02:05:01.482 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field properties
+02:05:01.482 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.config.properties, -1628851586
+02:05:01.482 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.properties.PropertiesLoader
+02:05:01.483 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.properties.Loader
+02:05:01.483 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.properties.Loader'.
+02:05:01.483 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/properties/Loader
+02:05:01.486 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/properties/Loader
+02:05:01.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.properties.Loader
+02:05:01.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.properties.Loader$Source
+02:05:01.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.properties.Loader$Source'.
+02:05:01.487 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/properties/Loader$Source
+02:05:01.488 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/properties/Loader$Source
+02:05:01.488 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.properties.Loader$Source
+02:05:01.488 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.properties.LoadContext
+02:05:01.488 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.properties.LoadContext'.
+02:05:01.488 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/properties/LoadContext
+02:05:01.492 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/properties/LoadContext
+02:05:01.492 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.properties.LoadContext
+02:05:01.492 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.Yaml
+02:05:01.492 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.Yaml'.
+02:05:01.493 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/Yaml
+02:05:01.495 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/Yaml
+02:05:01.496 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml, 820515242
+02:05:01.496 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.Yaml
+02:05:01.496 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.reader.UnicodeReader
+02:05:01.496 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.reader.UnicodeReader'.
+02:05:01.496 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/reader/UnicodeReader
+02:05:01.503 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/reader/UnicodeReader
+02:05:01.503 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.reader, -1287743097
+02:05:01.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.reader.UnicodeReader
+02:05:01.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.parser.Parser
+02:05:01.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.parser.Parser'.
+02:05:01.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.parser, -1348174621
+02:05:01.504 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.parser.Parser
+02:05:01.505 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.BaseConstructor
+02:05:01.505 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.BaseConstructor'.
+02:05:01.506 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/BaseConstructor
+02:05:01.509 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/BaseConstructor
+02:05:01.509 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.constructor, 781676982
+02:05:01.510 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.BaseConstructor
+02:05:01.510 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.Constructor
+02:05:01.510 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.Constructor'.
+02:05:01.510 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/Constructor
+02:05:01.512 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/Constructor
+02:05:01.513 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor
+02:05:01.513 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor'.
+02:05:01.513 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor
+02:05:01.517 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor
+02:05:01.517 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor
+02:05:01.517 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.Constructor
+02:05:01.517 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.error.YAMLException
+02:05:01.517 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.error.YAMLException'.
+02:05:01.518 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/error/YAMLException
+02:05:01.518 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/error/YAMLException
+02:05:01.518 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.error, -1577162556
+02:05:01.518 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.error.YAMLException
+02:05:01.518 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.emitter.Emitable
+02:05:01.519 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.emitter.Emitable'.
+02:05:01.519 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.emitter, 318935850
+02:05:01.519 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.emitter.Emitable
+02:05:01.519 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.Node
+02:05:01.519 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.Node'.
+02:05:01.520 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/Node
+02:05:01.521 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/nodes/Node
+02:05:01.521 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.nodes, -1568954003
+02:05:01.521 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.Node
+02:05:01.521 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.Representer
+02:05:01.521 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.Representer'.
+02:05:01.522 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/Representer
+02:05:01.524 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/Representer
+02:05:01.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.representer, 86120337
+02:05:01.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter
+02:05:01.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter'.
+02:05:01.524 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter
+02:05:01.526 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter
+02:05:01.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.BaseRepresenter
+02:05:01.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.BaseRepresenter'.
+02:05:01.527 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/BaseRepresenter
+02:05:01.528 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/BaseRepresenter
+02:05:01.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.BaseRepresenter
+02:05:01.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter
+02:05:01.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.Representer
+02:05:01.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.DumperOptions
+02:05:01.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.DumperOptions'.
+02:05:01.529 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/DumperOptions
+02:05:01.530 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/DumperOptions
+02:05:01.530 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.DumperOptions
+02:05:01.530 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.Tag
+02:05:01.530 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.Tag'.
+02:05:01.531 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/Tag
+02:05:01.533 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/nodes/Tag
+02:05:01.533 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.Tag
+02:05:01.533 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.DumperOptions$FlowStyle
+02:05:01.533 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.DumperOptions$FlowStyle'.
+02:05:01.534 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/DumperOptions$FlowStyle
+02:05:01.534 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/DumperOptions$FlowStyle
+02:05:01.534 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.DumperOptions$FlowStyle
+02:05:01.534 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.reader.StreamReader
+02:05:01.534 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.reader.StreamReader'.
+02:05:01.535 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/reader/StreamReader
+02:05:01.536 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/reader/StreamReader
+02:05:01.536 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field BUFFER_SIZE
+02:05:01.536 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.reader.StreamReader
+02:05:01.536 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.introspector.BeanAccess
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.introspector.BeanAccess'.
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/introspector/BeanAccess
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/introspector/BeanAccess
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.introspector, -2011377260
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.introspector.BeanAccess
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.TypeDescription
+02:05:01.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.TypeDescription'.
+02:05:01.538 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/TypeDescription
+02:05:01.539 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/TypeDescription
+02:05:01.540 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.TypeDescription
+02:05:01.540 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.properties.YamlLoader
+02:05:01.540 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.properties.YamlLoader'.
+02:05:01.540 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/properties/YamlLoader
+02:05:01.541 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/properties/YamlLoader
+02:05:01.541 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.properties.YamlLoader
+02:05:01.541 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.CollectionNode
+02:05:01.541 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.CollectionNode'.
+02:05:01.542 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/CollectionNode
+02:05:01.542 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/nodes/CollectionNode
+02:05:01.542 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.CollectionNode
+02:05:01.542 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.SequenceNode
+02:05:01.542 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.SequenceNode'.
+02:05:01.543 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/SequenceNode
+02:05:01.544 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/nodes/SequenceNode
+02:05:01.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.SequenceNode
+02:05:01.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.MappingNode
+02:05:01.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.MappingNode'.
+02:05:01.544 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/MappingNode
+02:05:01.545 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/nodes/MappingNode
+02:05:01.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.MappingNode
+02:05:01.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.ConstructorException
+02:05:01.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.ConstructorException'.
+02:05:01.546 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/ConstructorException
+02:05:01.546 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/ConstructorException
+02:05:01.546 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.error.MarkedYAMLException
+02:05:01.546 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.error.MarkedYAMLException'.
+02:05:01.546 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/error/MarkedYAMLException
+02:05:01.547 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/error/MarkedYAMLException
+02:05:01.547 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.error.MarkedYAMLException
+02:05:01.547 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.ConstructorException
+02:05:01.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.Construct
+02:05:01.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.Construct'.
+02:05:01.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.Construct
+02:05:01.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.ScalarNode
+02:05:01.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.ScalarNode'.
+02:05:01.548 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/ScalarNode
+02:05:01.549 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/nodes/ScalarNode
+02:05:01.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.ScalarNode
+02:05:01.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.introspector.PropertyUtils
+02:05:01.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.introspector.PropertyUtils'.
+02:05:01.550 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/introspector/PropertyUtils
+02:05:01.553 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/introspector/PropertyUtils
+02:05:01.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.introspector.PropertyUtils
+02:05:01.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.composer.Composer
+02:05:01.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.composer.Composer'.
+02:05:01.554 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/composer/Composer
+02:05:01.556 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/composer/Composer
+02:05:01.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.composer, -302849820
+02:05:01.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.composer.Composer
+02:05:01.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.AbstractConstruct
+02:05:01.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.AbstractConstruct'.
+02:05:01.557 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/AbstractConstruct
+02:05:01.558 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/AbstractConstruct
+02:05:01.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.AbstractConstruct
+02:05:01.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructUndefined
+02:05:01.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructUndefined'.
+02:05:01.558 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructUndefined
+02:05:01.558 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructUndefined
+02:05:01.559 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructUndefined
+02:05:01.561 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.introspector.Property
+02:05:01.561 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.introspector.Property'.
+02:05:01.561 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/introspector/Property
+02:05:01.562 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/introspector/Property
+02:05:01.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.introspector.Property
+02:05:01.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.introspector.PropertySubstitute
+02:05:01.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.introspector.PropertySubstitute'.
+02:05:01.562 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/introspector/PropertySubstitute
+02:05:01.563 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/introspector/PropertySubstitute
+02:05:01.564 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.introspector.PropertySubstitute
+02:05:01.564 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.NodeId
+02:05:01.564 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.NodeId'.
+02:05:01.564 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/NodeId
+02:05:01.565 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/nodes/NodeId
+02:05:01.565 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.NodeId
+02:05:01.565 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper$2
+02:05:01.565 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper$2'.
+02:05:01.566 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper$2
+02:05:01.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.external.com.google.gdata.util.common.base, 1413296590
+02:05:01.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper$2
+02:05:01.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper
+02:05:01.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper'.
+02:05:01.567 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper
+02:05:01.568 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper
+02:05:01.568 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.Escaper
+02:05:01.568 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.external.com.google.gdata.util.common.base.Escaper'.
+02:05:01.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.Escaper
+02:05:01.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper
+02:05:01.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.PercentEscaper
+02:05:01.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.external.com.google.gdata.util.common.base.PercentEscaper'.
+02:05:01.570 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/external/com/google/gdata/util/common/base/PercentEscaper
+02:05:01.571 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/external/com/google/gdata/util/common/base/PercentEscaper
+02:05:01.571 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.external.com.google.gdata.util.common.base.PercentEscaper
+02:05:01.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.util.UriEncoder
+02:05:01.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.util.UriEncoder'.
+02:05:01.572 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/util/UriEncoder
+02:05:01.572 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/util/UriEncoder
+02:05:01.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.util, 1196528070
+02:05:01.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.util.UriEncoder
+02:05:01.574 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlNull
+02:05:01.574 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlNull'.
+02:05:01.575 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlNull
+02:05:01.575 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlNull
+02:05:01.575 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlNull
+02:05:01.575 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap
+02:05:01.575 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap'.
+02:05:01.575 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlMap
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlMap
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq'.
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSeq
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSeq
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq
+02:05:01.576 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlStr
+02:05:01.577 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlStr'.
+02:05:01.577 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlStr
+02:05:01.577 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlStr
+02:05:01.577 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlStr
+02:05:01.577 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSet
+02:05:01.577 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSet'.
+02:05:01.578 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSet
+02:05:01.578 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSet
+02:05:01.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSet
+02:05:01.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlPairs
+02:05:01.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlPairs'.
+02:05:01.578 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlPairs
+02:05:01.579 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlPairs
+02:05:01.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlPairs
+02:05:01.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlOmap
+02:05:01.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlOmap'.
+02:05:01.579 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlOmap
+02:05:01.579 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlOmap
+02:05:01.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlOmap
+02:05:01.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlTimestamp
+02:05:01.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlTimestamp'.
+02:05:01.580 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlTimestamp
+02:05:01.580 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlTimestamp
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlTimestamp
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlBinary
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlBinary'.
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlBinary
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlBinary
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlBinary
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlFloat
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlFloat'.
+02:05:01.581 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlFloat
+02:05:01.582 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlFloat
+02:05:01.582 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlFloat
+02:05:01.582 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlInt
+02:05:01.582 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlInt'.
+02:05:01.582 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlInt
+02:05:01.583 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlInt
+02:05:01.583 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlInt
+02:05:01.583 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlBool
+02:05:01.583 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlBool'.
+02:05:01.583 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlBool
+02:05:01.584 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlBool
+02:05:01.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlBool
+02:05:01.586 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject
+02:05:01.586 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject'.
+02:05:01.587 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/Constructor$ConstructYamlObject
+02:05:01.587 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/Constructor$ConstructYamlObject
+02:05:01.587 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject
+02:05:01.587 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.Constructor$ConstructSequence
+02:05:01.587 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.Constructor$ConstructSequence'.
+02:05:01.588 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/Constructor$ConstructSequence
+02:05:01.588 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/Constructor$ConstructSequence
+02:05:01.588 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.Constructor$ConstructSequence
+02:05:01.589 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.Constructor$ConstructScalar
+02:05:01.589 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.Constructor$ConstructScalar'.
+02:05:01.589 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/Constructor$ConstructScalar
+02:05:01.591 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/Constructor$ConstructScalar
+02:05:01.592 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.Constructor$ConstructScalar
+02:05:01.592 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.constructor.Constructor$ConstructMapping
+02:05:01.592 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.constructor.Constructor$ConstructMapping'.
+02:05:01.593 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/constructor/Constructor$ConstructMapping
+02:05:01.594 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/constructor/Constructor$ConstructMapping
+02:05:01.594 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.constructor.Constructor$ConstructMapping
+02:05:01.595 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.introspector.MissingProperty
+02:05:01.595 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.introspector.MissingProperty'.
+02:05:01.595 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/introspector/MissingProperty
+02:05:01.596 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/introspector/MissingProperty
+02:05:01.596 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.introspector.MissingProperty
+02:05:01.601 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.util.PlatformFeatureDetector
+02:05:01.601 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.util.PlatformFeatureDetector'.
+02:05:01.602 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/util/PlatformFeatureDetector
+02:05:01.602 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/util/PlatformFeatureDetector
+02:05:01.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.util.PlatformFeatureDetector
+02:05:01.603 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.DumperOptions$ScalarStyle
+02:05:01.603 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.DumperOptions$ScalarStyle'.
+02:05:01.603 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/DumperOptions$ScalarStyle
+02:05:01.603 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/DumperOptions$ScalarStyle
+02:05:01.604 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.DumperOptions$ScalarStyle
+02:05:01.604 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.Represent
+02:05:01.604 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.Represent'.
+02:05:01.604 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.Represent
+02:05:01.605 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.nodes.NodeTuple
+02:05:01.605 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.nodes.NodeTuple'.
+02:05:01.605 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/nodes/NodeTuple
+02:05:01.606 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/nodes/NodeTuple
+02:05:01.606 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.nodes.NodeTuple
+02:05:01.606 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.DumperOptions$Version
+02:05:01.606 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.DumperOptions$Version'.
+02:05:01.607 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/DumperOptions$Version
+02:05:01.607 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/DumperOptions$Version
+02:05:01.607 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.DumperOptions$Version
+02:05:01.607 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.DumperOptions$LineBreak
+02:05:01.607 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.DumperOptions$LineBreak'.
+02:05:01.608 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/DumperOptions$LineBreak
+02:05:01.608 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/DumperOptions$LineBreak
+02:05:01.608 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.DumperOptions$LineBreak
+02:05:01.608 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.BaseRepresenter$1
+02:05:01.608 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.BaseRepresenter$1'.
+02:05:01.609 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/BaseRepresenter$1
+02:05:01.609 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.BaseRepresenter$1
+02:05:01.609 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentNull
+02:05:01.609 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentNull'.
+02:05:01.609 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNull
+02:05:01.609 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNull
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentNull
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentUuid
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentUuid'.
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentUuid
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentUuid
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentUuid
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentByteArray
+02:05:01.610 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentByteArray'.
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentByteArray
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentByteArray
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentByteArray
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentEnum
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentEnum'.
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentEnum
+02:05:01.611 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentEnum
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentEnum
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentDate
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentDate'.
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentDate
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentDate
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentDate
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentSet
+02:05:01.612 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentSet'.
+02:05:01.613 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentSet
+02:05:01.613 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentSet
+02:05:01.613 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentSet
+02:05:01.613 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentMap
+02:05:01.613 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentMap'.
+02:05:01.614 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentMap
+02:05:01.614 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentMap
+02:05:01.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentMap
+02:05:01.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentPrimitiveArray
+02:05:01.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentPrimitiveArray'.
+02:05:01.614 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentPrimitiveArray
+02:05:01.615 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentPrimitiveArray
+02:05:01.615 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentPrimitiveArray
+02:05:01.615 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentArray
+02:05:01.615 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentArray'.
+02:05:01.615 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentArray
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentArray
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentArray
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$IteratorWrapper
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$IteratorWrapper'.
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$IteratorWrapper
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$IteratorWrapper
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$IteratorWrapper
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentIterator
+02:05:01.616 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentIterator'.
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentIterator
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentIterator
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentIterator
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList'.
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentList
+02:05:01.617 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentList
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentNumber
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentNumber'.
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNumber
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNumber
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentNumber
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentBoolean
+02:05:01.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentBoolean'.
+02:05:01.619 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentBoolean
+02:05:01.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentBoolean
+02:05:01.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentBoolean
+02:05:01.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentString
+02:05:01.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.SafeRepresenter$RepresentString'.
+02:05:01.619 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentString
+02:05:01.620 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/SafeRepresenter$RepresentString
+02:05:01.620 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.SafeRepresenter$RepresentString
+02:05:01.623 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.representer.Representer$RepresentJavaBean
+02:05:01.623 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.representer.Representer$RepresentJavaBean'.
+02:05:01.623 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/representer/Representer$RepresentJavaBean
+02:05:01.623 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/representer/Representer$RepresentJavaBean
+02:05:01.623 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.representer.Representer$RepresentJavaBean
+02:05:01.624 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.serializer.AnchorGenerator
+02:05:01.624 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.serializer.AnchorGenerator'.
+02:05:01.624 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.serializer, 863941718
+02:05:01.624 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.serializer.AnchorGenerator
+02:05:01.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.serializer.NumberAnchorGenerator
+02:05:01.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.serializer.NumberAnchorGenerator'.
+02:05:01.625 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/serializer/NumberAnchorGenerator
+02:05:01.625 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/serializer/NumberAnchorGenerator
+02:05:01.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.serializer.NumberAnchorGenerator
+02:05:01.626 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.LoaderOptions
+02:05:01.626 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.LoaderOptions'.
+02:05:01.626 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/LoaderOptions
+02:05:01.626 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/LoaderOptions
+02:05:01.626 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.LoaderOptions
+02:05:01.627 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.resolver.Resolver
+02:05:01.627 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.resolver.Resolver'.
+02:05:01.627 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/resolver/Resolver
+02:05:01.628 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/yaml/snakeyaml/resolver/Resolver
+02:05:01.628 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.yaml.snakeyaml.resolver, -44835894
+02:05:01.628 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.resolver.Resolver
+02:05:01.629 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.yaml.snakeyaml.resolver.ResolverTuple
+02:05:01.629 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.yaml.snakeyaml.resolver.ResolverTuple'.
+02:05:01.629 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/yaml/snakeyaml/resolver/ResolverTuple
+02:05:01.629 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/yaml/snakeyaml/resolver/ResolverTuple
+02:05:01.629 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.yaml.snakeyaml.resolver.ResolverTuple
+02:05:01.630 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.EbeanServerFactory
+02:05:01.630 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.EbeanServerFactory'.
+02:05:01.630 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/EbeanServerFactory
+02:05:01.631 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/EbeanServerFactory
+02:05:01.631 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.EbeanServerFactory
+02:05:01.631 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.ContainerConfig
+02:05:01.631 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.ContainerConfig'.
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/ContainerConfig
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/ContainerConfig
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.config, 278788483
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.ContainerConfig
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.service.SpiContainer
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.service.SpiContainer'.
+02:05:01.632 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.service, 1085544596
+02:05:01.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.service.SpiContainer
+02:05:01.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.ServerConfig
+02:05:01.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.ServerConfig'.
+02:05:01.633 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/ServerConfig
+02:05:01.636 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/ServerConfig
+02:05:01.637 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.ServerConfig
+02:05:01.638 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.TransactionCallback
+02:05:01.638 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.TransactionCallback'.
+02:05:01.639 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.TransactionCallback
+02:05:01.639 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.SqlUpdate
+02:05:01.639 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.SqlUpdate'.
+02:05:01.639 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.SqlUpdate
+02:05:01.639 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.CallableSql
+02:05:01.639 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.CallableSql'.
+02:05:01.640 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.CallableSql
+02:05:01.640 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.TxScope
+02:05:01.640 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.TxScope'.
+02:05:01.640 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/TxScope
+02:05:01.641 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/TxScope
+02:05:01.641 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.TxScope
+02:05:01.641 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.MergeOptions
+02:05:01.641 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.MergeOptions'.
+02:05:01.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.MergeOptions
+02:05:01.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.Filter
+02:05:01.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.Filter'.
+02:05:01.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.Filter
+02:05:01.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.ExpressionFactory
+02:05:01.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.ExpressionFactory'.
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.ExpressionFactory
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.BeanState
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.BeanState'.
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.BeanState
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.text.csv.CsvReader
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.text.csv.CsvReader'.
+02:05:01.643 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.text.csv, 1203125190
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.text.csv.CsvReader
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.Update
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.Update'.
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.Update
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.DtoQuery
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.DtoQuery'.
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.DtoQuery
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.SqlQuery
+02:05:01.644 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.SqlQuery'.
+02:05:01.645 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.SqlQuery
+02:05:01.645 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.annotation.TxIsolation
+02:05:01.645 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.annotation.TxIsolation'.
+02:05:01.645 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/annotation/TxIsolation
+02:05:01.646 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/annotation/TxIsolation
+02:05:01.646 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.annotation, -1474864912
+02:05:01.646 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.annotation.TxIsolation
+02:05:01.646 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.cache.ServerCacheManager
+02:05:01.646 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.cache.ServerCacheManager'.
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.cache, -1654002399
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.cache.ServerCacheManager
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.BackgroundExecutor
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.BackgroundExecutor'.
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.BackgroundExecutor
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.text.json.JsonContext
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.text.json.JsonContext'.
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.text.json, -1357616344
+02:05:01.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.text.json.JsonContext
+02:05:01.651 [main] INFO io.ebean.config.properties.LoadContext - loaded properties from []
+02:05:01.651 [main] DEBUG io.ebean.Ebean - defaultName:db
+02:05:01.651 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.service.SpiContainerFactory
+02:05:01.651 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.service.SpiContainerFactory'.
+02:05:01.651 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.service.SpiContainerFactory
+02:05:01.652 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.DContainerFactory
+02:05:01.652 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.DContainerFactory'.
+02:05:01.652 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/DContainerFactory
+02:05:01.652 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebeaninternal/server/DContainerFactory
+02:05:01.652 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.server, -990905049
+02:05:01.652 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.DContainerFactory
+02:05:01.653 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.DefaultContainer
+02:05:01.653 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.DefaultContainer'.
+02:05:01.653 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/DefaultContainer
+02:05:01.655 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/server/core/DefaultContainer
+02:05:01.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.server.core, -137753594
+02:05:01.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.DefaultContainer
+02:05:01.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DatabasePlatform
+02:05:01.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DatabasePlatform'.
+02:05:01.656 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/DatabasePlatform
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/dbplatform/DatabasePlatform
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.config.dbplatform, 1958493244
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DatabasePlatform
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.h2.H2Platform
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.h2.H2Platform'.
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/h2/H2Platform
+02:05:01.657 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/dbplatform/h2/H2Platform
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.config.dbplatform.h2, -1658436676
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.h2.H2Platform
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.api.SpiEbeanServer
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.api.SpiEbeanServer'.
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.api, 761599670
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.bean.BeanLoader
+02:05:01.658 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.bean.BeanLoader'.
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.bean, -746117583
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.bean.BeanLoader
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.bean.BeanCollectionLoader
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.bean.BeanCollectionLoader'.
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.bean.BeanCollectionLoader
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.api.SpiEbeanServer
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.cache.SpiCacheManager
+02:05:01.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.cache.SpiCacheManager'.
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.server.cache, 24174587
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.cache.SpiCacheManager
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.cache.ServerCachePlugin
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.cache.ServerCachePlugin'.
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.cache.ServerCachePlugin
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.api.SpiBackgroundExecutor
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.api.SpiBackgroundExecutor'.
+02:05:01.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.api.SpiBackgroundExecutor
+02:05:01.661 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.NamingConvention
+02:05:01.661 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.NamingConvention'.
+02:05:01.661 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.NamingConvention
+02:05:01.661 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.api.SpiContainerBootup
+02:05:01.661 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.api.SpiContainerBootup'.
+02:05:01.661 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.api.SpiContainerBootup
+02:05:01.662 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.docker.run.Bootup
+02:05:01.662 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.docker.run.Bootup'.
+02:05:01.662 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/docker/run/Bootup
+02:05:01.662 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/docker/run/Bootup
+02:05:01.662 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.docker.run, -1238798466
+02:05:01.662 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.docker.run.Bootup
+02:05:01.663 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.docker.container.AutoStart
+02:05:01.663 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.docker.container.AutoStart'.
+02:05:01.663 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/docker/container/AutoStart
+02:05:01.663 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/docker/container/AutoStart
+02:05:01.664 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.docker.container, 1689185924
+02:05:01.664 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.docker.container.AutoStart
+02:05:01.664 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.docker.container.ContainerFactory
+02:05:01.664 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.docker.container.ContainerFactory'.
+02:05:01.664 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/docker/container/ContainerFactory
+02:05:01.665 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/docker/container/ContainerFactory
+02:05:01.665 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.docker.container.ContainerFactory
+02:05:01.665 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.cluster.ClusterManager
+02:05:01.665 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.cluster.ClusterManager'.
+02:05:01.665 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/cluster/ClusterManager
+02:05:01.666 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/server/cluster/ClusterManager
+02:05:01.666 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.server.cluster, 2088831027
+02:05:01.666 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.cluster.ClusterManager
+02:05:01.666 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.cluster.ClusterBroadcastFactory
+02:05:01.666 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.cluster.ClusterBroadcastFactory'.
+02:05:01.666 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.cluster.ClusterBroadcastFactory
+02:05:01.667 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.JndiDataSourceLookup
+02:05:01.667 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.JndiDataSourceLookup'.
+02:05:01.667 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/JndiDataSourceLookup
+02:05:01.668 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebeaninternal/server/core/JndiDataSourceLookup
+02:05:01.668 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.JndiDataSourceLookup
+02:05:01.668 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.lib.ShutdownManager
+02:05:01.668 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.lib.ShutdownManager'.
+02:05:01.668 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/lib/ShutdownManager
+02:05:01.669 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/server/lib/ShutdownManager
+02:05:01.669 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.server.lib, -1528455874
+02:05:01.669 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.lib.ShutdownManager
+02:05:01.670 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.lib.ShutdownHook
+02:05:01.670 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.lib.ShutdownHook'.
+02:05:01.670 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/lib/ShutdownHook
+02:05:01.670 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebeaninternal/server/lib/ShutdownHook
+02:05:01.670 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.lib.ShutdownHook
+02:05:01.671 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.annotation.PersistBatch
+02:05:01.671 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.annotation.PersistBatch'.
+02:05:01.671 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/annotation/PersistBatch
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/annotation/PersistBatch
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.annotation.PersistBatch
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.ServerConfig$UuidVersion
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.ServerConfig$UuidVersion'.
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/ServerConfig$UuidVersion
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/ServerConfig$UuidVersion
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.ServerConfig$UuidVersion
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.JsonConfig$Include
+02:05:01.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.JsonConfig$Include'.
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/JsonConfig$Include
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/JsonConfig$Include
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.JsonConfig$Include
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.TenantMode
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.TenantMode'.
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/TenantMode
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/TenantMode
+02:05:01.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.TenantMode
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.DocStoreConfig
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.DocStoreConfig'.
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/DocStoreConfig
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/DocStoreConfig
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.DocStoreConfig
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.annotation.DocStoreMode
+02:05:01.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.annotation.DocStoreMode'.
+02:05:01.675 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/annotation/DocStoreMode
+02:05:01.675 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/annotation/DocStoreMode
+02:05:01.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.annotation.DocStoreMode
+02:05:01.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.AutoTuneConfig
+02:05:01.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.AutoTuneConfig'.
+02:05:01.675 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/AutoTuneConfig
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/AutoTuneConfig
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.AutoTuneConfig
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.AutoTuneMode
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.AutoTuneMode'.
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/AutoTuneMode
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/AutoTuneMode
+02:05:01.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.AutoTuneMode
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.JsonConfig$DateTime
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.JsonConfig$DateTime'.
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/JsonConfig$DateTime
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/JsonConfig$DateTime
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.JsonConfig$DateTime
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.DataSourceConfig
+02:05:01.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.DataSourceConfig'.
+02:05:01.678 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/DataSourceConfig
+02:05:01.679 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/DataSourceConfig
+02:05:01.679 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.datasource, 563562838
+02:05:01.679 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.DataSourceConfig
+02:05:01.679 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.DbMigrationConfig
+02:05:01.679 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.DbMigrationConfig'.
+02:05:01.680 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/DbMigrationConfig
+02:05:01.680 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/DbMigrationConfig
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.DbMigrationConfig
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.annotation.Platform
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.annotation.Platform'.
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/annotation/Platform
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/annotation/Platform
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.annotation.Platform
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.migration.MigrationConfig
+02:05:01.681 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.migration.MigrationConfig'.
+02:05:01.682 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/migration/MigrationConfig
+02:05:01.682 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/migration/MigrationConfig
+02:05:01.682 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebean.migration, -1126594067
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.migration.MigrationConfig
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.migration.MigrationException
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.migration.MigrationException'.
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/migration/MigrationException
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/migration/MigrationException
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.migration.MigrationException
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.ClassLoadConfig
+02:05:01.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.ClassLoadConfig'.
+02:05:01.684 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/ClassLoadConfig
+02:05:01.684 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/ClassLoadConfig
+02:05:01.684 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.ClassLoadConfig
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.ClassLoadConfig$ClassLoaderContext
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.ClassLoadConfig$ClassLoaderContext'.
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/ClassLoadConfig$ClassLoaderContext
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/ClassLoadConfig$ClassLoaderContext
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.ClassLoadConfig$ClassLoaderContext
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.UnderscoreNamingConvention
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.UnderscoreNamingConvention'.
+02:05:01.685 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/UnderscoreNamingConvention
+02:05:01.686 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/UnderscoreNamingConvention
+02:05:01.686 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.AbstractNamingConvention
+02:05:01.686 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.AbstractNamingConvention'.
+02:05:01.686 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/AbstractNamingConvention
+02:05:01.686 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/AbstractNamingConvention
+02:05:01.687 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.AbstractNamingConvention
+02:05:01.687 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.UnderscoreNamingConvention
+02:05:01.687 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.DbConstraintNaming
+02:05:01.687 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.DbConstraintNaming'.
+02:05:01.688 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/DbConstraintNaming
+02:05:01.688 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/DbConstraintNaming
+02:05:01.688 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.DbConstraintNaming
+02:05:01.688 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.DbConstraintNormalise
+02:05:01.688 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.DbConstraintNormalise'.
+02:05:01.688 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/DbConstraintNormalise
+02:05:01.689 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/DbConstraintNormalise
+02:05:01.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.DbConstraintNormalise
+02:05:01.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.PlatformConfig
+02:05:01.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.PlatformConfig'.
+02:05:01.689 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/PlatformConfig
+02:05:01.689 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/PlatformConfig
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.PlatformConfig
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.IdType
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.IdType'.
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/dbplatform/IdType
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/dbplatform/IdType
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.IdType
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.PlatformConfig$DbUuid
+02:05:01.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.PlatformConfig$DbUuid'.
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/PlatformConfig$DbUuid
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/config/PlatformConfig$DbUuid
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.PlatformConfig$DbUuid
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.PersistenceContextScope
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.PersistenceContextScope'.
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/PersistenceContextScope
+02:05:01.691 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebean/PersistenceContextScope
+02:05:01.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.PersistenceContextScope
+02:05:01.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.ProfilingConfig
+02:05:01.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.ProfilingConfig'.
+02:05:01.692 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/ProfilingConfig
+02:05:01.692 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/ProfilingConfig
+02:05:01.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.ProfilingConfig
+02:05:01.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.AutoConfigure
+02:05:01.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.AutoConfigure'.
+02:05:01.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.AutoConfigure
+02:05:01.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.PropertiesWrapper
+02:05:01.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.PropertiesWrapper'.
+02:05:01.693 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebean/config/PropertiesWrapper
+02:05:01.694 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebean/config/PropertiesWrapper
+02:05:01.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.PropertiesWrapper
+02:05:01.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.ConfigPropertiesHelper
+02:05:01.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.ConfigPropertiesHelper'.
+02:05:01.695 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/ConfigPropertiesHelper
+02:05:01.695 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/ConfigPropertiesHelper
+02:05:01.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.ConfigPropertiesHelper
+02:05:01.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.CurrentUserProvider
+02:05:01.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.CurrentUserProvider'.
+02:05:01.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.CurrentUserProvider
+02:05:01.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.EncryptKeyManager
+02:05:01.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.EncryptKeyManager'.
+02:05:01.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.EncryptKeyManager
+02:05:01.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.EncryptDeployManager
+02:05:01.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.EncryptDeployManager'.
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.EncryptDeployManager
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.Encryptor
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.Encryptor'.
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.Encryptor
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.dbplatform.DbEncrypt
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.dbplatform.DbEncrypt'.
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.dbplatform.DbEncrypt
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.CurrentTenantProvider
+02:05:01.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.CurrentTenantProvider'.
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.CurrentTenantProvider
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.TenantCatalogProvider
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.TenantCatalogProvider'.
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.TenantCatalogProvider
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebean.config.TenantSchemaProvider
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebean.config.TenantSchemaProvider'.
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebean.config.TenantSchemaProvider
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.bootup.BootupClassPathSearch
+02:05:01.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.bootup.BootupClassPathSearch'.
+02:05:01.699 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/bootup/BootupClassPathSearch
+02:05:01.699 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/server/core/bootup/BootupClassPathSearch
+02:05:01.699 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.server.core.bootup, -1119781899
+02:05:01.699 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.bootup.BootupClassPathSearch
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.ClassFilter
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.ClassFilter'.
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.classpath.scanner, 1025944700
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.ClassFilter
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.bootup.ManifestReader
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.bootup.ManifestReader'.
+02:05:01.700 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/bootup/ManifestReader
+02:05:01.701 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/server/core/bootup/ManifestReader
+02:05:01.701 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.bootup.ManifestReader
+02:05:01.702 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.bootup.DistillPackages
+02:05:01.702 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.bootup.DistillPackages'.
+02:05:01.702 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/bootup/DistillPackages
+02:05:01.702 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebeaninternal/server/core/bootup/DistillPackages
+02:05:01.702 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.bootup.DistillPackages
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.ClassPathScanners
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.ClassPathScanners'.
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/ClassPathScanners
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class io/ebeaninternal/server/core/ClassPathScanners
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.ClassPathScanners
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.ClassPathScannerFactory
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.ClassPathScannerFactory'.
+02:05:01.703 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.ClassPathScannerFactory
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.core.ScannerFactory
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.core.ScannerFactory'.
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/core/ScannerFactory
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/core/ScannerFactory
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.classpath.scanner.core, 1651812817
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.core.ScannerFactory
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.ClassPathScanner
+02:05:01.704 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.ClassPathScanner'.
+02:05:01.705 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.ClassPathScanner
+02:05:01.705 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.core.Scanner
+02:05:01.705 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.core.Scanner'.
+02:05:01.705 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/core/Scanner
+02:05:01.705 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/core/Scanner
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.core.Scanner
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.ResourceAndClassScanner
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.ResourceAndClassScanner'.
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.classpath.scanner.internal, -1619437585
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.ResourceAndClassScanner
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.scanner.filesystem.FileSystemScanner
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.scanner.filesystem.FileSystemScanner'.
+02:05:01.706 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/internal/scanner/filesystem/FileSystemScanner
+02:05:01.707 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/classpath/scanner/internal/scanner/filesystem/FileSystemScanner
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.classpath.scanner.internal.scanner.filesystem, 330527994
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.scanner.filesystem.FileSystemScanner
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.core.ClassPathScanException
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.core.ClassPathScanException'.
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/core/ClassPathScanException
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/core/ClassPathScanException
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.core.ClassPathScanException
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.EnvironmentDetection
+02:05:01.708 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.EnvironmentDetection'.
+02:05:01.709 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/internal/EnvironmentDetection
+02:05:01.709 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/classpath/scanner/internal/EnvironmentDetection
+02:05:01.709 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.EnvironmentDetection
+02:05:01.709 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner
+02:05:01.709 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner'.
+02:05:01.710 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/internal/scanner/classpath/ClassPathScanner
+02:05:01.711 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/classpath/scanner/internal/scanner/classpath/ClassPathScanner
+02:05:01.711 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.classpath.scanner.internal.scanner.classpath, -1748602514
+02:05:01.711 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner
+02:05:01.711 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.scanner.classpath.UrlResolver
+02:05:01.711 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.scanner.classpath.UrlResolver'.
+02:05:01.712 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.scanner.classpath.UrlResolver
+02:05:01.712 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathLocationScanner
+02:05:01.712 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathLocationScanner'.
+02:05:01.712 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathLocationScanner
+02:05:01.712 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.server.core.bootup.BootupClasses
+02:05:01.712 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.server.core.bootup.BootupClasses'.
+02:05:01.713 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/server/core/bootup/BootupClasses
+02:05:01.714 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/server/core/bootup/BootupClasses
+02:05:01.715 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.server.core.bootup.BootupClasses
+02:05:01.715 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.core.Location
+02:05:01.715 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.core.Location'.
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/core/Location
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/core/Location
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field CLASSPATH_PREFIX
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field FILESYSTEM_PREFIX
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.core.Location
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.FilterResource
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.FilterResource'.
+02:05:01.716 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/FilterResource
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/FilterResource
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.FilterResource
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.ResourceFilter
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.ResourceFilter'.
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.ResourceFilter
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.FilterResource$BySuffix
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.FilterResource$BySuffix'.
+02:05:01.717 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/FilterResource$BySuffix
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/FilterResource$BySuffix
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.FilterResource$BySuffix
+02:05:01.718 [main] DEBUG org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner - determining location urls for classpath: using ClassLoader org.evosuite.runtime.instrumentation.EvoClassLoader@5c8da962 ...
+02:05:01.718 [main] DEBUG org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner - scanning URL: file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/gen-tests/ebean/org.slf4j%3dslf4j-api/evosuite-tests/
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.jboss.virtual.VFS
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.jboss.virtual.VFS'.
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/jboss/virtual/VFS.class' should be in target project, but could not be found!
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.scanner.classpath.DefaultUrlResolver
+02:05:01.718 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.scanner.classpath.DefaultUrlResolver'.
+02:05:01.719 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/internal/scanner/classpath/DefaultUrlResolver
+02:05:01.719 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/internal/scanner/classpath/DefaultUrlResolver
+02:05:01.719 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.scanner.classpath.DefaultUrlResolver
+02:05:01.719 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.scanner.classpath.FileSystemClassPathLocationScanner
+02:05:01.719 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.scanner.classpath.FileSystemClassPathLocationScanner'.
+02:05:01.719 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/internal/scanner/classpath/FileSystemClassPathLocationScanner
+02:05:01.720 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/classpath/scanner/internal/scanner/classpath/FileSystemClassPathLocationScanner
+02:05:01.720 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.scanner.classpath.FileSystemClassPathLocationScanner
+02:05:01.720 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.classpath.scanner.internal.UrlUtils
+02:05:01.720 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.classpath.scanner.internal.UrlUtils'.
+02:05:01.721 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/classpath/scanner/internal/UrlUtils
+02:05:01.722 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/classpath/scanner/internal/UrlUtils
+02:05:01.722 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.classpath.scanner.internal.UrlUtils
+02:05:01.722 [main] DEBUG org.avaje.classpath.scanner.internal.scanner.classpath.FileSystemClassPathLocationScanner - Skipping path as it is not a directory: /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/gen-tests/ebean/org.slf4j=slf4j-api/evosuite-tests
+02:05:01.722 [main] DEBUG org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner - scanning URL: file:/home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/ebean/target/classes/
+02:05:01.722 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.jboss.virtual.VFS
+02:05:01.722 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.jboss.virtual.VFS'.
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'org/jboss/virtual/VFS.class' should be in target project, but could not be found!
+02:05:01.723 [main] DEBUG org.avaje.classpath.scanner.internal.scanner.classpath.FileSystemClassPathLocationScanner - Skipping path as it is not a directory: /home/cgzhu/projects/gitslice/resources/facts/evosuite-eval-pipeline/_downloads/ebean/target/classes
+02:05:01.723 [main] DEBUG org.avaje.classpath.scanner.internal.scanner.classpath.ClassPathScanner - scanning for classes at classpath: found 0 resources to check
+02:05:01.723 [main] DEBUG io.ebeaninternal.server.core.bootup.BootupClassPathSearch - Classpath search entities[0] searchTime[0] in packages[[]]
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: io.ebeaninternal.dbmigration.DbOffline
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'io.ebeaninternal.dbmigration.DbOffline'.
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class io/ebeaninternal/dbmigration/DbOffline
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class io/ebeaninternal/dbmigration/DbOffline
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package io.ebeaninternal.dbmigration, -1570466388
+02:05:01.723 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: io.ebeaninternal.dbmigration.DbOffline
+02:05:01.724 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.DataSourceFactory
+02:05:01.724 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.DataSourceFactory'.
+02:05:01.724 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.DataSourceFactory
+02:05:01.724 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.core.Factory
+02:05:01.724 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.core.Factory'.
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/core/Factory
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/core/Factory
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.datasource.core, 1812333879
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.core.Factory
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.DataSourcePool
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.DataSourcePool'.
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.DataSourcePool
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.DataSourceAlertFactory
+02:05:01.725 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.DataSourceAlertFactory'.
+02:05:01.726 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.DataSourceAlertFactory
+02:05:01.726 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.ConnectionPool
+02:05:01.726 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.ConnectionPool'.
+02:05:01.727 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/ConnectionPool
+02:05:01.729 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/datasource/pool/ConnectionPool
+02:05:01.729 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.datasource.pool, 1812721076
+02:05:01.729 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.ConnectionPool
+02:05:01.730 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.ConnectionPool$HeartBeatRunnable
+02:05:01.730 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.ConnectionPool$HeartBeatRunnable'.
+02:05:01.730 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/ConnectionPool$HeartBeatRunnable
+02:05:01.730 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/pool/ConnectionPool$HeartBeatRunnable
+02:05:01.730 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.ConnectionPool$HeartBeatRunnable
+02:05:01.731 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.PooledConnectionQueue
+02:05:01.731 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.PooledConnectionQueue'.
+02:05:01.731 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/PooledConnectionQueue
+02:05:01.733 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/datasource/pool/PooledConnectionQueue
+02:05:01.733 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.PooledConnectionQueue
+02:05:01.733 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.PoolStatistics
+02:05:01.733 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.PoolStatistics'.
+02:05:01.734 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.PoolStatistics
+02:05:01.734 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.PoolStatus
+02:05:01.734 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.PoolStatus'.
+02:05:01.734 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.PoolStatus
+02:05:01.735 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.PooledConnectionStatistics
+02:05:01.735 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.PooledConnectionStatistics'.
+02:05:01.735 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/PooledConnectionStatistics
+02:05:01.735 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/pool/PooledConnectionStatistics
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.PooledConnectionStatistics
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.PooledConnectionStatistics$LoadValues
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.PooledConnectionStatistics$LoadValues'.
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/PooledConnectionStatistics$LoadValues
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/pool/PooledConnectionStatistics$LoadValues
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.PooledConnectionStatistics$LoadValues
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.BusyConnectionBuffer
+02:05:01.736 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.BusyConnectionBuffer'.
+02:05:01.737 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/BusyConnectionBuffer
+02:05:01.738 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/datasource/pool/BusyConnectionBuffer
+02:05:01.738 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.BusyConnectionBuffer
+02:05:01.738 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.PooledConnection
+02:05:01.738 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.PooledConnection'.
+02:05:01.738 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/PooledConnection
+02:05:01.740 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/datasource/pool/PooledConnection
+02:05:01.741 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.delegate.ConnectionDelegator
+02:05:01.741 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.delegate.ConnectionDelegator'.
+02:05:01.741 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/delegate/ConnectionDelegator
+02:05:01.741 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/avaje/datasource/delegate/ConnectionDelegator
+02:05:01.741 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.avaje.datasource.delegate, -1890015459
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.delegate.ConnectionDelegator
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.PooledConnection
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.avaje.datasource.pool.FreeConnectionBuffer
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.avaje.datasource.pool.FreeConnectionBuffer'.
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/avaje/datasource/pool/FreeConnectionBuffer
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/avaje/datasource/pool/FreeConnectionBuffer
+02:05:01.742 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.avaje.datasource.pool.FreeConnectionBuffer
+02:05:01.744 [main] ERROR io.ebean.Ebean - Error trying to create the default EbeanServer
+org.evosuite.runtime.mock.java.lang.MockRuntimeException: DataSource user is null?
+	at org.avaje.datasource.pool.ConnectionPool.<init>(ConnectionPool.java:207)
+	at <evosuite>.<evosuite>(<evosuite>)
+	at <evosuite>.<evosuite>(<evosuite>)
+E
+Time: 0.458
+There was 1 failure:
+1) notGeneratedAnyTest(io.ebean.BeanFinder_ESTest)
+java.lang.ExceptionInInitializerError
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.evosuite.runtime.classhandling.ClassResetter.reset(ClassResetter.java:157)
+	at org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(ClassStateSupport.java:135)
+	at io.ebean.BeanFinder_ESTest_scaffolding.resetClasses(BeanFinder_ESTest_scaffolding.java:76)
+	at io.ebean.BeanFinder_ESTest_scaffolding.doneWithTestCase(BeanFinder_ESTest_scaffolding.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.evosuite.runtime.vnet.NonFunctionalRequirementRule$1.evaluate(NonFunctionalRequirementRule.java:41)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+Caused by: org.evosuite.runtime.mock.java.lang.MockThrowable: org.evosuite.runtime.mock.java.lang.MockThrowable: DataSource user is null?
+	at io.ebean.Ebean$ServerManager.<init>(Ebean.java:165)
+	at io.ebean.Ebean$ServerManager.<init>(Ebean.java:133)
+	at io.ebean.Ebean.<clinit>(Ebean.java)
+	... 40 more
+Caused by: org.evosuite.runtime.mock.java.lang.MockThrowable: DataSource user is null?
+	at org.avaje.datasource.pool.ConnectionPool.<init>(ConnectionPool.java:207)
+	at org.avaje.datasource.core.Factory.createPool(Factory.java:15)
+	at io.ebeaninternal.server.core.DefaultContainer.getDataSourceFromConfig(DefaultContainer.java:334)
+	at io.ebeaninternal.server.core.DefaultContainer.setDataSource(DefaultContainer.java:278)
+	at io.ebeaninternal.server.core.DefaultContainer.createServer(DefaultContainer.java:117)
+	at io.ebeaninternal.server.core.DefaultContainer.createServer(DefaultContainer.java:88)
+	at io.ebeaninternal.server.core.DefaultContainer.createServer(DefaultContainer.java:45)
+	at io.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58)
+	at io.ebean.Ebean$ServerManager.getWithCreate(Ebean.java:202)
+	at io.ebean.Ebean$ServerManager.<init>(Ebean.java:160)
+	... 42 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+

@@ -1,0 +1,218 @@
+[VERSION]: 4.2.0
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for dibbhatt:kafka-spark-consumer:jar:1.0.19
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 162, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< dibbhatt:kafka-spark-consumer >--------------------
+[INFO] Building kafka-spark-consumer 1.0.19
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ kafka-spark-consumer ---
+[INFO] Deleting /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ kafka-spark-consumer ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    mx4j:mx4j:jar:3.0.2:provided
+[INFO]    io.dropwizard.metrics:metrics-core:jar:3.1.2:provided
+[INFO]    com.google.protobuf:protobuf-java:jar:2.5.0:provided
+[INFO]    net.java.dev.jets3t:jets3t:jar:0.9.3:provided
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:provided
+[INFO]    io.dropwizard.metrics:metrics-jvm:jar:3.1.2:provided
+[INFO]    org.apache.hadoop:hadoop-hdfs:jar:2.6.5:provided
+[INFO]    org.apache.curator:curator-client:jar:4.2.0:compile
+[INFO]    org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:provided
+[INFO]    org.apache.commons:commons-math:jar:2.2:test
+[INFO]    com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+[INFO]    org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2:provided
+[INFO]    io.dropwizard.metrics:metrics-json:jar:3.1.2:provided
+[INFO]    org.apache.curator:curator-framework:jar:4.2.0:compile
+[INFO]    org.apache.commons:commons-crypto:jar:1.0.0:provided
+[INFO]    org.scala-lang:scala-compiler:jar:2.11.0:provided
+[INFO]    commons-io:commons-io:jar:2.4:provided
+[INFO]    org.apache.spark:spark-tags_2.11:jar:2.2.0:provided
+[INFO]    org.apache.commons:commons-lang3:jar:3.5:provided
+[INFO]    org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:provided
+[INFO]    org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:provided
+[INFO]    org.json4s:json4s-jackson_2.11:jar:3.2.11:provided
+[INFO]    xml-apis:xml-apis:jar:1.3.04:provided
+[INFO]    com.esotericsoftware:minlog:jar:1.3.0:provided
+[INFO]    javax.mail:mail:jar:1.4.7:provided
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided
+[INFO]    javax.validation:validation-api:jar:1.1.0.Final:provided
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:1.51:provided
+[INFO]    net.jpountz.lz4:lz4:jar:1.3.0:provided
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided
+[INFO]    com.google.code.findbugs:jsr305:jar:1.3.9:provided
+[INFO]    jline:jline:jar:0.9.94:compile
+[INFO]    org.apache.curator:curator-test:jar:2.6.0:test
+[INFO]    javax.xml.bind:jaxb-api:jar:2.2.2:provided
+[INFO]    org.glassfish.hk2:hk2-api:jar:2.4.0-b34:provided
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:2.22.2:provided
+[INFO]    com.twitter:chill-java:jar:0.8.0:provided
+[INFO]    commons-lang:commons-lang:jar:2.6:provided
+[INFO]    org.apache.spark:spark-network-common_2.11:jar:2.2.0:provided
+[INFO]    org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+[INFO]    org.tukaani:xz:jar:1.0:provided
+[INFO]    javax.activation:activation:jar:1.1.1:provided
+[INFO]    org.apache.kafka:kafka-clients:jar:1.1.0:provided
+[INFO]    org.javassist:javassist:jar:3.18.1-GA:provided
+[INFO]    org.apache.hadoop:hadoop-yarn-api:jar:2.6.5:provided
+[INFO]    org.apache.ivy:ivy:jar:2.4.0:provided
+[INFO]    org.apache.hadoop:hadoop-common:jar:2.6.5:provided
+[INFO]    commons-beanutils:commons-beanutils-core:jar:1.8.0:provided
+[INFO]    javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided
+[INFO]    org.apache.commons:commons-math3:jar:3.4.1:provided
+[INFO]    javax.xml.stream:stax-api:jar:1.0-2:provided
+[INFO]    org.apache.avro:avro:jar:1.7.7:provided
+[INFO]    org.codehaus.jackson:jackson-xc:jar:1.9.13:provided
+[INFO]    org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5:provided
+[INFO]    org.apache.hadoop:hadoop-yarn-server-common:jar:2.6.5:provided
+[INFO]    org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:provided
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:provided
+[INFO]    io.netty:netty-all:jar:4.0.43.Final:provided
+[INFO]    org.apache.hadoop:hadoop-yarn-common:jar:2.6.5:provided
+[INFO]    org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2:provided
+[INFO]    oro:oro:jar:2.0.8:provided
+[INFO]    org.apache.hadoop:hadoop-annotations:jar:2.6.5:provided
+[INFO]    org.slf4j:slf4j-log4j12:jar:1.7.4:compile
+[INFO]    org.roaringbitmap:RoaringBitmap:jar:0.5.11:provided
+[INFO]    org.scala-lang:scalap:jar:2.11.0:provided
+[INFO]    log4j:log4j:jar:1.2.17:compile
+[INFO]    org.lz4:lz4-java:jar:1.4:provided
+[INFO]    org.apache.commons:commons-compress:jar:1.4.1:provided
+[INFO]    org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:provided
+[INFO]    org.apache.curator:curator-recipes:jar:2.6.0:test
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5:provided
+[INFO]    org.apache.httpcomponents:httpclient:jar:4.3.6:provided
+[INFO]    com.jamesmurty.utils:java-xmlbuilder:jar:1.0:provided
+[INFO]    org.apache.hadoop:hadoop-auth:jar:2.6.5:provided
+[INFO]    org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.6.5:provided
+[INFO]    org.slf4j:slf4j-api:jar:1.7.16:compile
+[INFO]    org.apache.xbean:xbean-asm5-shaded:jar:4.4:provided
+[INFO]    org.json4s:json4s-core_2.11:jar:3.2.11:provided
+[INFO]    org.mortbay.jetty:jetty-util:jar:6.1.26:provided
+[INFO]    org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5:provided
+[INFO]    org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided
+[INFO]    com.esotericsoftware:kryo-shaded:jar:3.0.3:provided
+[INFO]    org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1:provided
+[INFO]    javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:2.22.2:provided
+[INFO]    io.netty:netty:jar:3.9.9.Final:compile
+[INFO]    org.apache.avro:avro-mapred:jar:hadoop2:1.7.7:provided
+[INFO]    com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5:provided
+[INFO]    org.apache.avro:avro-ipc:jar:tests:1.7.7:provided
+[INFO]    xmlenc:xmlenc:jar:0.52:provided
+[INFO]    com.ning:compress-lzf:jar:1.0.3:provided
+[INFO]    com.thoughtworks.paranamer:paranamer:jar:2.3:provided
+[INFO]    org.apache.directory.api:api-util:jar:1.0.0-M20:provided
+[INFO]    com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5:provided
+[INFO]    commons-net:commons-net:jar:2.2:provided
+[INFO]    com.google.code.gson:gson:jar:2.2.4:provided
+[INFO]    org.json4s:json4s-ast_2.11:jar:3.2.11:provided
+[INFO]    org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:provided
+[INFO]    com.clearspring.analytics:stream:jar:2.7.0:provided
+[INFO]    org.apache.spark:spark-launcher_2.11:jar:2.2.0:provided
+[INFO]    org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5:provided
+[INFO]    org.apache.httpcomponents:httpcore:jar:4.3.3:provided
+[INFO]    commons-configuration:commons-configuration:jar:1.6:provided
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.2:provided
+[INFO]    commons-digester:commons-digester:jar:1.8:provided
+[INFO]    org.slf4j:jul-to-slf4j:jar:1.7.16:provided
+[INFO]    net.sf.jopt-simple:jopt-simple:jar:3.2:compile
+[INFO]    org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.6.5:provided
+[INFO]    org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:provided
+[INFO]    commons-beanutils:commons-beanutils:jar:1.7.0:provided
+[INFO]    junit:junit:jar:4.11:test
+[INFO]    org.scala-lang:scala-reflect:jar:2.11.7:provided
+[INFO]    org.htrace:htrace-core:jar:3.0.4:provided
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.6.5:provided
+[INFO]    org.apache.hadoop:hadoop-client:jar:2.6.5:provided
+[INFO]    org.apache.spark:spark-streaming_2.11:jar:2.2.0:provided
+[INFO]    commons-cli:commons-cli:jar:1.2:compile
+[INFO]    org.apache.spark:spark-network-shuffle_2.11:jar:2.2.0:provided
+[INFO]    io.dropwizard.metrics:metrics-graphite:jar:3.1.2:provided
+[INFO]    xerces:xercesImpl:jar:2.9.1:provided
+[INFO]    net.iharder:base64:jar:2.3.8:provided
+[INFO]    org.objenesis:objenesis:jar:2.1:provided
+[INFO]    javax.annotation:javax.annotation-api:jar:1.2:provided
+[INFO]    org.xerial.snappy:snappy-java:jar:1.1.2.6:provided
+[INFO]    org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.2:provided
+[INFO]    org.spark-project.spark:unused:jar:1.0.0:provided
+[INFO]    com.google.guava:guava:jar:13.0:compile
+[INFO]    org.apache.avro:avro-ipc:jar:1.7.7:provided
+[INFO]    net.sf.py4j:py4j:jar:0.10.4:provided
+[INFO]    commons-collections:commons-collections:jar:3.2.2:provided
+[INFO]    com.twitter:chill_2.11:jar:0.8.0:provided
+[INFO]    org.apache.spark:spark-core_2.11:jar:2.2.0:provided
+[INFO]    org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:provided
+[INFO]    org.apache.hadoop:hadoop-yarn-client:jar:2.6.5:provided
+[INFO]    org.scala-lang:scala-library:jar:2.11.0:provided
+[INFO]    commons-logging:commons-logging:jar:1.1.3:compile
+[INFO]    net.razorvine:pyrolite:jar:4.13:provided
+[INFO]    commons-codec:commons-codec:jar:1.8:provided
+[INFO]    org.slf4j:jcl-over-slf4j:jar:1.7.16:provided
+[INFO]    org.apache.spark:spark-unsafe_2.11:jar:2.2.0:provided
+[INFO]    commons-httpclient:commons-httpclient:jar:3.1:provided
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ kafka-spark-consumer ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ kafka-spark-consumer ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 32 source files to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/target/classes
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/src/main/java/consumer/kafka/ReceiverLauncher.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/src/main/java/consumer/kafka/ReceiverLauncher.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ kafka-spark-consumer ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ kafka-spark-consumer ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ kafka-spark-consumer ---
+[INFO] Surefire report directory: /home/cgzhu/projects/gitslice/resources/facts/upgrade_jars_exp/_downloads/kafka-spark-consumer/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running consumer.kafka.PIDControllerTest
+processingRate rate 428.57142857142856
+fixed rate 500.0
+P 71.42857142857144
+H 14.285714285714286
+processingRate rate 500.0
+fixed rate 500.0
+P 0.0
+H 333.3333333333333
+processingRate rate 500.0
+fixed rate 500.0
+P 0.0
+H 0.0
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.294 s
+[INFO] Finished at: 2019-08-15T03:20:32+08:00
+[INFO] ------------------------------------------------------------------------
